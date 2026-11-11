@@ -1,0 +1,7 @@
+main.aux
+main.log
+main.out
+main.pdf
+main.toc
+*.synctex.gz
+.DS_Store
