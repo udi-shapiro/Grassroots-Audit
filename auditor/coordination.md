@@ -24,17 +24,27 @@ Do not treat orientation reads as an audited baseline. Future reports must state
 
 ## Setup state
 
-Udi created the public fork `udi-shapiro/Grassroots-Audit`. The first write was rejected because the app installation selected only `udi-shapiro/GLP`. Udi has now added `udi-shapiro/Grassroots-Audit`; the installation repository list confirms access to both. The working branch and separate document PR are being published. Record their actual URLs after success.
+Udi added the fork to the GitHub app installation. Both branches have now been published:
+
+- [GPT-Auditor working records](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor), initially published at `8fe25a035bb09ef30c9c535db5fd395934f9108f`.
+- [audit-plan publication branch](https://github.com/udi-shapiro/Grassroots-Audit/tree/audit-plan), published at `25d62e2d17840abb606e752be062e1e4b5cd64c0`.
+
+Both start from the upstream document baseline. The publication comparison contains exactly the nine intended document and status files, with no internal working records. Upstream `main` was not changed.
+
+Creating the PR against `EShapiro2/Grassroots-Audit:main` returned HTTP 403, `Resource not accessible by integration`. The upstream open-PR query confirms no PR from `udi-shapiro:audit-plan` exists yet. Fork writes work; upstream PR creation through the current integration does not.
+
+[Open the prepared PR form](https://github.com/EShapiro2/Grassroots-Audit/compare/main...udi-shapiro:audit-plan?quick_pull=1&title=Match%20the%20audit%20organisation%20to%20the%20published%20project%20structure&body=Propose%20one%20GPT%20auditor%20per%20Claude%20project%2C%20covering%20papers%20and%20code%20together.%20Match%20the%20revised%20website%20exactly%3A%2020%20projects%2C%2027%20papers%20and%20the%20separate%20Code%20responsibilities%2C%20pinned%20to%20GLP%2056ef162910cf38fd516947c9cd35cc65579703f5.%20Earlier%20papers%20remain%20visible%20pending%20ownership.%0A%0AGPT-Auditor%20holds%20organisation%20and%20handovers%20and%20is%20never%20merged%20into%20main.%20This%20PR%20contains%20only%20the%20plan%2C%20roster%2C%20reporting%20rules%20and%20status-label%20correction.%20Claude%20maintains%20main%20and%20responds%20to%20findings%3B%20auditors%20independently%20verify%20corrections.%0A%0AWorking%20records%3A%20https%3A%2F%2Fgithub.com%2Fudi-shapiro%2FGrassroots-Audit%2Ftree%2FGPT-Auditor%0A%0AValidation%3A%20exact%20roster%20and%2064-contract%20mapping%2C%20status%20generation%2C%20whitespace%20and%20LaTeX%20structural%20checks%20passed.%20PDF%20compilation%20was%20blocked%20by%20missing%20LaTeX%20formats%2Fpackages.%20No%20substantive%20audits%20or%20monitoring%20have%20started.%0A%0AFor%20Udi%20and%20Claude%20to%20review%20and%20revise.) while signed in as `udi-shapiro`, then submit it. Record its actual URL after verifying creation. This link is a prepared form, not an existing PR.
+
+Validation passed for the exact roster, all 64 contract assignments, status generation, whitespace and LaTeX structural checks. PDF compilation could not run because the environment lacks LaTeX formats and packages.
 
 No dedicated component sessions or monitoring tasks are active. Do not report a local branch as published or a drafted PR as opened.
 
 ## Next steps
 
-1. Publish this working record on `GPT-Auditor` in the agreed writable repository.
-2. Open the separate audit-plan PR against upstream `main`; record the actual branch and PR URLs here after success.
-3. Udi discusses the revised plan with Claude. Read their response and record accepted changes or remaining disagreements.
-4. The revised website roster has been read and recorded. Keep it current as the source structure changes; clarify responsibility for the Earlier papers without inventing projects.
-5. Agree each auditor's detailed scope and methods, then establish the sessions and any tested monitoring arrangements.
+1. Submit the prepared audit-plan PR against upstream `main` through GitHub's website; verify it and record its URL here.
+2. Udi discusses the revised plan with Claude. Read their response and record accepted changes or remaining disagreements.
+3. Keep the recorded website roster current as the source structure changes; clarify responsibility for the Earlier papers without inventing projects.
+4. Agree each auditor's detailed scope and methods, then establish the sessions and any tested monitoring arrangements.
 
 ## Open matters
 
