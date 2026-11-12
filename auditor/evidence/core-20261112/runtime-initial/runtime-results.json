@@ -1,0 +1,135 @@
+[
+  {
+    "name": "dart-version",
+    "command": [
+      "dart",
+      "--version"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.002
+  },
+  {
+    "name": "disable-analytics",
+    "command": [
+      "dart",
+      "--disable-analytics"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.057
+  },
+  {
+    "name": "pub-get",
+    "command": [
+      "dart",
+      "pub",
+      "get",
+      "--enforce-lockfile"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.143
+  },
+  {
+    "name": "typed_pair_load",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "typed_pair_load"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.14
+  },
+  {
+    "name": "typed_race_load",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "typed_race_load"
+    ],
+    "exit_code": 2,
+    "timeout": false,
+    "seconds": 2.088
+  },
+  {
+    "name": "typed_pair_finite",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "typed_pair_finite"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.166
+  },
+  {
+    "name": "typed_pair_cycle",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "typed_pair_cycle"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.198
+  },
+  {
+    "name": "raw_pair_finite",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "raw_pair_finite"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 1.674
+  },
+  {
+    "name": "raw_pair_cycle",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "raw_pair_cycle"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 1.668
+  },
+  {
+    "name": "fifo_race",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "fifo_race"
+    ],
+    "exit_code": 2,
+    "timeout": false,
+    "seconds": 1.55
+  },
+  {
+    "name": "selected-existing-tests",
+    "command": [
+      "dart",
+      "test",
+      "--reporter",
+      "expanded",
+      "test/engine/goal_writer_head_writer_test.dart",
+      "test/engine/fail_after_suspend_test.dart",
+      "test/engine/guard_conjunction_test.dart",
+      "test/runtime/sim_clock_kernel_test.dart",
+      "test/compiler/one_goal_reader_test.dart"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 9.686
+  }
+]

@@ -1,3 +1,23 @@
+# GLP: current handover, second core sweep
+
+Date: 2026-11-12
+Sources: GLP `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458`, papers `f4ae6121866387641f2941e3e9bf46e5fd964e7d`. The Website correction additionally uses main `66732717819d4d200070c60ac2a46d6b2228131a`.
+
+Read the latest coordination/stages record and main reports before acting. This is a bounded scope performed in the current coordination conversation; no persistent project session or monitor exists.
+
+Coverage: Actual typed pair-cycle and finite controls; actual FIFO race; 72 selected tests; IGLP Sections 4–6; further TGLP appendices C.3, D, E and beginning of F.
+
+Findings/status: Three existing high findings remain: pair completion, FIFO outcome-completeness, step projection. No duplicate findings for TGLP or the multiagent extensions.
+
+Next: Review responses; finish remaining TGLP proofs; broaden guarded/suspension and multiagent/recovery execution. The existing runtime probes do not constitute a complete suite.
+
+Evidence: auditor/evidence/core-20261112 and auditor/checks/core-20261112. Actual PDF bytes are permanently preserved on this branch; runtime runs are 43304380799 (typed cycle and 72 tests), 43305549939 (fixed race fixture), 43307926679 (fixed merge fixture). Keep mathematical arguments distinct from runtime observations and bounded auditor models. Check the latest stages record for this batch's publication status.
+
+Udi authorised continuing known work without routine go-aheads; collect genuinely necessary approvals at a concrete end-of-sweep boundary. Preserve attributed answers and independently verify corrections. Never merge GPT-Auditor into main.
+
+
+## Earlier record (superseded where updated above)
+
 # GLP auditor handover after the first Stage 2 sweep
 
 Date: 2026-11-12
@@ -20,3 +40,4 @@ Remaining work: actual typed compiler/runtime cases with Dart; remaining TGLP pa
 ## Publication and resumption
 
 [PR #5](https://github.com/udi-shapiro/Grassroots-Audit/pull/5) is merged and verified at `ab6fc2642f673d8993ea10bf32744574cf343b93`. Evidence is fixed at `f41ab3efdb7511e870452dd1b95df85e7b45ee14`. Main totals are 10 reports, 7 findings and 7 unanswered; these totals are not a count of completed component audits. No project correction has been verified in this batch. Read any subsequent response PRs before continuing. The first sweep is complete, with the unexamined work above still open.
+

@@ -1,0 +1,3 @@
+{"case":"fifo_race","phase":"start"}
+{"case":"fifo_race","phase":"drain","status":"succeeded","goals_run":5}
+{"case":"fifo_race","phase":"output","kind":"ConstTerm","constant":"left"}

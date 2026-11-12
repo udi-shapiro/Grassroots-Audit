@@ -1,0 +1,54 @@
+{
+  "vGLP_fairness": {
+    "cycles_checked": 1000,
+    "free_clear_windows": 1000,
+    "own_ticks_processed": 1000,
+    "u_commits": 1000,
+    "t_proposals_in_suffix": 0,
+    "first_cycle": [
+      {
+        "after": "Outcome(u_0)",
+        "free": true,
+        "clear": true,
+        "Propose_t_enabled": true,
+        "unread": [
+          [
+            "start",
+            1
+          ],
+          [
+            "own",
+            null
+          ]
+        ]
+      },
+      {
+        "after": "Start(u_1), own",
+        "locked": true,
+        "Propose_t_enabled": false,
+        "unread": []
+      }
+    ],
+    "interpretation": "repeatable macro-invariant; not full compiled execution"
+  },
+  "sGLP_closed_question": {
+    "before": {
+      "H": [
+        "X"
+      ],
+      "platform_readers": [],
+      "sigma_r": {}
+    },
+    "after": {
+      "H": [],
+      "platform_readers": [],
+      "sigma_r": {
+        "X?": "yes"
+      }
+    },
+    "vglp_5_7_answer_enabled": false,
+    "sglp_E_15_answer_enabled": true,
+    "is_stutter": false,
+    "interpretation": "symbolic comparison of the two published definitions"
+  }
+}

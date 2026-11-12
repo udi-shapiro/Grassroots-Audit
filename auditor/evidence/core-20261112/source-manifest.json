@@ -1,0 +1,50 @@
+[
+  {
+    "path": "servers/peoplesweb/tools/papers.py",
+    "sha": "73af5d5a76b90a4cb03949d92f5dc0ca481333a9"
+  },
+  {
+    "path": "servers/peoplesweb/tools/directories.py",
+    "sha": "047a9e0231bbe5f94bfad81f708e3fe7841de8d1"
+  },
+  {
+    "path": "servers/peoplesweb/tools/papers_sync.py",
+    "sha": "621e6354b71668bd33316143815a9147235ce214"
+  },
+  {
+    "path": "servers/peoplesweb/README.md",
+    "sha": "de6aafb3fea6623d16065579d97d1025f3e06d8c"
+  },
+  {
+    "path": "glp_runtime/test/engine/goal_writer_head_writer_test.dart",
+    "sha": "5da137a37fe17146b18a280084ce8a8d9674bae7"
+  },
+  {
+    "path": "glp_runtime/test/engine/fail_after_suspend_test.dart",
+    "sha": "a26d1fedf174ff1d3bfe745583de6e000fcc44f9"
+  },
+  {
+    "path": "glp_runtime/test/compiler/one_goal_reader_test.dart",
+    "sha": "800f3b175cef02ad61fe4ab8ec815ea1f0a753ea"
+  },
+  {
+    "path": "glp_runtime/bin/glp_repl.dart",
+    "sha": "9662c53f7e601cdada933960740e17c9e4a9544e"
+  },
+  {
+    "path": "glp_runtime/lib/compiler/compiler.dart",
+    "sha": "78963c0079664aaf8fe29bdad58372988c963fa9"
+  },
+  {
+    "path": "glp_runtime/pubspec.lock",
+    "sha": "8bb17642293f52ed538b07c324931e81c553305c"
+  },
+  {
+    "path": "glp_runtime/lib/engine/glp_engine.dart",
+    "sha": "d30af156c844476a6c313170f836a8114f18bfef"
+  },
+  {
+    "path": "glp_runtime/lib/analysis/type_checker/type_checker.dart",
+    "sha": "a1f595d87e918ba9b3a21f4d4765bef7d8351f83"
+  }
+]

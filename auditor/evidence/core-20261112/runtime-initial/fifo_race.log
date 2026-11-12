@@ -1,0 +1,2 @@
+{"case":"fifo_race","phase":"start"}
+{"case":"fifo_race","phase":"exception","type":"CompileError","message":"[syntax] Procedure declaration for \"choose\" has no clauses.\n  A procedure declaration must be immediately followed by its clauses.\nLine 3, Column 1:\nprocedure choose(Token?, Token?, Result).\n^"}

@@ -1,0 +1,46 @@
+name: Preserve audited paper snapshot
+on:
+  push:
+    branches: [audit-runtime-20261112]
+    paths: [.github/workflows/archive-core-papers.yml]
+permissions:
+  contents: read
+jobs:
+  archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Pinned public paper source without persisted credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: f4ae6121866387641f2941e3e9bf46e5fd964e7d
+          path: paper-source
+          persist-credentials: false
+      - name: Audit continuity branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: GPT-Auditor
+          path: continuity
+      - name: Preserve exact bytes and source identity on GPT-Auditor only
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C paper-source rev-parse HEAD)" = f4ae6121866387641f2941e3e9bf46e5fd964e7d
+          destination=continuity/auditor/evidence/core-20261112/papers
+          mkdir -p "$destination"
+          for name in GLP-Spec TGLP IGLP VMAT vGLP sGLP GSC; do
+            cp "paper-source/papers/$name.pdf" "$destination/$name.pdf"
+          done
+          git -C paper-source rev-parse HEAD > "$destination/source-commit.txt"
+          git -C paper-source ls-tree HEAD papers/ > "$destination/source-tree.txt"
+          (cd "$destination" && sha256sum *.pdf > SHA256SUMS)
+          git -C continuity config user.name 'github-actions[bot]'
+          git -C continuity config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C continuity add -- auditor/evidence/core-20261112/papers
+          if ! git -C continuity diff --cached --quiet; then
+            git -C continuity commit -m 'Preserve exact audited core PDFs before paper branch replacement'
+            git -C continuity push origin HEAD:refs/heads/GPT-Auditor
+          fi

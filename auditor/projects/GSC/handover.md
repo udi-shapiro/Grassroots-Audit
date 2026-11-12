@@ -1,3 +1,23 @@
+# GSC: current handover, second core sweep
+
+Date: 2026-11-12
+Sources: GLP `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458`, papers `f4ae6121866387641f2941e3e9bf46e5fd964e7d`. The Website correction additionally uses main `66732717819d4d200070c60ac2a46d6b2228131a`.
+
+Read the latest coordination/stages record and main reports before acting. This is a bounded scope performed in the current coordination conversation; no persistent project session or monitor exists.
+
+Coverage: Current PDF relevant English contracts/schemas, role extents and targeted Appendix B containment/polite/role-graph arguments.
+
+Findings/status: The paper confirms existing GSN Finding 1; no duplicate paper fault. GSN phone certificate Finding 1 remains. vGLP liveness dependency is open.
+
+Next: Continue remaining examples, compiler proof and contract-to-phone tests; verify paper and code corrections together.
+
+Evidence: auditor/evidence/core-20261112 and auditor/checks/core-20261112. Actual PDF bytes are permanently preserved on this branch; runtime runs are 43304380799 (typed cycle and 72 tests), 43305549939 (fixed race fixture), 43307926679 (fixed merge fixture). Keep mathematical arguments distinct from runtime observations and bounded auditor models. Check the latest stages record for this batch's publication status.
+
+Udi authorised continuing known work without routine go-aheads; collect genuinely necessary approvals at a concrete end-of-sweep boundary. Preserve attributed answers and independently verify corrections. Never merge GPT-Auditor into main.
+
+
+## Earlier record (superseded where updated above)
+
 # GSC auditor handover: GSN contract and certificate
 
 Date: 2026-11-12
@@ -14,3 +34,4 @@ The current GSC PDF blob f149dab08476abceb1a12fd41260956abd8a0011 could not be r
 ## Publication and resumption
 
 [PR #5](https://github.com/udi-shapiro/Grassroots-Audit/pull/5) is merged and verified at `ab6fc2642f673d8993ea10bf32744574cf343b93`. Evidence is fixed at `f41ab3efdb7511e870452dd1b95df85e7b45ee14`. Main totals are 10 reports, 7 findings and 7 unanswered; these totals are not a count of completed component audits. No project correction has been verified in this batch. Read any subsequent response PRs before continuing. The first sweep is complete, with the unexamined work above still open.
+

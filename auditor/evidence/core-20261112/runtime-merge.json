@@ -1,0 +1,38 @@
+{
+  "run": 43307926679,
+  "job": 131496017785,
+  "source_commit": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
+  "probe_commit": "d9f1f188baa5ba8a2fb492b57482ad1c4eec6496",
+  "observations": [
+    {
+      "case": "already_ready",
+      "phase": "before_late_own",
+      "status": "succeeded",
+      "prefix": [
+        "outcome",
+        "own",
+        "start"
+      ]
+    },
+    {
+      "case": "late_own",
+      "phase": "before_late_own",
+      "status": "succeeded",
+      "prefix": [
+        "outcome",
+        "start"
+      ]
+    },
+    {
+      "case": "late_own",
+      "phase": "after_late_own",
+      "status": "succeeded",
+      "prefix": [
+        "outcome",
+        "start",
+        "own"
+      ]
+    }
+  ],
+  "both_final_drains_succeeded": true
+}

@@ -1,0 +1,94 @@
+{
+  "stage": 2,
+  "batch": "second-core-sweep-20261112",
+  "publication": {
+    "status": "prepared_not_published"
+  },
+  "glp_main": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
+  "papers_commit": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",
+  "latest_source_checked": "66732717819d4d200070c60ac2a46d6b2228131a",
+  "source_delta_after_pin": [
+    "organisation/claude.md",
+    "servers/peoplesweb/tools/papers_sync.py"
+  ],
+  "paper_archive_commit": "f7a2476f458339f768cc51ec1bbe41e22690ed1f",
+  "reports": 13,
+  "findings": 9,
+  "unanswered": 8,
+  "verified_resolved": 1,
+  "new_findings": [
+    "papers/vGLP.pdf.md#1",
+    "papers/sGLP.pdf.md#2"
+  ],
+  "resolved_finding": "servers/peoplesweb/tools/papers_sync.py.md#1",
+  "response_prs_merged": [
+    6,
+    7
+  ],
+  "runtime": {
+    "dart": "3.9.4",
+    "locked_dependencies": true,
+    "selected_existing_tests_passed": 72,
+    "initial_run": 43304380799,
+    "race_run": 43305549939,
+    "merge_run": 43307926679,
+    "full_suite": false,
+    "full_compiled_two_agent_CVA": false
+  },
+  "scopes": {
+    "GLP": {
+      "coverage": "Actual typed pair-cycle and finite controls; actual FIFO race; 72 selected tests; IGLP Sections 4\u20136; further TGLP appendices C.3, D, E and beginning of F.",
+      "findings": "Three existing high findings remain: pair completion, FIFO outcome-completeness, step projection. No duplicate findings for TGLP or the multiagent extensions.",
+      "next": "Review responses; finish remaining TGLP proofs; broaden guarded/suspension and multiagent/recovery execution. The existing runtime probes do not constitute a complete suite."
+    },
+    "VMAT": {
+      "coverage": "Current 28-page PDF including appendices, focusing on containment, countable classes, partial equivalence, if-then-else and fail-stop fairness.",
+      "findings": "No new numbered finding. Current Appendix D resolves the old arXiv guard-versus-stopped-participant question; stop using that fallback as the current version.",
+      "next": "Continue independent proof and cross-project checks without importing obsolete fallback objections."
+    },
+    "vGLP": {
+      "coverage": "Current PDF targeted CVA/compilation/fairness reading; generated event loop; actual root fair-merge clauses; repeatable macro-trace.",
+      "findings": "New paper Finding 1: prefetch can hide every transient Propose enablement window from own ticks. Atomic-commitment safety is not refuted.",
+      "next": "Obtain full compiled two-agent runtime reproduction; review scheduling repair and its fairness proof; continue remaining compiler/2PC/phone coverage."
+    },
+    "sGLP": {
+      "coverage": "Appendix A relay/mapping proof and Appendix E Answer compared against current vGLP; selected SimClock tests executed.",
+      "findings": "Existing conditioning Finding 1 remains; new Finding 2 records incompatible closed-question Answer semantics. Do not claim its theorem is internally false under its own weaker restatement.",
+      "next": "Run a full cancellation/late-answer simulation; reconcile the shared semantics with vGLP; finish proof and empirical reproduction."
+    },
+    "GSC": {
+      "coverage": "Current PDF relevant English contracts/schemas, role extents and targeted Appendix B containment/polite/role-graph arguments.",
+      "findings": "The paper confirms existing GSN Finding 1; no duplicate paper fault. GSN phone certificate Finding 1 remains. vGLP liveness dependency is open.",
+      "next": "Continue remaining examples, compiler proof and contract-to-phone tests; verify paper and code corrections together."
+    },
+    "Website": {
+      "coverage": "Current map and all 64 unchanged owner headers; old cache reproduction and new correction controls.",
+      "findings": "Cache Finding 1 is verified resolved on main 66732717819d4d200070c60ac2a46d6b2228131a, source blob 80840182bd3b03efc205e975293be16507e5924a. Answer preserved and merged in PR #6.",
+      "next": "Check relevant future changes; no live server/real LaTeX build was executed by the cache fixture. Website ownership transfer is complete."
+    },
+    "Coordination": {
+      "coverage": "31 PROJECTS rows plus six named support projects; 27 paper keys, 26 built PDFs, 64 contracts placed once; 11 Earlier papers.",
+      "findings": "No map faults/uncovered entries. SRC now has SRC.pdf; GGGA remains an unpresented draft. PR #7 accepted response branches in this same repository.",
+      "next": "Keep exact hierarchy; resolve ownership of Earlier papers through project response. Start remaining projects in dependency order after the bounded core follow-up; no blanket completion claim."
+    },
+    "GSA": {
+      "coverage": "Website baseline transferred to Website using the current source map.",
+      "findings": "GSA retains GSA and GNA papers/code; no substantive audit of those papers is claimed by this transfer.",
+      "next": "Begin GSA/GNA paired paper/code review after reading their current versions and exact artifact assignments."
+    },
+    "Audit": {
+      "coverage": "Audit repository governance and Claude response route.",
+      "findings": "GPT maintains main and GPT-Auditor. Claude Audit routes attributed answers via response branches in this repository; PRs #6 and #7 merged.",
+      "next": "Check new responses at each resumed work unit; merge attributed answers, independently verify fixes, preserve disagreements and numbers."
+    }
+  },
+  "structural_assignments": 37,
+  "persistent_sessions": false,
+  "background_monitoring": false,
+  "limitations": [
+    "No complete project audit or certification.",
+    "No full runtime suite, multiagent network/recovery, phone or empirical simulation run.",
+    "Finite macro-certificate is not a full CVA model checker.",
+    "Local TeX compilation unavailable because pdflatex format is missing; generated status and table source checked."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "counts_initial_unchanged_legacy_failure_retry_unchanged": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "legacy_state_rebuilt": true,
+  "failure_preserves_pdf_and_recipe": true,
+  "retry_rebuilds_and_clears_error": true,
+  "scope": "actual cache orchestration; git, LaTeX and arXiv are offline fixtures"
+}

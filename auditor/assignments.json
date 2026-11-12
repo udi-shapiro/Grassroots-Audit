@@ -1,5 +1,5 @@
 {
-  "source_commit": "7976014a5f9b5fefc33abcc922d491abc41dfad5",
+  "source_commit": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
   "assignments": [
     {
       "project": "GLP",
@@ -9,12 +9,12 @@
         "IGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
-      "session": "current_conversation",
-      "limited_completed_scope": "IGLP Sections 2-3 through Corollary 3.34; TGLP Sections 2, 4, 5; prior GLP-Spec scope remains separately recorded",
-      "scope_record": "stages/02-core-sweep.json",
-      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
-      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
+      "substantive_audit": "bounded_followup_prepared",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Actual typed pair-cycle and finite controls; actual FIFO race; 72 selected tests; IGLP Sections 4\u20136; further TGLP appendices C.3, D, E and beginning of F.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "published_name": "Grassroots Logic Programs",
+      "paths": []
     },
     {
       "project": "VMAT",
@@ -22,12 +22,12 @@
         "VMAT"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
-      "session": "current_conversation",
-      "limited_completed_scope": "Sections 2-3; Section 4.1 social-graph invariant and grassroots proof",
-      "scope_record": "stages/02-core-sweep.json",
-      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
-      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
+      "substantive_audit": "bounded_followup_prepared",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Current 28-page PDF including appendices, focusing on containment, countable classes, partial equivalence, if-then-else and fail-stop fairness.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "published_name": "Volition-Guarded Multiagent Atomic Transactions",
+      "paths": []
     },
     {
       "project": "vGLP",
@@ -35,12 +35,12 @@
         "vGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
-      "session": "current_conversation",
-      "limited_completed_scope": "compiler README interface/pragma rules; pragma-reader term parsing; generated GSN schema/tab declarations",
-      "scope_record": "stages/02-core-sweep.json",
-      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
-      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
+      "substantive_audit": "bounded_followup_prepared",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Current PDF targeted CVA/compilation/fairness reading; generated event loop; actual root fair-merge clauses; repeatable macro-trace.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "published_name": "Volition Elicitation",
+      "paths": []
     },
     {
       "project": "sGLP",
@@ -48,12 +48,12 @@
         "sGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
-      "session": "current_conversation",
-      "limited_completed_scope": "Sections 2-4; monitor.glp; sglp.glp; SimClock implementation",
-      "scope_record": "stages/02-core-sweep.json",
-      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
-      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
+      "substantive_audit": "bounded_followup_prepared",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Appendix A relay/mapping proof and Appendix E Answer compared against current vGLP; selected SimClock tests executed.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "published_name": "Stochastic GLP",
+      "paths": []
     },
     {
       "project": "GSC",
@@ -61,12 +61,12 @@
         "GSC"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
-      "session": "current_conversation",
-      "limited_completed_scope": "GKK/GSG/GSN schemas; GSN.txt; gsn_phone.glp; generated GSN schema/tab declarations; checker README introduction/contract form as context",
-      "scope_record": "stages/02-core-sweep.json",
-      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
-      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
+      "substantive_audit": "bounded_followup_prepared",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Current PDF relevant English contracts/schemas, role extents and targeted Appendix B containment/polite/role-graph arguments.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "published_name": "From Grassroots Contract to Grassroots App",
+      "paths": []
     },
     {
       "project": "GSA",
@@ -75,9 +75,12 @@
         "GNA"
       ],
       "stage": 3,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": "website ownership/version baseline and paper-build cache"
+      "substantive_audit": "bounded_scope_recorded",
+      "session": "current_conversation; no persistent worker",
+      "limited_completed_scope": "Website baseline transferred to Website using the current source map.",
+      "published_name": "Grassroots Super-App and App Store",
+      "paths": [],
+      "scope_record": "stages/02-core-runtime-and-cascade.json"
     },
     {
       "project": "SPM",
@@ -87,7 +90,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Securing People and their Machines",
+      "paths": []
     },
     {
       "project": "Currencies",
@@ -100,7 +105,12 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Currencies",
+      "paths": [
+        "programs/currencies",
+        "programs/currencies/agora"
+      ]
     },
     {
       "project": "GAI",
@@ -110,7 +120,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Accountable AI Agents",
+      "paths": []
     },
     {
       "project": "CSSN",
@@ -120,7 +132,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Child-Safe Social Networking",
+      "paths": []
     },
     {
       "project": "GFF",
@@ -130,7 +144,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Feeds and Followers",
+      "paths": []
     },
     {
       "project": "GGGA",
@@ -141,7 +157,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Sybil-resilient communities, Sybil-resilient governance",
+      "paths": []
     },
     {
       "project": "GO",
@@ -151,7 +169,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Organisations",
+      "paths": []
     },
     {
       "project": "GRH",
@@ -161,7 +181,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Ride-Hailing",
+      "paths": []
     },
     {
       "project": "CGP",
@@ -171,7 +193,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Characterising Global Platforms",
+      "paths": []
     },
     {
       "project": "GPAT",
@@ -181,7 +205,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Platforms Atomic Transactions",
+      "paths": []
     },
     {
       "project": "GPBD",
@@ -191,7 +217,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Grassroots Platforms Beyond Decentralisation",
+      "paths": []
     },
     {
       "project": "DSA",
@@ -201,7 +229,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Digital Speech Acts",
+      "paths": []
     },
     {
       "project": "CCDG",
@@ -211,7 +241,9 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Constitutional Consensus",
+      "paths": []
     },
     {
       "project": "CGMS",
@@ -221,7 +253,114 @@
       "stage": 3,
       "substantive_audit": "queued",
       "session": "not_created",
-      "limited_completed_scope": null
+      "limited_completed_scope": null,
+      "published_name": "Constitutional Governance in Metric Spaces",
+      "paths": []
+    },
+    {
+      "project": "GBM",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "Grassroots Business Models",
+      "paths": []
+    },
+    {
+      "project": "CFRI",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "",
+      "paths": []
+    },
+    {
+      "project": "IVMAT",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "",
+      "paths": []
+    },
+    {
+      "project": "GFWC",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/federation"
+      ],
+      "published_name": "Grassroots Federation Without Consensus"
+    },
+    {
+      "project": "CDWC",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "Constitutional Democracy Without Consensus",
+      "paths": []
+    },
+    {
+      "project": "GPW",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "servers/gpw"
+      ],
+      "published_name": "Grassroots Personal Websites"
+    },
+    {
+      "project": "Secure-GLP",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "Secure GLP",
+      "paths": []
+    },
+    {
+      "project": "P99",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/p99"
+      ],
+      "published_name": ""
+    },
+    {
+      "project": "DDD",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "",
+      "paths": []
+    },
+    {
+      "project": "KYC",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "",
+      "paths": []
+    },
+    {
+      "project": "LBM",
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "papers": [],
+      "published_name": "Location Based Matching",
+      "paths": []
     },
     {
       "project": "Code",
@@ -240,57 +379,45 @@
         "servers/debuglog",
         "CLAUDE.md",
         "README.md"
-      ]
+      ],
+      "published_name": "The GLP repository as a whole"
     },
     {
       "project": "Coordination",
       "papers": [],
       "stage": 1,
-      "substantive_audit": "coverage_coordination_started",
-      "session": "current_conversation",
+      "substantive_audit": "bounded_scope_recorded",
+      "session": "current_conversation; no persistent worker",
       "paths": [
         "organisation"
-      ]
+      ],
+      "published_name": "Grassroots Coordination",
+      "limited_completed_scope": "31 PROJECTS rows plus six named support projects; 27 paper keys, 26 built PDFs, 64 contracts placed once; 11 Earlier papers.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json"
     },
     {
-      "project": "GCE",
-      "papers": [],
+      "project": "Website",
       "stage": 3,
-      "substantive_audit": "queued",
-      "session": "not_created",
+      "substantive_audit": "bounded_scope_recorded",
+      "session": "current_conversation; no persistent worker",
+      "papers": [],
+      "published_name": "The site peoplesweb.org",
       "paths": [
-        "programs/gce"
-      ]
+        "servers/peoplesweb"
+      ],
+      "limited_completed_scope": "Current map and all 64 unchanged owner headers; old cache reproduction and new correction controls.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json"
     },
     {
-      "project": "GFWC",
-      "papers": [],
+      "project": "Audit",
       "stage": 3,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "paths": [
-        "programs/federation"
-      ]
-    },
-    {
-      "project": "GPW",
+      "substantive_audit": "bounded_scope_recorded",
+      "session": "current_conversation; no persistent worker",
       "papers": [],
-      "stage": 3,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "paths": [
-        "servers/gpw"
-      ]
-    },
-    {
-      "project": "P99",
-      "papers": [],
-      "stage": 3,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "paths": [
-        "programs/p99"
-      ]
+      "published_name": "Our side of the audit by GPT auditors",
+      "paths": [],
+      "limited_completed_scope": "Audit repository governance and Claude response route.",
+      "scope_record": "stages/02-core-runtime-and-cascade.json"
     },
     {
       "project": "Phones",
@@ -300,15 +427,30 @@
       "session": "not_created",
       "paths": [
         "phones"
-      ]
+      ],
+      "published_name": "Phone testing"
+    },
+    {
+      "project": "GCE",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/gce"
+      ],
+      "published_name": "Grassroots Contract Examples"
     }
   ],
-  "pending_transfers": [
+  "pending_transfers": [],
+  "resolved_transfers": [
     {
       "path": "servers/peoplesweb",
       "from": "GSA",
       "to": "Website",
-      "status": "declared_in_merged_PR_2; pending_published_map"
+      "source_commit": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458"
     }
-  ]
+  ],
+  "sessions_active": false,
+  "background_monitoring": false
 }

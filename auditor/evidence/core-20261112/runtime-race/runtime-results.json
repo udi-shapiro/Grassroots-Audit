@@ -1,0 +1,58 @@
+[
+  {
+    "name": "dart-version",
+    "command": [
+      "dart",
+      "--version"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.002
+  },
+  {
+    "name": "disable-analytics",
+    "command": [
+      "dart",
+      "--disable-analytics"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.075
+  },
+  {
+    "name": "pub-get",
+    "command": [
+      "dart",
+      "pub",
+      "get",
+      "--enforce-lockfile"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 3.439
+  },
+  {
+    "name": "typed_race_load",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "typed_race_load"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.886
+  },
+  {
+    "name": "fifo_race",
+    "command": [
+      "dart",
+      "run",
+      "_auditor_probe.dart",
+      "fifo_race"
+    ],
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 2.161
+  }
+]

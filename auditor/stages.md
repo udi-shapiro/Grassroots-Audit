@@ -1,3 +1,18 @@
+# Current checkpoint: second core sweep, 2026-11-12
+
+The bounded second core sweep is complete and its publication is prepared. See stages/02-core-runtime-and-cascade.json for the latest publication state. It yields 13 reports, nine findings, eight unanswered and one verified resolved. All seven current core PDFs have been retrieved and preserved. Actual Dart 3.9.4 execution confirms typed cyclic terms, the FIFO outcome and merge buffering; 72 selected existing tests passed. IGLP's multiagent proof inherits its two earlier gaps. New findings concern vGLP strong fairness and sGLP closed-question compatibility. GSC's paper confirms its existing GSN finding.
+
+Website's PR #6 answer was merged as 6acf0a83768c464a263525dfadc514691d2b9854. Its cache correction was independently verified, including configuration changes, legacy state and failed-build retry, at source blob 80840182bd3b03efc205e975293be16507e5924a, present on GLP main 66732717819d4d200070c60ac2a46d6b2228131a. PR #7 was merged as 960bec1c7da17f8d5749985c9ae2d473ef6394c3: Claude now opens response branches in this same audit repository and pushes to neither main nor GPT-Auditor.
+
+The exact current map has 31 PROJECTS rows, six support projects, 27 paper keys (26 built PDFs), 64 contracts and 11 Earlier papers with responsibility still unassigned. Website ownership is now explicit; no pending transfer remains. Follow roster.md and assignments.json, not the older counts below.
+
+Next work: check incoming responses; fully reproduce the vGLP two-agent scheduling trace and sGLP cancellation case; continue remaining type/module and compiler proofs and broader runtime/network checks. Then advance the Stage 3 projects by dependency, pairing each paper with its code. Do not rerun completed narrow tests without a source change or unresolved concern. The entire core/project audit is not complete. No persistent worker or background monitor is configured. Udi explicitly authorised continuing known work without waiting for routine confirmation.
+
+Keep GPT-Auditor and the execution branch out of main. Publish only reports/plan updates from a separate main-based branch. The PDF archive is f7a2476f458339f768cc51ec1bbe41e22690ed1f; checks and runtime logs are in this branch's core-20261112 directories. Failed early auditor fixtures are explained in evidence/README.md and are not GLP defects.
+
+
+## Earlier record (superseded where updated above)
+
 # Staged audit and current work
 
 Authorised by Udi on 2026-11-12: "ok, can you start the audit as planned? maybe in stages?"
@@ -29,3 +44,4 @@ No external session or automated monitoring is implied by a branch, queue row or
 ## First sweep completion and publication boundary
 
 The bounded first pass is complete and its reports were published together in PR #5. It does not certify any paper, compiler or platform. Main is verified at ab6fc2642f673d8993ea10bf32744574cf343b93 with 10 reports, 7 findings and 7 unanswered findings. Before continuing broader Stage 3 work, prioritise the central GLP/IGLP proof obligations, the inaccessible paper versions and actual runtime checks; handle corrections as they arrive. The user's approval-batching instruction persists across successor sessions.
+

@@ -4,7 +4,7 @@ This directory belongs only to the `GPT-Auditor` branch of Grassroots-Audit. It 
 
 ## Responsibility
 
-There is exactly one GPT auditor for each Claude project, using the same project name or acronym and covering all the papers, contracts, code and supporting artifacts for which that project is responsible. The authoritative roster is now the revised website's project hierarchy, captured in `roster.md` and `project-structure.json` at the identified GLP commit. Its 20 projects hold 27 papers; its Code section names seven additional project responsibilities. Do not treat paper acronyms as separate projects: Currencies holds GC, GB, SGC and GCC; GSA holds GNA; GLP holds GLP-Spec, TGLP and IGLP; GGGA holds GGGA and SRC. Preserve all named Code responsibilities and the separate Earlier papers list.
+There is exactly one GPT auditor for each Claude project, using the same project name or acronym and covering all the papers, contracts, code and supporting artifacts for which that project is responsible. The authoritative roster is now the revised website's project hierarchy, captured in `roster.md` and `project-structure.json` at the identified GLP commit. Its 31 PROJECTS rows include 20 projects holding 27 paper keys; NO_PAPER names six support projects, giving 37 assignments. Do not treat paper acronyms as separate projects: Currencies holds GC, GB, SGC and GCC; GSA holds GNA; GLP holds GLP-Spec, TGLP and IGLP; GGGA holds GGGA and SRC. Preserve all named Code responsibilities and the separate Earlier papers list.
 
 The coordination session maintains the roster, coverage, dependencies and outstanding decisions. Joint investigations address dependencies between projects and complete contract-to-execution chains; the affected project auditors retain responsibility for their own material.
 
@@ -27,8 +27,9 @@ The primary public audit repository is `udi-shapiro/Grassroots-Audit`. GPT audit
 
 Never use `GPT-Auditor` as the publication PR's head or merge it into `main`. Check publication and response PRs before merging, then record their URLs and source versions here. Published changes may be brought from `main` into `GPT-Auditor`; the reverse direction is prohibited. The historical parent `EShapiro2/Grassroots-Audit` is no longer the audit contribution destination.
 
-Claude answers findings by PR with dated, attributed correction or evidence pointers. Merge a conforming project answer as written, including a disputed answer, then independently examine the evidence and record a dated verification, withdrawal, or remaining objection against the same finding. A project response or merged PR does not itself establish that the fault is resolved. See `CONTRIBUTING.md` on the publication branch for the placement and response procedure.
+Claude response branches now live in this same repository, as accepted in PR #7. Claude answers findings by PR with dated, attributed correction or evidence pointers. Merge a conforming project answer as written, including a disputed answer, then independently examine the evidence and record a dated verification, withdrawal, or remaining objection against the same finding. A project response or merged PR does not itself establish that the fault is resolved. See `CONTRIBUTING.md` on the publication branch for the placement and response procedure.
 
 ## Current scope
 
 Udi authorised making this account's repository the public audit home, carrying over the existing material and revised plan, mirroring GLP's directory structure, and receiving Claude's responses by PR. Udi has since authorised starting the audit in stages. Read stages.md, assignments.json and coordination.md for completed scope, open findings and the next assignment. The initial website/build checks were performed in the coordination session; independent component sessions and background monitoring are not active. Schedules or triggers must be configured and tested before they are described as active.
+

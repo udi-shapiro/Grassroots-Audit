@@ -1,10 +1,7 @@
 {
-  "glp_commit": "56ef162910cf38fd516947c9cd35cc65579703f5",
-  "source_paths": {
-    "directories": "servers/peoplesweb/tools/directories.py",
-    "papers": "servers/peoplesweb/tools/papers.py",
-    "render": "servers/peoplesweb/web/index.html"
-  },
+  "glp_main": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
+  "glp_papers": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",
+  "coverage_method": "Current website modules executed against pinned tracked-path fixture. All 64 reused owner headers have unchanged Git blobs. This check does not execute contracts or certify their code.",
   "projects": [
     {
       "id": "GLP",
@@ -12,95 +9,53 @@
       "papers": [
         {
           "key": "GLP-Spec",
-          "citation": {
-            "dir": "GLP-Spec",
-            "title": "GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2510.15747"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/self.glp",
-              "responsible_label": "GLP",
-              "papers": [
-                "GLP-Spec"
-              ],
-              "note": "the root scope of every program",
-              "type": "blob"
+              "dir": false,
+              "note": "the root scope of every program"
             },
             {
               "path": "programs/lib",
-              "responsible_label": "GLP",
-              "papers": [
-                "GLP-Spec"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             },
             {
               "path": "programs/book",
-              "responsible_label": "GLP",
-              "papers": [
-                "GLP-Spec"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": []
         },
         {
           "key": "TGLP",
-          "citation": {
-            "dir": "TGLP",
-            "title": "Types for Grassroots Logic Programs",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2601.17957"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         },
         {
           "key": "IGLP",
-          "citation": {
-            "dir": "IGLP",
-            "title": "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2602.06934"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "glp_runtime",
-              "responsible_label": "GLP",
-              "papers": [
-                "IGLP"
-              ],
-              "note": "all Dart",
-              "type": "tree"
+              "dir": true,
+              "note": "all Dart"
             },
             {
               "path": "glp_multiagent",
-              "responsible_label": "GLP",
-              "papers": [
-                "IGLP"
-              ],
-              "note": "all Dart",
-              "type": "tree"
+              "dir": true,
+              "note": "all Dart"
             },
             {
               "path": "programs/tests",
-              "responsible_label": "GLP",
-              "papers": [
-                "IGLP"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "VMAT",
@@ -108,17 +63,11 @@
       "papers": [
         {
           "key": "VMAT",
-          "citation": {
-            "dir": "VMAT",
-            "title": "Volition-Guarded Multiagent Atomic Transactions: Describing People and their Machines",
-            "authors": "Andy Lewis-Pye and Ehud Shapiro",
-            "arxiv": "2604.25596"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "vGLP",
@@ -126,36 +75,22 @@
       "papers": [
         {
           "key": "vGLP",
-          "citation": {
-            "dir": "vGLP",
-            "title": "Volition Elicitation: Operational Semantics for People and Their Machines",
-            "authors": "Idit Keidar and Ehud Shapiro",
-            "arxiv": "2607.14138"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/vglp",
-              "responsible_label": "vGLP",
-              "papers": [
-                "vGLP"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             },
             {
               "path": "programs/social/graph/ui",
-              "responsible_label": "vGLP",
-              "papers": [
-                "vGLP"
-              ],
-              "note": "the user interface's modules inside the social graph, the mediator among them",
-              "type": "tree"
+              "dir": true,
+              "note": "the user interface's modules inside the social graph, the mediator among them"
             }
           ],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "sGLP",
@@ -163,27 +98,17 @@
       "papers": [
         {
           "key": "sGLP",
-          "citation": {
-            "dir": "sGLP",
-            "title": "sGLP: Simulating People with Stochastic Agents",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2610.14738"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/sglp",
-              "responsible_label": "sGLP",
-              "papers": [
-                "sGLP"
-              ],
-              "note": "an owner's own programs/sglp/<owner>/<NAME>_sglp.glp is that owner's",
-              "type": "tree"
+              "dir": true,
+              "note": "an owner's own programs/sglp/<owner>/<NAME>_sglp.glp is that owner's"
             }
           ],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GSC",
@@ -191,136 +116,123 @@
       "papers": [
         {
           "key": "GSC",
-          "citation": {
-            "title": "From Grassroots Contract to Grassroots App",
-            "authors": "James Golike, Andy Lewis-Pye, Ehud Shapiro and Nimrod Talmon",
-            "arxiv": "2609.06231"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/gsc",
-              "responsible_label": "GSC",
-              "papers": [
-                "GSC"
-              ],
-              "note": "GnW and programs/gsc/wards included",
-              "type": "tree"
+              "dir": true,
+              "note": "GnW and programs/gsc/wards included"
             }
           ],
           "contracts": [
             {
               "id": "GFP",
-              "text_path": "programs/gsc/GFP.txt",
-              "text_sha": "e9624d0814bbfb32a02ec72a19a039bb6e5fbb5d",
-              "owner_line": "GSC (Udi, 2026-11-07, to GSC #13, on GSA #1's proposal of 18:09 UTC, which he supported).  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.3 and cites a clause as GFP:1; GSNP, GAI's, and GPD, GSA's, extend it.",
-              "paper": "GSC",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gsc/GFP.txt"
+                  "k": "text",
+                  "path": "programs/gsc/GFP.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GFP"
+                  "k": "record",
+                  "path": "cascade/GFP",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GKK",
-              "text_path": "programs/gsc/GKK.txt",
-              "text_sha": "f6323d6da73a663bf4ca1ac78f3f320d5cebec57",
-              "owner_line": "GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.1 and cites a clause as GKK:1; GSG, GSN and GC quote it as what they extend.",
-              "paper": "GSC",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gsc/GKK.txt"
+                  "k": "text",
+                  "path": "programs/gsc/GKK.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gkk"
+                  "k": "app",
+                  "path": "programs/apps/gkk",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gkk_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gkk_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GKK"
+                  "k": "record",
+                  "path": "cascade/GKK",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GnW",
-              "text_path": "programs/gsc/GnW.txt",
-              "text_sha": "d7a70ae04875059a010a894fd93f9408323aaa3c",
-              "owner_line": "GSC (Udi, 2026-11-10, to GSC #14: GAI, CSSN and GO all build on it and none is the base of the others; GAI's from 2026-10-20 until that day, and GSC's, named Wards, before).  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2, Guardians and Wards, and cites a clause as GnW:1; GAI's wards are AI agents and their guardians the persons operating them, CSSN's children and their parents, GO's organisations and their officers.",
-              "paper": "GSC",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gsc/GnW.txt"
+                  "k": "text",
+                  "path": "programs/gsc/GnW.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GnW"
+                  "k": "record",
+                  "path": "cascade/GnW",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GSG",
-              "text_path": "programs/gsc/GSG.txt",
-              "text_sha": "ccabb815abdc1b815ead23e035e7b1332ec7a60f",
-              "owner_line": "GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.2 and cites a clause as GSG:1; GAI's and CSSN's papers quote it.",
-              "paper": "GSC",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gsc/GSG.txt"
+                  "k": "text",
+                  "path": "programs/gsc/GSG.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gsg"
+                  "k": "app",
+                  "path": "programs/apps/gsg",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gsg_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gsg_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GSG"
+                  "k": "record",
+                  "path": "cascade/GSG",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GSN",
-              "text_path": "programs/gsc/GSN.txt",
-              "text_sha": "d9ff422a2460d8e8c37b1d995b2ca236ade677ed",
-              "owner_line": "GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.3 and cites a clause as GSN:1; GSNP, GAI's, and CSSN extend it.",
-              "paper": "GSC",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gsc/GSN.txt"
+                  "k": "text",
+                  "path": "programs/gsc/GSN.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gsn"
+                  "k": "app",
+                  "path": "programs/apps/gsn",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gsn_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gsn_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GSN"
+                  "k": "record",
+                  "path": "cascade/GSN",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GSA",
@@ -328,90 +240,61 @@
       "papers": [
         {
           "key": "GSA",
-          "citation": {
-            "title": "The Grassroots Super-App and App Store",
-            "authors": "Ohad Eitan, Idit Keidar and Ehud Shapiro",
-            "pdf": "GSA",
-            "state": "uploaded to arXiv, number not yet announced"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/social",
-              "responsible_label": "GSA",
-              "papers": [
-                "GSA"
-              ],
-              "note": "the operating system: the social graph, the secure social graph and the boot files",
-              "type": "tree"
-            },
-            {
-              "path": "servers/peoplesweb",
-              "responsible_label": "GSA",
-              "papers": [
-                "GSA"
-              ],
-              "note": "the Grassroots App Store at peoplesweb.org, GAS, which has no paper of its own",
-              "type": "tree"
+              "dir": true,
+              "note": "the operating system: the social graph, the secure social graph and the boot files"
             },
             {
               "path": "programs/apps/look.json",
-              "responsible_label": "GSA",
-              "papers": [
-                "GSA"
-              ],
-              "note": "the families' names and colours",
-              "type": "blob"
+              "dir": false,
+              "note": "the families' names and colours"
             }
           ],
           "contracts": [
             {
               "id": "GAS",
-              "text_path": "programs/social/graph/GAS.txt",
-              "text_sha": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
-              "owner_line": "GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, prints it in its box in the section on the store and cites a clause as GAS:1.",
-              "paper": "GSA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/social/graph/GAS.txt"
+                  "k": "text",
+                  "path": "programs/social/graph/GAS.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GAS"
+                  "k": "record",
+                  "path": "cascade/GAS",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GPD",
-              "text_path": "programs/social/graph/GPD.txt",
-              "text_sha": "cbf1121d49cbca3ed51a8ce6eee4ca6da1289302",
-              "owner_line": "GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, prints it in its box and cites a clause as GPD:1.",
-              "paper": "GSA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/social/graph/GPD.txt"
+                  "k": "text",
+                  "path": "programs/social/graph/GPD.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GPD"
+                  "k": "record",
+                  "path": "cascade/GPD",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GPE",
-              "text_path": "programs/social/graph/GPE.txt",
-              "text_sha": "fa564f0577d1e12e81029002c2cc994473d54190",
-              "owner_line": "GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, Section 5.2, prints it in its box and cites a clause as GPE:1.",
-              "paper": "GSA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/social/graph/GPE.txt"
+                  "k": "text",
+                  "path": "programs/social/graph/GPE.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GPE"
+                  "k": "record",
+                  "path": "cascade/GPE",
+                  "dir": true
                 }
               ]
             }
@@ -419,96 +302,73 @@
         },
         {
           "key": "GNA",
-          "citation": {
-            "title": "GLP Networking API and Services",
-            "authors": "Dan Bachar and Ehud Shapiro",
-            "pdf": "GNA"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "networking",
-              "responsible_label": "GNA",
-              "papers": [
-                "GNA"
-              ],
-              "note": "the networking layer, imported from Dan Bachar's grassroots-networking",
-              "type": "tree"
+              "dir": true,
+              "note": "the networking layer, imported from Dan Bachar's grassroots-networking"
             },
             {
               "path": "programs/examples/rendezvous",
-              "responsible_label": "GNA",
-              "papers": [
-                "GNA"
-              ],
-              "note": "the rendezvous server and the directory, GSV, GRV and GDS",
-              "type": "tree"
+              "dir": true,
+              "note": "the rendezvous server and the directory, GSV, GRV and GDS"
             },
             {
               "path": "servers/directory",
-              "responsible_label": "GNA",
-              "papers": [
-                "GNA"
-              ],
-              "note": "the directory, the contract GDS",
-              "type": "tree"
+              "dir": true,
+              "note": "the directory, the contract GDS"
             }
           ],
           "contracts": [
             {
               "id": "GDS",
-              "text_path": "programs/examples/rendezvous/GDS.txt",
-              "text_sha": "5f03ce3c63b48bbd8828df81a64d1cc92cd378a6",
-              "owner_line": "GNA, a paper of the GSA project (Udi, 2026-11-08).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box and cites a clause as GDS:1.",
-              "paper": "GNA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/examples/rendezvous/GDS.txt"
+                  "k": "text",
+                  "path": "programs/examples/rendezvous/GDS.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GDS"
+                  "k": "record",
+                  "path": "cascade/GDS",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GRV",
-              "text_path": "programs/examples/rendezvous/GRV.txt",
-              "text_sha": "2ad448007ee7e578641223e57e8147a6b701e4bf",
-              "owner_line": "GNA, a paper of the GSA project (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box and cites a clause as GRV:1.",
-              "paper": "GNA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/examples/rendezvous/GRV.txt"
+                  "k": "text",
+                  "path": "programs/examples/rendezvous/GRV.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GRV"
+                  "k": "record",
+                  "path": "cascade/GRV",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GSV",
-              "text_path": "programs/examples/rendezvous/GSV.txt",
-              "text_sha": "67f2ed50fdaa3dca90807063a910ccd6d77fb7c3",
-              "owner_line": "GNA, a paper of the GSA project (Udi, 2026-11-10 13:49 UTC, to GSA #3).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box.",
-              "paper": "GNA",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/examples/rendezvous/GSV.txt"
+                  "k": "text",
+                  "path": "programs/examples/rendezvous/GSV.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GSV"
+                  "k": "record",
+                  "path": "cascade/GSV",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "SPM",
@@ -516,18 +376,11 @@
       "papers": [
         {
           "key": "SPM",
-          "citation": {
-            "dir": "SPM",
-            "title": "Securing People and their Machines Against Major Faults",
-            "authors": "Ohad Eitan, Idit Keidar and Ehud Shapiro",
-            "arxiv": "2607.02304",
-            "venue": "SSS 2026, to appear"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "Currencies",
@@ -535,35 +388,30 @@
       "papers": [
         {
           "key": "GC",
-          "citation": {
-            "title": "Grassroots Currencies: Turning Mutual Trust into Liquidity",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2202.05619"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": [
             {
               "id": "GC",
-              "text_path": "programs/currencies/coins/GC.txt",
-              "text_sha": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
-              "owner_line": "Currencies (GC).  The paper, /Users/udi/Grassroots/GC/main_Grassroots_Currencies.tex, prints it in its box in Section 2.1 and cites a clause as GC:1; GSC's paper quotes it beside GSN.",
-              "paper": "GC",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/coins"
+                  "k": "directory",
+                  "path": "programs/currencies/coins",
+                  "dir": true
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gc"
+                  "k": "app",
+                  "path": "programs/apps/gc",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gc_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gc_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GC"
+                  "k": "record",
+                  "path": "cascade/GC",
+                  "dir": true
                 }
               ]
             }
@@ -571,35 +419,30 @@
         },
         {
           "key": "GB",
-          "citation": {
-            "title": "Grassroots Bonds: Financing by the People, for the People",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2603.13671"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": [
             {
               "id": "GB",
-              "text_path": "programs/currencies/bonds/GB.txt",
-              "text_sha": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
-              "owner_line": "Currencies (GB).  The paper, /Users/udi/Grassroots/GB/main_Grassroots_Bonds.tex, prints it in its box in Section 3.1 and cites a clause as GB:1.",
-              "paper": "GB",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/bonds"
+                  "k": "directory",
+                  "path": "programs/currencies/bonds",
+                  "dir": true
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gb"
+                  "k": "app",
+                  "path": "programs/apps/gb",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gb_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gb_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GB"
+                  "k": "record",
+                  "path": "cascade/GB",
+                  "dir": true
                 }
               ]
             }
@@ -607,27 +450,20 @@
         },
         {
           "key": "SGC",
-          "citation": {
-            "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2609.27727"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": [
             {
               "id": "DGC",
-              "text_path": "programs/currencies/sovereign/DGC.txt",
-              "text_sha": "0b5256ea4325482da8cc316149dd1c0d5b56ad42",
-              "owner_line": "Currencies (SGC).  The paper, /Users/udi/Grassroots/SGC/main_SGC.tex, states it in Section 2.1 and cites a clause by number, and GCC's paper quotes it as what GCC extends; it is named DGC, its owner Currencies, by Udi's ruling of 2026-11-04 (to Currencies #15): the contract names no sovereign, the sovereign being a party like any other.",
-              "paper": "SGC",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/sovereign"
+                  "k": "directory",
+                  "path": "programs/currencies/sovereign",
+                  "dir": true
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/DGC"
+                  "k": "record",
+                  "path": "cascade/DGC",
+                  "dir": true
                 }
               ]
             }
@@ -635,79 +471,83 @@
         },
         {
           "key": "GCC",
-          "citation": {
-            "title": "Grassroots Community Currencies",
-            "authors": "Ehud Shapiro",
-            "pdf": "GCC"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": [
             {
               "id": "BCC",
-              "text_path": "programs/currencies/bcc/BCC.txt",
-              "text_sha": "127c499b84bd1a36ed4f14731a1b121c760ff56e",
-              "owner_line": "Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as BCC:1.  Named and owned by Udi's ruling of 2026-11-04 (to Currencies #15, 15:17).",
-              "paper": "GCC",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/bcc"
+                  "k": "directory",
+                  "path": "programs/currencies/bcc",
+                  "dir": true
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/BCC"
+                  "k": "record",
+                  "path": "cascade/BCC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GCC",
-              "text_path": "programs/currencies/gcc/GCC.txt",
-              "text_sha": "358960d20735348450d5917d449c3b96a71c90b8",
-              "owner_line": "Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as GCC:1.",
-              "paper": "GCC",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/gcc"
+                  "k": "directory",
+                  "path": "programs/currencies/gcc",
+                  "dir": true
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GCC"
+                  "k": "record",
+                  "path": "cascade/GCC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GDC",
-              "text_path": "programs/currencies/gdc/GDC.txt",
-              "text_sha": "16ee7e1f4170c9f6c93c6393cbade65275da3fd2",
-              "owner_line": "Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as GDC:1; GCC and BCC extend it.  Named and owned by Udi's ruling of 2026-11-04 (to Currencies #15, 15:27): the denominated coins contract above GCC, GC with denomination, which DGC, the full denominated currencies contract with bonds, acceptances and escrow, is more than coins need.",
-              "paper": "GCC",
               "items": [
                 {
-                  "kind": "directory",
-                  "path": "programs/currencies/gdc"
+                  "k": "directory",
+                  "path": "programs/currencies/gdc",
+                  "dir": true
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GDC"
+                  "k": "record",
+                  "path": "cascade/GDC",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": [
+      "dirs": [
         {
           "path": "programs/currencies",
-          "responsible_label": "Currencies",
-          "papers": [
-            "GC",
-            "GB",
-            "SGC",
-            "GCC"
-          ],
-          "note": "",
-          "type": "tree"
+          "dir": true,
+          "note": ""
+        },
+        {
+          "path": "programs/currencies/agora",
+          "dir": true,
+          "note": "Nimrod Talmon's, Currencies' until it has a paper",
+          "contracts": [
+            {
+              "id": "AGORA",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/currencies/agora/AGORA.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/AGORA",
+                  "dir": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -717,78 +557,68 @@
       "papers": [
         {
           "key": "GAI",
-          "citation": {
-            "title": "Corralling AI Risks with Grassroots Contracts",
-            "authors": "Ehud Shapiro",
-            "pdf": "GAI",
-            "state": "uploaded to arXiv, number pending"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/gai",
-              "responsible_label": "GAI",
-              "papers": [
-                "GAI"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": [
             {
               "id": "GAI",
-              "text_path": "programs/gai/GAI.txt",
-              "text_sha": "f9ecba72366715d25e1d165b7a87ce9b677e696f",
-              "owner_line": "GAI.  The paper, /Users/udi/Grassroots/GAI/main_characterisation_ArXiv.tex, prints it in its box in Section 3.1 and cites a clause as GAI:1.",
-              "paper": "GAI",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gai/GAI.txt"
+                  "k": "text",
+                  "path": "programs/gai/GAI.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gai"
+                  "k": "app",
+                  "path": "programs/apps/gai",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gai_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gai_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GAI"
+                  "k": "record",
+                  "path": "cascade/GAI",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GSNP",
-              "text_path": "programs/gai/GSNP.txt",
-              "text_sha": "1f7c2a6aa8fef1c66e94ce89147e79c8da0eb448",
-              "owner_line": "GAI (Udi, 2026-10-20; GSC's until that day).  The paper, /Users/udi/Grassroots/GAI/main_characterisation_ArXiv.tex, prints it in its box in Section 4.1.",
-              "paper": "GAI",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gai/GSNP.txt"
+                  "k": "text",
+                  "path": "programs/gai/GSNP.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gsnp"
+                  "k": "app",
+                  "path": "programs/apps/gsnp",
+                  "dir": true
                 },
                 {
-                  "kind": "phone file",
-                  "path": "programs/social/graph/core/gsnp_phone.glp"
+                  "k": "phone file",
+                  "path": "programs/social/graph/core/gsnp_phone.glp",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GSNP"
+                  "k": "record",
+                  "path": "cascade/GSNP",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "CSSN",
@@ -796,61 +626,48 @@
       "papers": [
         {
           "key": "CSSN",
-          "citation": {
-            "title": "Child-Safe Social Networking: From Social Contract to App",
-            "authors": "Ehud Shapiro",
-            "pdf": "CSSN"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/cssn",
-              "responsible_label": "CSSN",
-              "papers": [
-                "CSSN"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": [
             {
               "id": "CSSN",
-              "text_path": "programs/cssn/CSSN.txt",
-              "text_sha": "b40840064fb6af75030cbfa610c13c2d66655e02",
-              "owner_line": "CSSN.  The paper, /Users/udi/Grassroots/CSSN/main_CSSN.tex, prints it in its box in Section 4.1 and cites a clause as CSSN:1.",
-              "paper": "CSSN",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/cssn/CSSN.txt"
+                  "k": "text",
+                  "path": "programs/cssn/CSSN.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/CSSN"
+                  "k": "record",
+                  "path": "cascade/CSSN",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GSNW",
-              "text_path": "programs/cssn/GSNW.txt",
-              "text_sha": "b1ab0f8c17f8984521aa0c27db73e26c3101e054",
-              "owner_line": "CSSN (Udi, 2026-11-10, to GSC #14, reported by GSC, and to CSSN #14, the name): CSSN is its one user today, and GSC takes it over if a second contract comes to need it.  The paper, /Users/udi/Grassroots/CSSN/main_CSSN.tex, prints it in its box and cites a clause as GSNW:1.",
-              "paper": "CSSN",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/cssn/GSNW.txt"
+                  "k": "text",
+                  "path": "programs/cssn/GSNW.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GSNW"
+                  "k": "record",
+                  "path": "cascade/GSNW",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GFF",
@@ -858,133 +675,113 @@
       "papers": [
         {
           "key": "GFF",
-          "citation": {
-            "title": "Grassroots Feeds and Followers",
-            "authors": "",
-            "pdf": "GFF"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/gff",
-              "responsible_label": "GFF",
-              "papers": [
-                "GFF"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": [
             {
               "id": "GDO-L",
-              "text_path": "programs/gff/GDO-L.txt",
-              "text_sha": "24f4245bddb22d5c66bb9cb203819aac15189465",
-              "owner_line": "GFF (Udi, 2026-11-05, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GDO-L:1.",
-              "paper": "GFF",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gff/GDO-L.txt"
+                  "k": "text",
+                  "path": "programs/gff/GDO-L.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GDO-L"
-                }
-              ]
-            },
-            {
-              "id": "GFF-FR-BC",
-              "text_path": "programs/gff/GFF-FR-BC.txt",
-              "text_sha": "51e2a7880e2099bc1db9ef71ce6f865d11b432fd",
-              "owner_line": "GFF (Udi, 2026-11-07, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-FR-BC:1.",
-              "paper": "GFF",
-              "items": [
-                {
-                  "kind": "text",
-                  "path": "programs/gff/GFF-FR-BC.txt"
-                },
-                {
-                  "kind": "record",
-                  "path": "cascade/GFF-FR-BC"
-                }
-              ]
-            },
-            {
-              "id": "GFF-FR",
-              "text_path": "programs/gff/GFF-FR.txt",
-              "text_sha": "5060b5c5e5e056937c33c946221bb4dd4ad9e678",
-              "owner_line": "GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-FR:1.",
-              "paper": "GFF",
-              "items": [
-                {
-                  "kind": "text",
-                  "path": "programs/gff/GFF-FR.txt"
-                },
-                {
-                  "kind": "record",
-                  "path": "cascade/GFF-FR"
-                }
-              ]
-            },
-            {
-              "id": "GFF-I",
-              "text_path": "programs/gff/GFF-I.txt",
-              "text_sha": "06b22ed299a5697f6c825b275c93cd76ec6c9383",
-              "owner_line": "GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-I:1.",
-              "paper": "GFF",
-              "items": [
-                {
-                  "kind": "text",
-                  "path": "programs/gff/GFF-I.txt"
-                },
-                {
-                  "kind": "record",
-                  "path": "cascade/GFF-I"
-                }
-              ]
-            },
-            {
-              "id": "GFF-PS",
-              "text_path": "programs/gff/GFF-PS.txt",
-              "text_sha": "52e7d31955be7b5335e6a4f57b980628dbdb2bf1",
-              "owner_line": "GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-PS:1.",
-              "paper": "GFF",
-              "items": [
-                {
-                  "kind": "text",
-                  "path": "programs/gff/GFF-PS.txt"
-                },
-                {
-                  "kind": "record",
-                  "path": "cascade/GFF-PS"
+                  "k": "record",
+                  "path": "cascade/GDO-L",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GFF",
-              "text_path": "programs/gff/GFF.txt",
-              "text_sha": "f343ba81d1ccdd07bff797c3ea942f7353dde53e",
-              "owner_line": "GFF (Udi, 2026-10-27).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF:1.",
-              "paper": "GFF",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/gff/GFF.txt"
+                  "k": "text",
+                  "path": "programs/gff/GFF.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "app",
-                  "path": "programs/apps/gff"
+                  "k": "app",
+                  "path": "programs/apps/gff",
+                  "dir": true
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GFF"
+                  "k": "record",
+                  "path": "cascade/GFF",
+                  "dir": true
+                }
+              ]
+            },
+            {
+              "id": "GFF-FR",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/gff/GFF-FR.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GFF-FR",
+                  "dir": true
+                }
+              ]
+            },
+            {
+              "id": "GFF-FR-BC",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/gff/GFF-FR-BC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GFF-FR-BC",
+                  "dir": true
+                }
+              ]
+            },
+            {
+              "id": "GFF-I",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/gff/GFF-I.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GFF-I",
+                  "dir": true
+                }
+              ]
+            },
+            {
+              "id": "GFF-PS",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/gff/GFF-PS.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GFF-PS",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GGGA",
@@ -992,68 +789,53 @@
       "papers": [
         {
           "key": "GGGA",
-          "citation": {
-            "key": "GGGA",
-            "title": "Grassroots Governance of Grassroots Apps",
-            "authors": "Ehud Shapiro and Nimrod Talmon",
-            "state": "in preparation"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         },
         {
           "key": "SRC",
-          "citation": {
-            "title": "Trust, Distrust and Committed Dynamics for Sybil-Resilient Communities in Social Graphs",
-            "authors": "",
-            "pdf": "GGGA"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/ggga",
-              "responsible_label": "GGGA",
-              "papers": [
-                "SRC"
-              ],
-              "note": "its contracts, which the paper SRC prints",
-              "type": "tree"
+              "dir": true,
+              "note": "its contracts, which the paper SRC prints"
             }
           ],
           "contracts": [
             {
-              "id": "GD-S",
-              "text_path": "programs/ggga/GD-S.txt",
-              "text_sha": "a690cb359379e349c37a1cee7698573243fdfbd8",
-              "owner_line": "GGGA (Udi, 2026-11-06, to GGGA #3).  The paper, /Users/udi/Grassroots/SRC/main-distrust-layers.tex, of the GGGA project, prints it in its box in sections/sybil-resilience.tex, and cites a clause as GD-S:1.",
-              "paper": "SRC",
+              "id": "GD",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/ggga/GD-S.txt"
+                  "k": "text",
+                  "path": "programs/ggga/GD.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GD",
+                  "dir": true
                 }
               ]
             },
             {
-              "id": "GD",
-              "text_path": "programs/ggga/GD.txt",
-              "text_sha": "711b8c0046c73071369edd42588b393f8ea1a456",
-              "owner_line": "GGGA (Udi, 2026-11-05, to GGGA #3).  The paper, /Users/udi/Grassroots/SRC/main-distrust-layers.tex, of the GGGA project, prints it in its box in sections/sybil-resilience.tex, and cites a clause as GD:1.",
-              "paper": "SRC",
+              "id": "GD-S",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/ggga/GD.txt"
+                  "k": "text",
+                  "path": "programs/ggga/GD-S.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GD"
+                  "k": "record",
+                  "path": "cascade/GD-S",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GO",
@@ -1061,326 +843,358 @@
       "papers": [
         {
           "key": "GO",
-          "citation": {
-            "title": "Grassroots Organisations: Building Digital Banks, Networks, Corporations and Cooperatives",
-            "authors": "Ehud Shapiro",
-            "pdf": "GO"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/go",
-              "responsible_label": "GO",
-              "papers": [
-                "GO"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": [
             {
               "id": "CB",
-              "text_path": "programs/go/CB.txt",
-              "text_sha": "45e928420d689330595e7373b89284391fbd6b03",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.2 and cites a clause as CB:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/CB.txt"
+                  "k": "text",
+                  "path": "programs/go/CB.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/CB",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "CC",
-              "text_path": "programs/go/CC.txt",
-              "text_sha": "114550df3eae7d4ec810aee3d987493c4d50f4fe",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.3 and cites a clause as CC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/CC.txt"
+                  "k": "text",
+                  "path": "programs/go/CC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/CC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "CMB",
-              "text_path": "programs/go/CMB.txt",
-              "text_sha": "f3327e29086616d1fc577c3586a5e634311e02c2",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.4 and cites a clause as CMB:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/CMB.txt"
+                  "k": "text",
+                  "path": "programs/go/CMB.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/CMB",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "CnC",
-              "text_path": "programs/go/CnC.txt",
-              "text_sha": "43d92ccf7f810e9f01cbe3a2f6816708d3b54c4c",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.2 and cites a clause as CnC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/CnC.txt"
+                  "k": "text",
+                  "path": "programs/go/CnC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/CnC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GAN",
-              "text_path": "programs/go/GAN.txt",
-              "text_sha": "8409dbc9e59a823d761c9746b2b81904a60e3d71",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.2 and cites a clause as GAN:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GAN.txt"
+                  "k": "text",
+                  "path": "programs/go/GAN.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GAN",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GBank",
-              "text_path": "programs/go/GBank.txt",
-              "text_sha": "a0959b110e6b3e0ea57e92a277a199a952f04474",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4, Grassroots Banks and cites a clause as GBank:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GBank.txt"
+                  "k": "text",
+                  "path": "programs/go/GBank.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GBank",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GBCC",
-              "text_path": "programs/go/GBCC.txt",
-              "text_sha": "fd1c30264e9038815cdb3c140b795ccc60b34c6c",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.3 and cites a clause as GBCC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GBCC.txt"
+                  "k": "text",
+                  "path": "programs/go/GBCC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GBCC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GCoop",
-              "text_path": "programs/go/GCoop.txt",
-              "text_sha": "381b8958fab1342f3be2f9c9cfd7afdea124b738",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7, Grassroots Cooperatives and cites a clause as GCoop:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GCoop.txt"
+                  "k": "text",
+                  "path": "programs/go/GCoop.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GCoop",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GCorp",
-              "text_path": "programs/go/GCorp.txt",
-              "text_sha": "1fae4227e5f4c6994807ac46c4b3c730469fb5c9",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6, Grassroots Corporations and cites a clause as GCorp:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GCorp.txt"
+                  "k": "text",
+                  "path": "programs/go/GCorp.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GCorp",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GDAO",
-              "text_path": "programs/go/GDAO.txt",
-              "text_sha": "9ce89fe768a5574bc39fc8ec278cc7d2c6f4cbb0",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.3 and cites a clause as GDAO:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GDAO.txt"
+                  "k": "text",
+                  "path": "programs/go/GDAO.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GDAO",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GLDAO",
-              "text_path": "programs/go/GLDAO.txt",
-              "text_sha": "e314049cc734f77d9803ad183a5aa9f555d000b5",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.3 and cites a clause as GLDAO:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GLDAO.txt"
+                  "k": "text",
+                  "path": "programs/go/GLDAO.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GLDAO",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GNG",
-              "text_path": "programs/go/GNG.txt",
-              "text_sha": "7a883a9c188a87347e6fd8680d266731c69a95e3",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.5 and cites a clause as GNG:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GNG.txt"
+                  "k": "text",
+                  "path": "programs/go/GNG.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GNG",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GNL",
-              "text_path": "programs/go/GNL.txt",
-              "text_sha": "f491182eca5275f5c6689ea650bef3e26748aa09",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.3 and cites a clause as GNL:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GNL.txt"
+                  "k": "text",
+                  "path": "programs/go/GNL.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GNL",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GNM",
-              "text_path": "programs/go/GNM.txt",
-              "text_sha": "392e14b221bbdc5e208e76eb1ed57fbfde3be917",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.4 and cites a clause as GNM:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GNM.txt"
+                  "k": "text",
+                  "path": "programs/go/GNM.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GNM",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GNO",
-              "text_path": "programs/go/GNO.txt",
-              "text_sha": "c9383c9a2bdd8112829ec59bb1bac0d3bc99ebe3",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5, Grassroots Network Organisations and cites a clause as GNO:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GNO.txt"
+                  "k": "text",
+                  "path": "programs/go/GNO.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GNO",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GO",
-              "text_path": "programs/go/GO.txt",
-              "text_sha": "2df92250905c17872a085db84596e51c8ea82e3b",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 3, Grassroots Organisations and cites a clause as GO:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/GO.txt"
+                  "k": "text",
+                  "path": "programs/go/GO.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GO",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "MCS",
-              "text_path": "programs/go/MCS.txt",
-              "text_sha": "bd44073b4739372c0dae65e65eced0d9e643e30c",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.1 and cites a clause as MCS:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/MCS.txt"
+                  "k": "text",
+                  "path": "programs/go/MCS.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/MCS",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "ORH",
-              "text_path": "programs/go/ORH.txt",
-              "text_sha": "0129ca67b08e195d913d40cd2b376bbbf4d90025",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.1 and cites a clause as ORH:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/ORH.txt"
+                  "k": "text",
+                  "path": "programs/go/ORH.txt",
+                  "dir": false
                 }
               ]
             },
             {
               "id": "SC",
-              "text_path": "programs/go/SC.txt",
-              "text_sha": "ed4b81c8a504dd817d3580429b705fd5876f6ce4",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.3 and cites a clause as SC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/SC.txt"
+                  "k": "text",
+                  "path": "programs/go/SC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/SC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "SCB",
-              "text_path": "programs/go/SCB.txt",
-              "text_sha": "b9bc93a07c02fd1d3de2e20d1bc2b200bea6a6b0",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.5 and cites a clause as SCB:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/SCB.txt"
+                  "k": "text",
+                  "path": "programs/go/SCB.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/SCB",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "SPLLC",
-              "text_path": "programs/go/SPLLC.txt",
-              "text_sha": "2fc3082659c9b5b1ed1b81e510494bc9ca143e9f",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.1 and cites a clause as SPLLC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/SPLLC.txt"
+                  "k": "text",
+                  "path": "programs/go/SPLLC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/SPLLC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "TC",
-              "text_path": "programs/go/TC.txt",
-              "text_sha": "756fa8f49737f0a7b52db2a3383f4d1b4d90ea29",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.2 and cites a clause as TC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/TC.txt"
+                  "k": "text",
+                  "path": "programs/go/TC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/TC",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "WC",
-              "text_path": "programs/go/WC.txt",
-              "text_sha": "070f7f993f588f008dfb7c25b1240b31af05942b",
-              "owner_line": "GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.1 and cites a clause as WC:1.",
-              "paper": "GO",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/go/WC.txt"
+                  "k": "text",
+                  "path": "programs/go/WC.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/WC",
+                  "dir": true
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GRH",
@@ -1388,87 +1202,73 @@
       "papers": [
         {
           "key": "GRH",
-          "citation": {
-            "title": "Grassroots Ride-Hailing",
-            "authors": "",
-            "pdf": "GRH"
-          },
-          "directories": [
+          "dirs": [
             {
               "path": "programs/lbm",
-              "responsible_label": "GRH",
-              "papers": [
-                "GRH"
-              ],
-              "note": "",
-              "type": "tree"
+              "dir": true,
+              "note": ""
             }
           ],
           "contracts": [
             {
-              "id": "GDO-LB",
-              "text_path": "programs/lbm/GDO-LB.txt",
-              "text_sha": "e81ba874adbb1eaa49220fab717b937b91fcc114",
-              "owner_line": "GRH (Udi, 2026-11-06, to GRH #1, who named it).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section Grassroots Directed Overlay, sections/overlay.tex, and cites a clause as GDO-LB:1.",
-              "paper": "GRH",
-              "items": [
-                {
-                  "kind": "text",
-                  "path": "programs/lbm/GDO-LB.txt"
-                }
-              ]
-            },
-            {
               "id": "GDO",
-              "text_path": "programs/lbm/GDO.txt",
-              "text_sha": "ba8f2e38c3a7ad8590abc4b1d588697a864b202d",
-              "owner_line": "GRH (Udi, 2026-11-05, to GRH #1; LBM until then, Udi, 2026-11-02, to LBM #4).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section Grassroots Directed Overlay, sections/overlay.tex, and cites a clause as GDO:1.",
-              "paper": "GRH",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/lbm/GDO.txt"
+                  "k": "text",
+                  "path": "programs/lbm/GDO.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GDO"
+                  "k": "record",
+                  "path": "cascade/GDO",
+                  "dir": true
                 }
               ]
             },
             {
-              "id": "GRA-SS",
-              "text_path": "programs/lbm/GRA-SS.txt",
-              "text_sha": "e0adbcbed7ccda4a446e4abb55108613a35b38d8",
-              "owner_line": "GRH (Udi, 2026-11-06, to GRH #1).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section The Ride, sections/ride.tex, and cites a clause as GRA-SS:1.",
-              "paper": "GRH",
+              "id": "GDO-LB",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/lbm/GRA-SS.txt"
+                  "k": "text",
+                  "path": "programs/lbm/GDO-LB.txt",
+                  "dir": false
+                },
+                {
+                  "k": "record",
+                  "path": "cascade/GDO-LB",
+                  "dir": true
                 }
               ]
             },
             {
               "id": "GRA",
-              "text_path": "programs/lbm/GRA.txt",
-              "text_sha": "648480580770d932a01ee4f206865fb429d629f1",
-              "owner_line": "GRH (Udi, 2026-11-05, to GRH #1; LBM until then, Udi, 2026-11-03, to LBM #4).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section The Ride, sections/ride.tex, and cites a clause as GRA:1.",
-              "paper": "GRH",
               "items": [
                 {
-                  "kind": "text",
-                  "path": "programs/lbm/GRA.txt"
+                  "k": "text",
+                  "path": "programs/lbm/GRA.txt",
+                  "dir": false
                 },
                 {
-                  "kind": "record",
-                  "path": "cascade/GRA"
+                  "k": "record",
+                  "path": "cascade/GRA",
+                  "dir": true
+                }
+              ]
+            },
+            {
+              "id": "GRA-SS",
+              "items": [
+                {
+                  "k": "text",
+                  "path": "programs/lbm/GRA-SS.txt",
+                  "dir": false
                 }
               ]
             }
           ]
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "CGP",
@@ -1476,17 +1276,11 @@
       "papers": [
         {
           "key": "CGP",
-          "citation": {
-            "dir": "CGP",
-            "title": "Characterising Global Platforms: Centralised, Decentralised, Federated, and Grassroots",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2511.03286"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GPAT",
@@ -1494,18 +1288,11 @@
       "papers": [
         {
           "key": "GPAT",
-          "citation": {
-            "dir": "GPAT",
-            "title": "Grassroots Platforms with Atomic Transactions: Social Graphs, Cryptocurrencies, and Democratic Federations",
-            "authors": "Ehud Shapiro",
-            "arxiv": "2502.11299",
-            "venue": "Theoretical Computer Science, 2026"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "GPBD",
@@ -1513,17 +1300,11 @@
       "papers": [
         {
           "key": "GPBD",
-          "citation": {
-            "key": "GPBD",
-            "title": "Grassroots Platforms: Beyond Decentralisation",
-            "authors": "Andrew Lewis-Pye and Ehud Shapiro",
-            "state": "accepted at DeTaP 2026"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "DSA",
@@ -1531,17 +1312,11 @@
       "papers": [
         {
           "key": "DSA",
-          "citation": {
-            "dir": "DSA",
-            "title": "Digital Speech Acts Retain Control of Copyright with People, Not Platforms",
-            "authors": "James Golike and Ehud Shapiro",
-            "arxiv": "2606.19263"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "CCDG",
@@ -1549,17 +1324,11 @@
       "papers": [
         {
           "key": "CCDG",
-          "citation": {
-            "dir": "CCDG",
-            "title": "Constitutional Consensus",
-            "authors": "Idit Keidar, Andrew Lewis-Pye and Ehud Shapiro",
-            "arxiv": "2505.19216"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
     },
     {
       "id": "CGMS",
@@ -1567,292 +1336,1073 @@
       "papers": [
         {
           "key": "CGMS",
-          "citation": {
-            "dir": "CGMS",
-            "title": "Constitutional Governance in Metric Spaces",
-            "authors": "Ehud Shapiro and Nimrod Talmon",
-            "arxiv": "2605.13362",
-            "venue": "ADT 2026, to appear"
-          },
-          "directories": [],
+          "dirs": [],
           "contracts": []
         }
       ],
-      "directories": []
+      "dirs": []
+    },
+    {
+      "id": "GBM",
+      "name": "Grassroots Business Models",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "CFRI",
+      "name": "",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "IVMAT",
+      "name": "",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "GFWC",
+      "name": "Grassroots Federation Without Consensus",
+      "papers": [],
+      "dirs": [
+        {
+          "path": "programs/federation",
+          "dir": true,
+          "note": "",
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "id": "CDWC",
+      "name": "Constitutional Democracy Without Consensus",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "GPW",
+      "name": "Grassroots Personal Websites",
+      "papers": [],
+      "dirs": [
+        {
+          "path": "servers/gpw",
+          "dir": true,
+          "note": "",
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "id": "Secure-GLP",
+      "name": "Secure GLP",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "P99",
+      "name": "",
+      "papers": [],
+      "dirs": [
+        {
+          "path": "programs/p99",
+          "dir": true,
+          "note": "",
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "id": "DDD",
+      "name": "",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "KYC",
+      "name": "",
+      "papers": [],
+      "dirs": []
+    },
+    {
+      "id": "LBM",
+      "name": "Location Based Matching",
+      "papers": [],
+      "dirs": []
     }
   ],
   "code": [
     {
-      "path": "servers/gpw",
-      "responsible_label": "GPW",
-      "papers": [],
-      "note": "",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "path": "servers/peoplesweb",
+      "dir": true,
+      "note": "the site peoplesweb.org: its pages, its build, the papers' PDFs, the test site and the sweep's scripts",
+      "who": "Website",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "programs/gce",
-      "responsible_label": "GCE",
-      "papers": [],
+      "dir": true,
       "note": "Grassroots Contract Examples, Nimrod Talmon's; the paper responsible for each is named in its NAME.txt's % Owner line",
-      "type": "tree",
+      "who": "GCE",
+      "text": "",
       "contracts": [
         {
           "id": "DAO",
-          "text_path": "programs/gce/dao/DAO.txt",
-          "text_sha": "4e49149a1d6e83b023b78b628bdf0ea923267acf",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/dao"
+              "k": "directory",
+              "path": "programs/gce/dao",
+              "dir": true
             }
           ]
         },
         {
           "id": "FDAO",
-          "text_path": "programs/gce/fdao/FDAO.txt",
-          "text_sha": "11c07a66c08cb4b85b0c23cb722543e1d39bf230",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/fdao"
+              "k": "directory",
+              "path": "programs/gce/fdao",
+              "dir": true
             }
           ]
         },
         {
           "id": "JOINT",
-          "text_path": "programs/gce/joint/JOINT.txt",
-          "text_sha": "afc15a8a6a7b3e119c01cc43e3fcedcceb6acf71",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/joint"
+              "k": "directory",
+              "path": "programs/gce/joint",
+              "dir": true
             }
           ]
         },
         {
           "id": "LDAO",
-          "text_path": "programs/gce/ldao/LDAO.txt",
-          "text_sha": "282b2ff9b4ef5093893f5974164a69bb34937d4b",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/ldao"
+              "k": "directory",
+              "path": "programs/gce/ldao",
+              "dir": true
             }
           ]
         },
         {
           "id": "LIB",
-          "text_path": "programs/gce/lib/LIB.txt",
-          "text_sha": "643d678efe6dc78fb55222c05de0a55f1ee5f696",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/lib"
+              "k": "directory",
+              "path": "programs/gce/lib",
+              "dir": true
             }
           ]
         },
         {
           "id": "REC",
-          "text_path": "programs/gce/rec/REC.txt",
-          "text_sha": "da822499505cf88ee64f6ca9c4e9bd296e1a532d",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/rec"
+              "k": "directory",
+              "path": "programs/gce/rec",
+              "dir": true
             }
           ]
         },
         {
           "id": "STAY",
-          "text_path": "programs/gce/stay/STAY.txt",
-          "text_sha": "ae7446ac7111bc6c9eff22e0a9981a12a1bdb5ff",
-          "owner_line": "GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
-          "paper": null,
           "items": [
             {
-              "kind": "directory",
-              "path": "programs/gce/stay"
+              "k": "directory",
+              "path": "programs/gce/stay",
+              "dir": true
             },
             {
-              "kind": "record",
-              "path": "cascade/STAY"
+              "k": "record",
+              "path": "cascade/STAY",
+              "dir": true
             }
           ]
         }
-      ],
-      "description_path": null
-    },
-    {
-      "path": "programs/currencies/agora",
-      "responsible_label": "Currencies",
-      "papers": [],
-      "note": "Nimrod Talmon's, Currencies' until it has a paper",
-      "type": "tree",
-      "contracts": [
-        {
-          "id": "AGORA",
-          "text_path": "programs/currencies/agora/AGORA.txt",
-          "text_sha": "64cc33b9ebcf4de1efe4f0ef775ef86400e216ea",
-          "owner_line": "Talmon.  No paper (just an example of a grassroots contract).",
-          "paper": null,
-          "items": [
-            {
-              "kind": "text",
-              "path": "programs/currencies/agora/AGORA.txt"
-            },
-            {
-              "kind": "record",
-              "path": "cascade/AGORA"
-            }
-          ]
-        }
-      ],
-      "description_path": null
-    },
-    {
-      "path": "programs/federation",
-      "responsible_label": "GFWC",
-      "papers": [],
-      "note": "",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
-    },
-    {
-      "path": "programs/p99",
-      "responsible_label": "P99",
-      "papers": [],
-      "note": "",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      ]
     },
     {
       "path": "phones",
-      "responsible_label": "Phones",
-      "papers": [],
+      "dir": true,
       "note": "phone testing; GSA its specification, Code its code",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Phones",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "organisation",
-      "responsible_label": "Coordination",
-      "papers": [],
+      "dir": true,
       "note": "the organisation's rules: claude.md, the style guide and claudese.md",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Coordination",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "programs/apps",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "the apps' boot files and compile.sh",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "cascade",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "the recorded runs of the cascade",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "cascade.sh",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": false,
       "note": "the cascade",
-      "type": "blob",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "simulation",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "the recorded simulations",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "test",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "the suite's harness; the Dart test trees are IGLP's",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "tools",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "docs",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "servers/debuglog",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": true,
       "note": "the phones' debugging log service",
-      "type": "tree",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "CLAUDE.md",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": false,
       "note": "the rules for code",
-      "type": "blob",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
     },
     {
       "path": "README.md",
-      "responsible_label": "Code",
-      "papers": [],
+      "dir": false,
       "note": "the repository's layout",
-      "type": "blob",
-      "contracts": [],
-      "description_path": null
+      "who": "Code",
+      "text": "",
+      "contracts": []
+    }
+  ],
+  "no_paper_projects": [
+    {
+      "id": "Code",
+      "name": "The GLP repository as a whole",
+      "repository": ""
+    },
+    {
+      "id": "Coordination",
+      "name": "Grassroots Coordination",
+      "repository": ""
+    },
+    {
+      "id": "Website",
+      "name": "The site peoplesweb.org",
+      "repository": ""
+    },
+    {
+      "id": "Audit",
+      "name": "Our side of the audit by GPT auditors",
+      "repository": "udi-shapiro/Grassroots-Audit"
+    },
+    {
+      "id": "Phones",
+      "name": "Phone testing",
+      "repository": ""
+    },
+    {
+      "id": "GCE",
+      "name": "Grassroots Contract Examples",
+      "repository": ""
+    }
+  ],
+  "paper_versions": [
+    {
+      "project": "GLP",
+      "paper_key": "GLP-Spec",
+      "title": "GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI",
+      "pdf_path": "papers/GLP-Spec.pdf",
+      "pdf_blob": "ee7c3bd7e5dd1ea727ba6f9148b5f16351a4f415",
+      "expected_pdf_path": "papers/GLP-Spec.pdf",
+      "arxiv_id": "2510.15747",
+      "source_repository": "GLP-ICLP-2026",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GLP",
+      "paper_key": "TGLP",
+      "title": "Types for Grassroots Logic Programs",
+      "pdf_path": "papers/TGLP.pdf",
+      "pdf_blob": "3906a08d72e2afdf9c8c8c0c3f0293eac191ccc1",
+      "expected_pdf_path": "papers/TGLP.pdf",
+      "arxiv_id": "2601.17957",
+      "source_repository": "Moded-Types",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GLP",
+      "paper_key": "IGLP",
+      "title": "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
+      "pdf_path": "papers/IGLP.pdf",
+      "pdf_blob": "7d78302dcc266a74144b04aefb0f9b86bebd0bfb",
+      "expected_pdf_path": "papers/IGLP.pdf",
+      "arxiv_id": "2602.06934",
+      "source_repository": "CGLP",
+      "status": "built_pdf"
+    },
+    {
+      "project": "VMAT",
+      "paper_key": "VMAT",
+      "title": "Volition-Guarded Multiagent Atomic Transactions: Describing People and their Machines",
+      "pdf_path": "papers/VMAT.pdf",
+      "pdf_blob": "18c4dd39c6a9f8bba390e936baf5254c3d3233ef",
+      "expected_pdf_path": "papers/VMAT.pdf",
+      "arxiv_id": "2604.25596",
+      "source_repository": "Grassroots-atomic-transactions",
+      "status": "built_pdf"
+    },
+    {
+      "project": "vGLP",
+      "paper_key": "vGLP",
+      "title": "Volition Elicitation: Operational Semantics for People and Their Machines",
+      "pdf_path": "papers/vGLP.pdf",
+      "pdf_blob": "3b9b0aa4d7587a289105184d039f3b85fcd396dd",
+      "expected_pdf_path": "papers/vGLP.pdf",
+      "arxiv_id": "2607.14138",
+      "source_repository": "VEUI-Volition-Elicitation-Rationalizing-the-GLP-Smartphone-User-Interface",
+      "status": "built_pdf"
+    },
+    {
+      "project": "sGLP",
+      "paper_key": "sGLP",
+      "title": "sGLP: Simulating People with Stochastic Agents",
+      "pdf_path": "papers/sGLP.pdf",
+      "pdf_blob": "f24f00ea38e3585a58d117238f72a92614bb9dec",
+      "expected_pdf_path": "papers/sGLP.pdf",
+      "arxiv_id": "2610.14738",
+      "source_repository": "svGLP-Stochastic-Volitional-GLP",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GSC",
+      "paper_key": "GSC",
+      "title": "From Grassroots Contract to Grassroots App",
+      "pdf_path": "papers/GSC.pdf",
+      "pdf_blob": "f149dab08476abceb1a12fd41260956abd8a0011",
+      "expected_pdf_path": "papers/GSC.pdf",
+      "arxiv_id": "2609.06231",
+      "source_repository": "Jurix-Formal-Grassroots-Social-Contracts",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GSA",
+      "paper_key": "GSA",
+      "title": "The Grassroots Super-App and App Store",
+      "pdf_path": "papers/GSA.pdf",
+      "pdf_blob": "4ad544b45876ce2dc038876ed1798454e209f9ee",
+      "expected_pdf_path": "papers/GSA.pdf",
+      "arxiv_id": null,
+      "source_repository": "GSG-Grassroots-Social-Graph",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GSA",
+      "paper_key": "GNA",
+      "title": "GLP Networking API and Services",
+      "pdf_path": "papers/GNA.pdf",
+      "pdf_blob": "c657c0efd6c379a8b8354d5b6400aa8c8218bdbc",
+      "expected_pdf_path": "papers/GNA.pdf",
+      "arxiv_id": null,
+      "source_repository": "GLP-Networking-API",
+      "status": "built_pdf"
+    },
+    {
+      "project": "SPM",
+      "paper_key": "SPM",
+      "title": "Securing People and their Machines Against Major Faults",
+      "pdf_path": "papers/SPM.pdf",
+      "pdf_blob": "d5b0af0984c7dd38fdd694760204914e9940235a",
+      "expected_pdf_path": "papers/SPM.pdf",
+      "arxiv_id": "2607.02304",
+      "source_repository": "SPM-Securing-People-and-their-Machines",
+      "status": "built_pdf"
+    },
+    {
+      "project": "Currencies",
+      "paper_key": "GC",
+      "title": "Grassroots Currencies: Turning Mutual Trust into Liquidity",
+      "pdf_path": "papers/GC.pdf",
+      "pdf_blob": "4d0f60adbe89da7b1582133b0aeb77dd750d478b",
+      "expected_pdf_path": "papers/GC.pdf",
+      "arxiv_id": "2202.05619",
+      "source_repository": "GC-Grassroots-Currencies",
+      "status": "built_pdf"
+    },
+    {
+      "project": "Currencies",
+      "paper_key": "GB",
+      "title": "Grassroots Bonds: Financing by the People, for the People",
+      "pdf_path": "papers/GB.pdf",
+      "pdf_blob": "6f7461ef286d2e542f72f6dd1b2fa7ad169ccd35",
+      "expected_pdf_path": "papers/GB.pdf",
+      "arxiv_id": "2603.13671",
+      "source_repository": "Grassroots-Bonds",
+      "status": "built_pdf"
+    },
+    {
+      "project": "Currencies",
+      "paper_key": "SGC",
+      "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy",
+      "pdf_path": "papers/SGC.pdf",
+      "pdf_blob": "20ed031589780ad135cff8a83ae59bba5fb0a554",
+      "expected_pdf_path": "papers/SGC.pdf",
+      "arxiv_id": "2609.27727",
+      "source_repository": "SGC-Sovereign-Grassroots-Currencies",
+      "status": "built_pdf"
+    },
+    {
+      "project": "Currencies",
+      "paper_key": "GCC",
+      "title": "Grassroots Community Currencies",
+      "pdf_path": "papers/GCC.pdf",
+      "pdf_blob": "729059bfb49f4a2c7b10fe531be6e526796f145d",
+      "expected_pdf_path": "papers/GCC.pdf",
+      "arxiv_id": null,
+      "source_repository": "GCC-Grassroots-Commmunity-Currencies",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GAI",
+      "paper_key": "GAI",
+      "title": "Corralling AI Risks with Grassroots Contracts",
+      "pdf_path": "papers/GAI.pdf",
+      "pdf_blob": "b936cae30a6c1f4fb7cc2c1d37673eef85efc173",
+      "expected_pdf_path": "papers/GAI.pdf",
+      "arxiv_id": null,
+      "source_repository": "GAI-Grassroots-Building-AI-Resilience-with-AI",
+      "status": "built_pdf"
+    },
+    {
+      "project": "CSSN",
+      "paper_key": "CSSN",
+      "title": "Child-Safe Social Networking: From Social Contract to App",
+      "pdf_path": "papers/CSSN.pdf",
+      "pdf_blob": "15a55536fc38f62bf950b2972ab546553a508898",
+      "expected_pdf_path": "papers/CSSN.pdf",
+      "arxiv_id": null,
+      "source_repository": "SGLP",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GFF",
+      "paper_key": "GFF",
+      "title": "Grassroots Feeds and Followers",
+      "pdf_path": "papers/GFF.pdf",
+      "pdf_blob": "ba976be1b5493111d4ece7636ab7f939d9d2ad12",
+      "expected_pdf_path": "papers/GFF.pdf",
+      "arxiv_id": null,
+      "source_repository": "GFF-Grassroots-Feeds-and-Followers",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GGGA",
+      "paper_key": "GGGA",
+      "title": "Grassroots Governance of Grassroots Apps",
+      "pdf_path": null,
+      "pdf_blob": null,
+      "expected_pdf_path": null,
+      "arxiv_id": null,
+      "source_repository": null,
+      "status": "awaiting_version"
+    },
+    {
+      "project": "GGGA",
+      "paper_key": "SRC",
+      "title": "Trust, Distrust and Committed Dynamics for Sybil-Resilient Communities in Social Graphs",
+      "pdf_path": "papers/SRC.pdf",
+      "pdf_blob": "cb195995d81753c1a8245e8d3dec5363a1d7011c",
+      "expected_pdf_path": "papers/SRC.pdf",
+      "arxiv_id": null,
+      "source_repository": "SRC---Sybil-Resilient-Communities",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GO",
+      "paper_key": "GO",
+      "title": "Grassroots Organisations: Building Digital Banks, Networks, Corporations and Cooperatives",
+      "pdf_path": "papers/GO.pdf",
+      "pdf_blob": "794424cd208859d3e6a2f345068af1307bc983c6",
+      "expected_pdf_path": "papers/GO.pdf",
+      "arxiv_id": null,
+      "source_repository": "GO-Grassroots-Organisations",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GRH",
+      "paper_key": "GRH",
+      "title": "Grassroots Ride-Hailing",
+      "pdf_path": "papers/GRH.pdf",
+      "pdf_blob": "70834640b73ca7434131772d1165fec3e39a7450",
+      "expected_pdf_path": "papers/GRH.pdf",
+      "arxiv_id": null,
+      "source_repository": "GRH-Grassroots-Ride-Hailing",
+      "status": "built_pdf"
+    },
+    {
+      "project": "CGP",
+      "paper_key": "CGP",
+      "title": "Characterising Global Platforms: Centralised, Decentralised, Federated, and Grassroots",
+      "pdf_path": "papers/CGP.pdf",
+      "pdf_blob": "f5b70c2de90fda0a31874249055e047550f6b65f",
+      "expected_pdf_path": "papers/CGP.pdf",
+      "arxiv_id": "2511.03286",
+      "source_repository": "Global-Platforms-Characterization-ArXiv-2025",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GPAT",
+      "paper_key": "GPAT",
+      "title": "Grassroots Platforms with Atomic Transactions: Social Graphs, Cryptocurrencies, and Democratic Federations",
+      "pdf_path": "papers/GPAT.pdf",
+      "pdf_blob": "18b19c9c57c31520f0bade2de63854338e643a4b",
+      "expected_pdf_path": "papers/GPAT.pdf",
+      "arxiv_id": "2502.11299",
+      "source_repository": "ICDCN-2026",
+      "status": "built_pdf"
+    },
+    {
+      "project": "GPBD",
+      "paper_key": "GPBD",
+      "title": "Grassroots Platforms: Beyond Decentralisation",
+      "pdf_path": "papers/GPBD.pdf",
+      "pdf_blob": "30368a4791444366666514ad50dd0eac42704dc2",
+      "expected_pdf_path": "papers/GPBD.pdf",
+      "arxiv_id": null,
+      "source_repository": "GPBC-Grassroots-Platforms-Beyond-Decentralisation",
+      "status": "built_pdf"
+    },
+    {
+      "project": "DSA",
+      "paper_key": "DSA",
+      "title": "Digital Speech Acts Retain Control of Copyright with People, Not Platforms",
+      "pdf_path": "papers/DSA.pdf",
+      "pdf_blob": "e0dbd288a2c4e000cd83f952898c205cbf242cb7",
+      "expected_pdf_path": "papers/DSA.pdf",
+      "arxiv_id": "2606.19263",
+      "source_repository": "DSA",
+      "status": "built_pdf"
+    },
+    {
+      "project": "CCDG",
+      "paper_key": "CCDG",
+      "title": "Constitutional Consensus",
+      "pdf_path": "papers/CCDG.pdf",
+      "pdf_blob": "cce678d869f8905e11cfe2408f5dc14b2eae651d",
+      "expected_pdf_path": "papers/CCDG.pdf",
+      "arxiv_id": "2505.19216",
+      "source_repository": "Grassroots-Constitutional-Consensus-2026",
+      "status": "built_pdf"
+    },
+    {
+      "project": "CGMS",
+      "paper_key": "CGMS",
+      "title": "Constitutional Governance in Metric Spaces",
+      "pdf_path": "papers/CGMS.pdf",
+      "pdf_blob": "1bc337958228226d47958afa68ac205ff8245914",
+      "expected_pdf_path": "papers/CGMS.pdf",
+      "arxiv_id": "2605.13362",
+      "source_repository": "SMA-Simple-Metric-Aggregation",
+      "status": "built_pdf"
+    }
+  ],
+  "contract_owners": [
+    {
+      "contract": "CSSN",
+      "path": "programs/cssn/CSSN.txt",
+      "blob": "b40840064fb6af75030cbfa610c13c2d66655e02",
+      "owner_line": "% Owner: CSSN.  The paper, /Users/udi/Grassroots/CSSN/main_CSSN.tex, prints it in its box in Section 4.1 and cites a clause as CSSN:1.",
+      "paper_key": "CSSN"
+    },
+    {
+      "contract": "GSNW",
+      "path": "programs/cssn/GSNW.txt",
+      "blob": "b1ab0f8c17f8984521aa0c27db73e26c3101e054",
+      "owner_line": "% Owner: CSSN (Udi, 2026-11-10, to GSC #14, reported by GSC, and to CSSN #14, the name): CSSN is its one user today, and GSC takes it over if a second contract comes to need it.  The paper, /Users/udi/Grassroots/CSSN/main_CSSN.tex, prints it in its box and cites a clause as GSNW:1.",
+      "paper_key": "CSSN"
+    },
+    {
+      "contract": "AGORA",
+      "path": "programs/currencies/agora/AGORA.txt",
+      "blob": "64cc33b9ebcf4de1efe4f0ef775ef86400e216ea",
+      "owner_line": "% Owner: Talmon.  No paper (just an example of a grassroots contract).",
+      "paper_key": null
+    },
+    {
+      "contract": "BCC",
+      "path": "programs/currencies/bcc/BCC.txt",
+      "blob": "127c499b84bd1a36ed4f14731a1b121c760ff56e",
+      "owner_line": "% Owner: Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as BCC:1.  Named and owned by Udi's ruling of 2026-11-04 (to Currencies #15, 15:17).",
+      "paper_key": "GCC"
+    },
+    {
+      "contract": "GB",
+      "path": "programs/currencies/bonds/GB.txt",
+      "blob": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
+      "owner_line": "% Owner: Currencies (GB).  The paper, /Users/udi/Grassroots/GB/main_Grassroots_Bonds.tex, prints it in its box in Section 3.1 and cites a clause as GB:1.",
+      "paper_key": "GB"
+    },
+    {
+      "contract": "GC",
+      "path": "programs/currencies/coins/GC.txt",
+      "blob": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
+      "owner_line": "% Owner: Currencies (GC).  The paper, /Users/udi/Grassroots/GC/main_Grassroots_Currencies.tex, prints it in its box in Section 2.1 and cites a clause as GC:1; GSC's paper quotes it beside GSN.",
+      "paper_key": "GC"
+    },
+    {
+      "contract": "GCC",
+      "path": "programs/currencies/gcc/GCC.txt",
+      "blob": "358960d20735348450d5917d449c3b96a71c90b8",
+      "owner_line": "% Owner: Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as GCC:1.",
+      "paper_key": "GCC"
+    },
+    {
+      "contract": "GDC",
+      "path": "programs/currencies/gdc/GDC.txt",
+      "blob": "16ee7e1f4170c9f6c93c6393cbade65275da3fd2",
+      "owner_line": "% Owner: Currencies (GCC).  The paper, /Users/udi/Grassroots/GCC/main_SGC.tex, prints it in its box in Section 2 and cites a clause as GDC:1; GCC and BCC extend it.  Named and owned by Udi's ruling of 2026-11-04 (to Currencies #15, 15:27): the denominated coins contract above GCC, GC with denomination, which DGC, the full denominated currencies contract with bonds, acceptances and escrow, is more than coins need.",
+      "paper_key": "GCC"
+    },
+    {
+      "contract": "DGC",
+      "path": "programs/currencies/sovereign/DGC.txt",
+      "blob": "0b5256ea4325482da8cc316149dd1c0d5b56ad42",
+      "owner_line": "% Owner: Currencies (SGC).  The paper, /Users/udi/Grassroots/SGC/main_SGC.tex, states it in Section 2.1 and cites a clause by number, and GCC's paper quotes it as what GCC extends; it is named DGC, its owner Currencies, by Udi's ruling of 2026-11-04 (to Currencies #15): the contract names no sovereign, the sovereign being a party like any other.",
+      "paper_key": "SGC"
+    },
+    {
+      "contract": "GDS",
+      "path": "programs/examples/rendezvous/GDS.txt",
+      "blob": "5f03ce3c63b48bbd8828df81a64d1cc92cd378a6",
+      "owner_line": "% Owner: GNA, a paper of the GSA project (Udi, 2026-11-08).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box and cites a clause as GDS:1.",
+      "paper_key": "GNA"
+    },
+    {
+      "contract": "GRV",
+      "path": "programs/examples/rendezvous/GRV.txt",
+      "blob": "2ad448007ee7e578641223e57e8147a6b701e4bf",
+      "owner_line": "% Owner: GNA, a paper of the GSA project (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box and cites a clause as GRV:1.",
+      "paper_key": "GNA"
+    },
+    {
+      "contract": "GSV",
+      "path": "programs/examples/rendezvous/GSV.txt",
+      "blob": "67f2ed50fdaa3dca90807063a910ccd6d77fb7c3",
+      "owner_line": "% Owner: GNA, a paper of the GSA project (Udi, 2026-11-10 13:49 UTC, to GSA #3).  The paper, /Users/udi/Grassroots/GNA/main.tex, Section 6, prints it in its box.",
+      "paper_key": "GNA"
+    },
+    {
+      "contract": "GAI",
+      "path": "programs/gai/GAI.txt",
+      "blob": "f9ecba72366715d25e1d165b7a87ce9b677e696f",
+      "owner_line": "% Owner: GAI.  The paper, /Users/udi/Grassroots/GAI/main_characterisation_ArXiv.tex, prints it in its box in Section 3.1 and cites a clause as GAI:1.",
+      "paper_key": "GAI"
+    },
+    {
+      "contract": "GSNP",
+      "path": "programs/gai/GSNP.txt",
+      "blob": "1f7c2a6aa8fef1c66e94ce89147e79c8da0eb448",
+      "owner_line": "% Owner: GAI (Udi, 2026-10-20; GSC's until that day).  The paper, /Users/udi/Grassroots/GAI/main_characterisation_ArXiv.tex, prints it in its box in Section 4.1.",
+      "paper_key": "GAI"
+    },
+    {
+      "contract": "DAO",
+      "path": "programs/gce/dao/DAO.txt",
+      "blob": "4e49149a1d6e83b023b78b628bdf0ea923267acf",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "FDAO",
+      "path": "programs/gce/fdao/FDAO.txt",
+      "blob": "11c07a66c08cb4b85b0c23cb722543e1d39bf230",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "JOINT",
+      "path": "programs/gce/joint/JOINT.txt",
+      "blob": "afc15a8a6a7b3e119c01cc43e3fcedcceb6acf71",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "LDAO",
+      "path": "programs/gce/ldao/LDAO.txt",
+      "blob": "282b2ff9b4ef5093893f5974164a69bb34937d4b",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "LIB",
+      "path": "programs/gce/lib/LIB.txt",
+      "blob": "643d678efe6dc78fb55222c05de0a55f1ee5f696",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "REC",
+      "path": "programs/gce/rec/REC.txt",
+      "blob": "da822499505cf88ee64f6ca9c4e9bd296e1a532d",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "STAY",
+      "path": "programs/gce/stay/STAY.txt",
+      "blob": "ae7446ac7111bc6c9eff22e0a9981a12a1bdb5ff",
+      "owner_line": "% Owner: GCE, Grassroots Contract Examples, Nimrod Talmon's.  The paper responsible: GCE (https://github.com/nimrodtalmon/grassroots-contracts/blob/main/paper/main.pdf), which prints this contract with the other example contracts.",
+      "paper_key": null
+    },
+    {
+      "contract": "GDO-L",
+      "path": "programs/gff/GDO-L.txt",
+      "blob": "24f4245bddb22d5c66bb9cb203819aac15189465",
+      "owner_line": "% Owner: GFF (Udi, 2026-11-05, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GDO-L:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GFF-FR-BC",
+      "path": "programs/gff/GFF-FR-BC.txt",
+      "blob": "51e2a7880e2099bc1db9ef71ce6f865d11b432fd",
+      "owner_line": "% Owner: GFF (Udi, 2026-11-07, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-FR-BC:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GFF-FR",
+      "path": "programs/gff/GFF-FR.txt",
+      "blob": "5060b5c5e5e056937c33c946221bb4dd4ad9e678",
+      "owner_line": "% Owner: GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-FR:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GFF-I",
+      "path": "programs/gff/GFF-I.txt",
+      "blob": "06b22ed299a5697f6c825b275c93cd76ec6c9383",
+      "owner_line": "% Owner: GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-I:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GFF-PS",
+      "path": "programs/gff/GFF-PS.txt",
+      "blob": "52e7d31955be7b5335e6a4f57b980628dbdb2bf1",
+      "owner_line": "% Owner: GFF (Udi, 2026-11-06, to GFF #3).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF-PS:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GFF",
+      "path": "programs/gff/GFF.txt",
+      "blob": "f343ba81d1ccdd07bff797c3ea942f7353dde53e",
+      "owner_line": "% Owner: GFF (Udi, 2026-10-27).  The paper, /Users/udi/Grassroots/GFF/main_CSSN.tex, prints it in its box and cites a clause as GFF:1.",
+      "paper_key": "GFF"
+    },
+    {
+      "contract": "GD-S",
+      "path": "programs/ggga/GD-S.txt",
+      "blob": "a690cb359379e349c37a1cee7698573243fdfbd8",
+      "owner_line": "% Owner: GGGA (Udi, 2026-11-06, to GGGA #3).  The paper, /Users/udi/Grassroots/SRC/main-distrust-layers.tex, of the GGGA project, prints it in its box in sections/sybil-resilience.tex, and cites a clause as GD-S:1.",
+      "paper_key": "SRC"
+    },
+    {
+      "contract": "GD",
+      "path": "programs/ggga/GD.txt",
+      "blob": "711b8c0046c73071369edd42588b393f8ea1a456",
+      "owner_line": "% Owner: GGGA (Udi, 2026-11-05, to GGGA #3).  The paper, /Users/udi/Grassroots/SRC/main-distrust-layers.tex, of the GGGA project, prints it in its box in sections/sybil-resilience.tex, and cites a clause as GD:1.",
+      "paper_key": "SRC"
+    },
+    {
+      "contract": "CB",
+      "path": "programs/go/CB.txt",
+      "blob": "45e928420d689330595e7373b89284391fbd6b03",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.2 and cites a clause as CB:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "CC",
+      "path": "programs/go/CC.txt",
+      "blob": "114550df3eae7d4ec810aee3d987493c4d50f4fe",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.3 and cites a clause as CC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "CMB",
+      "path": "programs/go/CMB.txt",
+      "blob": "f3327e29086616d1fc577c3586a5e634311e02c2",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.4 and cites a clause as CMB:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "CnC",
+      "path": "programs/go/CnC.txt",
+      "blob": "43d92ccf7f810e9f01cbe3a2f6816708d3b54c4c",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.2 and cites a clause as CnC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GAN",
+      "path": "programs/go/GAN.txt",
+      "blob": "8409dbc9e59a823d761c9746b2b81904a60e3d71",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.2 and cites a clause as GAN:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GBCC",
+      "path": "programs/go/GBCC.txt",
+      "blob": "fd1c30264e9038815cdb3c140b795ccc60b34c6c",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.3 and cites a clause as GBCC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GBank",
+      "path": "programs/go/GBank.txt",
+      "blob": "a0959b110e6b3e0ea57e92a277a199a952f04474",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4, Grassroots Banks and cites a clause as GBank:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GCoop",
+      "path": "programs/go/GCoop.txt",
+      "blob": "381b8958fab1342f3be2f9c9cfd7afdea124b738",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7, Grassroots Cooperatives and cites a clause as GCoop:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GCorp",
+      "path": "programs/go/GCorp.txt",
+      "blob": "1fae4227e5f4c6994807ac46c4b3c730469fb5c9",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6, Grassroots Corporations and cites a clause as GCorp:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GDAO",
+      "path": "programs/go/GDAO.txt",
+      "blob": "9ce89fe768a5574bc39fc8ec278cc7d2c6f4cbb0",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.3 and cites a clause as GDAO:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GLDAO",
+      "path": "programs/go/GLDAO.txt",
+      "blob": "e314049cc734f77d9803ad183a5aa9f555d000b5",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.3 and cites a clause as GLDAO:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GNG",
+      "path": "programs/go/GNG.txt",
+      "blob": "7a883a9c188a87347e6fd8680d266731c69a95e3",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.5 and cites a clause as GNG:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GNL",
+      "path": "programs/go/GNL.txt",
+      "blob": "f491182eca5275f5c6689ea650bef3e26748aa09",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.3 and cites a clause as GNL:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GNM",
+      "path": "programs/go/GNM.txt",
+      "blob": "392e14b221bbdc5e208e76eb1ed57fbfde3be917",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.4 and cites a clause as GNM:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GNO",
+      "path": "programs/go/GNO.txt",
+      "blob": "c9383c9a2bdd8112829ec59bb1bac0d3bc99ebe3",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5, Grassroots Network Organisations and cites a clause as GNO:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GO",
+      "path": "programs/go/GO.txt",
+      "blob": "2df92250905c17872a085db84596e51c8ea82e3b",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 3, Grassroots Organisations and cites a clause as GO:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "MCS",
+      "path": "programs/go/MCS.txt",
+      "blob": "bd44073b4739372c0dae65e65eced0d9e643e30c",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.1 and cites a clause as MCS:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "ORH",
+      "path": "programs/go/ORH.txt",
+      "blob": "0129ca67b08e195d913d40cd2b376bbbf4d90025",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 5.1 and cites a clause as ORH:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "SC",
+      "path": "programs/go/SC.txt",
+      "blob": "ed4b81c8a504dd817d3580429b705fd5876f6ce4",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.3 and cites a clause as SC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "SCB",
+      "path": "programs/go/SCB.txt",
+      "blob": "b9bc93a07c02fd1d3de2e20d1bc2b200bea6a6b0",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 4.5 and cites a clause as SCB:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "SPLLC",
+      "path": "programs/go/SPLLC.txt",
+      "blob": "2fc3082659c9b5b1ed1b81e510494bc9ca143e9f",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.1 and cites a clause as SPLLC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "TC",
+      "path": "programs/go/TC.txt",
+      "blob": "756fa8f49737f0a7b52db2a3383f4d1b4d90ea29",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 6.2 and cites a clause as TC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "WC",
+      "path": "programs/go/WC.txt",
+      "blob": "070f7f993f588f008dfb7c25b1240b31af05942b",
+      "owner_line": "% Owner: GO (Udi, 2026-11-09, to GO #3).  The paper, /Users/udi/Grassroots/GO/main_characterisation_ArXiv.tex, prints it in its box in Section 7.1 and cites a clause as WC:1.",
+      "paper_key": "GO"
+    },
+    {
+      "contract": "GFP",
+      "path": "programs/gsc/GFP.txt",
+      "blob": "e9624d0814bbfb32a02ec72a19a039bb6e5fbb5d",
+      "owner_line": "% Owner: GSC (Udi, 2026-11-07, to GSC #13, on GSA #1's proposal of 18:09 UTC, which he supported).  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.3 and cites a clause as GFP:1; GSNP, GAI's, and GPD, GSA's, extend it.",
+      "paper_key": "GSC"
+    },
+    {
+      "contract": "GKK",
+      "path": "programs/gsc/GKK.txt",
+      "blob": "63bb34892002bcf8a6976d6259d049d6964a6449",
+      "owner_line": "% Owner: GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.1 and cites a clause as GKK:1; GSG, GSN and GC quote it as what they extend.",
+      "paper_key": "GSC"
+    },
+    {
+      "contract": "GSG",
+      "path": "programs/gsc/GSG.txt",
+      "blob": "ccabb815abdc1b815ead23e035e7b1332ec7a60f",
+      "owner_line": "% Owner: GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.2 and cites a clause as GSG:1; GAI's and CSSN's papers quote it.",
+      "paper_key": "GSC"
+    },
+    {
+      "contract": "GSN",
+      "path": "programs/gsc/GSN.txt",
+      "blob": "d9ff422a2460d8e8c37b1d995b2ca236ade677ed",
+      "owner_line": "% Owner: GSC.  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2.3 and cites a clause as GSN:1; GSNP, GAI's, and CSSN extend it.",
+      "paper_key": "GSC"
+    },
+    {
+      "contract": "GnW",
+      "path": "programs/gsc/GnW.txt",
+      "blob": "d7a70ae04875059a010a894fd93f9408323aaa3c",
+      "owner_line": "% Owner: GSC (Udi, 2026-11-10, to GSC #14: GAI, CSSN and GO all build on it and none is the base of the others; GAI's from 2026-10-20 until that day, and GSC's, named Wards, before).  The paper, /Users/udi/Grassroots/GSC/main.tex, prints it in its box in Section 2, Guardians and Wards, and cites a clause as GnW:1; GAI's wards are AI agents and their guardians the persons operating them, CSSN's children and their parents, GO's organisations and their officers.",
+      "paper_key": "GSC"
+    },
+    {
+      "contract": "GDO-LB",
+      "path": "programs/lbm/GDO-LB.txt",
+      "blob": "e81ba874adbb1eaa49220fab717b937b91fcc114",
+      "owner_line": "% Owner: GRH (Udi, 2026-11-06, to GRH #1, who named it).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section Grassroots Directed Overlay, sections/overlay.tex, and cites a clause as GDO-LB:1.",
+      "paper_key": "GRH"
+    },
+    {
+      "contract": "GDO",
+      "path": "programs/lbm/GDO.txt",
+      "blob": "ba8f2e38c3a7ad8590abc4b1d588697a864b202d",
+      "owner_line": "% Owner: GRH (Udi, 2026-11-05, to GRH #1; LBM until then, Udi, 2026-11-02, to LBM #4).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section Grassroots Directed Overlay, sections/overlay.tex, and cites a clause as GDO:1.",
+      "paper_key": "GRH"
+    },
+    {
+      "contract": "GRA-SS",
+      "path": "programs/lbm/GRA-SS.txt",
+      "blob": "e0adbcbed7ccda4a446e4abb55108613a35b38d8",
+      "owner_line": "% Owner: GRH (Udi, 2026-11-06, to GRH #1).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section The Ride, sections/ride.tex, and cites a clause as GRA-SS:1.",
+      "paper_key": "GRH"
+    },
+    {
+      "contract": "GRA",
+      "path": "programs/lbm/GRA.txt",
+      "blob": "648480580770d932a01ee4f206865fb429d629f1",
+      "owner_line": "% Owner: GRH (Udi, 2026-11-05, to GRH #1; LBM until then, Udi, 2026-11-03, to LBM #4).  The paper, /Users/udi/Grassroots/GRH/main_GRH.tex, prints it in its box in Section The Ride, sections/ride.tex, and cites a clause as GRA:1.",
+      "paper_key": "GRH"
+    },
+    {
+      "contract": "GAS",
+      "path": "programs/social/graph/GAS.txt",
+      "blob": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
+      "owner_line": "% Owner: GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, prints it in its box in the section on the store and cites a clause as GAS:1.",
+      "paper_key": "GSA"
+    },
+    {
+      "contract": "GPD",
+      "path": "programs/social/graph/GPD.txt",
+      "blob": "cbf1121d49cbca3ed51a8ce6eee4ca6da1289302",
+      "owner_line": "% Owner: GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, prints it in its box and cites a clause as GPD:1.",
+      "paper_key": "GSA"
+    },
+    {
+      "contract": "GPE",
+      "path": "programs/social/graph/GPE.txt",
+      "blob": "fa564f0577d1e12e81029002c2cc994473d54190",
+      "owner_line": "% Owner: GSA (Udi, 2026-11-07).  The paper, /Users/udi/Grassroots/GSA/main_SGSG.tex, Section 5.2, prints it in its box and cites a clause as GPE:1.",
+      "paper_key": "GSA"
     }
   ],
   "earlier_papers": [
     {
-      "dir": "Federation",
       "title": "Grassroots Federation: Fair Democratic Governance at Scale",
       "authors": "Nimrod Talmon and Ehud Shapiro",
       "arxiv": "2505.02208",
@@ -1894,7 +2444,7 @@
     },
     {
       "title": "The Blocklace: A Byzantine-repelling and Universal Conflict-free Replicated Data Type",
-      "authors": "Paulo Sérgio Almeida and Ehud Shapiro",
+      "authors": "Paulo S\u00e9rgio Almeida and Ehud Shapiro",
       "arxiv": "2402.08068"
     },
     {
@@ -1916,11 +2466,8 @@
       "venue": "AAAI 2025"
     }
   ],
-  "mapping_notices": [],
   "unaccounted": [],
-  "declared_paths_absent_from_snapshot": [
-    "programs/system",
-    "papers"
-  ],
-  "note": "Derived by reading source tables, contract headers and the immutable Git tree; no GLP build, compiler, runtime or certification was executed."
+  "tree_faults": [],
+  "omitted_contracts": [],
+  "duplicate_contracts": []
 }

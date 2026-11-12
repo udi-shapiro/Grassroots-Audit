@@ -1,0 +1,3 @@
+{"case":"typed_pair_finite","phase":"start"}
+{"case":"typed_pair_finite","phase":"typed_load","accepted":true}
+{"case":"typed_pair_finite","phase":"typed_goal","goal":"p(Y, a)","status":"succeeded","error":null}

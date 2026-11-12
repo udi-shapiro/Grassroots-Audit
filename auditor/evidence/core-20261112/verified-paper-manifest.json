@@ -1,0 +1,44 @@
+[
+  {
+    "path": "papers/GLP-Spec.pdf",
+    "bytes": 338047,
+    "git_sha": "ee7c3bd7e5dd1ea727ba6f9148b5f16351a4f415",
+    "sha256": "df9094b2ba5886708e43dffc1b99287111e8d5a7ea83113ac3d32cb6eda51bc8"
+  },
+  {
+    "path": "papers/GSC.pdf",
+    "bytes": 2181325,
+    "git_sha": "f149dab08476abceb1a12fd41260956abd8a0011",
+    "sha256": "c8d1e849bad17c34ff6a8611baf3fde76c2b4f3f8795f1878a684138038cde4b"
+  },
+  {
+    "path": "papers/IGLP.pdf",
+    "bytes": 852587,
+    "git_sha": "7d78302dcc266a74144b04aefb0f9b86bebd0bfb",
+    "sha256": "8174b4e983d140cffeadd14831f2cb158912da71d872dc95fda1436cea7d76e5"
+  },
+  {
+    "path": "papers/TGLP.pdf",
+    "bytes": 685092,
+    "git_sha": "3906a08d72e2afdf9c8c8c0c3f0293eac191ccc1",
+    "sha256": "9d8558b3d4561967ae61bb31695c75a22d138cd5b5c03f24cb5e464edea64347"
+  },
+  {
+    "path": "papers/VMAT.pdf",
+    "bytes": 573644,
+    "git_sha": "18c4dd39c6a9f8bba390e936baf5254c3d3233ef",
+    "sha256": "b12e7f63b26aa333a577ba4860866fcb43b09ed9d6ef6ab18faad21b9e44a807"
+  },
+  {
+    "path": "papers/sGLP.pdf",
+    "bytes": 699944,
+    "git_sha": "f24f00ea38e3585a58d117238f72a92614bb9dec",
+    "sha256": "bcb5a1ba3aa64ca313deea59b2f51e5f3a8c0312907a9c4261c3a181bd1507f0"
+  },
+  {
+    "path": "papers/vGLP.pdf",
+    "bytes": 2685068,
+    "git_sha": "3b9b0aa4d7587a289105184d039f3b85fcd396dd",
+    "sha256": "a80071b15cdbbf2b2a86d5a27d5f40477e5bbb70b604a095e2d2bff8afc4e162"
+  }
+]

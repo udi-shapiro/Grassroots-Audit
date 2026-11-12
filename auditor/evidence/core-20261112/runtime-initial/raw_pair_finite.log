@@ -1,0 +1,3 @@
+{"case":"raw_pair_finite","phase":"start"}
+{"case":"raw_pair_finite","phase":"drain","status":"succeeded","goals_run":1}
+{"case":"raw_pair_finite","phase":"output","kind":"StructTerm","functor":"f","inner_dereferences_to_same_structure":false}

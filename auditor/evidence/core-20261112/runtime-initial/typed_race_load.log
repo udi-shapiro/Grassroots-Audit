@@ -1,0 +1,2 @@
+{"case":"typed_race_load","phase":"start"}
+{"case":"typed_race_load","phase":"exception","type":"CompileError","message":"[syntax] Procedure declaration for \"choose\" has no clauses.\n  A procedure declaration must be immediately followed by its clauses. at Line 3, Column 1"}
