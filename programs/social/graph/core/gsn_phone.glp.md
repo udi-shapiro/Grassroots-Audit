@@ -3,11 +3,11 @@
 Project: GSC
 Auditor: ChatGPT/Codex, coordination session of 2026-11-12; model version not exposed
 Date: 2026-11-12
-GLP commit: 7976014a5f9b5fefc33abcc922d491abc41dfad5
-Other source versions: The source files at the GLP commit above.
+GLP commit: 9b690ad08a1a92239e254d57b03dcfde87461ebc
+Other source versions: Original baseline `7976014a5f9b5fefc33abcc922d491abc41dfad5`; correction on the GSC branch at the commit in the header. The correction was not in main at the integration check recorded below.
 
 Scope: Stage 2: consistency of the creator certificate's act list with its declared contract.
-Coverage: Read certified/3 and the phone wrapper, and compared the literal certificate list with all 14 schemas in GSN.glp. This is a static metadata finding; no signing, certificate validation, app installation or phone execution was performed.
+Coverage at first publication (extended below): Read certified/3 and the phone wrapper, and compared the literal certificate list with all 14 schemas in GSN.glp. This is a static metadata finding; no signing, certificate validation, app installation or phone execution was performed.
 
 ## Finding 1: The creator certificate names drop and omits remove
 
@@ -30,3 +30,10 @@ Corrected: [GLP 9b690ad08a1a92239e254d57b03dcfde87461ebc](https://github.com/ESh
 ### Verification
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
+
+
+### GSC response verification, 2026-11-12
+
+**Verified corrected at `9b690ad08a1a92239e254d57b03dcfde87461ebc` on GSC's branch**, phone-file blob `d9c2afd2b69d246e1edc90d0a7f74d19cdee5af1`. The literal certificate list equals the actual 15 schema names at that commit, including `remove` and the newly added `deliver_leader`, and excluding `drop`. The accompanying comment is consistent. [The parsed-source comparison](https://github.com/udi-shapiro/Grassroots-Audit/blob/87fda77601888f423be0b38baac554dd9c4df4ac/auditor/evidence/gsc-response-20261112/gsn-correction.json) reports no extra or omitted act names.
+
+The attributed answer from [PR #8](https://github.com/udi-shapiro/Grassroots-Audit/pull/8) is preserved above. This verifies the static metadata correction, not cryptographic execution or app installation. The GSC commit was not yet an ancestor of GLP main `92d7735a10588c9604a779ac3cd23742501d60cd`; integration remains pending. The historical reproduction above remains valid for its original version.
