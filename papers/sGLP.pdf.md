@@ -43,6 +43,9 @@ Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, 
 
 Read the simulation proof in Appendix A around the relay/mapping cases, and compared its restated vmaGLP Answer rule with the current vGLP paper. Visually checked PDF pp. 15 and 20. The PDF blob is unchanged at `f4ae6121866387641f2941e3e9bf46e5fd964e7d`. The selected SimClock tests passed as part of the 72-test [runtime run](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43304380799); this does not repair Finding 1's conditioning statement or reproduce the paper's empirical studies.
 
+
+2026-11-12 — The attributed answer to Finding 1 was accepted in [PR #12](https://github.com/udi-shapiro/Grassroots-Audit/pull/12). Verification is deferred under Udi's instruction to leave the core papers until all six existing questions have answers. The referenced paper source and rebuilt PDF have not been re-examined in this application sweep. Finding 1 is answered, not verified closed; Finding 2 remains unanswered. Five of the original six core findings still await answers.
+
 ## Finding 2: The simulation proof uses a different rule for closed-question answers
 
 Severity: medium

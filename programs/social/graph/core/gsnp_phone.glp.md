@@ -31,3 +31,8 @@ Corrected: [GLP cc3bf907f674999dcef4b90fd7499f47a0b1698b](https://github.com/ESh
 ### Verification
 
 2026-11-12 — The extra name and 12 omissions were reproduced from the pinned source. No correction received; finding remains open.
+
+
+2026-11-12 — Accepted [GAI's answer in PR #11](https://github.com/udi-shapiro/Grassroots-Audit/pull/11), preserving it above. The correction `cc3bf907` is now integrated in GLP main `c40e6d3ad68b198066ab723d17c05171c0a7de76`. Independent comparison confirms that all 31 signed names and the complete verdict exactly match the current `cascade/GSNP` record. This repairs the current-contract description. The committed app still has 29 schema entries: the certificate additionally names `agent_end` and `deliver_leader`, absent from that app. There are no remaining omissions from the app's name set. [Comparison evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/d61f8d3f6520ec0ef665d3a7030a517beda982ba/auditor/evidence/currencies-gsa-20261112/certificate-followup.json).
+
+**Answered; partially corrected; finding remains open.** Its original criterion is correspondence to the artifact being certified, not only to the current contract. Complete that correspondence when the app is regenerated/versioned; then verify the artifact, certificate and executable app together. The shared [known-red compilation transition](../../../../test/run_all_tests.sh.md) is recorded once, not as a new finding here.

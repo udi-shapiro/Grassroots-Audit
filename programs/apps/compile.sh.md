@@ -29,7 +29,7 @@ The scripts and app READMEs describe the committed platforms as compiler output 
 
 The [unaltered execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43316846386) completed both commands in approximately 109 and 37 seconds respectively. [The diagnostic run](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43318139408) identifies the rejected schemas. For GAI/GSNP/CSSN the compiler points to listed guarding roles and their opener/guard sets; for GFF it points to an unguarded schema whose first role cannot determine the needed values under its effectiveness check. These are the implementation's reported reasons, not an independent judgment of the held core-paper definitions.
 
-This gap is partly already documented. [test/run_all_tests.sh](https://github.com/EShapiro2/GLP/blob/5c17c4aa069743d990d993ca23c65200df982754/test/run_all_tests.sh#L141) explicitly records GAI and GSNP's earlier compiled apps as known red after their move to GnW instances and says a ruling is pending. The audit confirms that acknowledged limitation and records the observed CSSN/GFF scope; it does not present the acknowledged GAI/GSNP dependency as a newly discovered design issue.
+The acknowledged dependencies in this historical table are now recorded once in [the shared known-red registry](../../test/run_all_tests.sh.md). They are context for this integration report, not new findings per app. The registry preserves exact check names and the source's group explanations; the additional CSSN/GFF observations and direct-load evidence remain part of this one integration finding.
 
 Consequently, a passing play of the committed historical platform cannot validate the current contract-to-app correspondence. For example, the current GFF contract uses the overlay-based `deliver` schema, while its app README still describes the former `deliver_own`/`deliver_on` design. CSSN's README likewise describes 31 schemas, whereas the current instance contains 39. These are supporting examples of the same integration gap, not additional numbered findings.
 
@@ -65,3 +65,8 @@ The rebuild comparison certifies only agreement with compiler output. It does no
 ### Source advance during the sweep
 
 At publication, GLP main had advanced to `3a9fa6842264e10bb9529fd5bdc05226163fca20`, integrating the already verified GSN leader-receipt and certificate corrections and updating their GSN test expectations and cascade records. The CSSN/GAI/GSNP/GFF sources involved in this report, the compilation tools and runtime were unchanged in that comparison. The numerical suite results above remain results at `5c17c4a`; the later GSN test expectations were not rerun in this sweep. No held core-paper report was changed.
+
+
+### Follow-up source observation, 2026-11-12
+
+GLP main `8f6cf17a63a956fa41a0184648cba0882a40ed32` incorporates `2edb7ee` and `69c299b`: GFF's compile input changes from abstract GFF to GFF-I, and the corresponding APPS check label changes. This is a relevant correction attempt, observed after the pinned run above. It does not alter the currency/GSA inputs or `KNOWN_RED_CHECKS`. No new GFF rebuild/load run is claimed in the currency/GSA sweep, so the report does not treat the historical GFF refusal as a tested result on this newer head or claim the whole integration finding is repaired. Code's PR #11 status note says its coordinated answer will follow when corrected; it was not submitted as a formal answer to this finding.
