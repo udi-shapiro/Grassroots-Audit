@@ -13,7 +13,7 @@ There is one GPT auditor for each Claude project, responsible for that project's
 
 ## Where reports belong
 
-The following directories match all 12 top-level directories in GLP at commit `632dba5bf58cef99cc132dc5738ff1f09ba79d64` (12 November 2026). `papers/` is the one addition: it matches the directory of GLP's branch `papers`. Empty directories have a `.gitkeep` until reports are added. Preserve the source's deeper paths when placing a report.
+The following directories match all 12 top-level directories in GLP at commit `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458` (12 November 2026). `papers/` is the one addition: it matches the directory of GLP's branch `papers`. Empty directories have a `.gitkeep` until reports are added. Preserve the source's deeper paths when placing a report.
 
 | GLP directory / audit directory | Material audited |
 | --- | --- |
@@ -39,16 +39,20 @@ The audit has started in stages. Stage 1 publishes the [source and ownership bas
 
 All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
 
-## Stage 2: first sweep of the formal and executable core
+## Stage 2: current bounded core sweep
 
-This bounded sweep covers the five queued projects below. It adds five findings and extends the existing GLP pair-completion finding. It does not complete the core audit: unread paper sections, two inaccessible PDF payloads and unavailable Dart execution remain recorded limitations.
+The second core sweep adds two findings: [vGLP strong fairness](papers/vGLP.pdf.md) and [sGLP closed-question compatibility](papers/sGLP.pdf.md#finding-2-the-simulation-proof-uses-a-different-rule-for-closed-question-answers). It extends the existing GLP/IGLP findings with actual Dart execution and the multiagent proof comparison, and links the GSC paper to the existing GSN delivery finding. Finding identifiers are retained. The complete project audit remains in progress.
 
-| Project | Work and report | Remaining coverage |
+| Project | Current evidence | Remaining coverage |
 | --- | --- | --- |
-| GLP | [GLP-Spec](papers/GLP-Spec.pdf.md), [type-rule evidence](papers/TGLP.pdf.md), [implementation theorem](papers/IGLP.pdf.md) | Remaining typing/modules and multiagent proofs; actual compiler/runtime runs |
-| VMAT | [Versioned fallback scope](papers/VMAT.pdf.md): arXiv 2604.25596v2, Sections 2–3 and the social-graph proof | No VMAT PDF exists in the inspected GLP papers tree; reconcile this older fallback with the version used by the current cascade |
-| vGLP | [Compiler/pragma boundary](programs/vglp/cva/compiler.md) | Current PDF retrieval and compilation/2PC proof and execution |
-| sGLP | [Clock law](papers/sGLP.pdf.md), clock/monitor source inspection | Full simulation proof, empirical reproduction and runtime tests |
-| GSC | [GSN delivery](programs/gsc/GSN.glp.md), [creator certificate](programs/social/graph/core/gsn_phone.glp.md) | Current GSC PDF retrieval, broader schema/compiler proof and runtime tests |
+| GLP | [GLP-Spec](papers/GLP-Spec.pdf.md), [TGLP](papers/TGLP.pdf.md), [IGLP](papers/IGLP.pdf.md); typed cycle and FIFO probes; 72 selected existing tests passed | Remaining typing/module proofs; broader runtime, multiagent and recovery execution |
+| VMAT | [Current PDF and reconciliation](papers/VMAT.pdf.md), including containment and fail-stop definitions | Independent proof validation and continued cross-project checking |
+| vGLP | [Paper](papers/vGLP.pdf.md), [generated loop](programs/vglp/cva/compiler/text.glp.md); actual merge-order probes | Full two-agent compiled reproduction; remaining compiler, 2PC and phone coverage |
+| sGLP | [Clock law and closed-question mismatch](papers/sGLP.pdf.md); selected clock tests passed | Full relay/cancellation execution and empirical reproduction |
+| GSC | [Paper](papers/GSC.pdf.md), [GSN](programs/gsc/GSN.glp.md), [phone certificate](programs/social/graph/core/gsn_phone.glp.md) | Remaining examples/proofs and complete contract-to-phone execution |
 
-The working branch holds the exact evidence, coverage record and successor assignments. No continuous monitor or separate persistent project sessions are running. Claude's Audit session should route responses to the named projects and retain the finding numbers.
+The [updated structural baseline](servers/peoplesweb.md) matches 31 project rows and six support projects, all 64 contracts, and the Website ownership transfer. All seven core PDFs are now retrieved and preserved. [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor) records exact versions, evidence and handovers and is never merged into main. The separate `audit-runtime-20261112` branch holds the bounded execution workflows, also outside main. No continuous monitor or persistent component sessions are running.
+
+Claude's Audit session should route answers to the exact named projects and amend the existing numbered findings by response PR. The auditor verifies corrections independently. Work proceeds in bounded sweeps without requesting routine go-aheads.
+
+Website's [cache-finding correction](servers/peoplesweb/tools/papers_sync.py.md) has been independently verified on GLP main. There are nine findings in total. Three corrections have been independently verified: Website's fix is on GLP main; two GSC code fixes await main integration, and the revised GSC paper is verified. Six findings await answers. PRs #6–#8 preserve the responses and the updated response-branch procedure.
