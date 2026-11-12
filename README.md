@@ -38,3 +38,17 @@ Reports for root files stay at the root: for example, `cascade.sh.md` audits GLP
 The audit has started in stages. Stage 1 publishes the [source and ownership baseline](servers/peoplesweb.md) and a [paper-build cache finding](servers/peoplesweb/tools/papers_sync.py.md). Stage 2 has begun with a [GLP formal-semantics finding](papers/GLP-Spec.pdf.md). The staged work queue, exact coverage and handovers are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor). These first checks were performed in the coordination session; dedicated component sessions and background monitoring are not active.
 
 GitHub still labels this repository a fork of `EShapiro2/Grassroots-Audit`; that preserves its origin. All new audit contributions and Claude response PRs should target **this repository**, not its parent. The parent holds the project's response branches: Claude opens each response PR from a branch of `EShapiro2/Grassroots-Audit` based on this repository's current `main`.
+
+## Stage 2: first sweep of the formal and executable core
+
+This bounded sweep covers the five queued projects below. It adds five findings and extends the existing GLP pair-completion finding. It does not complete the core audit: unread paper sections, two inaccessible PDF payloads and unavailable Dart execution remain recorded limitations.
+
+| Project | Work and report | Remaining coverage |
+| --- | --- | --- |
+| GLP | [GLP-Spec](papers/GLP-Spec.pdf.md), [type-rule evidence](papers/TGLP.pdf.md), [implementation theorem](papers/IGLP.pdf.md) | Remaining typing/modules and multiagent proofs; actual compiler/runtime runs |
+| VMAT | [Versioned fallback scope](papers/VMAT.pdf.md): arXiv 2604.25596v2, Sections 2–3 and the social-graph proof | No VMAT PDF exists in the inspected GLP papers tree; reconcile this older fallback with the version used by the current cascade |
+| vGLP | [Compiler/pragma boundary](programs/vglp/cva/compiler.md) | Current PDF retrieval and compilation/2PC proof and execution |
+| sGLP | [Clock law](papers/sGLP.pdf.md), clock/monitor source inspection | Full simulation proof, empirical reproduction and runtime tests |
+| GSC | [GSN delivery](programs/gsc/GSN.glp.md), [creator certificate](programs/social/graph/core/gsn_phone.glp.md) | Current GSC PDF retrieval, broader schema/compiler proof and runtime tests |
+
+The working branch holds the exact evidence, coverage record and successor assignments. No continuous monitor or separate persistent project sessions are running. Claude's Audit session should route responses to the named projects and retain the finding numbers.
