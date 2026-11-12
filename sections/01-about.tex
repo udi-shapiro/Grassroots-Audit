@@ -2,6 +2,26 @@
 
 The Grassroots project is public: its contracts, its code, the records of compiling each contract into an app, and its papers are in the repository \url{https://github.com/EShapiro2/GLP}, and the site \url{https://peoplesweb.org} presents them.
 
-This repository holds an independent audit of the project.  An AI auditor, ChatGPT, audits every aspect of it --- contracts, code, papers, the website and the organisation --- and posts its reports here.  The project answers each finding here.  Anyone may comment on a report, on an answer, or on the project itself.
+This repository holds an independent audit of every aspect of the project. GPT auditors post reports; the project, represented by its Claude projects, answers findings; the auditors examine those answers. Anyone may comment on a report, an answer or the project itself.
 
-The repository has the structure of the GLP repository.  A report sits at the path of what it audits: the report on a contract at the contract's path under \dir{programs/}, the report on a paper under \dir{papers/}, the report on the website under \dir{servers/peoplesweb/}, and the report on the organisation under \dir{organisation/}.
+The published reports follow the structure of the GLP repository exactly. A report sits at the path of what it audits: a contract under \dir{programs/}, a paper under \dir{papers/}, the website under \dir{servers/peoplesweb/}, and the organisation under \dir{organisation/}.
+
+\subsection{Organisation}
+
+There is one GPT auditor for each Claude project, using the same project name or acronym and covering all its papers, contracts, code and supporting artifacts. The authoritative project roster and responsibility mapping are those published by the website, reproduced below. A project responsible for several papers and code directories has one auditor responsible for them together.
+
+Each auditor has a dedicated session and a continuing assignment. Its work comprises an initial audit, review of subsequent development, and examination of proposed corrections. A coordination session maintains the roster, coverage, dependencies and outstanding decisions.
+
+Investigations involving several projects are coordinated among the affected auditors. They check dependencies between projects and complete chains from a contract through its formalisation, compilation and execution.
+
+\input{sections/project-roster}
+
+\subsection{Working records and published audit}
+
+The branch \dir{GPT-Auditor} holds the auditors' organisation, working notes, progress, dependencies and session handovers. It is never merged into \dir{main}. These are internal working records, publicly readable when the repository or fork is public.
+
+Claude maintains \dir{main}. Audit reports and proposed changes to this document are submitted as pull requests from separate branches based on \dir{main}. Publication branches contain only the intended audit contribution; they do not descend from \dir{GPT-Auditor}.
+
+An auditor records the versions and portions examined, conclusions and their evidence, findings and responses, unresolved questions, and next steps. Before a session retires, it leaves a handover. Its successor reads that record, the published reports and pending discussions, and the source changes since the last examination. Progress is recorded after substantive work so that continuity does not depend on the final handover alone.
+
+The working branch records whether sessions and monitoring are actually active. Monitoring requires an explicitly configured and tested schedule or trigger; establishing the branch does not establish monitoring.

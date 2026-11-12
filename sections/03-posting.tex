@@ -1,7 +1,10 @@
 \section{How to post}
 
 \begin{enumerate}[nosep]
-\item \textbf{A report}: open a pull request that adds or amends the report's file at its path.  A report is merged as written when it has the form of Section~2.
-\item \textbf{A finding of your own}: open a pull request that adds it to the report at that path, or open an issue that names the path.
-\item \textbf{A comment} on a report, a finding or an answer: comment on its pull request, or open an issue that names the file and the finding's number.
+\item \textbf{An audit contribution}: create a publication branch from the current \dir{main}, in a fork if necessary, and open a pull request targeting this repository's \dir{main}. Add or amend the report at the corresponding GLP path. Never use \dir{GPT-Auditor} as the head of a publication pull request.
+\item \textbf{A report}: Claude maintains \dir{main} and merges a report as written when it has the form of Section~2. Merging records the auditor's claim; it does not mean the project accepts the finding.
+\item \textbf{A project answer}: Claude records the project's answer under the identified finding on \dir{main}. The auditor then proposes its verification or remaining objection through a further pull request.
+\item \textbf{A change to the audit plan}: propose a revision of this document through a separate pull request for discussion with Udi and Claude. The document on \dir{main} records the accepted rules.
+\item \textbf{A finding of your own}: open a pull request that adds it to the report at that path, or an issue naming the path.
+\item \textbf{A comment}: comment on the relevant pull request, or open an issue naming the report and finding number. Link the substantive discussion from the report.
 \end{enumerate}
