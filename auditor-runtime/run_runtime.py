@@ -32,7 +32,7 @@ run('dart-version',['dart','--version'],30)
 run('disable-analytics',['dart','--disable-analytics'],30)
 dependencies=run('pub-get',['dart','pub','get','--enforce-lockfile'],240)
 if dependencies['exit_code']!=0:sys.exit(1)
-shutil.copyfile(Path(__file__).with_name('runtime_probe.dart'),cwd/'_auditor_probe.dart')
-for mode in ['typed_race_load','fifo_race']:
-    run(mode,['dart','run','_auditor_probe.dart',mode],90)
+shutil.copyfile(Path(__file__).with_name('merge_prefetch.dart'),cwd/'_auditor_merge_probe.dart')
+for mode in ['already_ready','late_own']:
+    run(mode,['dart','run','_auditor_merge_probe.dart',mode],90)
 print('Observations saved; inspect each exit code and test outcome before drawing conclusions.',flush=True)
