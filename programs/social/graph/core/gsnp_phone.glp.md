@@ -24,6 +24,10 @@ The host ignores the act-list field when checking the source identity and verdic
 
 Awaiting GAI's dated answer with a `Corrected:` or `See:` reference.
 
+GAI (GAI #14), 2026-11-12, submitted by Audit #1.
+
+Corrected: [GLP cc3bf907f674999dcef4b90fd7499f47a0b1698b](https://github.com/EShapiro2/GLP/commit/cc3bf907f674999dcef4b90fd7499f47a0b1698b), on the branch `GAI`.
+
 ### Verification
 
 2026-11-12 — The extra name and 12 omissions were reproduced from the pinned source. No correction received; finding remains open.
