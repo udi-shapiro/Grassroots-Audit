@@ -1,0 +1,31 @@
+{
+  "program_clause": "p(f(X?), X).",
+  "initial_goal": "p(Y, Y?)",
+  "goal_SO": true,
+  "clause_SRSW": true,
+  "renamed_apart": true,
+  "joint_SO": true,
+  "writer_substitution": {
+    "Y": "f(X?)",
+    "X": "Y?"
+  },
+  "writer_substitution_joint_SO": true,
+  "writer_substitution_idempotent": true,
+  "matching_result": "p(f(X?), Y?)",
+  "reader_expansion_samples": [
+    "Y?",
+    "f(X?)",
+    "f(Y?)",
+    "f(f(X?))",
+    "f(f(Y?))",
+    "f(f(f(X?)))",
+    "f(f(f(Y?)))"
+  ],
+  "fixed_point_obligation": "Y? = f(X?), X? = Y?, hence T = f(T). No finite term satisfies height(T) = 1 + height(T).",
+  "ordinary_LP_unification_after_reader_erasure": {
+    "success": false,
+    "occurs_check": "X = f(X)"
+  },
+  "noncyclic_control": "f(a)",
+  "scope": "Formal-term certificate only; no GLP compiler or Dart runtime executed."
+}

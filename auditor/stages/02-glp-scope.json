@@ -1,0 +1,90 @@
+{
+  "glp_commit": "7976014a5f9b5fefc33abcc922d491abc41dfad5",
+  "papers_commit": "fb269c2a16e42bf505e37274106e54e8a1c04bbb",
+  "files_retrieved": [
+    {
+      "path": "CLAUDE.md",
+      "blob": "5df20fb12afef7aba9f15f9fc12b8dc38166d3cf"
+    },
+    {
+      "path": "glp_runtime/pubspec.yaml",
+      "blob": "0708623c2cb078f9b2b10f040b5e2e73a88cd20a"
+    },
+    {
+      "path": "docs/glp-runtime-spec.txt",
+      "blob": "d06287d093741e63551716ac1a265dceac724b0f"
+    },
+    {
+      "path": "docs/glp-bytecode-v216-complete.md",
+      "blob": "8db1bd357c5f47baacba944a6676a167f028ee90"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/runtime.dart",
+      "blob": "1cf7266d753749f1d0053c692c667b9e1668d9de"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/heap_fcp.dart",
+      "blob": "2f98eec5e47f7a6adfbda7021b0409580a8e3a8a"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/commit.dart",
+      "blob": "542b2060fd7d36fc0d9fb276e5612c88fcfa38d1"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/terms.dart",
+      "blob": "7745f737b6cc6ac0ee186b95c503e520dffd63cf"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/suspension.dart",
+      "blob": "5cdb38434d7e3417f94de53161effe0e4b80d4b2"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/suspend_ops.dart",
+      "blob": "cb3582a460450b5e8e65bbb7319c7645d5a6e57b"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/scheduler.dart",
+      "blob": "9f0db9c185aac6ecd517e8059c28a99425b487e1"
+    },
+    {
+      "path": "glp_runtime/lib/bytecode/runner.dart",
+      "blob": "60ce246885712d8d10b86f3231c4769fd0560a05"
+    },
+    {
+      "path": "glp_runtime/test/engine/guard_conjunction_test.dart",
+      "blob": "f9de86ae1abb0f83657b1c957c85e9df95930f28"
+    },
+    {
+      "path": "glp_runtime/test/engine/goal_writer_head_writer_test.dart",
+      "blob": "5da137a37fe17146b18a280084ce8a8d9674bae7"
+    },
+    {
+      "path": "glp_runtime/test/engine/fail_after_suspend_test.dart",
+      "blob": "a26d1fedf174ff1d3bfe745583de6e000fcc44f9"
+    },
+    {
+      "path": "docs/heap/heap-pointer-architecture-spec.md",
+      "blob": "fffb64e3f335008a796abf40b8141f16f7a1b3e6"
+    }
+  ],
+  "papers_preserved": [
+    {
+      "path": "GLP-Spec.pdf",
+      "bytes": 338047,
+      "blob": "ee7c3bd7e5dd1ea727ba6f9148b5f16351a4f415",
+      "sha256": "df9094b2ba5886708e43dffc1b99287111e8d5a7ea83113ac3d32cb6eda51bc8"
+    },
+    {
+      "path": "IGLP.pdf",
+      "bytes": 852587,
+      "blob": "7d78302dcc266a74144b04aefb0f9b86bebd0bfb",
+      "sha256": "8174b4e983d140cffeadd14831f2cb158912da71d872dc95fda1436cea7d76e5"
+    }
+  ],
+  "paper_scope": {
+    "GLP-Spec": "Definitions 2.1\u20132.15, A.1\u2013A.5, B.1 and proof E.1\u2013E.3; guarded definitions read for context, not fully audited; rendered pages 4 and 19 inspected.",
+    "IGLP": "Definitions 3.3\u20133.8 and Implementation Notes C.1\u2013C.2, for the same substitution issue and runtime correspondence context."
+  },
+  "code_scope": "Source inspection of runner matching/commit and heap binding/dereferencing; suspension/scheduler paths and tests located but not fully audited. Retrieval is not full-file coverage.",
+  "execution": "Python finite-term certificate and noncyclic control executed. No Dart or Flutter SDK found; no GLP compiler, runtime or unit tests executed."
+}

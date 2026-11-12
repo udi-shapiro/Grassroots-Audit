@@ -65,9 +65,19 @@ Publication completed through [PR #3](https://github.com/udi-shapiro/Grassroots-
 
 Fork writes worked, but PR creation in the original repository returned `403 Resource not accessible by integration`. Udi authorised a browser fallback as `udi-shapiro`; the workspace network restriction blocked GitHub before sign-in. These limits were not a general GitHub requirement for public-repository contributions. A local GitHub Actions/token workaround was prepared, then abandoned and removed before publication when Udi proposed the new ownership arrangement. No workflow, token or secret was deployed. Do not restart these access workarounds for the accepted arrangement.
 
+## Stage 2: first GLP formal-semantics scope
+
+Udi's continuation followed the published Stage 1 reports. The GLP assignment began in the current conversation, using main `7976014a5f9b5fefc33abcc922d491abc41dfad5` and papers `fb269c2a16e42bf505e37274106e54e8a1c04bbb`. No new response PR was open when checked. The GLP-Spec and IGLP PDFs were retrieved through the public repository connector, their Git blob hashes verified, and their bytes retained as evidence on this branch. This avoids relying on the overwritten papers ref for continuity.
+
+The first formal finding is a finite-term closure gap: the SRSW clause `p(f(X?), X).` and SO goal `p(Y,Y?)` have writer MGU `{Y := f(X?), X := Y?}`, but the required reader/pair completion entails `Y? = f(Y?)`, with no finite fixed point. Reader erasure yields an ordinary-LP occurs-check failure, so the computation-as-deduction proof needs an additional condition. A standalone finite-term certificate and noncyclic control were executed. This is a paper finding; the actual typed compiler/runtime result has not been tested.
+
+The environment has no Dart/Flutter SDK in PATH or the checked runtime locations. No workaround or code translation is represented as executing Dart. Relevant matching, commit and heap paths were inspected; the rest of the fetched source files are not implicitly covered. `stages/02-glp-scope.json` records the exact reading and execution scope. No GLP source was changed.
+
+The report is prepared at `papers/GLP-Spec.pdf.md` with one high-severity finding, to be published by PR. Record the publication outcome here. Preserve the same finding identifier through responses; do not infer a repair from runtime behavior without addressing the paper's domain and proof obligation.
+
 ## Next steps
 
-1. Begin the GLP assignment as specified in stages.md; recover the examined sources and evidence before continuing. Check for answers to the Stage 1 finding. No automatic monitoring is active.
+1. Complete publication of the first GLP paper finding, then read GLP’s response and continue the GLP assignment from its handover. Check for answers to the Stage 1 cache finding. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 

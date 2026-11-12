@@ -9,9 +9,9 @@
         "IGLP"
       ],
       "stage": 2,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": null
+      "substantive_audit": "in_progress; first formal-semantics scope completed",
+      "session": "current_conversation",
+      "limited_completed_scope": "writer MGU, finite pair completion and LP correspondence; source inspection of matching/commit/heap; no Dart execution"
     },
     {
       "project": "VMAT",
