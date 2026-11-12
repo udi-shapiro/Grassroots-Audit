@@ -1,0 +1,74 @@
+{
+  "scope": "Paper rules only; no Dart compiler/runtime execution",
+  "declarations": [
+    "Token ::= ready.",
+    "Result ::= left ; right.",
+    "procedure choose(Token?, Token?, Result).",
+    "procedure make(Token).",
+    "procedure sink(Token?)."
+  ],
+  "clauses": [
+    "choose(ready, Y, left) :- sink(Y?).",
+    "choose(X, ready, right) :- sink(X?).",
+    "make(ready).",
+    "sink(ready)."
+  ],
+  "initial_goal": [
+    "choose(A?, B?, R)",
+    "make(A)",
+    "make(B)"
+  ],
+  "SO_SRSW": true,
+  "cGLP_states_explored": 17,
+  "cGLP_successful_outcomes": {
+    "left": [
+      "Reduce makeA clause 3",
+      "Communicate A? to choose",
+      "Reduce choose clause 1",
+      "Reduce makeB clause 3",
+      "Communicate B? to choose.0",
+      "Reduce choose.0 clause 4"
+    ],
+    "right": [
+      "Reduce makeA clause 3",
+      "Reduce makeB clause 3",
+      "Communicate B? to choose",
+      "Reduce choose clause 2",
+      "Communicate A? to choose.0",
+      "Reduce choose.0 clause 4"
+    ]
+  },
+  "dGLP_FIFO_outcome": "left",
+  "dGLP_FIFO_trace": [
+    "Suspend choose",
+    "Reduce makeA clause 3",
+    "Reduce makeB clause 3",
+    "Reduce choose clause 1",
+    "Reduce choose.0 clause 4"
+  ],
+  "mapping_example": {
+    "initial": [
+      "make(X)",
+      "sink(X?)"
+    ],
+    "dGLP_image_goals": [
+      "sink(ready)"
+    ],
+    "image_is_cGLP_single_step": false,
+    "image_is_cGLP_two_steps": true
+  },
+  "typed_cycle_witness": {
+    "type": "T ::= a ; f(T).",
+    "procedure": "p(T, T?)",
+    "source_head": "p(f(X?), X)",
+    "moded_head": "p(up:f(up:X), down:X?)",
+    "pair_position_types": [
+      "T",
+      "T?"
+    ],
+    "head_pair_dual": true,
+    "input_coverage": "The complemented second-argument reader matches every input path at its root.",
+    "well_typed_initial_goal": "p(Y, Y?)",
+    "compiler_acceptance": "not tested"
+  }
+}

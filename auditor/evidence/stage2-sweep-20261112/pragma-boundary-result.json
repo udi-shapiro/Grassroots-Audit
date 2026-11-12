@@ -1,0 +1,41 @@
+{
+  "scope": "Execute the actual Perl pragma reader; no GLP compiler/runtime required.",
+  "checks": [
+    {
+      "check": "GKK inheritance",
+      "exit": 0,
+      "order": [
+        "GKK.txt"
+      ]
+    },
+    {
+      "check": "GSG inheritance",
+      "exit": 0,
+      "order": [
+        "GKK.txt",
+        "GSG.txt"
+      ]
+    },
+    {
+      "check": "GSN inheritance",
+      "exit": 0,
+      "order": [
+        "GKK.txt",
+        "GSG.txt",
+        "GSN.txt"
+      ]
+    },
+    {
+      "check": "valid_schema_term",
+      "exit": 0,
+      "stdout": "pragmas([list('\"Contacts\"', ['knows']), list('\"Friends\"', ['friend']), list('\"Groups\"', ['member']), list('\"Messages\"', ['received']), list('\"Posts\"', ['received_in'])], [act('establish', '\"Establish\"', [], none, '\"Contacts\"', by([1])), act('acquaint', '\"Acquaint\"', ['\"\"', '\"person\"'], said([[], [person(1), text('\" wishes that you know each other.\"')]]), '\"Contacts\"', by([1])), act('introduce', '\"Introduce\"', [], said([[], [person(1), text('\" asks to introduce \"'), person(3), text('\" to you.\"')]]), '\"Contacts\"', by([1])), act('befriend', '\"Befriend\"', [], said([[], [person(1), text('\" asks to be your friend.\"')]]), '\"Friends\"', by([1])), act('unfriend', '\"Unfriend\"', [], none, '\"Friends\"', by([1])), act('message', '\"Message\"', ['\"\"', '\"\"', '\"text\"'], none, '\"Groups\"', by([1])), act('create', '\"Create\"', ['\"\"', '\"name\"'], none, '\"Groups\"', by([1])), act('close', '\"Close\"', [], none, '\"Groups\"', by([1])), act('join', '\"Join\"', [], said([[], [person(1), text('\" asks you to join her group.\"')]]), '\"Groups\"', by([1])), act('remove', '\"Remove\"', [], none, '\"Groups\"', by([1])), act('leave', '\"Leave\"', [], none, '\"Groups\"', by([2])), act('post', '\"Post\"', ['\"\"', '\"\"', '\"text\"'], none, '\"Groups\"', by([1])), act('post_own', '\"Post own\"', ['\"\"', '\"text\"'], none, '\"Groups\"', by([1]))], [], nolook, version(1, 1), '\"GSN: Grassroots Social Network\\\\nGSN amends GSG.\\\\nAlice and Bob are persons.\\\\n1. \u25a0 Messaging.  Alice may send a message to her friend Bob.\\\\n2. \u25a0 Group.  Alice may create a group, of which she is the leader and first member; Alice may close the group by leaving it.\\\\n3. \u25a0 Joining and Leaving.  Alice, the leader of a group, may add her friend Bob to it, with Bob\\'s consent; either Alice or Bob may then end Bob\\'s membership in the group, which also ends when Alice and Bob cease to be friends.\\\\n4. \u25a0 Group messaging.  A member of a group may send a message to the group, and its leader delivers it to every current member.\"')\n",
+      "stderr": ""
+    },
+    {
+      "check": "missing_text_field",
+      "exit": 1,
+      "stdout": "",
+      "stderr": "pragmas.sh: <fixture>/GSN.txt: the pragma \"Group messaging\" leaves unnamed the variable x of post, which the atoms its proposer\u2019s role requires do not bind (vGLP, Section 5.4, \"The contract\u2019s words\": \"the fields of a line name these variables\")\n"
+    }
+  ]
+}

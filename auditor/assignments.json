@@ -9,9 +9,10 @@
         "IGLP"
       ],
       "stage": 2,
-      "substantive_audit": "in_progress; first formal-semantics scope completed",
+      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
       "session": "current_conversation",
-      "limited_completed_scope": "writer MGU, finite pair completion and LP correspondence; source inspection of matching/commit/heap; no Dart execution"
+      "limited_completed_scope": "IGLP Sections 2-3 through Corollary 3.34; TGLP Sections 2, 4, 5; prior GLP-Spec scope remains separately recorded",
+      "scope_record": "stages/02-core-sweep.json"
     },
     {
       "project": "VMAT",
@@ -19,9 +20,10 @@
         "VMAT"
       ],
       "stage": 2,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": null
+      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "session": "current_conversation",
+      "limited_completed_scope": "Sections 2-3; Section 4.1 social-graph invariant and grassroots proof",
+      "scope_record": "stages/02-core-sweep.json"
     },
     {
       "project": "vGLP",
@@ -29,9 +31,10 @@
         "vGLP"
       ],
       "stage": 2,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": null
+      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "session": "current_conversation",
+      "limited_completed_scope": "compiler README interface/pragma rules; pragma-reader term parsing; generated GSN schema/tab declarations",
+      "scope_record": "stages/02-core-sweep.json"
     },
     {
       "project": "sGLP",
@@ -39,9 +42,10 @@
         "sGLP"
       ],
       "stage": 2,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": null
+      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "session": "current_conversation",
+      "limited_completed_scope": "Sections 2-4; monitor.glp; sglp.glp; SimClock implementation",
+      "scope_record": "stages/02-core-sweep.json"
     },
     {
       "project": "GSC",
@@ -49,9 +53,10 @@
         "GSC"
       ],
       "stage": 2,
-      "substantive_audit": "queued",
-      "session": "not_created",
-      "limited_completed_scope": null
+      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "session": "current_conversation",
+      "limited_completed_scope": "GKK/GSG/GSN schemas; GSN.txt; gsn_phone.glp; generated GSN schema/tab declarations; checker README introduction/contract form as context",
+      "scope_record": "stages/02-core-sweep.json"
     },
     {
       "project": "GSA",

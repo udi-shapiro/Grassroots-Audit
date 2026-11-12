@@ -77,7 +77,7 @@ The report is prepared at `papers/GLP-Spec.pdf.md` with one high-severity findin
 
 ## Next steps
 
-1. Finish the current Stage 2 sweep (GLP, VMAT, vGLP, sGLP and GSC), prepare resulting reports, and collect any required publication approvals together at the end. Udi explicitly requested this on 12 November: "finish the sweep and collect all approvals you need from me at the end". Do not stop after each finding. Read project responses and verify corrections where available. No automatic monitoring is active.
+1. Publish the prepared first Stage 2 sweep (GLP, VMAT, vGLP, sGLP and GSC) as one batch, and collect any required publication approvals together at the end. Udi explicitly requested this on 12 November: "finish the sweep and collect all approvals you need from me at the end". Do not stop after each finding. Read project responses and verify corrections where available. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
@@ -101,3 +101,15 @@ The exact map is in `project-structure.json` and the human-readable roster in `r
 The structure was also checked against subsequent GLP head `06edced4ae68c62ec0c14f9c17fe0157dc2524d7`: the three intervening commits changed runtime, test and deployment files, not the project or paper maps or contract ownership. The inventory remains pinned to its original exact source snapshot.
 
 The migration also compared the original roster snapshot with GLP `632dba5bf58cef99cc132dc5738ff1f09ba79d64` (45 subsequent commits). The project/paper map files were unchanged; runtime, program, contract, cascade and test files changed. Only the top-level layout was refreshed and verified at this later source version; the detailed inventory remains pinned to its original snapshot and is not a new audit.
+
+## Stage 2 first sweep: prepared as one batch
+
+Udi approved PR #4, which was merged and verified at e733c052d379beb43fe7d76f7f65c5c65d3eeb64, then instructed: "finish the sweep and collect all approvals you need from me at the end". The current first sweep was completed across the five Stage 2 assignments without stopping for an approval after each finding. This is bounded first-pass coverage, not completion of all the core proofs or code.
+
+Five additional findings are prepared: IGLP's fixed-FIFO outcome-completeness counterexample (high); its state mapping skipping a required cGLP transition (high); sGLP's conditional release law exposing its pending activation times (medium); GSN delivery missing the leader's receipt (medium); and the GSN creator certificate's obsolete act list (low). TGLP's rules admit the existing pair-completion example; that evidence extends the original finding without adding a second count.
+
+The independent paper-rule checker explored 17 finite states and found both cGLP outcomes versus the FIFO outcome, and checked the two-step mapping witness. The GSN calculation parsed pinned schema source and checked single-member and two-member traces with an enabled nonleader control. The actual pragma-reader script passed three inheritance checks, a valid schema-term parse and a missing-field rejection. None of these are represented as Dart execution. No audited GLP source was modified.
+
+Current vGLP and GSC PDF blobs were identified, but the contents connector returned empty binary payloads and the blob reader rejected decoding; public downloads were blocked. VMAT's versioned arXiv fallback was read in part; there is no VMAT PDF in the pinned papers tree. The accepted contribution rule places the versioned fallback coverage report at papers/VMAT.pdf.md, its registry-derived expected path. The other current PDFs that were read are preserved. No Dart/Flutter SDK was available. These restrictions and all unexamined portions are explicit in the reports and 02-core-sweep.json. The single coordinating conversation did the work; there are no separate persistent workers or background monitoring.
+
+Publish the batch from current main, never by merging GPT-Auditor. Verify the publication diff excludes working records. Collect any required merge approval only after the batch is concrete and checked; do not stop the investigation for an individual finding. Once published, record its PR and merge here, read attributed project responses, verify corrections independently, and complete the blocked paper/runtime scopes before calling Stage 2 complete.

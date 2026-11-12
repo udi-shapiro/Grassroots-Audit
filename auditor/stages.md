@@ -7,7 +7,7 @@ Stages determine the order of work. They do not replace the website's projects o
 | Stage | Scope and completion evidence | Status |
 | --- | --- | --- |
 | 1. Sources and coverage | Pin source versions; reconcile projects, papers, contracts and ownership; identify unavailable versions; execute bounded checks of the metadata/build path. Publish coverage and any reproduced faults. | Published in [PR #3](https://github.com/udi-shapiro/Grassroots-Audit/pull/3), merge `0732dd6ad4fbb13611a75ece574e07ea463745aa`; 2 reports, 1 finding, 1 unanswered. |
-| 2. Formal and executable core | GLP (GLP-Spec, TGLP, IGLP), VMAT, vGLP, sGLP and GSC. Check definitions, assumptions, proofs, counterexamples, implementations and tests; trace the interfaces between these projects. | In progress. First GLP scope: writer MGU, finite pair completion and LP correspondence; one paper finding published in PR #4, merge `e733c052d379beb43fe7d76f7f65c5c65d3eeb64`. Runtime source inspected; execution unavailable without Dart. |
+| 2. Formal and executable core | GLP (GLP-Spec, TGLP, IGLP), VMAT, vGLP, sGLP and GSC. Check definitions, assumptions, proofs, counterexamples, implementations and tests; trace the interfaces between these projects. | Initial sweep prepared across all five assignments: five additional findings and an extension to the published GLP finding. Batch publication pending. Stage 2 itself remains incomplete: current vGLP/GSC PDFs, VMAT version reconciliation, unexamined proofs and Dart execution remain open. See stages/02-core-sweep.json. |
 | 3. Other projects and infrastructure | Work through every remaining exact project assignment, pairing papers with contracts/code. Cover GSA/GNA, SPM, Currencies, GAI, CSSN, GFF, GGGA, GO, GRH, CGP, GPAT, GPBD, DSA, CCDG, CGMS and the named Code responsibilities. Prioritise dependencies and higher-impact findings. | Queued. No substantive coverage claimed. |
 | 4. Integration and corrections | Check complete contract-to-phone execution chains, trust/network boundaries, failures and recovery. Reproduce each proposed correction, retain disagreements and examine relevant changes since the recorded baseline. | Queued; correction verification also occurs as answers arrive during earlier stages. |
 
@@ -16,8 +16,8 @@ Stage 1 is a foundation for the deeper audit, not a substitute for mathematical 
 ## Immediate next work
 
 1. Stage 1 is published and verified on main. Read any project answer to Finding 1 before rechecking it; keep the next scope distinct from this completed baseline.
-2. Continue GLP from projects/GLP/handover.md. GLP-Spec and IGLP bytes have been retained. PR #4 is merged with explicit approval. Read any response and finish the current Stage 2 sweep, preparing further reports and collecting required approvals together at its end, as Udi requested. Do not treat the rest of the papers or runtime as already audited.
-3. Obtain exact arXiv versions for VMAT, CGP and CGMS; arrange accessible versions and report placement for GGGA and GPBD through the project's Audit session. Their absence does not block reading other projects.
+2. Continue GLP from projects/GLP/handover.md. GLP-Spec and IGLP bytes have been retained. PR #4 is merged with explicit approval. Read any response and publish the prepared first Stage 2 sweep, collecting required approvals together at its end, as Udi requested. Do not treat the rest of the papers or runtime as already audited.
+3. Reconcile the examined VMAT arXiv v2 with the current cascade, and obtain exact arXiv versions for CGP and CGMS; arrange accessible versions and report placement for GGGA and GPBD through the project's Audit session. Their absence does not block reading other projects.
 4. Track the declared Website transfer; update responsibility only with the corresponding source evidence. Clarify assignment for the 11 Earlier papers.
 
 ## Sessions and continuity
@@ -25,3 +25,7 @@ Stage 1 is a foundation for the deeper audit, not a substitute for mathematical 
 This conversation performed the initial coordination and website/build scope and has begun the GLP formal-semantics assignment. Separate persistent component conversations have not been created, and no background task or event trigger is configured. The assignment queue records work to establish, not active independent workers. A component session starts by reading its assignment, this file, coordination.md, the current accepted rules and relevant reports; it must then identify the source versions it actually examines. Its handover goes under auditor/projects/<exact-project-name>/.
 
 No external session or automated monitoring is implied by a branch, queue row or handover file. No subagents were used for Stage 1.
+
+## First sweep completion and publication boundary
+
+The bounded first pass is complete and its reports are prepared together. It does not certify any paper, compiler or platform. The publication batch would bring main to 10 reports, 7 findings and 7 unanswered findings. Before continuing broader Stage 3 work, prioritise the central GLP/IGLP proof obligations, the inaccessible paper versions and actual runtime checks; handle corrections as they arrive. The user's approval-batching instruction persists across successor sessions.

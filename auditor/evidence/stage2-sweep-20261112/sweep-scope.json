@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-12",
+  "kind": "bounded first sweep of Stage 2; not a completed core correctness audit",
+  "main_source": "7976014a5f9b5fefc33abcc922d491abc41dfad5",
+  "papers_source": "fb269c2a16e42bf505e37274106e54e8a1c04bbb",
+  "audit_base": "e733c052d379beb43fe7d76f7f65c5c65d3eeb64",
+  "projects": {
+    "GLP": {
+      "read": [
+        "IGLP Sections 2-3 through Corollary 3.34",
+        "TGLP Sections 2, 4, 5",
+        "prior GLP-Spec scope remains separately recorded"
+      ],
+      "source_inspection": [
+        "matching/commit/heap paths from preceding scope",
+        "scheduler queue and result handling",
+        "existing suspension test source"
+      ],
+      "new_findings": [
+        "papers/IGLP.pdf.md#1: fixed FIFO is not outcome-complete",
+        "papers/IGLP.pdf.md#2: mapped reduction skips a specification step"
+      ],
+      "extended_finding": "papers/GLP-Spec.pdf.md#1: formal type rules admit the example; no Dart acceptance claim",
+      "unexamined": [
+        "remaining type/module proofs",
+        "remaining IGLP multiagent/network/recovery proofs",
+        "end-to-end Dart tests"
+      ]
+    },
+    "VMAT": {
+      "source": "https://arxiv.org/html/2604.25596v2",
+      "source_date": "2026-07-04",
+      "read": [
+        "Sections 2-3",
+        "Section 4.1 social-graph invariant and grassroots proof"
+      ],
+      "status": "versioned preliminary read, current cascade version unresolved; fallback coverage report at registry-derived papers/VMAT.pdf.md as allowed by CONTRIBUTING",
+      "pending": [
+        "identify the VMAT version actually used by the current cascade; no VMAT PDF in pinned papers tree",
+        "check containment and liveness assumptions against current cascade"
+      ]
+    },
+    "vGLP": {
+      "read": [
+        "compiler README interface/pragma rules",
+        "pragma-reader term parsing",
+        "generated GSN schema/tab declarations"
+      ],
+      "executed": [
+        "actual Bash/Perl pragma reader: inheritance chains; schema-term positive; missing-field negative"
+      ],
+      "downloaded_not_audited_in_full": [
+        "programs/vglp/cva/compiler/text.glp"
+      ],
+      "unexamined": [
+        "current vGLP PDF",
+        "canonical compilation and 2PC proof",
+        "Dart/GLP execution"
+      ]
+    },
+    "sGLP": {
+      "read": [
+        "Sections 2-4",
+        "monitor.glp",
+        "sglp.glp",
+        "SimClock implementation"
+      ],
+      "new_findings": [
+        "papers/sGLP.pdf.md#1: conditioning on full history reveals pending release times"
+      ],
+      "unexamined": [
+        "full Appendix A proof",
+        "remaining paper sections and measurements",
+        "runtime clock tests and simulation runs"
+      ]
+    },
+    "GSC": {
+      "read": [
+        "GKK/GSG/GSN schemas",
+        "GSN.txt",
+        "gsn_phone.glp",
+        "generated GSN schema/tab declarations",
+        "checker README introduction/contract form as context"
+      ],
+      "executed": [
+        "bounded declarative calculation over actual GSN schema terms, single-member and two-member controls",
+        "certificate act-list comparison"
+      ],
+      "new_findings": [
+        "programs/gsc/GSN.glp.md#1: leader receipt omitted",
+        "programs/social/graph/core/gsn_phone.glp.md#1: obsolete creator-certificate list"
+      ],
+      "unexamined": [
+        "current GSC PDF",
+        "full checker/compiler and remaining contracts",
+        "Dart/phone execution"
+      ]
+    }
+  },
+  "blocked": [
+    {
+      "artifact": "papers/vGLP.pdf",
+      "blob": "3b9b0aa4d7587a289105184d039f3b85fcd396dd",
+      "bytes": 2685068,
+      "reason": "contents API empty payload; blob API UTF-8 decode error; public direct download HTTP 403"
+    },
+    {
+      "artifact": "papers/GSC.pdf",
+      "blob": "f149dab08476abceb1a12fd41260956abd8a0011",
+      "bytes": 2181325,
+      "reason": "contents API empty payload; blob API UTF-8 decode error; public direct download HTTP 403"
+    },
+    {
+      "artifact": "Dart/Flutter execution",
+      "reason": "no SDK available in checked environment; external download routes restricted"
+    }
+  ],
+  "validation": {
+    "source_blobs_verified": 19,
+    "finite_cGLP_states": 17,
+    "cGLP_outcomes": [
+      "left",
+      "right"
+    ],
+    "dGLP_outcomes": [
+      "left"
+    ],
+    "mapping_counterexample": "not one cGLP step, exactly a two-step path",
+    "GSN": "leader missing self-friendship; Bob delivery control succeeds",
+    "certificate_difference": {
+      "extra": [
+        "drop"
+      ],
+      "omitted": [
+        "remove"
+      ]
+    },
+    "pragma_checks": "three inheritance chains, one positive parse and one negative rejection passed"
+  },
+  "new_findings": 5,
+  "severity_counts": {
+    "high": 2,
+    "medium": 2,
+    "low": 1
+  },
+  "published_total_if_merged": {
+    "reports": 10,
+    "findings": 7,
+    "unanswered": 7
+  },
+  "publication": "prepared as one batch; required approvals collected only after sweep, per Udi",
+  "limits": "No dedicated persistent component sessions, subagents or continuous monitor. No audited-project source modifications. Mathematical models are not GLP runtime executions."
+}

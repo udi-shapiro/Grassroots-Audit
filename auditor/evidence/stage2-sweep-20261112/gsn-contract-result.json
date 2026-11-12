@@ -1,0 +1,39 @@
+{
+  "scope": "Check selected GSN schema facts directly from pinned source terms.\n\nThis is a bounded declarative calculation, not GLP execution or a general GSC\ninterpreter. Only positive/negative, unquantified, unit-multiplicity literals\nare executed. Unsupported constructs fail explicitly.",
+  "source_sha256": "fe6034f37d3537484036ccd18001b573b1d6f030484012fa404b805f1b31e244",
+  "schema_count": 14,
+  "single_member_trace": [
+    "establish",
+    "create",
+    "post_own"
+  ],
+  "leader_delivery_missing": [
+    [
+      "atom",
+      "friend",
+      [
+        "alice",
+        "alice"
+      ]
+    ]
+  ],
+  "two_member_trace": [
+    "establish",
+    "establish",
+    "acquaint",
+    "befriend",
+    "create",
+    "join",
+    "post",
+    "deliver(to bob)"
+  ],
+  "bob_received": true,
+  "leader_received": false,
+  "posts_tab_predicate": "received_in",
+  "creator_certificate_extra_acts": [
+    "drop"
+  ],
+  "creator_certificate_omitted_acts": [
+    "remove"
+  ]
+}

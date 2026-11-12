@@ -1,0 +1,73 @@
+{
+  "archive": "GLP-source-snapshot.zip",
+  "files": [
+    {
+      "path": "programs/gsc/GSG.glp",
+      "sha": "ae408b29f4acb3d0246decad0703c5074a8d6e7f"
+    },
+    {
+      "path": "programs/gsc/GSG.txt",
+      "sha": "ccabb815abdc1b815ead23e035e7b1332ec7a60f"
+    },
+    {
+      "path": "programs/gsc/GSN.glp",
+      "sha": "3917eaefa9a51a5fab47b57c197a19cfce196ca1"
+    },
+    {
+      "path": "programs/gsc/GSN.txt",
+      "sha": "d9ff422a2460d8e8c37b1d995b2ca236ade677ed"
+    },
+    {
+      "path": "programs/gsc/GKK.glp",
+      "sha": "12c0d98254be88a4d884b19212176b86b4f7a419"
+    },
+    {
+      "path": "programs/gsc/GKK.txt",
+      "sha": "63bb34892002bcf8a6976d6259d049d6964a6449"
+    },
+    {
+      "path": "programs/sglp/monitor.glp",
+      "sha": "81fe1f426ddebcb81bce685f34cbd34f003160ce"
+    },
+    {
+      "path": "programs/sglp/sglp.glp",
+      "sha": "511c3bad5c8df2819c546094fb086f37f6d55360"
+    },
+    {
+      "path": "programs/sglp/examples/social_graph/friendship.awk",
+      "sha": "63dbcea03a2abe028f15134ee812fcffe82f0db8"
+    },
+    {
+      "path": "programs/sglp/examples/social_graph/run.sh",
+      "sha": "77e7e00950de20fccb0a612fda31faf9423e5164"
+    },
+    {
+      "path": "glp_runtime/lib/runtime/sim_clock.dart",
+      "sha": "c06be655a6b93c87707e75a409cd85f67a9fd649"
+    },
+    {
+      "path": "glp_runtime/test/runtime/sim_clock_kernel_test.dart",
+      "sha": "85517cfaacf1a1e52f8f910e13fa5d6f8ae6dc37"
+    },
+    {
+      "path": "programs/vglp/cva/compiler/pragmas.sh",
+      "sha": "60918458242642ae1d10222b8e6834ef5e76e63c"
+    },
+    {
+      "path": "programs/vglp/cva/social_network/platform.vglp",
+      "sha": "5bf4661c36ee599bac50aa7ab25616b7da6bd9ac"
+    },
+    {
+      "path": "programs/social/graph/core/gsn_phone.glp",
+      "sha": "31f7ca9b21a638561849a7469cd9a832064c2afe"
+    }
+  ],
+  "sha256": "9ec7a89da669c9070c6258ca5d0a7f56f3b52db922ee603556d5840c4df75d25",
+  "bytes": 147180,
+  "not_archived": [
+    "programs/gsc/README.md",
+    "programs/sglp/README.md",
+    "programs/vglp/cva/compiler/README.md",
+    "programs/vglp/cva/compiler/text.glp"
+  ]
+}

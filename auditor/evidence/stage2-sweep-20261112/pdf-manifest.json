@@ -1,0 +1,16 @@
+[
+  {
+    "name": "TGLP.pdf",
+    "bytes": 685092,
+    "git_blob_sha": "3906a08d72e2afdf9c8c8c0c3f0293eac191ccc1",
+    "sha256": "9d8558b3d4561967ae61bb31695c75a22d138cd5b5c03f24cb5e464edea64347",
+    "pages": "Pages:           57"
+  },
+  {
+    "name": "sGLP.pdf",
+    "bytes": 699944,
+    "git_blob_sha": "f24f00ea38e3585a58d117238f72a92614bb9dec",
+    "sha256": "bcb5a1ba3aa64ca313deea59b2f51e5f3a8c0312907a9c4261c3a181bd1507f0",
+    "pages": "Pages:           21"
+  }
+]

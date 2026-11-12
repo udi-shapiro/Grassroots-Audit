@@ -1,28 +1,18 @@
-# GLP auditor: first formal-semantics scope
+# GLP auditor handover after the first Stage 2 sweep
 
 Date: 2026-11-12
-GLP main: `7976014a5f9b5fefc33abcc922d491abc41dfad5`
-Papers branch inspected: `fb269c2a16e42bf505e37274106e54e8a1c04bbb`
-
-## Read first
-
-Read ../../coordination.md, ../../stages.md, the accepted main plan, and `papers/GLP-Spec.pdf.md` with subsequent answers. The exact read scope and source blob IDs are in ../../stages/02-glp-scope.json. Preserved PDF bytes are under ../../evidence/glp-20261112/; verify their recorded SHA-256 digests before reading.
+GLP main: 7976014a5f9b5fefc33abcc922d491abc41dfad5
+Papers branch: fb269c2a16e42bf505e37274106e54e8a1c04bbb
+Read ../../coordination.md, ../../stages.md, ../../stages/02-core-sweep.json and the accepted main plan first. Work and findings below are version-specific. This conversation performed a bounded initial sweep; it is not a persistent project worker. No monitoring is configured.
 
 ## Established
 
-The initial formal finding uses `p(f(X?), X).` and the goal `p(Y,Y?)`. Both meet the untyped definitions' SO/SRSW and renaming conditions. Their writer MGU exists, but reader/pair completion requires a finite term T=f(T), which is impossible by term height. Under reader erasure, ordinary finite-term LP unification fails the occurs check. GLP-Spec 2.6/2.11 and proof E.1 need to address this domain gap. IGLP 3.5–3.8 repeat the definitions.
+PR #4 published GLP-Spec Finding 1 and its finite pair-completion certificate; merge e733c052d379beb43fe7d76f7f65c5c65d3eeb64. The first PDF/certificate evidence is in d769c65447a7a849bdc916c262979d69c1b37dc8. A further paper derivation gives the closed type T ::= a ; f(T) and p(T,T?) for that example. The published TGLP rules admit it; actual compiler acceptance has not been tested.
 
-The independent Python certificate in ../../checks/pair-completion.py verifies the finite-term calculations and a noncyclic control. It is not an emulator of the runtime and is not evidence of compiler acceptance. The report carries one high-severity paper finding, not a runtime finding.
-
-## Implementation and execution limits
-
-Examined relevant parts of bytecode/runner.dart, runtime/commit.dart and runtime/heap_fcp.dart. The runner contains occurs/own-reader checks for repeated head writers; the heap detects some pointer cycles. These checks alone do not settle the paper's general substitution domain or the end-to-end example. No Dart or Flutter SDK was available; no typed program or Dart test was executed. The typed-front-end behavior is explicitly unresolved. No GLP code was modified.
+The prepared IGLP report has two distinct high-severity findings: a fixed FIFO queue misses the right outcome available to cGLP; and the current state mapping compresses Reduce plus Communicate into an image edge that is not a specification transition. The standalone formal_semantics.py certificate and its result are under auditor/checks/stage2-sweep and auditor/evidence/stage2-sweep-20261112. It explores 17 cGLP states and checks the separate mapping example. It is a restricted paper-rule model, not GLP execution.
 
 ## Next
 
-1. PR #4 was merged after Udi explicitly approved it. Verified merge and main: `e733c052d379beb43fe7d76f7f65c5c65d3eeb64` (2026-11-12T18:28:16Z). Main contains three reports and two findings. Udi subsequently requested finishing the current Stage 2 sweep and collecting further required approvals together at the end. Continue the work; do not stop after each finding.
-2. Read GLP's response to the example. Verify any new restriction or term domain against both the definitions and the LP-correspondence proof. Preserve attributed answers and the finding number.
-3. Examine TGLP's admissibility rules and obtain a supported Dart execution environment before claiming the typed runtime accepts or rejects the example. A type restriction can repair the paper's general statement only if its scope is stated and its preservation justified.
-4. Continue the GLP audit with clause/guard failure and suspension semantics and the scheduling/refinement obligations. Keep those results separate from this single counterexample. Later review remaining paper sections, type checker/compiler and multiagent correspondence; they are not covered yet.
+Finish batch publication and record its PR/merge. Udi requested collecting necessary approvals only at the end of the sweep. Read GLP's responses without renumbering findings. Verify the proposed term domain/restriction, deterministic refinement/completeness statement, and implementation mapping separately. A correction to one does not close the others.
 
-This work was performed in the coordinating conversation, not a separately running persistent process. Monitoring is not active.
+Remaining work: actual typed compiler/runtime cases with Dart; remaining TGLP parameterised/module proofs; IGLP multiagent, serialization, network and crash/recovery proofs; broader runtime tests and guarded suspension/fairness review. The source contains some cycle and suspension checks, but no execution result has been claimed. Preserve the PDF blobs and exact reading limits in the scope record.
