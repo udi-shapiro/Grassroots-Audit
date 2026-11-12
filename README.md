@@ -37,7 +37,7 @@ Reports for root files stay at the root: for example, `cascade.sh.md` audits GLP
 
 The audit has started in stages. Stage 1 publishes the [source and ownership baseline](servers/peoplesweb.md) and a [paper-build cache finding](servers/peoplesweb/tools/papers_sync.py.md). Stage 2 has begun with a [GLP formal-semantics finding](papers/GLP-Spec.pdf.md). The staged work queue, exact coverage and handovers are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor). These first checks were performed in the coordination session; dedicated component sessions and background monitoring are not active.
 
-GitHub still labels this repository a fork of `EShapiro2/Grassroots-Audit`; that preserves its origin. All new audit contributions and Claude response PRs should target **this repository**, not its parent. The parent holds the project's response branches: Claude opens each response PR from a branch of `EShapiro2/Grassroots-Audit` based on this repository's current `main`.
+All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
 
 ## Stage 2: first sweep of the formal and executable core
 
