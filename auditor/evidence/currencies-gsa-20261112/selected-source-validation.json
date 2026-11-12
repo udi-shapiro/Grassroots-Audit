@@ -1,0 +1,776 @@
+[
+  {
+    "path": "cascade.sh",
+    "sha": "3c078d41f3ff1c340107ab4b515cede3de6c7e7e",
+    "expected": "3c078d41f3ff1c340107ab4b515cede3de6c7e7e",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/GAS.glp",
+    "sha": "c00d14ec6187166ec6bf393f969a87621590a398",
+    "expected": "c00d14ec6187166ec6bf393f969a87621590a398",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/GAS.txt",
+    "sha": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
+    "expected": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/manifest.md",
+    "sha": "4907c93554cd4e364b304ebc827b6a32445b1f39",
+    "expected": "4907c93554cd4e364b304ebc827b6a32445b1f39",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/platform.vglp",
+    "sha": "b2eae9fca11c7b3e0684052350bff58de998283d",
+    "expected": "b2eae9fca11c7b3e0684052350bff58de998283d",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/schemas.txt",
+    "sha": "63b2afc63e6ccbb777be71fe52faed065e464e50",
+    "expected": "63b2afc63e6ccbb777be71fe52faed065e464e50",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/verdict.txt",
+    "sha": "01f9a708f0a0e6efc4f61cc1ad59ada9072bf2aa",
+    "expected": "01f9a708f0a0e6efc4f61cc1ad59ada9072bf2aa",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GAS/vmat.tex",
+    "sha": "6c109898bf82e8ce2edba1187113923691777068",
+    "expected": "6c109898bf82e8ce2edba1187113923691777068",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/GB.glp",
+    "sha": "b9afab41a0e56d6aa1f35266cfdd702777f11b15",
+    "expected": "b9afab41a0e56d6aa1f35266cfdd702777f11b15",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/GB.txt",
+    "sha": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
+    "expected": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/interface.glp",
+    "sha": "4e39321a9d43d15b14d0e2bf2e57dd04e387f1d0",
+    "expected": "4e39321a9d43d15b14d0e2bf2e57dd04e387f1d0",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/manifest.md",
+    "sha": "0b1075edc4b447af92f882be897fd4aecbc1d6e9",
+    "expected": "0b1075edc4b447af92f882be897fd4aecbc1d6e9",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/platform.glp",
+    "sha": "2bf4d8b1bfb12bf94b1dbd03a5de8dfeb705afe0",
+    "expected": "2bf4d8b1bfb12bf94b1dbd03a5de8dfeb705afe0",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/platform.vglp",
+    "sha": "7abff7a9f0f9a0465537a90702514591eaadc7bd",
+    "expected": "7abff7a9f0f9a0465537a90702514591eaadc7bd",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/schemas.txt",
+    "sha": "dfec48979e5ae9883b67b784b106b2b8341494a1",
+    "expected": "dfec48979e5ae9883b67b784b106b2b8341494a1",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/verdict.txt",
+    "sha": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "expected": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GB/vmat.tex",
+    "sha": "b73097da4eacdb812f77360d93f0a6e0ad096fae",
+    "expected": "b73097da4eacdb812f77360d93f0a6e0ad096fae",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/GC.glp",
+    "sha": "d2668b2282c2d940795465fce94a39dbd799f21c",
+    "expected": "d2668b2282c2d940795465fce94a39dbd799f21c",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/GC.txt",
+    "sha": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
+    "expected": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/interface.glp",
+    "sha": "f4e0bb31198bd74ec659ece4d849cc832d38b067",
+    "expected": "f4e0bb31198bd74ec659ece4d849cc832d38b067",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/manifest.md",
+    "sha": "5a110992079ff937524717de12b7a1035462c86d",
+    "expected": "5a110992079ff937524717de12b7a1035462c86d",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/platform.glp",
+    "sha": "5a32024860a7734c373eebf4733bbd4fcffd5157",
+    "expected": "5a32024860a7734c373eebf4733bbd4fcffd5157",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/platform.vglp",
+    "sha": "5e14bb1173f94808402442ca3345714df72c6747",
+    "expected": "5e14bb1173f94808402442ca3345714df72c6747",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/run.log",
+    "sha": "7a2fb12bd5648444e4ff4ede8309b6656d9c2ada",
+    "expected": "7a2fb12bd5648444e4ff4ede8309b6656d9c2ada",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/schemas.txt",
+    "sha": "f2baf7ddd857ace56265dbfedaa5f1eaf129739c",
+    "expected": "f2baf7ddd857ace56265dbfedaa5f1eaf129739c",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/verdict.txt",
+    "sha": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "expected": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "status": "verified"
+  },
+  {
+    "path": "cascade/GC/vmat.tex",
+    "sha": "55ad4f45c131bea058e6604505ca39c53575df79",
+    "expected": "55ad4f45c131bea058e6604505ca39c53575df79",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/README.md",
+    "sha": "023b5119581b236ab847aa0ea500aa508d56a206",
+    "expected": "023b5119581b236ab847aa0ea500aa508d56a206",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/miniapp.glp",
+    "sha": "99a20195706bcb339d7bf020e3a268443e7d58a2",
+    "expected": "99a20195706bcb339d7bf020e3a268443e7d58a2",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/person.glp",
+    "sha": "a7efe040f7d18db4806c959280ea5405b81b7bc1",
+    "expected": "a7efe040f7d18db4806c959280ea5405b81b7bc1",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/platform.vglp",
+    "sha": "7abff7a9f0f9a0465537a90702514591eaadc7bd",
+    "expected": "7abff7a9f0f9a0465537a90702514591eaadc7bd",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/plays.glp",
+    "sha": "0a37ae0b32bc3e14823484822b3ec0fdcb58a22d",
+    "expected": "0a37ae0b32bc3e14823484822b3ec0fdcb58a22d",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/screens/README.md",
+    "sha": "e2e3f3af28fe96acc4f9355b43099dcbf4b28c57",
+    "expected": "e2e3f3af28fe96acc4f9355b43099dcbf4b28c57",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/screens/gb-a-alice-mint-bond.png",
+    "sha": "6735e14a47d6940ba4d50931dba10b948227b848",
+    "expected": "6735e14a47d6940ba4d50931dba10b948227b848",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/screens/gb-b-bob-asked-loan.png",
+    "sha": "cad81dff81b74eca21b4438c9ec5f07c5df3748c",
+    "expected": "cad81dff81b74eca21b4438c9ec5f07c5df3748c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/screens/gb-c-alice-redeem.png",
+    "sha": "1d8b3998b3780b80a199940c3b01ed26804c099d",
+    "expected": "1d8b3998b3780b80a199940c3b01ed26804c099d",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/screens/gb-d-carol-asked-deposit.png",
+    "sha": "cd3c6a7d3ddcbd9e3840add52bb1b88a3d7aec7e",
+    "expected": "cd3c6a7d3ddcbd9e3840add52bb1b88a3d7aec7e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gb/self.glp",
+    "sha": "9b016a015a9518e707c889fd825d19322e7a8747",
+    "expected": "9b016a015a9518e707c889fd825d19322e7a8747",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/README.md",
+    "sha": "391b7075fa311b3211a22b02584fb3d782f7dadf",
+    "expected": "391b7075fa311b3211a22b02584fb3d782f7dadf",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/miniapp.glp",
+    "sha": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+    "expected": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/person.glp",
+    "sha": "cef56c9df6f503016983c065cd97d73a381801c9",
+    "expected": "cef56c9df6f503016983c065cd97d73a381801c9",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/platform.vglp",
+    "sha": "5e14bb1173f94808402442ca3345714df72c6747",
+    "expected": "5e14bb1173f94808402442ca3345714df72c6747",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/plays.glp",
+    "sha": "894e711b92379b97f6993eb8467084ffa1435a9e",
+    "expected": "894e711b92379b97f6993eb8467084ffa1435a9e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/README.md",
+    "sha": "b08933229bec8fa3432fbaf9a80b58e6933efb3e",
+    "expected": "b08933229bec8fa3432fbaf9a80b58e6933efb3e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-a-alice-mint.png",
+    "sha": "18b3a37128f4ddeeab9ac520798a2a99011f3f58",
+    "expected": "18b3a37128f4ddeeab9ac520798a2a99011f3f58",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-b-bob-asked.png",
+    "sha": "512f6d1216c2774ca866539b778098059d77e6a4",
+    "expected": "512f6d1216c2774ca866539b778098059d77e6a4",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-c-bob-holdings.png",
+    "sha": "b870c65fdf1a03bc1758effb0e6eded94f7ca487",
+    "expected": "b870c65fdf1a03bc1758effb0e6eded94f7ca487",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-d-alice-pay.png",
+    "sha": "b5508fed146c8b826c1c3f1e5b04b7c6d5501e1e",
+    "expected": "b5508fed146c8b826c1c3f1e5b04b7c6d5501e1e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-alice.png",
+    "sha": "01c95429b23bb59aabd84eefb152b6a69cc6728f",
+    "expected": "01c95429b23bb59aabd84eefb152b6a69cc6728f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-bob.png",
+    "sha": "8c50cc429c7bbe294daa8f8bdbf51bcb4dc52ec9",
+    "expected": "8c50cc429c7bbe294daa8f8bdbf51bcb4dc52ec9",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-charlie.png",
+    "sha": "3cb954dc825f9670c2e3016afef1b14fb8bbdede",
+    "expected": "3cb954dc825f9670c2e3016afef1b14fb8bbdede",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-diana.png",
+    "sha": "92095cb1205adbcef8a7c50c6cae2825bd5b922b",
+    "expected": "92095cb1205adbcef8a7c50c6cae2825bd5b922b",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-eve.png",
+    "sha": "6d54d06803b9e69c8d730fd22b88671e97c70e70",
+    "expected": "6d54d06803b9e69c8d730fd22b88671e97c70e70",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/screens/gc-village-frank.png",
+    "sha": "047391319b931e591715aefb68952db5dafcea99",
+    "expected": "047391319b931e591715aefb68952db5dafcea99",
+    "status": "verified"
+  },
+  {
+    "path": "programs/apps/gc/self.glp",
+    "sha": "c19baa7c16aef6597b6476c59f6648edf1cee41a",
+    "expected": "c19baa7c16aef6597b6476c59f6648edf1cee41a",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/GB.glp",
+    "sha": "b9afab41a0e56d6aa1f35266cfdd702777f11b15",
+    "expected": "b9afab41a0e56d6aa1f35266cfdd702777f11b15",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/GB.txt",
+    "sha": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
+    "expected": "c6d000c093811cc72d18a05bc4ceffa88dca27f2",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/collateral.glp",
+    "sha": "87a02cc0b542e920207ef216434a475c4d634ac0",
+    "expected": "87a02cc0b542e920207ef216434a475c4d634ac0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/credit_instruments.glp",
+    "sha": "01a22507fb6e7fd2add56d804fbef99e61203f26",
+    "expected": "01a22507fb6e7fd2add56d804fbef99e61203f26",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/credit_line.glp",
+    "sha": "279a050e25440d2adbc637f9d319a2f679e6d309",
+    "expected": "279a050e25440d2adbc637f9d319a2f679e6d309",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/bonds_agent.glp",
+    "sha": "1b2641d79d0c89859ad6ca1ecabd1dfb1a2ddd71",
+    "expected": "1b2641d79d0c89859ad6ca1ecabd1dfb1a2ddd71",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/bonds_agent.vglp",
+    "sha": "e67b8f8a511f0224d69b93e4081ff2b7e934a21c",
+    "expected": "e67b8f8a511f0224d69b93e4081ff2b7e934a21c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/escrow.glp",
+    "sha": "5f6e6db85b47c20f7506e7f55a1e49919cdad746",
+    "expected": "5f6e6db85b47c20f7506e7f55a1e49919cdad746",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/miniapp.glp",
+    "sha": "2b1e0bfec0ff224c50acd5fd287216b359b35396",
+    "expected": "2b1e0bfec0ff224c50acd5fd287216b359b35396",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/person.glp",
+    "sha": "d3eead498294b8cf92aa84c3a29a15b602af9ad0",
+    "expected": "d3eead498294b8cf92aa84c3a29a15b602af9ad0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/plays.glp",
+    "sha": "db69743a2aa0dd259027d2633d8022a742818500",
+    "expected": "db69743a2aa0dd259027d2633d8022a742818500",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/dated/self.glp",
+    "sha": "e32991bbe3a6664f61fa7a39c83b9475a541e018",
+    "expected": "e32991bbe3a6664f61fa7a39c83b9475a541e018",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/instruments.glp",
+    "sha": "331985bdbb521faac43fcf07cac37eee9e18af63",
+    "expected": "331985bdbb521faac43fcf07cac37eee9e18af63",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/loans.glp",
+    "sha": "a2beb3f0814d5e0bd494feddadcd10006ea6bb05",
+    "expected": "a2beb3f0814d5e0bd494feddadcd10006ea6bb05",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/options.glp",
+    "sha": "4f16c280a42550a50a7093f9ca97f25472e4ba2a",
+    "expected": "4f16c280a42550a50a7093f9ca97f25472e4ba2a",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/self.glp",
+    "sha": "ffe1a2653e791852fa284cf77113dd9d159339b3",
+    "expected": "ffe1a2653e791852fa284cf77113dd9d159339b3",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/bonds/village.glp",
+    "sha": "3d00d6662245a84b373565414d1e66cdaaa4803a",
+    "expected": "3d00d6662245a84b373565414d1e66cdaaa4803a",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/GC.glp",
+    "sha": "d2668b2282c2d940795465fce94a39dbd799f21c",
+    "expected": "d2668b2282c2d940795465fce94a39dbd799f21c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/GC.txt",
+    "sha": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
+    "expected": "a7f657b07999124aae2d2e39f3c4da033fd1fe0c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/coins_agent.glp",
+    "sha": "7e31ba9deb04c2f62a102fc731e42d56e85d6487",
+    "expected": "7e31ba9deb04c2f62a102fc731e42d56e85d6487",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/coins_agent.vglp",
+    "sha": "75b2b7e8ff21316cf4805e3bfd11d63e87da0723",
+    "expected": "75b2b7e8ff21316cf4805e3bfd11d63e87da0723",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/miniapp.glp",
+    "sha": "c48fa78b29d5dfb7376bbe4c17d5a8d24758b2b0",
+    "expected": "c48fa78b29d5dfb7376bbe4c17d5a8d24758b2b0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/person.glp",
+    "sha": "ebe953d48172d11f3fc8e4fcfefa38770662c490",
+    "expected": "ebe953d48172d11f3fc8e4fcfefa38770662c490",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/plays.glp",
+    "sha": "2b3340a7b9d5f0e7690a8bc7a14835aab5e01e83",
+    "expected": "2b3340a7b9d5f0e7690a8bc7a14835aab5e01e83",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/currency/self.glp",
+    "sha": "8bec5141ebcae6652a6082e5e264898dd7be4d0b",
+    "expected": "8bec5141ebcae6652a6082e5e264898dd7be4d0b",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/play_ui.glp",
+    "sha": "e02fb9c756eb9d8103a7e8eb3e414038b4521a9c",
+    "expected": "e02fb9c756eb9d8103a7e8eb3e414038b4521a9c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/self.glp",
+    "sha": "635bae02270dac04d373ab1fe51e06f3aaf08888",
+    "expected": "635bae02270dac04d373ab1fe51e06f3aaf08888",
+    "status": "verified"
+  },
+  {
+    "path": "programs/currencies/coins/village.glp",
+    "sha": "9595434a7e6173940dd64e8ac36ed0ee0411f707",
+    "expected": "9595434a7e6173940dd64e8ac36ed0ee0411f707",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GAS.glp",
+    "sha": "c00d14ec6187166ec6bf393f969a87621590a398",
+    "expected": "c00d14ec6187166ec6bf393f969a87621590a398",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GAS.txt",
+    "sha": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
+    "expected": "04e5401e34c62197f8aa9288cabe69b7c2d453ba",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GPD.glp",
+    "sha": "6deab13ea1c4d60e86c11b1278d3ce78aadd9d4b",
+    "expected": "6deab13ea1c4d60e86c11b1278d3ce78aadd9d4b",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GPD.txt",
+    "sha": "cbf1121d49cbca3ed51a8ce6eee4ca6da1289302",
+    "expected": "cbf1121d49cbca3ed51a8ce6eee4ca6da1289302",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GPE.glp",
+    "sha": "06d121545ef7e2e0f2b2899e728a1c4ba0169e16",
+    "expected": "06d121545ef7e2e0f2b2899e728a1c4ba0169e16",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/GPE.txt",
+    "sha": "fa564f0577d1e12e81029002c2cc994473d54190",
+    "expected": "fa564f0577d1e12e81029002c2cc994473d54190",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/boot.glp",
+    "sha": "51e4b1bb3572cef8397fc5e77179b364fb56e994",
+    "expected": "51e4b1bb3572cef8397fc5e77179b364fb56e994",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/budget/bounded.glp",
+    "sha": "61202c67543e6d90499cc2cb915bc244d7f02337",
+    "expected": "61202c67543e6d90499cc2cb915bc244d7f02337",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/budget/self.glp",
+    "sha": "c44476e5eac19055288a11538ebb2765cd34048e",
+    "expected": "c44476e5eac19055288a11538ebb2765cd34048e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/agent.glp",
+    "sha": "4d544bd8e6b444c0a06eb6f9fd71eff3f3d81ed5",
+    "expected": "4d544bd8e6b444c0a06eb6f9fd71eff3f3d81ed5",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/agent.vglp",
+    "sha": "c0799332a848d55361cb843aa3a17f8c6a1a712f",
+    "expected": "c0799332a848d55361cb843aa3a17f8c6a1a712f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/coins_phone.glp",
+    "sha": "0f7705d45d5e727c3cf59842389dee3d12fef27e",
+    "expected": "0f7705d45d5e727c3cf59842389dee3d12fef27e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/dated_phone.glp",
+    "sha": "1404a30dbf030681042dc0b02da4cce421359d05",
+    "expected": "1404a30dbf030681042dc0b02da4cce421359d05",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gai_phone.glp",
+    "sha": "a62696f4d79e2d4dab9e4610ff1bf46deaa34060",
+    "expected": "a62696f4d79e2d4dab9e4610ff1bf46deaa34060",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gb_phone.glp",
+    "sha": "28be37838204fe23889b7816118063e5ce23913c",
+    "expected": "28be37838204fe23889b7816118063e5ce23913c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gc_phone.glp",
+    "sha": "09dfb5b7335bdbf33f2e42d8a1dfabffdee627eb",
+    "expected": "09dfb5b7335bdbf33f2e42d8a1dfabffdee627eb",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gkk_phone.glp",
+    "sha": "f431812ee14cc7e10bddfd5c25d6f8969a6a606d",
+    "expected": "f431812ee14cc7e10bddfd5c25d6f8969a6a606d",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gsg_phone.glp",
+    "sha": "4450da9ad3ea056dd19f9a5dc103be771e0ab21f",
+    "expected": "4450da9ad3ea056dd19f9a5dc103be771e0ab21f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gsn_phone.glp",
+    "sha": "d9c2afd2b69d246e1edc90d0a7f74d19cdee5af1",
+    "expected": "d9c2afd2b69d246e1edc90d0a7f74d19cdee5af1",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/gsnp_phone.glp",
+    "sha": "843b5ae651e8d8e7664ceb86d8ac130a39aeff87",
+    "expected": "843b5ae651e8d8e7664ceb86d8ac130a39aeff87",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/home.glp",
+    "sha": "9fde2667398c0f2e062aab10085c87a3deea0c31",
+    "expected": "9fde2667398c0f2e062aab10085c87a3deea0c31",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/home.vglp",
+    "sha": "fcac7939d820487d38718f543f4006c242cb1990",
+    "expected": "fcac7939d820487d38718f543f4006c242cb1990",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/home_ui.glp",
+    "sha": "05fe73b9d24c761292ab26eb1ae5d0e760ad0dc6",
+    "expected": "05fe73b9d24c761292ab26eb1ae5d0e760ad0dc6",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/links.glp",
+    "sha": "9a354b2f2e1880a34bc47a58e2593f6dd7b0f5f3",
+    "expected": "9a354b2f2e1880a34bc47a58e2593f6dd7b0f5f3",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/place.glp",
+    "sha": "ec4b988b8bdc08755119c72f38ba3648671bc79c",
+    "expected": "ec4b988b8bdc08755119c72f38ba3648671bc79c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/self.glp",
+    "sha": "c7f5d11feadefc57bed37d4a3125ab6c5e90432f",
+    "expected": "c7f5d11feadefc57bed37d4a3125ab6c5e90432f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/services.json",
+    "sha": "cff47231e69950bd3dfeb7e91e4dcaadea4096c0",
+    "expected": "cff47231e69950bd3dfeb7e91e4dcaadea4096c0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/sovereign_phone.glp",
+    "sha": "f0f20b2625031178648c2ce41ac09d2f5271c21d",
+    "expected": "f0f20b2625031178648c2ce41ac09d2f5271c21d",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/core/superapp_plays.glp",
+    "sha": "3c626f7a344ba36c69573ae8e062087ed9d4b932",
+    "expected": "3c626f7a344ba36c69573ae8e062087ed9d4b932",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/endapp/miniapp.glp",
+    "sha": "c9b1fa882fab535f904d05b7f7eeaa307f4b6270",
+    "expected": "c9b1fa882fab535f904d05b7f7eeaa307f4b6270",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/endapp/person.glp",
+    "sha": "07294969fc989a53783c3fe37daa2ae52c2669d4",
+    "expected": "07294969fc989a53783c3fe37daa2ae52c2669d4",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/endapp/self.glp",
+    "sha": "8ef066511d74a28a659954c9fd153fdebb8763da",
+    "expected": "8ef066511d74a28a659954c9fd153fdebb8763da",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/pingapp/miniapp.glp",
+    "sha": "85f102ed1d5423e8681aa4b6e1396d6be391c72c",
+    "expected": "85f102ed1d5423e8681aa4b6e1396d6be391c72c",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/pingapp/person.glp",
+    "sha": "cda614a95e0d57c80f92489b5670cfe4fc528c63",
+    "expected": "cda614a95e0d57c80f92489b5670cfe4fc528c63",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/pingapp/self.glp",
+    "sha": "c2424ac3312fd0cb065df741d7f4a19828da190e",
+    "expected": "c2424ac3312fd0cb065df741d7f4a19828da190e",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/play_ui_boot.glp",
+    "sha": "13eee23b41b49d8ed7cd5e4341670c8072a7db9f",
+    "expected": "13eee23b41b49d8ed7cd5e4341670c8072a7db9f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/routing/befriend.glp",
+    "sha": "725c6105db8a33557f8f9d466aac1dd566916f0f",
+    "expected": "725c6105db8a33557f8f9d466aac1dd566916f0f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/routing/inject.glp",
+    "sha": "5f8ddf67f50bee33efd4c20e610b7146cc873a5f",
+    "expected": "5f8ddf67f50bee33efd4c20e610b7146cc873a5f",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/routing/intro.glp",
+    "sha": "51b97e72afce0bdc40450368c9f12837b86d23e0",
+    "expected": "51b97e72afce0bdc40450368c9f12837b86d23e0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/routing/output.glp",
+    "sha": "b01f91b093046ee79e0a42245f2211682b58e2d1",
+    "expected": "b01f91b093046ee79e0a42245f2211682b58e2d1",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/self.glp",
+    "sha": "97ee83f7be4b5ca716008f455261df06dfd9f2c0",
+    "expected": "97ee83f7be4b5ca716008f455261df06dfd9f2c0",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/ui/mediator.glp",
+    "sha": "af0587971f7fa5f4b38cb0616fbff88ef40d7176",
+    "expected": "af0587971f7fa5f4b38cb0616fbff88ef40d7176",
+    "status": "verified"
+  },
+  {
+    "path": "programs/social/graph/ui/self.glp",
+    "sha": "44ab873d6670a17709f089e5c1504794b9ec5cc4",
+    "expected": "44ab873d6670a17709f089e5c1504794b9ec5cc4",
+    "status": "verified"
+  },
+  {
+    "path": "programs/vglp/cva/currency/platform.vglp",
+    "sha": "5e14bb1173f94808402442ca3345714df72c6747",
+    "expected": "5e14bb1173f94808402442ca3345714df72c6747",
+    "status": "verified"
+  },
+  {
+    "path": "programs/vglp/cva/currency/self.glp",
+    "sha": "86979eedb6dee90b8a60458f663c63a241245d21",
+    "expected": "86979eedb6dee90b8a60458f663c63a241245d21",
+    "status": "verified"
+  },
+  {
+    "path": "test/run_all_tests.sh",
+    "sha": "c830d56334718ed453087caeafd116cb5ec6e309",
+    "expected": "c830d56334718ed453087caeafd116cb5ec6e309",
+    "status": "verified"
+  }
+]

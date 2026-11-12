@@ -1,0 +1,465 @@
+{
+  "baseline": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "observed_main": "8f6cf17a63a956fa41a0184648cba0882a40ed32",
+  "changed_files": [
+    {
+      "path": "cascade/CB/CB.glp",
+      "sha": "736c62ad1d91e5202079f240edef9de46fb7f159"
+    },
+    {
+      "path": "cascade/CB/CB.txt",
+      "sha": "ea16914b3c153b3182bba7c90f407e6068e15187"
+    },
+    {
+      "path": "cascade/CB/manifest.md",
+      "sha": "6589a7ce2bcd5d161decfec4060592938244f80c"
+    },
+    {
+      "path": "cascade/CB/schemas.txt",
+      "sha": "89bcd03a15a920b817bb197817ffb2c9bfe6ecc4"
+    },
+    {
+      "path": "cascade/CB/vmat.tex",
+      "sha": "88559e998382ce2d80978a2c8876657757759bf5"
+    },
+    {
+      "path": "cascade/CC/CC.glp",
+      "sha": "8dbfd3d3ea034586f76b71e2ed5ac2df90fb7265"
+    },
+    {
+      "path": "cascade/CC/CC.txt",
+      "sha": "8e2a2073eca4721f134e17e6563f6bf3287d286b"
+    },
+    {
+      "path": "cascade/CC/manifest.md",
+      "sha": "a81de9c440b0c90edce26e9fdbaacdf469b71caa"
+    },
+    {
+      "path": "cascade/CC/schemas.txt",
+      "sha": "7465c02ffb197908a265de71c0a54ae41996b728"
+    },
+    {
+      "path": "cascade/CC/vmat.tex",
+      "sha": "0ab908bf149816dc6ee52b7ae6f61173fb71d45d"
+    },
+    {
+      "path": "cascade/CMB/CMB.glp",
+      "sha": "3dfa108dcef70c7ebb7ef9679391773d2305c929"
+    },
+    {
+      "path": "cascade/CMB/CMB.txt",
+      "sha": "6ae6759c196ab8dc22e20d6679aa295870fe7db9"
+    },
+    {
+      "path": "cascade/CMB/manifest.md",
+      "sha": "20353d3f97d9ac8f91f0ced79effba5f028020bb"
+    },
+    {
+      "path": "cascade/CMB/schemas.txt",
+      "sha": "50e36070e3612fa2191a5f004ce5852f04f7e037"
+    },
+    {
+      "path": "cascade/CMB/vmat.tex",
+      "sha": "2766328288fb330e639680117f36e40a7fc62175"
+    },
+    {
+      "path": "cascade/CnC/CnC.glp",
+      "sha": "da38746f5c774b7012b6ea0154edf14a7c02340c"
+    },
+    {
+      "path": "cascade/CnC/CnC.txt",
+      "sha": "2bcf21c9039461cbbbffc911517dcac440de8186"
+    },
+    {
+      "path": "cascade/CnC/manifest.md",
+      "sha": "34d2ca51eca2fe345581d240edb89bdc75ffe8aa"
+    },
+    {
+      "path": "cascade/CnC/schemas.txt",
+      "sha": "619548ad28a1ce1671afdf85067c8384c2129188"
+    },
+    {
+      "path": "cascade/CnC/vmat.tex",
+      "sha": "7e45f2a786ea0088082007c99614603a6002fee5"
+    },
+    {
+      "path": "cascade/GAN/GAN.glp",
+      "sha": "efdb9ba8d12f38a00a5b94f4c533ffd3ef4a5ebf"
+    },
+    {
+      "path": "cascade/GAN/GAN.txt",
+      "sha": "2f54854c8016b8e92348c183283e1aec8222b426"
+    },
+    {
+      "path": "cascade/GAN/manifest.md",
+      "sha": "e78d93eefb5af73b51e41119457c41fafaa9c740"
+    },
+    {
+      "path": "cascade/GAN/schemas.txt",
+      "sha": "caf26ff98589b0a6688a6a24425b312edc2496fc"
+    },
+    {
+      "path": "cascade/GAN/vmat.tex",
+      "sha": "da3feff0b137035874625736f95ba45f2813b85c"
+    },
+    {
+      "path": "cascade/GBCC/GBCC.glp",
+      "sha": "175af11905843150a0acf944afb7bd9c7230b6d8"
+    },
+    {
+      "path": "cascade/GBCC/GBCC.txt",
+      "sha": "0402abc7a481371ef0e010cea3327b80e38c25e3"
+    },
+    {
+      "path": "cascade/GBCC/manifest.md",
+      "sha": "a1465d332c8531f93d094b0aa50cfa907e3407be"
+    },
+    {
+      "path": "cascade/GBCC/schemas.txt",
+      "sha": "b2f8ccf342e88aada980b2c7bd85cb1b4f48f570"
+    },
+    {
+      "path": "cascade/GBCC/vmat.tex",
+      "sha": "a0d20e358fc1e83114ab67e9841272895555064f"
+    },
+    {
+      "path": "cascade/GBank/GBank.glp",
+      "sha": "8343b9c09c6f893858fe3b08baeb432d0e1df5fa"
+    },
+    {
+      "path": "cascade/GBank/GBank.txt",
+      "sha": "9a74c79ee37156264403bcf5265983212d2a93c7"
+    },
+    {
+      "path": "cascade/GBank/manifest.md",
+      "sha": "d1d720f245e1ae37bb7d0d8bdf799f63a1e3606e"
+    },
+    {
+      "path": "cascade/GBank/schemas.txt",
+      "sha": "525c941e9317de6ea234c868d8dcd33d6e48a5fe"
+    },
+    {
+      "path": "cascade/GBank/vmat.tex",
+      "sha": "13faebe64918146ae0641f17378952e8aaa9adea"
+    },
+    {
+      "path": "cascade/GCoop/GCoop.glp",
+      "sha": "4931104473b87088e9a0f2b020a953a60cd5a467"
+    },
+    {
+      "path": "cascade/GCoop/GCoop.txt",
+      "sha": "c6a1cd61695c36e9b71663dfb9d4ba50bbc3cff5"
+    },
+    {
+      "path": "cascade/GCoop/manifest.md",
+      "sha": "9ea198c37163bc74935359cefa64742f20d5663f"
+    },
+    {
+      "path": "cascade/GCoop/schemas.txt",
+      "sha": "c664fa9fa226a85d0e3bb564db33d756809a36c6"
+    },
+    {
+      "path": "cascade/GCoop/vmat.tex",
+      "sha": "8eb6512325145c699a9b4d0470dadb30aa5bd999"
+    },
+    {
+      "path": "cascade/GCorp/GCorp.glp",
+      "sha": "92e631e39b79d930ce2bdff628706fa29c2edab9"
+    },
+    {
+      "path": "cascade/GCorp/GCorp.txt",
+      "sha": "5e6d612c3a2aba45ce2a12ab217a4576ce5efd55"
+    },
+    {
+      "path": "cascade/GCorp/manifest.md",
+      "sha": "8a584a515ec957e04a3a18a0be89458f2ee62fc0"
+    },
+    {
+      "path": "cascade/GCorp/schemas.txt",
+      "sha": "525c941e9317de6ea234c868d8dcd33d6e48a5fe"
+    },
+    {
+      "path": "cascade/GCorp/vmat.tex",
+      "sha": "13faebe64918146ae0641f17378952e8aaa9adea"
+    },
+    {
+      "path": "cascade/GDAO/GDAO.glp",
+      "sha": "1e1e2cc0d442278678d4915f8c217efe0739c760"
+    },
+    {
+      "path": "cascade/GDAO/GDAO.txt",
+      "sha": "8d97dbfd3d1d9513a24ad28d320b66b15a14adfe"
+    },
+    {
+      "path": "cascade/GDAO/manifest.md",
+      "sha": "e00995397e0c0f7df1ef6b608060b3a7cade1556"
+    },
+    {
+      "path": "cascade/GDAO/schemas.txt",
+      "sha": "a9ab30de0a347aee3bec14878601e01982208c9d"
+    },
+    {
+      "path": "cascade/GDAO/vmat.tex",
+      "sha": "9a29c40318ca0f4d2574487066605dd0c2405598"
+    },
+    {
+      "path": "cascade/GLDAO/GLDAO.glp",
+      "sha": "8866e459ed8ea41edd577807bb330bdf64488ef8"
+    },
+    {
+      "path": "cascade/GLDAO/GLDAO.txt",
+      "sha": "3b668fb960b2a11d7fa070979703f89c1056536f"
+    },
+    {
+      "path": "cascade/GLDAO/manifest.md",
+      "sha": "220517b37dacb243ae3a064ac571d718051c1416"
+    },
+    {
+      "path": "cascade/GLDAO/schemas.txt",
+      "sha": "702001083b81e9a0c0599a631e5b0e046f0fc729"
+    },
+    {
+      "path": "cascade/GLDAO/vmat.tex",
+      "sha": "29314122217d83624148f89131e7da093a787e8c"
+    },
+    {
+      "path": "cascade/GNG/GNG.glp",
+      "sha": "bdd32399f5d0ba7dd97bd1b56f46f39d0b2207c3"
+    },
+    {
+      "path": "cascade/GNG/GNG.txt",
+      "sha": "4f7716f35aaacb0514c26e9fcf2468223901966e"
+    },
+    {
+      "path": "cascade/GNG/manifest.md",
+      "sha": "2dbd9273a94295472b33211ed7f85517cb65722d"
+    },
+    {
+      "path": "cascade/GNG/schemas.txt",
+      "sha": "cb98f4aa11b38d95ba20f6dac3a950d5a2ed60e0"
+    },
+    {
+      "path": "cascade/GNG/vmat.tex",
+      "sha": "a4c055827ab5a537e5fc87a4cdcddc99dbc08f4a"
+    },
+    {
+      "path": "cascade/GNL/GNL.glp",
+      "sha": "36d0c790ea902c7e8e44048efa2d909847d60456"
+    },
+    {
+      "path": "cascade/GNL/GNL.txt",
+      "sha": "119b16b66429ccc14a8efdabd220ad7b7299e1d2"
+    },
+    {
+      "path": "cascade/GNL/manifest.md",
+      "sha": "f72afd1724c9cf966cfc8e7dbd13e74cff90cee5"
+    },
+    {
+      "path": "cascade/GNL/schemas.txt",
+      "sha": "efcb9a728a66f6156579c2b56daa177e527d1211"
+    },
+    {
+      "path": "cascade/GNL/vmat.tex",
+      "sha": "ea5fba358664a337ad97f6a7089866e7dbbf4973"
+    },
+    {
+      "path": "cascade/GNM/GNM.glp",
+      "sha": "c065fa70c854d9075e6ca2423bea9fe977fa2624"
+    },
+    {
+      "path": "cascade/GNM/GNM.txt",
+      "sha": "b516d91f307c35daa5f9e13d026d42cae268f050"
+    },
+    {
+      "path": "cascade/GNM/manifest.md",
+      "sha": "acbb7502206ba1d9290e4e0a589e6da9f3cbafb5"
+    },
+    {
+      "path": "cascade/GNM/schemas.txt",
+      "sha": "5c8bda6f1ed23d68191fc541521e46274aecbfee"
+    },
+    {
+      "path": "cascade/GNM/vmat.tex",
+      "sha": "dcfac1c2913665fa1ae5ef5f672885e92d759637"
+    },
+    {
+      "path": "cascade/GNO/GNO.glp",
+      "sha": "52b2c677318034bd7940a5aba50f4ad684a813e2"
+    },
+    {
+      "path": "cascade/GNO/GNO.txt",
+      "sha": "b6d8e8fbd578563fa87031b920bb8fa666c0912c"
+    },
+    {
+      "path": "cascade/GNO/manifest.md",
+      "sha": "a75c3b57245ef7b33db4fbc64cea1b290e0c0c08"
+    },
+    {
+      "path": "cascade/GNO/schemas.txt",
+      "sha": "8cdbc3eeaa5d2c731010ed76f6e5627e9ab2831b"
+    },
+    {
+      "path": "cascade/GNO/vmat.tex",
+      "sha": "05342340724a651ed2b066b783dbbdebb8ede44f"
+    },
+    {
+      "path": "cascade/GO/GO.glp",
+      "sha": "e40fb80510cf9dbc04b15b387c766d8bdf8ccd71"
+    },
+    {
+      "path": "cascade/GO/GO.txt",
+      "sha": "b9d9cbd10a1a3ffb2eb7595fab44916bb3a330ed"
+    },
+    {
+      "path": "cascade/GO/manifest.md",
+      "sha": "58e74ae51fd0dd6090ed9b6414b2b4ff94646531"
+    },
+    {
+      "path": "cascade/GO/schemas.txt",
+      "sha": "d3770789c76d7e52ad10a9cf52a6ccb55061bd23"
+    },
+    {
+      "path": "cascade/GO/vmat.tex",
+      "sha": "d00c5ddbe298fbef96b30608242a4893ac3eaa38"
+    },
+    {
+      "path": "cascade/MCS/MCS.glp",
+      "sha": "abada5d46926b1562cabdd656c08fd1466c7ee03"
+    },
+    {
+      "path": "cascade/MCS/MCS.txt",
+      "sha": "4d10d3ec03cf4df03a5b093cf703737d99d761be"
+    },
+    {
+      "path": "cascade/MCS/manifest.md",
+      "sha": "55ebc43c22b0711122013310b7dd23c4720689e6"
+    },
+    {
+      "path": "cascade/MCS/schemas.txt",
+      "sha": "4e46bfd24427898d62dd4c30e5ec5de7af75abfc"
+    },
+    {
+      "path": "cascade/MCS/vmat.tex",
+      "sha": "0dcef919c9b42ef63d8997189068d23765dae287"
+    },
+    {
+      "path": "cascade/SC/SC.glp",
+      "sha": "4b41553f1efd980b72b54138f603db1e3e22bce2"
+    },
+    {
+      "path": "cascade/SC/SC.txt",
+      "sha": "e18a6e10e5d945907471de8c39cb287575f029b2"
+    },
+    {
+      "path": "cascade/SC/manifest.md",
+      "sha": "c55bd050bf8732b2a0f5e13be06e01efe8efa3d9"
+    },
+    {
+      "path": "cascade/SC/schemas.txt",
+      "sha": "fa3b2e4f70a87e03bb42b89a6239bd76ba7a261b"
+    },
+    {
+      "path": "cascade/SC/vmat.tex",
+      "sha": "033df01abf31c1501013cab30e9d34887d46bb03"
+    },
+    {
+      "path": "cascade/SCB/SCB.glp",
+      "sha": "71eefcfd4311d9ab167318da5ad67c541a784d1a"
+    },
+    {
+      "path": "cascade/SCB/SCB.txt",
+      "sha": "4b093531cb3e664e2f6a83a85980f43d8d017c9d"
+    },
+    {
+      "path": "cascade/SCB/manifest.md",
+      "sha": "95c5ae1d1d1ff295fa4bb2e7fcf6907dd359b067"
+    },
+    {
+      "path": "cascade/SCB/schemas.txt",
+      "sha": "777b56fcc3df24823d8a7193330531fd30be6a61"
+    },
+    {
+      "path": "cascade/SCB/vmat.tex",
+      "sha": "a1c98d8f2f8afd3d6141f1034cf96238affde72f"
+    },
+    {
+      "path": "cascade/SPLLC/SPLLC.glp",
+      "sha": "e91783272674c8566a1a1146c1b652d1e7f0c804"
+    },
+    {
+      "path": "cascade/SPLLC/SPLLC.txt",
+      "sha": "b5356909e81e012ad39cffd6ac98b81f4260daf0"
+    },
+    {
+      "path": "cascade/SPLLC/manifest.md",
+      "sha": "e3ce462519857b573e68a4b1a43965805f843233"
+    },
+    {
+      "path": "cascade/SPLLC/schemas.txt",
+      "sha": "0e6bfb955f35873d000b9b7a4a45e8f061492632"
+    },
+    {
+      "path": "cascade/SPLLC/vmat.tex",
+      "sha": "722fba52da9979d397b026304958aecd6f7d4da8"
+    },
+    {
+      "path": "cascade/TC/TC.glp",
+      "sha": "4d45be32abde491de78c406087ddbf0ad822a3ed"
+    },
+    {
+      "path": "cascade/TC/TC.txt",
+      "sha": "b737f2b61f84bc13a5848363bbd8e06035d1cea9"
+    },
+    {
+      "path": "cascade/TC/manifest.md",
+      "sha": "f81d094028e25ec18400f02677d0c65cfef5e372"
+    },
+    {
+      "path": "cascade/TC/schemas.txt",
+      "sha": "aa9eae588f05733c4dd28751857a5e65243da66b"
+    },
+    {
+      "path": "cascade/TC/vmat.tex",
+      "sha": "af7b801578f25c4e9048797db18553f00efa76dc"
+    },
+    {
+      "path": "cascade/WC/WC.glp",
+      "sha": "7320fe20f859ab4551bc54cf5dbdbf7ef57fafa9"
+    },
+    {
+      "path": "cascade/WC/WC.txt",
+      "sha": "d5baebc07fa1f58a666e4dd9a2bee4de179404c9"
+    },
+    {
+      "path": "cascade/WC/manifest.md",
+      "sha": "934666692178d288be42495b8cb7d85c44c69ee8"
+    },
+    {
+      "path": "cascade/WC/schemas.txt",
+      "sha": "122ed3cbf5d0f12b6ac451542cd93273b559cf79"
+    },
+    {
+      "path": "cascade/WC/vmat.tex",
+      "sha": "a452c7c7a60e7497ab2dd3d50f350a9015a30b10"
+    },
+    {
+      "path": "programs/apps/compile.sh",
+      "sha": "d3965ddc1c9c1eaccb228e1e1fad9f4a78f16148"
+    },
+    {
+      "path": "test/run_all_tests.sh",
+      "sha": "303dcba1b9466c92911f327bd3273b96556b13e6"
+    }
+  ],
+  "relevant_patches": [
+    {
+      "path": "programs/apps/compile.sh",
+      "patch": "@@ -12,7 +12,7 @@\n #   gai    gai       programs/gai/GAI.glp\n #   gc     gc        programs/currencies/coins/GC.glp\n #   gb     gb        programs/currencies/bonds/GB.glp\n-#   gff    gff       programs/gff/GFF.glp\n+#   gff    gff_i     programs/gff/GFF-I.glp   (GFF-I, which restricts GFF, the abstract contract, and is the one compiled: programs/gff/GFF-I.txt)\n #\n # The steps are cascade.sh's 1, 2 and 4: the contract, contract_named/2, from the owner's file; the checker's verdict on it, programs/gsc's check/2; and the compiler, programs/vglp/cva/compiler's compile/5, on the contract, its verdict, its introduction predicate, introduction_named/2 where the owner's file names one and no_introduction otherwise, and its pragmas, the words its app shows, read from the NAME.txt beside the owner's file and from those of the contracts it extends by programs/vglp/cva/compiler/pragmas.sh (vGLP, Section 5.4, \"The contract's words\"), each act the schema its button names (GSC, Section 2).  What the compiler prints between its lines \"%% compile begin\" and \"%% compile end\" is the platform.\n #\n@@ -33,7 +33,7 @@ contract_of() { # contract_of <app> ; the checker's name of its contract\n         gai) echo gai ;;\n         gc) echo gc ;;\n         gb) echo gb ;;\n-        gff) echo gff ;;\n+        gff) echo gff_i ;;\n     esac\n }\n file_of() { # file_of <app> ; the owner's file that holds its contract\n@@ -45,7 +45,7 @@ file_of() { # file_of <app> ; the owner's file that holds its contract\n         gai) echo \"$GLP_DIR/programs/gai/GAI.glp\" ;;\n         gc) echo \"$GLP_DIR/programs/currencies/coins/GC.glp\" ;;\n         gb) echo \"$GLP_DIR/programs/currencies/bonds/GB.glp\" ;;\n-        gff) echo \"$GLP_DIR/programs/gff/GFF.glp\" ;;\n+        gff) echo \"$GLP_DIR/programs/gff/GFF-I.glp\" ;;\n     esac\n }\n "
+    },
+    {
+      "path": "test/run_all_tests.sh",
+      "patch": "@@ -8737,7 +8737,7 @@ check \"APPS gsnp agents: the run suspends, no agent left with an own transaction\n check_not \"APPS gsnp agents: ... and is not stopped at the limit\" \"capped\" \"$apps_gsnp_ag\"\n \n # GFF's app, programs/apps/gff: the same host on GFF's platform (programs/gff/GFF.glp and GFF.txt), its wrapper the same file as GSG's; GFF's play (Code_inbox.md, GFF #1 Cowork, 2026-10-27 16:34 UTC, with its revisions of 17:21, 18:39 and 19:2x and 20:25 UTC), five executions over four conversations, alice's with bob, bob's with carol, carol's with dave and dave's with eve (play_feeds): each two friends meet and befriend (GKK:2, GSG:1); alice posts two items (GFF:1); each two friends follow each other (GFF:2, friends_follow); once both items have reached bob he introduces alice to carol (GKK:3); carol decides to follow alice (GFF:2, follow), her machine following her through bob and asking her friends (through_friend, ask; GFF:3), and introduces her to dave; dave likewise through carol, and eve through dave; once eve follows alice, alice posts a third item, which reaches eve signed by alice, bob, carol and dave, once each (GFF:4); once it has, carol ends her following; once she has, alice posts a fourth, which reaches bob and not carol, dave or eve.  Each \"once\" across two persons is the play's, a watcher on one screen giving the other person the rest of their script (plays.glp).\n-check \"APPS gff: platform.vglp is what vGLP's compiler prints from GFF.glp\" \"^gff/platform.vglp: as printed$\" \"$apps_print\"\n+check \"APPS gff: platform.vglp is what vGLP's compiler prints from GFF-I.glp\" \"^gff/platform.vglp: as printed$\" \"$apps_print\"\n if cmp -s \"$GLP_DIR/programs/apps/gsg/miniapp.glp\" \"$GLP_DIR/programs/apps/gff/miniapp.glp\"; then\n     _check_pass \"APPS gff: miniapp.glp is the same file as GSG's app's\"\n else"
+    }
+  ],
+  "interpretation": "Currency and GSA source/artifacts unchanged. GFF compile input changed to GFF-I; its check label changes. KNOWN_RED_CHECKS block unchanged. No GFF rerun claimed."
+}

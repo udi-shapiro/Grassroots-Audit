@@ -1,3 +1,9 @@
+# Current checkpoint: currency and GSA evidence complete
+
+User order: GC/GB contracts, schemas, apps and recorded runs; then GSA certificates and App Store install path; report KNOWN_RED_CHECKS once. Evidence and stage record are currencies-gsa-20261112 and stages/04-currencies-gsa.json. Two new findings are being prepared: GB escrow agreement representation and GSA creator-certificate validation. GC/GB cascade records reproduce. GAS is refusal-only, no executable store path. All 23 known-red names are centralized without duplicate app findings.
+
+PR11 and PR12 are merged. GAI metadata matches current contracts but still differs from shipped platforms, so both findings remain open. sGLP #1 has an answer; verification is deferred. Five of the original six core questions remain unanswered: GLP-Spec #1, IGLP #1–2, vGLP #1, sGLP #2. All core-paper investigations stay held. No persistent agents or background monitor. No GLP writes. Publication and execution branches remain separate from GPT-Auditor.
+
 # Latest checkpoint: first application sweep published
 
 [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10) is merged as `0353d0f7e99df27bac87bc91400370f3314808bb`. All eight publication blobs were verified against reviewed local contents. Five findings: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS at `5c17c4aa069743d990d993ca23c65200df982754`: 183 pass / 60 fail / 3 separately known red. The four affected committed apps also fail direct loading. Published totals: **17 reports, 14 findings, 11 unanswered**.

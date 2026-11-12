@@ -1,0 +1,15 @@
+{
+  "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "certificate_decisions": {
+    "home_certificate": "accepted",
+    "empty_schemas": "accepted",
+    "bogus_ward_payload": "accepted",
+    "wrong_source": "refused",
+    "unsigned": "refused",
+    "negative_verdict": "refused",
+    "untrusted_compiler": "refused"
+  },
+  "gas_record_reproduced": true,
+  "gas_executable_platform_available": false,
+  "limitations": "Audit wrappers expose unchanged helpers; no live App Store installation or adversarial cryptographic attack was executed."
+}

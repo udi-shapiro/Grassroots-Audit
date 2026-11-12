@@ -1,0 +1,45 @@
+╔════════════════════════════════════════╗
+║  GLP REPL - With Type Checking         ║
+╚════════════════════════════════════════╝
+
+Build: c40e6d3
+Working directory: /home/runner/work/Grassroots-Audit/Grassroots-Audit/GLP/glp_runtime
+
+Input: filename.glp to load, or goal to execute
+Commands: :quit, :help, :trace, :debug, :limit, :mad, :app, :boot, :deliveries
+
+Loaded root self.glp
+
+GLP> ✓ Wrote ../programs/social/graph/core/pingapp.glpw --- certified under 7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553
+GLP> [CERTIFICATE REFUSED] core reaches the network or the person: social/graph/core/agent:rbs/3 calls authorise_link/2; social/graph/core/agent:pending_step/11 calls authorise_link/2; social/graph/core/coins_phone:person_coins/6 calls send_to_net/1; social/graph/core/coins_phone:person_coins/6 calls send_to_user/1; social/graph/core/coins_phone:person_alone/2 calls send_to_net/1; social/graph/core/coins_phone:person_alone/2 calls send_to_user/1; social/graph/core/coins_phone:calls_run/5 calls send_to_user/1; social/graph/core/dated_phone:person_dated/6 calls send_to_net/1; social/graph/core/dated_phone:person_dated/6 calls send_to_user/1; social/graph/core/dated_phone:person_alone/2 calls send_to_net/1; social/graph/core/dated_phone:person_alone/2 calls send_to_user/1; social/graph/core/dated_phone:calls_run/5 calls send_to_user/1; social/graph/core/gai_phone:gai_phone/4 calls send_to_net/1; social/graph/core/gai_phone:gai_phone/4 calls send_to_user/1; social/graph/core/gai_phone:gai_run/6 calls send_to_user/1; social/graph/core/gb_phone:person_gb/6 calls send_to_net/1; social/graph/core/gb_phone:person_gb/6 calls send_to_user/1; social/graph/core/gb_phone:calls_run/5 calls send_to_user/1; social/graph/core/gc_phone:gc_phone/4 calls send_to_net/1; social/graph/core/gc_phone:gc_phone/4 calls send_to_user/1; social/graph/core/gc_phone:alice_gc_run/4 calls send_to_user/1; social/graph/core/gc_phone:bob_gc_run/4 calls send_to_user/1; social/graph/core/gc_phone:villager_gc/6 calls send_to_net/1; social/graph/core/gc_phone:villager_gc/6 calls send_to_user/1; social/graph/core/gc_phone:calls_run/5 calls send_to_user/1; social/graph/core/gkk_phone:gkk_phone/4 calls send_to_net/1; social/graph/core/gkk_phone:gkk_phone/4 calls send_to_user/1; social/graph/core/gkk_phone:invites_run/7 calls send_to_user/1; social/graph/core/gkk_phone:invite_one_run/5 calls send_to_user/1; social/graph/core/gkk_phone:notices_run/2 calls send_to_user/1; social/graph/core/gsg_phone:gsg_phone/4 calls send_to_net/1; social/graph/core/gsg_phone:gsg_phone/4 calls send_to_user/1; social/graph/core/gsg_phone:alice_gsg_run/4 calls send_to_user/1; social/graph/core/gsg_phone:bob_gsg_run/4 calls send_to_user/1; social/graph/core/gsn_phone:gsn_phone/4 calls send_to_net/1; social/graph/core/gsn_phone:gsn_phone/4 calls send_to_user/1; social/graph/core/gsn_phone:alice_gsn_run/4 calls send_to_user/1; social/graph/core/gsn_phone:bob_gsn_run/4 calls send_to_user/1; social/graph/core/gsnp_phone:gsnp_phone/4 calls send_to_net/1; social/graph/core/gsnp_phone:gsnp_phone/4 calls send_to_user/1; social/graph/core/gsnp_phone:gsnp_run/5 calls send_to_user/1; social/graph/core/home_ui:superapp_ui/4 calls send_to_user/1; social/graph/core/links:links/8 calls declare/1; social/graph/core/links:registered/2 calls declare/1; social/graph/core/links:registered/2 calls punch_udp/1; social/graph/core/links:open/7 calls declare/1; social/graph/core/links:redeemed/5 calls declare/1; social/graph/core/links:redeemed/5 calls punch_udp/1; social/graph/core/place:os_phone/8 calls declare/1; social/graph/core/place:declare_servers/1 calls declare/1; social/graph/core/place:place/8 calls declare/1; social/graph/core/place:know_step/4 calls declare/1; social/graph/core/place:declare_peers/2 calls declare/1; social/graph/core/place:closed_after/1 calls declare/1; social/graph/core:superapp/5 calls send_to_net/1; social/graph/core:superapp/5 calls send_to_user/1; social/graph/core:link_phone/5 calls send_to_net/1; social/graph/core:link_phone/5 calls send_to_user/1; social/graph/core:known_peers/1 calls declare/1; social/graph/core/sovereign_phone:person_sovereign/6 calls send_to_net/1; social/graph/core/sovereign_phone:person_sovereign/6 calls send_to_user/1; social/graph/core/sovereign_phone:person_alone/2 calls send_to_net/1; social/graph/core/sovereign_phone:person_alone/2 calls send_to_user/1; social/graph/core/sovereign_phone:calls_run/5 calls send_to_user/1; social/graph/core/superapp_plays:sg_init/4 calls send_to_net/1; social/graph/core/superapp_plays:sg_init/4 calls send_to_user/1; social/graph/core/superapp_plays:nearby_phone/4 calls send_to_net/1; social/graph/core/superapp_plays:nearby_phone/4 calls send_to_user/1; social/graph/core/superapp_plays:alice_warm_run/5 calls send_to_user/1; social/graph/core/superapp_plays:bob_warm_run/4 calls send_to_user/1; social/graph/core/superapp_plays:carol_warm_run/5 calls send_to_user/1
+✓ Loaded program: ../programs/social/graph/core
+GLP> Goal reduction limit set to 100000000
+GLP> R1 = accepted
+S1 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert(c541246e305bd1caf51e845e7b61d08386e8a52ad02b8002121807b2fa83ad7f, [friendship, ending_a_friendship], syntactically_grassroots))
+→ succeeds
+
+GLP> R2 = accepted
+S2 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert(c541246e305bd1caf51e845e7b61d08386e8a52ad02b8002121807b2fa83ad7f, [], syntactically_grassroots))
+→ succeeds
+
+GLP> R3 = accepted
+S3 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert(c541246e305bd1caf51e845e7b61d08386e8a52ad02b8002121807b2fa83ad7f, [], syntactically_grassroots_with_wards(bogus, bogus, bogus, bogus, bogus)))
+→ succeeds
+
+GLP> R4 = refused
+S4 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert('different source', [], syntactically_grassroots))
+→ succeeds
+
+GLP> R5 = refused
+S5 = unsigned
+→ succeeds
+
+GLP> R6 = refused
+S6 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert(c541246e305bd1caf51e845e7b61d08386e8a52ad02b8002121807b2fa83ad7f, [], not_grassroots([no_introductory_act])))
+→ succeeds
+
+GLP> R7 = refused
+S7 = signed('7fc5de08fc995ccf1810fff790f0501cc8326d687d0dbe4b33a0443bc53ac553', '9e87ff38f088dcc17b4c4ae6590d15f8049fdfcd17b2a051f23b2003e2cfbde8', creator_cert(c541246e305bd1caf51e845e7b61d08386e8a52ad02b8002121807b2fa83ad7f, [], syntactically_grassroots))
+→ succeeds
+
+GLP> Goodbye!

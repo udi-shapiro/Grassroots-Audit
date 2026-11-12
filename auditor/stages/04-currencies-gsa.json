@@ -1,0 +1,50 @@
+{
+  "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "source_tree": "8ed3b0980606794efe25889638447e3446c530e6",
+  "source_advance": "8f6cf17a63a956fa41a0184648cba0882a40ed32",
+  "audit_main_after_responses": "4d995001cd0cee6654d23264bd58a1b62a19e812",
+  "runs": {
+    "currency_cascades": 43327789171,
+    "currency_witnesses": 43328151573,
+    "gsa_final": 43329004136,
+    "gsa_wrapper_attempt1": 43328627839
+  },
+  "environment": "Ubuntu 24.04, Dart 3.9.4, committed lockfile enforced",
+  "runtime_limits": "No production source modification; audit wrappers/scripts in disposable checkouts; no physical phone or live store test.",
+  "known_red_entries": 23,
+  "core_gate": {
+    "answered": [
+      "sGLP #1"
+    ],
+    "remaining": [
+      "GLP-Spec #1",
+      "IGLP #1",
+      "IGLP #2",
+      "vGLP #1",
+      "sGLP #2"
+    ]
+  },
+  "responses": [
+    {
+      "pr": 11,
+      "merge": "4c7d06cc7b41b9d16875ef38daa11bbc45e07b76",
+      "outcome": "accepted, metadata improved, artifact mismatch remains"
+    },
+    {
+      "pr": 12,
+      "merge": "4d995001cd0cee6654d23264bd58a1b62a19e812",
+      "outcome": "accepted, verification deferred by six-answer gate"
+    }
+  ],
+  "phase": "evidence preserved; publication in preparation",
+  "new_findings": [
+    "GB.glp #1: enforced escrow agreement unrepresented",
+    "core/agent.glp #1: creator warranty path does not validate developer and schemas"
+  ],
+  "next": [
+    "Publish mirrored reports and centralized known-red registry",
+    "Await Currencies/GSA answers; verify fixes against both schemas and shipped code",
+    "Continue application implementation scopes; GFF-I change seen, not yet rerun",
+    "Keep all core investigations held until five remaining answers arrive"
+  ]
+}

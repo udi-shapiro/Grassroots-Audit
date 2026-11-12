@@ -1,0 +1,429 @@
+{
+  "scope": "Parsed-source checks of currency inheritance, asset balances and guards.\nNot a runtime, economic-solvency proof or exhaustive state exploration.",
+  "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "sha256": {
+    "programs/currencies/coins/GC.glp": "a8240c3afa9c42338150535818116896bbf7511ba49f2872bee963503f4fb5c1",
+    "programs/currencies/bonds/GB.glp": "ac96533fb4ce32384ba4a10ac133609a8b89c93ffa2c19129a43312fdf6a415d"
+  },
+  "gc_schemas": 7,
+  "gb_schemas": 22,
+  "gc_inherited_exactly": true,
+  "checks": [
+    {
+      "schema": "establish",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "acquaint",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "introduce",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "mint",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": false,
+      "only_issuer_mints": true,
+      "constraint": "true"
+    },
+    {
+      "schema": "mint_bond",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": false,
+      "only_issuer_mints": true,
+      "constraint": [
+        "gt",
+        [
+          "num",
+          "d"
+        ],
+        [
+          "num",
+          "t"
+        ]
+      ]
+    },
+    {
+      "schema": "first_date",
+      "guard_roles": [],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "advance",
+      "guard_roles": [],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": [
+        "and",
+        [
+          "succ",
+          [
+            "num",
+            "t"
+          ],
+          [
+            "num",
+            "t1"
+          ]
+        ],
+        [
+          "le",
+          [
+            "num",
+            "t1"
+          ],
+          [
+            "num",
+            "d"
+          ]
+        ]
+      ]
+    },
+    {
+      "schema": "swap",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "swap_cb",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "swap_bc",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "swap_bb",
+      "guard_roles": [
+        "Alice",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "pay",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "redeem",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "redeem_cb",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "redeem_bc",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": [
+        "le",
+        [
+          "num",
+          "d"
+        ],
+        [
+          "num",
+          "t"
+        ]
+      ]
+    },
+    {
+      "schema": "redeem_bb",
+      "guard_roles": [
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": [
+        "le",
+        [
+          "num",
+          "d"
+        ],
+        [
+          "num",
+          "t"
+        ]
+      ]
+    },
+    {
+      "schema": "deposit_c",
+      "guard_roles": [
+        "Alice",
+        "Carol"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "deposit_b",
+      "guard_roles": [
+        "Alice",
+        "Carol"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "release_c",
+      "guard_roles": [
+        "Carol",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "release_b",
+      "guard_roles": [
+        "Carol",
+        "Bob"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "return_c",
+      "guard_roles": [
+        "Carol",
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    },
+    {
+      "schema": "return_b",
+      "guard_roles": [
+        "Carol",
+        "Alice"
+      ],
+      "asset_units_conserved": true,
+      "only_issuer_mints": false,
+      "constraint": "true"
+    }
+  ],
+  "escrow_state": [
+    {
+      "schema": "deposit_c",
+      "names": [
+        "Alice",
+        "Carol",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "k"
+      ],
+      "predicates": [
+        "coin",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    },
+    {
+      "schema": "deposit_b",
+      "names": [
+        "Alice",
+        "Carol",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "d",
+        "k"
+      ],
+      "predicates": [
+        "bond",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    },
+    {
+      "schema": "release_c",
+      "names": [
+        "Carol",
+        "Bob",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "k"
+      ],
+      "predicates": [
+        "coin",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    },
+    {
+      "schema": "release_b",
+      "names": [
+        "Carol",
+        "Bob",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "d",
+        "k"
+      ],
+      "predicates": [
+        "bond",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    },
+    {
+      "schema": "return_c",
+      "names": [
+        "Carol",
+        "Alice",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "k"
+      ],
+      "predicates": [
+        "coin",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    },
+    {
+      "schema": "return_b",
+      "names": [
+        "Carol",
+        "Alice",
+        "u"
+      ],
+      "value_variables": [
+        "u",
+        "d",
+        "k"
+      ],
+      "predicates": [
+        "bond",
+        "identity",
+        "knows"
+      ],
+      "constraint": "true"
+    }
+  ],
+  "certificates": [
+    {
+      "app": "gc",
+      "schema_names": [
+        "acquaint",
+        "establish",
+        "introduce",
+        "mint",
+        "pay",
+        "redeem",
+        "swap"
+      ],
+      "matches_source_and_phone": true
+    },
+    {
+      "app": "gb",
+      "schema_names": [
+        "acquaint",
+        "advance",
+        "deposit_b",
+        "deposit_c",
+        "establish",
+        "first_date",
+        "introduce",
+        "mint",
+        "mint_bond",
+        "pay",
+        "redeem",
+        "redeem_bb",
+        "redeem_bc",
+        "redeem_cb",
+        "release_b",
+        "release_c",
+        "return_b",
+        "return_c",
+        "swap",
+        "swap_bb",
+        "swap_bc",
+        "swap_cb"
+      ],
+      "matches_source_and_phone": true
+    }
+  ]
+}

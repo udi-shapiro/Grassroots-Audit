@@ -1,0 +1,3 @@
+# Continuity — 2026-11-12
+
+Certificate helper execution: Home certificate, empty schema list and bogus ward payload accepted; wrong source, unsigned term, negative verdict and untrusted compiler refused. Helpers unchanged; audit-only exports added to loaded home.glp as well as home.vglp. First attempt exposed only vGLP and failed to link; that is an auditor fixture error, not a project finding. GAS --check reproduces 34 schemas and refusal-only platform; no executable store path. Report agent.glp #1 consolidates certificate provenance/validation gap, home.vglp links it. Do not infer cryptographic forgery or a successful live store install.

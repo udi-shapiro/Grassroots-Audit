@@ -1,0 +1,4 @@
+../programs/apps/gb
+:limit 100000000
+audit_escrow(audit_no,A,C,D).
+:quit

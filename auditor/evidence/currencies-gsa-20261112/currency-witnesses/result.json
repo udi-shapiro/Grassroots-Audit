@@ -1,0 +1,26 @@
+[
+  {
+    "exit_code": 0,
+    "timeout": false,
+    "name": "escrow-yes",
+    "goal": "audit_escrow(audit_yes,A,C,D).",
+    "seconds": 14.684,
+    "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76"
+  },
+  {
+    "exit_code": 0,
+    "timeout": false,
+    "name": "escrow-no",
+    "goal": "audit_escrow(audit_no,A,C,D).",
+    "seconds": 6.458,
+    "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76"
+  },
+  {
+    "exit_code": 0,
+    "timeout": false,
+    "name": "bonds-existing",
+    "goal": "play_bonds(A,B,C).",
+    "seconds": 6.8,
+    "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76"
+  }
+]

@@ -1,0 +1,58 @@
+name: Currency contract cascade audit
+on:
+  push:
+    branches: [audit-currencies-gsa-20261112]
+permissions:
+  contents: read
+jobs:
+  cascade:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        contract: [gc, gb]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: c40e6d3ad68b198066ab723d17c05171c0a7de76
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce committed dependencies
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Reproduce the recorded cascade
+        env:
+          AUDIT_CONTRACT: ${{ matrix.contract }}
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import json,os,subprocess,time
+          from pathlib import Path
+          c=os.environ['AUDIT_CONTRACT'];start=time.monotonic()
+          command=['bash','cascade.sh',c,'--check']
+          try:
+              p=subprocess.run(command,cwd='GLP',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=900)
+              out=p.stdout;record={'exit_code':p.returncode,'timeout':False}
+          except subprocess.TimeoutExpired as e:
+              out=e.stdout or ''
+              if isinstance(out,bytes):out=out.decode(errors='replace')
+              record={'exit_code':None,'timeout':True}
+          record.update(contract=c,command=command,source_commit='c40e6d3ad68b198066ab723d17c05171c0a7de76',seconds=round(time.monotonic()-start,3),dart_sdk='3.9.4')
+          Path('evidence/check.log').write_text(out)
+          Path('evidence/result.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(record));print(out[-14000:])
+          raise SystemExit(0 if record['exit_code']==0 else 1)
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: currency-cascade-${{ matrix.contract }}
+          path: evidence/
+          retention-days: 30

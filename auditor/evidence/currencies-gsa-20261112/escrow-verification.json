@@ -1,0 +1,46 @@
+{
+  "escrow-yes": {
+    "loaded": true,
+    "final_views": {
+      "alice": {
+        "alice_coins": 0,
+        "alice_bonds_10": 0,
+        "state": "knows(carol), date(1), dated, identity"
+      },
+      "carol": {
+        "alice_coins": 1,
+        "alice_bonds_10": 1,
+        "state": "knows(dave), bond(alice, 10), knows(alice), coin(alice), knows(alice), knows(alice), date(1), dated, identity"
+      },
+      "dave": {
+        "alice_coins": 1,
+        "alice_bonds_10": 1,
+        "state": "bond(alice, 10), knows(alice), coin(alice), knows(alice), knows(carol), date(1), dated, identity"
+      }
+    }
+  },
+  "escrow-no": {
+    "loaded": true,
+    "final_views": {
+      "alice": {
+        "alice_coins": 0,
+        "alice_bonds_10": 0,
+        "state": "knows(carol), date(1), dated, identity"
+      },
+      "carol": {
+        "alice_coins": 2,
+        "alice_bonds_10": 2,
+        "state": "knows(dave), bond(alice, 10), bond(alice, 10), knows(alice), coin(alice), coin(alice), knows(alice), knows(alice), date(1), dated, identity"
+      },
+      "dave": {
+        "alice_coins": 0,
+        "alice_bonds_10": 0,
+        "state": "knows(carol), date(1), dated, identity"
+      }
+    }
+  },
+  "bonds-existing": {
+    "loaded": true,
+    "existing_deposit_approval": true
+  }
+}

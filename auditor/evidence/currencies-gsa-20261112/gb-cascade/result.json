@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "timeout": false,
+  "contract": "gb",
+  "command": [
+    "bash",
+    "cascade.sh",
+    "gb",
+    "--check"
+  ],
+  "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "seconds": 23.474,
+  "dart_sdk": "3.9.4"
+}

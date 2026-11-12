@@ -1,0 +1,11 @@
+:artefact ../programs/social/graph/pingapp ../programs/social/graph/core
+../programs/social/graph/core
+:limit 100000000
+audit_certificates(home,R1,S1).
+audit_certificates(empty_schemas,R2,S2).
+audit_certificates(bad_ward_payload,R3,S3).
+audit_certificates(wrong_source,R4,S4).
+audit_certificates(forged,R5,S5).
+audit_certificates(negative,R6,S6).
+audit_certificates(untrusted,R7,S7).
+:quit

@@ -1,0 +1,59 @@
+╔════════════════════════════════════════╗
+║  GLP REPL - With Type Checking         ║
+╚════════════════════════════════════════╝
+
+Build: c40e6d3
+Working directory: /home/runner/work/Grassroots-Audit/Grassroots-Audit/GLP/glp_runtime
+
+Input: filename.glp to load, or goal to execute
+Commands: :quit, :help, :trace, :debug, :limit, :mad, :app, :boot, :deliveries
+
+Loaded root self.glp
+
+GLP> ✓ Wrote ../programs/social/graph/core/pingapp.glpw --- certified under 7e21e08f67a1bc80ebdbcb5c112c9d06dc7dce27945d0b249b0b27e8ca0b7fd1
+GLP> Error loading project ../programs/social/graph/core: Exception: Cross-module calls that resolve to no exported procedure (modules.tex, Compilation, fourth step: a call M # p, whose qualifier is a single child directory or module file relative to the caller's directory, resolves to the procedure p that the qualifier exports --- a directory exports through its self.glp, a module file through its own exported declarations):
+  ../programs/social/graph/core/audit_certificates.glp:21: home # audit_cert/2: ../programs/social/graph/core/home.glp does not export audit_cert/2
+GLP> Goal reduction limit set to 100000000
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> → failed
+Error: Goal is not well-typed:
+  Body atom 0 (audit_certificates) is not well-typed:
+  Inconsistent path: Undefined procedure: audit_certificates/3
+  Path: (audit_certificates/3, 0, output)
+
+GLP> Goodbye!

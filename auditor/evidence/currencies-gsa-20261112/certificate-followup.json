@@ -1,0 +1,32 @@
+{
+  "source_commit": "c40e6d3ad68b198066ab723d17c05171c0a7de76",
+  "conclusion": "Response received; current-cascade metadata corrected; artifact correspondence remains open.",
+  "comparisons": [
+    {
+      "app": "gai",
+      "certificate_names": 19,
+      "recorded_names": 19,
+      "platform_names": 17,
+      "matches_current_cascade_names_and_verdict": true,
+      "extra_vs_committed_app": [
+        "agent_end",
+        "forward"
+      ],
+      "missing_vs_committed_app": [],
+      "phone_git_blob": "a62696f4d79e2d4dab9e4610ff1bf46deaa34060"
+    },
+    {
+      "app": "gsnp",
+      "certificate_names": 31,
+      "recorded_names": 31,
+      "platform_names": 29,
+      "matches_current_cascade_names_and_verdict": true,
+      "extra_vs_committed_app": [
+        "agent_end",
+        "deliver_leader"
+      ],
+      "missing_vs_committed_app": [],
+      "phone_git_blob": "843b5ae651e8d8e7664ceb86d8ac130a39aeff87"
+    }
+  ]
+}
