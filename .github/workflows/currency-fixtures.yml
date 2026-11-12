@@ -1,0 +1,59 @@
+name: Currency application audit witnesses
+on:
+  push:
+    branches: [audit-currency-fixtures-20261112]
+    paths: ['.github/workflows/currency-fixtures.yml', 'audit-fixtures/**']
+permissions:
+  contents: read
+jobs:
+  witnesses:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: audit
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: c40e6d3ad68b198066ab723d17c05171c0a7de76
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce committed dependencies
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Install audit-only plays
+        run: python3 audit/audit-fixtures/install-currency-fixture.py GLP
+      - name: Run witnesses and control
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import json,subprocess,time
+          from pathlib import Path
+          rows=[]
+          for name,goal in [('escrow-yes','audit_escrow(audit_yes,A,C,D).'),('escrow-no','audit_escrow(audit_no,A,C,D).'),('bonds-existing','play_bonds(A,B,C).')]:
+              inp='../programs/apps/gb\n:limit 100000000\n'+goal+'\n:quit\n'
+              Path('evidence/'+name+'.in').write_text(inp);start=time.monotonic()
+              try:
+                  p=subprocess.run(['bin/glpc'],input=inp,cwd='GLP/glp_runtime',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=300)
+                  out=p.stdout;row={'exit_code':p.returncode,'timeout':False}
+              except subprocess.TimeoutExpired as e:
+                  out=e.stdout or '';out=out.decode(errors='replace') if isinstance(out,bytes) else out
+                  row={'exit_code':None,'timeout':True}
+              row.update(name=name,goal=goal,seconds=round(time.monotonic()-start,3),source_commit='c40e6d3ad68b198066ab723d17c05171c0a7de76')
+              rows.append(row);Path('evidence/'+name+'.log').write_text(out)
+              print(json.dumps(row));print(out[-2500:])
+          Path('evidence/result.json').write_text(json.dumps(rows,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: currency-witnesses
+          path: evidence/
+          retention-days: 30
