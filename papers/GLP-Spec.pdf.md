@@ -63,3 +63,9 @@ Awaiting GLP's dated answer with a `Corrected:` or `See:` reference addressing t
 ### Verification
 
 2026-11-12 — Counterexample checked against the pinned definitions, visually checked matching table, and executed finite-term certificate. No project answer or correction has yet been received; the finding remains open.
+
+### Additional type-rule evidence, 2026-11-12
+
+The [TGLP examination](TGLP.pdf.md) extends this same finding: the closed, productive type `T ::= a ; f(T)`, with `procedure p(T, T?)`, admits the clause and initial goal under the paper's moded-head, dual-pair and input-coverage rules. Its head becomes `p(up:f(up:X), down:X?)`, whose variable positions have dual types T and T?. The sole input is covered by the complemented second-argument reader. Empty-body obligations hold vacuously.
+
+This is a manual derivation from the printed typing rules, not a successful compiler invocation. The completion still requires a finite T0 with `T0 = f(T0)`; a recursive type does not supply such a finite term. The shared repair must address the TGLP rules and soundness argument as well as GLP-Spec and IGLP. Keep the same finding identifier; no additional finding is counted.
