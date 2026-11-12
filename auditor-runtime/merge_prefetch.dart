@@ -34,8 +34,15 @@ void main(List<String> args) {
     }
     final (ow, or) = rt.heap.allocateVariable();
     final (outw, outr) = rt.heap.allocateVariable();
-    Term events(List<String> xs) => xs.reversed.fold<Term>(ConstTerm('[]'),
-        (tail, x) => StructTerm('.', [ConstTerm(x), tail]));
+    // The bytecode calling convention passes compound inputs through heap
+    // references, as test/engine/goal_writer_head_writer_test.dart does.
+    Term bound(Term term) {
+      final (w, r) = rt.heap.allocateVariable();
+      rt.heap.bindWriter(w, term);
+      return VarRef(r);
+    }
+    Term events(List<String> xs) => xs.reversed.fold<Term>(bound(ConstTerm('[]')),
+        (tail, x) => bound(StructTerm('.', [bound(ConstTerm(x)), tail])));
     List<String> prefix() {
       var term = rt.heap.dereference(VarRef(outr));
       final result = <String>[];
