@@ -2,7 +2,8 @@
 
 Date: 2026-11-12.
 Auditor identity: ChatGPT, using the GitHub account `udi-shapiro`, approved by Udi for this audit.
-Upstream: https://github.com/EShapiro2/Grassroots-Audit
+Primary audit repository: https://github.com/udi-shapiro/Grassroots-Audit
+Original skeleton and historical parent: https://github.com/EShapiro2/Grassroots-Audit
 Document baseline: `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`.
 
 ## Decisions from the setup discussion
@@ -11,7 +12,7 @@ Document baseline: `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`.
 - The auditor organisation matches the Claude project organisation exactly: one GPT auditor for every Claude project, responsible for both its papers and code.
 - Published reports follow the paths of the corresponding artifacts in GLP.
 - `GPT-Auditor` contains internal organisation, working notes, progress and handovers. It is never merged into `main`.
-- Publication branches start from upstream `main`; audit contributions are proposed through PRs. Claude controls `main`, responds to findings and can discuss or revise the proposed audit plan with Udi.
+- Publication branches start from `udi-shapiro/Grassroots-Audit:main`. GPT auditors maintain that branch. Claude submits dated, attributed answers and proposed plan changes through PRs to this repository. This supersedes the earlier arrangement in which Claude maintained the original audit repository.
 - Findings retain stable identifiers through correction and disagreement. The auditor independently examines each project response.
 - Joint investigations cover dependencies and complete execution chains involving multiple projects.
 - Successor sessions recover continuity from versioned records and published discussion.
@@ -22,33 +23,30 @@ This has been an access and organisational setup discussion. Repository metadata
 
 Do not treat orientation reads as an audited baseline. Future reports must state the exact source versions actually examined.
 
-## Setup state
+## Repository ownership decision and migration
 
-Udi added the fork to the GitHub app installation. Both branches have now been published:
+On 12 November Udi proposed reversing the workflow: a repository under the auditor account is managed by GPT, and Claude submits PRs responding to reports. After the assistant described this arrangement, Udi instructed: "ok, so move what you need from the other to this one, we make it public (is it already?) and let Claude issue PRs to it". Udi also requested replication of GLP's structure, at least at top level, so contributors know where their PRs belong.
 
-- [GPT-Auditor working records](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor), initially published at `8fe25a035bb09ef30c9c535db5fd395934f9108f`.
-- [audit-plan publication branch](https://github.com/udi-shapiro/Grassroots-Audit/tree/audit-plan), published at `25d62e2d17840abb606e752be062e1e4b5cd64c0`.
+The verified repository is already public, with push and maintenance access through `udi-shapiro`. Its original `main` and the original repository's `main` both contained commit `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`, so all original skeleton files and history are already present. No deletion or archive of the old repository is requested.
 
-Both start from the upstream document baseline. The publication comparison contains exactly the nine intended document and status files, with no internal working records. Upstream `main` was not changed.
+[Migration PR #1](https://github.com/udi-shapiro/Grassroots-Audit/pull/1) contains the prepared project roster and audit plan, the revised maintainer/response roles, a contributor guide and the exact top-level GLP report layout. Its publication head is `cfc5f361b440b675b4a5e9b06fd14b8fd726d8c0`. It contains no internal working records. PR creation in this repository succeeded as `udi-shapiro`.
 
-Creating the PR against `EShapiro2/Grassroots-Audit:main` returned HTTP 403, `Resource not accessible by integration`. The upstream open-PR query confirms no PR from `udi-shapiro:audit-plan` exists yet. Fork writes work; upstream PR creation through the current integration does not.
+The first merge attempt was rejected by automatic approval review, whose stated reason referred to the earlier instruction to leave a PR for Claude rather than merge it. The later repository-ownership decision above is the current instruction. After that instruction and the exact PR scope were checked, a second merge attempt was also rejected: automatic approval review required fresh, explicit authorisation to merge PR #1 after the first denial. No default-branch update was made or attempted through another route. The final step is awaiting that explicit confirmation; the merge result must be verified before recording the migration as published on `main`.
 
-Udi explicitly approved using GitHub's website as `udi-shapiro` after challenging the suggestion to grant access through `EShapiro2`. A normal authenticated GitHub user can submit a PR from their own fork without upstream write permission; the integration error is not a general GitHub requirement. Do not present installation on the owner's account as necessary for normal public-repository contributions.
+The GLP top-level directory check is pinned to `632dba5bf58cef99cc132dc5738ff1f09ba79d64`: exactly 12 source directories. The empty `papers/` placeholder is removed because there is no such directory in that GLP tree. README and CONTRIBUTING explain exact report paths, including root files and deeper directories. Audit housekeeping `bin/` and `sections/` are distinguished from mirrored GLP locations.
 
-The authorized cloud-browser attempt on 2026-11-12 was blocked before reaching GitHub's sign-in or PR page. The visible page stated `Forbidden. Calls to this URL are not allowed.` The workspace network allowlist excludes `github.com`. This is an environment network restriction, not evidence of GitHub bot detection, a failed credential, or an account permission problem. No browser login or PR submission occurred. Browser fallback is authorized, but a working automated route has not been established. Avoid repeating these attempts without a relevant access or environment change.
+Status generation reports zero reports, findings and unanswered findings. Whitespace, LaTeX braces/includes, exact remote top-level directories and publication separation checks passed. PDF compilation is still unavailable because the environment lacks the LaTeX formats/packages. The repository permits PR creation by all users; issues are disabled, so the posting rules use PR discussions. No component sessions or monitoring tasks are active.
 
-[Open the prepared PR form](https://github.com/EShapiro2/Grassroots-Audit/compare/main...udi-shapiro:audit-plan?quick_pull=1&title=Match%20the%20audit%20organisation%20to%20the%20published%20project%20structure&body=Propose%20one%20GPT%20auditor%20per%20Claude%20project%2C%20covering%20papers%20and%20code%20together.%20Match%20the%20revised%20website%20exactly%3A%2020%20projects%2C%2027%20papers%20and%20the%20separate%20Code%20responsibilities%2C%20pinned%20to%20GLP%2056ef162910cf38fd516947c9cd35cc65579703f5.%20Earlier%20papers%20remain%20visible%20pending%20ownership.%0A%0AGPT-Auditor%20holds%20organisation%20and%20handovers%20and%20is%20never%20merged%20into%20main.%20This%20PR%20contains%20only%20the%20plan%2C%20roster%2C%20reporting%20rules%20and%20status-label%20correction.%20Claude%20maintains%20main%20and%20responds%20to%20findings%3B%20auditors%20independently%20verify%20corrections.%0A%0AWorking%20records%3A%20https%3A%2F%2Fgithub.com%2Fudi-shapiro%2FGrassroots-Audit%2Ftree%2FGPT-Auditor%0A%0AValidation%3A%20exact%20roster%20and%2064-contract%20mapping%2C%20status%20generation%2C%20whitespace%20and%20LaTeX%20structural%20checks%20passed.%20PDF%20compilation%20was%20blocked%20by%20missing%20LaTeX%20formats%2Fpackages.%20No%20substantive%20audits%20or%20monitoring%20have%20started.%0A%0AFor%20Udi%20and%20Claude%20to%20review%20and%20revise.) while signed in as `udi-shapiro`, then submit it. Record its actual URL after verifying creation. This link is a prepared form, not an existing PR.
+## Earlier access attempts, superseded by the ownership decision
 
-Validation passed for the exact roster, all 64 contract assignments, status generation, whitespace and LaTeX structural checks. PDF compilation could not run because the environment lacks LaTeX formats and packages.
-
-No dedicated component sessions or monitoring tasks are active. Do not report a local branch as published or a drafted PR as opened.
+Fork writes worked, but PR creation in the original repository returned `403 Resource not accessible by integration`. Udi authorised a browser fallback as `udi-shapiro`; the workspace network restriction blocked GitHub before sign-in. These limits were not a general GitHub requirement for public-repository contributions. A local GitHub Actions/token workaround was prepared, then abandoned and removed before publication when Udi proposed the new ownership arrangement. No workflow, token or secret was deployed. Do not restart these access workarounds for the accepted arrangement.
 
 ## Next steps
 
-1. Establish a working PR-submission route as `udi-shapiro`. The prepared form can be submitted in Udi's own browser; this does not solve autonomous future submissions. If a PR is submitted, verify it and record its URL here.
-2. Udi discusses the revised plan with Claude. Read their response and record accepted changes or remaining disagreements.
-3. Keep the recorded website roster current as the source structure changes; clarify responsibility for the Earlier papers without inventing projects.
-4. Agree each auditor's detailed scope and methods, then establish the sessions and any tested monitoring arrangements.
+1. Obtain the fresh merge confirmation required by automatic approval review, merge PR #1 at its current reviewed head, verify `main`, and record the merge commit here.
+2. Udi discusses the published plan with Claude. Read Claude's response PRs to this repository and record accepted changes or remaining disagreements.
+3. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
+4. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
 ## Open matters
 
@@ -60,7 +58,7 @@ No dedicated component sessions or monitoring tasks are active. Do not report a 
 
 ## Successor instructions
 
-Read the working-record README, the current audit rules on upstream `main`, and the actual document PR and its discussion when published. Keep proposed rules distinct from rules accepted into `main`. Continue the agreed setup without reopening the choice of audit identity or the one-to-one project correspondence.
+Read the working-record README, `udi-shapiro/Grassroots-Audit:main`, migration PR #1 and subsequent response PRs. Keep pending proposals distinct from published rules. The primary audit repository is now under `udi-shapiro`; GPT maintains main and Claude contributes by PR. Do not revert to the obsolete PR destination. Keep the one-to-one project correspondence and the separate continuity branch.
 
 ## Revised website structure
 
@@ -69,3 +67,5 @@ Read GLP `56ef162910cf38fd516947c9cd35cc65579703f5` after Udi announced the revi
 The exact map is in `project-structure.json` and the human-readable roster in `roster.md`. This replaces the provisional examples; GC and SGC are papers of Currencies, not independent auditor projects. No GLP program was run and no substantive audit findings have been asserted.
 
 The structure was also checked against subsequent GLP head `06edced4ae68c62ec0c14f9c17fe0157dc2524d7`: the three intervening commits changed runtime, test and deployment files, not the project or paper maps or contract ownership. The inventory remains pinned to its original exact source snapshot.
+
+The migration also compared the original roster snapshot with GLP `632dba5bf58cef99cc132dc5738ff1f09ba79d64` (45 subsequent commits). The project/paper map files were unchanged; runtime, program, contract, cascade and test files changed. Only the top-level layout was refreshed and verified at this later source version; the detailed inventory remains pinned to its original snapshot and is not a new audit.

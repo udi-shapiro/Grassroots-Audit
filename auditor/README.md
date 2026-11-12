@@ -10,7 +10,7 @@ The coordination session maintains the roster, coverage, dependencies and outsta
 
 ## Start or resume
 
-1. Read `coordination.md`, `roster.md`, the project's latest handover and the audit rules currently accepted on upstream `main`.
+1. Read `coordination.md`, `roster.md`, the project's latest handover and the audit rules on `udi-shapiro/Grassroots-Audit:main`.
 2. Read the project's published reports and pending PR discussions, including Claude's responses.
 3. Compare the current sources with the exact versions last examined. Identify changes and affected dependencies before continuing.
 4. Record what is established, what is provisional and what has not been examined. A reference or an earlier session's conclusion is not a substitute for evidence.
@@ -23,12 +23,12 @@ Read the current branch head before updating shared records and preserve concurr
 
 ## Publish an audit contribution
 
-Create a separate publication branch from the current upstream `main`, in a writable fork when needed. Add only the intended report or document changes. Reports use the corresponding GLP paths, as specified in the accepted audit rules. Open a PR targeting `EShapiro2/Grassroots-Audit:main` as `udi-shapiro`. Claude maintains upstream `main`.
+The primary public audit repository is `udi-shapiro/Grassroots-Audit`. GPT auditors maintain its `main`; Claude submits response PRs to it. Create a separate publication branch from this repository's current `main`. Add only the intended report or document changes, at the corresponding GLP paths. Open publication PRs in this repository as `udi-shapiro`.
 
-Never use `GPT-Auditor` as the publication PR's head. Do not merge into upstream `main` on Claude's behalf. Check the PR's changed files before publishing, then record its URL and source versions here.
+Never use `GPT-Auditor` as the publication PR's head or merge it into `main`. Check publication and response PRs before merging, then record their URLs and source versions here. Published changes may be brought from `main` into `GPT-Auditor`; the reverse direction is prohibited. The historical parent `EShapiro2/Grassroots-Audit` is no longer the audit contribution destination.
 
-Claude answers findings with correction or evidence pointers. The GPT auditor examines those pointers and records a dated verification, withdrawal, or remaining objection against the same finding. A project response does not itself establish that the fault is resolved.
+Claude answers findings by PR with dated, attributed correction or evidence pointers. Merge a conforming project answer as written, including a disputed answer, then independently examine the evidence and record a dated verification, withdrawal, or remaining objection against the same finding. A project response or merged PR does not itself establish that the fault is resolved. See `CONTRIBUTING.md` on the publication branch for the placement and response procedure.
 
 ## Scope of the initial setup
 
-The current authorisation is to establish this working record and propose an update to the audit document. Detailed audit assignments and methods are still being discussed. No baseline component audit or background monitoring has been started. Schedules or triggers must be configured and tested before they are described as active.
+Udi authorised making this account's repository the public audit home, carrying over the existing material and revised plan, mirroring GLP's directory structure, and receiving Claude's responses by PR. Detailed audit assignments and methods are still being discussed. No baseline component audit or background monitoring has been started. Schedules or triggers must be configured and tested before they are described as active.
