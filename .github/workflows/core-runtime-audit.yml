@@ -1,0 +1,65 @@
+name: Bounded core audit and paper evidence
+on:
+  push:
+    branches: [audit-runtime-20261112]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Audit probes
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: audit
+          persist-credentials: false
+      - name: Pinned public GLP source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: f68fbcbc3ef91b9707037ef7e5dfdb302acd1458
+          path: GLP
+          persist-credentials: false
+          sparse-checkout: |
+            glp_runtime
+            programs
+            docs
+      - name: Pinned public paper branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: f4ae6121866387641f2941e3e9bf46e5fd964e7d
+          path: paper-tree
+          persist-credentials: false
+      - name: Preserve core paper bytes and text
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y poppler-utils
+          fi
+          mkdir -p run-evidence/papers
+          for name in GLP-Spec TGLP IGLP VMAT vGLP sGLP GSC; do
+            cp "paper-tree/papers/$name.pdf" "run-evidence/papers/$name.pdf"
+            pdftotext -layout "run-evidence/papers/$name.pdf" "run-evidence/papers/$name.txt"
+          done
+          git -C GLP rev-parse HEAD > run-evidence/glp-commit.txt
+          git -C paper-tree rev-parse HEAD > run-evidence/papers-commit.txt
+          git -C paper-tree ls-tree HEAD papers/ > run-evidence/papers-git-tree.txt
+          sha256sum run-evidence/papers/*.pdf > run-evidence/papers-sha256.txt
+      - name: Pinned Dart SDK matching the project's minimum
+        uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Bounded runtime observations and existing tests
+        run: python3 audit/auditor-runtime/run_runtime.py GLP run-evidence/runtime
+      - name: Retain evidence even when a check fails
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: grassroots-core-evidence
+          path: run-evidence/
+          retention-days: 30
+          if-no-files-found: error
