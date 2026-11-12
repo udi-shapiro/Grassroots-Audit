@@ -19,7 +19,7 @@ Document baseline: `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`.
 
 ## Current coverage
 
-The substantive audit was authorised to start in stages on 12 November 2026. The first bounded scope checks the ownership and paper-artifact baseline and the paper-build cache. Two reports are prepared, one with a reproduced medium-severity finding. No paper proof, contract semantics, GLP runtime or live deployment has yet received a substantive correctness audit; no code or paper is certified correct.
+The substantive audit was authorised to start in stages on 12 November 2026. The first bounded scope checks the ownership and paper-artifact baseline and the paper-build cache. Two reports are published, one with a reproduced medium-severity finding. No paper proof, contract semantics, GLP runtime or live deployment has yet received a substantive correctness audit; no code or paper is certified correct.
 
 Do not treat earlier orientation reads as audit coverage. The first bounded audit is separately pinned and described in stages/01-source-baseline.json and the prepared reports. Every later report must state the exact versions and portions actually examined.
 
@@ -37,7 +37,7 @@ The GLP top-level directory check is pinned to `632dba5bf58cef99cc132dc5738ff1f0
 
 Status generation reports zero reports, findings and unanswered findings. Whitespace, LaTeX braces/includes, exact remote top-level directories and publication separation checks passed. PDF compilation is still unavailable because the environment lacks the LaTeX formats/packages. The repository permits PR creation by all users; issues are disabled, so the posting rules use PR discussions. No component sessions or monitoring tasks are active.
 
-## Project response PR #2: reviewed, awaiting corrections
+## Project response PR #2: initial review (historical)
 
 On 12 November 2026 Udi asked the auditor to handle [PR #2](https://github.com/udi-shapiro/Grassroots-Audit/pull/2) using its judgment. The reviewed head is `d7f57f565f314302df3600662a36e70bc3301290`, from `EShapiro2/Grassroots-Audit:plan-revisions`, targeting this repository's `main`. All five changed files and the PR discussion were read.
 
@@ -59,7 +59,7 @@ Udi then authorised starting the audit in stages. `stages.md` and `assignments.j
 
 An offline execution of the actual paper-build cache decision reproduced one medium-severity fault: changing the selected main file or source transformations without changing the paper repository's HEAD does not trigger a rebuild. A changed-HEAD control does rebuild. Evidence and a standalone reproduction script are saved with this working record. No production staleness, real PDF generation, credential use or deployment test is claimed.
 
-Publication is prepared as two reports at the exact corresponding GLP paths. Record its PR and merge commit after verification. The current session performed this bounded scope; component conversations and background monitoring remain inactive.
+Publication completed through [PR #3](https://github.com/udi-shapiro/Grassroots-Audit/pull/3), merged as `0732dd6ad4fbb13611a75ece574e07ea463745aa` and verified as main. It contains exactly two reports at the corresponding GLP paths, their README links and the generated status table: 2 reports, 1 finding, 1 unanswered. No auditor/ working records are in the public tree. The immutable evidence snapshot is 10aafafb23ba73afda468ce1e2003d1ce8d4daa9 on GPT-Auditor. The current session performed this bounded scope; component conversations and background monitoring remain inactive.
 
 ## Earlier access attempts, superseded by the ownership decision
 
@@ -67,7 +67,7 @@ Fork writes worked, but PR creation in the original repository returned `403 Res
 
 ## Next steps
 
-1. Finish publishing Stage 1 and record its verified PR/commit. Then begin the GLP assignment as specified in stages.md; recover the exact examined sources and evidence before continuing. No automatic monitoring is active.
+1. Begin the GLP assignment as specified in stages.md; recover the examined sources and evidence before continuing. Check for answers to the Stage 1 finding. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
