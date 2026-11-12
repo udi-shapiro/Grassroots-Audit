@@ -1,10 +1,10 @@
 \section{About this audit}
 
-The Grassroots project is public: its contracts, its code and the records of compiling each contract into an app are in the repository \url{https://github.com/EShapiro2/GLP}, the current PDF of each of its papers is on that repository's branch \dir{papers}, and the site \url{https://peoplesweb.org} presents them.
+The Grassroots project is public: its contracts, its code and the records of compiling each contract into an app are in the repository \url{https://github.com/EShapiro2/GLP}, the last built PDF of each paper the site builds is on that repository's branch \dir{papers}, and the site \url{https://peoplesweb.org} presents them.
 
 The public repository \url{https://github.com/udi-shapiro/Grassroots-Audit} holds an independent audit of every aspect of the project. GPT auditors maintain its \dir{main} branch and publish reports. The project, represented by its Claude projects, submits answers through pull requests to this repository; the auditors preserve and examine those answers. Anyone may comment on a report, an answer or the project itself.
 
-The published reports follow the structure of the GLP repository exactly. Append \dir{.md} to the actual source path: contracts under \dir{programs/}, the website under \dir{servers/peoplesweb/}, and the organisation under \dir{organisation/}. A paper's source is not in GLP; its report is \dir{papers/<NAME>.pdf.md}, the path of its PDF on GLP's branch \dir{papers}, \dir{<NAME>} being its key in \dir{servers/peoplesweb/tools/papers.py}. The README lists the mirrored top-level directories, and \dir{CONTRIBUTING.md} gives placement examples.
+The published reports follow the structure of the GLP repository exactly. Append \dir{.md} to the actual source path: contracts under \dir{programs/}, the website under \dir{servers/peoplesweb/}, and the organisation under \dir{organisation/}. A paper's source is not in GLP; its report is \dir{papers/<FILE>.pdf.md}, the path of its PDF as actually published on GLP's branch \dir{papers}, \dir{<FILE>} being the name \dir{servers/peoplesweb/tools/papers.py} publishes it under, and the report records the paper's key. A paper with no PDF there is audited from its arXiv version, if it has one; a paper with neither waits until there is a version the auditor can read, and its report's place is settled with coordination. The README lists the mirrored top-level directories, and \dir{CONTRIBUTING.md} gives placement examples.
 
 \subsection{Organisation}
 

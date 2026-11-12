@@ -23,7 +23,7 @@ The following directories match all 12 top-level directories in GLP at commit `6
 | [glp_runtime/](glp_runtime/) | Parser, type checker, compiler, runtime and Dart tests |
 | [networking/](networking/) | Transport layer |
 | [organisation/](organisation/) | Project organisation and procedures |
-| [papers/](papers/) | The papers, by key: the PDFs of GLP's branch `papers`, not of `main` |
+| [papers/](papers/) | The papers: the last built PDFs of GLP's branch `papers`, not of `main` |
 | [phones/](phones/) | Phone artifacts and testing |
 | [programs/](programs/) | Contracts, GLP/vGLP programs, apps and program fixtures |
 | [servers/](servers/) | Website and other servers |
@@ -31,7 +31,7 @@ The following directories match all 12 top-level directories in GLP at commit `6
 | [test/](test/) | Test-suite harness |
 | [tools/](tools/) | Project tools |
 
-Reports for root files stay at the root: for example, `cascade.sh.md` audits GLP's `cascade.sh`, and `README.md.md` audits GLP's `README.md`. A paper's source is not in GLP: each paper has a repository of its own, and the website builds its current PDF into GLP's branch `papers`, as `papers/<NAME>.pdf`, `<NAME>` being the paper's key in `servers/peoplesweb/tools/papers.py`. A paper's report is therefore `papers/<NAME>.pdf.md`, and it names the commit of the branch `papers` it read; a paper not yet built there is audited from its arXiv version, at the same path. The website's paper/project roster remains the responsibility map.
+Reports for root files stay at the root: for example, `cascade.sh.md` audits GLP's `cascade.sh`, and `README.md.md` audits GLP's `README.md`. A paper's source is not in GLP: each paper has a repository of its own, and the website builds its PDF into GLP's branch `papers`, as `papers/<FILE>.pdf`. `<FILE>` is the name `servers/peoplesweb/tools/papers.py` publishes the paper under, which is its key there unless its entry has a `pdf` field: the paper with the key `SRC` is published as `papers/GGGA.pdf`. A paper's report sits at the path of the PDF actually published, `papers/<FILE>.pdf.md`, and records the paper's key, so that two papers are never confused, and the commit of the branch `papers` it read. That PDF is the last built one: a failed build keeps the previous PDF. A paper with no PDF on that branch is audited from its arXiv version, if it has one, at the path its PDF would have. A paper with neither, as `GGGA` and `GPBD` on 12 November 2026, waits until there is a version the auditor can read; where its report then goes is settled with coordination. The website's paper/project roster remains the responsibility map.
 
 `bin/`, `sections/`, `main.tex`, this README, the contribution guide and report template maintain the audit itself. They are not mirrored GLP report locations. Directory placeholders and instructions are not completed audits.
 
