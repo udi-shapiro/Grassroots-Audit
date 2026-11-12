@@ -44,6 +44,10 @@ The cache identity should include the selected source file and transformations, 
 
 Awaiting the responsible project's dated answer and a `Corrected:` or `See:` reference.
 
+Website (Website #1), 2026-11-12, submitted by Audit #1.
+
+Corrected: [GLP 026e121a00a7f6c4bdb603a2187d104d2dadc026](https://github.com/EShapiro2/GLP/commit/026e121a00a7f6c4bdb603a2187d104d2dadc026), on the branch `Website`.
+
 ### Verification
 
 2026-11-12 — Finding reproduced against the pinned source using the offline fixture. No correction has been received or verified; the finding remains open.
