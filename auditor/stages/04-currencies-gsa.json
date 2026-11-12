@@ -36,15 +36,20 @@
       "outcome": "accepted, verification deferred by six-answer gate"
     }
   ],
-  "phase": "evidence preserved; publication in preparation",
+  "phase": "published and merged",
   "new_findings": [
     "GB.glp #1: enforced escrow agreement unrepresented",
     "core/agent.glp #1: creator warranty path does not validate developer and schemas"
   ],
   "next": [
-    "Publish mirrored reports and centralized known-red registry",
-    "Await Currencies/GSA answers; verify fixes against both schemas and shipped code",
-    "Continue application implementation scopes; GFF-I change seen, not yet rerun",
+    "Verify Currencies/GSA responses against the exact artifacts, retaining existing finding IDs",
+    "Complete GFF-I correction verification and remaining application code scopes",
+    "Check amount-domain rejection and wider currency concurrency/recovery in a later bounded sweep",
     "Keep all core investigations held until five remaining answers arrive"
-  ]
+  ],
+  "publication_pr": 13,
+  "publication_merge": "17cde7e7cd799fe78f4baa07964669d6fcb2afc2",
+  "reports": 28,
+  "findings": 16,
+  "unanswered": 10
 }

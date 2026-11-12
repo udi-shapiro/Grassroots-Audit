@@ -1,3 +1,7 @@
+# Current progress — 2026-11-12
+
+Currency/GSA sweep published in [PR #13](https://github.com/udi-shapiro/Grassroots-Audit/pull/13); main `17cde7e7cd799fe78f4baa07964669d6fcb2afc2`. Read `auditor/coordination.md`, `auditor/stages/04-currencies-gsa.json` and the dated project handovers. Evidence is under `auditor/evidence/currencies-gsa-20261112`; checks under the matching checks directory. Five core answers still missing; papers stay held. GPT-Auditor is never merged to main. No background monitoring is active.
+
 # Latest checkpoint: first application sweep published
 
 [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10) is merged as `0353d0f7e99df27bac87bc91400370f3314808bb`. All eight publication blobs were verified against reviewed local contents. Five findings: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS at `5c17c4aa069743d990d993ca23c65200df982754`: 183 pass / 60 fail / 3 separately known red. The four affected committed apps also fail direct loading. Published totals: **17 reports, 14 findings, 11 unanswered**.

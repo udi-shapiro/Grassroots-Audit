@@ -1,3 +1,7 @@
+# Current stage: application contracts/code, after currency/GSA publication
+
+Completed the user-ordered GC/GB and GSA sweep; see `stages/04-currencies-gsa.json` and PR #13. KNOWN_RED_CHECKS is now a single published registry, not per-app findings. Verify new responses and complete GFF-I/app integration and currency boundary cases next. Core-paper work remains held until all six original questions have answers; sGLP #1 is answered, five others are not. This checkpoint supersedes any earlier immediate-next paper queue below.
+
 # Latest checkpoint: first application sweep published
 
 [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10) is merged as `0353d0f7e99df27bac87bc91400370f3314808bb`. All eight publication blobs were verified against reviewed local contents. Five findings: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS at `5c17c4aa069743d990d993ca23c65200df982754`: 183 pass / 60 fail / 3 separately known red. The four affected committed apps also fail direct loading. Published totals: **17 reports, 14 findings, 11 unanswered**.

@@ -1,4 +1,5 @@
 {
+  "app-platform-equality.json": "f042cfcb9c3b4aee64e570523f3bf78b177866584113f2d78d61254519ad704c",
   "certificate-followup.json": "53ac0bbb7fae93546824617a70decaf8267812e97ab12b8d8e66321b6d497a05",
   "currency-source-checks.json": "06bde12fce1d073f2db5f91deffc0862edfcf1880e4d18a15d306eca52495565",
   "currency-witnesses/bonds-existing.in": "c60147614653405918197038d1aff380d55d7aa4bb92af48e5c2b9f2aa32bdd5",
@@ -27,6 +28,7 @@
   "gsa-wrapper-attempt1/result.json": "6207975d0385bd511fa5d0c61fbb97171823c4cac353bbd6dd5cceeb6259799a",
   "gsa-wrapper-attempt1/store-references.txt": "661e20ec4cd7e8fafb478f61f963993ffac44088032c63578c89c24257c84de6",
   "known-red-registry.json": "3b1e63bea91b5045daf39958beb2e723b853b13dd05c394a6d70190d95b2a86e",
+  "publication.json": "1a0db8e134d2d5515f0f095bec260a854900052c6af2b9401e222b83eb042098",
   "run-index.json": "8b7775f5715d378e3be8a3081eedc7eed7852e6b617ba13f25f4246ea3642290",
   "selected-source-validation.json": "dc8694a6385d57ff299769d8cda4aa50c631b9f137526bdfef7a2936b25820a6",
   "source-advance.json": "21205a3fd326f3cff38db360b39e71c9888fb17d196f714af03edc330da0e81d"

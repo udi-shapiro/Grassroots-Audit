@@ -1,0 +1,85 @@
+{
+  "pr": 13,
+  "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/13",
+  "head": "b653427f2f10c206e835f18f1b1dd2f38e97b057",
+  "merge": "17cde7e7cd799fe78f4baa07964669d6fcb2afc2",
+  "merged_at": "2026-11-12T23:40:22Z",
+  "main": "17cde7e7cd799fe78f4baa07964669d6fcb2afc2",
+  "evidence_commit": "d61f8d3f6520ec0ef665d3a7030a517beda982ba",
+  "reports": 28,
+  "findings": 16,
+  "unanswered": 10,
+  "core_unanswered": 5,
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "855f2c01f4545bcc9a67e51fcc679be65e8fbb31"
+    },
+    {
+      "path": "cascade/GAS.md",
+      "sha": "1a4da43da3dd67232a9e3e462dec1bda46a126e9"
+    },
+    {
+      "path": "cascade/GB.md",
+      "sha": "ad8fc8470e96c0876a3a311fc8072ec168c02d3f"
+    },
+    {
+      "path": "cascade/GC.md",
+      "sha": "717e4bf77c98d8491cf1c4a881dc7a4f966899bd"
+    },
+    {
+      "path": "papers/sGLP.pdf.md",
+      "sha": "03347b2f20d4c525afb9497d03d0a3bbb55c75ad"
+    },
+    {
+      "path": "programs/apps/compile.sh.md",
+      "sha": "e5c2d876320e82460b5597b9560581d783c7c8a1"
+    },
+    {
+      "path": "programs/apps/gb.md",
+      "sha": "ce0b469fbf589917addc5a9a5bdc5750ae2d96f2"
+    },
+    {
+      "path": "programs/apps/gc.md",
+      "sha": "232a5ecb5eeffa8d4a4ebd09da06e6a87445d5c7"
+    },
+    {
+      "path": "programs/currencies/bonds/GB.glp.md",
+      "sha": "02cf992991138a79b97b962d088e53cd18c870f1"
+    },
+    {
+      "path": "programs/currencies/coins/GC.glp.md",
+      "sha": "9750daaf38eaccb487a30a32d1a00ce946312192"
+    },
+    {
+      "path": "programs/social/graph/GAS.glp.md",
+      "sha": "542014020c62f8cfeaae61024231e6306681f552"
+    },
+    {
+      "path": "programs/social/graph/core/agent.glp.md",
+      "sha": "3492d3596b31f5e108cf45fd128cfd65bd4e0854"
+    },
+    {
+      "path": "programs/social/graph/core/gai_phone.glp.md",
+      "sha": "00fc9936ee8eac67be21b53dcc6befa84d9cb0ab"
+    },
+    {
+      "path": "programs/social/graph/core/gsnp_phone.glp.md",
+      "sha": "8c6e556bb1bc6c02654c54f32f944275e1b28b49"
+    },
+    {
+      "path": "programs/social/graph/core/home.vglp.md",
+      "sha": "3f78b3bf5121b6a06f7bfc83563d8b1c9bc6066b"
+    },
+    {
+      "path": "sections/status-table.tex",
+      "sha": "988f5f8be23766ebf049c8b86a2aa4ac03461119"
+    },
+    {
+      "path": "test/run_all_tests.sh.md",
+      "sha": "e99b9f9d9ba576f98f2f98ce928f8385e41739fe"
+    }
+  ],
+  "working_branch_merged": false,
+  "execution_branches_merged": false
+}

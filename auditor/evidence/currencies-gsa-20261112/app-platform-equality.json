@@ -1,0 +1,12 @@
+{
+  "gc": {
+    "bytes": 428996,
+    "sha256": "6db9afd3c402070be72bd237a1b49cacea1a3d199517d2e29890f6f3bae5b0a2",
+    "app_matches_replayed_cascade": true
+  },
+  "gb": {
+    "bytes": 460877,
+    "sha256": "0e30c8c68972e261d2055a86412be84bfc957af9d7c61de3482909c1bf826f11",
+    "app_matches_replayed_cascade": true
+  }
+}

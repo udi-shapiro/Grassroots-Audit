@@ -1,3 +1,11 @@
+# Latest checkpoint: currency and GSA sweep published
+
+[PR #13](https://github.com/udi-shapiro/Grassroots-Audit/pull/13) is merged as `17cde7e7cd799fe78f4baa07964669d6fcb2afc2`. All 17 changed publication blobs were verified; main contains no working records or execution workflows. Totals: **28 reports, 16 findings, 10 unanswered**. Two new medium findings: GB escrow agreement is not represented by its enforced schemas; GSA installation manufactures/accepts a certificate without the promised developer/schema validation. GC/GB recorded cascades reproduce; GC's four plays replay; GB has no recorded play. Typed GB accepting/refusing controls and seven GSA helper checks are preserved at `d61f8d3f6520ec0ef665d3a7030a517beda982ba`. GAS's cascade reproduces its refusal, not an executable store app. The 23 exact KNOWN_RED_CHECKS names are reported once in test/run_all_tests.sh.md.
+
+Responses #11 and #12 are merged. GAI's current-contract names/verdict are corrected, but certificate-to-committed-app equality is still false, so both findings remain open. sGLP #1 is answered and its verification deferred. Five core answers remain missing: GLP-Spec #1, IGLP #1–2, vGLP #1, sGLP #2. All core-paper investigations remain held until those answers arrive. No private paper source was accessed, no persistent worker or automation was started, and no GLP source was changed.
+
+Continue from stages/04-currencies-gsa.json and the Currencies, GSA, GAI, Code and sGLP currencies-gsa-20261112.md handovers. GFF's switch to GFF-I at observed main `8f6cf17` is recorded but not rerun; do not present its old failure as tested on the new head. No approval remains outstanding for this completed sweep. Earlier checkpoints below are retained history.
+
 # Current checkpoint: currency and GSA evidence complete
 
 User order: GC/GB contracts, schemas, apps and recorded runs; then GSA certificates and App Store install path; report KNOWN_RED_CHECKS once. Evidence and stage record are currencies-gsa-20261112 and stages/04-currencies-gsa.json. Two new findings are being prepared: GB escrow agreement representation and GSA creator-certificate validation. GC/GB cascade records reproduce. GAS is refusal-only, no executable store path. All 23 known-red names are centralized without duplicate app findings.
