@@ -1,0 +1,1014 @@
+{
+  "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+  "counts": {
+    "passed": 183,
+    "failed": 60,
+    "known_red_separate": 3
+  },
+  "groups": {
+    "gsg": {
+      "PASS": 21
+    },
+    "compile.sh": {
+      "FAIL": 1
+    },
+    "gkk": {
+      "PASS": 23
+    },
+    "gsn": {
+      "PASS": 24
+    },
+    "gsnp": {
+      "PASS": 14,
+      "FAIL": 31
+    },
+    "gff": {
+      "FAIL": 13,
+      "PASS": 3
+    },
+    "gai": {
+      "PASS": 15,
+      "FAIL": 15
+    },
+    "gc": {
+      "PASS": 56
+    },
+    "gb": {
+      "PASS": 27
+    }
+  },
+  "checks": [
+    {
+      "result": "PASS",
+      "check": "APPS gsg: platform.vglp is what vGLP's compiler prints from GSG.glp"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS compile.sh --check exits 0"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg loads"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg router: bob's hello reaches the agent, carrying the acquaintance it asks for"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg router: the hello held for bob goes first on his conversation, then the start"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg router: the hello held for carol goes on hers"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg friends: alice's screen, each request pending until it commits, bob known once his hello comes back"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg friends: bob's screen, asked on alice's hello of acquaint and answering yes, his request, and asked on her attempt of befriend"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: alice establishes her identity by the key her view shows"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: ... the key written into each hole"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: the types written again hold the notices of the platform's output, refused(N, Q, D), and the approvals pending, each by its request name, N and the approvals of type Approved ::= Proposal (vGLP e286276, Section 5.4), the lists its app shows (vGLP 1423679, Section 5.4), and the agent's own key first (vGLP 12f629d, Section 5.4)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: the person's screen shows a notice written after the last view, refused(P, Q, D)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg friends: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg friends: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: platform.vglp is what vGLP's compiler prints from GKK.glp"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: the request type proposes GKK's three classes"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk loads"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk keys: alice's screen, each acquaintance a cold call, each request pending until it commits"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk keys: bob's screen: once he has answered yes to the introduction, his agent, introduced to carol's by alice's at the commit, comes to know her by the ihello exchange, and he comes to know her, so no hello is sent, holding knows(carol) twice"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk keys: carol's screen: asked on alice's hello of acquaint and answering yes; not asked on the introduction, her agent comes to know bob's by it, and she answers yes on his attempt to come to know her"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: alice introduces carol to bob, in the order of introduce's head, introduce(p?, q? ; c)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: the types written again hold knows(Peer)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk keys: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk keys: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: platform.vglp is what vGLP's compiler prints from GSN.glp"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: the request type proposes the guarded classes, remove and not deliver"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn loads"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn network: alice's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn network: bob's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: post(p?, a ; x, n) compiles as post(p, a, x, n)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: close's class term carries the list of the people of its listed role, a[listed(*, n)]"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: member(<a>.n) holds a community name, one argument"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: ... written in the view as the contract writes it"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: ... the community name of the person bound to u followed by the speech acts bound to the y's, and dot_any(C), the image of N.* under a binding, of a cleared atom (vGLP f8127b1, Section 5.4; GSC 327e035, Definition Binding)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: bob's group message in the order of post's head, its content before the group's name"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: the types written again: close's list and the community name, dot_any(C) with it"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: alice signs her message by the key her view shows"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn network: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn network: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: the request type proposes the guarded classes, GnW's and GAI's with GSN's, remove among them, not deliver or deliver_own"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp: the mini-app's artefact is certified"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp loads"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: dan's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: eve's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: carol's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: bob's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: fay's screen, each request pending, by its request name, until its transaction is taken"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: dan signs the item by the key his request question shows"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: dan sends the item he authored to eve in a message, as he signed it"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: carol finds the signer of the item before eve by matching it"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: carol forwards to bob the item signed by dan and then by eve"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: bob finds the signers of the item before carol by matching it"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: bob forwards to fay the item signed by dan, eve and carol"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp: no script names a signer by an atom"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp: no failed play"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp: no error"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp provenance: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp provenance: ... and is not stopped at the limit"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: acme_ltd's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: alice's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: alf's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: bob's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: bob records alf with alice's attestation y, the speech act she signed"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: bob holds the item alf signed"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: alice retires alf, alf retired, its friendships ended"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp agents: no unfriend in the play, retire ending alf's friendships"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: no failed play"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: no error"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp agents: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp agents: ... and is not stopped at the limit"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff: platform.vglp is what vGLP's compiler prints from GFF.glp"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gff: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff: the mini-app's artefact is certified"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff loads"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: alice's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: bob's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: carol's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: dave's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: eve's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: eve holds the third item, signed by alice, bob, carol and dave, once each"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: bob holds the fourth item"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gff feeds: carol, dave and eve do not hold the fourth item"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff: no failed play"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff: no error"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gff feeds: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gff feeds: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: the request type proposes the seventeen classes, every schema marking a role"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: the view writes the record of an AI agent and its attestation, agent_of(r, y), at each guardian (GAI.glp, enter: the record agent_of(Carol, y) of its attestation y)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: the types written again hold GAI's atoms, as the platform prints them"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai: the mini-app's artefact is certified"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai loads"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai agents: alice's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai agents: alf's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai agents: bob's screen"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: alice asks to come to know bob by the key her request question shows (GKK:2)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: alice offers bob friendship by the key her request question shows (GSG:1)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: alice signs her attestation y, by the key her request question shows, GAI's \"Alice [Sign] <text>\" (GAI:2)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: alice enters her AI agent alf with y, by the key her request question shows (GnW:1)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: alice, alf's guardian, proposes its acquaintance with bob, presenting y, GAI's \"Alice [Agent acquaint] <person>\" (GnW:3, GAI:2)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: ... and once it is done its befriending bob, GAI's \"Alice [Agent befriend] <person>\" (GnW:3)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: ... and once that is done retires alf, the AI agent retire's first role (GnW:5)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai: nobody ends a friendship with alf by unfriend: retire ends its friendships (GnW:5)"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai: no failed play"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai: no error"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai agents: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai agents: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: platform.vglp is what vGLP's compiler prints from GC.glp"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: platform.vglp is the platform of the recorded run of the cascade on GC"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: the request type proposes GKK's three classes and GC's four, mint, swap and pay naming their amounts (vGLP, Section 7.3)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: the types written again hold coin(Peer)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: miniapp.glp is the same file as GSG's app's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc loads"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc coins: alice's screen, each request pending until it commits, her amounts the fields of her requests"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc coins: bob's screen, asked on alice's hello of acquaint and on her attempt of the swap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: alice asks bob to swap two Alice-coins for three Bob-coins, in the order of swap's head, swap(p?, q? ; u, k, v, k')"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: alice pays two Bob-coins to bob by the key her request question shows, pay(p?, q ; k)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc coins: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc coins: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: platform.vglp is what vGLP's compiler prints from GB.glp and GB.txt"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: the view names three tabs, one for each list line of the pragmas, GKK's Contacts and GB's Coins and Bonds, the two counted, GB adding and deleting coin and bond with multiplicities (GSC, Section 2; vGLP, Section 5.4)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: Redeem's fields name the variables the atoms the proposer's role requires do not bind, the issuer's date t, local to the issuer's role, left out (vGLP, Section 5.4)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: the types written again hold coin(Peer), bond(Peer, Integer) and the date"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: miniapp.glp is GSG's app's but for the calendar, six lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb loads"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: the run suspends, no agent left with an own transaction or a trigger"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: ... and is not stopped at the limit"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: no attempt refused"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: each gets the first day of the calendar as their date, once (GB:2, first_date)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: alice mints three Alice-bonds maturing at day 10, later than her date (GB:1)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: bob answers yes to the loan, two Alice-coins for three Bob-bonds maturing at day 5 (GB:3)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: bob's date advances a day at a time to day 5, the day his calendar gives (GB:2, advance), bob knowing alice twice over, by their meeting and by the Alice-coins he took in the loan, the swap adding at the role that receives coins knows of their issuer (GB.glp 7080bc69, GB:3: \"each comes to know the issuer of what they receive\")"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: alice redeems a matured Bob-bond against an Alice-coin bob holds, and nobody is asked, and comes to know the coin's issuer, herself (GB:4; GB.glp 7080bc69: \"p comes to know r\")"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: ... and bob holds the bond presented and one Alice-coin"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb bonds: carol answers yes to alice's deposit of two Alice-coins, and holds them, and comes to know their issuer (GB:5; GB.glp 7080bc69: \"e comes to know u\")"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg on two smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg on two smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg on two smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg on two smartphones: alice's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsg on two smartphones: bob's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn on two smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn on two smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn on two smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn on two smartphones: alice's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsn on two smartphones: bob's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: alice's super-app lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: bob's super-app lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: carol's super-app lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: alice's screen is play_keys's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: bob's screen is play_keys's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gkk on three smartphones: carol's screen is play_keys's"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp on five smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gsnp on five smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: dan's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: dan's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: eve's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: eve's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: carol's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: carol's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: bob's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: bob's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: fay's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gsnp on five smartphones: fay's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai on three smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gai on three smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: alice's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: alice's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: alf's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: alf's screen"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: bob's super-app lines"
+    },
+    {
+      "result": "FAIL",
+      "check": "APPS gai on three smartphones: bob's screen"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc on two smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc on two smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc on two smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc on two smartphones: alice's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc on two smartphones: bob's lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: the mini-app's artefact is certified"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: the boot settles"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: no event stopped at the cap"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: alice's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: alice's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: alice's screen has play_village's 26 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: alice's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: bob's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: bob's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: bob's screen has play_village's 22 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: bob's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: charlie's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: charlie's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: charlie's screen has play_village's 22 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: charlie's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: diana's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: diana's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: diana's screen has play_village's 22 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: diana's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: eve's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: eve's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: eve's screen has play_village's 31 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: eve's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: frank's super-app lines, one connection each"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: frank's answers and looks, in order"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: frank's screen has play_village's 36 lines"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village on six smartphones: frank's last view is play_village's"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: the run suspends, every operation taken"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: diana's premature presentation of a frank-bond is refused by frank, unable"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: the escrow agent releases the deposit to frank, who answers yes (GB:5)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: frank's holdings, 7 diana-coins, 10 eve-coins, 6 frank-bonds maturing at day 28, 4 frank-coins; knows of the issuer added at the role that receives coins or bonds in each swap, redemption and release (GB.glp 7080bc69, GC:2, GB:3, GC:4, GB:4, GB:5: \"each comes to know the issuer of what they receive\", \"p comes to know r\", \"q comes to know u\"): alice by meeting, whom she comes to know before she asks eve for frank-coins (GKK:2), diana and eve by meeting and by a swap, and himself by five redemptions against frank-coins and the release of charlie's deposit of frank-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: the escrow agent holds nothing once it has released, knowing frank by meeting and by charlie's deposit of frank-coins (GB.glp 7080bc69, GB:5: \"e comes to know u\")"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gb village: diana's holdings, knowing bob by meeting and by the bob-bonds of her swap, and frank by meeting, by the frank-bonds of her swap and by the frank-coin her redemption takes (GB.glp 7080bc69, GB:3, GB:4)"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: no failed play"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: no error"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: the run suspends, every operation taken"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: alice's holdings, 5 bob-coins, 8 alice-coins, 15 charlie-coins, 4 frank-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: bob's holdings, 10 alice-coins, 20 diana-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: charlie's holdings, 10 alice-coins, 10 eve-coins, 6 charlie-coins, 5 frank-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: diana's holdings, 24 bob-coins, 13 frank-coins, 8 diana-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: eve's holdings, 4 charlie-coins, 1 frank-coin, 2 alice-coins, 10 bob-coins"
+    },
+    {
+      "result": "PASS",
+      "check": "APPS gc village: frank's holdings, 7 diana-coins, 10 eve-coins, 5 frank-coins"
+    }
+  ]
+}

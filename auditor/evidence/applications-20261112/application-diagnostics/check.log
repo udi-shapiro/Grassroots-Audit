@@ -1,0 +1,35 @@
+gkk/platform.vglp: as printed
+gsg/platform.vglp: as printed
+gsn/platform.vglp: as printed
+gsnp: compiler diagnostics
+%% not compiled(gsnp)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(end_guardian, end_guardian)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(retire, retire)
+gai: compiler diagnostics
+%% not compiled(gai)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(end_guardian, end_guardian)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(retire, retire)
+gc/platform.vglp: as printed
+gb/platform.vglp: as printed
+gff: compiler diagnostics
+%% not compiled(gff)
+%% it is not effective (vGLP, Section 5.4, the paragraph on act schemas): an unguarded
+%% schema whose first role requires no atom naming some other role, or some variable of
+%% an atom it deletes or adds that its constraint gives no finite set of values:
+%% the schema(deliver)

@@ -1,0 +1,11 @@
+--- original
++++ diagnostic
+@@ -117,7 +117,7 @@
+         continue
+     fi
+     if grep -q '^%% not compiled' "$out"; then
+-        echo "$app: $(grep '^%% not compiled' "$out" | head -1)"
++        echo "$app: compiler diagnostics"; cat "$out"
+         OK=0
+         continue
+     fi

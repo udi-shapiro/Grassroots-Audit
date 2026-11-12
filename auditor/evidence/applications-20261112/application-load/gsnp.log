@@ -1,0 +1,58 @@
+╔════════════════════════════════════════╗
+║  GLP REPL - With Type Checking         ║
+╚════════════════════════════════════════╝
+
+Build: 5c17c4a
+Working directory: /home/runner/work/Grassroots-Audit/Grassroots-Audit/GLP/glp_runtime
+
+Input: filename.glp to load, or goal to execute
+Commands: :quit, :help, :trace, :debug, :limit, :mad, :app, :boot, :deliveries
+
+Loaded root self.glp
+
+GLP> Error loading project ../programs/apps/gsnp: Exception: Type checking failed for module(s) of the program:
+  ../programs/apps/gsnp/person.glp:42: Head of script is not well-typed:
+  Inconsistent path: No transition for authored(1,1):↑ from state Atom
+  Path: ([|]/2, 0, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → (wait/1, 1, output) → (holds/1, 1, output) → (authored/1, 1, output) → (speech/2, 1, output) → (utterance/1, 1, output) → (Flood on Main Street, 1, output)
+  and 1 more inconsistent path of the term
+  ../programs/apps/gsnp/person.glp:82: Head of script is not well-typed:
+  Inconsistent path: No transition for authored(1,1):↑ from state Atom
+  Path: ([|]/2, 0, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → (wait/1, 1, output) → (holds/1, 1, output) → (authored/1, 1, output) → (speech/2, 1, output) → (utterance/1, 1, output) → (The code of Alf, 1, output)
+  and 1 more inconsistent path of the term
+  ../programs/apps/gsnp/person.glp:89: Head of script is not well-typed:
+  Inconsistent path: No transition for authored(1,1):↑ from state Atom
+  Path: ([|]/2, 0, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → (wait/1, 1, output) → (holds/1, 1, output) → (authored/1, 1, output) → (speech/2, 1, output) → (utterance/1, 1, output) → (Alf runs code signed by Acme Ltd, 1, output)
+  and 11 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:105: Head of script is not well-typed:
+  Inconsistent path: No transition for agent_acquaint(4,1):↑ from state Asked
+  Path: ([|]/2, 0, output) → ([|]/2, 2, output) → (approval/2, 1, output) → (agent_acquaint/4, 1, output) → (Me, 1, output)
+  and 6 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:113: Head of script is not well-typed:
+  Inconsistent path: No transition for agent_acquaint(4,1):↑ from state Asked
+  Path: ([|]/2, 0, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → ([|]/2, 2, output) → (approval/2, 1, output) → (agent_acquaint/4, 1, output) → (Alf, 1, output)
+  and 4 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:128: Head of person is not well-typed:
+  Inconsistent path: No transition for menu_w(1,1):↓ from state Drawn?
+  Path: ([|]/2, 0, input) → (draw/3, 1, input) → (menu_w/1, 3, input) → (menu/3, 1, input) → (Me?, 1, input)
+  and 2 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:221: Head of match_atom is not well-typed:
+  Inconsistent path: No transition for authored(1,1):↓ from state Atom?
+  Path: (authored/1, 0, input) → (P?, 1, input)
+  and 2 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:287: Head of last_view is not well-typed:
+  Inconsistent path: No transition for view(4,1):↓ from state Output?
+  Path: ([|]/2, 0, input) → (view/4, 1, input) → (S?, 1, input)
+  and 3 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:295: Head of notices_after is not well-typed:
+  Inconsistent path: No transition for view(4,1):↓ from state Output?
+  Path: ([|]/2, 0, input) → (view/4, 1, input) → (_#1?, 1, input)
+  and 3 more inconsistent paths of the term
+  ../programs/apps/gsnp/person.glp:327: Head of ended is not well-typed:
+  Inconsistent path: No transition for view(4,1):↓ from state Output?
+  Path: ([|]/2, 0, input) → (view/4, 1, input) → (_#1?, 1, input)
+  and 3 more inconsistent paths of the term
+  ../programs/apps/gsnp/plays.glp:70: Head of holding is not well-typed:
+  Inconsistent path: No transition for view(4,1):↓ from state Seen?
+  Path: (view/4, 0, input) → (As?, 1, input)
+  and 3 more inconsistent paths of the term
+GLP> Goodbye!

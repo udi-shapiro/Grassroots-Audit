@@ -1,3 +1,7 @@
+# Latest checkpoint: first application sweep prepared
+
+Source `5c17c4aa069743d990d993ca23c65200df982754`. Five findings prepared: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS: 183 pass / 60 fail / 3 separately known red. Four affected committed apps also fail direct loading. Evidence and per-project handovers are preserved under applications-20261112 paths. Source inputs validated, models distinguish declarative calculations from actual Dart execution. No core-paper report changed; the six-answer gate below remains in force. Publication not yet merged at this checkpoint. See stages/03-applications.json for exact scope and remaining work.
+
 # Current direction: application contracts and code
 
 Udi, 2026-11-12: “keep going, but on the contracts and code of the application projects, and to leave the core papers until the six are answered.”

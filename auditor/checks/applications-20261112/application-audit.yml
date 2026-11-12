@@ -1,0 +1,87 @@
+name: Application contracts and committed code audit
+on:
+  push:
+    branches: [audit-applications-20261112]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: 5c17c4aa069743d990d993ca23c65200df982754
+          path: GLP
+          persist-credentials: false
+      - name: Pin application source for the audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir evidence
+          git -C GLP rev-parse HEAD > evidence/source-commit.txt
+          git -C GLP ls-tree -r HEAD > evidence/source-tree.txt
+          git -C GLP archive --format=tar HEAD programs glp_runtime organisation tools test cascade networking servers/peoplesweb/tools/directories.py servers/peoplesweb/tools/papers.py | gzip > evidence/application-source.tar.gz
+          sha256sum evidence/application-source.tar.gz > evidence/SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: application-source
+          path: evidence/
+          retention-days: 30
+  compiled-platforms:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [apps, cssn]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: 5c17c4aa069743d990d993ca23c65200df982754
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce the committed dependency lockfile
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Compare the committed platform with its current contract compilation
+        env:
+          AUDIT_TARGET: ${{ matrix.target }}
+        shell: bash
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import json,os,subprocess,time
+          from pathlib import Path
+          target=os.environ['AUDIT_TARGET']
+          start=time.monotonic()
+          command=['bash','programs/'+target+'/compile.sh','--check']
+          try:
+              p=subprocess.run(command,cwd='GLP',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=1200)
+              output=p.stdout
+              record={'target':target,'command':command,'exit_code':p.returncode,'timeout':False}
+          except subprocess.TimeoutExpired as e:
+              output=e.stdout or ''
+              if isinstance(output,bytes):output=output.decode(errors='replace')
+              record={'target':target,'command':command,'exit_code':None,'timeout':True}
+          record.update(source_commit='5c17c4aa069743d990d993ca23c65200df982754',dart_sdk='3.9.4',seconds=round(time.monotonic()-start,3))
+          Path('evidence/check.log').write_text(output)
+          Path('evidence/result.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(record))
+          print(output[-20000:])
+          raise SystemExit(0 if record['exit_code']==0 else 1)
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: platform-check-${{ matrix.target }}
+          path: evidence/
+          retention-days: 30
+

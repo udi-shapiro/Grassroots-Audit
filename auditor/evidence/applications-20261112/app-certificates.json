@@ -1,0 +1,113 @@
+{
+  "scope": "Compare names signed by phone fixtures with their committed app platforms.\n\nStatic source consistency check, not signature verification or phone execution.\nThe GSN discrepancy has its own existing finding and is not counted anew.",
+  "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+  "comparisons": [
+    {
+      "app": "gai",
+      "phone": "programs/social/graph/core/gai_phone.glp",
+      "platform": "programs/apps/gai/platform.vglp",
+      "phone_sha256": "74a62d6f892fb1ec4e84c2c61cd4ac25db4a7c77e5aa2ae1225f16d8c0efcfe8",
+      "platform_sha256": "ae17c3ac848a656f6942e23108aab34ed5255a44d18445b8a94c4eb02c5efb0e",
+      "certificate_count": 16,
+      "platform_count": 17,
+      "extra": [
+        "forward",
+        "message",
+        "unfriend_p",
+        "unfriend_q"
+      ],
+      "missing": [
+        "end_guardian",
+        "guardian_unfriend",
+        "make_guardian",
+        "resign",
+        "unfriend"
+      ]
+    },
+    {
+      "app": "gb",
+      "phone": "programs/social/graph/core/gb_phone.glp",
+      "platform": "programs/apps/gb/platform.vglp",
+      "phone_sha256": "9746108ec3df0e00a73b0e8a73d382c326223f01e7d9811008cd7d197e902499",
+      "platform_sha256": "0e30c8c68972e261d2055a86412be84bfc957af9d7c61de3482909c1bf826f11",
+      "certificate_count": 22,
+      "platform_count": 22,
+      "extra": [],
+      "missing": []
+    },
+    {
+      "app": "gc",
+      "phone": "programs/social/graph/core/gc_phone.glp",
+      "platform": "programs/apps/gc/platform.vglp",
+      "phone_sha256": "ccfb4fa2362bf3c449bf2f13b814e70620b2717c21621ebe9d4c1961e987ff00",
+      "platform_sha256": "6db9afd3c402070be72bd237a1b49cacea1a3d199517d2e29890f6f3bae5b0a2",
+      "certificate_count": 7,
+      "platform_count": 7,
+      "extra": [],
+      "missing": []
+    },
+    {
+      "app": "gkk",
+      "phone": "programs/social/graph/core/gkk_phone.glp",
+      "platform": "programs/apps/gkk/platform.vglp",
+      "phone_sha256": "f09f34597b7870b2877686b873da8467a5aed8a24b23785421a09b5193fac840",
+      "platform_sha256": "6ac59f04c30cb908723b32ba0b7e8061c0aa54305d490548cb6dfe01b47d47b5",
+      "certificate_count": 3,
+      "platform_count": 3,
+      "extra": [],
+      "missing": []
+    },
+    {
+      "app": "gsg",
+      "phone": "programs/social/graph/core/gsg_phone.glp",
+      "platform": "programs/apps/gsg/platform.vglp",
+      "phone_sha256": "e602faca8b681599135586ed75a928d70069a231d4a4256d45db9e097c9b57a0",
+      "platform_sha256": "e940b1034a5c0ddd16d2062939d4370012d12ba7da1539ecb79fe53fdf0d7bd2",
+      "certificate_count": 5,
+      "platform_count": 5,
+      "extra": [],
+      "missing": []
+    },
+    {
+      "app": "gsn",
+      "phone": "programs/social/graph/core/gsn_phone.glp",
+      "platform": "programs/apps/gsn/platform.vglp",
+      "phone_sha256": "f11511ac511a96d4ce3fa032e54e77fa3a9e35edcaeffaf5cdb85f71e09cae95",
+      "platform_sha256": "49e095b4374a08897780c283389efdcdbaecfa1587163ec1ae0300d15877896e",
+      "certificate_count": 14,
+      "platform_count": 14,
+      "extra": [
+        "drop"
+      ],
+      "missing": [
+        "remove"
+      ]
+    },
+    {
+      "app": "gsnp",
+      "phone": "programs/social/graph/core/gsnp_phone.glp",
+      "platform": "programs/apps/gsnp/platform.vglp",
+      "phone_sha256": "f9d9ab58f4f65092f10c84acd0f49f17aeccec114f02a71635d12f8abc63510e",
+      "platform_sha256": "e0da5b6c70bd45cf8154f05a935c51ad3684086cb3ba9692890e35b235e5fc54",
+      "certificate_count": 18,
+      "platform_count": 29,
+      "extra": [
+        "drop"
+      ],
+      "missing": [
+        "agent_acquaint",
+        "agent_befriend",
+        "agent_unfriend",
+        "agents_acquaint",
+        "agents_befriend",
+        "end_guardian",
+        "enter",
+        "guardian_unfriend",
+        "make_guardian",
+        "remove",
+        "resign",
+        "retire"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+name: Application audit diagnostics and existing app tests
+on:
+  push:
+    branches: [audit-applications-20261112]
+permissions:
+  contents: read
+jobs:
+  applications:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [diagnostics, tests]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: 5c17c4aa069743d990d993ca23c65200df982754
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce the committed dependency lockfile
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Collect compiler diagnostics or run the existing application section
+        env:
+          AUDIT_TARGET: ${{ matrix.target }}
+        shell: bash
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import difflib,json,os,subprocess,time
+          from pathlib import Path
+          target=os.environ['AUDIT_TARGET']
+          if target=='diagnostics':
+              p=Path('GLP/programs/apps/compile.sh')
+              before=p.read_text()
+              needle='echo "$app: $(grep \'^%% not compiled\' "$out" | head -1)"'
+              assert before.count(needle)==1
+              after=before.replace(needle,'echo "$app: compiler diagnostics"; cat "$out"')
+              p.write_text(after)
+              Path('evidence/diagnostic-only.patch').write_text(''.join(difflib.unified_diff(before.splitlines(True),after.splitlines(True),fromfile='original',tofile='diagnostic')))
+              command=['bash','programs/apps/compile.sh','--check']
+          else:
+              command=['bash','test/run_all_tests.sh']
+              os.environ['GLP_SECTIONS']='APPS'
+          start=time.monotonic()
+          try:
+              p=subprocess.run(command,cwd='GLP',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=1200)
+              output=p.stdout
+              record={'target':target,'command':command,'exit_code':p.returncode,'timeout':False}
+          except subprocess.TimeoutExpired as e:
+              output=e.stdout or ''
+              if isinstance(output,bytes):output=output.decode(errors='replace')
+              record={'target':target,'command':command,'exit_code':None,'timeout':True}
+          record.update(source_commit='5c17c4aa069743d990d993ca23c65200df982754',dart_sdk='3.9.4',seconds=round(time.monotonic()-start,3),GLP_SECTIONS=os.environ.get('GLP_SECTIONS'))
+          Path('evidence/check.log').write_text(output)
+          Path('evidence/result.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(record))
+          print(output[-12000:])
+          raise SystemExit(0 if record['exit_code']==0 else 1)
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: application-${{ matrix.target }}
+          path: evidence/
+          retention-days: 30

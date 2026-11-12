@@ -1,0 +1,19 @@
+introduction: introduction(knows)
+verdict: syntactically_grassroots_with_wards(acquaint, [child], [guardianship(child, parenting, guarded_by)], [relay(child_acquaint, ward(1, child, guardian(3)), free(2)), relay(children_acquaint, ward(1, child, guardian(3)), ward(2, child, guardian(4)))], [identity, person])
+compiler: not compiled
+%% not compiled(cssn)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(make_parent, make_parent)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(end_parent, end_parent)
+%% it is not a local specification (vGLP, Section 5.4, the paragraph on act schemas): a guarded
+%% part with an opener, of a schema with a listed role whose base is not a guarding role, has a guard
+%% who guards another guarded part of its class not determined likewise, with the same opener, or
+%% has two guards or more and another guarded part of its class has another guard set:
+%% the schema and the other(retire, retire)

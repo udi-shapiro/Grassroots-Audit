@@ -1,0 +1,30 @@
+[
+  {
+    "app": "gai",
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 6.752,
+    "source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+  },
+  {
+    "app": "gsnp",
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 1.299,
+    "source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+  },
+  {
+    "app": "gff",
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.105,
+    "source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+  },
+  {
+    "app": "cssn",
+    "exit_code": 0,
+    "timeout": false,
+    "seconds": 0.476,
+    "source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+  }
+]

@@ -1,11 +1,74 @@
 {
-  "status": "in_progress",
+  "status": "bounded_sweep_complete_publication_prepared",
   "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
-  "scope": "application project contracts and code; core papers held until six answers",
+  "scope": "Application contracts and code; core papers held until six answers",
   "initial_focus": [
     "CSSN",
     "GAI",
     "application compilation consistency"
   ],
-  "publication": null
+  "new_findings": 5,
+  "reports": [
+    "programs/cssn/CSSN.glp.md",
+    "programs/apps/compile.sh.md",
+    "programs/social/graph/core/gai_phone.glp.md",
+    "programs/social/graph/core/gsnp_phone.glp.md"
+  ],
+  "validation": {
+    "platforms_exact": [
+      "gkk",
+      "gsg",
+      "gsn",
+      "gc",
+      "gb"
+    ],
+    "platforms_refused": [
+      "gai",
+      "gsnp",
+      "gff",
+      "cssn"
+    ],
+    "APPS": {
+      "passed": 183,
+      "failed": 60,
+      "known_red_separate": 3,
+      "seconds": 310.251
+    },
+    "committed_load_failures": [
+      "gai",
+      "gsnp",
+      "gff",
+      "cssn"
+    ],
+    "parsed_CSSN_cases": 2,
+    "certificate_pairs": 7,
+    "source_files_git_hash_verified": 2530
+  },
+  "runs": [
+    43316846386,
+    43318139408,
+    43319256439
+  ],
+  "core_paper_hold": [
+    "papers/GLP-Spec.pdf.md#1",
+    "papers/IGLP.pdf.md#1",
+    "papers/IGLP.pdf.md#2",
+    "papers/vGLP.pdf.md#1",
+    "papers/sGLP.pdf.md#1",
+    "papers/sGLP.pdf.md#2"
+  ],
+  "core_reports_changed": false,
+  "publication": null,
+  "next": [
+    "Review project responses at their stable finding identifiers",
+    "Continue GAI/GSNP attestation and provenance semantics; distinguish abstraction assumptions from missing validation",
+    "CSSN guardian lifecycle, memberships and group permissions beyond the two traces",
+    "Currencies contract invariants, then GRH, GFF, GGGA and GO contracts/code by exact ownership; read GSA dependencies as needed"
+  ],
+  "limits": [
+    "No core paper review",
+    "No Flutter or physical-device execution",
+    "No complete application audit",
+    "No persistent project sessions or background monitor"
+  ]
 }

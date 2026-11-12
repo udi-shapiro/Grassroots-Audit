@@ -1,0 +1,151 @@
+{
+  "scope": "Bounded parsed-source CSSN transition certificates, not GLP execution.\n\nParses the actual GSNW term and CSSN instance additions. Executes only the\nliteral/quantified fragment used by the named traces, with all needed guards\nassumed willing. This is not a compiler, role-enumerator or phone simulator.\nUnsupported syntax and constraints fail rather than being treated as true.",
+  "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+  "source_sha256": {
+    "programs/cssn/GSNW.glp": "96f967970ef1122ebb73e48c085b67afe9611b69c50d524e4363cba316556efa",
+    "programs/cssn/CSSN.glp": "45a991b3018220f4d1b153c767b5bf349b0973015b114cc32d69e69eeb490dd0",
+    "programs/cssn/CSSN.txt": "b55b7af21bd259a8473832dbfa2af75a8aceda0107539eaefdf9d6c87395695d"
+  },
+  "schema_count": 39,
+  "children_acquaint": {
+    "trace": [
+      [
+        "establish",
+        {
+          "Alice": "alice"
+        }
+      ],
+      [
+        "establish",
+        {
+          "Alice": "bob"
+        }
+      ],
+      [
+        "acquaint",
+        {
+          "Alice": "alice",
+          "Bob": "bob"
+        }
+      ],
+      [
+        "enter",
+        {
+          "Alice": "alice",
+          "Carol": "carol"
+        }
+      ],
+      [
+        "enter",
+        {
+          "Alice": "bob",
+          "Carol": "dave"
+        }
+      ],
+      [
+        "child_acquaint",
+        {
+          "Carol": "dave",
+          "Bob": "alice",
+          "Alice": "bob"
+        }
+      ]
+    ],
+    "binding": {
+      "Carol": "carol",
+      "Dave": "dave",
+      "Alice": "alice",
+      "Bob": "bob"
+    },
+    "english_clause_2_prerequisites_hold": true,
+    "schema_missing": [
+      [
+        "atom",
+        "knows",
+        [
+          "bob",
+          "carol"
+        ]
+      ]
+    ],
+    "extra_acquaintance_positive_control_commits": true
+  },
+  "of_age": {
+    "trace": [
+      [
+        "establish",
+        {
+          "Alice": "alice"
+        }
+      ],
+      [
+        "establish",
+        {
+          "Alice": "bob"
+        }
+      ],
+      [
+        "acquaint",
+        {
+          "Alice": "alice",
+          "Bob": "bob"
+        }
+      ],
+      [
+        "befriend",
+        {
+          "Alice": "alice",
+          "Bob": "bob"
+        }
+      ],
+      [
+        "enter",
+        {
+          "Alice": "alice",
+          "Carol": "carol"
+        }
+      ],
+      [
+        "make_parent",
+        {
+          "Bob": "bob",
+          "Alice": "alice",
+          "Carol": "carol"
+        }
+      ],
+      [
+        "resign",
+        {
+          "Bob": "alice",
+          "Carol": "carol"
+        }
+      ]
+    ],
+    "binding": {
+      "Carol": "carol",
+      "Alice": "alice"
+    },
+    "creator_retained": true,
+    "another_parent_retained": true,
+    "schema_missing": [
+      [
+        "atom",
+        "guarded_by",
+        [
+          "carol",
+          "alice"
+        ]
+      ],
+      [
+        "atom",
+        "parenting",
+        [
+          "alice",
+          "carol"
+        ]
+      ]
+    ],
+    "before_resignation_positive_control_adds_person_and_clears_parenthood": true,
+    "positive_control_preserves_friendships": true
+  }
+}

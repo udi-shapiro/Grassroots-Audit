@@ -1,0 +1,13 @@
+{
+  "target": "tests",
+  "command": [
+    "bash",
+    "test/run_all_tests.sh"
+  ],
+  "exit_code": 1,
+  "timeout": false,
+  "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+  "dart_sdk": "3.9.4",
+  "seconds": 310.251,
+  "GLP_SECTIONS": "APPS"
+}

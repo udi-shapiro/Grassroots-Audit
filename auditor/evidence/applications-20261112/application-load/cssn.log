@@ -1,0 +1,14 @@
+╔════════════════════════════════════════╗
+║  GLP REPL - With Type Checking         ║
+╚════════════════════════════════════════╝
+
+Build: 5c17c4a
+Working directory: /home/runner/work/Grassroots-Audit/Grassroots-Audit/GLP/glp_runtime
+
+Input: filename.glp to load, or goal to execute
+Commands: :quit, :help, :trace, :debug, :limit, :mad, :app, :boot, :deliveries
+
+Loaded root self.glp
+
+GLP> Error loading project ../programs/cssn: Duplicate functor alternative: item_of/1 in Expr at line 62, column 1
+GLP> Goodbye!

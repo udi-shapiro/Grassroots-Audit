@@ -1,0 +1,57 @@
+name: Diagnose committed application load failures
+on:
+  push:
+    branches: [audit-applications-20261112]
+permissions:
+  contents: read
+jobs:
+  load:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: 5c17c4aa069743d990d993ca23c65200df982754
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce the committed dependency lockfile
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Load each affected committed platform with its app
+        shell: bash
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import json,subprocess,time
+          from pathlib import Path
+          rows=[]
+          for app in ['gai','gsnp','gff','cssn']:
+              path='../programs/'+('cssn' if app=='cssn' else 'apps/'+app)
+              request=path+'\n:quit\n'
+              Path('evidence/'+app+'.in').write_text(request)
+              start=time.monotonic()
+              try:
+                  p=subprocess.run(['bin/glpc'],input=request,cwd='GLP/glp_runtime',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=120)
+                  out=p.stdout;record={'app':app,'exit_code':p.returncode,'timeout':False}
+              except subprocess.TimeoutExpired as e:
+                  out=e.stdout or ''
+                  if isinstance(out,bytes):out=out.decode(errors='replace')
+                  record={'app':app,'exit_code':None,'timeout':True}
+              record.update(seconds=round(time.monotonic()-start,3),source_commit='5c17c4aa069743d990d993ca23c65200df982754')
+              rows.append(record)
+              Path('evidence/'+app+'.log').write_text(out)
+              print(json.dumps(record));print(out[-8000:])
+          Path('evidence/result.json').write_text(json.dumps(rows,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: application-load
+          path: evidence/
+          retention-days: 30
