@@ -9,10 +9,12 @@
         "IGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
       "session": "current_conversation",
       "limited_completed_scope": "IGLP Sections 2-3 through Corollary 3.34; TGLP Sections 2, 4, 5; prior GLP-Spec scope remains separately recorded",
-      "scope_record": "stages/02-core-sweep.json"
+      "scope_record": "stages/02-core-sweep.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
     },
     {
       "project": "VMAT",
@@ -20,10 +22,12 @@
         "VMAT"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
       "session": "current_conversation",
       "limited_completed_scope": "Sections 2-3; Section 4.1 social-graph invariant and grassroots proof",
-      "scope_record": "stages/02-core-sweep.json"
+      "scope_record": "stages/02-core-sweep.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
     },
     {
       "project": "vGLP",
@@ -31,10 +35,12 @@
         "vGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
       "session": "current_conversation",
       "limited_completed_scope": "compiler README interface/pragma rules; pragma-reader term parsing; generated GSN schema/tab declarations",
-      "scope_record": "stages/02-core-sweep.json"
+      "scope_record": "stages/02-core-sweep.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
     },
     {
       "project": "sGLP",
@@ -42,10 +48,12 @@
         "sGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
       "session": "current_conversation",
       "limited_completed_scope": "Sections 2-4; monitor.glp; sglp.glp; SimClock implementation",
-      "scope_record": "stages/02-core-sweep.json"
+      "scope_record": "stages/02-core-sweep.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
     },
     {
       "project": "GSC",
@@ -53,10 +61,12 @@
         "GSC"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_initial_sweep_prepared; remaining_coverage_open",
+      "substantive_audit": "bounded_initial_sweep_published; remaining_coverage_open",
       "session": "current_conversation",
       "limited_completed_scope": "GKK/GSG/GSN schemas; GSN.txt; gsn_phone.glp; generated GSN schema/tab declarations; checker README introduction/contract form as context",
-      "scope_record": "stages/02-core-sweep.json"
+      "scope_record": "stages/02-core-sweep.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+      "publication_merge": "ab6fc2642f673d8993ea10bf32744574cf343b93"
     },
     {
       "project": "GSA",

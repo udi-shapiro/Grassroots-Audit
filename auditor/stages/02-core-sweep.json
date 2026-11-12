@@ -135,7 +135,12 @@
         "remove"
       ]
     },
-    "pragma_checks": "three inheritance chains, one positive parse and one negative rejection passed"
+    "pragma_checks": "three inheritance chains, one positive parse and one negative rejection passed",
+    "publication_files": 10,
+    "working_records_excluded": true,
+    "recorded_outputs_reproduced": 3,
+    "source_archive_files": 15,
+    "workspace_note": "Execution workspace disconnected after checks and evidence preservation; publication finished through GitHub. No later runtime execution is claimed."
   },
   "new_findings": 5,
   "severity_counts": {
@@ -143,11 +148,21 @@
     "medium": 2,
     "low": 1
   },
-  "published_total_if_merged": {
+  "publication": {
+    "status": "merged_and_verified",
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/5",
+    "head": "ac8bd46e2a2c1f25b7b1d4553c05d3c51bb2725c",
+    "merge": "ab6fc2642f673d8993ea10bf32744574cf343b93",
+    "merged_at": "2026-11-12T19:52:39Z",
+    "tree": "aeda305aca2a9ccbef9269ef50a1b8844ed281f9",
+    "evidence_commit": "f41ab3efdb7511e870452dd1b95df85e7b45ee14",
+    "additional_approval_required": false,
+    "workflow": "Finish each sweep before collecting any required approvals, per Udi."
+  },
+  "limits": "No dedicated persistent component sessions, subagents or continuous monitor. No audited-project source modifications. Mathematical models are not GLP runtime executions.",
+  "published_total": {
     "reports": 10,
     "findings": 7,
     "unanswered": 7
-  },
-  "publication": "prepared as one batch; required approvals collected only after sweep, per Udi",
-  "limits": "No dedicated persistent component sessions, subagents or continuous monitor. No audited-project source modifications. Mathematical models are not GLP runtime executions."
+  }
 }
