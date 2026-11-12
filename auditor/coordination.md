@@ -1,3 +1,11 @@
+# Current direction: application contracts and code
+
+Udi, 2026-11-12: “keep going, but on the contracts and code of the application projects, and to leave the core papers until the six are answered.”
+
+Application-project contract/code audits now take priority. Core-paper review is paused until all six outstanding findings have project answers: GLP-Spec #1; IGLP #1 and #2; vGLP #1; sGLP #1 and #2. Checking whether answers have arrived does not reopen the paper investigations. The gate requires answers, not six verified fixes. This overrides the earlier immediate-next core-paper queue below. Preserve the accepted per-project ownership and exact GLP artifact paths.
+
+This batch pins GLP main 5c17c4aa069743d990d993ca23c65200df982754 and begins with application contracts, permissions/state invariants, and agreement between the contract and committed app code. Core compiler/runtime tools may be used as dependencies; no further core-paper review is claimed. No routine go-ahead is required. Exact results and remaining coverage will be recorded before publication.
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.

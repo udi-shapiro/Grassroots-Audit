@@ -1,0 +1,11 @@
+{
+  "status": "in_progress",
+  "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+  "scope": "application project contracts and code; core papers held until six answers",
+  "initial_focus": [
+    "CSSN",
+    "GAI",
+    "application compilation consistency"
+  ],
+  "publication": null
+}

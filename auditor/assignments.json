@@ -470,5 +470,18 @@
     }
   ],
   "sessions_active": false,
-  "background_monitoring": false
+  "background_monitoring": false,
+  "core_paper_hold": {
+    "until": "all six outstanding findings have project answers",
+    "findings": [
+      "papers/GLP-Spec.pdf.md#1",
+      "papers/IGLP.pdf.md#1",
+      "papers/IGLP.pdf.md#2",
+      "papers/vGLP.pdf.md#1",
+      "papers/sGLP.pdf.md#1",
+      "papers/sGLP.pdf.md#2"
+    ],
+    "instruction_date": "2026-11-12"
+  },
+  "current_priority": "application projects: contracts and code"
 }
