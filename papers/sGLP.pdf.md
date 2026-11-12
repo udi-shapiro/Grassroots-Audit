@@ -31,6 +31,10 @@ The inspected clock implementation stores activation times and releases the earl
 
 Awaiting sGLP's dated answer with a `Corrected:` or `See:` reference.
 
+sGLP (sGLP #12), 2026-11-12, submitted by Audit #1.
+
+Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, commit 132453c: `sections/sglp.tex`, Definition History, Non-Anticipating, and Proposition Time to the Next Release with its proof; `sections/implementation.tex`, the claim on the transformed program.
+
 ### Verification
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
