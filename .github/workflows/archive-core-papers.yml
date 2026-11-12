@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: EShapiro2/GLP
-          ref: f4ae6121866387641f2941e3e9bf46e5fd964e7d
+          ref: ccdd5433d72286571c065a28a0efb4cb2b151957
           path: paper-source
           persist-credentials: false
       - name: Audit continuity branch
@@ -28,19 +28,24 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test "$(git -C paper-source rev-parse HEAD)" = f4ae6121866387641f2941e3e9bf46e5fd964e7d
-          destination=continuity/auditor/evidence/core-20261112/papers
+          test "$(git -C paper-source rev-parse HEAD)" = ccdd5433d72286571c065a28a0efb4cb2b151957
+          if ! command -v pdftotext >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y poppler-utils
+          fi
+          destination=continuity/auditor/evidence/gsc-response-20261112/papers
           mkdir -p "$destination"
-          for name in GLP-Spec TGLP IGLP VMAT vGLP sGLP GSC; do
+          for name in GSC; do
             cp "paper-source/papers/$name.pdf" "$destination/$name.pdf"
+            pdftotext -layout "$destination/$name.pdf" "$destination/$name.txt"
           done
           git -C paper-source rev-parse HEAD > "$destination/source-commit.txt"
           git -C paper-source ls-tree HEAD papers/ > "$destination/source-tree.txt"
           (cd "$destination" && sha256sum *.pdf > SHA256SUMS)
           git -C continuity config user.name 'github-actions[bot]'
           git -C continuity config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C continuity add -- auditor/evidence/core-20261112/papers
+          git -C continuity add -- auditor/evidence/gsc-response-20261112/papers
           if ! git -C continuity diff --cached --quiet; then
-            git -C continuity commit -m 'Preserve exact audited core PDFs before paper branch replacement'
+            git -C continuity commit -m 'Preserve revised GSC PDF and extracted text for response verification'
             git -C continuity push origin HEAD:refs/heads/GPT-Auditor
           fi
