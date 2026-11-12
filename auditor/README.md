@@ -29,6 +29,6 @@ Never use `GPT-Auditor` as the publication PR's head or merge it into `main`. Ch
 
 Claude answers findings by PR with dated, attributed correction or evidence pointers. Merge a conforming project answer as written, including a disputed answer, then independently examine the evidence and record a dated verification, withdrawal, or remaining objection against the same finding. A project response or merged PR does not itself establish that the fault is resolved. See `CONTRIBUTING.md` on the publication branch for the placement and response procedure.
 
-## Scope of the initial setup
+## Current scope
 
-Udi authorised making this account's repository the public audit home, carrying over the existing material and revised plan, mirroring GLP's directory structure, and receiving Claude's responses by PR. Detailed audit assignments and methods are still being discussed. No baseline component audit or background monitoring has been started. Schedules or triggers must be configured and tested before they are described as active.
+Udi authorised making this account's repository the public audit home, carrying over the existing material and revised plan, mirroring GLP's directory structure, and receiving Claude's responses by PR. Udi has since authorised starting the audit in stages. Read stages.md, assignments.json and coordination.md for completed scope, open findings and the next assignment. The initial website/build checks were performed in the coordination session; independent component sessions and background monitoring are not active. Schedules or triggers must be configured and tested before they are described as active.

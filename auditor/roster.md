@@ -3,7 +3,7 @@
 Source: GLP `56ef162910cf38fd516947c9cd35cc65579703f5`, read 2026-11-12.
 [Project definitions](https://github.com/EShapiro2/GLP/blob/56ef162910cf38fd516947c9cd35cc65579703f5/servers/peoplesweb/tools/directories.py); [Projects page](https://peoplesweb.org/#projects).
 
-This record follows the website's project hierarchy and exact responsibility names. It replaces the provisional roster. It is an inventory of assignments to establish: no component auditor sessions or baseline audits have been started.
+This record preserves the original pinned project hierarchy and exact responsibility names. Stage 1 rechecked the current map at GLP `7976014a5f9b5fefc33abcc922d491abc41dfad5`; the project names and assignments remain the same. See stages/01-source-baseline.json for the refreshed paths, contract headers and paper availability, and assignments.json for current work status. A limited website/build baseline has begun; dedicated component sessions have not been created. The declared Website transfer is pending the published source map.
 
 ## Projects and papers
 

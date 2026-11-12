@@ -1,0 +1,299 @@
+{
+  "source_commit": "7976014a5f9b5fefc33abcc922d491abc41dfad5",
+  "assignments": [
+    {
+      "project": "GLP",
+      "papers": [
+        "GLP-Spec",
+        "TGLP",
+        "IGLP"
+      ],
+      "stage": 2,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "VMAT",
+      "papers": [
+        "VMAT"
+      ],
+      "stage": 2,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "vGLP",
+      "papers": [
+        "vGLP"
+      ],
+      "stage": 2,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "sGLP",
+      "papers": [
+        "sGLP"
+      ],
+      "stage": 2,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GSC",
+      "papers": [
+        "GSC"
+      ],
+      "stage": 2,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GSA",
+      "papers": [
+        "GSA",
+        "GNA"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": "website ownership/version baseline and paper-build cache"
+    },
+    {
+      "project": "SPM",
+      "papers": [
+        "SPM"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "Currencies",
+      "papers": [
+        "GC",
+        "GB",
+        "SGC",
+        "GCC"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GAI",
+      "papers": [
+        "GAI"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "CSSN",
+      "papers": [
+        "CSSN"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GFF",
+      "papers": [
+        "GFF"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GGGA",
+      "papers": [
+        "GGGA",
+        "SRC"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GO",
+      "papers": [
+        "GO"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GRH",
+      "papers": [
+        "GRH"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "CGP",
+      "papers": [
+        "CGP"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GPAT",
+      "papers": [
+        "GPAT"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "GPBD",
+      "papers": [
+        "GPBD"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "DSA",
+      "papers": [
+        "DSA"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "CCDG",
+      "papers": [
+        "CCDG"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "CGMS",
+      "papers": [
+        "CGMS"
+      ],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "limited_completed_scope": null
+    },
+    {
+      "project": "Code",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/apps",
+        "cascade",
+        "cascade.sh",
+        "simulation",
+        "test",
+        "tools",
+        "docs",
+        "servers/debuglog",
+        "CLAUDE.md",
+        "README.md"
+      ]
+    },
+    {
+      "project": "Coordination",
+      "papers": [],
+      "stage": 1,
+      "substantive_audit": "coverage_coordination_started",
+      "session": "current_conversation",
+      "paths": [
+        "organisation"
+      ]
+    },
+    {
+      "project": "GCE",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/gce"
+      ]
+    },
+    {
+      "project": "GFWC",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/federation"
+      ]
+    },
+    {
+      "project": "GPW",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "servers/gpw"
+      ]
+    },
+    {
+      "project": "P99",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "programs/p99"
+      ]
+    },
+    {
+      "project": "Phones",
+      "papers": [],
+      "stage": 3,
+      "substantive_audit": "queued",
+      "session": "not_created",
+      "paths": [
+        "phones"
+      ]
+    }
+  ],
+  "pending_transfers": [
+    {
+      "path": "servers/peoplesweb",
+      "from": "GSA",
+      "to": "Website",
+      "status": "declared_in_merged_PR_2; pending_published_map"
+    }
+  ]
+}

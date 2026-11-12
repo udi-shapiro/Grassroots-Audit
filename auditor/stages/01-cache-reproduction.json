@@ -1,0 +1,28 @@
+{
+  "source_blob_ids": {
+    "papers.py": "3743b1701993443a5260d7d31a0a7e74a30f934c",
+    "papers_sync.py": "88298dc4a060aa098492957fb19e4f7f4198eb3d"
+  },
+  "build_counts": {
+    "initial": 1,
+    "main_file_changed": 1,
+    "fixes_changed": 1,
+    "source_head_changed": 2
+  },
+  "cached_output_after_configuration_changes": {
+    "main": "first.tex",
+    "fixes": [],
+    "head": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "output_after_source_head_change": {
+    "main": "corrected.tex",
+    "fixes": [
+      [
+        "old",
+        "new"
+      ]
+    ],
+    "head": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "fault_reproduced": true
+}

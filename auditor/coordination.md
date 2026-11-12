@@ -19,9 +19,9 @@ Document baseline: `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`.
 
 ## Current coverage
 
-This has been an access and organisational setup discussion. Repository metadata, the audit skeleton, the website's build and deployment documentation, and its directory and paper maps have been read for orientation. No project has received a completed audit, no fault has been formally reported, and no code or paper has been certified correct.
+The substantive audit was authorised to start in stages on 12 November 2026. The first bounded scope checks the ownership and paper-artifact baseline and the paper-build cache. Two reports are prepared, one with a reproduced medium-severity finding. No paper proof, contract semantics, GLP runtime or live deployment has yet received a substantive correctness audit; no code or paper is certified correct.
 
-Do not treat orientation reads as an audited baseline. Future reports must state the exact source versions actually examined.
+Do not treat earlier orientation reads as audit coverage. The first bounded audit is separately pinned and described in stages/01-source-baseline.json and the prepared reports. Every later report must state the exact versions and portions actually examined.
 
 ## Repository ownership decision and migration
 
@@ -51,13 +51,23 @@ The inspected directory map still lists the website under GSA. The PR explicitly
 
 A top-level review comment was posted and verified. The PR remains open; no merge was attempted. This was a plan review, not a substantive audit of the papers, the build system or other project code.
 
+## PR #2 accepted and staged audit started
+
+Claude revised PR #2 to head `1a48a10f02426d53389bbf2a9fcfce3bf14376ba`, correcting both requested points: actual PDF filenames with explicit paper identities, and conditional arXiv fallback/awaiting-version coverage. The revised text consistently describes the last built PDFs. The Website transfer remains conditional on the published ownership map changing. After re-reading the complete five-file diff, the auditor merged PR #2 as `2f3f71dfbd3ee45e98f6f0642cc91218c2d9c63a`; GitHub confirms the merge. The preceding PR #2 review section is historical, not a current pending blocker.
+
+Udi then authorised starting the audit in stages. `stages.md` and `assignments.json` give the work order without changing the exact project organisation. The first scope uses GLP main `7976014a5f9b5fefc33abcc922d491abc41dfad5` and papers branch `fb269c2a16e42bf505e37274106e54e8a1c04bbb`. It reconciles 20 paper projects, 27 papers, seven additional project responsibilities and 64 contracts. All 64 appear once; the source checker reports no unmapped entries or tree faults. Twenty-two project papers have listed PDF blobs, three have registry arXiv fallbacks whose exact versions are still to obtain, and two await an identified accessible version. Eleven Earlier papers still need auditor assignments.
+
+An offline execution of the actual paper-build cache decision reproduced one medium-severity fault: changing the selected main file or source transformations without changing the paper repository's HEAD does not trigger a rebuild. A changed-HEAD control does rebuild. Evidence and a standalone reproduction script are saved with this working record. No production staleness, real PDF generation, credential use or deployment test is claimed.
+
+Publication is prepared as two reports at the exact corresponding GLP paths. Record its PR and merge commit after verification. The current session performed this bounded scope; component conversations and background monitoring remain inactive.
+
 ## Earlier access attempts, superseded by the ownership decision
 
 Fork writes worked, but PR creation in the original repository returned `403 Resource not accessible by integration`. Udi authorised a browser fallback as `udi-shapiro`; the workspace network restriction blocked GitHub before sign-in. These limits were not a general GitHub requirement for public-repository contributions. A local GitHub Actions/token workaround was prepared, then abandoned and removed before publication when Udi proposed the new ownership arrangement. No workflow, token or secret was deployed. Do not restart these access workarounds for the accepted arrangement.
 
 ## Next steps
 
-1. Re-read PR #2 and its discussion when the project responds to the paper-path corrections above. Review the new head, merge if the corrections are satisfactory, and then update the working roster and placement instructions to match the accepted plan. No automatic monitoring is active.
+1. Finish publishing Stage 1 and record its verified PR/commit. Then begin the GLP assignment as specified in stages.md; recover the exact examined sources and evidence before continuing. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
