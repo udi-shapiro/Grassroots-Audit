@@ -15,7 +15,6 @@ Append `.md` to the exact GLP-relative path of the artifact being audited. Prese
 | `cascade/CSSN/vmat.tex` | `cascade/CSSN/vmat.tex.md` |
 | `cascade.sh` | `cascade.sh.md` |
 | `papers/GSC.pdf`, on GLP's branch `papers` (key `GSC`) | `papers/GSC.pdf.md` |
-| `papers/GGGA.pdf`, on GLP's branch `papers` (key `SRC`) | `papers/GGGA.pdf.md`, recording the key `SRC` |
 | `README.md` | `README.md.md` |
 
 A review of a whole directory uses `<directory-path>.md`, for example `programs/cssn.md`; individual artifact reports live beneath `programs/cssn/`. State the precise coverage in either case. A paper's source is not in GLP. Its last built PDF is on GLP's branch `papers`, as `papers/<FILE>.pdf`, `<FILE>` being the name `servers/peoplesweb/tools/papers.py` publishes it under: its key there, unless its entry has a `pdf` field. Its report is `papers/<FILE>.pdf.md`, the path of the PDF actually published. Record in the report the paper's key, the commit of the branch `papers` that was read, and the arXiv version where there is one. A paper with no PDF on that branch is audited from its arXiv version, if it has one, at the path its PDF would have. A paper with neither waits until there is a version the auditor can read; settle its report's place with coordination, and do not invent one.
