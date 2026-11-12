@@ -33,9 +33,9 @@ jobs:
             sudo apt-get update -qq
             sudo apt-get install -y poppler-utils
           fi
-          destination=continuity/auditor/evidence/gsc-response-20261112/papers
+          destination=continuity/auditor/evidence/core-refresh-20261112/papers
           mkdir -p "$destination"
-          for name in GSC; do
+          for name in GLP-Spec TGLP IGLP VMAT vGLP sGLP GSC; do
             cp "paper-source/papers/$name.pdf" "$destination/$name.pdf"
             pdftotext -layout "$destination/$name.pdf" "$destination/$name.txt"
           done
@@ -44,8 +44,8 @@ jobs:
           (cd "$destination" && sha256sum *.pdf > SHA256SUMS)
           git -C continuity config user.name 'github-actions[bot]'
           git -C continuity config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C continuity add -- auditor/evidence/gsc-response-20261112/papers
+          git -C continuity add -- auditor/evidence/core-refresh-20261112/papers
           if ! git -C continuity diff --cached --quiet; then
-            git -C continuity commit -m 'Preserve revised GSC PDF and extracted text for response verification'
+            git -C continuity commit -m 'Preserve rebuilt core PDF snapshot and text for audit comparison'
             git -C continuity push origin HEAD:refs/heads/GPT-Auditor
           fi
