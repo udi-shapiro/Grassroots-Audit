@@ -1,0 +1,24 @@
+{
+  "response_pr": 8,
+  "response_merge": "7da0ec39be76e52d1b4e6bbef69446ba247e7deb",
+  "GLP_correction": "9b690ad08a1a92239e254d57b03dcfde87461ebc",
+  "main_checked": "92d7735a10588c9604a779ac3cd23742501d60cd",
+  "correction_integrated": false,
+  "paper_commit": "ccdd5433d72286571c065a28a0efb4cb2b151957",
+  "paper_blob": "74e57cfa07b396315f53771b2e2ecf2e65b5dfb6",
+  "paper_sha256": "7e115d4460aca2bd7187c165a96cedff642475e7da3fde55cf93e7dc2f8b64ab",
+  "paper_archive": "6dac780a79db8642ccf2cb9c782b46bb16ceab33",
+  "paper_pages_reexamined": [
+    20,
+    21,
+    34
+  ],
+  "verified_source_corrections": [
+    "programs/gsc/GSN.glp.md#1",
+    "programs/social/graph/core/gsn_phone.glp.md#1"
+  ],
+  "limits": [
+    "bounded parsed-source calculation, not GLP compiler/phone execution",
+    "paper source short commit 7366e67 not independently resolved; actual published PDF checked"
+  ]
+}

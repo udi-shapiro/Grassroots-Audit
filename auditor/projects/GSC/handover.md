@@ -1,3 +1,9 @@
+## Latest response checkpoint, 2026-11-12
+
+PR #8 from GSC #16 via Audit #1 is merged as 7da0ec39be76e52d1b4e6bbef69446ba247e7deb. Independently verified leader receipt (three parsed-source cases, duplicate blocking) and the exact 15-name certificate list at GSC code 9b690ad08a1a92239e254d57b03dcfde87461ebc. The revised public GSC PDF at papers ccdd5433d72286571c065a28a0efb4cb2b151957, blob 74e57cfa07b396315f53771b2e2ecf2e65b5dfb6, also repairs leader receipt; changed passages on pp. 20, 21 and 34 checked. PDF/text preserved at 6dac780a79db8642ccf2cb9c782b46bb16ceab33 under auditor/evidence/gsc-response-20261112/papers. Exact check/results are in the same evidence family. The paper source commit 7366e67 was not independently resolved; actual public PDF bytes were verified.
+
+Current totals for the prepared publication: 13 reports, nine findings, six unanswered; three verified source corrections, one integrated on GLP main (Website) and two awaiting integration (GSC). Do not equate an answered finding with a verified fix or claim the GSC source has been integrated: main 92d7735a10588c9604a779ac3cd23742501d60cd did not contain it. Source updates to CSSN/GSNW/GSNP after the f68fbcbc baseline are recorded for the next relevant audit; they were not substantively reviewed in this core sweep. The structural map remains pinned to its exact inspected source.
+
 # GSC: current handover, second core sweep
 
 Date: 2026-11-12

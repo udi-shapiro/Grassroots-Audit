@@ -6,7 +6,7 @@
   },
   "glp_main": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
   "papers_commit": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",
-  "latest_source_checked": "66732717819d4d200070c60ac2a46d6b2228131a",
+  "latest_source_checked": "92d7735a10588c9604a779ac3cd23742501d60cd",
   "source_delta_after_pin": [
     "organisation/claude.md",
     "servers/peoplesweb/tools/papers_sync.py"
@@ -14,8 +14,8 @@
   "paper_archive_commit": "f7a2476f458339f768cc51ec1bbe41e22690ed1f",
   "reports": 13,
   "findings": 9,
-  "unanswered": 8,
-  "verified_resolved": 1,
+  "unanswered": 6,
+  "verified_resolved": 3,
   "new_findings": [
     "papers/vGLP.pdf.md#1",
     "papers/sGLP.pdf.md#2"
@@ -23,7 +23,8 @@
   "resolved_finding": "servers/peoplesweb/tools/papers_sync.py.md#1",
   "response_prs_merged": [
     6,
-    7
+    7,
+    8
   ],
   "runtime": {
     "dart": "3.9.4",
@@ -90,5 +91,81 @@
     "No full runtime suite, multiagent network/recovery, phone or empirical simulation run.",
     "Finite macro-certificate is not a full CVA model checker.",
     "Local TeX compilation unavailable because pdflatex format is missing; generated status and table source checked."
-  ]
+  ],
+  "verified_integrated": 1,
+  "verified_pending_integration": 2,
+  "gsc_response": {
+    "response_pr": 8,
+    "response_merge": "7da0ec39be76e52d1b4e6bbef69446ba247e7deb",
+    "GLP_correction": "9b690ad08a1a92239e254d57b03dcfde87461ebc",
+    "main_checked": "92d7735a10588c9604a779ac3cd23742501d60cd",
+    "correction_integrated": false,
+    "paper_commit": "ccdd5433d72286571c065a28a0efb4cb2b151957",
+    "paper_blob": "74e57cfa07b396315f53771b2e2ecf2e65b5dfb6",
+    "paper_sha256": "7e115d4460aca2bd7187c165a96cedff642475e7da3fde55cf93e7dc2f8b64ab",
+    "paper_archive": "6dac780a79db8642ccf2cb9c782b46bb16ceab33",
+    "paper_pages_reexamined": [
+      20,
+      21,
+      34
+    ],
+    "verified_source_corrections": [
+      "programs/gsc/GSN.glp.md#1",
+      "programs/social/graph/core/gsn_phone.glp.md#1"
+    ],
+    "limits": [
+      "bounded parsed-source calculation, not GLP compiler/phone execution",
+      "paper source short commit 7366e67 not independently resolved; actual published PDF checked"
+    ]
+  },
+  "rebuilt_paper_comparison": {
+    "original_papers": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",
+    "rebuilt_papers": "ccdd5433d72286571c065a28a0efb4cb2b151957",
+    "archive_commit": "b2693dc4e5a41bd4a8386915af9bca5efd98ac50",
+    "method": "Git blob identity of pdftotext -layout output; not a pixel comparison",
+    "papers": [
+      {
+        "paper": "GLP-Spec",
+        "original_text_blob": "ddc4de61bb082f3b4b0aa93617cc683fd92eef72",
+        "rebuilt_text_blob": "ddc4de61bb082f3b4b0aa93617cc683fd92eef72",
+        "text_identical": true
+      },
+      {
+        "paper": "vGLP",
+        "original_text_blob": "4fa07b0f549d9a788917cabf726ec081640c0334",
+        "rebuilt_text_blob": "4fa07b0f549d9a788917cabf726ec081640c0334",
+        "text_identical": true
+      },
+      {
+        "paper": "GSC",
+        "original_text_blob": "48ebc9f458227efdd23bf96c65bc0d6cc79888db",
+        "rebuilt_text_blob": "6b3ba20d91ad5adcad98617b560c770213ac1a82",
+        "text_identical": false
+      },
+      {
+        "paper": "VMAT",
+        "original_text_blob": "10360affc593f08e2f6cb15197d00eb463ef5aee",
+        "rebuilt_text_blob": "10360affc593f08e2f6cb15197d00eb463ef5aee",
+        "text_identical": true
+      },
+      {
+        "paper": "sGLP",
+        "original_text_blob": "04bd80e63924b01f418c61f15853819bd754b6d1",
+        "rebuilt_text_blob": "04bd80e63924b01f418c61f15853819bd754b6d1",
+        "text_identical": true
+      },
+      {
+        "paper": "IGLP",
+        "original_text_blob": "340fc3e4412e7ed34ef108a30ff2668231490a2e",
+        "rebuilt_text_blob": "340fc3e4412e7ed34ef108a30ff2668231490a2e",
+        "text_identical": true
+      },
+      {
+        "paper": "TGLP",
+        "original_text_blob": "fb827f998688c28c961ebb72ef43c6a2509a05c3",
+        "rebuilt_text_blob": "fb827f998688c28c961ebb72ef43c6a2509a05c3",
+        "text_identical": true
+      }
+    ]
+  }
 }

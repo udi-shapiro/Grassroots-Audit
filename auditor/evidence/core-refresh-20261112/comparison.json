@@ -1,0 +1,50 @@
+{
+  "original_papers": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",
+  "rebuilt_papers": "ccdd5433d72286571c065a28a0efb4cb2b151957",
+  "archive_commit": "b2693dc4e5a41bd4a8386915af9bca5efd98ac50",
+  "method": "Git blob identity of pdftotext -layout output; not a pixel comparison",
+  "papers": [
+    {
+      "paper": "GLP-Spec",
+      "original_text_blob": "ddc4de61bb082f3b4b0aa93617cc683fd92eef72",
+      "rebuilt_text_blob": "ddc4de61bb082f3b4b0aa93617cc683fd92eef72",
+      "text_identical": true
+    },
+    {
+      "paper": "vGLP",
+      "original_text_blob": "4fa07b0f549d9a788917cabf726ec081640c0334",
+      "rebuilt_text_blob": "4fa07b0f549d9a788917cabf726ec081640c0334",
+      "text_identical": true
+    },
+    {
+      "paper": "GSC",
+      "original_text_blob": "48ebc9f458227efdd23bf96c65bc0d6cc79888db",
+      "rebuilt_text_blob": "6b3ba20d91ad5adcad98617b560c770213ac1a82",
+      "text_identical": false
+    },
+    {
+      "paper": "VMAT",
+      "original_text_blob": "10360affc593f08e2f6cb15197d00eb463ef5aee",
+      "rebuilt_text_blob": "10360affc593f08e2f6cb15197d00eb463ef5aee",
+      "text_identical": true
+    },
+    {
+      "paper": "sGLP",
+      "original_text_blob": "04bd80e63924b01f418c61f15853819bd754b6d1",
+      "rebuilt_text_blob": "04bd80e63924b01f418c61f15853819bd754b6d1",
+      "text_identical": true
+    },
+    {
+      "paper": "IGLP",
+      "original_text_blob": "340fc3e4412e7ed34ef108a30ff2668231490a2e",
+      "rebuilt_text_blob": "340fc3e4412e7ed34ef108a30ff2668231490a2e",
+      "text_identical": true
+    },
+    {
+      "paper": "TGLP",
+      "original_text_blob": "fb827f998688c28c961ebb72ef43c6a2509a05c3",
+      "rebuilt_text_blob": "fb827f998688c28c961ebb72ef43c6a2509a05c3",
+      "text_identical": true
+    }
+  ]
+}

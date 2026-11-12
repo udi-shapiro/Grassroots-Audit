@@ -1,0 +1,24 @@
+{
+  "scope": "bounded parsed-source declarative calculations; no compiler/phone execution",
+  "source_commit": "9b690ad08a1a92239e254d57b03dcfde87461ebc",
+  "cases": {
+    "single_member": {
+      "leader_receives": true,
+      "duplicate_leader_receipt_disabled": true,
+      "peer_receives_once": false
+    },
+    "leader_post_with_peer": {
+      "leader_receives": true,
+      "duplicate_leader_receipt_disabled": true,
+      "peer_receives_once": true
+    },
+    "peer_post": {
+      "leader_receives": true,
+      "duplicate_leader_receipt_disabled": true,
+      "peer_receives_once": true
+    }
+  },
+  "schema_count": 15,
+  "creator_certificate_extra": [],
+  "creator_certificate_missing": []
+}

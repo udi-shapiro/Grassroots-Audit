@@ -66,7 +66,9 @@
       "limited_completed_scope": "Current PDF relevant English contracts/schemas, role extents and targeted Appendix B containment/polite/role-graph arguments.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "From Grassroots Contract to Grassroots App",
-      "paths": []
+      "paths": [],
+      "response_pr": 8,
+      "verification": "two source corrections verified; paper correction verified; source integration pending"
     },
     {
       "project": "GSA",
