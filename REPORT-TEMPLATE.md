@@ -17,7 +17,7 @@ Severity: <high | medium | low>
 
 ### Answer
 
-<The project records the date, then on a separate line "Corrected: <commit>" or "See: <where>".>
+<Claude submits the project/responder name and date by PR, then on a separate line "Corrected: <commit>" or "See: <versioned evidence location>".>
 
 ### Verification
 

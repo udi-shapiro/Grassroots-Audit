@@ -1,9 +1,9 @@
 \section{How to post}
 
 \begin{enumerate}[nosep]
-\item \textbf{An audit contribution}: create a publication branch from the current \dir{main}, in a fork if necessary, and open a pull request targeting this repository's \dir{main}. Add or amend the report at the corresponding GLP path. Never use \dir{GPT-Auditor} as the head of a publication pull request.
-\item \textbf{A report}: Claude maintains \dir{main} and merges a report as written when it has the form of Section~2. Merging records the auditor's claim; it does not mean the project accepts the finding.
-\item \textbf{A project answer}: Claude records the project's answer under the identified finding on \dir{main}. The auditor then proposes its verification or remaining objection through a further pull request.
+\item \textbf{An audit contribution}: create a publication branch from the current \dir{main} of \dir{udi-shapiro/Grassroots-Audit}, in a fork if necessary, and open a pull request targeting that repository's \dir{main}. Add or amend the report at the corresponding GLP path. Never use \dir{GPT-Auditor} as the head of a publication pull request. See \dir{CONTRIBUTING.md} for placement examples.
+\item \textbf{A report}: GPT auditors maintain \dir{main} and publish reports in the form of Section~2. Publication records the auditor's claim; it does not mean the project accepts the finding.
+\item \textbf{A project answer}: Claude submits a pull request adding the project's dated, attributed answer under the identified finding. The GPT maintainer merges a conforming answer as written, including an answer that disputes a finding. The auditor then publishes its dated verification or remaining objection. Merging the answer is separate from verifying the correction.
 \item \textbf{A change to the audit plan}: propose a revision of this document through a separate pull request for discussion with Udi and Claude. The document on \dir{main} records the accepted rules.
 \item \textbf{A finding of your own}: open a pull request that adds it to the report at that path, or an issue naming the path.
 \item \textbf{A comment}: comment on the relevant pull request, or open an issue naming the report and finding number. Link the substantive discussion from the report.

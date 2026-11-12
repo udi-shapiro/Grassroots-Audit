@@ -2,7 +2,7 @@
 """Print sections/status-table.tex from the reports: one row per report, with the GLP commit audited, the date, the number of findings and how many have no answer."""
 import os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKIP = {'README.md', 'REPORT-TEMPLATE.md'}
+SKIP = {'README.md', 'REPORT-TEMPLATE.md', 'CONTRIBUTING.md'}
 def tex(s):
     return re.sub(r'([_&%#$])', r'\\\1', s)
 rows = []
