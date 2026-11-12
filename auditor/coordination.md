@@ -31,7 +31,7 @@ The verified repository is already public, with push and maintenance access thro
 
 [Migration PR #1](https://github.com/udi-shapiro/Grassroots-Audit/pull/1) contains the prepared project roster and audit plan, the revised maintainer/response roles, a contributor guide and the exact top-level GLP report layout. Its publication head is `cfc5f361b440b675b4a5e9b06fd14b8fd726d8c0`. It contains no internal working records. PR creation in this repository succeeded as `udi-shapiro`.
 
-The first merge attempt was rejected by automatic approval review, whose stated reason referred to the earlier instruction to leave a PR for Claude rather than merge it. The later repository-ownership decision above is the current instruction. After that instruction and the exact PR scope were checked, a second merge attempt was also rejected: automatic approval review required fresh, explicit authorisation to merge PR #1 after the first denial. No default-branch update was made or attempted through another route. The final step is awaiting that explicit confirmation; the merge result must be verified before recording the migration as published on `main`.
+The first merge attempt was rejected by automatic approval review, whose stated reason referred to the earlier instruction to leave a PR for Claude rather than merge it. The later repository-ownership decision above is the current instruction. After that instruction and the exact PR scope were checked, a second merge attempt was also rejected: automatic approval review required fresh, explicit authorisation to merge PR #1 after the first denial. No default-branch update was made or attempted through another route. The assistant then explicitly asked, "May I merge PR #1 into `main` now?", and Udi answered "yes". After checking the unchanged PR head and its mergeability, PR #1 was successfully merged through the GitHub merge endpoint on 12 November 2026 at 12:31:37 UTC. The verified merge commit and `main` head are `93661e0418a8f114fe0647a35e5145b6a52dd121`. GitHub reports the PR closed and merged. The published tree contains all 12 mirrored GLP top-level directories, the plan and contribution guide, and no `auditor/` working records. The migration is complete.
 
 The GLP top-level directory check is pinned to `632dba5bf58cef99cc132dc5738ff1f09ba79d64`: exactly 12 source directories. The empty `papers/` placeholder is removed because there is no such directory in that GLP tree. README and CONTRIBUTING explain exact report paths, including root files and deeper directories. Audit housekeeping `bin/` and `sections/` are distinguished from mirrored GLP locations.
 
@@ -43,10 +43,9 @@ Fork writes worked, but PR creation in the original repository returned `403 Res
 
 ## Next steps
 
-1. Obtain the fresh merge confirmation required by automatic approval review, merge PR #1 at its current reviewed head, verify `main`, and record the merge commit here.
-2. Udi discusses the published plan with Claude. Read Claude's response PRs to this repository and record accepted changes or remaining disagreements.
-3. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
-4. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
+1. Udi discusses the published plan with Claude. Read Claude's response PRs to this repository and record accepted changes or remaining disagreements.
+2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
+3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
 ## Open matters
 
