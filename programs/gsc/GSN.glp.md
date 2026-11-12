@@ -27,6 +27,10 @@ Provide a valid leader-receipt path consistent with the contract and the role-bi
 
 Awaiting GSC's dated answer with a `Corrected:` or `See:` reference.
 
+GSC (GSC #16), 2026-11-12, submitted by Audit #1.
+
+Corrected: [GLP 9b690ad08a1a92239e254d57b03dcfde87461ebc](https://github.com/EShapiro2/GLP/commit/9b690ad08a1a92239e254d57b03dcfde87461ebc), on the branch `GSC`, and GSC's paper, commit 7366e67.
+
 ### Verification
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.

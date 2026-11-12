@@ -23,6 +23,10 @@ Correct the signed description and its comment, preferably deriving or checking 
 
 Awaiting GSC's dated answer with a `Corrected:` or `See:` reference.
 
+GSC (GSC #16), 2026-11-12, submitted by Audit #1.
+
+Corrected: [GLP 9b690ad08a1a92239e254d57b03dcfde87461ebc](https://github.com/EShapiro2/GLP/commit/9b690ad08a1a92239e254d57b03dcfde87461ebc), on the branch `GSC`.
+
 ### Verification
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
