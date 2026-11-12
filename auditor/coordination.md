@@ -33,6 +33,10 @@ Both start from the upstream document baseline. The publication comparison conta
 
 Creating the PR against `EShapiro2/Grassroots-Audit:main` returned HTTP 403, `Resource not accessible by integration`. The upstream open-PR query confirms no PR from `udi-shapiro:audit-plan` exists yet. Fork writes work; upstream PR creation through the current integration does not.
 
+Udi explicitly approved using GitHub's website as `udi-shapiro` after challenging the suggestion to grant access through `EShapiro2`. A normal authenticated GitHub user can submit a PR from their own fork without upstream write permission; the integration error is not a general GitHub requirement. Do not present installation on the owner's account as necessary for normal public-repository contributions.
+
+The authorized cloud-browser attempt on 2026-11-12 was blocked before reaching GitHub's sign-in or PR page. The visible page stated `Forbidden. Calls to this URL are not allowed.` The workspace network allowlist excludes `github.com`. This is an environment network restriction, not evidence of GitHub bot detection, a failed credential, or an account permission problem. No browser login or PR submission occurred. Browser fallback is authorized, but a working automated route has not been established. Avoid repeating these attempts without a relevant access or environment change.
+
 [Open the prepared PR form](https://github.com/EShapiro2/Grassroots-Audit/compare/main...udi-shapiro:audit-plan?quick_pull=1&title=Match%20the%20audit%20organisation%20to%20the%20published%20project%20structure&body=Propose%20one%20GPT%20auditor%20per%20Claude%20project%2C%20covering%20papers%20and%20code%20together.%20Match%20the%20revised%20website%20exactly%3A%2020%20projects%2C%2027%20papers%20and%20the%20separate%20Code%20responsibilities%2C%20pinned%20to%20GLP%2056ef162910cf38fd516947c9cd35cc65579703f5.%20Earlier%20papers%20remain%20visible%20pending%20ownership.%0A%0AGPT-Auditor%20holds%20organisation%20and%20handovers%20and%20is%20never%20merged%20into%20main.%20This%20PR%20contains%20only%20the%20plan%2C%20roster%2C%20reporting%20rules%20and%20status-label%20correction.%20Claude%20maintains%20main%20and%20responds%20to%20findings%3B%20auditors%20independently%20verify%20corrections.%0A%0AWorking%20records%3A%20https%3A%2F%2Fgithub.com%2Fudi-shapiro%2FGrassroots-Audit%2Ftree%2FGPT-Auditor%0A%0AValidation%3A%20exact%20roster%20and%2064-contract%20mapping%2C%20status%20generation%2C%20whitespace%20and%20LaTeX%20structural%20checks%20passed.%20PDF%20compilation%20was%20blocked%20by%20missing%20LaTeX%20formats%2Fpackages.%20No%20substantive%20audits%20or%20monitoring%20have%20started.%0A%0AFor%20Udi%20and%20Claude%20to%20review%20and%20revise.) while signed in as `udi-shapiro`, then submit it. Record its actual URL after verifying creation. This link is a prepared form, not an existing PR.
 
 Validation passed for the exact roster, all 64 contract assignments, status generation, whitespace and LaTeX structural checks. PDF compilation could not run because the environment lacks LaTeX formats and packages.
@@ -41,7 +45,7 @@ No dedicated component sessions or monitoring tasks are active. Do not report a 
 
 ## Next steps
 
-1. Submit the prepared audit-plan PR against upstream `main` through GitHub's website; verify it and record its URL here.
+1. Establish a working PR-submission route as `udi-shapiro`. The prepared form can be submitted in Udi's own browser; this does not solve autonomous future submissions. If a PR is submitted, verify it and record its URL here.
 2. Udi discusses the revised plan with Claude. Read their response and record accepted changes or remaining disagreements.
 3. Keep the recorded website roster current as the source structure changes; clarify responsibility for the Earlier papers without inventing projects.
 4. Agree each auditor's detailed scope and methods, then establish the sessions and any tested monitoring arrangements.
