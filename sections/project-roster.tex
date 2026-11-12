@@ -1,0 +1,72 @@
+\subsection{The project's published structure}
+
+The roster below follows the Projects page at \url{https://peoplesweb.org/#projects}, as defined by \dir{PROJECTS} and \dir{tree} in \dir{servers/peoplesweb/tools/directories.py}. This snapshot is from GLP commit \dir{56ef162910cf}, read on 12 November 2026. The paper keys are those of \dir{tools/papers.py} in the same website source directory.
+
+Each listed project has one GPT auditor covering its papers and code together. Under a project are its papers; under a paper are its directories and contracts; under a contract are its text or own directory, app, phone file and cascade record where present. Directories shared by several papers of the same project stay beside those papers. Reports retain the actual GLP paths of these artifacts.
+
+{\small
+\begin{longtable}{L{2.0cm}L{7.6cm}L{3.6cm}}
+\toprule
+\textbf{Project / auditor} & \textbf{Project name} & \textbf{Papers} \\
+\midrule
+\endhead
+GLP & Grassroots Logic Programs & GLP-Spec, TGLP, IGLP \\
+VMAT & Volition-Guarded Multiagent Atomic Transactions & VMAT \\
+vGLP & Volition Elicitation & vGLP \\
+sGLP & Stochastic GLP & sGLP \\
+GSC & From Grassroots Contract to Grassroots App & GSC \\
+GSA & Grassroots Super-App and App Store & GSA, GNA \\
+SPM & Securing People and their Machines & SPM \\
+Currencies & Grassroots Currencies & GC, GB, SGC, GCC \\
+GAI & Accountable AI Agents & GAI \\
+CSSN & Child-Safe Social Networking & CSSN \\
+GFF & Grassroots Feeds and Followers & GFF \\
+GGGA & Sybil-resilient communities, Sybil-resilient governance & GGGA, SRC \\
+GO & Grassroots Organisations & GO \\
+GRH & Grassroots Ride-Hailing & GRH \\
+CGP & Characterising Global Platforms & CGP \\
+GPAT & Grassroots Platforms Atomic Transactions & GPAT \\
+GPBD & Grassroots Platforms Beyond Decentralisation & GPBD \\
+DSA & Digital Speech Acts & DSA \\
+CCDG & Constitutional Consensus & CCDG \\
+CGMS & Constitutional Governance in Metric Spaces & CGMS \\
+
+\bottomrule
+\end{longtable}
+}
+
+The site's separate \emph{Code} section lists the following paths and the projects responsible for them. It is not a transfer of every listed path to the Code project. An auditor follows its named project wherever it appears in the tree: Currencies also holds AGORA here; GNA is a paper of GSA, and TGLP and IGLP are papers of GLP. Responsibility for a containing directory does not override a more specific entry or a contract's listed artifacts.
+
+{\small
+\begin{longtable}{L{6.0cm}L{2.3cm}L{4.9cm}}
+\toprule
+\textbf{Path under Code} & \textbf{Responsible project / auditor} & \textbf{Responsibility note} \\
+\midrule
+\endhead
+\dir{servers/gpw} & GPW &  \\
+\dir{programs/gce} & GCE & Grassroots Contract Examples; see each contract's Owner line. \\
+\dir{programs/currencies/agora} & Currencies & Currencies' until it has a paper. \\
+\dir{programs/federation} & GFWC &  \\
+\dir{programs/p99} & P99 &  \\
+\dir{phones} & Phones & Phone testing; GSA specifies, Code implements. \\
+\dir{organisation} & Coordination & The organisation's rules. \\
+\dir{programs/apps} & Code & App boot files and compile.sh. \\
+\dir{cascade} & Code & Recorded cascade runs. \\
+\dir{cascade.sh} & Code & The cascade. \\
+\dir{simulation} & Code & Recorded simulations. \\
+\dir{test} & Code & Suite harness; Dart test trees belong to IGLP (GLP). \\
+\dir{tools} & Code &  \\
+\dir{docs} & Code &  \\
+\dir{servers/debuglog} & Code & Phones' debugging log service. \\
+\dir{CLAUDE.md} & Code & Rules for code. \\
+\dir{README.md} & Code & Repository layout. \\
+
+\bottomrule
+\end{longtable}
+}
+
+Thus the current source names 20 projects holding 27 papers and, under Code, seven additional responsible projects: GPW, GCE, GFWC, P99, Phones, Coordination and Code. Currencies already has an auditor in the first table. These are assignments to establish, not a claim that the sessions are active.
+
+The Papers page also lists 11 \emph{Earlier papers} outside the project roster. They remain in the inventory without an invented project assignment. Coordination records their pending audit responsibility. Contracts or source records that refer to additional material retain those references; their displayed position is not silently changed.
+
+The \dir{GPT-Auditor} branch records the complete project, paper, contract and artifact inventory and its source version. On a structural change, coordination compares the published map, updates the corresponding assignments and records the handover. Changes in ownership do not erase earlier findings or audit coverage.

@@ -1,9 +1,13 @@
 \section{Reports, findings and answers}
 
-\paragraph{A report} is one Markdown file, \dir{<path>.md}, where \dir{<path>} is the path in the GLP repository of what it audits.  It states the auditor, the date and the commit of the GLP repository that was audited, and then its findings, numbered from 1.  The form is \dir{REPORT-TEMPLATE.md}.  A later audit of the same thing amends the same file; the repository's history holds the earlier versions.
+\paragraph{A report} is one Markdown file, \dir{<path>.md}, where \dir{<path>} is the path in GLP of what it audits. It states the responsible project, auditor, date, GLP commit, scope and coverage. Material versioned separately is identified by its own source commit, immutable version or content hash. The form is \dir{REPORT-TEMPLATE.md}. A later audit amends the same file; Git history holds earlier versions. Material not examined is identified explicitly.
 
-\paragraph{A finding} states one fault: where it is, what is wrong, and why.  It carries a severity: high, medium or low.
+\paragraph{A finding} states one fault: where it is, what is wrong, and why. It carries a severity: high, medium or low. Findings are numbered from 1 within each report. A report path and finding number identify the finding throughout the dialogue; numbers are not reassigned or reused.
 
-\paragraph{An answer} is written by the project under the finding it answers, and takes one of two forms: \emph{Corrected}, with the commit that corrects the fault, or \emph{See}, with the place in a paper, a contract or the code that shows the finding does not hold.  An answer points; it does not explain.  A finding with no answer is open.
+\paragraph{An answer} is submitted by the project through a pull request, under the finding it answers, with the responder and date. It takes one of two forms: \emph{Corrected}, with the commit that corrects the fault, or \emph{See}, with the versioned place in a paper, contract or code that shows the finding does not hold. An answer points; it does not explain. A finding with no such answer is unanswered. The GPT maintainer merges a conforming answer as written; merging records the project's response and does not resolve the finding.
 
-\paragraph{A finding is a claim} for the project to check.  The project corrects what it finds to be a fault, in the GLP repository or in the paper concerned, and answers here.
+\paragraph{Verification} is the auditor's dated examination of the answer and the referenced material. It records the versions and evidence checked, and one of: correction verified, finding withdrawn, or finding remains open. An answer awaiting examination is marked pending verification. A project response alone does not close a finding.
+
+\paragraph{The dialogue} continues under the same finding. The project can provide a further answer; the auditor can record a further examination. Successive answers and verifications are dated and retained in the report; Git history preserves edits. Neither side rewrites the other's attributed contribution. A new response awaits a new examination even if an earlier response was verified.
+
+\paragraph{A finding is a claim} for the project to check. The project corrects faults in GLP or the paper concerned, and answers here. The auditor checks both the proposed correction and its implications for affected dependencies. A disagreement remains explicit until evidence resolves it.

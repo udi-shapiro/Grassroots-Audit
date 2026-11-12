@@ -2,7 +2,7 @@
 """Print sections/status-table.tex from the reports: one row per report, with the GLP commit audited, the date, the number of findings and how many have no answer."""
 import os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKIP = {'README.md', 'REPORT-TEMPLATE.md'}
+SKIP = {'README.md', 'REPORT-TEMPLATE.md', 'CONTRIBUTING.md'}
 def tex(s):
     return re.sub(r'([_&%#$])', r'\\\1', s)
 rows = []
@@ -23,12 +23,12 @@ for d, dirs, files in os.walk(ROOT):
             if not m or not re.search(r'^\s*(Corrected|See)\b', m.group(1), re.M):
                 is_open += 1
         rows.append((p[:-3], commit.group(1)[:8] if commit else '', date.group(1) if date else '', n, is_open))
-out = ['{\\footnotesize', '\\begin{longtable}{L{7.2cm}L{2.0cm}L{2.2cm}L{1.6cm}L{1.2cm}}', '\\toprule',
-       '\\textbf{Audited} & \\textbf{GLP commit} & \\textbf{Date} & \\textbf{Findings} & \\textbf{Open} \\\\', '\\midrule']
+out = ['{\\footnotesize', '\\begin{longtable}{L{6.0cm}L{1.8cm}L{2.0cm}L{1.5cm}L{1.9cm}}', '\\toprule',
+       '\\textbf{Audited} & \\textbf{GLP commit} & \\textbf{Date} & \\textbf{Findings} & \\textbf{Unanswered} \\\\', '\\midrule']
 if not rows:
     out.append('\\multicolumn{5}{l}{\\emph{No report yet.}} \\\\')
 for p, c, dt, n, o in rows:
     out.append('\\dir{%s} & \\dir{%s} & %s & %d & %d \\\\' % (tex(p), tex(c), tex(dt), n, o))
 out += ['\\bottomrule', '\\end{longtable}', '}', '']
 open(os.path.join(ROOT, 'sections', 'status-table.tex'), 'w', encoding='utf-8').write('\n'.join(out))
-print('%d reports, %d findings, %d open' % (len(rows), sum(r[3] for r in rows), sum(r[4] for r in rows)))
+print('%d reports, %d findings, %d unanswered' % (len(rows), sum(r[3] for r in rows), sum(r[4] for r in rows)))
