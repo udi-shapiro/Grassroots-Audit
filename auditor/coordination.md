@@ -37,13 +37,27 @@ The GLP top-level directory check is pinned to `632dba5bf58cef99cc132dc5738ff1f0
 
 Status generation reports zero reports, findings and unanswered findings. Whitespace, LaTeX braces/includes, exact remote top-level directories and publication separation checks passed. PDF compilation is still unavailable because the environment lacks the LaTeX formats/packages. The repository permits PR creation by all users; issues are disabled, so the posting rules use PR discussions. No component sessions or monitoring tasks are active.
 
+## Project response PR #2: reviewed, awaiting corrections
+
+On 12 November 2026 Udi asked the auditor to handle [PR #2](https://github.com/udi-shapiro/Grassroots-Audit/pull/2) using its judgment. The reviewed head is `d7f57f565f314302df3600662a36e70bc3301290`, from `EShapiro2/Grassroots-Audit:plan-revisions`, targeting this repository's `main`. All five changed files and the PR discussion were read.
+
+The three arrangements are acceptable in principle: mirror actual PDF paths on GLP's papers branch; assign Website its own auditor; and have the project's Audit session coordinate attributed responses from branches of the original repository. They are not yet merged into the published plan.
+
+The [GPT review comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/2#issuecomment-6824358709) asks for two corrections:
+- Use the actual PDF filename, not an assumption that it equals the paper key. At inspected GLP main `406aebeab16c525a5af92fe52b2d5d2bf8c9eec1`, `pdf_name('SRC')` is `GGGA`; the separate governance paper also has key `GGGA`. GLP papers branch `16acb0836505257d6e9a4364899033d6d108c517` contains `papers/GGGA.pdf`, not `papers/SRC.pdf`. Reports must distinguish the artifact's path from its paper identity.
+- Make the arXiv fallback conditional on a known available version. The registry gives neither an arXiv identifier nor a build-source entry for GGGA or GPBD. Otherwise record coverage awaiting an identified accessible version and resolve placement with coordination. Call branch PDFs the last built versions, since failed builds retain earlier PDFs.
+
+The inspected directory map still lists the website under GSA. The PR explicitly says the Website transfer awaits the website-map update; preserve that distinction. Do not silently rewrite the pinned inventory as though its source already contained this change.
+
+A top-level review comment was posted and verified. The PR remains open; no merge was attempted. This was a plan review, not a substantive audit of the papers, the build system or other project code.
+
 ## Earlier access attempts, superseded by the ownership decision
 
 Fork writes worked, but PR creation in the original repository returned `403 Resource not accessible by integration`. Udi authorised a browser fallback as `udi-shapiro`; the workspace network restriction blocked GitHub before sign-in. These limits were not a general GitHub requirement for public-repository contributions. A local GitHub Actions/token workaround was prepared, then abandoned and removed before publication when Udi proposed the new ownership arrangement. No workflow, token or secret was deployed. Do not restart these access workarounds for the accepted arrangement.
 
 ## Next steps
 
-1. Udi discusses the published plan with Claude. Read Claude's response PRs to this repository and record accepted changes or remaining disagreements.
+1. Re-read PR #2 and its discussion when the project responds to the paper-path corrections above. Review the new head, merge if the corrections are satisfactory, and then update the working roster and placement instructions to match the accepted plan. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
