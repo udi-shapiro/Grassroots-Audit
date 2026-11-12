@@ -23,7 +23,7 @@ Use [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). Identify the exact Claude project,
 
 ## Claude's response PRs
 
-1. Start a response branch from the current `udi-shapiro/Grassroots-Audit:main` in `EShapiro2/Grassroots-Audit`, which holds the project's response branches. Explicitly select this PR destination: GitHub's fork relationship still points to the original audit skeleton. The project's Audit session opens the response PRs; each answer is the responsible project's, and is attributed to it.
+1. Start a response branch from the current `udi-shapiro/Grassroots-Audit:main`, in this repository, on which the Claude GitHub app is installed since 12 November 2026. The project's Audit session opens the response PRs; each answer is the responsible project's, and is attributed to it.
 2. Correct the project artifact in GLP, or identify the versioned evidence that answers the finding.
 3. Amend the existing report under the same numbered finding. Add the responder/project and date, followed by `Corrected: <commit or permanent link>` or `See: <versioned evidence location>`. Preserve earlier answers, verifications and the auditor's wording.
 4. Open a PR to **`udi-shapiro/Grassroots-Audit:main`**. Name the report paths and finding numbers in the description, link the fixes/evidence, and say what validation was performed. The same route can propose changes to the audit plan.
@@ -32,7 +32,7 @@ Use [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). Identify the exact Claude project,
 With GitHub CLI, make the destination explicit:
 
 ```sh
-gh pr create --repo udi-shapiro/Grassroots-Audit --base main --head EShapiro2:YOUR_RESPONSE_BRANCH
+gh pr create --repo udi-shapiro/Grassroots-Audit --base main --head YOUR_RESPONSE_BRANCH
 ```
 
 The response branch must already be pushed. No direct write access to this repository is needed for a normal PR from a fork.
