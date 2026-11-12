@@ -7,7 +7,8 @@ with (core/'agent.glp').open('a') as f:f.write('''
 exported procedure audit_verify(Content?, String?, Stream(String)?, Verdict).
 audit_verify(M,S,K,V?) :- verify_install(M?,S?,K?,V).
 ''')
-with (core/'home.vglp').open('a') as f:f.write('''
+for home in ['home.vglp','home.glp']:
+ with (core/home).open('a') as f:f.write('''
 exported procedure audit_cert(Module?, String).
 audit_cert(M,S?) :- creator_certification(M?,S).
 ''')
