@@ -19,7 +19,7 @@ Document baseline: `7f1ff82852056d6d995aecc62b4fbd83a1073b7c`.
 
 ## Current coverage
 
-The substantive audit was authorised to start in stages on 12 November 2026. The first bounded scope checks the ownership and paper-artifact baseline and the paper-build cache. Two reports are published, one with a reproduced medium-severity finding. No paper proof, contract semantics, GLP runtime or live deployment has yet received a substantive correctness audit; no code or paper is certified correct.
+The substantive audit was authorised to start in stages on 12 November 2026. Stage 1 checked the ownership and paper-artifact baseline and the paper-build cache. Two reports are published on main, one with a reproduced medium-severity finding. Stage 2 has examined a bounded GLP formal-semantics scope and relevant runtime source, with one high-severity paper finding prepared in PR #4 and awaiting merge confirmation. The remaining paper sections, contract semantics, runtime execution and live deployment have not been audited; no code or paper is certified correct.
 
 Do not treat earlier orientation reads as audit coverage. The first bounded audit is separately pinned and described in stages/01-source-baseline.json and the prepared reports. Every later report must state the exact versions and portions actually examined.
 
@@ -73,11 +73,11 @@ The first formal finding is a finite-term closure gap: the SRSW clause `p(f(X?),
 
 The environment has no Dart/Flutter SDK in PATH or the checked runtime locations. No workaround or code translation is represented as executing Dart. Relevant matching, commit and heap paths were inspected; the rest of the fetched source files are not implicitly covered. `stages/02-glp-scope.json` records the exact reading and execution scope. No GLP source was changed.
 
-The report is prepared at `papers/GLP-Spec.pdf.md` with one high-severity finding, to be published by PR. Record the publication outcome here. Preserve the same finding identifier through responses; do not infer a repair from runtime behavior without addressing the paper's domain and proof obligation.
+The report is prepared at `papers/GLP-Spec.pdf.md` with one high-severity finding in [PR #4](https://github.com/udi-shapiro/Grassroots-Audit/pull/4), head `64fb8721ef9c1ffd136bdff287c4bd62bddeb783`. The complete three-file publication scope, mergeability and separation from working records were checked. Automatic approval review rejected the merge because it requires explicit user confirmation to merge this particular high-severity finding into main. No indirect update or retry was attempted. The PR remains open for that final approval; main is still `0732dd6ad4fbb13611a75ece574e07ea463745aa` with Stage 1 only. The PDFs and certificate are preserved in working commit `d769c65447a7a849bdc916c262979d69c1b37dc8`. Preserve the same finding identifier through responses; do not infer a repair from runtime behavior without addressing the paper's domain and proof obligation.
 
 ## Next steps
 
-1. Complete publication of the first GLP paper finding, then read GLP’s response and continue the GLP assignment from its handover. Check for answers to the Stage 1 cache finding. No automatic monitoring is active.
+1. Obtain the explicit PR #4 merge confirmation required by automatic approval review. Recheck the head and merge if authorised; verify main and update these records. Then read GLP’s response and continue from its handover. Check for answers to the Stage 1 cache finding. No automatic monitoring is active.
 2. Keep the source roster and mirrored paths current; clarify responsibility and placement for the Earlier papers without inventing projects or source directories.
 3. Agree detailed audit scopes and methods, then establish component sessions and any explicitly configured monitoring.
 
@@ -87,7 +87,6 @@ The report is prepared at `papers/GLP-Spec.pdf.md` with one high-severity findin
 - Any responsibility clarification required by future source changes.
 - The mechanics of creating, resuming and retiring dedicated sessions.
 - The monitoring cadence or supported event triggers.
-- The first baseline audit assignment.
 
 ## Successor instructions
 

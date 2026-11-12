@@ -20,7 +20,7 @@ Examined relevant parts of bytecode/runner.dart, runtime/commit.dart and runtime
 
 ## Next
 
-1. Finish publishing the prepared report and record the PR and commit.
+1. PR #4 is open at head `64fb8721ef9c1ffd136bdff287c4bd62bddeb783`. Automatic approval review blocked its merge and requires explicit user confirmation for this main-branch update. Do not bypass it. After approval, recheck the head, merge, verify main and record the merge commit. The report and immutable evidence are already pushed; current main still contains only Stage 1.
 2. Read GLP's response to the example. Verify any new restriction or term domain against both the definitions and the LP-correspondence proof. Preserve attributed answers and the finding number.
 3. Examine TGLP's admissibility rules and obtain a supported Dart execution environment before claiming the typed runtime accepts or rejects the example. A type restriction can repair the paper's general statement only if its scope is stated and its preservation justified.
 4. Continue the GLP audit with clause/guard failure and suspension semantics and the scheduling/refinement obligations. Keep those results separate from this single counterexample. Later review remaining paper sections, type checker/compiler and multiagent correspondence; they are not covered yet.
