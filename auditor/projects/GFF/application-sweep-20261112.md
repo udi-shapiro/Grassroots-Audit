@@ -1,6 +1,6 @@
 # GFF application audit handover — 2026-11-12
 
-Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep complete; publication prepared. Current conversation only; no persistent project worker created.
+Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep published in [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10), merge `0353d0f7e99df27bac87bc91400370f3314808bb`. Remaining application coverage is open. Current conversation only; no persistent project worker created.
 
 Current GFF contract is refused on deliver (effectiveness diagnostic); committed app fails loading on old social_menu syntax. README describes an older contract design. Recorded under programs/apps/compile.sh.md, coordinated by Code with GFF. Current GFF/GDO-L clauses and selected schemas read; no complete overlay or delivery invariant review claimed.
 

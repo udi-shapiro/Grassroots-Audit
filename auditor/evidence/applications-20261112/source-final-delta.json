@@ -1,0 +1,168 @@
+{
+  "from": "5c17c4aa069743d990d993ca23c65200df982754",
+  "to": "3a9fa6842264e10bb9529fd5bdc05226163fca20",
+  "status": "ahead",
+  "commits": [
+    {
+      "sha": "9b690ad08a1a92239e254d57b03dcfde87461ebc",
+      "message": "GSN.glp: deliver_leader, the leader's own receipt of each post of her group, unguarded (the audit's finding, Grassroots-Audit ab6fc26, programs/gsc/GSN.glp.md, 1); gsn_phone.glp's creator certificate names GSN's fifteen schemas, remove for drop (gsn_phone.glp.md, 1); the GSN app's platform printed again; test_gsc.sh's display count"
+    },
+    {
+      "sha": "fd9159c9f0585f7c1149b4b0c0d6bffae7a1a095",
+      "message": "Merge remote-tracking branch 'origin/GSC' into HEAD"
+    },
+    {
+      "sha": "f9e568fb6108e97cdd098e0107f9a1cb6f7bb755",
+      "message": "Merge remote-tracking branch 'origin/main' into HEAD"
+    },
+    {
+      "sha": "10635bd4d7f4c04bb613cff4fac753de0bca1faf",
+      "message": "GSN's deliver_leader (GSC 9b690ad0): vGLP's social network platform printed again by compile.sh; Section APPS's two lines of alice in the GSN app printed again from play_network and gsn_boot (GSC #16, Code_inbox.md 2026-11-12 21:26 UTC)"
+    },
+    {
+      "sha": "316aa37e96f5ecd208ae21912916c77f95ffe1d3",
+      "message": "Section VG: the social network play's two lines of alice carry her own receipt, received_in, after GSN's deliver_leader (GSC 9b690ad0)"
+    },
+    {
+      "sha": "77ce955ad0c9d1e3a257d9cd15b32100213e1ae6",
+      "message": "Merge GSC 9b690ad0: GSN's deliver_leader, the leader's own receipt of each post of her group; gsn_phone.glp's certificate; the GSN app's and vGLP's social network platforms printed again; Sections APPS and VG's four lines of alice (TY GSC APPS VG SG on the stage: no failure new by name)"
+    },
+    {
+      "sha": "1aa8516b936abd21ea41c70afd06262666e5e5d6",
+      "message": "A run of the cascade on GSN, recorded whole (cascade/GSN/2026-11-12): the contract, the verdict syntactically_grassroots, the VMAT form, the platform and its run, by cascade.sh at 77ce955a"
+    },
+    {
+      "sha": "6b0e8e6a0980de8a60a0983666ce74c791aa3b43",
+      "message": "A run of the cascade on GSN+GC, recorded whole (cascade/GSN+GC/2026-11-12): the contract, the verdict syntactically_grassroots, the VMAT form, the platform and its run, by cascade.sh at 1aa8516b"
+    },
+    {
+      "sha": "e26aca0f63da92525991b8185772308c3f091a44",
+      "message": "CLAUDE.md, Cloud, items 1, 2 and 4: the mail is the private repository EShapiro2/Grassroots-Mail, on main, from 2026-11-12 (Coordination #15, Code_inbox.md 2026-11-12 22:08 UTC)"
+    },
+    {
+      "sha": "3a9fa6842264e10bb9529fd5bdc05226163fca20",
+      "message": "organisation/claude.md: the mail is the repository Grassroots-Mail; what is written only in private repositories and the mail (Udi, 2026-11-12)"
+    }
+  ],
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "status": "modified",
+      "changes": 6
+    },
+    {
+      "path": "cascade/GSN+GC/GSN.glp",
+      "status": "modified",
+      "changes": 13
+    },
+    {
+      "path": "cascade/GSN+GC/interface.glp",
+      "status": "modified",
+      "changes": 2
+    },
+    {
+      "path": "cascade/GSN+GC/manifest.md",
+      "status": "modified",
+      "changes": 10
+    },
+    {
+      "path": "cascade/GSN+GC/platform.glp",
+      "status": "modified",
+      "changes": 13
+    },
+    {
+      "path": "cascade/GSN+GC/platform.vglp",
+      "status": "modified",
+      "changes": 26
+    },
+    {
+      "path": "cascade/GSN+GC/schemas.txt",
+      "status": "modified",
+      "changes": 3
+    },
+    {
+      "path": "cascade/GSN+GC/vmat.tex",
+      "status": "modified",
+      "changes": 78
+    },
+    {
+      "path": "cascade/GSN/GSN.glp",
+      "status": "modified",
+      "changes": 13
+    },
+    {
+      "path": "cascade/GSN/interface.glp",
+      "status": "modified",
+      "changes": 2
+    },
+    {
+      "path": "cascade/GSN/manifest.md",
+      "status": "modified",
+      "changes": 10
+    },
+    {
+      "path": "cascade/GSN/platform.glp",
+      "status": "modified",
+      "changes": 13
+    },
+    {
+      "path": "cascade/GSN/platform.vglp",
+      "status": "modified",
+      "changes": 26
+    },
+    {
+      "path": "cascade/GSN/run.log",
+      "status": "modified",
+      "changes": 2
+    },
+    {
+      "path": "cascade/GSN/schemas.txt",
+      "status": "modified",
+      "changes": 3
+    },
+    {
+      "path": "cascade/GSN/vmat.tex",
+      "status": "modified",
+      "changes": 78
+    },
+    {
+      "path": "organisation/claude.md",
+      "status": "modified",
+      "changes": 12
+    },
+    {
+      "path": "programs/apps/gsn/platform.vglp",
+      "status": "modified",
+      "changes": 26
+    },
+    {
+      "path": "programs/gsc/GSN.glp",
+      "status": "modified",
+      "changes": 13
+    },
+    {
+      "path": "programs/gsc/test_gsc.sh",
+      "status": "modified",
+      "changes": 9
+    },
+    {
+      "path": "programs/social/graph/core/gsn_phone.glp",
+      "status": "modified",
+      "changes": 4
+    },
+    {
+      "path": "programs/vglp/cva/social_network/platform.vglp",
+      "status": "modified",
+      "changes": 26
+    },
+    {
+      "path": "test/run_all_tests.sh",
+      "status": "modified",
+      "changes": 8
+    }
+  ],
+  "integrated_verified_blobs": {
+    "programs/gsc/GSN.glp": "e639e685f6fcc122c7eabc69bea7c953cc9e96c3",
+    "programs/social/graph/core/gsn_phone.glp": "d9c2afd2b69d246e1edc90d0a7f74d19cdee5af1"
+  }
+}

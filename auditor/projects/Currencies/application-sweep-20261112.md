@@ -1,6 +1,6 @@
 # Currencies application audit handover — 2026-11-12
 
-Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep complete; publication prepared. Current conversation only; no persistent project worker created.
+Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep published in [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10), merge `0353d0f7e99df27bac87bc91400370f3314808bb`. Remaining application coverage is open. Current conversation only; no persistent project worker created.
 
 GC and GB exactly reproduce committed platforms. Existing APPS cases pass: GC 56, GB 27, including coin/bond village and isolate boot checks. No current independent conservation/liquidity/authorization proof or wider Currencies contracts coverage claimed. Next: code and English-contract invariants, with actual negative cases. Papers remain outside this batch.
 

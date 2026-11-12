@@ -1,6 +1,10 @@
-# Latest checkpoint: first application sweep prepared
+# Latest checkpoint: first application sweep published
 
-Source `5c17c4aa069743d990d993ca23c65200df982754`. Five findings prepared: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS: 183 pass / 60 fail / 3 separately known red. Four affected committed apps also fail direct loading. Evidence and per-project handovers are preserved under applications-20261112 paths. Source inputs validated, models distinguish declarative calculations from actual Dart execution. No core-paper report changed; the six-answer gate below remains in force. Publication not yet merged at this checkpoint. See stages/03-applications.json for exact scope and remaining work.
+[PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10) is merged as `0353d0f7e99df27bac87bc91400370f3314808bb`. All eight publication blobs were verified against reviewed local contents. Five findings: two CSSN contract mismatches; four broken contract-to-app chains tracked as one integration finding; GAI and GSNP signed certificate lists each inconsistent. APPS at `5c17c4aa069743d990d993ca23c65200df982754`: 183 pass / 60 fail / 3 separately known red. The four affected committed apps also fail direct loading. Published totals: **17 reports, 14 findings, 11 unanswered**.
+
+Application evidence and handovers were preserved at `284f5316a1ade70083c364ed026a1dcba0329b5c`; this checkpoint adds publication and final-source records. The final GLP main check, `3a9fa6842264e10bb9529fd5bdc05226163fca20`, integrates GSC's two previously verified source corrections, with identical corrected blobs. Their code reports now record integration. All five new findings' affected files remain unchanged. Numerical tests stay pinned to the earlier source; no claim that the updated GSN test expectations were rerun. No held paper report changed. No further approval needed.
+
+Continue application contracts/code from stages/03-applications.json and the five per-project application-sweep-20261112.md handovers. The six-answer core-paper gate below remains in force. No persistent project sessions or background monitor are running; GPT-Auditor and execution branches remain outside main. Earlier checkpoints below are history and superseded where this record updates them.
 
 # Current direction: application contracts and code
 

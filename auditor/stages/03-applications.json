@@ -1,5 +1,5 @@
 {
-  "status": "bounded_sweep_complete_publication_prepared",
+  "status": "first_bounded_application_sweep_published_remaining_coverage_open",
   "source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
   "scope": "Application contracts and code; core papers held until six answers",
   "initial_focus": [
@@ -58,7 +58,13 @@
     "papers/sGLP.pdf.md#2"
   ],
   "core_reports_changed": false,
-  "publication": null,
+  "publication": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+    "merge": "0353d0f7e99df27bac87bc91400370f3314808bb",
+    "reports_total": 17,
+    "findings_total": 14,
+    "unanswered_total": 11
+  },
   "next": [
     "Review project responses at their stable finding identifiers",
     "Continue GAI/GSNP attestation and provenance semantics; distinguish abstraction assumptions from missing validation",
@@ -70,5 +76,7 @@
     "No Flutter or physical-device execution",
     "No complete application audit",
     "No persistent project sessions or background monitor"
-  ]
+  ],
+  "last_source_checked": "3a9fa6842264e10bb9529fd5bdc05226163fca20",
+  "prior_GSN_corrections": "verified integrated by ancestry and exact corrected blobs; no held paper reread"
 }

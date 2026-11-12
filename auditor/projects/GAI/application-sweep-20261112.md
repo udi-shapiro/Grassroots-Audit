@@ -1,6 +1,6 @@
 # GAI application audit handover — 2026-11-12
 
-Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep complete; publication prepared. Current conversation only; no persistent project worker created.
+Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep published in [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10), merge `0353d0f7e99df27bac87bc91400370f3314808bb`. Remaining application coverage is open. Current conversation only; no persistent project worker created.
 
 GAI and GSNP current contracts are refused on end_guardian/retire. Their committed apps fail loading on scripted-person/type incompatibilities. Both phone creator-certificate lists differ from their committed platforms; separate reports at programs/social/graph/core/{gai_phone,gsnp_phone}.glp.md. GAI:2 attestation binding remains an unverified lead, not a finding; inspect key/developer representation and abstraction assumptions before promoting it. GSNP provenance remains open.
 

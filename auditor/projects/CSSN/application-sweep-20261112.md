@@ -1,6 +1,6 @@
 # CSSN application audit handover — 2026-11-12
 
-Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep complete; publication prepared. Current conversation only; no persistent project worker created.
+Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep published in [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10), merge `0353d0f7e99df27bac87bc91400370f3314808bb`. Remaining application coverage is open. Current conversation only; no persistent project worker created.
 
 Two schema/English mismatches reproduced with reachable traces and positive controls: children_acquaint adds Bob-knows-Carol; of_age blocks a creator who resigned while another parent remains. Current contract fails compilation on make_parent/end_parent/retire. Committed app fails direct loading on duplicate item_of/1 in Expr. Reports: programs/cssn/CSSN.glp.md and programs/apps/compile.sh.md.
 

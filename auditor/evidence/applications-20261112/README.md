@@ -32,3 +32,7 @@ The three workflow sources under auditor/checks/applications-20261112 pin depend
 No physical devices or Flutter tests; no full application state-space, economic/security proof or current AI-attestation semantic validation. Passing historical plays do not validate changed contracts. CSSN and GAI/GSNP are the initial substantive application focus; GFF compilation and GC/GB existing test coverage are narrower. Current GAI:2 attestation-to-key/developer binding needs a separate semantic review before any claim of a fault. No such finding is asserted here.
 
 Core papers remain on hold until all six existing core findings have answers. This sweep did not read or alter those papers/reports. Continue application contract/code work and verify project responses without routine user go-aheads. No persistent project workers or background monitoring are running.
+
+## Final source check
+
+GLP main advanced to 3a9fa6842264e10bb9529fd5bdc05226163fca20. source-final-delta.json records all intervening commits/changed paths and the exact two corrected GSC blobs now integrated. The current application's five new findings are unaffected by that comparison. The APPS numeric results above remain at 5c17c4a, before the new GSN expected-output lines. No new paper review or whole-suite re-execution is implied.

@@ -1,6 +1,6 @@
 # Code application audit handover — 2026-11-12
 
-Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep complete; publication prepared. Current conversation only; no persistent project worker created.
+Source commit: `5c17c4aa069743d990d993ca23c65200df982754`. First bounded application sweep published in [PR #10](https://github.com/udi-shapiro/Grassroots-Audit/pull/10), merge `0353d0f7e99df27bac87bc91400370f3314808bb`. Remaining application coverage is open. Current conversation only; no persistent project worker created.
 
 Nine platform comparisons: five exact, four refused (gai/gsnp/gff/cssn). Existing APPS: 183 pass, 60 fail, 3 known red outside the count. Follow-up loads identify typed person/view incompatibilities for GAI/GSNP, widget syntax for GFF, duplicate Expr for CSSN. Coordinate versioned app/contract/compiler alignment; do not remove refusal guards or count dependent assertion failures as separate bugs. GAI/GSNP build limitations were already acknowledged in KNOWN_RED_CHECKS. Main report: programs/apps/compile.sh.md.
 

@@ -76,7 +76,7 @@
       "published_name": "From Grassroots Contract to Grassroots App",
       "paths": [],
       "response_pr": 8,
-      "verification": "two source corrections verified; paper correction verified; source integration pending",
+      "verification": "two source corrections and revised paper already verified; exact corrected source blobs now verified integrated on main 3a9fa6842264e10bb9529fd5bdc05226163fca20; no new paper review",
       "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
       "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
@@ -115,7 +115,7 @@
         "GCC"
       ],
       "stage": 3,
-      "substantive_audit": "first_bounded_application_sweep_complete_publication_prepared",
+      "substantive_audit": "first_bounded_application_sweep_published_remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "GC and GB exactly reproduce committed platforms. Existing APPS cases pass: GC 56, GB 27, including coin/bond village and isolate boot checks. No current independent conservation/liquidity/authorization proof or wider Currencies contracts coverage claimed. Next: code and English-contract invariants, with actual negative cases. Papers remain outside this batch.",
       "published_name": "Grassroots Currencies",
@@ -125,7 +125,9 @@
       ],
       "scope_record": "stages/03-applications.json",
       "handover": "projects/Currencies/application-sweep-20261112.md",
-      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+      "publication_merge": "0353d0f7e99df27bac87bc91400370f3314808bb"
     },
     {
       "project": "GAI",
@@ -133,14 +135,16 @@
         "GAI"
       ],
       "stage": 3,
-      "substantive_audit": "first_bounded_application_sweep_complete_publication_prepared",
+      "substantive_audit": "first_bounded_application_sweep_published_remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "GAI and GSNP current contracts are refused on end_guardian/retire. Their committed apps fail loading on scripted-person/type incompatibilities. Both phone creator-certificate lists differ from their committed platforms; separate reports at programs/social/graph/core/{gai_phone,gsnp_phone}.glp.md. GAI:2 attestation binding remains an unverified lead, not a finding; inspect key/developer representation and abstraction assumptions before promoting it. GSNP provenance remains open.",
       "published_name": "Accountable AI Agents",
       "paths": [],
       "scope_record": "stages/03-applications.json",
       "handover": "projects/GAI/application-sweep-20261112.md",
-      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+      "publication_merge": "0353d0f7e99df27bac87bc91400370f3314808bb"
     },
     {
       "project": "CSSN",
@@ -148,14 +152,16 @@
         "CSSN"
       ],
       "stage": 3,
-      "substantive_audit": "first_bounded_application_sweep_complete_publication_prepared",
+      "substantive_audit": "first_bounded_application_sweep_published_remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Two schema/English mismatches reproduced with reachable traces and positive controls: children_acquaint adds Bob-knows-Carol; of_age blocks a creator who resigned while another parent remains. Current contract fails compilation on make_parent/end_parent/retire. Committed app fails direct loading on duplicate item_of/1 in Expr. Reports: programs/cssn/CSSN.glp.md and programs/apps/compile.sh.md.",
       "published_name": "Child-Safe Social Networking",
       "paths": [],
       "scope_record": "stages/03-applications.json",
       "handover": "projects/CSSN/application-sweep-20261112.md",
-      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+      "publication_merge": "0353d0f7e99df27bac87bc91400370f3314808bb"
     },
     {
       "project": "GFF",
@@ -163,14 +169,16 @@
         "GFF"
       ],
       "stage": 3,
-      "substantive_audit": "first_bounded_application_sweep_complete_publication_prepared",
+      "substantive_audit": "first_bounded_application_sweep_published_remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Current GFF contract is refused on deliver (effectiveness diagnostic); committed app fails loading on old social_menu syntax. README describes an older contract design. Recorded under programs/apps/compile.sh.md, coordinated by Code with GFF. Current GFF/GDO-L clauses and selected schemas read; no complete overlay or delivery invariant review claimed.",
       "published_name": "Grassroots Feeds and Followers",
       "paths": [],
       "scope_record": "stages/03-applications.json",
       "handover": "projects/GFF/application-sweep-20261112.md",
-      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+      "publication_merge": "0353d0f7e99df27bac87bc91400370f3314808bb"
     },
     {
       "project": "GGGA",
@@ -390,7 +398,7 @@
       "project": "Code",
       "papers": [],
       "stage": 3,
-      "substantive_audit": "first_bounded_application_sweep_complete_publication_prepared",
+      "substantive_audit": "first_bounded_application_sweep_published_remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "paths": [
         "programs/apps",
@@ -408,7 +416,9 @@
       "limited_completed_scope": "Nine platform comparisons: five exact, four refused (gai/gsnp/gff/cssn). Existing APPS: 183 pass, 60 fail, 3 known red outside the count. Follow-up loads identify typed person/view incompatibilities for GAI/GSNP, widget syntax for GFF, duplicate Expr for CSSN. Coordinate versioned app/contract/compiler alignment; do not remove refusal guards or count dependent assertion failures as separate bugs. GAI/GSNP build limitations were already acknowledged in KNOWN_RED_CHECKS. Main report: programs/apps/compile.sh.md.",
       "scope_record": "stages/03-applications.json",
       "handover": "projects/Code/application-sweep-20261112.md",
-      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754"
+      "audit_source_commit": "5c17c4aa069743d990d993ca23c65200df982754",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/10",
+      "publication_merge": "0353d0f7e99df27bac87bc91400370f3314808bb"
     },
     {
       "project": "Coordination",
