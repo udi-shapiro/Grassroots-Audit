@@ -18,11 +18,11 @@ const raceSource = '''
 Token ::= ready.
 Result ::= left ; right.
 procedure choose(Token?, Token?, Result).
-procedure make(Token).
-procedure sink(Token?).
 choose(ready, Y, left) :- sink(Y?).
 choose(X, ready, right) :- sink(X?).
+procedure make(Token).
 make(ready).
+procedure sink(Token?).
 sink(ready).
 ''';
 

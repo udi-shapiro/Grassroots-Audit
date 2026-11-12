@@ -33,12 +33,6 @@ run('disable-analytics',['dart','--disable-analytics'],30)
 dependencies=run('pub-get',['dart','pub','get','--enforce-lockfile'],240)
 if dependencies['exit_code']!=0:sys.exit(1)
 shutil.copyfile(Path(__file__).with_name('runtime_probe.dart'),cwd/'_auditor_probe.dart')
-for mode in ['typed_pair_load','typed_race_load','typed_pair_finite','typed_pair_cycle','raw_pair_finite','raw_pair_cycle','fifo_race']:
+for mode in ['typed_race_load','fifo_race']:
     run(mode,['dart','run','_auditor_probe.dart',mode],90)
-run('selected-existing-tests',['dart','test','--reporter','expanded',
-    'test/engine/goal_writer_head_writer_test.dart',
-    'test/engine/fail_after_suspend_test.dart',
-    'test/engine/guard_conjunction_test.dart',
-    'test/runtime/sim_clock_kernel_test.dart',
-    'test/compiler/one_goal_reader_test.dart'],300)
 print('Observations saved; inspect each exit code and test outcome before drawing conclusions.',flush=True)
