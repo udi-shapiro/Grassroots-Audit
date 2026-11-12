@@ -1,0 +1,69 @@
+name: GSA certificate and store path audit
+on:
+  push:
+    branches: [audit-gsa-fixtures-20261112]
+permissions:
+  contents: read
+jobs:
+  certificates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: audit
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: c40e6d3ad68b198066ab723d17c05171c0a7de76
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce committed dependencies
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Capture store path and reproduce its cascade record
+        run: |
+          mkdir -p evidence
+          (cd GLP; git grep -n -E 'install_from_store|trusts_store|creator_certification' -- programs glp_runtime glp_multiagent test) > evidence/store-references.txt || true
+          python3 - <<'PY'
+          import subprocess,json
+          from pathlib import Path
+          p=subprocess.run(['bash','cascade.sh','gas','--check'],cwd='GLP',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=900)
+          Path('evidence/gas-cascade.log').write_text(p.stdout)
+          Path('evidence/gas-cascade.json').write_text(json.dumps({'exit_code':p.returncode,'command':['bash','cascade.sh','gas','--check'],'source_commit':'c40e6d3ad68b198066ab723d17c05171c0a7de76'},indent=2)+'\n')
+          print(p.stdout)
+          PY
+      - name: Install audit-only certificate wrappers
+        run: python3 audit/audit-fixtures/install-gsa-fixture.py GLP
+      - name: Exercise certificate decisions and controls
+        run: |
+          python3 - <<'PY'
+          import subprocess,json,time
+          from pathlib import Path
+          core='../programs/social/graph/core'
+          inp=':artefact ../programs/social/graph/pingapp '+core+'\n'+core+'\n:limit 100000000\n'
+          for i,k in enumerate(['home','empty_schemas','bad_ward_payload','wrong_source','forged','negative','untrusted'],1):
+              inp+=f'audit_certificates({k},R{i},S{i}).\n'
+          inp+=':quit\n';Path('evidence/certificates.in').write_text(inp);start=time.monotonic()
+          try:
+              p=subprocess.run(['bin/glpc'],input=inp,cwd='GLP/glp_runtime',text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=600)
+              out=p.stdout;record={'exit_code':p.returncode,'timeout':False}
+          except subprocess.TimeoutExpired as e:
+              out=e.stdout or '';out=out.decode(errors='replace') if isinstance(out,bytes) else out
+              record={'exit_code':None,'timeout':True}
+          record.update(seconds=round(time.monotonic()-start,3),source_commit='c40e6d3ad68b198066ab723d17c05171c0a7de76')
+          Path('evidence/certificates.log').write_text(out);Path('evidence/result.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(record));print(out[-16000:])
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: gsa-certificate-audit
+          path: evidence/
+          retention-days: 30
