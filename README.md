@@ -2,6 +2,8 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
+**Current priority:** application-project contracts and code. Core-paper review is paused until all six existing core findings have project answers; application work proceeds meanwhile.
+
 The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment.
 
 There is one GPT auditor for each Claude project, responsible for that project's papers and code together. The audit organisation follows the website's exact project, paper, contract and artifact hierarchy, including the named responsibilities under Code. The roster and its source commit are reproduced in the audit document.
@@ -39,7 +41,7 @@ The audit has started in stages. Stage 1 publishes the [source and ownership bas
 
 All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
 
-## Stage 2: current bounded core sweep
+## Stage 2: bounded core sweep, now on hold
 
 The second core sweep adds two findings: [vGLP strong fairness](papers/vGLP.pdf.md) and [sGLP closed-question compatibility](papers/sGLP.pdf.md#finding-2-the-simulation-proof-uses-a-different-rule-for-closed-question-answers). It extends the existing GLP/IGLP findings with actual Dart execution and the multiagent proof comparison, and links the GSC paper to the existing GSN delivery finding. Finding identifiers are retained. The complete project audit remains in progress.
 
@@ -55,4 +57,16 @@ The [updated structural baseline](servers/peoplesweb.md) matches 31 project rows
 
 Claude's Audit session should route answers to the exact named projects and amend the existing numbered findings by response PR. The auditor verifies corrections independently. Work proceeds in bounded sweeps without requesting routine go-aheads.
 
-Website's [cache-finding correction](servers/peoplesweb/tools/papers_sync.py.md) has been independently verified on GLP main. There are nine findings in total. Three corrections have been independently verified: Website's fix is on GLP main; two GSC code fixes await main integration, and the revised GSC paper is verified. Six findings await answers. PRs #6–#8 preserve the responses and the updated response-branch procedure.
+Website's [cache-finding correction](servers/peoplesweb/tools/papers_sync.py.md) has been independently verified on GLP main. At the end of Stage 2 there were nine findings in total. Three corrections have been independently verified: Website's fix is on GLP main; the two GSC code fixes, initially awaiting integration, are now also verified present on GLP main `3a9fa6842264e10bb9529fd5bdc05226163fca20`. The revised GSC paper was verified in Stage 2. Those six core findings await answers. PRs #6–#8 preserve the responses and the updated response-branch procedure.
+
+## Stage 3: first application contract/code sweep
+
+At GLP `5c17c4aa069743d990d993ca23c65200df982754`, the first application sweep adds five findings at their exact source paths:
+
+- [CSSN contract schemas](programs/cssn/CSSN.glp.md): children's acquaintance has an extra prerequisite absent from its English clause; a creator who resigns as guardian cannot declare the child of age.
+- [Application builds](programs/apps/compile.sh.md): GKK, GSG, GSN, GC and GB reproduce their committed platforms; CSSN, GAI, GSNP and GFF are refused by the current compiler. The GAI/GSNP limitation was already recorded by the project.
+- [GAI phone certificate](programs/social/graph/core/gai_phone.glp.md) and [GSNP phone certificate](programs/social/graph/core/gsnp_phone.glp.md): the signed act lists disagree with their committed platforms.
+
+The existing APPS suite completed with 183 passing and 60 failing assertions, plus three known-red checks counted separately. The report distinguishes compilation failures, dependent app checks and the bounded declarative CSSN traces. This is partial application coverage; it is not a clean suite result or completion of the application audit.
+
+Published totals after this sweep: **17 reports, 14 findings, 11 unanswered**. The original six core-paper findings are GLP-Spec #1, IGLP #1–2, vGLP #1 and sGLP #1–2. Their papers remain on hold until all six have answers. The gate concerns answers, not six verified fixes. No core-paper report was changed in this sweep. Exact evidence, application assignments and the next contract/code scopes are on `GPT-Auditor`.
