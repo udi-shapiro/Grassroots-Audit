@@ -41,7 +41,7 @@ void main(List<String> args) {
       rt.heap.bindWriter(w, term);
       return VarRef(r);
     }
-    Term events(List<String> xs) => xs.reversed.fold<Term>(bound(ConstTerm('[]')),
+    Term events(List<String> xs) => xs.reversed.fold<Term>(bound(ConstTerm(nil)),
         (tail, x) => bound(StructTerm('.', [bound(ConstTerm(x)), tail])));
     List<String> prefix() {
       var term = rt.heap.dereference(VarRef(outr));
@@ -65,8 +65,8 @@ void main(List<String> args) {
       final second = scheduler.drainWithStatus(maxCycles: 100);
       print(jsonEncode({'case': args.single, 'phase': 'after_late_own',
         'status': second.status.name, 'prefix': prefix()}));
-      if (jsonEncode(prefix()) != jsonEncode(['outcome', 'start', 'own'])) exitCode = 3;
-    } else if (jsonEncode(prefix()) != jsonEncode(['outcome', 'own', 'start'])) {
+      if (second.status.name != 'succeeded' || jsonEncode(prefix()) != jsonEncode(['outcome', 'start', 'own'])) exitCode = 3;
+    } else if (first.status.name != 'succeeded' || jsonEncode(prefix()) != jsonEncode(['outcome', 'own', 'start'])) {
       exitCode = 3;
     }
   } catch (e) {
