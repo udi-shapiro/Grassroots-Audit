@@ -1,0 +1,1481 @@
+                  sGLP: Simulating People with Stochastic Agents
+                                                               Ehud Shapiro
+                                   London School of Economics and Weizmann Institute of Science
+                                                         UK and Israel
+ABSTRACT                                                                     volition-guarded Grassroots Logic Program (vGLP) [38], a multia-
+Grassroots platforms are designed to be owned, operated and gov-             gent concurrent logic programming language [27, 34, 37]. A vGLP
+erned by their participants, and thus are constituted from person-           program in turn specifies a smartphone UI via which people express
+to-person smartphone apps that are run by the participants. A                their volitions [15] and thus control the app. In vGLP a procedure
+grassroots app is specified using a grassroots social contract, which        may put a question to its person, and a clause that reads the answer
+is compiled through an abstraction cascade into a volition-guarded           reduces only after the person has given it, so the transitions of
+Grassroots Logic Program (vGLP), a multiagent concurrent logic               the platform are guarded by the volitions of its people [15]. Each
+programming language. A vGLP program in turn specifies a smart-              question has an interactive type, and the UI is derived from these
+phone UI via which people express their volitions and thus control           types, a widget per question [38]. The program is compiled onto
+the app. Prudence dictates large-scale evaluation and testing of             GLP [34, 36] and deployed as a mini-app of the grassroots super-
+grassroots platforms prior to deployment, but using the many peo-            app [8], on iPhone and Android [12].
+ple needed to do that is a contradiction in terms. Hence another                What such a platform does at scale — whether a grassroots
+solution is needed.                                                          social graph [31] coalesces from separate groups into one, whether
+    Here, we present stochastic GLP (sGLP), designed to allow grass-         grassroots currencies [29, 35] circulate — depends on what the
+roots platforms to be simulated at scale from the vGLP programs              people using it do, and cannot be found out by running the app
+that deploy them, with stochastic agents in place of people. sGLP            with a handful of them. Prudence dictates large-scale evaluation and
+is GLP with a rate extension for specifying stochastic behaviour.            testing of grassroots platforms prior to deployment, but using the
+A stochastic agent is an sGLP program replacing both the vGLP                many people needed to do that is a contradiction in terms. Hence
+UI and the person behind it. It is typed by the dual of the interac-         another solution is needed.
+tive type of the UI and specifies a stochastic profile of a person’s            Here, we present stochastic GLP (sGLP), designed to allow grass-
+behaviour.                                                                   roots platforms to be simulated at scale from the vGLP programs
+    We demonstrate sGLP on the grassroots social graph, with a               that deploy them, with stochastic agents in place of people. sGLP
+population of men and women drawn from four stochastic profiles              is GLP with a rate extension for specifying stochastic behaviour.
+— homophile or indifferent, wary or sociable — and on grassroots             A rated goal is reduced at a time drawn, when it is spawned, from
+currencies, with four profiles — spenders or savers, cautious or             the exponential distribution with its rate; the machine runs to
+generous — and report what the mix of profiles does to the social            rest between two such times, so simulated time advances only
+graph that forms and to the currencies that circulate.                       with them; and the law of a run is that of Gillespie’s first reaction
+    We prove that every run of a vGLP program in which sGLP                  method [10], which we prove equivalent here to the direct method,
+agents replace the UI and the people behind it is a vGLP run. We im-         since a spawned goal is never withdrawn (Section 2). A stochastic
+plemented sGLP in GLP by Gillespie’s method, and ran reproducible            agent is an sGLP program replacing both the vGLP UI and the per-
+simulations with it.                                                         son behind it, typed by the dual of the interactive type specifying
+                                                                             the UI, with a stochastic profile of a person’s behaviour. A profile is
+CCS CONCEPTS                                                                 such a program, named; a population draws its persons, each with
+                                                                             a key, a role and attributes, and for each person a profile for each
+• Theory of computation → Operational semantics; • Software
+                                                                             dimension of their role; and a person sees the program’s output as
+and its engineering → Constraint and logic languages; Concur-
+                                                                             their phone shows it (Section 3).
+rent programming languages; • Computing methodologies →
+                                                                                We demonstrate sGLP on the grassroots social graph [31], with a
+Discrete-event simulation; Agent / discrete models; • Mathematics
+                                                                             population of men and women drawn from four stochastic profiles
+of computing → Markov processes.
+                                                                             — homophile or indifferent, wary or sociable — and on grassroots
+KEYWORDS                                                                     currencies [29, 35], with four profiles — spenders or savers, cau-
+                                                                             tious or generous — and report what the mix of profiles does to the
+Stochastic Simulation, Gillespie Algorithm, Agent-Based Simula-              social graph that forms and to the currencies that circulate (Sec-
+tion, Operational Semantics, Concurrent Logic Programming, GLP,              tions 5 and 6). The social graph is the platform on which the other
+Volitional Programming, Grassroots Platforms                                 grassroots platforms are built, and the currencies are coins among
+                                                                             friends in it. Each demonstration runs 100 agents for a simulated
+1   INTRODUCTION                                                             year, over nine mixes of profiles and twenty seeds, and the social
+Grassroots platforms [30, 32, 33] are designed to be owned, operated         graph runs at 1,000 agents for a simulated year.
+and governed by their participants, and thus are constituted from               We prove that every run of a vGLP program in which sGLP agents
+person-to-person smartphone apps that are run by the participants.           replace the UI and the people behind it is a vGLP run. So what a
+A grassroots app is specified using a grassroots social contract [11],
+which is compiled through an abstraction cascade [11, 38] into a
+                                                                         1
+                                                                                                                                              Ehud Shapiro
+
+
+simulation reports is something the deployed platform can do (Sec-           over 𝑃 and 𝑁 has the configurations of Definition 2.2, the initial
+tion 3). We implemented sGLP in GLP by Gillespie’s method [10],              configuration (𝑐 0, 0, ∅), and the transitions (𝑐, 𝑡, 𝛼) → (𝑐 ′, 𝑡 ′, 𝛼 ′ ):
+and ran reproducible simulations with it. The implementation is as               (1) Machine: 𝑐 → 𝑐 ′ is a Communicate or Cold-call transition,
+the stochastic pi-calculus [23] was implemented in Flat Concurrent                   or a Reduce of a goal 𝐴 that is not pending; 𝑡 ′ = 𝑡; and
+Prolog [24, 25, 39]: a transformation of sGLP programs into GLP,                     𝛼 ′ is 𝛼 with 𝛼 ′ (𝐵) = 𝑡 + 𝜏 for each rated goal 𝐵 @ 𝑟 in the
+whose engine holds the simulated clock and draws the next event                      body the Reduce spawns, 𝜏 drawn from the exponential
+by Gillespie’s method, stepped by a monitor written in GLP over a                    distribution with rate 𝑟 , the draws independent.
+guard that succeeds when the machine rests; every draw is from the               (2) Release: (𝑐, 𝑡, 𝛼) is quiescent, 𝐴 is a pending goal with 𝛼 (𝐴)
+run’s seed, so a run is reproducible (Section 4). Section 7 reviews                  least, 𝑐 ′ = 𝑐, 𝑡 ′ = 𝛼 (𝐴), and 𝛼 ′ is 𝛼 without 𝐴.
+related work and Section 8 concludes.
+                                                                                Definition 2.4 (sGLP Run). An sGLP run of 𝑁 over 𝑃 from 𝑐 0 is a
+2     SGLP: STOCHASTIC GLP                                                   sequence of configurations of the sGLP transition system over 𝑃,
+A stochastic agent is a program that replaces the UI of a vGLP               𝑁 and 𝑐 0 , the first initial and each a transition of the one before,
+program and the person behind it: it holds the person’s end of each          such that its configurations of the maGLP transition system, with
+question and answers it, as the widget does on the phone. sGLP is            each repeated one taken once, form a proper safe computation of
+the language such a program is written in: GLP [34, 37] with a rate          that system from 𝑐 0 (Definitions E.1 and E.17, the latter read for a
+on a goal, which runs in simulated time. This section defines the            computation, each configuration (𝐺, 𝜎) read as (∅, 𝐺, 𝜎)); an sGLP
+language; Section 3 puts a person written in it in the place of the          run of 𝑁 over 𝑃 is one from the initial configuration of the maGLP
+person of a vGLP program.                                                    transition system over 𝑃 and 𝑁 .
+                                                                                Simulated time advances only at a Release: a machine step takes
+2.1    Syntax                                                                no time, and the clock jumps to the earliest activation time once
+An sGLP program is a typed GLP program [37] with a rate on a                 the machine has nothing to do at the present time. A released goal
+goal. Its draws are GLP’s: random(𝑆?, 𝑁 ?, 𝐾, 𝑆 1 ) assigns 𝐾 an             is an ordinary goal: where its input has not arrived it suspends and
+integer uniform from 1 to 𝑁 , drawn from the seed 𝑆, and 𝑆 1 the             reduces when it does, with no further delay.
+next seed, and split_random_seed(𝑆?, 𝑆 1 , 𝑆 2 ) assigns 𝑆 1 and
+𝑆 2 two seeds made from the seed 𝑆, the draws from 𝑆, 𝑆 1 and 𝑆 2               Proposition 2.5 (Time to the Next Release). Let (𝑐, 𝑡, 𝛼) be a
+being independent streams [34].                                              quiescent configuration of an sGLP run with pending goals 𝐴1, . . . , 𝐴𝑚
+                                                                                                               Í
+<rated_goal> ::= <goal> @ <rate>                                             of rates 𝑟 1, . . . , 𝑟𝑚 , and 𝑅 = 𝑖 𝑟𝑖 . Conditional on the run up to it, the
+<rate>       ::= <positive_real> / <time_unit>                               next Release comes after a time exponentially distributed with rate 𝑅,
+<time_unit> ::= second | minute | hour | day | week | year                   and releases 𝐴𝑖 with probability 𝑟𝑖 /𝑅, independently of that time.
+   Definition 2.1 (Rated Goal). A rated goal 𝐴 @ 𝑟 in the body of a             Proof. 𝛼 (𝐴𝑖 ) = 𝑡𝑖 + 𝜏𝑖 , with 𝑡𝑖 ≤ 𝑡 the time 𝐴𝑖 was spawned
+clause is a goal 𝐴 with a rate 𝑟 , a positive real per unit of time.         and 𝜏𝑖 exponential with rate 𝑟𝑖 , the 𝜏𝑖 independent of one another
+   A rated goal is spawned as any body goal is, and is reduced only          and of every other draw of the run. The run up to (𝑐, 𝑡, 𝛼) depends
+once its time has come, which is drawn when it is spawned from               on 𝜏𝑖 only through 𝛼 (𝐴𝑖 ) ≥ 𝑡, so conditional on it 𝛼 (𝐴𝑖 ) − 𝑡 is
+the exponential distribution with its rate.                                  exponential with rate 𝑟𝑖 , by memorylessness, and the 𝛼 (𝐴𝑖 ) − 𝑡 are
+   A choice among alternatives with given probabilities is a draw            independent. The minimum of independent exponential variates
+and a guard on it in each clause, as the profiles of Sections 5 and 6        with rates 𝑟 1, . . . , 𝑟𝑚 is exponential with rate 𝑅, and is the 𝑖-th with
+show.                                                                        probability 𝑟𝑖 /𝑅, independently of its value.                            □
+
+2.2    Operational Semantics                                                     This is Gillespie’s first reaction method [10], and the proposition
+                                                                             is its equivalence to the direct method, which holds here because a
+Throughout, 𝑁 is an sGLP program, 𝑃 ⊂ Π a finite set of agents, and
+                                                                             spawned goal is never withdrawn.
+𝑐 a configuration of the maGLP transition system over 𝑃 and 𝑁 [34]
+(Definition E.8), whose transitions are Reduce, Communicate and
+Cold-call. sGLP adds to a configuration a clock and the activation
+                                                                             3    SIMULATING A VGLP PROGRAM
+times of its rated goals, and to the transitions one that advances           On the phone, the person’s end of each interactive variable is held
+the clock.                                                                   by a construct process, which has the question’s widget drawn
+                                                                             and assigns the person’s answer; the widget’s type is the dual of
+   Definition 2.2 (Configuration, Pending, Quiescent). A configura-          the interactive type, writing where the program reads and reading
+tion of sGLP over 𝑃 and 𝑁 is a triple (𝑐, 𝑡, 𝛼): 𝑐 a configuration of        where the program writes [38]; and the program’s output to its
+the maGLP transition system over 𝑃 and 𝑁 , 𝑡 ≥ 0 the simulated               person is drawn as construct 0 (Appendix E). In a simulation the
+time, and 𝛼 a partial function from the goals of 𝑐 to activation times       person’s end is held by a relay, which hands a copy of the question
+𝛼 (𝐴) ≥ 𝑡, the goals in its domain being pending. It is quiescent if         to a goal of a person procedure of the dual type and passes the
+no Communicate, no Cold-call and no Reduce of a goal that is not             goal’s answer on to the program; the program’s output is held by
+pending is enabled in 𝑐.                                                     a screen, from which the person’s goals read what the person has
+   Definition 2.3 (sGLP Transition System). The sGLP transition sys-         been shown; and the population is drawn by a census, which gives
+tem over 𝑃, 𝑁 and a configuration 𝑐 0 of the maGLP transition system         each person a key, a role and attributes, and by a mix of profiles of
+                                                                         2
+simulating people
+
+
+person for each role, each profile a program. The vGLP program,               one of them, the sets T (Φ) of those of role 𝜌 are pairwise disjoint
+its types and its clauses are those the phone runs.                           with union T (𝑀).
+<person_declaration> ::= <type> =::= <procedure_name> .                           Definition 3.4 (Stochastic Person, Population). For disjoint and
+<profile>     ::= person <name> .
+                                                                              covering dimensions 𝐷 = ((𝑑 1, 𝜌 1, Φ1 ), . . . , (𝑑𝑘 , 𝜌𝑘 , Φ𝑘 )) over 𝑀
+                  <person_declarations> <program>
+                                                                              and a role 𝜌, with 𝑗1 < · · · < 𝑗𝑚 the 𝑗 for which 𝜌 𝑗 = 𝜌, a stochastic
+<run>         ::= run <persons> [ <mix_list> ]
+                  until <time> seed <integer> .                               person of role 𝜌 over 𝐷 is a tuple (𝜙 1, . . . , 𝜙𝑚 ) with 𝜙𝑙 ∈ Φ 𝑗𝑙 for
+<persons>     ::= <integer> agents | <procedure_name>                         𝑙 = 1, . . . , 𝑚; and a population over 𝑀 is a tuple (𝐷, 𝜇, 𝑤, 𝑠) of such
+<mix_list>    ::= <mix> | <mix> , <mix_list>                                  dimensions 𝐷, a tuple 𝜇 = (𝜇 1, . . . , 𝜇𝑘 ) of probability distributions,
+<mix>         ::= <dimension> <of_role> ~                                     𝜇 𝑗 on Φ 𝑗 , a census 𝑤 and an integer 𝑠, its seed; and, for an integer
+                  ( <name> : <probability> ; ... )                            𝑠 𝑤 , its persons from 𝑠 𝑤 are the persons ℎ 1, . . . , ℎ𝑛 that 𝑤 draws from
+<of_role>     ::= <empty> | of <role>                                         𝑠 𝑤 , and its agents are 𝑃 = {1, . . . , 𝑛}, the person of agent 𝑎 being
+   The definitions and results of vGLP [38] that this section and             ℎ𝑎 .
+Theorem 3.15 rest on — interactive types, the vmaGLP transition                 A stochastic person therefore declares each interactive type of
+system, the canonical compilation and its mapping back to the                 𝑀 exactly once, by one of its profiles. So a parent can have two
+source — are recalled in Appendix E. Throughout, 𝑀 is a vGLP pro-             dimensions and a child one.
+gram, T (𝑀) the set of its interactive types, each in writer or reader
+mode, and ⌈𝑀⌉ its canonical compilation (Appendix E), which gives                Definition 3.5 (Well-Formed). A population is well formed if its
+the interactive types distinct functors, 𝐴 being the type of its asks.        census draws at least one person from every seed, each of the role
+                                                                              of a dimension of 𝐷, each person procedure its profiles declare is
+    Definition 3.1 (Person, Census). A person is a ground term of             declared with the type its declaration requires, the predicates of the
+the form person(𝐾, 𝜌, 𝑉 ), of a key 𝐾, a role 𝜌, a constant, and              profiles’ programs and of the census are distinct from those of ⌈𝑀⌉,
+attributes 𝑉 , Person being a type of such terms; and a census is a           a predicate or a type that two of these programs define has one
+procedure 𝑤 of a GLP program, declared procedure 𝑤(Integer?,                  definition in both, ⌈𝑀⌉ defines no procedure or type named screen,
+List(Person)), such that, for each integer 𝑠, every correct run               seen, Seen or Person, the profiles’ programs and the census define
+of the maGLP transition system over one agent and that program,               none named screen, seen or Seen, and 𝜇 𝑗 sums to one over Φ 𝑗 for
+with the initial local state ({𝑤 (𝑠, 𝐿)}, ∅), assigns 𝐿 the same finite       each 𝑗.
+list of persons with distinct keys, the persons 𝑤 draws from 𝑠.
+                                                                                 The transformation of Section 4 refuses a population whose
+   A census draws the persons of a run: how many there are, their             dimensions, profiles and distributions are not well formed, and the
+keys, their roles — a parent or a child, say — and their attributes —         run refuses a census that draws no person, or a person of a role of no
+the village and the family of a person, and the persons they know             dimension; that a census draws the same persons in every run is its
+at the start. The run declaration run 𝑛 agents has the census that            author’s to ensure. A run declaration draws from the population’s
+draws, from every seed, the persons person(𝐾𝑎 , agent, []) for                seed its persons, by its census, and for each agent a stochastic person
+𝑎 = 1, . . . , 𝑛, 𝐾𝑎 the key of agent 𝑎 (Appendix B), and a mix with no       of the role of its person — one profile per dimension of that role,
+role is of the role agent.                                                    by that dimension’s distribution — and a seed; Section 4 says how.
+   Definition 3.2 (Dual, Person Procedure, Person Declaration). The           For the rest of the section, (𝐷, 𝜇, 𝑤, 𝑠) is a well-formed population
+dual of an interactive type 𝑇 is 𝑇 ◦ := 𝑇 ′ ? where 𝑇 = 𝑇 ′ and               over 𝑀 with persons ℎ 1, . . . , ℎ𝑛 and agents 𝑃 from an integer 𝑠 𝑤 ,
+𝑇 ◦ := 𝑇 ′ where 𝑇 = 𝑇 ′ ?, with each Stream(𝑋 ) in 𝑇 ′ replaced by           which the run declaration draws from 𝑠, and, for each 𝑎 ∈ 𝑃, 𝜋 (𝑎)
+Endless(𝑋 ), the type Endless(X) ::= [X Endless(X)]|, so that                 is a stochastic person over 𝐷 of the role of ℎ𝑎 , 𝑠𝑎 an integer and 𝑔𝑎
+a person procedure ends no stream, as a person on the phone ends              a goal of 𝑀, its initial goal, with 𝑔𝑎′ the goal 𝑔𝑎 extended with an
+none; a person procedure of 𝑇 in an sGLP program 𝑁 is a procedure 𝑝           ask stream 𝑈𝑎 , as in ⌈𝑀⌉. Where 𝑀 defines Output (Appendix E),
+of 𝑁 declared procedure 𝑝 (𝑇 ◦ , Person?, Integer?); and a person             𝑂𝑎 is a writer of 𝑔𝑎 of type Stream(Output), given with 𝑔𝑎 as the
+declaration is a pair (𝑇 , 𝑝), written 𝑇 =::= 𝑝, of an interactive type       program’s output to its person, its reader occurring nowhere in 𝑔𝑎 ;
+𝑇 ∈ T (𝑀) and a person procedure 𝑝 of 𝑇 .                                     where 𝑀 does not, 𝑂𝑎 ? stands for [] and Output for a type of no
+                                                                              term.
+   The person’s end of an interactive variable is of the dual type, and          A Communicate removes the assignment it delivers from the
+a person procedure takes a copy of it, of the same type, the person           readers substitution of its agent (Definition E.7). For the rest of the
+and a seed. A person procedure, and a procedure it calls, may call            section, the term assigned to a reader is the term of the assignment
+the goal seen(𝐿), which assigns 𝐿 the elements of the program’s               a transition of the run added to it, whether or not a Communicate
+output that the person has seen, the last first (Definition 3.8).             has since delivered it; the readers substitution 𝜎𝑎 of an agent 𝑎 in a
+   Definition 3.3 (Profile, Dimension). A profile over 𝑀 is a triple          configuration holds the assignments not yet delivered.
+𝜙 = (name, 𝑁 , Δ) of a name, an sGLP program 𝑁 and a finite set Δ                Definition 3.6 (Copy, Received). For 𝑇 ∈ T (𝑀), 𝑡 the functor
+of person declarations with distinct interactive types, each naming           ⌈𝑀⌉ gives 𝑇 (the canonical compilation, Appendix E), and relay𝑇 a
+a person procedure of 𝑁 , T (𝜙) being the set of those types; a               procedure declared procedure relay𝑇 (𝑇 ◦ , 𝑇 ), let relay𝑇 (𝑅, 𝑌 ) be
+dimension over 𝑀 is a triple (𝑑, 𝜌, Φ) of a name, a role and a finite         a goal with 𝑅 the person’s end 𝑋 of the interactive variable of an
+set Φ of profiles over 𝑀 with one set of interactive types, T (Φ); and        ask ask(𝑇 , 𝑡(𝑋 )), a writer whose reader the person’s end 𝑋 is
+dimensions over 𝑀 are disjoint and covering if, for each role 𝜌 of            assigned, or a reader assigned one of these, and 𝑌 one end of a fresh
+                                                                          3
+                                                                                                                                               Ehud Shapiro
+
+
+variable pair, the copy, whose other end is of type 𝑇 ◦ . A variable              stream, which its clauses give the calls in their bodies as the clauses
+is received through 𝑅 if it is 𝑅, a variable of a term assigned to a              of ⌈𝑀⌉ give ask streams (Appendix E); the screened seen has the
+variable so received, or the pair of one, and is of the copy if it is 𝑌 , a       clause seen(L?, [seen(L)]).
+variable of a term assigned to a variable of the copy, or the pair of
+                                                                                      The screen holds the program’s output to its person and shows
+one.
+                                                                                  its elements in order, each once it is ground, as construct 0 draws
+    Definition 3.7 (Relay). The goal relay𝑇 (𝑅, 𝑌 ) is a relay if each            them. A goal seen(𝐿) of a person’s program sends the screen a
+reduction of it and of the goals descended from it (i) assigns a                  request on its screen stream, and the screen assigns 𝐿 at once the
+variable received through 𝑅 only where it is a writer at a position               elements it has shown, the last first.
+the person writes, and then either the reader of a fresh writer, which               Definition 3.9 (Person Process). The person process of a stochastic
+takes the place of the writer assigned, or its answer, at most one                person 𝜙 over 𝐷 is the procedure person𝜙 , written person_phi,
+answer: where the writer’s place in the copy holds a term ground                  with the declaration and the first clause
+but for variables at its stream and list positions and at the positions
+                                                                                  procedure person_phi(Stream(A)?, Person?,
+the program writes, a list cell where the writer is of a stream type
+                                                                                                               Stream(Seen), Integer?).
+and a list cell or [] where it is of a list type, that term with a
+                                                                                  person_phi([], _, [], _).
+fresh reader at each stream and list position the person writes, but
+where the copy ends a list there with [], and a fresh writer at each              and, for each person declaration (𝑇 , 𝑝) of a profile of 𝜙, 𝑡 the functor
+outermost position the program writes; (ii) assigns a variable of the             ⌈𝑀⌉ gives 𝑇 , the clause
+copy at a position the program writes either the reader of a fresh                person_phi([ask(T, t(E))|As], H, R?, S) :-
+writer, which takes the place of the variable assigned, or, only at                    ground(H?) |
+the place of a reader received through 𝑅 whose term, each reader                       split_random_seed(S?, K, S1),
+in it replaced, repeatedly, by the term assigned to it, has no reader,                 p(Y?, H?, K?, R1), relay_T(E?, Y),
+once Communicates have delivered the assignments of that reader                        merge(R1?, R2?, R), person_phi(As?, H?, R2, S1?).
+and of each reader so replaced to the relay or goals descended from               with 𝑝 the procedure of the screened form of the profile’s program,
+it, at one such place in a reduction and at none in a reduction that              E and E?, and Y and Y?, exchanged where 𝑇 is in reader mode,
+answers, and then with that term, each writer in it replaced by a                 where the clause assigns the writer the ask carries the reader E?,
+fresh writer, that reader and each reader so replaced being then                  so that E takes its place, and relay𝑇 being a procedure whose goals
+presented; (iii) puts no variable received through 𝑅 in a term it                 relay𝑇 (𝑅, 𝑌 ) are relays (Definition 3.7), its predicate and those of
+assigns to a variable of the copy; and (iv) passes on to the goals it             the procedures it reaches distinct from those of ⌈𝑀⌉ and of the
+spawns each variable received through 𝑅 that its goal holds and                   profiles’ programs.
+does not assign, and the writer of each fresh reader and the reader
+                                                                                     The end the ask carries is the writer where 𝑇 is in reader mode
+of each fresh writer it assigns a received variable with.
+                                                                                  and the reader where it is in writer mode (the asking clause, Ap-
+   A relay holds the person’s end of a question, shows the copy the               pendix E). On each ask the person process hands the person’s end
+program’s output once it is written whole, as a construct process                 of the question to the relay it spawns, and the other end of the
+draws it, and passes the copy’s answer on to the program once it is               copy to the person procedure its profile declares for the question’s
+complete, as a construct process forms an answer from the person’s                type, with the person, a seed split from its own and a screen stream,
+input; an answer of a stream or a list type is passed on one element              which it merges into the screen’s.
+at a time. A writer passes from goal to goal of a relay as GLP passes
+                                                                                     Definition 3.10 (Simulation Program). The simulation program of
+any writer on, by the reader of a fresh writer that takes its place.
+                                                                                  (𝑀, 𝑃, 𝜋) is the sGLP program 𝑁 whose clauses are those of ⌈𝑀⌉
+   Definition 3.8 (Screen, Seen). The screen is the procedure screen              other than the construct processes’ and the dispatcher’s; those of the
+with the declaration and the clauses                                              screened forms of the programs of the profiles of 𝜋 (𝑎) for every 𝑎 ∈
+Seen ::= seen(List(Output)?).                                                     𝑃; those of person𝜋 (𝑎) for every 𝑎 ∈ 𝑃, with the procedures relay𝑇
+procedure screen(Stream(Output)?, List(Output)?,                                  they call and the procedures these reach; and those of screen,
+                       Stream(Seen)?).                                            the screened seen and merge; and whose initial configuration 𝑐 0
+screen([E|O], Os, Rs) :-                                                          has at each 𝑎 ∈ 𝑃 the resolvent ({𝑔𝑎′ , person𝜋 (𝑎) (𝑈𝑎 ?, ℎ𝑎 , 𝑅𝑎 , 𝑠𝑎 ),
+       ground(E?) | screen(O?, [E?|Os?], Rs?).                                    screen(𝑂𝑎 ?, [], 𝑅𝑎 ?)}, ∅), 𝑅𝑎 a writer occurring nowhere else.
+screen(O, Os, [seen(Os?)|Rs]) :-                                                      A stochastic agent is an agent of the sGLP transition system over
+       ground(Os?) | screen(O?, Os?, Rs?).                                        𝑃, 𝑁 and 𝑐 0 : it runs the platform’s program as the phone does,
+screen([], _, []).                                                                with the person process, the relays, the screen and the programs
+a reduction of a goal of it by the first clause showing the element               of its stochastic person in place of the dispatcher, the construct
+E. A procedure of an sGLP program reaches the screen if it is seen,               processes and the person behind them. A run declaration run . . .
+declared procedure seen(List(Output)), which a profile’s pro-                     [. . .] until 𝑇 seed 𝑠 runs the simulation program of 𝑀 over the
+gram may call and does not define, or a person procedure, or a clause             agents of the persons its census draws, with the stochastic persons
+of it calls a procedure that reaches the screen; and the screened form            and seeds its population draws from 𝑠, until the simulated clock
+of an sGLP program has each procedure that reaches the screen                     reaches 𝑇 ; the initial goal of each agent is stated with the program,
+with one more argument, last, of type Stream(Seen), its screen                    as Sections 5 and 6 state theirs. A person’s first acts — befriending
+                                                                              4
+simulating people
+
+
+the persons they know at the start, say — are their answers to the                      compiled goals, with the person goals in the place of the construct
+program’s first questions, given as every answer is. Every seed of                      processes and the dispatcher.
+a run is split from the population’s seed, so the draws of a run
+are reproducible from that seed, and the run itself is reproducible                        Definition 3.14 (Simulation Mapping). The simulation mapping 𝜎
+where the machine’s schedule is deterministic. For the rest of the                      of 𝑟 takes a configuration (𝑐, 𝑡, 𝛼) of 𝑟 , with 𝜎𝑎 the readers substitu-
+section, 𝑟 = (𝑐 1, 𝑡 1, 𝛼 1 ), (𝑐 2, 𝑡 2, 𝛼 2 ), . . . is an sGLP run of 𝑁 over 𝑃       tion of 𝑎 in 𝑐, to the configuration of the vmaGLP transition system
+from 𝑐 0 .                                                                              over 𝑃 and 𝑀 with, at each agent 𝑎 ∈ 𝑃, the agent state (𝐻, 𝐺, 𝜎𝑟 ):
+                                                                                              • 𝐺 = the multiset of the platform goals of 𝑎 in 𝑐, each read
+    Definition 3.11 (Platform Goal, Person Goal, Screen of an Agent). A                         back to its source with its ask stream dropped: 𝑞(𝑆 1, . . . , 𝑆𝑛 , 𝐷)
+goal in a resolvent of 𝑟 is a person goal if it is the goal person𝜋 (𝑎) (𝑈𝑎 ?,                  as the 𝑛-ary goal 𝑞(𝑆 1, . . . , 𝑆𝑛 ), 𝑞 1 (𝑆 1, . . . , 𝑆𝑛 , 𝑋 ?, 𝐷), and
+ℎ𝑎 , 𝑅𝑎 , 𝑠𝑎 ) or the goal screen(𝑂𝑎 ?, [], 𝑅𝑎 ?) of 𝑐 0 , for some 𝑎 ∈ 𝑃, or                   𝑞 1 (𝑆 1, . . . , 𝑆𝑛 , 𝑋, 𝐷) as the asked goal, with the identifier of
+a goal a Reduce of a person goal spawns, and a platform goal oth-                               the goal its asking clause reduced, and any other platform
+erwise; and the screen of 𝑎 is that goal of screen and each goal of                             goal as itself; the merge goals the compilation adds and the
+screen a Reduce of the screen of 𝑎 spawns.                                                      person goals contributing nothing; and in every goal an
+                                                                                                asking clause’s pair for an argument read as that argument,
+    Definition 3.12 (Interactive Variable, Interface Variable, Ask-Stream
+                                                                                                as in Definition E.21, and a writer of 𝐼𝑏 , for any 𝑏 ∈ 𝑃,
+Variable, Question of a Writer). The interactive variables of an agent
+                                                                                                and its reader read as its question and its question’s reader
+𝑎 in 𝑟 are the variables 𝑋 of the asks ask(𝑇 , 𝑡(𝑋 )) written by
+                                                                                                (Definition 3.12);
+the reductions of asking clauses at 𝑎 in 𝑟 ; the interface variables
+                                                                                              • 𝐻 = the variables of 𝐼𝑎 that occur in a person goal of 𝑎
+𝐼𝑎 of 𝑎 in 𝑟 form the least set closed under pairs that contains the
+                                                                                                other than its screen or in a merge goal the compilation
+interactive variables of 𝑎 and the variables of every term assigned,
+                                                                                                adds of 𝑎, in 𝑐, in a term of an assignment of 𝜎𝑎 to an ask-
+by a transition 𝑐 𝑖 → 𝑐 𝑖+1 of 𝑟 , to a writer 𝑋 ∈ 𝐼𝑎 ; the ask-stream
+                                                                                                stream variable that no Communicate of 𝑟 up to (𝑐, 𝑡, 𝛼)
+variables of 𝑎 are the variables at the ask-stream argument of a
+                                                                                                has delivered, or in a term of an assignment other than
+platform goal of 𝑎 and at the arguments of the merge goals the
+                                                                                                an answer that a Reduce of a person goal added to 𝜎𝑎 for
+compilation adds, in a configuration of 𝑟 , the variables a merge
+                                                                                                a reader a person goal of 𝑎 other than its screen holds,
+clause binds to the elements it moves, and the tail variable of each
+                                                                                                but, for each reader 𝑍 ? of 𝐼𝑎 at a position the program
+list assigned to one of them; the question of a writer of 𝐼𝑎 is the
+                                                                                                writes that is received through the 𝑅 of a relay of 𝑎 by the
+question of the writer whose place it takes (Definitions 3.7 and 3.9),
+                                                                                                assignments of 𝑐 (Definition 3.6), is not presented up to
+where it takes one, and the writer itself otherwise.
+                                                                                                (𝑐, 𝑡, 𝛼) (Definition 3.7) and is in the contents of no other
+    Definition 3.13 (Log). For 𝑖 ≥ 1 and 𝑎 ∈ 𝑃, let 𝜃𝑖 be the restriction                       such reader — the term assigned to it in 𝑐, the contents
+to 𝐼𝑎 of the assignments the transition 𝑐 𝑖 → 𝑐 𝑖+1 adds at 𝑎 but                               of the readers in that term, and the writers that take the
+for those by which a writer takes another’s place, each read as an                              place of a writer in them, repeatedly — 𝑍 ? itself and none
+assignment to the question of its writer, the identity substitution                             of the variables of its contents; read as in 𝐺, each with its
+where it adds none; the transition is logged if it is a Reduce of a                             type, a writer where the person writes and a reader where
+person goal of 𝑎 and 𝜃𝑖 is not the identity, its entries being the triples                      the program writes; and, for each reader of 𝐼𝑎 at whose
+(𝑡𝑖 , 𝑎, 𝑠{𝑋 := 𝑣 }) for the assignments 𝑋 ? := 𝑣 of 𝜃𝑖 , 𝑠 being the term                      place a relay of 𝑎 has assigned the copy up to (𝑐, 𝑡, 𝛼), its
+in which 𝑋 was handed to the person — the ask’s term where 𝑋                                    assignment with the term of Definition 3.7 (ii), its writers
+is an interactive variable, the term of Definition 3.7 (ii), its writers                        not replaced, shown;
+not replaced, with which a relay of 𝑎 assigned the copy, where 𝑋 is                           • 𝜎𝑟 = the assignments added by a Reduce of a platform goal
+among its variables, and 𝑋 itself where a person goal introduced                                of 𝑎 to variables other than ask-stream variables and the
+it — and every variable of 𝑠{𝑋 := 𝑣 } replaced by the anonymous                                 variables of the pairs by which an asking clause passes its
+variable, or if it is a Reduce of the screen of 𝑎 showing an element                            arguments on, an asking clause’s assignment 𝑊 ? := 𝑆𝑙 ? of
+𝑒, its entry being (𝑡𝑖 , 𝑎, output(𝑒)); and the log of 𝑟 is the sequence                        an output position read through as in Definition E.23, and
+of the entries of its logged transitions, in the order of 𝑟 .                                   the answers added by a Reduce of a person goal of 𝑎 to
+                                                                                                writers of 𝐼𝑎 , read as in 𝐺: each while it is in 𝜎𝑎 , and, where
+   An entry of the log is an answer with the question it answers,                               a Communicate delivered it to a person goal of an agent,
+as the person was shown it, the positions still open anonymous, or                              until the reader it assigns is presented (Definition 3.7), a
+an element of the program’s output, as the person was shown it,                                 reader a screen holds being never presented.
+so the log is what the people were asked, what they were shown                          𝜎 (𝑟 ) is as in Definition E.2.
+and what they answered, one entry per answer and per element
+shown, an answer of a stream type one element at a time; a run                             A screen contributes nothing to 𝜎, so its showing an element
+adds nothing to the program it runs. Reading the logs and analysing                     is a stutter; the element is in 𝜎𝑟 , added by the platform goal that
+the runs — counting, aggregating, comparing populations, plotting                       wrote it.
+— is separate software, outside the language and outside this paper.                       Let 𝑟 be an sGLP run of the simulation program 𝑁 of (𝑀, 𝑃, 𝜋)
+   A simulated run is a run of the platform. The mapping that                           over 𝑃 from its initial configuration 𝑐 0 , 𝜋 over a well-formed popu-
+says so reads the platform’s configuration off the platform goals,                      lation, and 𝜎 the simulation mapping of 𝑟 .
+as vGLP’s compilation mapping (Definition E.21) reads it off the
+                                                                                    5
+                                                                                                                                         Ehud Shapiro
+
+
+   Theorem 3.15 (Soundness). 𝜎 (𝑟 ) is a proper safe computation             rated goal spawned has made its token pending, so the queue is
+of the vmaGLP transition system over 𝑃 and 𝑀 from 𝜎 (𝑐 0 ) in which          that of the configuration, and the step releases the least activation
+every Answer is the image of a Reduce of a person goal.                      time, which is Release. A released step is followed by the next; a
+                                                                             stopped step, the least activation time being past the horizon or
+   Corollary 3.16. Where every 𝑔𝑎 is the initial goal
+                                                                             no token pending at rest, ends the monitor, which writes the clock.
+agent(ch(_?,_),ch(_?,_)) of 𝑀, with 𝑂𝑎 one of its writers where
+                                                                             Its input is one stream, a mutual reference of GLP’s into which
+𝑀 defines Output, 𝜎 (𝑟 ) is a proper safe run of the vmaGLP transition
+                                                                             the person processes and the screens append the request time(T),
+system over 𝑃 and 𝑀.
+                                                                             which it answers at once from the clock. The module is Appendix C.
+   The proofs are in Appendix A. What a simulation reports is                The transformation. A profile is translated into GLP: its person
+therefore something the deployed platform can do, with the people’s          procedures take one more argument, the screen’s reference, which
+answers given by the stochastic agents: a person procedure’s goal            the procedures they call that reach the screen (Definition 3.8) take as
+computes the answer into its copy of the question, and the relay             well; a goal seen(L) becomes the request seen(L) appended to that
+assigns the program’s variable with it. Simulated time advances only         reference; and a rated goal G @ r becomes the goal rated(R, Tok),
+at a Release, and ⌈𝑀⌉ has no rated goal, so it advances only with            R the rate r as a number a second, followed by G with Tok? as
+the persons’ acts. The converse — that every run of the platform             an added first argument, matched by a clause that takes the goal
+is the image of a simulated run under some population — is not               only once the engine has bound the token to go(T) and by one
+claimed: a simulation shows what its profiles do.                            that ends it once the engine has bound it to stop, a rated goal’s
+                                                                             procedure taking inputs only, which the transformation checks; a
+4   IMPLEMENTATION                                                           rated goal that writes an answer receives its writer inside a term
+sGLP is implemented in GLP by Gillespie’s method [10], as the                it reads. A person declaration T =::= p becomes a clause of the
+stochastic pi-calculus was implemented in Flat Concurrent Pro-               person process, and the run declaration becomes the initial goals
+log [24, 25, 39]: by a transformation of sGLP programs into GLP, a           of the run, with the census it names. The transformation is a GLP
+monitor process written in GLP, and two things from the machine,             program: it reads an sGLP program in a term form, one GLP term
+a simulated clock with its queue of pending goals, and a guard that          per declaration and clause, checks that the dimensions, profiles
+succeeds when the machine has come to rest. The compiler and the             and distributions of its population are well formed (Section 3), and
+type checker of GLP [36] are not changed; the engine has the clock           prints GLP source, as the compiler of grassroots social contracts
+and the queue [34], as the emulator of Flat Concurrent Prolog had            reads contracts [11]; the syntax printed in this paper is the surface
+them for the stochastic pi-calculus [24].                                    form of that term form. The profiles and populations of Sections 5
+The guard. A machine step carries no simulated time, so the clock            and 6 are translated by it; the vGLP program’s compilation and
+may move only when no transition of the machine is possible; with            the harness of a run are written by hand. GLP’s own Goal@Agent,
+no way to learn that, the monitor cannot know when to move it.               which places a goal at an agent in a boot clause, is untouched.
+GLP has the guard when_idle, which suspends while the machine
+                                                                             The person process. In vGLP’s canonical compilation an asking
+has a Reduce or a Communicate to make and succeeds when it has
+                                                                             clause writes an ask — the question’s interactive type and the
+none [34]. It is sound for one machine and not for many — in a mul-
+                                                                             person’s end of its variable — on an ask stream that the compiler
+tiagent system a communication changes an agent’s configuration
+                                                                             threads through every procedure that reaches a question, and the
+without that agent taking a transition — which is why the simulator
+                                                                             dispatcher, reading the initial goal’s ask stream, spawns on each
+hosts the whole population in one machine. SpiFcp’s monitor did
+                                                                             ask the construct process that has the bridge draw the widget [38].
+the same, waiting on the Logix system’s idle_wait before its next
+                                                                             In a simulation the dispatcher’s place is taken by a GLP process, the
+draw [39].
+                                                                             person process of the agent: it holds the agent’s person, its stochastic
+The clock. GLP’s engine has a simulated clock, in seconds, and               person, one profile per dimension of its role, and a seed, and on each
+a queue of pending tokens, each with an activation time, and                 ask it spawns the goal 𝑝 (𝑌, 𝐻, 𝑆, Scr) of the person procedure 𝑝 that
+three body goals over them [34]: start_clock(Seed) sets the                  its profile declares for the type, with 𝑌 the person goal’s end of a
+clock to zero and seeds the clock’s generator; rated(Rate, Tok)              copy of the question, 𝐻 the agent’s person, 𝑆 a seed it splits from
+makes the token Tok pending at the clock plus a delay drawn                  its own, and Scr the reference of the agent’s screen, and the relay of
+from the exponential distribution with rate Rate a second; and               the question (Definition 3.7), its answer and present procedures, by
+step_clock(Horizon, Step), where a token is pending whose                    the question’s moded type. The person goal answers into its copy,
+activation time 𝑇 is the least and at most the horizon, sets the clock       and the relay hands the program’s variable the answer once the
+to 𝑇 , binds that token to go(𝑇 ) and Step to released(𝑇 ), two              positions the person writes are ground but for those of a stream or
+tokens of one time released in the order they were made pend-                a list, which it hands over one element at a time, with fresh writers
+ing, and otherwise binds every pending token to stop and Step to             at the outermost positions the program writes, whose readers it
+stopped(𝐶), 𝐶 the clock. This is Gillespie’s algorithm [10] in its           keeps, showing the person goal the program’s terms there the same
+first reaction form (Section 2): the time is drawn when the goal is          way — vGLP’s Answer, which waits on nothing the program writes
+spawned, and the earliest is released.                                       — and that is how the person process comes to log it. The other way,
+The monitor. The monitor is a GLP goal holding the clock of                  the relay shows the person goal the question once the positions
+the last step and the run’s horizon. Its step clause is guarded by           the program writes are ground, the positions the person writes
+when_idle and calls step_clock: when the machine rests, every                inside them left open, each answered as a question of its own —
+                                                                         6
+simulating people
+
+
+vGLP’s Communicate of the program’s output to the person. Every              30/minute and 3600/hour and nothing else, the first 10,000 times be-
+term crossing between the program and the person goal, in either             tween releases have mean 0.2175 s and variance 0.04677 s2 , against
+direction and at every depth, crosses the relay so, a question the           1/4.5 = 0.2222 and 1/4.52 = 0.04938 of Proposition 2.5, 2.1% and
+program puts inside an answer included. The platform’s program               5.3% under.
+compiles as for the phone.                                                   The cost. Measured on one machine, under the load of other work,
+The screen. The agent’s screen is a GLP goal holding the reader              the social graph of Section 5 at its mix: 100 agents for a year is
+of the program’s output to its person, which vGLP’s compilation              15,055 answers in 26 s of wall-clock time, 1.7 ms an answer, at 85
+draws as construct 0: it shows its elements in order, each once              MiB; 30 days at 100, 200 and 500 agents take 1.9, 2.1 and 3.2 s, 19,
+it is ground, keeps the elements it has shown, the last first, and           11 and 6 ms an agent and 1.5, 0.9 and 0.5 ms an answer, at 85 to 89
+answers each request seen(L) at once with them (Definition 3.8).             MiB. On a second machine, about half as fast and with no other
+The requests of the agent’s person goals reach it by the screen’s            work, 1,000 agents for a year is 146,881 answers in 10,004 s, 68 ms
+reference, a mutual reference, as the time requests reach the monitor.       an answer, at 888 MiB at the peak, the memory growing through
+A program that writes nothing to its person has a screen that shows          the year. The draw of a population of 100 costs about 4 s besides.
+nothing.                                                                     How it was built. The implementation — the monitor, the person
+                                                                             process, the two translations, the harnesses, the replays and the
+The run. The population runs as one program in one machine, and
+                                                                             tests — was written by Claude (Anthropic) from this paper, by the
+an agent is an attribution: its initial goal as the program states it,
+                                                                             Human–Science–AI methodology [11, 36]: the paper is the source
+with the agent’s number and the lists it is created with, its person
+                                                                             of authority for coding, and every gap coding found was repaired
+process, its screen, and what they spawn. The agents are numbered
+                                                                             in the paper before it was repaired in the code; the runs’ analyses
+1, . . . , 𝑛, in the order of the persons the census draws. The har-
+                                                                             and the figures were made the same way.
+ness’s goals are the network between the agents, a mutual-write
+merge of their output streams and a tree of routing goals deliver-
+ing each message to the input stream of the agent it names, and
+                                                                             5    EXAMPLE: THE GRASSROOTS SOCIAL
+the monitor. Every seed of the run is split from the run’s seed by                GRAPH
+split_random_seed (Section 2): one for the clock, which the mon-             The platform’s agent offers friendship to a peer its person picks,
+itor gives start_clock; one for the census, where the run names              and asks its person to approve each offer that arrives. The agents
+one; one for each agent, from which it draws its profiles, one per           are numbered 1 to 𝑛; the first half are male and the rest female.
+dimension of its role, and splits its person process’s seed; and, in         Each agent is created knowing two other agents of its sex and two
+a person process, one for each person goal. So the draws of the              of the other sex, drawn from the run’s seed, and starts by asking its
+clock, the census, the agents and the person goals are independent           person the first menu, by its exported procedure start; it comes
+streams, and the run is reproducible where the machine’s schedule            to know other people through its friends.
+is deterministic, as GLP’s is.                                               Peer    ::= Constant.
+                                                                             YesNo   ::= yes ; no.
+The log. The person process and the screen write the log of their
+                                                                             Peers   ::= [Peer | List(Peer)].
+agent: one line for each answer a relay hands the program, with              Choice ::= same(Peer) ; other(Peer).
+the simulated time, which they ask of the monitor, the agent, the in-        Menu    ::= menu(Peers, Peers, Choice?).
+teractive type and the term handed over, the positions the program           Approval ::= approval(Peer, YesNo?).
+writes as variables; and one line for each element of the output the
+screen shows, with the simulated time, the agent and the element.            %% Show the person both lists, and hand them the choice.
+Every answer crosses a relay and every element shown crosses the             procedure (Menu)*ask(Peers?, Peers?, Choice).
+screen. The harness names the log’s sink when the run starts.                (menu(Ss?, Os?, C))*ask(Ss, Os, C?).
+   The implementation decisions beyond Sections 2 and 3 are in
+                                                                             %% Show the person who offers, and hand them yes or no.
+Appendix B. We claim, informally, that a run of the transformed
+                                                                             procedure (Approval)*respond(Peer?, YesNo).
+program, up to the monitor’s stop, is an sGLP run of the simulation
+                                                                             (approval(From?, A))*respond(From, A?).
+program: the transformed clauses reduce as the source clauses do, a
+rated goal’s token is bound only by step_clock, which the monitor               The agent’s own question is Menu, in writer mode: ask writes
+calls only when when_idle has succeeded, which is quiescence,                the two lists at once, the people the agent knows when it asks, of
+and which releases the least activation time, which is Release; the          its sex and of the other, and hands the person the choice, which
+screen’s reference merges the requests of the person goals as the            stays open while offers come and go, and each offer the person
+screen streams do; and the monitor’s reductions, the harness’s, and          makes is followed by a new menu. An arriving offer is Approval,
+those of the person process and of the screen that ask the clock and         also in writer mode: respond shows the person who offers and
+write the log are stutters.                                                  hands them yes or no, and a yes is sent back when they give it. The
+                                                                             agent’s clauses, in the repository1 , send an offer to the peer the
+The claim, tested. Two tests in the repository check the claim               person picks and ask again, the offer saying whether the two are of
+where it bites. With a rated goal and an unrated goal that runs              one sex, which the agent knows by the list it was picked from; ask
+on, the unrated goal runs to rest before the rated one is released,          the person to approve each offer that arrives, and send the offerer
+whichever is spawned first: when_idle succeeds at quiescence and
+not before. With four pending tokens of rates 1/second, 2/second,            1 https://github.com/EShapiro2/GLP, directory programs/sglp.
+
+                                                                         7
+                                                                                                                                                  Ehud Shapiro
+
+
+the person’s yes, a no sending nothing; and on a yes the two agents
+                                                                                                  seed 20260927
+send each other their friends, by sex, and each adds to the people it
+knows the other and the other’s friends, but for itself and those it
+                                                                                    2000          seed 1
+knows already. A person thus meets people through their friends,
+                                                                                                                                         all edges
+and the next menu shows them; the friends a friend makes later are                  1500
+
+
+
+
+                                                                            edges
+not sent. Both interactive types are in writer mode, so their person
+                                                                                                                                         within a sex
+                                                                                    1000
+procedures take readers.
+    The profiles are two dimensions of two. one_of(Xs?, S?, X)
+draws X uniformly from the list Xs by random from the seed S, the
+                                                                                                                                         across the sexes
+list being non-empty by its type, as Peers is; it is ordinary GLP, in                500
+the repository.
+person homophile.
+Menu =::= homophile_menu.                                                              0
+procedure homophile_menu(Menu?, Person?, Integer?).                                        0     2     4     6 8             10         12
+homophile_menu(M, _, S) :-                                                                                 month
+    random(S?, 100, K, S1), pick(K?, S1?, M?) @ 1/week.
+procedure pick(Integer?, Integer?, Menu?).
+                                                                            Figure 1: The edges of the friendship graph at the end of
+pick(K, S, menu(Ss, _, same(P?))) :-
+                                                                            each month, in two runs of 100 agents for one year: all edges,
+    K? =< 98, ground(Ss?) | one_of(Ss?, S?, P).
+pick(K, S, menu(_, Os, other(P?))) :-                                       those within a sex and those across the sexes.
+    K? > 98, ground(Os?) | one_of(Os?, S?, P).
+                                                                            Table 1: The friendship graph at the end of the year by the
+person wary.                                                                mix of profiles, 100 agents, over the seeds 1 to 20: the edges
+Approval =::= wary_approval.
+                                                                            and those across the sexes, mean ± standard deviation, and
+procedure wary_approval(Approval?, Person?, Integer?).
+                                                                            the month by whose end the graph is one component, mean
+wary_approval(C, _, S) :-
+    random(S?, 100, K, _), answer(K?, C?) @ 1/day.                          and latest; ∗ over the 19 runs in which it is one by the end of
+procedure answer(Integer?, Approval?).                                      the year.
+answer(K, approval(_, yes)) :- K? =< 20 | true.
+answer(K, approval(_, no)) :- K? > 20 | true.                                       homophile   wary        edges    across the sexes        one by month
+                                                                                    none        none    4,170 ± 30        2,101 ± 21                1.0, 1
+run 100 agents                                                                      none        70%    2,568 ± 151        1,291 ± 74                1.9, 3
+    [ approach ~ (homophile : 0.6 ; indifferent : 0.4),                             none        all     1,538 ± 38          769 ± 26                2.5, 4
+      response ~ (wary : 0.7 ; sociable : 0.3) ]                                    60%         none   3,128 ± 114       1,085 ± 104                1.2, 2
+                                                                                                       1,821 ± 157          590 ± 85
+    until 1 year seed 20260927.                                                     60%         70%                                                 3.3, 6
+                                                                                    60%         all     1,036 ± 64          328 ± 44                4.0, 6
+   A homophile answers a menu after a week on average, from                         all         none    2,108 ± 25           88 ± 12                1.3, 2
+                                                                                    all         70%     1,221 ± 81            45 ± 6               3.7, 6∗
+when it is asked, and picks a peer of their own sex 98 times in                     all         all       668 ± 24            21 ± 5                4.9, 7
+100, uniformly from the list the menu shows; the indifferent is the
+homophile at 2/week and 50. A wary person answers an offer after
+a day on average and declines four times in five; the sociable is the       edges of the friendship graph at the end of each month. At the end
+wary at 1/hour and 90. Approach and response make four profiles,            of the year the graph has 1,899 edges with seed 20260927 and 1,617
+and with sex eight kinds of agent. Each agent starts by asking its          with seed 1; it is one component from the fifth month on with seed
+person the first menu.                                                      20260927 and from the fourth with seed 1, and at the end of the
+    Definition 5.1 (Friendship Graph of a Run). The friendship graph        first month 7 agents have no friend yet with seed 20260927 and 10
+at simulated time 𝑡 of a run of this population is the graph on             with seed 1. An agent knows 13.8 other agents on average at the
+its agents 𝑃 whose edges are the {𝑎, 𝑏} for which the run’s log             end of the first month, from 4 to 30, and 97.6 of the 99 at the end of
+(Definition 3.13) has an entry (𝑡 ′, 𝑎, approval(𝑏, yes)) or an entry       the year, from 90 to 99, with seed 20260927; with seed 1, 8.8, from 4
+(𝑡 ′, 𝑏, approval(𝑎, yes)) with 𝑡 ′ < 𝑡.                                    to 19, and 96.7, from 84 to 99. Of the 2,450 pairs within a sex, 51%
+                                                                            and 45% are friends by the end of the year, and of the 2,500 pairs
+  An edge is an offer one of its two agents made and the other              across the sexes, 26% and 20%: the indifferent answer a menu twice
+approved before 𝑡.                                                          as often as the homophile, so 31% and 30% of the offers cross the
+Results. We ran this population with 100 agents for one year, with          sexes, and the edges across the sexes are 34% and 32% of the edges.
+the seeds 20260927 and 1, the first run taking 26 seconds of wall-          A yes to an offer from one who is already a friend adds no edge;
+clock time (Section 4); 58 agents drew homophile and 70 wary with           with seed 20260927 that was 985 of the 2,242 yeses within a sex and
+the first seed, 60 and 77 with the second. With seed 20260927 the           364 of the 1,006 across the sexes.
+agents answered 7,532 menus, each answer an offer sent, and 7,523           What the mix does. Table 1 has the friendship graph at the end of
+offers they were asked to approve, 3,248 of them yes; with seed 1,          the year for each mix of none, 60% or all homophile with none, 70%
+7,176 menus and 7,165 offers, 2,699 of them yes. Figure 1 shows the         or all wary, over twenty seeds, 1 to 20, the mean and the standard
+                                                                        8
+ simulating people
+
+
+                        men                        women
+              HW         HS     IW   IS   HW       HS         IW    IS        6   EXAMPLE: COINS AMONG FRIENDS
+                                                                              The second platform is coins among friends, the coins-only restric-
+                                                                              tion of grassroots currencies [29, 35]: a person’s coins are units
+        HW                                                                    of their debt, a person holds only their friends’ coins, and a swap
+                                                                              at par between friends is mutual credit. The agent’s question is a
+                                                                              menu showing its friends and its wallet and taking a request, to pay
+men
+
+
+
+
+        HS                                                                    a friend or to propose a swap to one; a friend’s proposal is put to the
+                                                                              person for approval, showing who offers how many and how many
+        IW                                                                    of that friend’s coins the person holds, and the person answers yes
+                                                                              or no. A payment sends the friend coins of their own, which they
+        IS                                                                    then no longer owe; an accepted swap issues to each party 𝐾 coins
+                                                                              of the other’s; and while a proposal waits for the person’s answer
+        HW                                                                    the agent takes neither a message nor a request. Peer, Peers and
+                                                                              YesNo are those of Section 5.
+                                                                              Holding ::= holding(Peer, Integer).
+        HS
+women
+
+
+
+
+                                                                              Wallet ::= List(Holding).
+                                                                              Request ::= pay(Peer, Integer) ; swap(Peer, Integer).
+                                                                              Menu    ::= menu(Peers, Wallet, Request?).
+        IW                                                                    Offer   ::= offer(Peer, Integer, Integer, YesNo?).
+
+        IS                                                                    %% Show the person their friends and wallet, and hand them
+                                                                              %% the request.
+                   two men    two women   a man and a woman                   procedure (Menu)*ask(Peers?, Wallet?, Request).
+                                                                              (menu(Fs?, W?, R))*ask(Fs, W, R?).
+ Figure 2: The friendship graph at the end of the year of the
+ run with seed 20260927 as an adjacency matrix, a dot per edge:               %% Show the person who offers how many, and how many of
+                                                                              %% theirs they hold; hand them yes or no.
+ blue between two men, red between two women, green be-
+                                                                              procedure (Offer)*respond(Peer?, Integer?, Integer?, YesNo).
+ tween a man and a woman. The agents are ordered by sex and                   (offer(From?, K?, Held?, A))*respond(From, K, Held, A?).
+ within a sex by profile: homophile wary (HW), homophile
+ sociable (HS), indifferent wary (IW), indifferent sociable (IS).                The agent’s clauses, in the repository, send a friend the person
+                                                                              pays what the wallet holds of that friend’s coins, up to the amount
+                                                                              asked, and ask again; send a friend the person chooses a proposal of
+ deviation of each count, and Figure 2 shows the graph of the run             𝐾 and ask again; put a proposal that arrives to the person, and on
+ with seed 20260927 by profile: a sociable agent’s row is dense, a wary       yes hold 𝐾 of the proposer’s coins and send them 𝐾 of the agent’s
+ one’s sparse, and between two homophile of different sexes there             own, on no send a decline; hold coins that arrive from a friend, and
+ is hardly an edge. The edges go from about 670 with all homophile            hold nothing for a payment, which returns the agent’s own coins;
+ and all wary to about 4,170 with none of either, the spread over             and drop the declines of their own proposals.
+ the seeds at most 9% of the mean at every mix: the homophile offer              The profiles are two dimensions of two; one_of is that of Sec-
+ half as often as the indifferent and to half the peers, and the wary         tion 5:
+ accept a fifth of the offers where the sociable accept nine in ten,          %% Pay a friend whose coins I hold one to five; holding none,
+ though many of the sociable’s yeses go to friends already, so all            %% propose a swap of ten to a friend.
+ sociable in place of all wary has four and a half times the yeses and        procedure request(Integer?, Menu?).
+ about three times the edges. With all homophile the edges across             request(S, menu(Fs, [], swap(F?, 10))) :-
+                                                                                  ground(Fs?) | one_of(Fs?, S?, F).
+ the sexes are 3% to 4% of the edges and the graph within each sex
+                                                                              request(S, menu(_, [H|Hs], pay(F?, K?))) :-
+ is near complete, 2,020 edges of the 2,450 pairs with all sociable;
+                                                                                  ground(H?), ground(Hs?) |
+ with none homophile they are half the edges. In 179 of the 180 runs              random(S?, 5, K, S1), one_of([H?|Hs?], S1?, Hd),
+ the graph is one component by the end of the year: by the end of                 issuer(Hd?, F).
+ the second month at every mix with none wary, and at the latest
+ by the seventh; in the run with all homophile, 70% wary and seed 1           person spender.
+ it is not one component by the end of the year.                              Menu =::= spender_menu.
+ Scale. The same population at 1,000 agents, 500 of each sex, seed            procedure spender_menu(Menu?, Person?, Integer?).
+                                                                              spender_menu(M, _, S) :- request(S?, M?) @ 1/day.
+ 20260927, is 146,881 answers in one simulated year, in 167 minutes
+ of wall-clock time (Section 4), 33,995 of the 73,372 offers answered         person cautious.
+ yes. The friendship graph has 28,097 edges at the end of the year,           Offer =::= cautious_offer.
+ 8,593 of them across the sexes; it is one component from the seventh         procedure cautious_offer(Offer?, Person?, Integer?).
+ month on, and at the end of the first month 62 agents have no friend         cautious_offer(O, _, _) :- weigh(O?) @ 1/hour.
+ yet.                                                                         procedure weigh(Offer?).
+                                                                          9
+                                                                                                                                                          Ehud Shapiro
+
+
+weigh(offer(_, _, Held, yes)) :- Held? =< 20 | true.                                            who holds whose coins                   credit given and received
+weigh(offer(_, _, Held, no)) :- Held? > 20 | true.                               12000                                                    issued by spenders
+                                                                                                                                          held by spenders
+run 100 agents                                                                   10000                                                    issued by savers
+    [ spending ~ (spender : 0.5 ; saver : 0.5),                                                                                           held by savers
+      credit ~ (cautious : 0.5 ; generous : 0.5) ]                               8000
+
+
+
+
+                                                                         coins
+    until 1 year seed 20260927.
+                                                                                 6000
+   A spender acts daily and a saver weekly, with the same request:
+each pays a friend whose coins they hold one to five, and holding                4000
+none proposes a swap of ten to a friend drawn from the list; issuer
+reads the issuer of a holding. The cautious accept a proposal while              2000
+holding at most twenty of the proposer’s coins, and the generous                        0
+accept one as it comes, each within an hour on average. Each agent                          0        3       6         9        12 0          3     6           9   12
+is created with its identifier, its friends in the friendship graph at                                     month                                  month
+one year of the run of Section 5, and an empty wallet, and starts by                            savers hold spenders' coins     savers hold savers' coins
+asking its person the first menu, by its exported procedure start.                              spenders hold savers' coins     spenders hold spenders' coins
+   Definition 6.1 (Wallet, Circulation). Let 𝑊𝑎 (𝑐) be the term at the
+argument of type Wallet of the goal of the procedure agent at agent           Figure 3: The run with seed 20260927, 100 agents, half
+𝑎 in a configuration 𝑐, the wallet of 𝑎 in 𝑐. The circulation at simu-        spenders and half cautious, by month. Left: the circulation
+                                             Í    Í
+lated time 𝑡 of a run 𝑟 of this population is 𝑎∈𝑃 holding(_, 𝑘)∈𝑊𝑎 (𝑐 ) 𝑘,    by who holds whose coins. Right: the coins issued by the
+𝑐 the last configuration of 𝑟 with simulated time at most 𝑡.                  spenders and by the savers, and those held by each — the
+                                                                              credit each profile has given and received.
+    The configuration 𝑐 is quiescent, the clock advancing only at
+a Release (Definition 2.3), so every wallet in it is ground. Every
+holding is of another’s coins, so the circulation is the debt the                                                             issuer
+agents hold of one another.                                                                        SpC              SpG                 SaG              SaC
+Results. We ran this population with 100 agents for one year over
+the friendship graph at one year of Section 5’s run of the same seed,
+with the seeds 20260927 and 1 (1,899 and 1,617 edges). With seed                        SaG
+20260927 the agents paid 17,334 times and proposed 2,929 swaps,
+2,859 accepted and 70 declined; with seed 1, 18,222 pays and 3,121
+proposals, 3,046 accepted and 75 declined. An accepted swap of ten
+issues twenty coins and a payment returns what it pays to its issuer,                   SaC
+so the circulation is what has been issued less what has been paid:
+                                                                                   holder
+
+
+
+
+it is 2,987 and 2,830 coins at the end of the first month and grows
+by about 670 and 820 a month to 10,327 and 11,862 at the end of
+the year, held in 726 and 701 holdings by 96 of the 100 agents in
+                                                                                        SpC
+both runs. The cautious decline a proposal from a friend of whose
+coins they hold more than twenty, so declines come as holdings
+grow: 70 of the 2,929 proposals were declined with seed 20260927,
+65 of them in the second half of the year. Figure 3 shows who holds
+                                                                                        SpG
+whose coins in the run with seed 20260927, in which 48 agents drew
+spender and 47 cautious: at the end of the year 9,685 of the 10,327
+coins are spenders’ coins in savers’ wallets, the spenders having
+issued 10,061 of the coins out and the savers holding 9,742 of them,
+and the two run together from the first month; the other three
+pairs hold about 640 between them. Figure 4 shows the holdings                                             1   10 20 30 40 50 60                  85
+                                                                                                                           coins held
+one by one at the end of that year: the generous savers hold 6,738
+coins and the cautious savers 3,004, where no cautious holding                Figure 4: Who holds whose coins at the end of the year of
+passes thirty, since the cautious decline above twenty; the cautious          the run with seed 20260927: holders by row, issuers by col-
+spenders have 5,376 coins out and the generous spenders 4,685; and            umn, a cell the coins held, white where none. The agents are
+the two spender profiles hold about 590 between them.                         ordered by profile — spender (Sp) or saver (Sa), cautious (C)
+What the mix does. Table 2 has the circulation at the end of the              or generous (G) — the holders’ profiles by the coins they hold
+year for each mix of none, half or all spenders with none, half or            and the issuers’ by the coins they have out, most first.
+all cautious, over the seeds 1 to 20, each over the friendship graph
+of Section 5’s run of the same seed, and Figure 5 the circulation
+by month with half cautious, for the two seeds of the figures. The            circulation is highest where spenders and savers mix: about 11,200
+                                                                         10
+   simulating people
+
+
+   Table 2: Coins among friends at the end of the year by the                                         and the testing of multiagent systems in simulation; simulated
+   mix of profiles, 100 agents over the friendship graphs of                                          people with designated profiles; and what the two examples study,
+   Section 5, over the seeds 1 to 20, mean ± standard deviation:                                      homophily in the formation of friendships and the circulation of
+   the circulation, the proposals made and those declined.                                            mutual credit. sGLP differs from all of them in one way: it simulates
+                                                                                                      the program the platform deploys, and its stochastic specification
+                         spenders   cautious        circulation    proposals         declined         covers the person. Appendix D expands each line.
+                         none       none            1,676 ± 108      693 ± 11                0
+                         none       half            1,676 ± 108      693 ± 11                0        Calculi and languages with rates. The stochastic pi-calculus
+                         none       all             1,676 ± 108      693 ± 11                0        attaches a rate to each prefix [23]; its biochemical variant moves
+                         half       none           11,632 ± 652   2,959 ± 151                0        the rate onto the channel and settles the race among the enabled
+                         half       half           11,229 ± 609   2,999 ± 154         68 ± 19
+                         half       all            10,072 ± 474   3,104 ± 174        242 ± 62         communications by Gillespie’s direct method [10, 24], and BioSPI
+                         all        none            1,765 ± 173    4,384 ± 27                0        implemented it in Flat Concurrent Prolog [24, 25, 27, 39], a monitor
+                         all        half            1,766 ± 173    4,383 ± 27        0.1 ± 0.2
+                         all        all             1,765 ± 191    4,384 ± 27        1.8 ± 2.5
+                                                                                                      drawing the channel and advancing the clock, as GLP’s engine
+                                                                                                      does for sGLP. The stochastic pi-machine groups identical pro-
+                                                                                                      cesses and counts the copies, and is proved reduction-equivalent
+                       12000          seed 20260927
+                                                                                                      to the calculus [22]; a later machine carries the grouping to re-
+                                                                                 half spenders        stricted channels [21]. Bio-PEPA is a stochastic process algebra
+                                      seed 1
+                       10000                                                                          with the same simulation [5], and stochastic concurrent constraint
+coins in circulation
+
+
+
+
+                                                                                                      programming attaches rates to a concurrent constraint language
+                       8000                                                                           and simulates it by Gillespie’s method [4], the nearest language to
+                                                                                                      sGLP. The grouping is not available to us, since no two agents of a
+                       6000                                                                           grassroots platform share a state; the proof we meet in the same
+                                                                                                      form, Theorem 3.15.
+                       4000
+                                                                                                      Rule-based languages. Kappa’s simulator does not count species
+                       2000                                                      all spenders         at all [7]: it over-approximates the next events, rejects the draws
+                                                                                 all savers           that apply no rule, corrects the time advance, and wakes only the
+                          0                                                                           rules a static activation relation names; in sGLP the rules are the
+                                0   2          4      6   8          10         12                    interactive types, few, and the instances the open questions, many,
+                                                    month                                             and the activation relation follows from the semantics, since a
+                                                                                                      reduction reaches one agent.
+   Figure 5: The circulation at the end of each month with half                                       Continuous-time agent-based simulation. ML3 specifies an
+   the agents cautious and none, half or all of them spenders,                                        agent by stochastic rules of a guard, a rate and an effect, alterna-
+   100 agents for one year over the friendship graphs of Sec-                                         tive decisions competing by stochastic race, and simulates by the
+   tion 5, seeds 20260927 and 1.                                                                      direct method with a dynamic dependency graph [14]; DEVS is the
+                                                                                                      discrete-event formalism such simulators rest on [41]. ML3 is the
+                                                                                                      nearest prior work to sGLP, and the difference is what is simulated:
+   coins at half and half, with a standard deviation of 610 over the seeds,                           there the rules are the model, here a vGLP program deployed as it
+   and still growing, against about 1,700 to 1,800 with all savers or all                             stands, and the stochastic specification covers the person’s answers.
+   spenders. A payment carries a friend’s own coins back to them, and
+   a spender pays daily, so with all spenders a swap’s twenty coins are                               Agent-based platforms, and testing in simulation. NetLogo,
+   paid back within days and after about 4,380 swaps about 1,770 coins                                Repast, MASON, Mesa and krABMaga schedule every agent at
+   are out; a saver pays weekly, so with all savers few swaps are made                                each step of a discrete clock [1], where a stochastic race has no
+   and few coins are out; and at half and half a saver holds for weeks                                formulation [14], and none has a place for the person. Testing
+   the coins of the spenders who pay it, which is where the circulation                               a multiagent system by simulating the code it deploys, with no
+   is. The credit dimension hardly bites at these holdings: with all                                  surrogate, is argued for BDI agents mapped onto a discrete-event
+   savers the cautious decline no proposal and with all spenders at                                   simulator [2]; there the agents are the system and no person is
+   most nine in a run, so those runs differ little whatever the credit                                simulated, where here the program is the platform’s and the person
+   mix, and only with half the agents spenders do the cautious decline                                is what is drawn.
+   many, 68 of 2,999 proposals on average, and 242 of 3,104 with all                                  Simulated people with profiles. Generative agents give each
+   cautious.                                                                                          simulated person a text persona and have a language model an-
+                                                                                                      swer for them [20], OASIS runs a million such agents on a social
+   7                   RELATED WORK                                                                   platform [40], and user simulation evaluates interactive systems by
+   Six lines of work meet here: process calculi and languages with rates,                             simulated users with personas [3, 17]. An sGLP profile is a program
+   simulated exactly; rule-based languages whose simulators do not                                    with rates, typed by the dual of the question it answers, drawn from
+   enumerate the species they generate; languages and formalisms for                                  a seed and reproducible, and the simulation is a run of the deployed
+   continuous-time agent-based simulation; the agent-based platforms                                  program; a persona is a text and its answers are a model’s.
+                                                                                                 11
+                                                                                                                                                                         Ehud Shapiro
+
+
+What the examples study. Homophily, the tendency to befriend                                     [4] Luca Bortolussi and Alberto Policriti. 2008. Modeling Biological Systems in
+one’s like, is the best-attested regularity of social networks [19],                                 Stochastic Concurrent Constraint Programming. Constraints 13, 1–2 (2008),
+                                                                                                     66–90. doi:10.1007/s10601-007-9034-8
+and Currarini, Jackson and Pin model friendship formation under it,                              [5] Federica Ciocchetta and Jane Hillston. 2009. Bio-PEPA: a Framework for the
+with the mixing set by a group’s size and bias [6]; Section 5’s runs                                 Modelling and Analysis of Biochemical Networks. Theoretical Computer Science
+                                                                                                     410, 33–34 (2009), 3065–3084.
+are such a model’s dynamics, with the bias a profile and the platform                            [6] Sergio Currarini, Matthew O. Jackson, and Paolo Pin. 2009. An Economic Model
+the one deployed. Mutual credit is studied on the Sardex network,                                    of Friendship: Homophily, Minorities, and Segregation. Econometrica 77, 4 (2009),
+its transactions’ cycles and the liquidity they save [9, 13, 16], and                                1003–1045. doi:10.3982/ECTA7528
+                                                                                                 [7] Vincent Danos, Jérôme Feret, Walter Fontana, and Jean Krivine. 2007. Scalable
+modelled for LETS [26]; Section 6 simulates coins among friends                                      Simulation of Cellular Signaling Networks. In Proceedings of the 5th Asian Sym-
+over the friendship graph the social graph formed, with spending                                     posium on Programming Languages and Systems (APLAS’07). Springer, 139–157.
+and credit as profiles.                                                                              doi:10.1007/978-3-540-76637-7_10
+                                                                                                 [8] Ohad Eitan, Idit Keidar, and Ehud Shapiro. 2026. The Grassroots Social Graph: A
+The exponential assumption. The inter-event times of human                                           Secure Operating System for Multiagent, Distributed, Peer-to-Peer, Smartphone-
+activity are heavier-tailed than exponential; the non-Markovian and                                  Based Platforms. In preparation.
+                                                                                                 [9] Tomaž Fleischman, Paolo Dini, and Giuseppe Littera. 2020. Liquidity-Saving
+the Laplace Gillespie algorithms simulate renewal processes with                                     through Obligation-Clearing and Mutual Credit: An Effective Monetary Innova-
+other distributions [18], and nothing in sGLP fixes the exponential:                                 tion for SMEs in Times of Crisis. Journal of Risk and Financial Management 13,
+                                                                                                     12 (2020), 295. doi:10.3390/jrfm13120295
+drawing a rated goal’s activation time from another distribution                                [10] Daniel T. Gillespie. 1977. Exact stochastic simulation of coupled chemi-
+changes the draw and leaves the language as it is.                                                   cal reactions. The Journal of Physical Chemistry 81, 25 (1977), 2340–2361.
+                                                                                                     doi:10.1021/j100540a008
+What is new. To the best of our knowledge, sGLP is the first lan-                               [11] James Golike, Andy Lewis-Pye, and Ehud Shapiro. 2026. Formalising and Imple-
+guage in which the person of a deployed multiagent program is                                        menting Grassroots Social Contracts: From Legal Text to Grassroots Platforms
+specified as a stochastic agent answering the questions that pro-                                    (Full Version). arXiv:2609.06231 (2026).
+                                                                                                [12] Google. 2024. Dart Programming Language. https://dart.dev/
+gram puts to them, so that one program is simulated at scale and                                [13] George Iosifidis, Yanick Charette, Edoardo Airoldi, Giuseppe Littera, Leandros
+deployed on a phone without being rewritten, and the first in which                                  Tassiulas, and Nicholas Christakis. 2018. Cyclic Motifs in the Sardex Monetary
+the stochastic specification is confined to the person while the                                     Network. Nature Human Behaviour 2 (2018), 822–829. doi:10.1038/s41562-018-
+                                                                                                     0450-0
+machine keeps a nondeterministic semantics with no scheduling                                   [14] Till Köster, Oliver Reinhardt, Martin Hinsch, Jakub Bijak, and Adelinde M. Uhrma-
+assumption.                                                                                          cher. 2024. A Fast Embedded Language for Continuous-Time Agent-Based
+                                                                                                     Simulation. Journal of Artificial Societies and Social Simulation 27, 1 (2024), 10.
+                                                                                                     doi:10.18564/jasss.5232
+8    CONCLUSION                                                                                 [15] Andy Lewis-Pye and Ehud Shapiro. 2026. Volition-Guarded Multiagent
+                                                                                                     Atomic Transactions: Describing People and their Machines. arXiv preprint
+sGLP is GLP with a rate on a goal, and a stochastic agent is an sGLP                                 arXiv:2604.25596 (2026). https://arxiv.org/abs/2604.25596
+program in place of the UI of a vGLP platform and the person behind                             [16] Giuseppe Littera, Laura Sartori, Paolo Dini, and Panayotis Antoniadis. 2017.
+it, holding the person’s end of each question the platform asks,                                     From an Idea to a Scalable Working Model: Merging Economic Benefits with
+                                                                                                     Social Values in Sardex. International Journal of Community Currency Research
+typed by the dual of the question’s interactive type. The platform’s                                 21 (2017), 6–21. doi:10.15133/j.ijccr.2017.002
+program is unchanged; a population is a census of persons, each                                 [17] Yifan Simon Liu, Qianfeng Wen, Yilan Fan, Shirley Huang, Ruoqi Gao, Jian-
+with a role and attributes, and a mix of profiles for each role, each                                heng Hou, Muhammad Ahmed Mohsin, Zonglin Di, Brihi Joshi, Xincheng Tan,
+                                                                                                     Yucheng Lu, Xiaoyi Liu, Heming Liu, Hanwen Xing, Guanghui Min, Zhengyang
+profile a program; and every simulated run is a run of the platform                                  Shan, My Chiffon Nguyen, Ishan Gupta, Yunze Xiao, Hannah Collison, Jintao
+in which every answer was given by a stochastic agent, so what a                                     Huang, Jiatong Li, Sankalp Jajee, Yunhan Zhao, Bing Hu, Sky Ng, Xupeng Chen,
+                                                                                                     Binghang Lu, Weihang Xiao, Aravind Mohan, Bolun Sun, Yunshu Wu, Yuanda Xu,
+simulation shows is something the platform can do.                                                   Yun Shen, Runyu Zhang, Zheyuan Deng, Zhiwei Zhang, Qianyu Zhu, Dianzhuo
+    Here we employed an exponential distribution; another distribu-                                  Wang, Yijun Wang, Yixuan He, Yuexing Hao, and Xiaomin Li. 2026. PersonaEval:
+tion can be employed without changing the language [18].                                             Persona-Based User Simulation for Evaluating Interactive Applications. arXiv
+                                                                                                     preprint arXiv:2608.15838 (2026). https://arxiv.org/abs/2608.15838
+    The simulations done here show that platform behaviour can be                               [18] Naoki Masuda and Christian L. Vestergaard. 2021. Gillespie Algorithms for
+tested and studied by mixing the stochastic profiles of its people:                                  Stochastic Multiagent Dynamics in Populations and Networks. Elements in the
+the friendship graph that forms, and how many coins circulate.                                       Structure and Dynamics of Complex Networks, Cambridge University Press.
+                                                                                                     arXiv:2112.05293
+    Four limitations. The simulator hosts the population in one ma-                             [19] Miller McPherson, Lynn Smith-Lovin, and James M. Cook. 2001. Birds of a
+chine, where the guard when_idle is sound (Section 4). A rate per                                    Feather: Homophily in Social Networks. Annual Review of Sociology 27 (2001),
+                                                                                                     415–444. doi:10.1146/annurev.soc.27.1.415
+act is a modelling assumption, and the inter-event times of people                              [20] Joon Sung Park, Joseph C. O’Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy
+are heavier-tailed than exponential (Section 7). The profiles and                                    Liang, and Michael S. Bernstein. 2023. Generative Agents: Interactive Simulacra
+their rates are written, not estimated from how people use the                                       of Human Behavior. In Proceedings of the 36th Annual ACM Symposium on User
+                                                                                                     Interface Software and Technology (UIST 2023). 1–22. doi:10.1145/3586183.3606763
+deployed platforms. Reading the logs and analysing the runs is                                  [21] Loïc Paulevé, Simon Youssef, Matthew R. Lakin, and Andrew Phillips. 2010. A
+software outside the language (Section 3).                                                           Generic Abstract Machine for Stochastic Process Calculi. In Proceedings of the
+                                                                                                     8th International Conference on Computational Methods in Systems Biology (CMSB
+                                                                                                     ’10). ACM, 43–54. doi:10.1145/1839764.1839771
+REFERENCES                                                                                      [22] Andrew Phillips and Luca Cardelli. 2007. Efficient, Correct Simulation of Bi-
+ [1] Alessia Antelmi, Pasquale Caramante, Gennaro Cordasco, Giuseppe D’Ambrosio,                     ological Processes in the Stochastic Pi-calculus. In Computational Methods in
+     Daniele De Vinco, Francesco Foglia, Luca Postiglione, and Carmine Spagnuolo.                    Systems Biology (CMSB 2007) (Lecture Notes in Bioinformatics, Vol. 4695). Springer,
+     2024. Reliable and Efficient Agent-Based Modeling and Simulation. Journal of                    184–199. doi:10.1007/978-3-540-75140-3_13
+     Artificial Societies and Social Simulation 27, 2 (2024), 4. doi:10.18564/jasss.5300        [23] Corrado Priami. 1995. Stochastic 𝜋 -calculus. Comput. J. 38, 7 (1995), 578–589.
+ [2] Martina Baiardi, Samuele Burattini, Giovanni Ciatto, and Danilo Pianini. 2026.             [24] Corrado Priami, Aviv Regev, Ehud Shapiro, and William Silverman. 2001. Ap-
+     Testing BDI-based Multi-Agent Systems using Discrete Event Simulation. arXiv                    plication of a stochastic name-passing calculus to representation and simula-
+     preprint arXiv:2602.13878 (2026). https://arxiv.org/abs/2602.13878                              tion of molecular processes. Information processing letters 80, 1 (2001), 25–31.
+ [3] Krisztian Balog and ChengXiang Zhai. 2024. User Simulation for Evaluating                       doi:10.1016/s0020-0190(01)00214-9
+     Information Access Systems. Foundations and Trends in Information Retrieval 18,            [25] Aviv Regev, William Silverman, and Ehud Shapiro. 2000. Representation and
+     1–2 (2024), 1–261. doi:10.1561/1500000098                                                       simulation of biochemical processes using the 𝜋 -calculus process algebra. In
+                                                                                           12
+simulating people
+
+
+     Biocomputing 2001. World Scientific, 459–470. doi:10.1142/9789814447362_0045
+[26] Jorim Schraven. 2001. Mutual Credit Systems and the Commons Problem: Why
+     Community Currency Systems such as LETS Need Not Collapse Under Oppor-
+     tunistic Behaviour. International Journal of Community Currency Research 5, 4
+     (2001). doi:10.15133/j.ijccr.2001.002
+[27] Ehud Shapiro. 1989. The family of concurrent logic programming languages.
+     ACM Computing Surveys (CSUR) 21, 3 (1989), 413–510. doi:10.1145/72551.72555
+[28] Ehud Shapiro. 2021. Multiagent Transition Systems for Composing Fault-
+     Resilient Protocol Stacks. arXiv preprint arXiv:2112.13650 (2021).          https:
+     //arxiv.org/abs/2112.13650
+[29] Ehud Shapiro. 2022. Grassroots Currencies: Turning Mutual Trust into Liquidity.
+     arXiv preprint arXiv:2202.05619 (2022). https://arxiv.org/abs/2202.05619
+[30] Ehud Shapiro. 2023. Grassroots Distributed Systems: Concept, Examples, Imple-
+     mentation and Applications (Brief Announcement). In 37th International Sympo-
+     sium on Distributed Computing (DISC 2023). (Extended version: arXiv:2301.04391).
+     LIPICS, Italy, 47:1–47:7. https://arxiv.org/abs/2301.04391
+[31] Ehud Shapiro. 2023. Grassroots Social Networking: Serverless, Permissionless
+     Protocols for Twitter/LinkedIn/WhatsApp. In OASIS ’23 (Rome, Italy). Association
+     for Computing Machinery. doi:10.1145/3599696.3612898
+[32] Ehud Shapiro. 2024. A Grassroots Architecture to Supplant Global Digital Plat-
+     forms by a Global Digital Democracy. arXiv:2404.13468, Proceedings of DAWO’24
+     (2024). https://arxiv.org/abs/2404.13468
+[33] Ehud Shapiro. 2025. Characterising Global Platforms: Centralised, Decentralised,
+     Federated, and Grassroots. arXiv preprint arXiv:2511.03286 (2025). https://arxiv.
+     org/abs/2511.03286
+[34] Ehud Shapiro. 2025. GLP: A Grassroots, Multiagent, Concurrent, Logic Program-
+     ming Language for AI (full version). arXiv preprint arXiv:2510.15747, Summary in
+     Proc. of ICLP’26, EPTCS 450, pp. 119–133 (2025). https://arxiv.org/abs/2510.15747
+[35] Ehud Shapiro. 2026. Grassroots Bonds: Financing by the People, for the People.
+     arXiv:2603.13671. arXiv:2603.13671 https://arxiv.org/abs/2603.13671
+[36] Ehud Shapiro. 2026. Implementing Grassroots Logic Programs with Multiagent
+     Transition Systems and AI (Full Version). arXiv:2602.06934. Summary to appear
+     in Proc. of LOPSTR+PPDP’26 (2026). https://arxiv.org/abs/2602.06934
+[37] Ehud Shapiro. 2026. Types for Grassroots Logic Programs (Full version). arXiv
+     preprint arXiv:2601.17957 (2026). https://arxiv.org/abs/2601.17957
+[38] Ehud Shapiro. 2026. Volition Elicitation: Operational Semantics for People and
+     Their Machines. arXiv:2607.14138. arXiv:2607.14138 [cs.DC] https://arxiv.org/
+     abs/2607.14138
+[39] William Silverman, Michael Hirsch, Avshalom Houri, and Ehud Shapiro. 1988.
+     The Logix system user manual Version 1.21. In Concurrent Prolog: Collected
+     Papers. MIT Press, 46–77.
+[40] Ziyi Yang, Zaibin Zhang, Zirui Zheng, Yuxian Jiang, Ziyue Gan, Zhiyu Wang,
+     Zijian Ling, Jinsong Chen, Martz Ma, Bowen Dong, Prateek Gupta, Shuyue Hu,
+     Zhenfei Yin, Guohao Li, Xu Jia, Lijun Wang, Bernard Ghanem, Huchuan Lu,
+     Chaochao Lu, Wanli Ouyang, Yu Qiao, Philip Torr, and Jing Shao. 2024. OASIS:
+     Open Agent Social Interaction Simulations with One Million Agents. arXiv
+     preprint arXiv:2411.11581 (2024). https://arxiv.org/abs/2411.11581
+[41] Bernard P. Zeigler, Herbert Praehofer, and Tag Gon Kim. 2000. Theory of Modeling
+     and Simulation: Integrating Discrete Event and Continuous Complex Dynamic
+     Systems (2nd ed.). Academic Press.
+
+
+
+
+                                                                                          13
+                                                                                                                                                                        Ehud Shapiro
+
+
+A      PROOFS                                                                                                  writer it assigns stays in 𝐻 as itself, a relay presenting it only once
+Let 𝑟 be an sGLP run of the simulation program 𝑁 of (𝑀, 𝑃, 𝜋) over                                             the assignment is delivered to it (Definition 3.7 (ii)). This is the
+𝑃 from its initial configuration 𝑐 0 , 𝜋 over a well-formed population,                                        source Reduce. A Reduce of a platform goal with a merge clause the
+and 𝜎 the simulation mapping of 𝑟 .                                                                            compilation adds, which moves asks between ask streams, changes
+                                                                                                               nothing 𝜎 reads: a stutter.
+     Theorem 3.15 (Soundness, restated). 𝜎 (𝑟 ) is a proper safe                                                  (3) A Reduce at 𝑎 of a person goal that adds no answer to a
+computation of the vmaGLP transition system over 𝑃 and 𝑀 from                                                  variable of 𝐼𝑎 and presents no reader — the person process, which
+𝜎 (𝑐 0 ) in which every Answer is the image of a Reduce of a person                                            in reader mode gives the place of the writer an ask carries to another,
+goal.                                                                                                          a screen, which shows an element or assigns the writer of a request
+                                                                                                               the elements it has shown, a goal descended from the person process
+     Proof. Let 𝑟 = (𝑐 1, 𝑡 1, 𝛼 1 ), (𝑐 2, 𝑡 2, 𝛼 2 ), . . . with (𝑐 1, 𝑡 1, 𝛼 1 ) = (𝑐 0, 0, ∅). other than a relay, or a relay or a goal descended from one that
+Throughout, a variable of 𝐼𝑎 occurs nowhere before the transition                                              gives a writer’s place to another or assigns nothing received: 𝐺 and
+that introduces it, by the properness of the maGLP computation                                                 𝜎𝑟 are unchanged, a writer that takes another’s place being read as
+𝑐 1, 𝑐 2, . . . (Definition 2.4); every clause of 𝑁 is SRSW (Definition E.4);                                  its question; and so is 𝐻 : a variable of 𝐼𝑎 in the goal reduced passes
+a Communicate removes the assignment it delivers from the readers                                              to a goal the reduction spawns, directly or by an assignment it adds
+substitution of its agent (Definition E.7), and 𝜎𝑟 keeps one delivered                                         for a reader that goal holds, by SRSW for the person process, whose
+to a person goal until the reader it assigns is presented (Defini-                                             clause passes the person’s end of an ask, or the writer that takes
+tion 3.14); and a person goal holds a variable of 𝐼𝑎 only as the                                               its place, to the relay it spawns, by Definition 3.7 for a relay, and
+person process holding an ask, as a relay or a goal descended from                                             by Definition 3.8 for a screen, which passes the rest of the output
+one, or as a screen holding the program’s output, since the person                                             it holds to the screen it spawns and none of whose variables 𝐻
+process passes the person’s end of each ask to the relay it spawns, a                                          counts (Definition 3.14), and any other person goal holds none; a
+relay puts no variable it receives into the copy (Definition 3.7), and                                         variable of 𝐼𝑎 the reduction introduces takes the place of a writer
+a screen assigns the writer of a request a list of the elements it has                                         the goal held, and is read as its question; an unpresented reader of
+shown, each ground (Definition 3.8), so that the goals descended                                               𝐼𝑎 at a position the program writes is in 𝐻 as itself before and after,
+from the person procedures’ goals, and the merge and random goals                                              and the variables of its contents are in 𝐻 neither before nor after
+the person process spawns, hold the copies’ variables, the person,                                             (Definition 3.14); and the readers presented are those presented
+screen streams, seeds and ground lists, and none of 𝐼𝑎 .                                                       before. A stutter.
+     Safety. We show that each transition (𝑐 𝑖 , 𝑡𝑖 , 𝛼𝑖 ) → (𝑐 𝑖+1, 𝑡𝑖+1, 𝛼𝑖+1 )                                 (4) A Reduce at 𝑎 of a relay or a goal descended from one that
+of 𝑟 maps under 𝜎 to a transaction of the vmaGLP transition system                                             presents a reader 𝑋 ? of 𝐼𝑎 , at one place and answering nothing
+over 𝑃 and 𝑀 or to a stutter; then 𝜎 (𝑟 ) is a safe computation from                                           (Definition 3.7 (ii)). 𝑋 ? is at a position the program writes and is in
+𝜎 (𝑐 0 ) (Definitions E.1 and E.2). A Release has 𝑐 𝑖+1 = 𝑐 𝑖 : a stutter. A                                   the contents of no other unpresented reader, the copy at the place
+Machine transition is a Reduce, a Communicate or a Cold-call of                                                of an unpresented reader having no place inside it. 𝑋 ? was assigned
+the maGLP transition system over 𝑃 and 𝑁 (Definition 2.3), and we                                              a term 𝑢 at some agent 𝑏, and 𝑢,     ˆ 𝑢 with each reader replaced, re-
+take each by what it reduces or delivers.                                                                      peatedly, by the term assigned to it, has no reader and is the term
+    (1) A Reduce at 𝑎 of a platform goal with an asking clause of ⌈𝑀⌉                                          presented, its writers being at the positions the person writes; each
+replaces 𝑞(𝑆 1, . . . , 𝑆𝑛 , 𝐷) by 𝑞 1 (𝑆 1′ , . . . , 𝑆𝑛′ , 𝑋 ?, 𝐷 ′ ) or 𝑞 1 (𝑆 1′ , . . . , 𝑆𝑛′ , 𝑋, 𝐷 ′ ), assignment used in forming 𝑢ˆ was delivered to the relay or a goal
+𝑋 fresh and of V𝑎 , the clause being renamed into V̂𝑎 (Defini-                                                 descended from it and is not presented (Definition 3.7 (ii)), so it is
+tion E.7), and adds to 𝜎𝑎 the assignment of 𝐷 to the list of the                                               in 𝜎𝑟 of its agent, being added by a Reduce of a platform goal or
+ask ask(𝑇 , 𝑡(𝐸)) and the tail 𝐷 ′ ?, 𝐸 the person’s end of 𝑋 , and                                            an answer, or it is one by which a writer takes another’s place or
+the assignments by which each 𝑆𝑙′ passes its argument on (Appen-                                               by which an asking clause passes an argument on, which 𝜎 reads
+dix E, the asking clause). In the image, 𝐺 loses 𝑞(𝑆 1, . . . , 𝑆𝑛 ) and                                       through. Before, 𝑋 ? ∈ 𝐻 and none of the variables of its contents,
+gains the asked goal, read through the pairs of its arguments and                                              with the assignment to 𝑋 ? in 𝜎𝑟 of 𝑏, read through, and 𝑢ˆ with
+with the identifier of the goal reduced; 𝐻 gains 𝐸, a variable of                                              no reader in 𝜎 (𝑐 𝑖 ); after, 𝑋 ? and the readers replaced in forming 𝑢ˆ
+𝐼𝑎 that now occurs in an ask in 𝜎𝑎 ; 𝜎𝑟 is unchanged, 𝐷 being an                                               are presented, so 𝐻 loses 𝑋 ? and gains the variables of 𝐼𝑎 the relay
+ask-stream variable, the assignments of the pairs being outside it,                                                      ˆ read as in 𝐺, each a writer at a position the person writes
+                                                                                                               holds of 𝑢,
+and the assignment 𝑊 ? := 𝑆𝑙 ? of an output position, read through,                                            and so a question, and the assignment of 𝑋 ? with 𝑢,    ˆ shown; 𝜎𝑟 of
+being absent while 𝑆𝑙 ? is unassigned (Definition 3.14). This is the                                           each agent loses the assignments used in forming 𝑢,      ˆ their readers
+Ask of 𝑎’s goal with interactive variable 𝑋 (Definition E.14).                                                 being presented; and 𝐺 is unchanged, the copy’s variables being
+    (2) A Reduce at 𝑎 of a platform goal with a compiled clause of 𝑀:                                          outside 𝐼𝑎 . This is the Communicate of the assignment to 𝑋 ? in
+𝐺 changes as the Reduce of the source goal with the source clause                                              𝜎𝑟 of 𝑏 to 𝑎’s person, delivering 𝑢ˆ with the assignments used in
+does (Lemma E.24), the platform goals and clauses of 𝑁 being those                                             forming it, which it removes (Definition E.13).
+of ⌈𝑀⌉ and read back as there; 𝜎𝑟 gains the assignments the source                                                (5) A Reduce at 𝑎 of a person goal that adds an answer 𝑋 ? := 𝑢
+reduction adds, read through the pairs as there, an assignment to a                                            to a writer 𝑋 ∈ 𝐼𝑎 . The goal is a relay or a goal descended from
+variable of 𝐼𝑎 at a position the program writes among them where                                               one, the person process giving a writer’s place to another and
+the clause writes the program’s output to the person; and 𝐻 is                                                 adding no answer, and by Definition 3.7 the assignment is the one
+unchanged, since the reduction touches no person goal and no ask,                                              answer of the reduction, 𝑋 a writer at a position the person writes
+a variable it introduces occurs in neither, and a reader of 𝐼𝑎 whose                                           that the relay received or that takes the place of one, read as its
+                                                                                          14
+simulating people
+
+
+question, and 𝑢 is a term of the type of 𝑋 , a list cell where 𝑋 is of a              a relay; and a variable a person goal holds reaches no platform goal,
+stream type and a list cell or [] where it is of a list type, ground                  the variables of an answer being fresh, a writer that takes another’s
+but for fresh variables of V̂𝑎 , the relay’s clause being renamed into                place being read as its question, and a screen assigning only the
+it: readers 𝑌1 ?, . . . , 𝑌𝑘 ? at the positions the person writes of type             writers of requests, with ground lists. So it occurs in no goal of 𝑎
+Stream(𝑇 ′ ) or List(𝑇 ′ ), but where the copy ends the list there                    earlier, by the properness of the maGLP computation, hence in no
+with [], and writers 𝑊1, . . . ,𝑊𝑚 at the outermost positions the                     𝐻 earlier, the variables of 𝐻 occurring, in that configuration or an
+program writes, 𝑌1, . . . , 𝑌𝑘 and 𝑊1 ?, . . . ,𝑊𝑚 ? passed on to goals of            earlier one, in goals of 𝑎 or in terms of 𝜎𝑎 assigned to ask-stream
+the relay. 𝑋 ∈ 𝐻 before, occurring in the goal reduced, and not                       variables or to readers that person goals of 𝑎 hold, and those of
+after, since 𝑋 occurs only in the goal reduced, which assigns it,                     a shown assignment not being occurrences (Definition E.12). The
+and each writer whose place 𝑋 takes is already assigned, so that                      clause each source Reduce renames is, but for its ask streams, the
+no writer read as the question of 𝑋 occurs after; the variables of                    compiled clause that the Reduce of 𝑟 it is the image of renames
+𝑢 are in 𝐼𝑎 (Definition 3.12), and the readers 𝑊 𝑗 ? are at positions                 apart from every agent’s goals and readers substitution in 𝑐 𝑖 and
+the program writes, received through the relay’s 𝑅, not presented,                    in every earlier configuration (Definitions 2.4 and E.17), so from
+and in the contents of no unpresented reader, nor is 𝑋 , a writer                     every agent’s source goals, held variables and readers substitution
+whose place in the copy the relay answers from, so 𝐻 ′ = 𝐻 \ {𝑋 } ∪                   in 𝜎 (𝑐 𝑖 ) and earlier. Hence 𝜎 (𝑟 ) is proper (Definition E.17, read for
+{𝑌1, . . . , 𝑌𝑘 ,𝑊1 ?, . . . ,𝑊𝑚 ?}; 𝜎𝑟 gains 𝑋 ? := 𝑢; and 𝐺 is unchanged.           a computation).                                                         □
+This is the Answer of 𝑎 to 𝑋 with 𝑢 (Definition E.15), whether or
+not the reader 𝑋 ? occurs in 𝑐 𝑖 .                                                       Corollary 3.16 (restated). Where every 𝑔𝑎 is the initial goal
+      (6) A Communicate at 𝑎 delivering an assignment to an ask-                      agent(ch(_?,_),ch(_?,_)) of 𝑀, with 𝑂𝑎 one of its writers where
+stream variable to a merge goal the compilation adds or to the                        𝑀 defines Output, 𝜎 (𝑟 ) is a proper safe run of the vmaGLP transition
+person process, or delivering to a person goal other than a screen                    system over 𝑃 and 𝑀.
+an assignment other than an answer that a Reduce of a person goal
+added: the variables of 𝐼𝑎 it moves are in 𝐻 before and after, or, in                    Proof. In 𝑐 0 agent 𝑎 holds the platform goal 𝑔𝑎′ and the person
+the contents of an unpresented reader, in neither, and 𝐺 and 𝜎𝑟 are                   goals person𝜋 (𝑎) (𝑈𝑎 ?, ℎ𝑎 , 𝑅𝑎 , 𝑠𝑎 ) and screen(𝑂𝑎 ?, [], 𝑅𝑎 ?), which
+unchanged: a stutter. A Communicate, within 𝑎 or from another                         hold no variable of 𝐼𝑎 that 𝐻 counts, 𝐻 excluding the screen, and
+agent, delivering to a relay of 𝑎 or a goal descended from one an                     𝜎𝑎 = ∅; where 𝑀 defines Output, 𝑂𝑎 ? occurs in 𝑐 0 only in the screen,
+assignment to a reader received through its 𝑅, a reader at a position                 which 𝜎 drops, so 𝑂𝑎 occurs once in 𝜎 (𝑐 0 ), as a writer of 𝑔𝑎 does; so
+the program writes: the reader is not yet presented, a relay present-                 𝜎 (𝑐 0 ) has at each 𝑎 the agent state (∅, {𝑔𝑎 }, ∅), which is the initial
+ing a reader only once its assignment is delivered (Definition 3.7                    local state of the vmaGLP transition system over 𝑃 and 𝑀 where
+(ii)), so 𝐻 holds as itself before and after the reader, or the unpre-                𝑔𝑎 is agent(ch(_?,_),ch(_?,_)) (Definition E.16); so 𝜎 (𝑐 0 ) is its
+sented reader in whose contents it is, and none of the variables of                   initial configuration, and 𝜎 (𝑟 ), a proper safe computation from it
+its contents; 𝜎𝑟 keeps the assignment, delivered to a person goal                     by Theorem 3.15, is a proper safe run (Definition E.1).                 □
+and its reader not presented; and 𝐺 is unchanged: a stutter. A Com-
+municate of an assignment an asking clause’s reduction made, or                       B    IMPLEMENTATION NOTES
+of one by which a writer takes another’s place, replaces a variable
+by what 𝜎 already read it as: a stutter. A Communicate delivering                     The decisions the implementation takes where Sections 2, 3 and 4
+to a platform goal other than a merge goal the compilation adds                       leave a choice open, recorded here so that a reader of the code finds
+an assignment added by a Reduce of a platform goal, within 𝑎 or                       them stated. The code is programs/sglp of the GLP repository:
+from another agent, or an answer that a relay of an agent 𝑏 added                     monitor.glp; sglp.glp, the types and procedures that the trans-
+to a writer of 𝐼𝑏 : the source Communicate, 𝐺 changing as there, 𝜎𝑟                   formation, the programs it prints and their harnesses share — the
+losing the assignment as there, and 𝐻 not at all. A Communicate                       units of a horizon, the slot in which a rated goal receives the writer
+delivering to a person goal an assignment of a variable that is not                   of its answer, and the term form; transform/transform.glp, the
+in 𝐼𝑎 , which is in no 𝜎𝑟 , or any assignment to a screen, which con-                 transformation, and transform.sh, which runs it; and, in examples/,
+tributes nothing to 𝐺 or 𝐻 and whose reader is never presented, so                    a directory per example with the vGLP program (graph.vglp,
+that 𝜎𝑟 keeps the assignment (Definition 3.14): a stutter.                            coins.vglp), its canonical compilation by hand, graph.glp or
+      (7) A Cold-call from 𝑎 to 𝑏 moves a message between the network                 coins.glp, clause for clause as the README records, its sGLP
+streams, which are arguments of platform goals: the source Cold-                      source in the term form (graph_sglp.glp, coins_sglp.glp), the
+call.                                                                                 two modules the transformation prints from it — profiles.glp for
+      Every Answer is the image of a Reduce of a person goal: by the                  the profiles and population.glp for the population — its harness,
+cases, each is the image of a Reduce of a relay or a goal descended                   its run script and its reader of the log; and the tests, test_sglp.sh
+from one, of case (5), and of no other.                                               and tests/.
+      Properness. Let a variable occur in the source goals of 𝑎 in 𝜎 (𝑐 𝑖+1 )               • The clock is in simulated seconds; a year is 365.25 days,
+and not in 𝜎 (𝑐 𝑖 ). Read as in 𝐺, it occurs in a platform goal of 𝑎 in 𝑐 𝑖+1                 and the units of until and of a rate are second, minute,
+other than a merge goal the compilation adds, and in no goal of 𝑎 in                          hour, day, week and year, singular or plural after until.
+𝑐 𝑖 : a variable of such a goal in 𝑐 𝑖 is one of its source, read as in 𝐺; the                The horizon is inclusive: the clock never passes it, and the
+variable of an ask reaches only merge goals, the person process and                           monitor stops when the least activation time would, binding
+                                                                                              every pending token to stop, which ends the rated goal
+                                                                                 15
+                                                                                                                                 Ehud Shapiro
+
+
+  waiting on it, or when the queue is empty at rest, and writes                monitor for the clock by a request time(T), answered at
+  clock(T) last.                                                               once, to log it.
+• The queue, the draws and the clock are the engine’s (the                   • The monitor’s input, the input of each screen and the log’s
+  GLP paper’s appendix on simulated time [34]): the trans-                     sink are mutual references. Each is allocated by the root’s
+  formation converts a rate of N per unit to N over the unit’s                 allocate_mutual_reference/2, and stream_append/3
+  seconds, a number a second, and the horizon to seconds;                      writes to it; the network is the root’s mwm/2 over the agents’
+  two tokens of one activation time are released in the order                  output streams and a balanced tree of deliver/4 goals.
+  they were made pending; the clock’s seed is the one the                      The log’s sink is read by send_to_user/1 and written tab-
+  monitor gives start_clock.                                                   separated by the harness.
+• Seeds: every seed is split from the run’s seed by                          • one_of and the nth it calls take a non-empty list, of the type
+  split_random_seed, in a fixed order: the clock’s, then the                   NonEmpty(X) ::= [X | List(X)], and each has a clause
+  census’s where the run names one, then one for each agent                    for every list of that type, as the type checker requires of
+  in the order of the persons, from which are drawn, in or-                    every procedure [37].
+  der, its profile per dimension of its role, in the order of the            • The log is one line per answer: the simulated time in sec-
+  run declaration’s mix, and then split the seed of its person                 onds, the agent, the interactive type and the term handed
+  process and, in the social graph, the seed from which the                    over, the positions the program writes as variables; and one
+  two agents of its own sex it knows at the start and then                     line per element of the output shown: the simulated time,
+  the two of the other sex are drawn, each pair uniformly                      the agent, output and the element; the fields separated by
+  and without replacement; the person process splits for each                  tabs.
+  person goal a seed and continues with the other. Each run’s                • The transformation prints one term a line, operators prefix,
+  draw — how many agents of each profile, and which agent                      and chooses a question’s person procedure by the functor
+  has which — is computed again from the seed, without the                     of its term, so the interactive types of a program must have
+  run, and written beside the log.                                             distinct functors, which it checks; each dimension’s draw
+• The agents are numbered 1, . . . , 𝑛, 𝑛 even and at least 6, so              is printed with the population. one_of is shared by the two
+  that each agent of the social graph can know two others of                   programs.
+  its sex at the start, both its lists being non-empty, as Peers             • Coins among friends: the messages are pay, coins, propose
+  requires; in the social graph the first half are of one sex                  and decline. A wallet keeps its holdings in order, a new
+  and the rest of the other, and each agent’s lists are kept in                issuer’s at the end, and a holding that reaches zero is re-
+  increasing order, without repetition, as people are added                    moved; the order decides only which holding a request
+  to them. Where the run declaration gives a number 𝑛 of                       draws. A pay of a friend whose coins the wallet does not
+  agents, agent 𝑎’s key is 𝑎, and on a canonical platform of                   hold would send zero coins and change nothing, and does
+  vGLP [38], whose keys are strings, the letter p followed by                  not arise, since a request pays an issuer its menu shows.
+  𝑎 padded with zeros to the width of 𝑛; where it names a                      While a proposal waits for the person’s answer the agent
+  census, agent 𝑎’s key is that of the 𝑎-th person the census                  takes neither a message nor a request; after a yes the wallet
+  draws. Placement is attribution: an agent’s goals are its                    is rebuilt before either is taken, and a request answered
+  start goal, its person process, its screen and what they                     while a proposal waited is acted on after the proposal; after
+  spawn; the harness’s goals belong to no agent.                               a pay the agent asks again once the wallet after the pay is
+• The person process reads the ask stream of the agent’s                       known. The harness takes each agent’s friends from the
+  initial goal, in the dispatcher’s place, and its answer and                  friendship graph of Section 5’s run of the same seed and
+  present procedures are the relay of each question (Defini-                   refuses a graph on which an agent has no friend, an agent’s
+  tion 3.7): a person goal answers into its copy of the question,              friends being of the non-empty type Peers. The circulation
+  and the answer procedure hands the program’s variable the                    of Section 6 is replayed from the log by the agent’s clauses,
+  answer once the positions the person writes are ground but                   a request answered while a proposal waits being acted on
+  for those of a stream or a list, which it hands over one ele-                after the proposal, and the holdings of its figures with each
+  ment at a time, the outermost positions the program writes                   move at its answer; in the run with seed 20260927 the two
+  as fresh writers whose readers the person process keeps, a                   agree at the end of the year, 10,327 coins.
+  step after the person goal’s; the program’s term reaches the
+  person goal the same way, by the present procedures, once
+  the positions the program writes are ground, the person’s              C   THE MONITOR
+  positions inside it open; and a term crossing at any depth, a          The monitor steps GLP’s simulated clock [34], which implements
+  question inside an answer included, crosses the same way,              Gillespie’s algorithm [10] in the first reaction form of Section 2,
+  so that every answer is logged. Two positions the person               over the guard when_idle. This is the whole module as it is in the
+  writes in one alternative are two questions, each with its             repository, programs/sglp/monitor.glp, its comments replaced
+  own answer procedure and log line, and a list the program              by this text; the transformation, the two examples, their harnesses
+  writes inside a question is shown whole, once its last cell            and their tests are in the same directory.
+  is written; and the person process and the screen ask the                 GLP’s types are Token ::= go(Number) ; stop, the token a
+                                                                         rated goal waits on, and ClockStep ::= released(Number) ; stopped(Number),
+                                                                    16
+simulating people
+
+
+what a step of the clock reports. A request to the monitor is time(T),         processes and counting the copies, and reports its gene example
+answered at once with the clock of the last step.                              running in ten seconds where their own previous version of SPiM
+Request ::= time(Number?).                                                     took eight minutes and BioSPI twenty-one; the criticism is that
+Clock   ::= clock(Number).                                                     the earlier simulators, BioSPI among them, describe no algorithm
+   The monitor goal holds its input stream, the clock of the last step         for keeping track of identical processes, the separate process per
+in seconds, the horizon in seconds and the log’s reference; it starts          molecule being what they report of their previous version [22].
+the engine’s clock with the run’s seed for it, and its own at zero.            A later machine for stochastic process calculi carries the same
+exported procedure monitor(Stream(Request)?, Integer?, Number?,                point to restricted channels, and against the stochastic pi-machine
+                           MutualRef?).
+monitor(In, Seed, Horizon, Log) :-
+                                                                               itself: it stores each complex as one species, where a simulator in
+    start_clock(Seed?),                                                        which every restricted channel has a globally fresh name carries
+    monitor_loop(In?, 0, Horizon?, Log?).                                      one species and one reaction per copy [21]. The second criticism is
+procedure monitor_loop(Stream(Request)?, Number?, Number?, MutualRef?).        of a different kind: the stochastic pi-machine is proved reduction-
+monitor_loop([time(Clock?)|In], Clock, Horizon, Log) :-                        equivalent to the calculus and shown to preserve apparent rates,
+    monitor_loop(In?, Clock?, Horizon?, Log?).                                 which they report as the first correctness proof for the stochastic
+monitor_loop(In, _, Horizon, Log) :-
+    when_idle |                                                                pi-calculus to cover optimisations of this kind; their own earlier
+    step_clock(Horizon?, Step),                                                machine was proved correct against a variant of the calculus [22].
+    stepped(Step?, In?, Horizon?, Log?).
+                                                                               What sGLP does about them. The first economy is not avail-
+procedure stepped(ClockStep?, Stream(Request)?, Number?, MutualRef?).          able to us, and not because of how we implement: two agents are
+stepped(released(T), In, Horizon, Log) :-
+    monitor_loop(In?, T?, Horizon?, Log?).                                     interchangeable only while their machine states agree, and in a
+stepped(stopped(Clock), _, _, Log) :-                                          grassroots platform they stop agreeing as soon as they have dif-
+    stream_append(clock(Clock?), Log?, _).
+                                                                               ferent friends, so a population of a thousand people is a thousand
+   A time request is answered from the clock of the last step. The             states, no two with the same open questions. What carries over is
+step clause is taken only when the machine rests, so every rated goal          the rest of the machinery — the next of 𝑀 pending goals is found
+spawned has made its token pending and the queue is that of the                in 𝑂 (log 𝑀) by a priority queue, where the linear scan of the direct
+configuration: step_clock moves the clock to the least activation              method costs 𝑂 (𝑀) and a tree of propensities 𝑂 (log 𝑀) [14, 18] —
+time within the horizon and binds that token to go(T), which is                together with one thing a vGLP program has for nothing: a reduc-
+Release, and the monitor goes on with T as its clock; when the                 tion changes the resolvent of one agent, so an event touches the
+least activation time is past the horizon, or no token is pending,             questions of that agent and of no other. Their grouping also needs
+step_clock binds every pending token to stop, which ends each                  every choice to carry an identifier, and where a choice has none
+rated goal still waiting, and the monitor writes the clock to the              their encoding creates an extra definition for it; a person declaration
+log and ends. The clauses are tried in order, so a request that has            names an interactive type, so we have the identifier already [22].
+arrived is answered before the machine is found idle.                          They also record a restricted channel’s apparent rate as a delay,
+                                                                               to keep the machine compositional where several machines run
+D     RELATED WORK, CONTINUED                                                  in parallel, on distributed or multi-core systems [22]; that is the
+Section 7’s six lines of work, each expanded.                                  setting of a deployed platform, one machine per agent, and not
+                                                                               yet of our simulator, which hosts the population in one machine
+Calculi and languages with rates. BioSPI implemented the bio-
+                                                                               (Section 4). The second criticism we accept as the standard to meet,
+chemical stochastic pi-calculus in Flat Concurrent Prolog [27]:
+                                                                               and meet it in the same form: the runs of the simulator are runs of
+each channel is an object carrying a base rate, processes post
+                                                                               the vmaGLP transition system of the very program being simulated,
+send, receive, dimer and withdraw requests to it, a monitor and
+                                                                               with the person’s answers drawn rather than given.
+the channel objects jointly compute the weighted rates, and the
+monitor draws the channel, completes one transmission, with-                   Rule-based languages. Kappa’s simulator [7] keeps a superset
+draws the losing offers of the two chosen processes and advances a             of the events that may happen next, rejects the draws that do not
+clock [24, 25, 39]. Bio-PEPA [5] is a process algebra for biochemical          correspond to a rule application, corrects the time advance so that
+networks in the PEPA family, with stochastic simulation by Gille-              the timings stay exact, and wakes only the rules a static activation
+spie’s method among its analyses; stochastic concurrent constraint             relation names; its cost per event is independent of the number of
+programming [4] attaches a rate to each action of a concurrent                 species and of the number of agents, and logarithmic in the number
+constraint program, with a continuous-time Markov chain seman-                 of rules. In sGLP the rules are the interactive types, of which a
+tics simulated by Gillespie’s method, which makes it the nearest               platform has few, and the instances are the questions open at the
+language to sGLP: a concurrent constraint language with rates. The             agents, of which a population has many; the activation relation it
+difference is where the rate sits and what is simulated: in sCCP               computes statically we have from the semantics, since a reduction
+every action is rated and the program is the model, in sGLP the                reaches one agent.
+platform’s program keeps vGLP’s semantics unchanged and only                   Continuous-time agent-based simulation. In ML3 [14] agents
+the person’s goals are rated.                                                  cannot be grouped into subpopulations, so handling the transitions
+Two criticisms of BioSPI’s implementation. The stochastic pi-                  efficiently is what decides the cost, and the dependency graph
+machine makes the cost of a simulation depend on the number of                 is dynamic where a biochemical one is static. DEVS [41] is the
+species rather than the number of molecules, by grouping identical             formalism of discrete-event simulation — atomic models with time
+                                                                          17
+                                                                                                                                                    Ehud Shapiro
+
+
+advances, coupled into networks — on which ML3 and the discrete-               The exponential assumption. The non-Markovian Gillespie al-
+event simulators of agents rest; sGLP’s Release is a discrete event            gorithm simulates coupled renewal processes by a first-order ex-
+in that sense, and its machine steps between events take no time.              pansion accurate for large numbers of processes, and the Laplace
+                                                                               Gillespie algorithm simulates exactly those whose inter-event dis-
+Agent-based platforms, and testing in simulation. In NetL-                     tribution is a mixture of exponentials, which covers the fat-tailed
+ogo, Repast, MASON, Mesa and krABMaga [1], and in agent-based                  distributions common in human interaction [18]; a rate per act is a
+modelling at large, the clock is a discrete step: the choice of step           modelling assumption and not a fact about people.
+size bears on the validity of the results, and an alternative that is
+retracted when another decision wins — a stochastic race — has                 E     DEFINITIONS AND RESULTS RECALLED
+no formulation [14]. A platform’s agent is the whole of what is
+modelled, where a vGLP agent is a person and a machine, and only
+                                                                                     FROM VGLP
+the person is drawn. Baiardi, Burattini, Ciatto and Pianini [2] argue          Sections 2 and 3 and Theorem 3.15 rest on the following definitions
+that a multiagent system should be tested in simulation on the very            and results of vGLP [38], which rest in turn on GLP [34] and its
+specification that is deployed, with no surrogate, and map the con-            types [37]; they are recalled as stated there, each named by its title
+trol flow of BDI agents onto a discrete-event simulator at several             in that paper, and the canonical compilation as described there.
+granularities; the demand is ours too, and what is tested differs:             Reduction, the writer mgu, goal identity, the transaction closure
+their agents are the system under test and their environment is                and the transactions-based multiagent transition system, which the
+the simulator’s, where in sGLP the system under test is a vGLP                 maGLP and vmaGLP transition systems are defined over, and the
+program whose agents are people and machines, and the simulation               construct process and the dispatcher, which the canonical compi-
+replaces the people.                                                           lation names, are those of [34, 38] and are not recalled; a recalled
+                                                                               definition names each by its title in that paper.
+Simulated people with profiles. Generative agents [20] are simu-
+lated people whose memory, reflection and planning are done by a                  Definition E.1 (Transition System, Computation, Run, Safe, Live,
+language model from a persona written as text, in a sandbox town;              Correct [15, 28, 38]). A transition system is a tuple 𝑇 𝑆 = (𝐶, 𝑐 0,𝑇 , ∼)
+OASIS [40] scales such agents to a million on a simulated social plat-         where 𝐶 is an arbitrary set of configurations, 𝑐 0 ∈ 𝐶 a designated
+form, with recommendation and the platform’s actions modelled;                 initial configuration, 𝑇 ⊆ 𝐶 × 𝐶 a set of transitions, each a pair
+user simulation in information retrieval [3] evaluates search and              𝑐 → 𝑐 ′ of non-identical configurations 𝑐 ≠ 𝑐 ′ ∈ 𝐶, and ∼ a partial
+recommendation systems by simulated users, and PersonaEval [17]                equivalence relation on𝑇 — an equivalence on a subset dom(∼) ⊆ 𝑇 ;
+evaluates interactive applications by persona-based simulated users            we write [𝑡] for the class of 𝑡 ∈ dom(∼) under ∼.
+driven by language models. All simulate the person by a persona                   A computation is a (nonempty, finite or infinite) sequence of
+and a model; none runs the deployed program, and none specifies                configurations 𝑐 1, 𝑐 2, . . .; it is a run if 𝑐 1 = 𝑐 0 , and safe if 𝑐𝑖 → 𝑐𝑖+1 ∈
+                                                                                                                                                         ∗
+the person’s behaviour stochastically, with a stated law. An sGLP              𝑇 for every two consecutive configurations. We write 𝑐 →                  − 𝑐 ′ for
+profile is the person’s behaviour as a program with rates, typed               the existence of a safe computation from 𝑐 to 𝑐 ′ (empty if 𝑐 = 𝑐 ′ ). A
+by the dual of the question it answers, so that the simulation is a            class [𝑡] is enabled in 𝑐 if 𝑐 → 𝑐 ′ ∈ [𝑡] for some 𝑐 ′ . A run is live if
+run of the deployed program (Theorem 3.15), drawn from a seed                  no class [𝑡], 𝑡 ∈ dom(∼), is enabled in every configuration of some
+and reproducible; it lacks the persona’s richness, and the rates and           suffix in which no member of [𝑡] occurs, and correct if it is safe and
+the profiles are to be estimated from how people use the deployed              live.
+platforms.
+                                                                                   Definition E.2 (Implementation (Refinement) [15, 28, 36, 38]). Given
+What the examples study. McPherson, Smith-Lovin and Cook                       two transition systems 𝑇 𝑆 = (𝐶, 𝑐 0,𝑇 , ∼), the specification, and
+review homophily across the dimensions of social life, sex, age,               𝑇 𝑆 ′ = (𝐶 ′, 𝑐 0′ ,𝑇 ′, ∼′ ), an implementation of 𝑇 𝑆 by 𝑇 𝑆 ′ is a function
+race, religion, education and the rest, and find it structuring every          𝜎 : 𝐶 ′ → 𝐶 with 𝜎 (𝑐 0′ ) = 𝑐 0 , in which case the pair (𝑇 𝑆 ′, 𝜎) is an
+kind of tie [19]. In Currarini, Jackson and Pin’s model agents of              implementation of 𝑇 𝑆. Given a computation 𝑟 ′ = 𝑐 1′ , 𝑐 2′ , . . . of 𝑇 𝑆 ′ ,
+several types form friendships by meeting, with a preference bias              𝜎 (𝑟 ′ ) is the computation 𝜎 (𝑐 1′ ), 𝜎 (𝑐 2′ ), . . . with consecutive repeti-
+for their own type, and they derive how the share of same-type                 tions removed; a transition 𝑐 ′ → 𝑑 ′ of 𝑇 𝑆 ′ with 𝜎 (𝑐 ′ ) = 𝜎 (𝑑 ′ ) is a
+friendships and the number of friends vary with a group’s relative             stutter, contributing no step to 𝜎 (𝑟 ′ ).
+size and its bias, which they fit to the Add Health data [6]; sGLP’s              Definition E.3 (Variables, Terms, Goals, Clauses [34, 38]). Let V
+homophile and indifferent profiles are the bias, and Table 1 and               denote the set of LP variables (identifiers beginning with uppercase),
+Figure 2 are what the deployed platform does under it, not a model             henceforth called writers, and V? = {𝑋 ? | 𝑋 ∈ V} the readers;
+of it. On mutual credit, Iosifidis et al. analyse the cyclic motifs of
+                                                                               V̂ = V ∪ V?, and a writer 𝑋 and its reader 𝑋 ? form a variable
+the Sardex transaction network, where credit returns to its issuer
+                                                                               pair. Terms, unit goals, goals, and clauses are as in LP, over V̂. A
+around cycles [13]; Fleischman, Dini and Littera measure the liq-
+                                                                               term, goal, or clause satisfies the single-occurrence (SO) invariant if
+uidity obligation-clearing and mutual credit save on that network’s
+                                                                               every variable occurs in it at most once, and a clause satisfies the
+data [9]; Littera et al. describe the system’s design and history [16];
+                                                                               single-reader/single-writer (SRSW) restriction if it satisfies SO and a
+and Schraven models why a LETS need not collapse under oppor-
+                                                                               variable occurs in it iff its paired variable does.
+tunism [26]. None simulates the deployed program; Section 6’s runs
+are of coins among friends as the platform’s program executes it,                Definition E.4 (Guarded Clause, Procedure, GLP Program [34, 38]).
+with the people drawn.                                                         A guarded clause has the form 𝐻 :- 𝐺 | 𝐵, where 𝐻 is the head,
+                                                                          18
+simulating people
+
+
+𝐺 a conjunction of guard predicates, and 𝐵 the body; guard argu-                 reader mode as an argument type is, is its interactive type. An in-
+ments are readers paired to head writers. A GLP program is a finite              teractive type is built from constants, String, Integer, Real, Key,
+sequence of guarded clauses, each satisfying SRSW; the clauses for               Constant, Module, named types so built, tuples and unions, and
+the same predicate form a procedure. The set of goals Ĝ(𝑀) of a                 Stream or List as the whole type or as an argument of a tuple,
+program 𝑀 includes all goals over V̂ and the vocabulary of 𝑀 that                never under another Stream or List, and a Stream only at a posi-
+satisfy SO.                                                                      tion the person writes; a named type in it is recursive only if it has
+                                                                                 no mode inversion [37], and it has no type parameter.
+  Definition E.5 (Asynchronous Resolvent [34, 38]). Given a GLP
+program 𝑀, an asynchronous resolvent over 𝑀 is a pair (𝐺, 𝜎) where                  Definition E.10 (Clause of a Volitional Procedure, Interactive Term [38]).
+𝐺 ∈ Ĝ(𝑀) and 𝜎 is a readers substitution.                                       A clause of a volitional procedure 𝑝 with interactive type 𝑇 has
+                                                                                 the form (𝐴)*𝑝 (𝑆 1, . . . , 𝑆𝑛 ) :- 𝐺 | 𝐵, where the interactive term
+   Definition E.6 (Variables of an Agent [34, 38]). Let V𝑝 ⊂ V, for              𝐴 is a term of type 𝑇 , possibly a variable but not the anonymous
+𝑝 ∈ Π, be pairwise disjoint infinite sets of writers. The variables of           variable, and it is the guarded clause 𝑝 (𝑆 1, . . . , 𝑆𝑛 , 𝐴) :- 𝐺 | 𝐵 (Def-
+agent 𝑝 are V̂𝑝 = V𝑝 ∪ {𝑋 ? | 𝑋 ∈ V𝑝 }.                                          inition E.4), of arity 𝑛+1. A clause of a volitional procedure reads
+                                                                                 an argument at an input position, by a non-variable term at that
+   Definition E.7 (maGLP Transactions [34, 38]). Given a GLP pro-
+                                                                                 position in its head or by a guard on it, only if every later clause of
+gram 𝑀 and agents 𝑃 ⊂ Π, the maGLP transactions over asynchro-
+                                                                                 the procedure reads it too, and every call of a volitional procedure,
+nous resolvents over 𝑀 are the following.
+                                                                                 in a clause body or in the initial goal, holds a writer at each output
+     Reduce 𝑝. 𝐴 ∈ 𝐺𝑝 is a unit goal, and 𝐶 ∈ 𝑀 is the first clause              position.
+       for which the reduction of 𝐴 with 𝐶 (Definition “Reduction”
+       of [38]) succeeds, with result (𝐵, 𝜎),
+                                          ˆ 𝐶 renamed into V̂𝑝 .                    Definition E.11 (Ordinary Clause, vGLP Program [38]). A clause
+                                                                                 is ordinary if it is not a clause of a volitional procedure. A vGLP
+   𝐴 ∈ 𝐺𝑝       𝐶 the first clause reducing 𝐴, with result (𝐵, 𝜎)
+                                                               ˆ                 program is a finite sequence of ordinary clauses and clauses of
+              (𝐺𝑝 , 𝜎𝑝 ) → ((𝐺𝑝 \ {𝐴} ∪ 𝐵)𝜎,ˆ 𝜎𝑝 ◦ 𝜎?)
+                                                    ˆ                            volitional procedures, each satisfying SRSW, a clause of a volitional
+     Communicate 𝑝 to 𝑞. Participants 𝑝, 𝑞 ∈ 𝑃, possibly 𝑝 = 𝑞:                  procedure satisfying it as a guarded clause of arity 𝑛+1; the clauses
+       {𝑋 ? := 𝑇 } ∈ 𝜎𝑝 and 𝑋 ? occurs in 𝐺𝑞 .                                   for the same predicate form a procedure. The set of goals Ĝ(𝑀) of
+                                                                                 a vGLP program 𝑀 includes all goals over V̂ and the vocabulary
+                 {𝑋 ? := 𝑇 } ∈ 𝜎𝑝   𝑋 ? occurs in 𝐺𝑞                             of 𝑀 that satisfy SO.
+(𝐺𝑝 , 𝜎𝑝 ), (𝐺𝑞 , 𝜎𝑞 ) → (𝐺𝑝 , 𝜎𝑝 \ {𝑋 ? := 𝑇 }), (𝐺𝑞 {𝑋 ? := 𝑇 }, 𝜎𝑞 )
+                                                                                    Definition E.12 (vmaGLP Agent State [38]). Given a vGLP pro-
+       Where 𝑝 = 𝑞 the transaction is unary: (𝐺𝑝 , 𝜎𝑝 ) → (𝐺𝑝 {𝑋 ? :=            gram 𝑀, an agent state is a triple (𝐻𝑝 , 𝐺𝑝 , 𝜎𝑝 ) of a finite set 𝐻𝑝
+       𝑇 }, 𝜎𝑝 \ {𝑋 ? := 𝑇 }). Communicate removes the assignment                of typed variables held by the agent’s person and of assignments
+       it communicates [34].                                                     shown to them and an asynchronous resolvent (𝐺𝑝 , 𝜎𝑝 ) over 𝑀
+     Cold-call 𝑝 to 𝑞. Participants 𝑝 ≠ 𝑞 ∈ 𝑃: the network output                (Definition E.8). A shown assignment is a record of what the person
+       stream in (𝐺𝑝 , 𝜎𝑝 ) has a new message msg(𝑞, 𝑋 ); (𝐺𝑝′ , 𝜎𝑝′ )           was shown, and its variables are not occurrences.
+       is the result of advancing the network output stream and
+                                                                                    Definition E.13 (Reduce and Communicate in vmaGLP [38]). Re-
+       (𝐺𝑞′ , 𝜎𝑞′ ) the result of adding msg(𝑞, 𝑋 ) to the network input
+                                                                                 duce applies to a unit goal that is not an 𝑛-ary goal of a volitional
+       stream.
+                                                                                 procedure, and a clause of a volitional procedure is taken as its
+      the network output stream of 𝑝 has a new msg(𝑞, 𝑋 )                        guarded clause (Definition E.10). Communicate delivers an assign-
+            (𝐺𝑝 , 𝜎𝑝 ), (𝐺𝑞 , 𝜎𝑞 ) → (𝐺𝑝′ , 𝜎𝑝′ ), (𝐺𝑞′ , 𝜎𝑞′ )                  ment {𝑋 ? := 𝑇 } ∈ 𝜎𝑝 to a reader 𝑋 ? ∈ 𝐻𝑞 once 𝑇ˆ , the term 𝑇
+   Definition E.8 (maGLP Transition System [34, 38]). Given a GLP                with each reader replaced, repeatedly, by the term assigned to it in
+program 𝑀 and agents 𝑃 ⊂ Π, the maGLP transition system over 𝑃                   the configuration, has no reader, and then delivers 𝑇ˆ : it removes
+and 𝑀 is the transactions-based multiagent transition system (Defi-              𝑋 ? from 𝐻𝑞 and adds the variables of 𝑇ˆ , each with the type of its
+nition “Transactions-Based Multiagent Transition System” of [38])                position in 𝑇ˆ , and the assignment, shown, the assignments used
+over 𝑃, local states being asynchronous resolvents, initial local state          in forming 𝑇ˆ being communicated with it; Reduce, Cold-call and
+({𝑎 0 }, ∅) with 𝑎 0 the goal agent(ch(_?,_),ch(_?,_)), its anony-               every other Communicate leave the held variables unchanged.
+mous variables at 𝑝 of V̂𝑝 , the transactions of Definition E.7, and                 Definition E.14 (Ask [38]). The transactions on the person’s vari-
+the equivalence ∼ relating 𝑡 1 ∼ 𝑡 2 iff both are Reduce transactions            ables at an agent 𝑝 are Ask of this definition and Answer of the next.
+at the same agent 𝑝 reducing the same goal (by identity, Definition              Ask 𝑝: 𝐴 is an 𝑛-ary goal of a volitional procedure 𝑞 with interactive
+“Goal Identity” of [38]) with the same clause, both are Communicate              type 𝑇 , 𝑋 a writer of V𝑝 occurring nowhere in the configuration,
+transactions from the same 𝑝 to the same 𝑞 applying the counter-                 the interactive variable of the asked goal, of type 𝑇 ′ where 𝑇 is
+part of the same writer assignment to the same goal, or both are                 𝑇 ′ or 𝑇 ′ ?; the goal takes its end of 𝑋 and the person the other:
+Cold-call transactions from the same 𝑝 to the same 𝑞 delivering the              (𝐴′, 𝑌 ) = (𝑞(𝑆 1, . . . , 𝑆𝑛 , 𝑋 ?), 𝑋 ) where 𝑇 is in reader mode, and
+same message.                                                                    (𝑞(𝑆 1, . . . , 𝑆𝑛 , 𝑋 ), 𝑋 ?) where it is in writer mode. The asked goal
+   Definition E.9 (Volitional Procedure, Interactive Type [38]). A voli-         keeps the identifier of 𝐴.
+tional procedure 𝑝 of arity 𝑛 is declared procedure (𝑇 )*𝑝 (𝑇1, . . . ,𝑇𝑛 ).,         𝐴 = 𝑞(𝑆 1, . . . , 𝑆𝑛 ) ∈ 𝐺𝑝 𝑋 fresh   (𝐴′, 𝑌 ) as above
+where 𝑇1, . . . ,𝑇𝑛 are the types of its arguments and 𝑇 , in writer or                 (𝐻𝑝 , 𝐺𝑝 , 𝜎𝑝 ) → (𝐻𝑝 ∪ {𝑌 }, 𝐺𝑝 \ {𝐴} ∪ {𝐴′ }, 𝜎𝑝 )
+                                                                            19
+                                                                                                                                          Ehud Shapiro
+
+
+   Definition E.15 (Answer [38]). Answer 𝑝: 𝑋 ∈ 𝐻𝑝 is a writer, and           initial resolvent, is the transition system obtained from the maGLP
+𝑡 a term of the type of 𝑋 , ground but for variables of V̂𝑝 occurring         transition system over 𝑃 and 𝑁 (Definition E.8) by adding, at each
+nowhere in the configuration: a reader 𝑌𝑖 ? at each position the              agent 𝑝, grant transitions
+person writes of type Stream(𝑇 ′ ) or List(𝑇 ′ ), unless the person                       (𝐺𝑝 , 𝜎𝑝 ) → (𝐺𝑝 , 𝜎𝑝 ◦ {𝑈 ? := [𝑐 | 𝑈 1 ?]})
+ends the list there with [], and a writer 𝑊 𝑗 at each outermost
+                                                                                  where 𝑐 is a ground term input(Id, Pos, 𝑅) or refresh, 𝑈 the
+position the program writes; where 𝑋 itself is of such a type, 𝑡 is
+                                                                                  person writer of 𝑝, and 𝑈 1 a writer of V𝑝 occurring nowhere in the
+[𝑒|𝑌1 ?] with 𝑒 such a term of type 𝑇 ′ , or [] for a list. The person
+                                                                                  configuration, the person writer after the transition, every other
+holds 𝑌𝑖 and 𝑊 𝑗 ?, each with the type of its position in 𝑡.
+                                                                                  agent stationary; the partial equivalence is the maGLP transaction
+                                 𝑋 ∈ 𝐻𝑝       𝑡 as above                          equivalence, with grant transitions outside its domain.
+ (𝐻𝑝 , 𝐺𝑝 , 𝜎𝑝 ) → (𝐻𝑝 \ {𝑋 } ∪ {𝑌1, . . . , 𝑌𝑘 ,𝑊1 ?, . . . ,𝑊𝑚 ?}, 𝐺𝑝 , 𝜎𝑝 ∪ {𝑋 ? := 𝑡 })
+                                                                                  The canonical compilation [38]. Let 𝑀 be a vGLP program. A
+     Definition E.16 (vmaGLP Transition System [38]). Given a vGLP                procedure of 𝑀 reaches a question if it is volitional or a clause
+program 𝑀 and agents 𝑃 ⊂ Π, the vmaGLP transition system over 𝑃                   of it calls a procedure that does; each such procedure has one
+and 𝑀 is the transactions-based multiagent transition system (Defi-               more argument, last, its ask stream, which its goal writes and the
+nition “Transactions-Based Multiagent Transition System” of [38])                 dispatcher reads. In a clause of such a procedure, each call in the
+over 𝑃, local states being agent states, initial local state (∅, {𝑎 0 }, ∅)       body of a procedure that reaches a question is given a fresh writer
+with 𝑎 0 as in Definition E.8, the transactions being the Reduce, Com-            as its ask stream, and the head carries 𝐷?, where 𝐷 is the clause’s
+municate and Cold-call transactions of maGLP as Definition E.13                   ask stream, with the body’s ask streams merged into 𝐷: the call is
+adapts them and the transactions on the person’s variables, Ask and               given 𝐷 itself where there is one such call, merge goals merge them
+Answer (Definitions E.14 and E.15), read as those of Definition E.7,              where there are more, and the head carries [] in place of 𝐷? where
+and the equivalence ∼ below. ∼ is the partial equivalence whose                   there is none.
+domain is the Ask, Reduce, Communicate and Cold-call transac-                         For a volitional procedure 𝑞 of 𝑀 with interactive type 𝑇 , the
+tions, relating two Reduce, Communicate or Cold-call transactions                 asking clause of 𝑞, under the name 𝑞 so that every call of 𝑞 reaches
+as maGLP does, the person counting as a goal, and 𝑡 1 ∼ 𝑡 2 iff both              it unchanged, is
+are Ask transactions at the same agent 𝑝 asking the same goal (by                 q(S1, ..., Sn, [ask(T, t(X))|D?]) :- q1(S1', ..., Sn', X?, D).
+identity, Definition “Goal Identity” of [38]).                                    where 𝑆𝑙′ passes the argument on: at an input position the head
+     Definition E.17 (Proper Run [38], adapted from [34]). A vmaGLP               carries 𝑆𝑙 and 𝑆𝑙′ is its reader 𝑆𝑙 ?, and at an output position the head
+run is proper if, at each agent 𝑝, a variable that occurs in 𝐺𝑝 after a           carries 𝑆𝑙 ? and 𝑆𝑙′ is the writer 𝑆𝑙 . X and X? are exchanged where 𝑇 is
+transition but not before it also does not occur in 𝐺𝑝 or in 𝐻𝑝 at                in writer mode. t is the name of 𝑇 in lowercase, the names of its type
+any earlier configuration, and the clause each Reduce renames is                  arguments, so formed, appended, with _w for writer mode and _r
+renamed apart from every agent’s goals, held variables and readers                for reader mode, as in approval_w and stream_request_r. Where
+substitution, in the configuration it reduces and in every earlier                two modules of 𝑀 define types of one name, the name of each is
+one.                                                                              prefixed with the path of its module, the names of its directories
+                                                                                  and its file joined by _, as in parent_approval_w. So the asks of
+     Definition E.18 (Question, Open, Closed, Volition [38]). In a con-           𝑀 are of one type, the union over those functors.
+figuration of the vmaGLP transition system, a writer 𝑋 ∈ 𝐻𝑝 is a                      The canonical compilation ⌈𝑀⌉ of a vGLP program 𝑀 is the GLP
+question of 𝑝’s person: an interactive variable the person writes,                program consisting of:
+introduced by an Ask, a writer inside the program’s output deliv-
+                                                                                         • every ordinary clause of 𝑀, extended with its ask streams
+ered to the person, or the writer of a stream or list that an Answer
+                                                                                            (above);
+leaves to the person, the tail of the stream or list answered or one
+                                                                                         • for each volitional procedure 𝑞 of 𝑀, its clauses as guarded
+inside the answer; it is open if its reader 𝑋 ? occurs in the configu-
+                                                                                            clauses of arity 𝑛+1 under a fresh name, q1 above, extended,
+ration, and closed otherwise. A volition of 𝑝’s person is an Answer
+                                                                                            and its asking clause;
+transition of 𝑝: the person’s answer to a question.
+                                                                                         • for each interactive type 𝑇 of 𝑀, the construct process of 𝑇 ,
+     Theorem E.19 (Volitional Soundness [38]). Let 𝑐 1 → 𝑐 2 →                              which the dispatcher spawns on an ask with its variable
+· · · be a proper safe run of the vmaGLP transition system over 𝑃 and                       and its channels to the dispatcher ([38]);
+𝑀, 𝑝 ∈ 𝑃, and 𝑋 a question of 𝑝’s person in 𝑐 𝑖 . Then the writer 𝑋                      • the dispatcher, which reads the ask stream of the initial goal
+occurs in 𝑐 𝑖 in 𝐻𝑝 and nowhere else, and a transition 𝑐 𝑖 → 𝑐 𝑖+1 that                     and the person channel, spawns a construct process with a
+adds an assignment 𝑋 ? := 𝑡 to a readers substitution is the Answer of                      fresh identifier on each ask, and routes the person’s grants
+𝑝 to 𝑋 .                                                                                    to the construct processes by identifier, by the standard
+                                                                                            stream techniques ([38] prints it).
+     The proof is in [38].
+                                                                                  The initial goal of ⌈𝑀⌉ at each agent is that of 𝑀, extended, and
+     Definition E.20 (Person Channel, Person Writer, GLP with Persons,            the dispatcher on the ask stream of that goal and on the person
+Grant [38]). Let 𝑁 be a GLP program and 𝑃 ⊂ Π. A person channel                   channel, which is its person side.
+of a goal 𝐺 0 satisfying SO is a variable pair (𝑈 , 𝑈 ?) such that 𝑈 ?                A vGLP program is organised in modules as a GLP program
+occurs in 𝐺 0 and 𝑈 does not; 𝑈 is its person writer. GLP with persons            is [37]. A .vglp source in the directory tree of a program is com-
+over 𝑃 and 𝑁 , with a designated person channel of each agent’s                   piled into a module of that program, as a .glp source is, and the
+                                                                         20
+simulating people
+
+
+self.vglp of a directory holds the procedures, volitional or not,                                   clause’s pair for an argument read as that argument: at an input
+and the widget declarations shared by every module in that di-                                      position 𝑆𝑙 ? as the term 𝑢, until the assignment is communicated,
+rectory and below it, as its self.glp holds those of GLP; the                                       and at an output position 𝑆𝑙 as 𝑊 and 𝑆𝑙 ? as 𝑊 ?.
+self.vglp of the root holds widget declarations only. A proce-
+                                                                                                       Definition E.22 (Compilation Mapping: Held Variables [38]). 𝐻 is
+dure that reaches a question is exported, imported and shared as
+                                                                                                    the set of variables held for the person, each with its type: by an
+any procedure is, with its ask stream added, so the questions of a
+                                                                                                    ask the dispatcher has not yet taken, and by a construct process
+program are those of all its modules. The compilation forms the
+                                                                                                    that has not drawn its question, the person’s end of the interactive
+type of the asks, the construct processes and the dispatcher for
+                                                                                                    variable; by a construct process that has drawn it, the writers of
+the linked program, and the GLP module that forms the program’s
+                                                                                                    the positions the person writes, and the readers of the positions
+initial goal imports the compiled procedures it calls, ask streams
+                                                                                                    the program writes inside the person’s answers whose output it
+included, and the dispatcher. The compilation is typed: ⌈𝑀⌉ carries
+                                                                                                    has not drawn; and the output the construct processes have drawn,
+the type definitions and procedure declarations of 𝑀, each proce-
+                                                                                                    shown, each reader in it replaced by its value.
+dure that reaches a question declared with its ask stream added, a
+volitional procedure’s declaration being its asking clause’s and its                                    Definition E.23 (Compilation Mapping: Substitution [38]). 𝜎𝑟 is
+guarded clauses declared under their fresh name with the argument                                   the restriction of the readers substitution to the readers of source
+of its interactive type added in the mode of that type, the type of                                 variables — the variables of the initial goal, of the compiled clauses
+the asks, and the declarations of the construct processes and the                                   of 𝑀 as renamed, but for their ask streams, the interactive variables,
+dispatcher. Every module of ⌈𝑀⌉ type-checks as GLP [37] with no                                     and the variables of the terms construct processes bind questions
+type written by hand: the compilation writes into each module that                                  with — less the assignments the asking clauses’ reductions make,
+imports a compiled procedure or the dispatcher the types it forms                                   but for the assignment 𝑊 ? := 𝑆𝑙 ? of an output position, which it
+for them, among them the type of the asks, the view types and the                                   reads through, absent while 𝑆𝑙 ? is unassigned and 𝑊 ? := 𝑢 once
+parameter of the person channel ([38]). A GLP module that calls a                                   𝑆𝑙 ? := 𝑢 is; and with each assignment to a reader a construct process
+compiled procedure is a module of the vGLP program, every GLP                                       holds that a Communicate has delivered to it and the construct
+program being a vGLP program, and is compiled with it.                                              process has not yet drawn, Communicate removing the assignment
+   A vGLP program declares the type of its output to its person                                     it delivers (Definition E.7).
+by defining the type Output, a reserved name; the compiled pro-
+                                                                                                        Lemma E.24 (Compilation, per Transition [38]). Let 𝜎 be the
+gram draws that output, construct 0, by the widget of its type
+                                                                                                    mapping of Definitions E.21, E.22 and E.23 and 𝑐 → 𝑐 ′ a transition of
+Stream(Output), by default a thread whose elements are drawn
+                                                                                                    GLP with persons over 𝑃 and ⌈𝑀⌉ at agent 𝑝. A grant, a reduction of
+by the widget of Output (Definition “Default Widget” of [38]), and
+                                                                                                    the dispatcher or of a merge goal the compilation adds, a reduction
+the dispatcher merges these draws with the constructs’. A program
+                                                                                                    of a construct process that neither binds a question nor draws output,
+that writes nothing to its person defines no Output and draws no
+                                                                                                    a Communicate on the person channel, on an ask stream, or between
+construct 0. A program that writes to its person and defines no
+                                                                                                    the dispatcher and the construct processes, and a Communicate to a
+Output is refused, and so is one whose Output has a position the
+                                                                                                    construct process are stutters. A reduction of the asking clause of 𝑞
+person writes. Construct 0 is drawn when the program starts, and
+                                                                                                    maps to the Ask of the source goal. A Communicate of an assignment
+the dispatcher numbers the questions from 1.
+                                                                                                    an asking clause’s reduction made is a stutter. A construct process
+   The asking clause passes each argument of the goal on through
+                                                                                                    binding a question 𝑋 with the term 𝑡 its person’s input forms, a term
+a pair of its own, so until the pair’s assignment is communicated a
+                                                                                                    of the type of 𝑋 ground at the positions the person writes but for the
+compiled clause that reads the argument suspends; a later clause
+                                                                                                    stream and list positions, which hold readers of new writers it holds
+that does not read it could then be taken where the source goal takes
+                                                                                                    or, for a list the person ends, [], with new writers at the positions the
+the earlier one, and the restriction on the clauses of a volitional
+                                                                                                    program writes, whose readers it holds, maps to the Answer of 𝑝 to
+procedure (Definition E.10) excludes it. At an output position the
+                                                                                                    𝑋 with 𝑡. A construct process’s draw of output it holds, every reader
+asking clause’s head carries a reader, which a writer of the goal
+                                                                                                    in it assigned, maps to the source Communicate of that output to the
+matches and a term of the goal that is not a writer does not, so the
+                                                                                                    person. A reduction of a compiled clause of 𝑀 maps to the Reduce of
+calls of a volitional procedure hold writers there (Definition E.10),
+                                                                                                    the source goal with the source clause. A Communicate to a goal of
+and a goal keeps them until it is asked, holding their one occurrence.
+                                                                                                    the program, within the agent or from another, maps to the source
+                                                                                                    Communicate of the same assignment, and a Cold-call to the source
+   Definition E.21 (Compilation Mapping: Goals [38]). Given a con-
+                                                                                                    Cold-call.
+figuration of GLP with persons over 𝑃 and ⌈𝑀⌉, the mapping 𝜎
+yields the vmaGLP configuration over 𝑃 and 𝑀 with, at each agent,                                      The lemma is the safety case of the proof of the Compilation
+the goals 𝐺 of this definition and the held variables 𝐻 and the read-                               theorem of [38], stated transition by transition.
+ers substitution 𝜎𝑟 of the next two: 𝐺 is the multiset of the agent’s
+goals, each read back to its source with its ask stream dropped:
+𝑞(𝑆 1, . . . , 𝑆𝑛 , 𝐷) as the 𝑛-ary goal 𝑞(𝑆 1, . . . , 𝑆𝑛 ), 𝑞 1 (𝑆 1, . . . , 𝑆𝑛 , 𝑋 ?, 𝐷)
+and 𝑞 1 (𝑆 1, . . . , 𝑆𝑛 , 𝑋, 𝐷) as the asked goal, with the identifier of the
+goal its asking clause reduced, and any other compiled goal as it-
+self; the construct processes, the dispatcher and the merge goals the
+compilation adds contributing nothing; and in every goal an asking
+                                                                                               21
+
