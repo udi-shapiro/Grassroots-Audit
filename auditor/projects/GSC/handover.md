@@ -1,3 +1,9 @@
+# Published second core sweep — 2026-11-12
+
+[PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.
+
+The exact roster, original/rebuilt PDFs, checks, results and handovers are preserved on GPT-Auditor. The working and execution branches were not merged into main. No further user approval was needed. The next work is the unresolved proof/runtime coverage and verification of new responses, as recorded below; no background monitoring or persistent project session has been started. Earlier “prepared” checkpoints below are retained history, superseded by this publication record.
+
 ## Latest response checkpoint, 2026-11-12
 
 PR #8 from GSC #16 via Audit #1 is merged as 7da0ec39be76e52d1b4e6bbef69446ba247e7deb. Independently verified leader receipt (three parsed-source cases, duplicate blocking) and the exact 15-name certificate list at GSC code 9b690ad08a1a92239e254d57b03dcfde87461ebc. The revised public GSC PDF at papers ccdd5433d72286571c065a28a0efb4cb2b151957, blob 74e57cfa07b396315f53771b2e2ecf2e65b5dfb6, also repairs leader receipt; changed passages on pp. 20, 21 and 34 checked. PDF/text preserved at 6dac780a79db8642ccf2cb9c782b46bb16ceab33 under auditor/evidence/gsc-response-20261112/papers. Exact check/results are in the same evidence family. The paper source commit 7366e67 was not independently resolved; actual public PDF bytes were verified.

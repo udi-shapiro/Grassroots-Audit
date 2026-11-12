@@ -2,7 +2,15 @@
   "stage": 2,
   "batch": "second-core-sweep-20261112",
   "publication": {
-    "status": "prepared_not_published"
+    "status": "merged",
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+    "head": "b7e7422b5592d545f302a388b90c16f2688c361c",
+    "merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc",
+    "date": "2026-11-12",
+    "files": 16,
+    "reports": 13,
+    "findings": 9,
+    "unanswered": 6
   },
   "glp_main": "f68fbcbc3ef91b9707037ef7e5dfdb302acd1458",
   "papers_commit": "f4ae6121866387641f2941e3e9bf46e5fd964e7d",

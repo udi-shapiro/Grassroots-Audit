@@ -9,12 +9,14 @@
         "IGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_followup_prepared",
+      "substantive_audit": "second_bounded_core_sweep_published; remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Actual typed pair-cycle and finite controls; actual FIFO race; 72 selected tests; IGLP Sections 4\u20136; further TGLP appendices C.3, D, E and beginning of F.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "Grassroots Logic Programs",
-      "paths": []
+      "paths": [],
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "VMAT",
@@ -22,12 +24,14 @@
         "VMAT"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_followup_prepared",
+      "substantive_audit": "second_bounded_core_sweep_published; remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Current 28-page PDF including appendices, focusing on containment, countable classes, partial equivalence, if-then-else and fail-stop fairness.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "Volition-Guarded Multiagent Atomic Transactions",
-      "paths": []
+      "paths": [],
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "vGLP",
@@ -35,12 +39,14 @@
         "vGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_followup_prepared",
+      "substantive_audit": "second_bounded_core_sweep_published; remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Current PDF targeted CVA/compilation/fairness reading; generated event loop; actual root fair-merge clauses; repeatable macro-trace.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "Volition Elicitation",
-      "paths": []
+      "paths": [],
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "sGLP",
@@ -48,12 +54,14 @@
         "sGLP"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_followup_prepared",
+      "substantive_audit": "second_bounded_core_sweep_published; remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Appendix A relay/mapping proof and Appendix E Answer compared against current vGLP; selected SimClock tests executed.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "Stochastic GLP",
-      "paths": []
+      "paths": [],
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "GSC",
@@ -61,14 +69,16 @@
         "GSC"
       ],
       "stage": 2,
-      "substantive_audit": "bounded_followup_prepared",
+      "substantive_audit": "second_bounded_core_sweep_published; remaining_coverage_open",
       "session": "current_conversation; no persistent worker",
       "limited_completed_scope": "Current PDF relevant English contracts/schemas, role extents and targeted Appendix B containment/polite/role-graph arguments.",
       "scope_record": "stages/02-core-runtime-and-cascade.json",
       "published_name": "From Grassroots Contract to Grassroots App",
       "paths": [],
       "response_pr": 8,
-      "verification": "two source corrections verified; paper correction verified; source integration pending"
+      "verification": "two source corrections verified; paper correction verified; source integration pending",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "GSA",
@@ -395,7 +405,9 @@
       ],
       "published_name": "Grassroots Coordination",
       "limited_completed_scope": "31 PROJECTS rows plus six named support projects; 27 paper keys, 26 built PDFs, 64 contracts placed once; 11 Earlier papers.",
-      "scope_record": "stages/02-core-runtime-and-cascade.json"
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "Website",
@@ -408,7 +420,9 @@
         "servers/peoplesweb"
       ],
       "limited_completed_scope": "Current map and all 64 unchanged owner headers; old cache reproduction and new correction controls.",
-      "scope_record": "stages/02-core-runtime-and-cascade.json"
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "Audit",
@@ -419,7 +433,9 @@
       "published_name": "Our side of the audit by GPT auditors",
       "paths": [],
       "limited_completed_scope": "Audit repository governance and Claude response route.",
-      "scope_record": "stages/02-core-runtime-and-cascade.json"
+      "scope_record": "stages/02-core-runtime-and-cascade.json",
+      "publication_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/9",
+      "publication_merge": "0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc"
     },
     {
       "project": "Phones",
