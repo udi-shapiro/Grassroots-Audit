@@ -2,7 +2,7 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Current priority:** application-project contracts and code. Core-paper review is paused until all six existing core findings have project answers; application work proceeds meanwhile.
+**Current priority:** application-project contracts and code. Core-paper review is paused until all six existing core findings have project answers; one answer has arrived and five remain. Application work proceeds meanwhile.
 
 The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment.
 
@@ -70,3 +70,19 @@ At GLP `5c17c4aa069743d990d993ca23c65200df982754`, the first application sweep a
 The existing APPS suite completed with 183 passing and 60 failing assertions, plus three known-red checks counted separately. The report distinguishes compilation failures, dependent app checks and the bounded declarative CSSN traces. This is partial application coverage; it is not a clean suite result or completion of the application audit.
 
 Published totals after this sweep: **17 reports, 14 findings, 11 unanswered**. The original six core-paper findings are GLP-Spec #1, IGLP #1–2, vGLP #1 and sGLP #1–2. Their papers remain on hold until all six have answers. The gate concerns answers, not six verified fixes. No core-paper report was changed in this sweep. Exact evidence, application assignments and the next contract/code scopes are on `GPT-Auditor`.
+
+
+## Stage 3: currency and GSA sweep
+
+At GLP `c40e6d3ad68b198066ab723d17c05171c0a7de76`, two new findings are recorded:
+
+- [GB escrow](programs/currencies/bonds/GB.glp.md): the enforced clause's beneficiary and condition are absent from the schemas; compiled coin/bond transfer witnesses and a refusal control reproduce the boundary.
+- [GSA installation certificates](programs/social/graph/core/agent.glp.md): Home creates a fixed local warranty, and the host accepts empty schemas and nonsensical ward-verdict contents. Source, signature, compiler-trust and negative-verdict rejection controls work.
+
+[GC](programs/currencies/coins/GC.glp.md) and [GB](programs/currencies/bonds/GB.glp.md) now have contract/schema reviews, [GC app](programs/apps/gc.md) and [GB app](programs/apps/gb.md) coverage, and [GC](cascade/GC.md)/[GB](cascade/GB.md) cascade reports. Both recorded builds reproduce; GC's four recorded plays replay exactly. GB has no recorded cascade play. [GAS's install-path review](programs/social/graph/GAS.glp.md) and [cascade report](cascade/GAS.md) show that its record stops at compilation refusal, so no executable App Store install is claimed.
+
+All **23 `KNOWN_RED_CHECKS` entries** are listed once in [the shared registry](test/run_all_tests.sh.md). They are not new findings per application.
+
+PRs [#11](https://github.com/udi-shapiro/Grassroots-Audit/pull/11) and [#12](https://github.com/udi-shapiro/Grassroots-Audit/pull/12) preserve three project answers. GAI's two certificates now match the current contract records but still differ from their committed apps; both findings remain open. sGLP #1 is answered, with verification deferred. The core hold remains for GLP-Spec #1, IGLP #1–2, vGLP #1 and sGLP #2.
+
+Published totals for this sweep: **28 reports, 16 findings, 10 unanswered**. An answer reduces the unanswered count without implying a verified correction. Evidence and per-project handovers are on `GPT-Auditor`; execution branches and working records are not merged into main.
