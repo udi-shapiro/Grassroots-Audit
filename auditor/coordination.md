@@ -1,3 +1,11 @@
+# PR #50 SPM Secure Friendship report requires correction — 17 November 2026
+
+[PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50), head `ace65838944396c4a6a777d2b31c8ec17cc0bf72`, proposes five new Secure Friendship findings. Review [5944513543](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5944513543) requests changes; no report, ticket or total was published.
+
+Pinned source inspection at GLP `2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266` supports Finding 3 and substantial state-recovery/identity-replacement gaps, but Findings 1, 2 and 4 overstate the source: the preamble already says Alice names custodians; `send_record` remains enabled after an earlier friendship and its negative guard prevents repeating the same custodian; `restore` self-disables when it adds the missing friendship. Finding 5's underscore-matching subclaim needs matcher evidence or a focused reproduction. The accepted SPM GPT auditor owns the independent report; Ohad Eitan/Claude attribution must be preserved as proposer history.
+
+No GLP/status execution was performed in this review. Contributor cascade/sGLP runs remain attributed claims. Open GLP PR #86 is English-only and is neither an answer nor a verified fix. If five corrected unanswered findings are accepted, publish 29 reports, 21 findings, 5 unanswered, 13 unresolved and 8 verified corrected; update `ISSUES.md`, regenerate status, then create/link five tickets. Exact source pins and assessment: [stage 12](stages/12-pr50-spm-review-20261117.json). The automation remains enabled.
+
 # PR #49 duplicate feedback test blocked — 17 November 2026
 
 [PR #49](https://github.com/udi-shapiro/Grassroots-Audit/pull/49), head `cf9b4ec9670ece0cec29126175ff4c685ceebf0b`, contains only visitor text `test again`, with no page or actionable concern. It duplicates the blocked PR #48 form test. Review [5942371204](https://github.com/udi-shapiro/Grassroots-Audit/pull/49#pullrequestreview-5942371204) requests changes and asks that the test PR be closed. It is not a finding or project answer and was not merged.
