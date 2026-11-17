@@ -1,16 +1,6 @@
 {
   "date": "2026-11-17",
   "run_id": "github-699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
-  "event": {
-    "delivery_id": "699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
-    "type": "pull_request.opened",
-    "pr": 50,
-    "discussion_version_before_auditor_review": {
-      "comments": 1,
-      "reviews": 1,
-      "review_threads": 0
-    }
-  },
   "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
   "pr": {
     "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
@@ -18,7 +8,8 @@
     "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
     "author": "OhadEitan",
     "path": "programs/social/spm/Secure-Friendship.txt.md",
-    "proposed_findings": 5
+    "proposed_findings": 5,
+    "updated_at": "2026-11-17T18:44:33Z"
   },
   "source": {
     "glp_commit": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
@@ -72,5 +63,28 @@
     "Do not treat GLP PR86 or any merged answer as independent verification.",
     "Create tickets and publish totals only after the corrected finding set is accepted."
   ],
-  "automation": "left enabled"
+  "automation": "left enabled",
+  "events": [
+    {
+      "delivery_id": "699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
+      "type": "pull_request.opened",
+      "pr": 50,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      }
+    },
+    {
+      "delivery_id": "ef25261a-e2b6-11f1-9db2-addb789b53b2",
+      "type": "pull_request_review.submitted",
+      "pr": 50,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0
+      },
+      "disposition": "own requested-changes review recorded; no automated reply"
+    }
+  ]
 }
