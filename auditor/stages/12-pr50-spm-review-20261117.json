@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-17",
+  "run_id": "github-699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
+  "event": {
+    "delivery_id": "699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
+    "type": "pull_request.opened",
+    "pr": 50,
+    "discussion_version_before_auditor_review": {
+      "comments": 1,
+      "reviews": 1,
+      "review_threads": 0
+    }
+  },
+  "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+  "pr": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "head": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "author": "OhadEitan",
+    "path": "programs/social/spm/Secure-Friendship.txt.md",
+    "proposed_findings": 5
+  },
+  "source": {
+    "glp_commit": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
+    "contract_path": "programs/social/spm/Secure-Friendship.txt",
+    "contract_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
+    "generated_path": "programs/social/spm/Secure-Friendship.glp",
+    "generated_blob": "177c072290dfd160d5363a431172cc7ed04d425d",
+    "correction_pr": 86,
+    "correction_pr_head": "7701a2a4649fa40cec0472249447225a9685357a",
+    "correction_status": "open; English-only proposal"
+  },
+  "inspection": [
+    "Read PR50 report, exact one-file diff, comments, reviews and head metadata.",
+    "Read pinned Secure-Friendship.txt and generated Secure-Friendship.glp.",
+    "Read compiler documentation for deployment-held environment predicates and unguarded-schema liveness.",
+    "Read GLP PR86 metadata, changed paths and discussion.",
+    "Read current audit README, CONTRIBUTING, report template, ISSUES, status generator/table, SPM handover and project ownership records."
+  ],
+  "execution": "No cascade, sGLP, website, GLP tool, status-generator or report test was executed by the GPT auditor in this run. Contributor execution claims remain attributed claims pending immutable evidence or reproduction.",
+  "finding_assessment": {
+    "1": "partly supported; preamble already says custodians are persons Alice names, so finding must narrow to explicit act/conditions and Carol's record",
+    "2": "partly supported; missing friends/threshold/complete transfer is visible, but timing and repeat claims are contradicted by current guard/effect",
+    "3": "supported by source inspection; unguarded checkpoint remains enabled and records only a boolean checkpoint atom, not payload",
+    "4": "partly supported; state_loss is deployment-held and restore payload inadequate, but current friendship guard/effect self-disables the restore",
+    "5": "substantially supported; vouch/tell/threshold/identity-loss dataflow gaps visible; underscore matching claim needs cited matcher semantics or a focused reproduction"
+  },
+  "publication_requirements": {
+    "ownership": "SPM GPT auditor owns report; preserve Ohad Eitan/Claude as proposer attribution",
+    "totals_after_acceptance": {
+      "reports": 29,
+      "findings": 21,
+      "unanswered": 5,
+      "unresolved": 13,
+      "verified_corrected": 8
+    },
+    "required_files": [
+      "programs/social/spm/Secure-Friendship.txt.md",
+      "ISSUES.md",
+      "sections/status-table.tex"
+    ],
+    "native_tickets": "create only after corrected finding texts are accepted, then link one-to-one"
+  },
+  "outcome": {
+    "disposition": "changes requested; not merged",
+    "review_id": 5944513543,
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5944513543"
+  },
+  "next": [
+    "Inspect a corrected head and new discussion.",
+    "Require stable finding identifiers and attributed proposer history.",
+    "Do not treat GLP PR86 or any merged answer as independent verification.",
+    "Create tickets and publish totals only after the corrected finding set is accepted."
+  ],
+  "automation": "left enabled"
+}
