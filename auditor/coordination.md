@@ -1,3 +1,9 @@
+# Feedback workflow and test PR dispositions — 18 November 2026
+
+[PR #25](https://github.com/udi-shapiro/Grassroots-Audit/pull/25) closed without merging and was superseded by [PR #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/55), which remains open. Audit intake wording should describe the website outbox, GLP feedback branch and Audit-created PRs, and qualify visitor notification after an answer until supported by evidence. The pinned generator counted both test posts as reports in a scratch run. A scratch-only exclusion of top-level `feedback/` removed both rows while retaining the answered fixture finding. Before publishing, review the intake/finding distinction, status exclusion and regenerated table, and update the outdated workflow pointer in ISSUES.md.
+
+Claude confirmed that [#48](https://github.com/udi-shapiro/Grassroots-Audit/pull/48#issuecomment-6977016221) and [#49](https://github.com/udi-shapiro/Grassroots-Audit/pull/49#issuecomment-6977016735) were form tests. Both closed without merging, and both public PR files matched the GLP feedback branch examples. SMTP and answer notification were not exercised. All six core answers remain recorded, and independent verification stays queued. See [stage 13](stages/13-pr55-feedback-workflow-20261118.json) for pins and execution details.
+
 # PR #50 SPM Secure Friendship report requires correction — 17 November 2026
 
 [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50), head `ace65838944396c4a6a777d2b31c8ec17cc0bf72`, proposes five new Secure Friendship findings. Review [5944513543](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5944513543) requests changes; no report, ticket or total was published.
