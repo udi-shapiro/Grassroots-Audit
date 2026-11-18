@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-18T11:16:21.942Z",
-  "active_run": {
-    "run_id": "github-3723aba0-e341-11f1-83b6-f9300ad9abf1",
-    "delivery_id": "3723aba0-e341-11f1-83b6-f9300ad9abf1",
-    "event": "pull_request.opened",
-    "pull_request_number": 55,
-    "head_sha": "1f091b597736a09183df41e78959531ad8d38a7b",
-    "acquired_at": "2026-11-18T11:16:21.942Z",
-    "expires_at": "2026-11-18T11:46:21.942Z"
-  },
+  "updated_at": "2026-11-18T11:19:14.099Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "ef25261a-e2b6-11f1-9db2-addb789b53b2",
-      "event": "PR50 opened plus own requested-changes review event",
-      "pull_request_number": 50,
-      "observed_at": "2026-11-17T18:47:34.867Z",
-      "outcome": "SPM report changes requested; no reply loop"
+      "delivery_id": "b2a408b0-e341-11f1-8904-82180f4e0ac2",
+      "event": "Feedback proposal and test PR activity",
+      "pull_request_number": 48,
+      "observed_at": "2026-11-18T11:19:14.099Z",
+      "outcome": "PR25 superseded by PR55; PR48 and PR49 closed as tests; PR55 remains open after assessment."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -45,6 +37,94 @@
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
     {
+      "number": 55,
+      "head_sha": "1f091b597736a09183df41e78959531ad8d38a7b",
+      "state": "open",
+      "updated_at": "2026-11-18T11:14:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "notes": "Replacement feedback proposal reviewed internally. Open pending accurate handoff and answer-notification wording, intake triage and generator exclusion. Scratch check reproduced report miscount. No PR message posted."
+    },
+    {
+      "number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "state": "closed",
+      "updated_at": "2026-11-18T11:14:34Z",
+      "merged_at": null,
+      "comment_cursor": 6976937582,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYetIRQ",
+      "notes": "Claude's replacement comment reviewed; closed without merge, superseded by PR55.",
+      "closed_at": "2026-11-18T11:14:34Z",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5937776709,
+          6976937582
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:14:32Z",
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYetIRQ"
+        ]
+      }
+    },
+    {
+      "number": 48,
+      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "state": "closed",
+      "updated_at": "2026-11-18T11:17:55Z",
+      "merged_at": null,
+      "comment_cursor": 6977016221,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYhIQuA",
+      "notes": "Claude confirmed form test on Website's behalf; closed without merge. Public test artifact handoff independently matched; email workflow not executed.",
+      "closed_at": "2026-11-18T11:17:55Z",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5940318392,
+          6977016221
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYhIQuA"
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:17:52Z"
+      }
+    },
+    {
+      "number": 49,
+      "head_sha": "cf9b4ec9670ece0cec29126175ff4c685ceebf0b",
+      "state": "closed",
+      "updated_at": "2026-11-18T11:17:57Z",
+      "merged_at": null,
+      "comment_cursor": 6977016735,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYjFjhA",
+      "notes": "Claude confirmed form test on Website's behalf; closed without merge. Public test artifact handoff independently matched; email workflow not executed.",
+      "closed_at": "2026-11-18T11:17:57Z",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5942371204,
+          6977016735
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYjFjhA"
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:17:54Z"
+      }
+    },
+    {
       "number": 50,
       "head_sha": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
       "state": "open",
@@ -53,26 +133,6 @@
       "comment_cursor": "reviews 5944465842 and 5944513543",
       "review_cursor": "CHANGES_REQUESTED at head ace65838944396c4a6a777d2b31c8ec17cc0bf72",
       "notes": "five proposed SPM Secure Friendship findings; Finding 3 and substantial 4/5 gaps source-supported, Findings 1/2/4 need narrowing; ownership, evidence, issue index and regenerated status required"
-    },
-    {
-      "number": 49,
-      "head_sha": "cf9b4ec9670ece0cec29126175ff4c685ceebf0b",
-      "state": "open",
-      "updated_at": "2026-11-17T16:27:51Z",
-      "merged_at": null,
-      "comment_cursor": "review 5942371204",
-      "review_cursor": "CHANGES_REQUESTED at head cf9b4ec9670ece0cec29126175ff4c685ceebf0b",
-      "notes": "duplicate visitor feedback test; only text 'test again' and no page/actionable concern; changes requested, not a finding or project answer"
-    },
-    {
-      "number": 48,
-      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
-      "state": "open",
-      "updated_at": "2026-11-17T14:31:36Z",
-      "merged_at": null,
-      "comment_cursor": "review 5940318392",
-      "review_cursor": "CHANGES_REQUESTED at head 962699a77a94bfc56c8bb3ce1ba45a21487633dd",
-      "notes": "visitor feedback test; only text 'test' and no page/actionable concern; changes requested because feedback intake workflow remains unpublished and form/email claim unverified"
     },
     {
       "number": 47,
@@ -134,16 +194,6 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "notes": "auditor publication merged; self-generated events, no reply loop"
-    },
-    {
-      "number": 25,
-      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
-      "state": "open",
-      "updated_at": "2026-11-17T11:42:57Z",
-      "merged_at": null,
-      "comment_cursor": "review 5937776709",
-      "review_cursor": "COMMENTED",
-      "notes": "visitor-feedback workflow proposal; maintainer requested distinction from findings and qualified deployment claims"
     },
     {
       "number": 24,
@@ -400,6 +450,88 @@
   },
   "processed_events": [
     {
+      "delivery_id": "3723aba0-e341-11f1-83b6-f9300ad9abf1",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 55,
+      "head_sha": "1f091b597736a09183df41e78959531ad8d38a7b",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "outcome": "assessed; open with documented merge blockers; no review posted in this run",
+      "processed_at": "2026-11-18T11:19:14.099Z"
+    },
+    {
+      "delivery_id": "3b95f9e0-e341-11f1-8d31-ebc4fd06c8bc",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "comment_id": 6976937582,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5937776709,
+          6976937582
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:14:32Z",
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYetIRQ"
+        ]
+      },
+      "outcome": "attributed Claude comment says PR55 replaces PR25; confirmed separate open successor",
+      "processed_at": "2026-11-18T11:19:14.099Z"
+    },
+    {
+      "delivery_id": "3c0891d0-e341-11f1-83ac-e3cc6ff48ca1",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5937776709,
+          6976937582
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:14:32Z",
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYetIRQ"
+        ]
+      },
+      "outcome": "superseded and closed without merge",
+      "processed_at": "2026-11-18T11:19:14.099Z"
+    },
+    {
+      "delivery_id": "b2a408b0-e341-11f1-8904-82180f4e0ac2",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 48,
+      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "comment_id": 6977016221,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5940318392,
+          6977016221
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYhIQuA"
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:17:52Z"
+      },
+      "outcome": "Claude confirmed form test; closed without merge; no further PR action",
+      "processed_at": "2026-11-18T11:19:14.099Z"
+    },
+    {
       "delivery_id": "699a6f50-e2b6-11f1-84f6-0e6096c1fa2c",
       "event_type": "pull_request",
       "action": "opened",
@@ -650,12 +782,15 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-17T18:47:34.867Z",
+    "observed_at": "2026-11-18T11:19:14.099Z",
     "prs": [
-      50
+      25,
+      48,
+      49,
+      55
     ],
-    "reason": "processed PR50 opened and own requested-changes review events at pinned head",
-    "stage_record": "auditor/stages/12-pr50-spm-review-20261117.json"
+    "reason": "Processed supplied events; PR49 closure and comment reconciled from GitHub without inventing a delivery ID.",
+    "stage_record": "auditor/stages/13-pr55-feedback-workflow-20261118.json"
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
