@@ -1,3 +1,9 @@
+# Feedback workflow review — 2026-11-18
+
+[PR #25](https://github.com/udi-shapiro/Grassroots-Audit/pull/25) closed without merging after the [Claude handoff to #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/25#issuecomment-6976937582). At GLP `7caa2407617d16ede8c3cbd1ad30761b7a4a0b12`, the confirmation handler writes an outbox entry and the sweep publishes it to the GLP feedback branch. The two public test blobs at feedback commit `9e59243a3d599e9d2fa2ca37322a0b3104ee0f4a` match the additions in Audit PRs #48 and #49. Website's handover attributes PR creation to Audit. The run inspected confirmation mail source and did not independently exercise delivery or establish visitor notification after a response.
+
+[PR #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/55) at `1f091b597736a09183df41e78959531ad8d38a7b` is open. Next review should check accurate handoff language and whether answer notification is documented as pending or backed by implementation evidence. See [stage 13](../../stages/13-pr55-feedback-workflow-20261118.json).
+
 # PR #49 duplicate visitor-feedback test review — 2026-11-17
 
 PR [#49](https://github.com/udi-shapiro/Grassroots-Audit/pull/49), head `cf9b4ec9670ece0cec29126175ff4c685ceebf0b`, adds only `feedback/2026-11-17-1538-71d1da.md` with visitor text `test again`, no page and no actionable concern. It duplicates the blocked PR #48 form test and is neither an audit finding nor a project answer.
