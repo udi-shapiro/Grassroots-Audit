@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-18",
+  "pr": {
+    "number": 28,
+    "head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+    "latest_comment": 6977328109,
+    "discussion_version": {
+      "comments": 2,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        5939560673,
+        6977328109
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYgaA4Q"
+      ],
+      "latest_comment_updated_at": "2026-11-18T11:32:11Z"
+    }
+  },
+  "finding": "servers/peoplesweb/web/index.html.md#1",
+  "issue": 52,
+  "audit_base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+  "source": {
+    "original": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
+    "verified_main": "64dfdc23188d9b67ff634c91dbc89aa9def88141",
+    "contributor_change": "c860408958b94b4727039ee0c4e4e17f58918e65",
+    "blobs": {
+      "servers/peoplesweb/tools/build.py": "e04d57e7ea1b1a9f9a247ab14d21c242eb4ffb1e",
+      "servers/peoplesweb/web/index.html": "ed345649042ca3b821251d364db7df2c973e0276",
+      "cascade/Ads/manifest.md": "cde05b77f71e3907732c498b85c7302c863b2266",
+      "cascade/Auction/manifest.md": "82b32271c5ac545b9bb4e9c3ff5fb2c28e73cfc9",
+      "cascade/Networked-Organisation/manifest.md": "be47e0b13abbfa14c7ea76c9aba5f17e348f8aa2",
+      "cascade/Second-Score-Auction/manifest.md": "c32f7e14cc687a8c52ce9847cbec4b768aecf3b6"
+    },
+    "concrete_contract_blob": "d71b4b443ea56aecf7a2ff874c3afaf7695765c8"
+  },
+  "claim": "Website #4 via Audit #3 reports the template label and relationships fixed. See https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-6977328109",
+  "inspection": "Confirmed GLP main is the cited fix commit. Read build metadata, UI templates, relationship parsing and the four manifests.",
+  "execution": {
+    "commands": [
+      "python3 check.py",
+      "node check.cjs",
+      "python3 audit/bin/status.py"
+    ],
+    "outcome": [
+      "Three parametric manifests, concrete and absent-manifest controls passed. Actual Second-Score Auction text parsed as instantiating Auction.",
+      "All three template badges and descriptions, Auction instance link, refusal and live controls passed.",
+      "All tracked report Markdown from the pinned audit main and the proposed report: 29 reports, 17 findings, 0 unanswered."
+    ],
+    "fixture_sources": {
+      "python": "import ast\nimport json\nimport os\nimport re\nfrom pathlib import Path\n\nroot = Path('glp')\nsource = (root / 'servers/peoplesweb/tools/build.py').read_text()\ntree = ast.parse(source)\nneeded = {'read', 'names_in', 'extends_of'}\nnodes = [n for n in tree.body if\n    (isinstance(n, ast.FunctionDef) and n.name in needed) or\n    (isinstance(n, ast.Assign) and isinstance(n.targets[0], ast.Name) and n.targets[0].id == 'RELATIONS')]\nenv = {'os': os, 're': re, 'NAMEID': {'Auction': 'Auction', 'Second-Score Auction': 'Second-Score-Auction'}, 'NAMES_RE': [None]}\nexec(compile(ast.Module(body=nodes, type_ignores=[]), '<pinned build helpers>', 'exec'), env)\nline = next(l.strip() for l in source.splitlines() if l.strip().startswith(\"c['parametric'] =\"))\ncontracts = []\nfor name in ('Ads', 'Auction', 'Networked-Organisation', 'Second-Score-Auction', 'Missing'):\n    c = {'id': name, 'parametric': None, 'extends': []}\n    env.update(c=c, mf=str(root / 'cascade' / name / 'manifest.md'))\n    exec(line, env)\n    assert c['parametric'] == (name in ('Ads','Auction','Networked-Organisation')), c\n    if name == 'Second-Score-Auction':\n        text = (root / 'programs/lbm/Second-Score-Auction.txt').read_text()\n        c['name'] = 'Second-Score Auction'\n        c['meta'] = []\n        c['extends'] = env['extends_of'](c, text.splitlines())\n        assert c['extends'] == ['Auction'] and c['rels']['Auction'] == 'instantiates', c\n    contracts.append(c)\nPath('contracts.json').write_text(json.dumps(contracts))\nprint('Manifest classification: three parametric positives, concrete and missing-manifest controls; Auction instance relation confirmed.')\n",
+      "node": "const fs = require('node:fs'), vm = require('node:vm'), assert = require('node:assert/strict');\nconst html = fs.readFileSync('glp/servers/peoplesweb/web/index.html', 'utf8');\nconst funcs = html.slice(html.indexOf('const openBtn ='), html.indexOf('// The stages of the cascade'));\nconst expr = html.split('\\n').find(s => s.includes('<p class=\"sum\">${c.live') && s.includes('c.parametric')).trim();\nconst contracts = JSON.parse(fs.readFileSync('contracts.json', 'utf8'));\nconst ctx = vm.createContext({D:{contracts}, esc:s=>s, NM:id=>id.replaceAll('-', ' '), appUrl:()=>'/app'});\nconst render = vm.runInContext(funcs + '\\n(c) => ({pill: openBtn(c), app: ' + '`' + expr + '`' + '})', ctx);\nfor (const c of contracts.filter(c=>c.parametric)) {\n  const {pill, app} = render({...c,record:true,live:false});\n  assert.match(pill, />Parametric</);\n  assert.match(app,/a template with no app of its own/);\n  assert.doesNotMatch(app,/No app yet/);\n  if (c.id === 'Auction') assert.match(app, /<a data-go=\"Second-Score-Auction\">Second Score Auction<\\/a>/);\n}\nconst refused = render({id:'Refusal',record:true,notCompiled:['control refusal']});\nassert.match(refused.pill, />Not compiled</);\nassert.match(refused.app,/No app yet\\. The compiler refused it: control refusal/);\nassert.match(render({id:'Live',live:true}).pill, />Open</);\nconsole.log('Rendered three template cases, Auction instance link, refusal and live controls.');\n"
+    },
+    "limits": "Executed extracted functions/expressions with local inputs. Full site build, browser navigation and live deployment were outside scope."
+  },
+  "publication": {
+    "branch": "auditor/website-parametric-verification-20261118",
+    "status": "preparing main-based publication; prior source proposal remains intact"
+  }
+}
