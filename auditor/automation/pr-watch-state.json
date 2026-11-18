@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-18T11:35:17.383Z",
-  "active_run": {
-    "run_id": "github-b274a960-e343-11f1-86dd-2d460092d05e",
-    "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
-    "event": "issue_comment.created",
-    "pull_request_number": 28,
-    "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
-    "acquired_at": "2026-11-18T11:35:17.383Z",
-    "expires_at": "2026-11-18T12:05:17.383Z"
-  },
+  "updated_at": "2026-11-18T11:39:01.431Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "b2a408b0-e341-11f1-8904-82180f4e0ac2",
-      "event": "Feedback proposal and test PR activity",
-      "pull_request_number": 48,
-      "observed_at": "2026-11-18T11:19:14.099Z",
-      "outcome": "PR25 superseded by PR55; PR48 and PR49 closed as tests; PR55 remains open after assessment."
+      "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
+      "event": "PR28 Website response with PR56 publication",
+      "pull_request_number": 28,
+      "observed_at": "2026-11-18T11:39:01.431Z",
+      "outcome": "Focused checks passed; audit publication awaiting review."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,44 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 28,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "state": "open",
+      "updated_at": "2026-11-18T11:32:11Z",
+      "merged_at": null,
+      "comment_cursor": 6977328109,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYgaA4Q",
+      "notes": "Website answer independently verified by local fixtures at GLP 64dfdc23188d9b67ff634c91dbc89aa9def88141; separate reviewed publication pending in PR56 while PR28 remains intact.",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939560673,
+          6977328109
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgaA4Q"
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:32:11Z"
+      }
+    },
+    {
+      "number": 56,
+      "head_sha": "14f840cc88d9b46e4a7f31382a1e0e527395efc0",
+      "state": "open",
+      "updated_at": "2026-11-18T11:37:39Z",
+      "merged_at": null,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "notes": "Own main-based Website publication; verified issue 52 disposition pending review and merge."
+    },
     {
       "number": 55,
       "head_sha": "1f091b597736a09183df41e78959531ad8d38a7b",
@@ -172,16 +202,6 @@
       "comment_cursor": "review 5939623857",
       "review_cursor": "CHANGES_REQUESTED at head 6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
       "notes": "proposed Calculus tool finding supported by source inspection; changes requested for totals, ownership and status"
-    },
-    {
-      "number": 28,
-      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
-      "state": "open",
-      "updated_at": "2026-11-17T13:44:06Z",
-      "merged_at": null,
-      "comment_cursor": "review 5939560673",
-      "review_cursor": "CHANGES_REQUESTED at head 641d4a705ce9658f777a20c2a80d564201d523ad",
-      "notes": "new Website finding proposal supported by source inspection; changes requested for totals, ownership and regenerated status"
     },
     {
       "number": 27,
@@ -457,6 +477,44 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 28,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "comment_id": 6977328109,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939560673,
+          6977328109
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgaA4Q"
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:32:11Z"
+      },
+      "processed_at": "2026-11-18T11:39:01.431Z",
+      "outcome": "Website answer independently verified in pinned build and render fixtures; audit publication PR56 open for review",
+      "publication_pr": 56
+    },
+    {
+      "delivery_id": "765d66f0-e344-11f1-8d21-2bd4a490243a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 56,
+      "head_sha": "14f840cc88d9b46e4a7f31382a1e0e527395efc0",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-18T11:39:01.431Z",
+      "outcome": "own verification publication, exact four-file readback matched; awaiting review"
+    },
     {
       "delivery_id": "3723aba0-e341-11f1-83b6-f9300ad9abf1",
       "event_type": "pull_request",
@@ -790,15 +848,13 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-18T11:19:14.099Z",
+    "observed_at": "2026-11-18T11:39:01.431Z",
     "prs": [
-      25,
-      48,
-      49,
-      55
+      28,
+      56
     ],
-    "reason": "Processed supplied events; PR49 closure and comment reconciled from GitHub without inventing a delivery ID.",
-    "stage_record": "auditor/stages/13-pr55-feedback-workflow-20261118.json"
+    "reason": "Website project reply and own publication open event processed",
+    "stage_record": "auditor/stages/14-pr28-parametric-20261118.json"
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
