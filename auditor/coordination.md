@@ -1,3 +1,9 @@
+# Parametric contract display verified — 2026-11-18
+
+Website #4's [dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-6977328109) is preserved alongside GCE's proposal at the original finding identifier `servers/peoplesweb/web/index.html.md#1` in [publication PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56), head `14f840cc88d9b46e4a7f31382a1e0e527395efc0`. The source proposal PR #28 remains intact.
+
+Pinned to GLP `64dfdc23188d9b67ff634c91dbc89aa9def88141`, Python and Node fixtures passed Ads, Auction and Networked Organisation classification and rendering, the Auction instance link, and ordinary refusal and live controls. No full site build, browser navigation or deployment check was performed. The pinned report inputs produced 29 reports, 17 findings and zero unanswered; issue #52 is reused. The publication is open and awaiting review. [Stage 14](stages/14-pr28-parametric-20261118.json) records the exact source blobs, checks and publication.
+
 # Feedback workflow and test PR dispositions — 18 November 2026
 
 [PR #25](https://github.com/udi-shapiro/Grassroots-Audit/pull/25) closed without merging and was superseded by [PR #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/55), which remains open. Audit intake wording should describe the website outbox, GLP feedback branch and Audit-created PRs, and qualify visitor notification after an answer until supported by evidence. The pinned generator counted both test posts as reports in a scratch run. A scratch-only exclusion of top-level `feedback/` removed both rows while retaining the answered fixture finding. Before publishing, review the intake/finding distinction, status exclusion and regenerated table, and update the outdated workflow pointer in ISSUES.md.
