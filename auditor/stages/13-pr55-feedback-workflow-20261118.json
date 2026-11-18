@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-18",
+  "run_id": "github-3723aba0-e341-11f1-83b6-f9300ad9abf1",
+  "events": [
+    {
+      "delivery_id": "3723aba0-e341-11f1-83b6-f9300ad9abf1",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 55,
+      "head_sha": "1f091b597736a09183df41e78959531ad8d38a7b",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "outcome": "assessed; open with documented merge blockers; no review posted in this run"
+    },
+    {
+      "delivery_id": "3b95f9e0-e341-11f1-8d31-ebc4fd06c8bc",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "comment_id": 6976937582,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5937776709,
+          6976937582
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:14:32Z",
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYetIRQ"
+        ]
+      },
+      "outcome": "attributed Claude comment says PR55 replaces PR25; confirmed separate open successor"
+    },
+    {
+      "delivery_id": "3c0891d0-e341-11f1-83ac-e3cc6ff48ca1",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5937776709,
+          6976937582
+        ],
+        "latest_comment_updated_at": "2026-11-18T11:14:32Z",
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYetIRQ"
+        ]
+      },
+      "outcome": "superseded and closed without merge"
+    }
+  ],
+  "source_pins": {
+    "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "audit_pr25": "decaee48d2af859524d71c639849a4d363e63afd",
+    "audit_pr55": "1f091b597736a09183df41e78959531ad8d38a7b",
+    "glp_main": "7caa2407617d16ede8c3cbd1ad30761b7a4a0b12",
+    "glp_papers_metadata": "a6394658f4e53398d73e348e542f438cb0949dbe",
+    "glp_feedback": "9e59243a3d599e9d2fa2ca37322a0b3104ee0f4a",
+    "website_source_blobs": {
+      "lib/feedback.dart": "c56d37ac9dd5174e8815fba42de7e9f88f109928",
+      "tools/feedback_publish.py": "49f5c470d5588e7cdf7f1128ccda8c211f61546c",
+      "README.md": "e82961880e4a3003e4861b693cdef20b2f2f113f",
+      "docs/handover-2026-11-17.md": "cb1938c9b040862c216419339630a738437faede",
+      "bin/server.dart": "9bb06347bb3611f5ab25d643e5cbc8b34b5022a9",
+      "deploy/sweep.sh": "4ddb88f5c058833adc069f19df1ee2c4f87b53e2",
+      "web/feedback.html": "615e89604087e9d8584494db100b12bfc94c296f",
+      "deploy/peoplesweb.service": "06e2174ee05b8e9b209d94fe2587adb7bcb07979"
+    },
+    "audit_status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "feedback_test_blobs": [
+      "b53fa64d6db2d17726b84b18d3349309b95f903f",
+      "823604684ac8ff3ecf466ccd3d109a5876d0c2d4"
+    ]
+  },
+  "inspection": [
+    "PR25 and PR55 diffs and discussion, current README, CONTRIBUTING, ISSUES, status generator, Website report and audit/project handovers checked.",
+    "Pinned website source queues confirmed posts and the deployment sweep publishes the outbox to GLP feedback; project handover attributes creation of audit PRs to its Audit session. Both public test blobs match Audit PR48/49, establishing the public artifact handoff for those examples. Project reports of deployed confirmation-mail tests remain attributed.",
+    "The inspected mail handler sends confirmation mail. No implementation or validation of post-answer email was established. The proposal also applies finding-answer language to every post and does not distinguish routing of actionable material from ordinary questions or test submissions.",
+    "Main's four core reports still record answers for all six original findings. Public papers ref observed as metadata only; proof/runtime verification remains queued."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "scratch fixture, main's exact generator, PR48 and PR49 feedback Markdown, plus one synthetic report with an answered open finding",
+      "result": "3 reports, 1 findings, 0 unanswered; status-table.tex includes both feedback rows"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "same fixture, scratch-only variant pruning the top-level feedback directory from os.walk",
+      "result": "1 reports, 1 findings, 0 unanswered; no feedback rows, report retained"
+    }
+  ],
+  "limits": "No live form submission, SMTP, answer-mail test, production source execution, or full-tree status regeneration. No report or production code was changed. PR discussion was left untouched as requested for this run.",
+  "next": "In PR55, describe the outbox → GLP feedback branch → Audit PR stages, qualify answer notification pending public implementation or validation, distinguish intake/routing from accepted findings, and ship the top-level feedback/ exclusion with regenerated status. Review the next changed head before any merge. Update the stale PR25 workflow pointer in ISSUES.md when publishing the replacement."
+}
