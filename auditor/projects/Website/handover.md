@@ -1,3 +1,9 @@
+# Parametric contract display verified — 2026-11-18
+
+Website #4's [dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-6977328109) is preserved alongside GCE's proposal at the original finding identifier `servers/peoplesweb/web/index.html.md#1` in [publication PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56), head `14f840cc88d9b46e4a7f31382a1e0e527395efc0`. The source proposal PR #28 remains intact.
+
+Pinned to GLP `64dfdc23188d9b67ff634c91dbc89aa9def88141`, Python and Node fixtures passed Ads, Auction and Networked Organisation classification and rendering, the Auction instance link, and ordinary refusal and live controls. No full site build, browser navigation or deployment check was performed. The pinned report inputs produced 29 reports, 17 findings and zero unanswered; issue #52 is reused. The publication is open and awaiting review. [Stage 14](../../stages/14-pr28-parametric-20261118.json) records the exact source blobs, checks and publication.
+
 # Feedback workflow review — 2026-11-18
 
 [PR #25](https://github.com/udi-shapiro/Grassroots-Audit/pull/25) closed without merging after the [Claude handoff to #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/25#issuecomment-6976937582). At GLP `7caa2407617d16ede8c3cbd1ad30761b7a4a0b12`, the confirmation handler writes an outbox entry and the sweep publishes it to the GLP feedback branch. The two public test blobs at feedback commit `9e59243a3d599e9d2fa2ca37322a0b3104ee0f4a` match the additions in Audit PRs #48 and #49. Website's handover attributes PR creation to Audit. The run inspected confirmation mail source and did not independently exercise delivery or establish visitor notification after a response.
