@@ -55,7 +55,42 @@
     "limits": "Executed extracted functions/expressions with local inputs. Full site build, browser navigation and live deployment were outside scope."
   },
   "publication": {
+    "number": 56,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/56",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "head": "14f840cc88d9b46e4a7f31382a1e0e527395efc0",
     "branch": "auditor/website-parametric-verification-20261118",
-    "status": "preparing main-based publication; prior source proposal remains intact"
-  }
+    "status": "open, mergeable at readback, awaiting review",
+    "changed_files": [
+      "ISSUES.md",
+      "README.md",
+      "sections/status-table.tex",
+      "servers/peoplesweb/web/index.html.md"
+    ],
+    "readback": "All four files match intended content exactly.",
+    "issue_closure": "Existing issue 52 remains linked for closure on reviewed publication merge."
+  },
+  "events": [
+    {
+      "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pr": 28,
+      "comment": 6977328109,
+      "outcome": "verified correction in pinned fixtures and opened separate publication"
+    },
+    {
+      "delivery_id": "765d66f0-e344-11f1-8d21-2bd4a490243a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pr": 56,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "outcome": "own publication; no additional review or reply"
+    }
+  ],
+  "next": "Review the exact PR56 head when review arrives. Merge only after review, then confirm issue 52 and publication disposition. Preserve PR28 and its discussion."
 }
