@@ -1,10 +1,10 @@
 # Audit issues
 
-Updated 17 November 2026. This index covers **all 16 numbered findings** in the 28 published reports: **eight unresolved and eight independently verified corrected at the recorded source versions; none lacks a project answer**. Each report retains the evidence, attributed answers and verification history. Finding identifiers remain the report path plus finding number.
+Updated 18 November 2026. This index covers **all 17 numbered findings** in the 29 published reports: **eight unresolved and nine independently verified corrected at the recorded source versions; none lacks a project answer**. Each report retains the evidence, attributed answers and verification history. Finding identifiers remain the report path plus finding number.
 
 All six original core findings now have answers, including vGLP's merged [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23). The answer-based hold has therefore ended. Their revised proofs and code still require independent verification.
 
-[GitHub Issues](https://github.com/udi-shapiro/Grassroots-Audit/issues) is enabled. Every published numbered finding has a linked ticket below: eight open and eight closed on the basis of their recorded independent verification. This index maps the tickets to the full reports and their stable finding identifiers. Anyone with a GitHub account can report a concern or contribute a pull request from a fork; see [CONTRIBUTING.md](CONTRIBUTING.md#contributions-from-anyone). A merged response records the answer; only the auditor's verification closes a finding.
+[GitHub Issues](https://github.com/udi-shapiro/Grassroots-Audit/issues) is enabled. Every published numbered finding has a linked ticket below: eight open and nine closed on the basis of their recorded independent verification. This index maps the tickets to the full reports and their stable finding identifiers. Anyone with a GitHub account can report a concern or contribute a pull request from a fork; see [CONTRIBUTING.md](CONTRIBUTING.md#contributions-from-anyone). A merged response records the answer; only the auditor's verification closes a finding.
 
 ## Unresolved findings
 
@@ -23,7 +23,7 @@ The pending status above does not assert that a claimed correction is wrong. It 
 
 ## Verified corrections
 
-These are the other eight numbered findings. They remain visible for history and regression tracking, with their original identifiers.
+These are the other nine numbered findings. They remain visible for history and regression tracking, with their original identifiers.
 
 | Project | GitHub issue | Finding and report | Recorded verification |
 | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ These are the other eight numbered findings. They remain visible for history and
 | Code, with CSSN/GAI/GFF | [#44](https://github.com/udi-shapiro/Grassroots-Audit/issues/44) | [Application builds #1: four current contracts fail to rebuild](programs/apps/compile.sh.md) | Nine rebuilds reproduce; APPS 249/249 and CSSN K 134/134 at GLP `d56822c2`, verified on 16 November. |
 | GAI | [#45](https://github.com/udi-shapiro/Grassroots-Audit/issues/45) | [GAI phone #1: certificate and loaded platform disagree](programs/social/graph/core/gai_phone.glp.md) | Exact 23-name act-set and complete verdict comparison, plus app rebuild, verified on 16 November. |
 | GAI | [#46](https://github.com/udi-shapiro/Grassroots-Audit/issues/46) | [GSNP phone #1: certificate omits AI and guardianship acts](programs/social/graph/core/gsnp_phone.glp.md) | Exact 36-name act-set and complete verdict comparison, plus app rebuild, verified on 16 November. |
+| Website | [#52](https://github.com/udi-shapiro/Grassroots-Audit/issues/52) | [Website index #1: a parametric contract is shown as a missing app](servers/peoplesweb/web/index.html.md) | At GLP `64dfdc23`, the manifest and UI fixtures distinguish the three templates from compiler refusals and show the Second-Score Auction link. Verified on 18 November. |
 
 These closures apply to the reported faults and recorded versions. They do not certify whole projects or imply that every later revision was tested.
 
