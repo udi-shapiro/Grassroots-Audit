@@ -1,3 +1,9 @@
+# Feedback intake review — 2026-11-18
+
+[PR #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/55) at `1f091b597736a09183df41e78959531ad8d38a7b` replaces #25, which closed without merging. The successor adds a contribution-guide section only. The exact main status generator counted a synthetic answered report and the two feedback examples from #48/#49 as three reports. A scratch-only exclusion of top-level `feedback/` retained the one real fixture report, its finding and its answered status.
+
+Before merging a revision, check that the published generator excludes intake posts and that the status table is regenerated. Describe which actionable posts Audit routes and preserve the distinction between visitor intake and an accepted numbered finding. Update the workflow pointer in ISSUES.md. See [stage 13](../../stages/13-pr55-feedback-workflow-20261118.json).
+
 # PR #21 handled — 16 November 2026
 
 [Response PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21), head `8643c6addcacd9716498fb0cc73ed5c0ede57ffd`, is merged as `69e15daca90763d7765d7a81dc3e9418f027e212`. It preserves GLP's dated answers to GLP-Spec Finding 1 and IGLP Findings 1 and 2. The answers are recorded but the claimed fixes are not independently verified or closed. No private paper repository was accessed and no revised proof text was examined.
