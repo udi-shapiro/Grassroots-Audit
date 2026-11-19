@@ -1,3 +1,7 @@
+# Contributor PR routing published — 19 November 2026
+
+[PR #57](https://github.com/udi-shapiro/Grassroots-Audit/pull/57) merged as `10ff699caed824c287204316de88963a3f200e0d`. The published README directs collaborators' changes for their own project to GLP, and proposals for the whole project or a different area to the audit repository. This matches the [pinned public GLP guide](https://github.com/EShapiro2/GLP/blob/ac3342fb8b6ceb7e79244ab9605270cf0f4f51d8/CONTRIBUTING.md#where-to-send-a-change). The exact merged README was read back. No report status changed. A local three-way check confirmed that the README changes for pending PR #56 combine with the routing paragraph. See [stage 16](../../stages/16-pr57-contributor-routing-20261119.json).
+
 # Feedback intake review — 2026-11-18
 
 [PR #55](https://github.com/udi-shapiro/Grassroots-Audit/pull/55) at `1f091b597736a09183df41e78959531ad8d38a7b` replaces #25, which closed without merging. The successor adds a contribution-guide section only. The exact main status generator counted a synthetic answered report and the two feedback examples from #48/#49 as three reports. A scratch-only exclusion of top-level `feedback/` retained the one real fixture report, its finding and its answered status.

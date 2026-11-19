@@ -1,3 +1,7 @@
+# Contributor PR routing published — 19 November 2026
+
+[PR #57](https://github.com/udi-shapiro/Grassroots-Audit/pull/57) merged as `10ff699caed824c287204316de88963a3f200e0d`. The published README directs collaborators' changes for their own project to GLP, and proposals for the whole project or a different area to the audit repository. This matches the [pinned public GLP guide](https://github.com/EShapiro2/GLP/blob/ac3342fb8b6ceb7e79244ab9605270cf0f4f51d8/CONTRIBUTING.md#where-to-send-a-change). The exact merged README was read back. No report status changed. A local three-way check confirmed that the README changes for pending PR #56 combine with the routing paragraph. See [stage 16](stages/16-pr57-contributor-routing-20261119.json).
+
 # Parametric contract display verified — 2026-11-18
 
 Website #4's [dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-6977328109) is preserved alongside GCE's proposal at the original finding identifier `servers/peoplesweb/web/index.html.md#1` in [publication PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56), head `14f840cc88d9b46e4a7f31382a1e0e527395efc0`. The source proposal PR #28 remains intact.

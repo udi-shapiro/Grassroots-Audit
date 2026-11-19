@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-19T12:21:59.916Z",
-  "active_run": {
-    "run_id": "github-a706d370-e413-11f1-8891-e6a16203254b",
-    "delivery_id": "a706d370-e413-11f1-8891-e6a16203254b",
-    "event": "pull_request.opened",
-    "pull_request_number": 57,
-    "head_sha": "c2c303d9a7d49866ac4b1c58f0d3bd8b52d7402e",
-    "acquired_at": "2026-11-19T12:21:59.916Z",
-    "expires_at": "2026-11-19T12:51:59.916Z"
-  },
+  "updated_at": "2026-11-19T12:23:53.401Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
-      "event": "PR50 synchronize",
-      "pull_request_number": 50,
-      "observed_at": "2026-11-19T07:35:23.592Z",
-      "outcome": "Changes requested on revised Finding 4"
+      "delivery_id": "e8c0d860-e413-11f1-9511-97924070f7be",
+      "event": "PR57 opened and own merged event",
+      "pull_request_number": 57,
+      "observed_at": "2026-11-19T12:23:53.401Z",
+      "outcome": "Contributor routing published."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,25 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 57,
+      "head_sha": "c2c303d9a7d49866ac4b1c58f0d3bd8b52d7402e",
+      "state": "closed",
+      "updated_at": "2026-11-19T12:22:38Z",
+      "merged_at": "2026-11-19T12:22:37Z",
+      "closed_at": "2026-11-19T12:22:37Z",
+      "merge_commit_sha": "10ff699caed824c287204316de88963a3f200e0d",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "notes": "Contributor routing aligned with pinned public GLP guide. Merged and read back exactly."
+    },
     {
       "number": 50,
       "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
@@ -502,6 +513,38 @@
   },
   "processed_events": [
     {
+      "delivery_id": "a706d370-e413-11f1-8891-e6a16203254b",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 57,
+      "head_sha": "c2c303d9a7d49866ac4b1c58f0d3bd8b52d7402e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "processed_at": "2026-11-19T12:23:53.401Z",
+      "outcome": "Reviewed against public GLP guide; merged documentation-only PR."
+    },
+    {
+      "delivery_id": "e8c0d860-e413-11f1-9511-97924070f7be",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 57,
+      "head_sha": "c2c303d9a7d49866ac4b1c58f0d3bd8b52d7402e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "processed_at": "2026-11-19T12:23:53.401Z",
+      "outcome": "Own merge event matched exact head and merge commit; no duplicate publication or reply."
+    },
+    {
       "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
       "event_type": "pull_request",
       "action": "synchronize",
@@ -920,12 +963,12 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-19T07:35:23.592Z",
+    "observed_at": "2026-11-19T12:23:53.401Z",
     "prs": [
-      50
+      57
     ],
-    "stage_record": "auditor/stages/15-pr50-spm-revision-20261119.json",
-    "reason": "Reviewed changed audit head and checked GLP source and proposal."
+    "reason": "Contributor-routing publication merged and own closure event matched.",
+    "stage_record": "auditor/stages/16-pr57-contributor-routing-20261119.json"
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
