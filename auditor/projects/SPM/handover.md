@@ -1,3 +1,9 @@
+# PR #50 state-recovery revision — 2026-11-19 UTC
+
+[PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50), head `c6386390267fc83ada253af068ef6ea653cdae6a`, changes Finding 4 only. [Review 5971010401](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5971010401) asks that recovery choose the newest valid friendship transition regardless of delivery order and define handling for conflicting records with the same version. The existing restore guard disables the same restore while the restored friendship is present, although the schema has no per-loss identifier.
+
+GLP main `31774246c35770d6441598576267a88f620d6e37` still has the original Secure Friendship contract and schema blobs. The new head `160ed2a48244d9cdd105f62671c64396718ee34a` of GLP PR #86 is open and changes only English. No cascade or runtime check ran. The original review's remaining findings and publication prerequisites stand. See [stage 15](../../stages/15-pr50-spm-revision-20261119.json) for pins, discussion and next checks.
+
 # PR #50 Secure Friendship report review — 2026-11-17
 
 PR [#50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50), head `ace65838944396c4a6a777d2b31c8ec17cc0bf72`, proposes five findings at the correct mirrored path `programs/social/spm/Secure-Friendship.txt.md`, attributed to Ohad Eitan (SPM co-author) with Claude. Review [5944513543](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5944513543) requests changes; the PR is not merged and no tickets were opened.

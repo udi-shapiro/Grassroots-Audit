@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-19",
+  "events": [
+    {
+      "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw"
+        ],
+        "latest_item_at": "2026-11-17T18:44:33Z"
+      },
+      "processed_at": "2026-11-19T07:35:23.592Z",
+      "outcome": "Finding 4's new recovery wording reviewed; changes requested in 5971010401"
+    },
+    {
+      "delivery_id": "a62cf66e-e3eb-11f1-8228-5d92a211f52b",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-19T07:34:25Z"
+      },
+      "processed_at": "2026-11-19T07:35:23.592Z",
+      "outcome": "own review confirmed by ID; no reply"
+    }
+  ],
+  "pull_request": {
+    "number": 50,
+    "previous_head": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5971010401",
+    "review_id": 5971010401,
+    "disposition": "open; changes requested"
+  },
+  "source_pins": {
+    "glp_original": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
+    "glp_main": "31774246c35770d6441598576267a88f620d6e37",
+    "papers_metadata_only": "0f1fc7bae56ed3c00e65e99172cac7e290b228a3",
+    "contract_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
+    "schema_blob": "177c072290dfd160d5363a431172cc7ed04d425d",
+    "compiler_documentation_blob": "3bd53ef08944de32389b7c126742a94d634b7295",
+    "glp_pr86_head": "160ed2a48244d9cdd105f62671c64396718ee34a"
+  },
+  "inspection": [
+    "Compared the old and revised audit PR heads. Only Finding 4 changed, with a proposed friendship-epoch ordering and revised English clause.",
+    "Pinned restore guard requires an absent friendship, and its effect restores it. There is no per-loss identifier in the schema. The contract and generated schema blobs match current GLP main.",
+    "GLP PR86 remains open and changes only the five English clauses. It includes the ambiguous 'latest she is sent' wording. The epoch example is a proposed mechanism, not evidence of implementation."
+  ],
+  "execution": "Source inspection and logical analysis only. No cascade, GLP runtime, or status generator executed for this revision. Contributor execution remains attributed.",
+  "next": "Review next revision for source-ordered recovery and equal-version conflicts, retain the stable Finding 4 identifier, and address the publication prerequisites in the original review. Once revised Logic pragmas and generated schemas are available, check recovery of two versions in both delivery orders, repeated state loss, and continuity across identity replacement."
+}

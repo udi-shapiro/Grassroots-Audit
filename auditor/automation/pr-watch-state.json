@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-19T07:34:01.484Z",
-  "active_run": {
-    "run_id": "github-5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
-    "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
-    "event": "pull_request.synchronize",
-    "pull_request_number": 50,
-    "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
-    "acquired_at": "2026-11-19T07:34:01.484Z",
-    "expires_at": "2026-11-19T08:04:01.484Z"
-  },
+  "updated_at": "2026-11-19T07:35:23.592Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
-      "event": "PR28 Website response with PR56 publication",
-      "pull_request_number": 28,
-      "observed_at": "2026-11-18T11:39:01.431Z",
-      "outcome": "Focused checks passed; audit publication awaiting review."
+      "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
+      "event": "PR50 synchronize",
+      "pull_request_number": 50,
+      "observed_at": "2026-11-19T07:35:23.592Z",
+      "outcome": "Changes requested on revised Finding 4"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,32 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "state": "open",
+      "updated_at": "2026-11-19T07:34:25Z",
+      "merged_at": null,
+      "comment_cursor": 5971010401,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+      "notes": "Finding 4 revised; changes requested on recovery order and per-loss scope. GLP PR86 English-only; implementation pending.",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-19T07:34:25Z"
+      }
+    },
     {
       "number": 28,
       "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
@@ -169,16 +187,6 @@
         ],
         "latest_comment_updated_at": "2026-11-18T11:17:54Z"
       }
-    },
-    {
-      "number": 50,
-      "head_sha": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
-      "state": "open",
-      "updated_at": "2026-11-17T18:44:33Z",
-      "merged_at": null,
-      "comment_cursor": "reviews 5944465842 and 5944513543",
-      "review_cursor": "CHANGES_REQUESTED at head ace65838944396c4a6a777d2b31c8ec17cc0bf72",
-      "notes": "five proposed SPM Secure Friendship findings; Finding 3 and substantial 4/5 gaps source-supported, Findings 1/2/4 need narrowing; ownership, evidence, issue index and regenerated status required"
     },
     {
       "number": 47,
@@ -485,6 +493,54 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "5bfb94b0-e3eb-11f1-9ddf-33f2b342bca0",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw"
+        ],
+        "latest_item_at": "2026-11-17T18:44:33Z"
+      },
+      "processed_at": "2026-11-19T07:35:23.592Z",
+      "outcome": "Finding 4's new recovery wording reviewed; changes requested in 5971010401"
+    },
+    {
+      "delivery_id": "a62cf66e-e3eb-11f1-8228-5d92a211f52b",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-19T07:34:25Z"
+      },
+      "processed_at": "2026-11-19T07:35:23.592Z",
+      "outcome": "own review confirmed by ID; no reply"
+    },
     {
       "delivery_id": "b274a960-e343-11f1-86dd-2d460092d05e",
       "event_type": "issue_comment",
@@ -856,13 +912,12 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-18T11:39:01.431Z",
+    "observed_at": "2026-11-19T07:35:23.592Z",
     "prs": [
-      28,
-      56
+      50
     ],
-    "reason": "Website project reply and own publication open event processed",
-    "stage_record": "auditor/stages/14-pr28-parametric-20261118.json"
+    "stage_record": "auditor/stages/15-pr50-spm-revision-20261119.json",
+    "reason": "Reviewed changed audit head and checked GLP source and proposal."
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
