@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T23:30:56.090Z",
-  "active_run": {
-    "run_id": "github-07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
-    "delivery_id": "07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
-    "event": "pull_request.opened",
-    "pull_request_number": 68,
-    "head_sha": "342ed42979fd4adde935c9e63074387598274331",
-    "acquired_at": "2026-11-20T23:30:56.090Z",
-    "expires_at": "2026-11-20T23:55:56.090Z"
-  },
+  "updated_at": "2026-11-20T23:33:01.864Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "0686e292-e539-11f1-97ab-9c60b1a13396",
-      "event": "PR67 answer and follow-up activity",
-      "pull_request_number": 67,
-      "observed_at": "2026-11-20T23:29:34.329Z",
-      "outcome": "Acknowledgements merged, pending corrections preserved."
+      "delivery_id": "07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
+      "event": "PR68 GSA answer and SPM follow-up",
+      "pull_request_number": 68,
+      "observed_at": "2026-11-20T23:33:01.864Z",
+      "outcome": "Partial response merged; remaining verification and report revisions pending."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,53 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 68,
+      "head_sha": "ed659df226a86cc7fb7e6d707a59ecff89926ff7",
+      "state": "closed",
+      "updated_at": "2026-11-20T23:31:57Z",
+      "merged_at": "2026-11-20T23:31:57Z",
+      "merge_commit_sha": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "GSA partial response merged with repaired public link; source inspection only, #38 remains open."
+    },
+    {
+      "number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "state": "open",
+      "updated_at": "2026-11-20T23:28:10Z",
+      "merged_at": null,
+      "comment_cursor": 7053164176,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+      "notes": "SPM's substantive disagreement recorded; unchanged proposal stays open pending revised report and public evidence.",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:28:10Z"
+      },
+      "merge_commit_sha": null
+    },
     {
       "number": 27,
       "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
@@ -212,32 +251,6 @@
         "review_ids": []
       },
       "notes": "Contributor routing aligned with pinned public GLP guide. Merged and read back exactly."
-    },
-    {
-      "number": 50,
-      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
-      "state": "open",
-      "updated_at": "2026-11-19T07:34:25Z",
-      "merged_at": null,
-      "comment_cursor": 5971010401,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "Finding 4 revised; changes requested on recovery order and per-loss scope. GLP PR86 English-only; implementation pending.",
-      "discussion_version": {
-        "comments": 3,
-        "reviews": 3,
-        "review_threads": 0,
-        "comment_ids": [
-          5944465842,
-          5944513543,
-          5971010401
-        ],
-        "review_ids": [
-          "PRR_kwDOVrts7s8AAAABYlFZsg",
-          "PRR_kwDOVrts7s8AAAABYlIUBw",
-          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
-        ],
-        "latest_item_at": "2026-11-19T07:34:25Z"
-      }
     },
     {
       "number": 28,
@@ -625,6 +638,67 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 68,
+      "head_sha": "342ed42979fd4adde935c9e63074387598274331",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "GSA partial answer preserved, malformed link repaired to verified public commit, index updated and response merged; issue remains open.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    },
+    {
+      "delivery_id": "84164e0e-e53a-11f1-939c-17ecf6ecf3c9",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 68,
+      "head_sha": "ed659df226a86cc7fb7e6d707a59ecff89926ff7",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own link and index update confirmed at merged head.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    },
+    {
+      "delivery_id": "0d0763f2-e53a-11f1-93d2-dddedd06a7f9",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7053164176,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:28:10Z"
+      },
+      "outcome": "Preserved SPM's dated reply as project disagreement plus narrowed Logic-pragmas gaps. Proposal head is unchanged; GLP PR86 closed unmerged.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    },
     {
       "delivery_id": "0686e292-e539-11f1-97ab-9c60b1a13396",
       "event_type": "pull_request",
@@ -1351,16 +1425,13 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-20T23:29:34.329Z",
+    "observed_at": "2026-11-20T23:33:01.864Z",
     "prs": [
-      27,
-      29,
-      30,
-      56,
-      67
+      50,
+      68
     ],
-    "stage_record": "auditor/stages/19-pr67-contract-answers-20261120.json",
-    "reason": "Merged six contract answers and processed attributed follow-up comments."
+    "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
+    "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",

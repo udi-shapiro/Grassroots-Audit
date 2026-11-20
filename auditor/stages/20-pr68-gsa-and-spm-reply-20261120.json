@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 68,
+      "head_sha": "342ed42979fd4adde935c9e63074387598274331",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "GSA partial answer preserved, malformed link repaired to verified public commit, index updated and response merged; issue remains open.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    },
+    {
+      "delivery_id": "84164e0e-e53a-11f1-939c-17ecf6ecf3c9",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 68,
+      "head_sha": "ed659df226a86cc7fb7e6d707a59ecff89926ff7",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own link and index update confirmed at merged head.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    },
+    {
+      "delivery_id": "0d0763f2-e53a-11f1-93d2-dddedd06a7f9",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7053164176,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:28:10Z"
+      },
+      "outcome": "Preserved SPM's dated reply as project disagreement plus narrowed Logic-pragmas gaps. Proposal head is unchanged; GLP PR86 closed unmerged.",
+      "processed_at": "2026-11-20T23:33:01.864Z"
+    }
+  ],
+  "gsa": {
+    "pr": 68,
+    "head": "ed659df226a86cc7fb7e6d707a59ecff89926ff7",
+    "merge": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "merged_at": "2026-11-20T23:31:57Z",
+    "finding": "programs/social/graph/core/agent.glp.md#1",
+    "issue": 38,
+    "open": "open",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "fix_cited": "47bb6cfde3bd80fe9ae901f760d71bb2d621d531",
+    "agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+    "inspection": "The public commit is an ancestor of observed GLP main. Current source contains trust and program-binding checks for the warranty and the compiler certificate path. The current implementation explicitly defers schema checking. GSA reports App Store installation still absent. The in-progress branch did not resolve publicly.",
+    "execution": "No GLP runtime or status generator was run. Applied the unchanged Answer-counting rule to the old/new report; the existing answered/open state and exact status-table bytes are unchanged. Prior tests in commit metadata were not repeated.",
+    "next": "Inspect a public corrective commit with module contract checking and execute the existing install/rejection controls and an end-to-end installation check when tools are available."
+  },
+  "spm": {
+    "pr": 50,
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053164176",
+    "project_claim": "SPM disputes the English rewrite and distinguishes passive recovery and epoch order from Logic-pragmas defects. It attributes the account to paper revision 7b2a2a9 and routes the remaining implementation issues to Calculus.",
+    "public_papers_metadata": {
+      "head": "3e8c6d0bcb57ca17202a08629928adcb06346ebe",
+      "spm_blob": "a82cafb7de5a1b33afe9787c849894312929f4be"
+    },
+    "source": {
+      "english_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
+      "schema_blob": "177c072290dfd160d5363a431172cc7ed04d425d",
+      "glp_pr86": "160ed2a48244d9cdd105f62671c64396718ee34a",
+      "closed_unmerged": true
+    },
+    "limits": "No paper text or runtime verification this run.",
+    "next": "Keep original findings and dated dispute; revise open audit PR50 to distinguish English claims from generated-schema defects and cite the public paper/implementation evidence before publication."
+  }
+}

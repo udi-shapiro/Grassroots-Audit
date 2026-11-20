@@ -1,3 +1,7 @@
+# GSA installation response recorded — 20 November 2026
+
+[PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) merged at `28f8f6e281cfd0b46c577a39f10547f9f03d419a`. The audit corrected a broken link to public GLP `47bb6cfde3bd80fe9ae901f760d71bb2d621d531` and preserved GSA #9's answer. Current source inspection supports changes to certificate and developer warranty handling. Schema checking is still deferred in the code. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No runtime test ran. See [stage 20](../../stages/20-pr68-gsa-and-spm-reply-20261120.json).
+
 # Latest GSA handover — 16 November 2026
 
 Read [catchup-20261116.md](catchup-20261116.md), [currencies-gsa-20261112.md](currencies-gsa-20261112.md), the current main report `programs/social/graph/core/agent.glp.md`, and [the request checkpoint](../../stages/06-request-check-20261116.json).

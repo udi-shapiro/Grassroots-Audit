@@ -1,3 +1,11 @@
+# GSA installation response recorded — 20 November 2026
+
+[PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) merged at `28f8f6e281cfd0b46c577a39f10547f9f03d419a`. The audit corrected a broken link to public GLP `47bb6cfde3bd80fe9ae901f760d71bb2d621d531` and preserved GSA #9's answer. Current source inspection supports changes to certificate and developer warranty handling. Schema checking is still deferred in the code. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No runtime test ran. See [stage 20](stages/20-pr68-gsa-and-spm-reply-20261120.json).
+
+# SPM reply to Secure Friendship review — 20 November 2026
+
+[SPM's dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053164176) disputes the English rewrite and narrows the remaining defects to Logic pragmas. The contract/schema blobs are unchanged at inspected public GLP. GLP PR #86 closed without merging, and audit PR #50's head remains unchanged. Preserve the disagreement under the original IDs in the next report revision with public evidence. See [stage 20](stages/20-pr68-gsa-and-spm-reply-20261120.json).
+
 # GO and Calculus answers recorded — 20 November 2026
 
 [PR #67](https://github.com/udi-shapiro/Grassroots-Audit/pull/67) merged at `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076`, preserving GO's answers to Findings 2–6 and Calculus's answer to Finding 7. All seven findings in `calculus/contracts.md` have answers and remain open (#58–#64). Pinned public schema records at `be5f2eb1eae41556eade221c9727d3166928f52a` support the acknowledged baseline gaps. No fixes were supplied in #67. The checked status table is 29 reports, 23 findings and zero unanswered. See [stage 19](stages/19-pr67-contract-answers-20261120.json).

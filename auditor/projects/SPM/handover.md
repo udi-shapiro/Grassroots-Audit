@@ -1,3 +1,7 @@
+# SPM reply to Secure Friendship review — 20 November 2026
+
+[SPM's dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053164176) disputes the English rewrite and narrows the remaining defects to Logic pragmas. The contract/schema blobs are unchanged at inspected public GLP. GLP PR #86 closed without merging, and audit PR #50's head remains unchanged. Preserve the disagreement under the original IDs in the next report revision with public evidence. See [stage 20](../../stages/20-pr68-gsa-and-spm-reply-20261120.json).
+
 # PR #50 state-recovery revision — 2026-11-19 UTC
 
 [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50), head `c6386390267fc83ada253af068ef6ea653cdae6a`, changes Finding 4 only. [Review 5971010401](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-5971010401) asks that recovery choose the newest valid friendship transition regardless of delivery order and define handling for conflicting records with the same version. The existing restore guard disables the same restore while the restored friendship is present, although the schema has no per-loss identifier.
