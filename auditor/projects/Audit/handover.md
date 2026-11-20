@@ -1,3 +1,9 @@
+# Contract review publication reconciled — 20 November 2026
+
+[PR #65](https://github.com/udi-shapiro/Grassroots-Audit/pull/65) merged at `927b0e1348b17402a27fd4502e236513abc221ed`. Its seven findings are in [calculus/contracts.md](https://github.com/udi-shapiro/Grassroots-Audit/blob/main/calculus/contracts.md) with stable issue mappings #58–#64. All seven await project answers. Source is public GLP `b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c`. The scratch generator reproduced the merged table byte for byte (29 reports, 23 findings, 7 unanswered). See [stage 17](../../stages/17-pr65-contract-review-20261120.json).
+
+[PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) now incorporates that base while preserving its original Website report. Head `99029053ba10689359f26a05ecebc8e315f2c0a2` is open for review. The generator returned 30 reports, 24 findings and 7 unanswered. Issue #52 still awaits the publication merge.
+
 # Contributor PR routing published — 19 November 2026
 
 [PR #57](https://github.com/udi-shapiro/Grassroots-Audit/pull/57) merged as `10ff699caed824c287204316de88963a3f200e0d`. The published README directs collaborators' changes for their own project to GLP, and proposals for the whole project or a different area to the audit repository. This matches the [pinned public GLP guide](https://github.com/EShapiro2/GLP/blob/ac3342fb8b6ceb7e79244ab9605270cf0f4f51d8/CONTRIBUTING.md#where-to-send-a-change). The exact merged README was read back. No report status changed. A local three-way check confirmed that the README changes for pending PR #56 combine with the routing paragraph. See [stage 16](../../stages/16-pr57-contributor-routing-20261119.json).

@@ -1,3 +1,9 @@
+# Contract review publication reconciled — 20 November 2026
+
+[PR #65](https://github.com/udi-shapiro/Grassroots-Audit/pull/65) merged at `927b0e1348b17402a27fd4502e236513abc221ed`. Its seven findings are in [calculus/contracts.md](https://github.com/udi-shapiro/Grassroots-Audit/blob/main/calculus/contracts.md) with stable issue mappings #58–#64. All seven await project answers. Source is public GLP `b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c`. The scratch generator reproduced the merged table byte for byte (29 reports, 23 findings, 7 unanswered). See [stage 17](../../stages/17-pr65-contract-review-20261120.json).
+
+Currencies is named with GO and LBM on #60 (commercial-agreement locks and settlement). The existing GB finding remains separate.
+
 # Latest Currencies handover — 16 November 2026
 
 Application contract/code coverage is active; the queued-only note below is historical. Read [catchup-20261116.md](catchup-20261116.md), [currencies-gsa-20261112.md](currencies-gsa-20261112.md), the current main reports and [the manual request checkpoint](../../stages/06-request-check-20261116.json).

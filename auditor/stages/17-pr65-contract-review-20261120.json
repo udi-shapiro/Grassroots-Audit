@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "3a7251f0-e524-11f1-885a-10a0d695506a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 65,
+      "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Publication already merged by arrival. Checked report, source catalogue and ticket mappings.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    },
+    {
+      "delivery_id": "4531f000-e524-11f1-9d98-ec4b31660105",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 65,
+      "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Same merged publication; verified main status reproduces. No duplicate post or publication.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    },
+    {
+      "delivery_id": "b06d9130-e524-11f1-9206-241965a9bdf5",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 56,
+      "head_sha": "99029053ba10689359f26a05ecebc8e315f2c0a2",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Own maintenance update of pending Website publication; readback matched, awaiting review.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    }
+  ],
+  "contract_publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/65",
+    "head": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+    "base": "10ff699caed824c287204316de88963a3f200e0d",
+    "merge": "927b0e1348b17402a27fd4502e236513abc221ed",
+    "merged_at": "2026-11-20T20:52:16Z",
+    "glp_source": "b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c",
+    "report_path": "calculus/contracts.md",
+    "report_blob": "ac032c3c133b1a3f8650d40301f771a810219ec6",
+    "pdf_blob": "b8273c42e168196b68b75dbc22c941e107b47a8d",
+    "pdf_sha256_claim": "d6b2441821d41f3c7a4628492c27ec3e745bafd58586474d369cf663cc8a6752",
+    "tickets": [
+      {
+        "n": 58,
+        "heading": "Finding 1. Booking and Partners merge distinct Guardians instances",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 59,
+        "heading": "Finding 2. Organisation Enter creates an officer outside the participant set",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 60,
+        "heading": "Finding 3. Commercial agreement locks omit the deal and settlement amounts",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 61,
+        "heading": "Finding 4. Single-Person Company can admit a second participant",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 62,
+        "heading": "Finding 5. Cooperative DAO admission still requires a member vote",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 63,
+        "heading": "Finding 6. Liquid Cooperative records delegation without counting delegated votes",
+        "issue": "open",
+        "matches": true
+      },
+      {
+        "n": 64,
+        "heading": "Finding 7. Nonprofit omits its officer restriction from accepted-coin payments",
+        "issue": "open",
+        "matches": true
+      }
+    ]
+  },
+  "inspection": [
+    "Counted 87 directories under calculus/contracts at the pinned public GLP source. Confirmed seven Markdown headings, their issue anchors and open tickets 58–64.",
+    "Read the already-merged audit Markdown and the attached PDF's tree entry. Relation-check counts and PDF checksum remain attributed to the publication. PDF bytes and GLP runtime were outside this run."
+  ],
+  "execution": [
+    {
+      "command": "python3 bin/status.py",
+      "source": "927b0e1348b17402a27fd4502e236513abc221ed",
+      "scope": "scratch checkout reconstructed from all tracked report Markdown and the status generator",
+      "output": "29 reports, 23 findings, 7 unanswered",
+      "exact_published_table": true
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "same scratch tree plus exact PR56 report",
+      "output": "30 reports, 24 findings, 7 unanswered",
+      "only_expected_row_added": true
+    }
+  ],
+  "website_publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/56",
+    "previous_head": "14f840cc88d9b46e4a7f31382a1e0e527395efc0",
+    "head": "99029053ba10689359f26a05ecebc8e315f2c0a2",
+    "base": "927b0e1348b17402a27fd4502e236513abc221ed",
+    "report_unchanged": true,
+    "issue": 52,
+    "status": "open and mergeable; awaiting review",
+    "new_totals": {
+      "reports": 30,
+      "findings": 24,
+      "unanswered": 7,
+      "unresolved": 15,
+      "verified_corrected": 9
+    }
+  },
+  "next": "Preserve seven contract finding IDs and route substantive project replies to each report subsection. Review exact PR56 revision before merge; retain all existing proof and contract queues."
+}

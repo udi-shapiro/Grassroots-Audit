@@ -1,3 +1,9 @@
+# Contract review publication reconciled — 20 November 2026
+
+[PR #65](https://github.com/udi-shapiro/Grassroots-Audit/pull/65) merged at `927b0e1348b17402a27fd4502e236513abc221ed`. Its seven findings are in [calculus/contracts.md](https://github.com/udi-shapiro/Grassroots-Audit/blob/main/calculus/contracts.md) with stable issue mappings #58–#64. All seven await project answers. Source is public GLP `b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c`. The scratch generator reproduced the merged table byte for byte (29 reports, 23 findings, 7 unanswered). See [stage 17](../../stages/17-pr65-contract-review-20261120.json).
+
+GCE shares responsibility for #63 and #64. Preserve the existing finding IDs and attribution in any reply.
+
 # GCE auditor assignment
 
 Source: GLP `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458`. Published name: Grassroots Contract Examples. Paper keys: none presented.

@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T20:54:07.315Z",
-  "active_run": {
-    "run_id": "github-3a7251f0-e524-11f1-885a-10a0d695506a",
-    "delivery_id": "3a7251f0-e524-11f1-885a-10a0d695506a",
-    "event": "pull_request.opened",
-    "pull_request_number": 65,
-    "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
-    "acquired_at": "2026-11-20T20:54:07.315Z",
-    "expires_at": "2026-11-20T21:29:07.315Z"
-  },
+  "updated_at": "2026-11-20T20:56:41.265Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "e8c0d860-e413-11f1-9511-97924070f7be",
-      "event": "PR57 opened and own merged event",
-      "pull_request_number": 57,
-      "observed_at": "2026-11-19T12:23:53.401Z",
-      "outcome": "Contributor routing published."
+      "delivery_id": "4531f000-e524-11f1-9d98-ec4b31660105",
+      "event": "PR65 publication opened and merged",
+      "pull_request_number": 65,
+      "observed_at": "2026-11-20T20:56:41.265Z",
+      "outcome": "Publication reconciled and PR56 prepared for review."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,42 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 65,
+      "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+      "state": "closed",
+      "updated_at": "2026-11-20T20:52:16Z",
+      "merged_at": "2026-11-20T20:52:16Z",
+      "merged_commit_sha": "927b0e1348b17402a27fd4502e236513abc221ed",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Contract architecture review merged before processing; seven findings and open tickets reconciled; baseline status exactly reproduced."
+    },
+    {
+      "number": 56,
+      "head_sha": "99029053ba10689359f26a05ecebc8e315f2c0a2",
+      "state": "open",
+      "updated_at": "2026-11-20T20:55:44Z",
+      "merged_at": null,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "notes": "Own Website publication updated to include fresh main; status regenerated; awaiting review.",
+      "merged_commit_sha": null
+    },
     {
       "number": 57,
       "head_sha": "c2c303d9a7d49866ac4b1c58f0d3bd8b52d7402e",
@@ -111,21 +139,6 @@
         ],
         "latest_comment_updated_at": "2026-11-18T11:32:11Z"
       }
-    },
-    {
-      "number": 56,
-      "head_sha": "14f840cc88d9b46e4a7f31382a1e0e527395efc0",
-      "state": "open",
-      "updated_at": "2026-11-18T11:37:39Z",
-      "merged_at": null,
-      "comment_cursor": null,
-      "review_cursor": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0
-      },
-      "notes": "Own main-based Website publication; verified issue 52 disposition pending review and merge."
     },
     {
       "number": 55,
@@ -520,6 +533,54 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "3a7251f0-e524-11f1-885a-10a0d695506a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 65,
+      "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Publication already merged by arrival. Checked report, source catalogue and ticket mappings.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    },
+    {
+      "delivery_id": "4531f000-e524-11f1-9d98-ec4b31660105",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 65,
+      "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Same merged publication; verified main status reproduces. No duplicate post or publication.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    },
+    {
+      "delivery_id": "b06d9130-e524-11f1-9206-241965a9bdf5",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 56,
+      "head_sha": "99029053ba10689359f26a05ecebc8e315f2c0a2",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "outcome": "Own maintenance update of pending Website publication; readback matched, awaiting review.",
+      "processed_at": "2026-11-20T20:56:41.265Z"
+    },
     {
       "delivery_id": "a706d370-e413-11f1-8891-e6a16203254b",
       "event_type": "pull_request",
@@ -971,12 +1032,13 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-19T12:23:53.401Z",
+    "observed_at": "2026-11-20T20:56:41.265Z",
     "prs": [
-      57
+      65,
+      56
     ],
-    "reason": "Contributor-routing publication merged and own closure event matched.",
-    "stage_record": "auditor/stages/16-pr57-contributor-routing-20261119.json"
+    "reason": "Reconciled merged contract review and updated pending Website publication",
+    "stage_record": "auditor/stages/17-pr65-contract-review-20261120.json"
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",

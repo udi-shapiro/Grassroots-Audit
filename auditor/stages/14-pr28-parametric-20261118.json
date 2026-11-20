@@ -92,5 +92,12 @@
       "outcome": "own publication; no additional review or reply"
     }
   ],
-  "next": "Review the exact PR56 head when review arrives. Merge only after review, then confirm issue 52 and publication disposition. Preserve PR28 and its discussion."
+  "next": "Review the exact PR56 head when review arrives. Merge only after review, then confirm issue 52 and publication disposition. Preserve PR28 and its discussion.",
+  "publication_reconciliation": {
+    "date": "2026-11-20",
+    "head": "99029053ba10689359f26a05ecebc8e315f2c0a2",
+    "base": "927b0e1348b17402a27fd4502e236513abc221ed",
+    "status": "open awaiting review",
+    "stage_record": "auditor/stages/17-pr65-contract-review-20261120.json"
+  }
 }

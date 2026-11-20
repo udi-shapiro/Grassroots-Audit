@@ -1,3 +1,9 @@
+# Website verification publication updated — 20 November 2026
+
+[PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) now incorporates that base while preserving its original Website report. Head `99029053ba10689359f26a05ecebc8e315f2c0a2` is open for review. The generator returned 30 reports, 24 findings and 7 unanswered. Issue #52 still awaits the publication merge.
+
+See [stage 17](../../stages/17-pr65-contract-review-20261120.json).
+
 # Parametric contract display verified — 2026-11-18
 
 Website #4's [dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-6977328109) is preserved alongside GCE's proposal at the original finding identifier `servers/peoplesweb/web/index.html.md#1` in [publication PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56), head `14f840cc88d9b46e4a7f31382a1e0e527395efc0`. The source proposal PR #28 remains intact.
