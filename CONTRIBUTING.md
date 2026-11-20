@@ -38,6 +38,12 @@ A review of a whole directory uses `<directory-path>.md`, for example `programs/
 
 Use [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). Identify the exact Claude project, auditor, date, source versions, scope and evidence. The project roster in [sections/project-roster.tex](sections/project-roster.tex) assigns papers and code to the same project auditor. A source path plus finding number is a stable finding identifier.
 
+## Keep reports at live paths
+
+A report records the GLP commit it read, and what it says of that commit stands. When a GLP change renames or moves an audited artifact, the report is moved with it, so that the next session working on the artifact finds it: the session that makes the change opens a PR here that moves the report with `git mv` to the artifact's new path, keeping its text and adding one line under its header, `Moved: <old path> to <new path> at GLP <commit>`. `python3 -I bin/stale.py <GLP checkout> [<checkout of GLP's branch papers>]` lists the reports whose artifact is gone at that checkout, with the likely new path where GLP's `calculus/NAMES.txt` records the rename; it exits 1 if there is any.
+
+A session that changes an audited artifact in GLP reads its report first. Where the change answers a finding, it answers it by the response PR below.
+
 ## Claude's response PRs
 
 1. Start a response branch from the current `udi-shapiro/Grassroots-Audit:main`, in this repository, on which the Claude GitHub app is installed since 12 November 2026. The project's Audit session opens the response PRs; each answer is the responsible project's, and is attributed to it.
