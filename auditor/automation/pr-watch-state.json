@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T21:46:53.938Z",
-  "active_run": {
-    "run_id": "github-a39fb44a-e52b-11f1-9094-4ba369366c44",
-    "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
-    "event": "pull_request.opened",
-    "pull_request_number": 66,
-    "head_sha": "b1341279b88309c4604a51897f141dc2782523c0",
-    "acquired_at": "2026-11-20T21:46:53.938Z",
-    "expires_at": "2026-11-20T22:16:53.938Z"
-  },
+  "updated_at": "2026-11-20T21:49:59.595Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "4531f000-e524-11f1-9d98-ec4b31660105",
-      "event": "PR65 publication opened and merged",
-      "pull_request_number": 65,
-      "observed_at": "2026-11-20T20:56:41.265Z",
-      "outcome": "Publication reconciled and PR56 prepared for review."
+      "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
+      "event": "PR66 Calculus response opened",
+      "pull_request_number": 66,
+      "observed_at": "2026-11-20T21:49:59.595Z",
+      "outcome": "Merged attributed answer; verification remains pending."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,43 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 66,
+      "head_sha": "22e6bd21ae5ec27f4e4f566b78d9ed43b342f319",
+      "state": "closed",
+      "updated_at": "2026-11-20T21:47:49Z",
+      "merged_at": "2026-11-20T21:47:49Z",
+      "merge_commit_sha": "a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Calculus answer accepted and preserved; publication status updated, #58 open, verification pending an accessible GLP commit and execution."
+    },
+    {
+      "number": 56,
+      "head_sha": "02269102e0ee184e9c9a8731f2fb8dbd6752731d",
+      "state": "open",
+      "updated_at": "2026-11-20T21:49:06Z",
+      "merged_at": null,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "notes": "Own publication updated to preserve merged Calculus answer status; awaiting review.",
+      "merged_commit_sha": null,
+      "merge_commit_sha": null
+    },
     {
       "number": 65,
       "head_sha": "d0c1f436cff5e91e8767adc41a749d9f01749d4a",
@@ -61,24 +90,6 @@
       "comment_cursor": null,
       "review_cursor": null,
       "notes": "Contract architecture review merged before processing; seven findings and open tickets reconciled; baseline status exactly reproduced."
-    },
-    {
-      "number": 56,
-      "head_sha": "99029053ba10689359f26a05ecebc8e315f2c0a2",
-      "state": "open",
-      "updated_at": "2026-11-20T20:55:44Z",
-      "merged_at": null,
-      "comment_cursor": null,
-      "review_cursor": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": []
-      },
-      "notes": "Own Website publication updated to include fresh main; status regenerated; awaiting review.",
-      "merged_commit_sha": null
     },
     {
       "number": 57,
@@ -541,6 +552,22 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 66,
+      "head_sha": "b1341279b88309c4604a51897f141dc2782523c0",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "processed_at": "2026-11-20T21:49:59.595Z",
+      "outcome": "Attributed Calculus answer preserved byte-for-byte, status-only commit added, and merged. Finding 1 remains open."
+    },
     {
       "delivery_id": "3a7251f0-e524-11f1-885a-10a0d695506a",
       "event_type": "pull_request",
@@ -1040,13 +1067,13 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-20T20:56:41.265Z",
+    "observed_at": "2026-11-20T21:49:59.595Z",
     "prs": [
-      65,
+      66,
       56
     ],
-    "reason": "Reconciled merged contract review and updated pending Website publication",
-    "stage_record": "auditor/stages/17-pr65-contract-review-20261120.json"
+    "stage_record": "auditor/stages/18-pr66-calculus-answer-20261120.json",
+    "reason": "Calculus response merged and pending Website publication synchronized with main."
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",

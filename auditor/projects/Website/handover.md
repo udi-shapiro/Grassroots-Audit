@@ -1,3 +1,7 @@
+# Website publication status updated — 20 November 2026
+
+[PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) incorporates merged audit main `a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa` at head `02269102e0ee184e9c9a8731f2fb8dbd6752731d` and remains open for review. The Website report stays byte-identical. The combined proposal has 30 reports, 24 findings and six unanswered.
+
 # Website verification publication updated — 20 November 2026
 
 [PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) now incorporates that base while preserving its original Website report. Head `99029053ba10689359f26a05ecebc8e315f2c0a2` is open for review. The generator returned 30 reports, 24 findings and 7 unanswered. Issue #52 still awaits the publication merge.

@@ -1,3 +1,11 @@
+# Calculus answer to Contract Finding 1 — 20 November 2026
+
+[PR #66](https://github.com/udi-shapiro/Grassroots-Audit/pull/66) merged at `a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa` and preserves Calculus #10's dated answer under the original finding. [Issue #58](https://github.com/udi-shapiro/Grassroots-Audit/issues/58) remains open. Calculus acknowledges the finding and reports a composition change, with both contracts still refused by the checker. The cited commit and branch could not be resolved via public GLP in this run. The next verification needs a publicly accessible source, both rebuilds, independent lifecycle and budget checks, round trips and checker acceptance.
+
+The status count drops to six unanswered across 29 reports and 23 findings. The connector-side check applied the published counting rule and matched the baseline rows. The Python generator and GLP checker were not run. See [stage 18](../../stages/18-pr66-calculus-answer-20261120.json).
+
+[PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) incorporates merged audit main `a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa` at head `02269102e0ee184e9c9a8731f2fb8dbd6752731d` and remains open for review. The Website report stays byte-identical. The combined proposal has 30 reports, 24 findings and six unanswered.
+
 # Contract review publication reconciled — 20 November 2026
 
 [PR #65](https://github.com/udi-shapiro/Grassroots-Audit/pull/65) merged at `927b0e1348b17402a27fd4502e236513abc221ed`. Its seven findings are in [calculus/contracts.md](https://github.com/udi-shapiro/Grassroots-Audit/blob/main/calculus/contracts.md) with stable issue mappings #58–#64. All seven await project answers. Source is public GLP `b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c`. The scratch generator reproduced the merged table byte for byte (29 reports, 23 findings, 7 unanswered). See [stage 17](../../stages/17-pr65-contract-review-20261120.json).

@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 66,
+      "head_sha": "b1341279b88309c4604a51897f141dc2782523c0",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": []
+      },
+      "processed_at": "2026-11-20T21:49:59.595Z",
+      "outcome": "Attributed Calculus answer preserved byte-for-byte, status-only commit added, and merged. Finding 1 remains open."
+    }
+  ],
+  "response": {
+    "number": 66,
+    "original_head": "b1341279b88309c4604a51897f141dc2782523c0",
+    "merged_head": "22e6bd21ae5ec27f4e4f566b78d9ed43b342f319",
+    "merged_at": "2026-11-20T21:47:49Z",
+    "merge": "a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa",
+    "discussion_at_merge": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": []
+    },
+    "report": "calculus/contracts.md",
+    "answer_blob": "b808d6e523cc37f40042981322f4ff956092140c",
+    "finding": 1,
+    "issue": 58,
+    "issue_state": "open",
+    "author": "Calculus #10 via Audit #3, 2026-11-20"
+  },
+  "pins": {
+    "audited_glp": "b0c220c6d77c24561af9f3ce4221ee2dd8aecf0c",
+    "current_glp_main": "07c42f9558e0ad33217a48b9949510944ce557f5",
+    "papers_metadata_only": "968734fa60f758b7f94c2b7e12baffbcc16c828d",
+    "claimed_glp_commit": "96e4312559a65bacaeda1e30b363a6c23c8aa311",
+    "claimed_calculus_paper_revision": "9388deaa"
+  },
+  "project_claim": "Finding holds. Calculus reports separated ward/studio lifecycle acts and 143 successful relation checks on its branch, with checker refusals for both contracts until studio–ward acquaintance is settled.",
+  "inspection": "Public GLP commit lookup returned 422 for the cited hash; calc10-comp branch lookup returned 404. Local/private paper repositories were not accessed. The Answer text was unchanged by the status commit and matches main exactly.",
+  "execution": {
+    "scope": "Connector-side JavaScript check applied the pinned generator's Answer-section rule to the 29 report files, reproduced all published baseline rows, and derived the single changed row (7 to 6 unanswered). The status and index were updated in the answer PR.",
+    "limits": "No Python generator, GLP runtime, composition rebuild, or checker ran because execution environment was unavailable.",
+    "baseline_and_result": [
+      "\\dir{calculus/contracts} & \\dir{b0c220c6} & 2026-11-20 & 7 & 7 \\\\",
+      "\\dir{calculus/contracts} & \\dir{b0c220c6} & 2026-11-20 & 7 & 6 \\\\"
+    ]
+  },
+  "website_publication": {
+    "number": 56,
+    "head": "02269102e0ee184e9c9a8731f2fb8dbd6752731d",
+    "base": "a4666a74f6a6f2d72ee9440fb2ba7b8678fc37aa",
+    "discussion_version": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": []
+    },
+    "status": "clean; awaiting review",
+    "totals": "30 reports, 24 findings, 6 unanswered"
+  },
+  "next": "Obtain an accessible immutable GLP source for the composition change; rebuild both contracts, check distinct ward/studio creation and retirement, rendezvous budgets, round trips and checker acceptance. Rerun Python status generator on next available executor. Keep #58 open."
+}
