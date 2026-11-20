@@ -1,3 +1,7 @@
+# GSC paper proposal follow-up — 20 November 2026
+
+[PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27), [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) and [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30) received dated project replies. Their proposal heads are unchanged. Coordination accepts the move goal, but index exclusion and identifier preservation remain. Calculus's checker claim awaits public source. GSC and Calculus distinguish the paper issue from the correctly declared code reflexivity. Exact links, versions and next actions are in stage 19.
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.

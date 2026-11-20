@@ -1,3 +1,7 @@
+# Report migration follow-up — 20 November 2026
+
+[PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27), [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) and [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30) received dated project replies. Their proposal heads are unchanged. Coordination accepts the move goal, but index exclusion and identifier preservation remain. Calculus's checker claim awaits public source. GSC and Calculus distinguish the paper issue from the correctly declared code reflexivity. Exact links, versions and next actions are in stage 19.
+
 # Code auditor assignment
 
 Source: GLP `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458`. Published name: The GLP repository as a whole. Paper keys: none presented.

@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T23:23:06.600Z",
-  "active_run": {
-    "run_id": "github-0686e292-e539-11f1-97ab-9c60b1a13396",
-    "delivery_id": "0686e292-e539-11f1-97ab-9c60b1a13396",
-    "event": "pull_request.opened",
-    "pull_request_number": 67,
-    "head_sha": "06b0389af6b23f92d5a83462f04071f8bbc295dc",
-    "acquired_at": "2026-11-20T23:23:06.600Z",
-    "expires_at": "2026-11-20T23:53:06.600Z"
-  },
+  "updated_at": "2026-11-20T23:29:34.329Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
-      "event": "PR66 Calculus response opened",
-      "pull_request_number": 66,
-      "observed_at": "2026-11-20T21:49:59.595Z",
-      "outcome": "Merged attributed answer; verification remains pending."
+      "delivery_id": "0686e292-e539-11f1-97ab-9c60b1a13396",
+      "event": "PR67 answer and follow-up activity",
+      "pull_request_number": 67,
+      "observed_at": "2026-11-20T23:29:34.329Z",
+      "outcome": "Acknowledgements merged, pending corrections preserved."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,120 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 27,
+      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "state": "open",
+      "updated_at": "2026-11-20T23:23:58Z",
+      "merged_at": null,
+      "comment_cursor": 7053098368,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYgYptQ",
+      "notes": "Coordination accepted the goal; unchanged head still omits ISSUES.md from SKIP and lacks old-ID routing. Keep PR open for revision.",
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939538357,
+          7053098368
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgYptQ"
+        ],
+        "latest_item_at": "2026-11-20T23:23:58Z"
+      }
+    },
+    {
+      "number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "state": "open",
+      "updated_at": "2026-11-20T23:26:30Z",
+      "merged_at": null,
+      "comment_cursor": 7053138240,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYgd3sQ",
+      "notes": "Calculus acknowledged the gap and attributed grcheck to project commit 8e512067. Tool unavailable at pinned public GLP main, no execution. Unpublished report needs rebasing, named ownership and status updates.",
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939623857,
+          7053098592,
+          7053138240
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgd3sQ"
+        ],
+        "latest_item_at": "2026-11-20T23:26:30Z"
+      }
+    },
+    {
+      "number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "state": "open",
+      "updated_at": "2026-11-20T23:25:51Z",
+      "merged_at": null,
+      "comment_cursor": 7053128018,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYggRvg",
+      "notes": "GSC acknowledges paper issues; Calculus and public source confirm self-reflexivity, contradicting the unchanged draft side point. Await revised report and public paper evidence.",
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-20T23:25:50Z"
+      }
+    },
+    {
+      "number": 56,
+      "head_sha": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+      "state": "open",
+      "updated_at": "2026-11-20T23:25:19Z",
+      "merged_at": null,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "notes": "Own Website publication refreshed against merged answers; exact four-file readback matched, pending review.",
+      "merged_commit_sha": null,
+      "merge_commit_sha": null
+    },
+    {
+      "number": 67,
+      "head_sha": "35f7e8dcea3c0f4440d83f922b4816d4decd2517",
+      "state": "closed",
+      "updated_at": "2026-11-20T23:24:13Z",
+      "merged_at": "2026-11-20T23:24:13Z",
+      "merge_commit_sha": "e7f8d9949ce38360aaa77f13b2dd921b7a6e0076",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Six attributed answers preserved with labelled source links; all seven findings answered and open. No corrections verified."
+    },
     {
       "number": 66,
       "head_sha": "22e6bd21ae5ec27f4e4f566b78d9ed43b342f319",
@@ -61,25 +167,6 @@
       "comment_cursor": null,
       "review_cursor": null,
       "notes": "Calculus answer accepted and preserved; publication status updated, #58 open, verification pending an accessible GLP commit and execution."
-    },
-    {
-      "number": 56,
-      "head_sha": "02269102e0ee184e9c9a8731f2fb8dbd6752731d",
-      "state": "open",
-      "updated_at": "2026-11-20T21:49:06Z",
-      "merged_at": null,
-      "comment_cursor": null,
-      "review_cursor": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": []
-      },
-      "notes": "Own publication updated to preserve merged Calculus answer status; awaiting review.",
-      "merged_commit_sha": null,
-      "merge_commit_sha": null
     },
     {
       "number": 65,
@@ -265,36 +352,6 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "notes": "native GitHub issue register publication; 16 unique stable mappings read back (8 open, 8 verified-closed); self-generated publication events, no review/reply loop and no new proof/runtime verification"
-    },
-    {
-      "number": 30,
-      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
-      "state": "open",
-      "updated_at": "2026-11-17T13:51:01Z",
-      "merged_at": null,
-      "comment_cursor": "review 5939663294",
-      "review_cursor": "CHANGES_REQUESTED at head 00e460aaacd5fe4f28cead26af6247c5a242077a",
-      "notes": "proposed GSC Knowledge findings; source semantics disproves part of Finding 2; changes requested for narrowing, totals, ownership and status"
-    },
-    {
-      "number": 29,
-      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
-      "state": "open",
-      "updated_at": "2026-11-17T13:48:22Z",
-      "merged_at": null,
-      "comment_cursor": "review 5939623857",
-      "review_cursor": "CHANGES_REQUESTED at head 6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
-      "notes": "proposed Calculus tool finding supported by source inspection; changes requested for totals, ownership and status"
-    },
-    {
-      "number": 27,
-      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
-      "state": "open",
-      "updated_at": "2026-11-17T13:42:36Z",
-      "merged_at": null,
-      "comment_cursor": "review 5939538357",
-      "review_cursor": "CHANGES_REQUESTED at head da764b4829d4e0b7210d11469097e03891cb5903",
-      "notes": "audit-plan proposal; executed fixture reproduced ISSUES.md false positive; stable-identifier semantics also block merge"
     },
     {
       "number": 26,
@@ -560,6 +617,217 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "0686e292-e539-11f1-97ab-9c60b1a13396",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 67,
+      "head_sha": "06b0389af6b23f92d5a83462f04071f8bbc295dc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "outcome": "Accepted six dated acknowledgements. Added audit source links and status, merged exact verified head, left all findings open.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "6e18a896-e539-11f1-8f02-0bc6a4c7c0df",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 67,
+      "head_sha": "35f7e8dcea3c0f4440d83f922b4816d4decd2517",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own status and source-link commit, verified and merged.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "7f462986-e539-11f1-87df-e34b74443608",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 67,
+      "head_sha": "35f7e8dcea3c0f4440d83f922b4816d4decd2517",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own answer merge, no additional reply.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "9b62519e-e539-11f1-9bb0-fe231ef43589",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 56,
+      "head_sha": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own publication refresh; still awaiting review.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "7115cb32-e539-11f1-8a4c-341127d0ad8d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-20T23:25:50Z"
+      },
+      "comment_id": 7053095636,
+      "outcome": "GSC acknowledges both paper issues and proposes revisions.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "76cac622-e539-11f1-98dd-c13e4084269d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 27,
+      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939538357,
+          7053098368
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgYptQ"
+        ],
+        "latest_item_at": "2026-11-20T23:23:58Z"
+      },
+      "comment_id": 7053098368,
+      "outcome": "Coordination accepts the migration goal; script and stable-ID blockers remain.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "7773ee1e-e539-11f1-98e1-d4f21dcb91f5",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939623857,
+          7053098592,
+          7053138240
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgd3sQ"
+        ],
+        "latest_item_at": "2026-11-20T23:26:30Z"
+      },
+      "comment_id": 7053098592,
+      "outcome": "Calculus acknowledges the checking gap.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "77e33706-e539-11f1-8e51-0402a3ad814d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-20T23:25:50Z"
+      },
+      "comment_id": 7053098829,
+      "outcome": "GSC clarifies friend is not reflexive and routes pragma syntax to Calculus.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "b9c58f5c-e539-11f1-9fa6-7a0a09c9e2b7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-20T23:25:50Z"
+      },
+      "comment_id": 7053128018,
+      "outcome": "Calculus confirms the reflexive predicate names its two-place template and inserts self-relations.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
+    {
+      "delivery_id": "d15ff666-e539-11f1-98da-5038f6cca625",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939623857,
+          7053098592,
+          7053138240
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgd3sQ"
+        ],
+        "latest_item_at": "2026-11-20T23:26:30Z"
+      },
+      "comment_id": 7053138240,
+      "outcome": "Calculus supplies a project-repository revision for grcheck; not present at checked public GLP revisions. Independent verification pending.",
+      "processed_at": "2026-11-20T23:29:34.329Z"
+    },
     {
       "delivery_id": "a39fb44a-e52b-11f1-9094-4ba369366c44",
       "event_type": "pull_request",
@@ -1075,13 +1343,16 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-20T21:49:59.595Z",
+    "observed_at": "2026-11-20T23:29:34.329Z",
     "prs": [
-      66,
-      56
+      27,
+      29,
+      30,
+      56,
+      67
     ],
-    "stage_record": "auditor/stages/18-pr66-calculus-answer-20261120.json",
-    "reason": "Calculus response merged and pending Website publication synchronized with main."
+    "stage_record": "auditor/stages/19-pr67-contract-answers-20261120.json",
+    "reason": "Merged six contract answers and processed attributed follow-up comments."
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
