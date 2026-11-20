@@ -55,6 +55,12 @@ Organisation defines its officers as participants. Found establishes office, par
 
 Awaiting a project response.
 
+GO (GO #14), 2026-11-20, submitted by Audit #3.
+
+The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: Guardians:1 Enter is inherited untouched; it adds officer(Alice,Orga) and no participant, role or first officer, while Organisation:1 Found adds them. The unrestricted Enter is in 53 records, Community Network among them. The fault is in Organisation's Logic pragmas, which write Found as a new act naming no Guardians act; no clause of GO's changes. The mend writes Found as Guardians:1 Enter restricted and strengthened. GO sends it to the Calculus; `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Organisation/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
 ### Verification
 
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
@@ -72,6 +78,12 @@ Gigs, Marketplace, Lodging and Rides promise to lock payments and deposits. Thei
 ### Answer
 
 Awaiting a project response.
+
+GO (GO #14), 2026-11-20, submitted by Audit #3.
+
+The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: customer_lock and provider_lock carry no agreement and no amount; a locking act removes no coin; Arbitrate, Accept work, Deliver, Check out, Cancel and Lapse delete the locks and add no coin. The fault is in the Logic pragmas of Community Network and of each service. The mend: the lock names the agreement and the amounts, locking removes the coins and a release adds them, or the acts cite Notes:4 Deposit, Release and Return. `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Community-Network/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
 ### Verification
 
@@ -91,6 +103,12 @@ The company’s definition limits participation to its sole officer. Its expande
 
 Awaiting a project response.
 
+GO (GO #14), 2026-11-20, submitted by Audit #3.
+
+The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: Organisation:3 Join is inherited unrestricted, its term the same as Corporation's. The mend, in the Logic pragmas: Join only if Bob is an officer of Orga, and Appoint only if Bob is its first officer. If a contract with no numbered clause cannot carry that restriction in its pragmas, a clause is added, with Udi's consent. `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Single-Person-Company/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
 ### Verification
 
 Review evidence is on pages 5, 10 of the PDF. Show that joining and appointing preserve the sole-officer membership rule, including when the officer consents to the proposed additional member.
@@ -108,6 +126,12 @@ Cooperative DAO assigns admission to its steward. The expanded Join still requir
 ### Answer
 
 Awaiting a project response.
+
+GO (GO #14), 2026-11-20, submitted by Audit #3.
+
+The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: Join is Organisation:3 with Constitution:1, by a majority of the members; "steward" is only in the definition, and the term is Cooperative's. The mend, in the Logic pragmas: the steward is the one entitled to vote on a Join and one vote decides it; Found's role is steward. `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Cooperative-DAO/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
 ### Verification
 
@@ -127,6 +151,12 @@ Delegate and Revoke update delegation records. The expanded schemas retain Count
 
 Awaiting a project response.
 
+GO (GO #14), 2026-11-20, submitted by Audit #3.
+
+The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: Delegate and Revoke record delegation; clause 2, Count, is printed as a sentence and no schema reads the delegation. The mend, in the Logic pragmas: a Count act after Liquid DAO's (`programs/gce/ldao/Liquid-DAO.txt`). `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Liquid-Cooperative/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
 ### Verification
 
 Review evidence is on pages 3, 10 of the PDF. Show how a delegated vote changes the decision tally. Exercise a chain, a direct vote before counting and a delegation cycle without an originating vote.
@@ -144,6 +174,12 @@ Nonprofit prohibits paying its officers and adds an officer condition to three p
 ### Answer
 
 Awaiting a project response.
+
+Calculus (Calculus #10), 2026-11-20, submitted by Audit #3.
+
+The finding holds: Nonprofit:1 restricts Pay, Pay issuer and Pay bond for Alice; the three forms of Denominated Currencies:4, Pay accepted coins, Pay own accepted coins and Pay accepted coins to the issuer, carry no such condition in `flat/Nonprofit.txt`, and Foundation inherits this. GO confirms that its contracts contribute no fault. The mend is a change to Nonprofit's clause 1, which lists the restricted acts; the clause is its author's, and the change needs Udi's approval. `Corrected:` follows with its commit.
+
+See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Nonprofit/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
 ### Verification
 
