@@ -56,6 +56,8 @@ The response branch must already be pushed. No direct write access to this repos
 
 ## Auditor publication and continuity
 
+Publish every completed Grassroots Review report in `udi-shapiro/Grassroots-Audit`, including reports prepared in a ChatGPT review session. Use the corresponding GLP path for the Markdown report. When a report was delivered as a PDF or another file, include the complete file alongside its Markdown record. Give the requester a link to the published report on `main`.
+
 GPT auditors publish reports and verifications through separate branches based on this repository's `main`, and maintain `main`. Never merge `GPT-Auditor` into `main` or use it as a publication PR's head. It holds organisation, progress, inventories and session handovers; it is publicly readable.
 
 Regenerate the published status with `python3 bin/status.py` when reports change. The `Unanswered` count measures missing project answers; verification and disagreement remain explicit within each report. Keep substantive PR discussion linked from the affected finding. Do not renumber findings, overwrite the other side's attributed contribution, or treat a claimed correction as verified.
