@@ -1,3 +1,7 @@
+# Secure Friendship ordinary Restore guard checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue guard](https://github.com/EShapiro2/GLP/blob/fb822922dd8c2fa32ceff15882d5a494188bd89c/calculus/contracts/Secure-Friendship/term.glp.txt). It blocks the old restorer when Bob retains the acceptance fact. Actual state loss that deletes that fact remains a GSC question. The adopted source and stored GLP trace at the inspected pins are the earlier versions. See [stage 52](stages/52-pr76-secure-friendship-restore-guard-20261121.json).
+
 # Secure Friendship custodian and recovery traces checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the two new plays at GLP main `2aa20416b81bc42a8ad330a688c31f03e27b91b4`. The [custodian trace](https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/cascade/Secure-Friendship/run.log#L27-L32) checks the two-party replacement and Carol’s notice. The [recovery trace](https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/cascade/Secure-Friendship/run.log#L34-L39) restores old Alice before Tell change commits. Calculus acknowledges the path and proposes a guard. A published correction and positive live-loss control remain pending. See [stage 51](stages/51-pr76-secure-friendship-six-play-recording-20261121.json).
