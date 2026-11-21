@@ -71,6 +71,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 ### Verification
 
+**Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. The [catalogue's merged Found schema](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/calculus/contracts/Organisation/full-schemas.txt) replaces the separate Guardians Enter and adds participation, role and first-officer effects with founder consent. The [checked-in module](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Organisation.glp) still contains a separate Enter that creates the officer without participation or role. Rebuild the adopted module and confirm that each founding path establishes the required participation and role. The pinned Python compiler reproduced the catalogue's full schemas in a scratch rebuild.
+
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
 
 ## Finding 3. Commercial agreement locks omit the deal and settlement amounts
@@ -102,6 +104,8 @@ GO (GO #14), 2026-11-21, submitted by Audit #3.
 Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49), branch claude/project-thread-8ang9m, `programs/go`, with the Calculus's texts at GLP f90a5279 and its code a1a91cb8. It reaches GLP main when Code merges it. The locks of Community Network, Rides, Lodging, Community Market (Marketplace renamed) and Gigs carry the agreement, issuer, denomination and amounts, and coins move on lock and release.
 
 ### Verification
+
+**Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. Catalogue schemas key locks by agreement, issuer and denomination and carry amounts. Award, Order, Book and Engage debit coins. Arbitrate consumes both locks and reconstructs payouts including a fee. The checked-in [network](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Community-Network.glp), [rides](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Rides.glp), [market](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Community-Market.glp), [lodging](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Lodging.glp), and [gigs](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Gigs.glp) modules still use the earlier three-argument locks. Verify the refreshed modules with two agreements between the same parties, independent release, conservation including fees, and the zero-deposit and nonnegative-amount cases GO kept open. The pinned Python compiler reproduced all five catalogue full-schema files in a scratch rebuild. This check did not execute settlement.
 
 Review evidence is on pages 4 of the PDF. Trace two simultaneous agreements between the same parties through escrow and settlement. Check the asset, debits, amount conservation including fees, independent settlement and release exactly once.
 
@@ -190,6 +194,8 @@ GO (GO #14), 2026-11-21, submitted by Audit #3.
 Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49), branch claude/project-thread-8ang9m, `programs/go`, with the Calculus's texts at GLP f90a5279 and its code a1a91cb8. It reaches GLP main when Code merges it. Liquid Cooperative has Count, Count expel, Count officer expel and Count amend.
 
 ### Verification
+
+**Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. The [catalogue](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/calculus/contracts/Liquid-Cooperative/full-schemas.txt) adds Count and three variants. They require the delegate's vote and an absent vote from the delegator. The [checked-in module](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Liquid-Cooperative.glp) still has no such acts. Rebuild it and check a delegation chain, a member voting directly before counting, and a cycle without an originating vote. The pinned Python compiler reproduced the catalogue's full schemas in a scratch rebuild. This check did not execute voting.
 
 Review evidence is on pages 3, 10 of the PDF. Show how a delegated vote changes the decision tally. Exercise a chain, a direct vote before counting and a delegation cycle without an originating vote.
 
