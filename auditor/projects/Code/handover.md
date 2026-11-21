@@ -1,3 +1,9 @@
+# Secure Friendship identity-loss roles checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the Calculus and SPM replies. The [new catalogue term](https://github.com/EShapiro2/GLP/blob/42a4a5964d0151122715bd9f38d7195f1bd2c4d8/calculus/contracts/Secure-Friendship/term.glp.txt) removes old Alice from the state tests and effects of the two Accept acts. The earlier main trace includes her vote. SPM reports a successful scratch run. Public adoption, an [offline control](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7068705219), and the follow-up for recovering Bob remain pending. See [stage 48](../../stages/48-pr76-secure-friendship-identity-loss-20261121.json).
+
+Adopt the Calculus revision on public GLP, regenerate its platform and publish the offline controls and pinned output. Check both Accept acts and Tell change. Compare the generated roles against the stamped term before using any runtime claim.
+
 # Secure Friendship controls confirmed on GLP main — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records integration at GLP main `ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d`. The [four-play log](https://github.com/EShapiro2/GLP/blob/ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d/cascade/Secure-Friendship/run.log), manifest, fixture and both vGLP platform copies match the previously checked recording. Python checks confirmed the Secure Friendship numeral spelling and stamped term. Source checks confirmed the compiler and checker changes. Code reports 4,205 passes at the earlier `ff122013ff3f68f570b1ef983540cd2005013ed0` pin. Independent runtime verification, live loss and re-keying remain open. See [stage 47](../../stages/47-pr76-secure-friendship-main-integration-20261121.json).
