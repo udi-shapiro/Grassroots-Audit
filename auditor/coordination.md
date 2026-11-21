@@ -1,3 +1,9 @@
+# Secure Friendship findings prepared for review — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves Ohad Eitan’s revised report, dated project answers and all five findings from [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50). At public GLP `e8ebce875d7a4ab42314712445ca87f33163121c`, Python source assertions confirmed the stored CVA refusal for the missing Present button and the catalogue term’s verdict-stamp mismatch. No GLP compiler, checker or runtime ran. The draft has 30 reports, 28 findings and zero unanswered. Review the five dispositions and ticket mapping before merging.
+
+See [stage 34](stages/34-pr50-secure-friendship-report-20261121.json).
+
 # Public GLP integration checked — 21 November 2026
 
 At GLP `e8ebce875d7a4ab42314712445ca87f33163121c`, GO’s regenerated platform artifacts and all 39 Calculus rebuild inputs match the earlier pins. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) and [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) record integration and await review. [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7059738642) points to the integrated Secure Friendship module. Its refreshed cascade record contains the matching module and a stored checker verdict, but the CVA compiler refused the platform because the guarded Present act has no button. [Refusal record](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp) No GLP run was independently executed in this follow-up. See [stage 33](stages/33-glp-main-integration-pr50-71-75-20261121.json).

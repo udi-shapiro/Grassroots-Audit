@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "4854e9e2-e58b-11f1-9881-db3d904f8d7c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "c701abe50102842e45df6fa1bb690f7afd5f4564",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Intermediate revision contained a duplicated report. Contributor superseded it before publication.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "7056ddd8-e58b-11f1-970d-129203a48ed6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Reviewed contributor revision and preserved the five findings and attributed answers in audit draft #76.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "b8329dcc-e58b-11f1-9164-d35756321d9c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": 7060419941,
+      "discussion_version": {
+        "comments": 12,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T09:12:46Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Reviewed Ohad Eitan’s dated revision note and independently checked its source claims. Draft #76 records the audit results.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "06014972-e58c-11f1-94fe-eeac32bf2d27",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Own publication draft at recorded head. Awaiting review."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "original_glp": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
+    "reported_fast_tier": "7595edcf07df5847aba72415a7ce0913ba1f5dec"
+  },
+  "pull_requests": {
+    "50": {
+      "head": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "state": "open",
+      "discussion": {
+        "comments": 13,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T09:15:16Z"
+      },
+      "review_states": [
+        "COMMENTED",
+        "CHANGES_REQUESTED",
+        "CHANGES_REQUESTED"
+      ]
+    },
+    "76": {
+      "head": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+      "state": "open",
+      "draft": true,
+      "discussion": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "files": [
+        {
+          "path": "programs/social/spm/Secure-Friendship.txt.md",
+          "sha": "9a976155b4957af8c943523ca7d44a015bdac29f",
+          "exact": true
+        },
+        {
+          "path": "ISSUES.md",
+          "sha": "fd0c78eaf7199d0c476881f9f19a2a514d434224",
+          "exact": true
+        },
+        {
+          "path": "sections/status-table.tex",
+          "sha": "0c4897cfd9c865766cc4a79b48448850f9497c66",
+          "exact": true
+        }
+      ]
+    }
+  },
+  "links": {
+    "contributor_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "contributor_revision": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7060419941",
+    "auditor_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7060447760",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "refusal": "https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp"
+  },
+  "project_claims": "SPM said English stands, identified partial Logic pragma corrections at GLP main, and relayed Code’s fast-tier result of 4198 passed. Ohad’s 21 November revision distinguishes stored artifacts from runtime. Calculus attributed live state-loss updates to a machine transition. Those historical runtime claims were not independently re-executed.",
+  "source_inspection": {
+    "contributor_revision": "Latest head preserves original five finding bodies. Earlier duplicated report was removed by the contributor.",
+    "pinned_blobs": {
+      "english_and_pragmas": "a5dfa59a5b2c8f12580b8435eeadb119e4e64218",
+      "generated_module": "0746c1c94ca907276f037d2deacc372fc2945755",
+      "generated_schemas": "3a57d047579706818aaa872ad705a3d6752c9afd",
+      "platform_refusal": "039570ff2c95da4ae00e262f80d69c02af020078",
+      "catalogue_term": "7bc523459df047d2731c02b4d8764ed9901b58ee",
+      "verdict_stamp": "df8bf313383de183abf8c139e2d7ea7a1aa204d4"
+    },
+    "disposition": "All five findings remain open or disputed. Finding 2 has threshold propagation in the schema, Finding 4 has Restore friend, and Finding 5 has Present, counted Accept, and Tell friends. The checkpoint still stores a marker. The guarded Present act has no button. Replace custodian and the catalogue term are unresolved."
+  },
+  "executed_checks": {
+    "python_source_checks": "Python 3 assertions compared pinned English before Logic pragmas, checked Send record and threshold guards, marker-only Checkpoint, restore prerequisites, guarded Present and missing interface button against the stored refusal, and compared Accept schemas and the SHA-256 stamp.",
+    "status": "Ran python3 bin/status.py on all audit main report files with and without the draft report. Compared regenerated main table byte-for-byte with checked-in table. Draft contains exactly five stable findings, five index rows and 0 unanswered.",
+    "output": "29 reports, 23 findings, 0 unanswered\n30 reports, 28 findings, 0 unanswered\nCatalogue term SHA-256 ba5b6fce4946e2e8de67f28f58d25ce182e1dead76ecd91c5b6bbb2481919db2, stored stamp b3fef22afcd5937648c80cb2dd98b9c6a4247b27d0b73ac4a3250ee2758c1600\nPinned English equality and schema, interface, cascade and term assertions passed",
+    "not_run": "GLP compiler, checker, end-to-end runtime and private paper checks."
+  },
+  "next": "Review draft #76 and agree final dispositions for the five findings before creating linked tickets and merging. SPM and Calculus need to supply a Present button, reconcile the catalogue term and stamp, and record focused delivery, loss/recovery and replacement behavior on a compiled platform. Continue the recorded core verification queue after prioritized application work. All six core answers are already present."
+}

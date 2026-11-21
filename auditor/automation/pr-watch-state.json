@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T09:12:56Z",
-  "active_run": {
-    "run_id": "4854e9e2-e58b-11f1-9881-db3d904f8d7c",
-    "delivery_ids": [
-      "4854e9e2-e58b-11f1-9881-db3d904f8d7c",
-      "7056ddd8-e58b-11f1-970d-129203a48ed6",
-      "b8329dcc-e58b-11f1-9164-d35756321d9c"
-    ],
-    "started_at": "2026-11-21T09:12:56Z",
-    "expires_at": "2026-11-21T09:27:56Z",
-    "pull_request_numbers": [
-      50
-    ],
-    "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a"
-  },
+  "updated_at": "2026-11-21T09:15:20Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,6 +36,62 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "state": "open",
+      "updated_at": "2026-11-21T09:15:16Z",
+      "merged_at": null,
+      "merge_commit_sha": "6c974306c08db4196bf30761c03ca369dfb97900",
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T09:15:16Z"
+      },
+      "comment_cursor": 7060447760,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+      "notes": "Contributor revision retained. Draft #76 records source verification and leaves five findings open or disputed."
+    },
+    {
+      "number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "state": "open",
+      "updated_at": "2026-11-21T09:14:57Z",
+      "merged_at": null,
+      "merge_commit_sha": "bc0a8e406ff8246264e14cd4a56dd5f34be2494f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Own main-based publication draft at recorded head. Review and ticket mapping pending."
+    },
     {
       "number": 74,
       "head_sha": "79389eba7b5cd9a9e12eb920f57f7b91af3a5377",
@@ -209,41 +252,6 @@
       "comment_cursor": null,
       "review_cursor": null,
       "notes": "GSA partial response merged with repaired public link; source inspection only, #38 remains open."
-    },
-    {
-      "number": 50,
-      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
-      "state": "open",
-      "updated_at": "2026-11-21T08:11:15Z",
-      "merged_at": null,
-      "comment_cursor": 7059738642,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "Verified SPM schema integration. Main cascade records compiler refusal for missing Present button. No report on audit main.",
-      "discussion_version": {
-        "comments": 11,
-        "reviews": 3,
-        "review_threads": 0,
-        "comment_ids": [
-          5944465842,
-          5944513543,
-          5971010401,
-          7053164176,
-          7053633313,
-          7053676773,
-          7053864701,
-          7058086928,
-          7058124083,
-          7058299451,
-          7059738642
-        ],
-        "review_ids": [
-          "PRR_kwDOVrts7s8AAAABYlFZsg",
-          "PRR_kwDOVrts7s8AAAABYlIUBw",
-          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
-        ],
-        "latest_item_at": "2026-11-21T08:11:15Z"
-      },
-      "merge_commit_sha": null
     },
     {
       "number": 27,
@@ -800,6 +808,129 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "4854e9e2-e58b-11f1-9881-db3d904f8d7c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "c701abe50102842e45df6fa1bb690f7afd5f4564",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Intermediate revision contained a duplicated report. Contributor superseded it before publication.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "7056ddd8-e58b-11f1-970d-129203a48ed6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Reviewed contributor revision and preserved the five findings and attributed answers in audit draft #76.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "b8329dcc-e58b-11f1-9164-d35756321d9c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": 7060419941,
+      "discussion_version": {
+        "comments": 12,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T09:12:46Z"
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Reviewed Ohad Eitan’s dated revision note and independently checked its source claims. Draft #76 records the audit results.",
+      "publication_pr": 76
+    },
+    {
+      "delivery_id": "06014972-e58c-11f1-94fe-eeac32bf2d27",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T09:15:20Z",
+      "outcome": "Own publication draft at recorded head. Awaiting review."
+    },
     {
       "delivery_id": "1f1fb4ba-e583-11f1-9bf3-91c6e67211a2",
       "event_type": "issue_comment",
@@ -2191,7 +2322,8 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "original_glp": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
     "reported_fast_tier": "7595edcf07df5847aba72415a7ce0913ba1f5dec",
-    "observed_at": "2026-11-21T08:15:58Z"
+    "observed_at": "2026-11-21T09:15:20Z"
   }
 }
