@@ -1,3 +1,7 @@
+# Secure Friendship module rebuild confirmed — 20 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058299451) links public GLP `589d1f22be5ddda803fde15e1ef19acbab0eb1ea`. The adopted module at that pin matches the independent Python rebuild byte for byte. Its term matches the published verdict stamp, while the stored catalogue term differs at Accept. The cascade manifest is unchanged. [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50) remains open with changes requested. No GLP checker or runtime ran. See [stage 31](stages/31-pr50-spm-regenerated-module-20261120.json).
+
 # Secure Friendship rebuilt from public GLP — 20 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058086928) cites public GLP `6b8f8463295918b31b5dde02722d692ac990c64a`. The pinned Python tools reproduce the published full schemas from both adopted and catalogue inputs. The rebuilt Accept differs from the stored catalogue term and matches the published verdict stamp. The checked-in module retains the earlier logic. [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058124083) records the differences. Audit PR #50 remains open with changes requested. No GLP checker or runtime ran. See [stage 30](stages/30-pr50-spm-public-rebuild-20261120.json).

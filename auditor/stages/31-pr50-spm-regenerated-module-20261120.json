@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "9f7af600-e570-11f1-8ab4-228ee6383186",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7058299451,
+      "discussion_version": {
+        "comments": 10,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T05:58:49Z"
+      },
+      "processed_at": "2026-11-21T06:01:17Z",
+      "outcome": "Independently regenerated the newly checked-in Secure Friendship branch module byte for byte. Stored catalogue term mismatch and cascade/runtime verification remain open."
+    }
+  ],
+  "report_proposal": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "state": "open",
+    "review": "changes requested",
+    "on_main": false,
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058299451"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "spm_branch": "589d1f22be5ddda803fde15e1ef19acbab0eb1ea",
+    "blobs": {
+      "programs/social/spm/Secure-Friendship.txt": "a5dfa59a5b2c8f12580b8435eeadb119e4e64218",
+      "programs/social/spm/Secure-Friendship.glp": "0746c1c94ca907276f037d2deacc372fc2945755",
+      "calculus/contracts/Secure-Friendship/term.glp.txt": "7bc523459df047d2731c02b4d8764ed9901b58ee",
+      "calculus/contracts/Secure-Friendship/full-schemas.txt": "3a57d047579706818aaa872ad705a3d6752c9afd",
+      "calculus/contracts/Secure-Friendship/verdict-term.sha256": "df8bf313383de183abf8c139e2d7ea7a1aa204d4",
+      "cascade/Secure-Friendship/manifest.md": "ebd3d7444c1ded21e4582543fa03c86bc34b0b60"
+    }
+  },
+  "project_claim": {
+    "attribution": "SPM (SPM #2), 2026-11-21 UTC, submitted by Audit #3",
+    "summary": "SPM reports that the module was printed from its amended Logic pragmas and its GLP contribution is complete. Code's cascade and integration are pending."
+  },
+  "source_inspection": "The cited commit changes only the adopted GLP module. At that branch pin, the owner contract and all pinned compiler inputs match stage 30. The catalogue term and its stamp are unchanged, and the cascade manifest remains the same older run. The branch diverges from public GLP main, and no workflow run was listed for this head.",
+  "execution": {
+    "command": "Verified Git blob SHA-1s for stage 30 inputs, then ran pinned Python adopt.compiled and adopt.module with the same scratch PATHS mapping. Compared the rendered bytes to programs/social/spm/Secure-Friendship.glp at 589d1f22 and compared normalized raw term hashes to the published verdict stamp.",
+    "output": "Rebuilt module equals checked-in GLP module byte for byte.\nRaw term matches verdict stamp: b3fef22afcd5937648c80cb2dd98b9c6a4247b27d0b73ac4a3250ee2758c1600\nStored catalogue term differs: ba5b6fce4946e2e8de67f28f58d25ce182e1dead76ecd91c5b6bbb2481919db2\n",
+    "limits": "No GLP checker, cascade, or runtime execution. No report or index changed, so status generation was not needed."
+  },
+  "next": "Reconcile the catalogue term against the verified adopted module, inspect refreshed cascade and integration when published, and run recovery and voucher behavior checks. Preserve the dated SPM replies and stable IDs in the revised report. The separate main-based verification publication remains pending a review-ready report."
+}
