@@ -71,6 +71,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242). Organisation’s schema module now includes the founder. Compiled platforms still await regeneration.
 
+GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. Corrected: [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e). GO reports that the Organisation platforms were regenerated with the founder. [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694)
+
 ### Verification
 
 **Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. The [catalogue's merged Found schema](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/calculus/contracts/Organisation/full-schemas.txt) replaces the separate Guardians Enter and adds participation, role and first-officer effects with founder consent. The [checked-in module](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Organisation.glp) still contains a separate Enter that creates the officer without participation or role. Rebuild the adopted module and confirm that each founding path establishes the required participation and role. The pinned Python compiler reproduced the catalogue's full schemas in a scratch rebuild.
@@ -78,6 +80,8 @@ GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https:
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
 
 **Auditor, 20 November 2026. Follow-up source inspection.** At [`dc464bcf`](https://github.com/EShapiro2/GLP/commit/dc464bcff458a309ecde4a4ed87cde17e3ac7c45), in [the regenerated Organisation module](https://github.com/EShapiro2/GLP/blob/dc464bcff458a309ecde4a4ed87cde17e3ac7c45/programs/go/Organisation.glp), Found requires founder consent and adds the participant, role and first officer. The standalone Enter is absent. The [cascade manifest](https://github.com/EShapiro2/GLP/blob/dc464bcff458a309ecde4a4ed87cde17e3ac7c45/cascade/Organisation/manifest.md) still points to `7f55cf2e`; the platform and interface blobs are unchanged from `e8688eaf`. Finding remains open. No GLP runtime check ran in this follow-up.
+
+**Auditor, 20 November 2026. Regenerated-platform source inspection.** At [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e), both regenerated Organisation platforms carry Found’s founder, participation, role and first-officer effects. [GLP schema entry](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Organisation/platform.glp#L259) The artifact is on the cited branch. This finding remains open pending behavioral verification. No cascade or runtime test ran in this follow-up.
 
 ## Finding 3. Commercial agreement locks omit the deal and settlement amounts
 
@@ -109,6 +113,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242). The network schema has the arbitration cases, and the four service schemas include amount-bearing cancellation cases. Compiled platforms still await regeneration.
 
+GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. Corrected: [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e). GO reports regenerated Rides, Lodging, Gigs and Community Market platforms with the amount-bearing cancellation acts and inherited Community Network arbitration. Community Network has no standalone platform. [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694)
+
 ### Verification
 
 **Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. Catalogue schemas key locks by agreement, issuer and denomination and carry amounts. Award, Order, Book and Engage debit coins. Arbitrate consumes both locks and reconstructs payouts including a fee. The checked-in [network](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Community-Network.glp), [rides](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Rides.glp), [market](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Community-Market.glp), [lodging](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Lodging.glp), and [gigs](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Gigs.glp) modules still use the earlier three-argument locks. Verify the refreshed modules with two agreements between the same parties, independent release, conservation including fees, and the zero-deposit and nonnegative-amount cases GO kept open. The pinned Python compiler reproduced all five catalogue full-schema files in a scratch rebuild. This check did not execute settlement.
@@ -116,6 +122,8 @@ GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https:
 Review evidence is on pages 4 of the PDF. Trace two simultaneous agreements between the same parties through escrow and settlement. Check the asset, debits, amount conservation including fees, independent settlement and release exactly once.
 
 **Auditor, 20 November 2026. Follow-up source inspection.** At [`dc464bcf`](https://github.com/EShapiro2/GLP/commit/dc464bcff458a309ecde4a4ed87cde17e3ac7c45), the regenerated modules contain deal-keyed, amount-bearing locks in Award, Order, Book and Engage and fee arithmetic in Arbitrate. Existing compiled service platform blobs match `e8688eaf`, and Community Market has no compiled platform at this pin. Settlement, zero-deposit and nonnegative-amount checks are pending. Finding remains open. No GLP runtime check ran in this follow-up.
+
+**Auditor, 20 November 2026. Regenerated-platform source inspection.** At [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e), both platform forms for each of the four services carry amount-bearing cancellation and inherited arbitration entries. Community Network has no standalone platform at this pin. [Rides](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Rides/platform.glp#L537) · [Lodging](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Lodging/platform.glp#L509) · [Gigs](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Gigs/platform.glp#L505) · [Community Market](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Community-Market/platform.glp#L499) The artifact is on the cited branch. This finding remains open pending behavioral verification. No cascade or runtime test ran in this follow-up.
 
 ## Finding 4. Single-Person Company can admit a second participant
 
@@ -203,6 +211,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242). The Liquid Cooperative schema module includes Count expel. Compiled platforms still await regeneration.
 
+GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. Corrected: [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e). GO reports that the regenerated Liquid Cooperative platform carries Count expel. [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694)
+
 ### Verification
 
 **Auditor, 20 November 2026. Partial verification.** Public GO revision [`e8688eaf`](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49); GO's adoption is on a GLP branch. The [catalogue](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/calculus/contracts/Liquid-Cooperative/full-schemas.txt) adds Count and three variants. They require the delegate's vote and an absent vote from the delegator. The [checked-in module](https://github.com/EShapiro2/GLP/blob/e8688eafb085841202953c70e75697f7f69bca49/programs/go/Liquid-Cooperative.glp) still has no such acts. Rebuild it and check a delegation chain, a member voting directly before counting, and a cycle without an originating vote. The pinned Python compiler reproduced the catalogue's full schemas in a scratch rebuild. This check did not execute voting.
@@ -210,6 +220,8 @@ GO (GO #14), 2026-11-21 UTC, submitted by Audit #3. See: [GO's follow-up](https:
 Review evidence is on pages 3, 10 of the PDF. Show how a delegated vote changes the decision tally. Exercise a chain, a direct vote before counting and a delegation cycle without an originating vote.
 
 **Auditor, 20 November 2026. Follow-up source inspection.** At [`dc464bcf`](https://github.com/EShapiro2/GLP/commit/dc464bcff458a309ecde4a4ed87cde17e3ac7c45), [The regenerated Liquid Cooperative module](https://github.com/EShapiro2/GLP/blob/dc464bcff458a309ecde4a4ed87cde17e3ac7c45/programs/go/Liquid-Cooperative.glp) contains all four Count acts. Its compiled platform and interface blobs are unchanged from `e8688eaf`. Delegation behavior still needs execution. Finding remains open. No GLP runtime check ran in this follow-up.
+
+**Auditor, 20 November 2026. Regenerated-platform source inspection.** At [`617cceb7`](https://github.com/EShapiro2/GLP/commit/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e), both regenerated Liquid Cooperative platforms contain all four Count entries, with delegation and vote predicates. [GLP schema entries](https://github.com/EShapiro2/GLP/blob/617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e/cascade/Liquid-Cooperative/platform.glp#L469-L472) The artifact is on the cited branch. This finding remains open pending behavioral verification. No cascade or runtime test ran in this follow-up.
 
 ## Finding 7. Nonprofit omits its officer restriction from accepted-coin payments
 
