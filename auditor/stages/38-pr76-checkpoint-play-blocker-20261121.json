@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "ff4fdd7c-e596-11f1-82d6-0e16afd95677",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
+      "comment_id": 7061318777,
+      "discussion_version": {
+        "comments": 10,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:33:30Z"
+      },
+      "processed_at": "2026-11-21T10:36:49Z",
+      "outcome": "Preserved SPM’s reported run-limit failure and independently confirmed the underlying schema remains enabled after adding its marker."
+    },
+    {
+      "delivery_id": "5b3fe6ea-e597-11f1-9793-88c419896586",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 10,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:33:30Z"
+      },
+      "processed_at": "2026-11-21T10:36:49Z",
+      "outcome": "Own recorded draft update. No additional publication."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e"
+  },
+  "pull_request": {
+    "number": 76,
+    "state": "open",
+    "draft": true,
+    "head": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+    "prior_head": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
+    "discussion": {
+      "comments": 10,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T10:33:30Z"
+    },
+    "report_blob": "b9815c40ec7dd32ab8b8e5828f294693fe9210e9",
+    "index_blob": "d57d69bb5c1b981155089dd70cf4a139ec1fe305",
+    "status_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7061318777",
+    "schemas": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/cascade/Secure-Friendship/full-schemas.txt",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/cascade/Secure-Friendship/manifest.md"
+  },
+  "project_claim": "SPM reports loading the four-agent play and reaching the limit near Name custodian while the checkpoint marker is repeatedly added. It has proposed a nontrivial-change condition to Calculus and says a public play commit will follow the correction.",
+  "inspection": {
+    "schemas_blob": "3a57d047579706818aaa872ad705a3d6752c9afd",
+    "module_blob": "0746c1c94ca907276f037d2deacc372fc2945755",
+    "manifest_blob": "17699fa43c25878033276880873732b7d2978a7c",
+    "summary": "Checkpoint requires mutual friendship and adds its marker. There is no marker-absence prerequisite. The manifest lists no play, and the claimed directory is absent at pinned main."
+  },
+  "executed": {
+    "checks": "Checkpoint prerequisites survive its effect and a second set application adds no fact\n30 reports, 28 findings, 0 unanswered",
+    "limits": "Python modelled only the set of facts in the generated schema, not GLP scheduling, multiplicity, play execution or runtime. Dart was unavailable."
+  },
+  "next": "Inspect the public checkpoint correction and verify that a nontrivial update still fires and a repeated unchanged checkpoint does not. Then run the pinned Secure Friendship play for Vouch, Present, Accept and Tell friends, including voucher-count and notification controls. Findings 3 and 5 remain open. Draft #76 awaits review."
+}

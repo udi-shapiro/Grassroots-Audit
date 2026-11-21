@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T10:34:57Z",
-  "active_run": {
-    "run_id": "ff4fdd7c-e596-11f1-82d6-0e16afd95677",
-    "delivery_ids": [
-      "ff4fdd7c-e596-11f1-82d6-0e16afd95677"
-    ],
-    "started_at": "2026-11-21T10:34:57Z",
-    "expires_at": "2026-11-21T10:49:57.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232"
-  },
+  "updated_at": "2026-11-21T10:36:49Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
       "state": "open",
-      "updated_at": "2026-11-21T10:31:13Z",
+      "updated_at": "2026-11-21T10:36:05Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 9,
+        "comments": 10,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -67,14 +56,15 @@
           7061247414,
           7061250888,
           7061251241,
-          7061253794
+          7061253794,
+          7061318777
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T10:28:06Z"
+        "latest_item_at": "2026-11-21T10:33:30Z"
       },
-      "comment_cursor": 7061253794,
+      "comment_cursor": 7061318777,
       "review_cursor": null,
-      "notes": "Preserved dated GSC, SPM and Calculus responses. Findings 4 and 5 remain open. Draft awaits review."
+      "notes": "Preserved SPM play report. Source-level check supports repeated checkpoint enabling. Await public fix and play."
     },
     {
       "number": 50,
@@ -832,6 +822,64 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "ff4fdd7c-e596-11f1-82d6-0e16afd95677",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
+      "comment_id": 7061318777,
+      "discussion_version": {
+        "comments": 10,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:33:30Z"
+      },
+      "processed_at": "2026-11-21T10:36:49Z",
+      "outcome": "Preserved SPM’s reported run-limit failure and independently confirmed the underlying schema remains enabled after adding its marker."
+    },
+    {
+      "delivery_id": "5b3fe6ea-e597-11f1-9793-88c419896586",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 10,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:33:30Z"
+      },
+      "processed_at": "2026-11-21T10:36:49Z",
+      "outcome": "Own recorded draft update. No additional publication."
+    },
     {
       "delivery_id": "291a6056-e596-11f1-8aef-1732205463ab",
       "event_type": "issue_comment",
@@ -2759,6 +2807,6 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "observed_at": "2026-11-21T10:32:18Z"
+    "observed_at": "2026-11-21T10:36:49Z"
   }
 }
