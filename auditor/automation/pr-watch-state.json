@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T17:14:48Z",
-  "active_run": {
-    "run_id": "6ce92df2-e5ce-11f1-9059-86fd0b257738",
-    "delivery_ids": [
-      "6ce92df2-e5ce-11f1-9059-86fd0b257738"
-    ],
-    "started_at": "2026-11-21T17:14:48Z",
-    "expires_at": "2026-11-21T17:29:48.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "d55f792d184b7a88dd9a82d560bccb0f9068f257"
-  },
+  "updated_at": "2026-11-21T17:16:16Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "d55f792d184b7a88dd9a82d560bccb0f9068f257",
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
       "state": "open",
-      "updated_at": "2026-11-21T14:31:09Z",
+      "updated_at": "2026-11-21T17:15:27Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 23,
+        "comments": 24,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -81,14 +70,15 @@
           7064082013,
           7064086846,
           7064111136,
-          7064117063
+          7064117063,
+          7066265186
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T14:28:46Z"
+        "latest_item_at": "2026-11-21T17:10:16Z"
       },
-      "comment_cursor": 7064117063,
+      "comment_cursor": 7066265186,
       "review_cursor": null,
-      "notes": "Verified the adopted module and checker source. Preserved the reported play pass. Public regenerated platform, run log and runtime verification remain pending."
+      "notes": "Verified public branch artifacts and recorded positive replacement play. Main integration and independent runtime controls remain pending."
     },
     {
       "number": 50,
@@ -846,6 +836,92 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "6ce92df2-e5ce-11f1-9059-86fd0b257738",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "d55f792d184b7a88dd9a82d560bccb0f9068f257",
+      "comment_id": 7066265186,
+      "discussion_version": {
+        "comments": 24,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:10:16Z"
+      },
+      "processed_at": "2026-11-21T17:16:16Z",
+      "outcome": "Verified branch cascade wiring, regenerated artifacts and the recorded replacement play. Independent execution remains pending."
+    },
+    {
+      "delivery_id": "2576c65e-e5cf-11f1-93ae-c5181dcf80a6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 24,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:10:16Z"
+      },
+      "processed_at": "2026-11-21T17:16:16Z",
+      "outcome": "Own recorded draft update."
+    },
     {
       "delivery_id": "7ef546dc-e5b7-11f1-9194-35c4df7da911",
       "event_type": "issue_comment",
@@ -3517,7 +3593,9 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
     "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
-    "code_branch": "a6fc2475b4346c80198886ce4ccb40481c3687e4",
-    "observed_at": "2026-11-21T14:31:56Z"
+    "code_full_regeneration": "a47abaf46b2fc9d6b65d30db2a05e7603ab4d445",
+    "spm_play_declaration": "38c836c047399e5fc9c7b2844b1e6aa7a2da9adc",
+    "public_recorded_play": "f1f8898c79fa8763fecb827dfcc8f7c3c88f5789",
+    "observed_at": "2026-11-21T17:16:16Z"
   }
 }

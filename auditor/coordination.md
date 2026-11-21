@@ -1,3 +1,7 @@
+# Secure Friendship public cascade play checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the matching regenerated platforms and the [public cascade log](https://github.com/EShapiro2/GLP/blob/f1f8898c79fa8763fecb827dfcc8f7c3c88f5789/cascade/Secure-Friendship/run.log) at GLP `f1f8898c79fa8763fecb827dfcc8f7c3c88f5789`. The log records custodian and threshold delivery, then Vouch, Present, Accept and Tell friends. The audit checked the stored evidence. Independent runtime controls and live-loss recovery remain pending. See [stage 44](stages/44-pr76-public-secure-friendship-cascade-play-20261121.json).
+
 # Secure Friendship adopted module and reported play — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records public GLP `a6fc2475b4346c80198886ce4ccb40481c3687e4`. The adopted module now matches the corrected catalogue and stamp, while both stored platforms retain the earlier literal. SPM reports a completed play with a freshly generated platform. Its expected public cascade log is pending. See [stage 43](stages/43-pr76-reprinted-module-and-reported-play-20261121.json).
