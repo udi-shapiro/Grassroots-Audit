@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "22e83fdc-e5af-11f1-949c-5cad213020eb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6ccec6a622f9e5fab47676f53002127a3608e793",
+      "comment_id": 7063273412,
+      "discussion_version": {
+        "comments": 16,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:26:18Z"
+      },
+      "processed_at": "2026-11-21T13:50:31Z",
+      "outcome": "Recovered verified Code branch clarification already present in draft. Compiler template matches the vGLP public branch."
+    },
+    {
+      "delivery_id": "88091080-e5af-11f1-9bd7-738916e48cd7",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "ba9d6f7268aed0b4e76d533bef03691987b4a565",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 16,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:26:18Z"
+      },
+      "processed_at": "2026-11-21T13:50:31Z",
+      "outcome": "Recovered preceding auditor draft update at its observed head."
+    },
+    {
+      "delivery_id": "fa844a52-e5b0-11f1-9c2b-f1017adb0cbb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "ba9d6f7268aed0b4e76d533bef03691987b4a565",
+      "comment_id": 7063464212,
+      "discussion_version": {
+        "comments": 17,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:39:29Z"
+      },
+      "processed_at": "2026-11-21T13:50:31Z",
+      "outcome": "Checked the corrected digit printer and Secure Friendship term stamp on the Calculus branch."
+    },
+    {
+      "delivery_id": "f89fee34-e5b1-11f1-9612-cd50128616c1",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "ba9d6f7268aed0b4e76d533bef03691987b4a565",
+      "comment_id": 7063573110,
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:46:36Z"
+      },
+      "processed_at": "2026-11-21T13:50:31Z",
+      "outcome": "Inspected checker guards in argument and expression positions and public controls. Attributed the reported 749 passes to GSC."
+    },
+    {
+      "delivery_id": "632625d4-e5b2-11f1-829c-536f5c1c5a70",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "63080eb28336a3c6409194935c06c15e35d24473",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:46:36Z"
+      },
+      "processed_at": "2026-11-21T13:50:31Z",
+      "outcome": "Own recorded draft update."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "compiler_origin": "950cc0267de9531143fe515d6a196c206c1a419f",
+    "compiler_code_branch": "1246d8c8531418a0c36a21cdd31e7c7ddf489b9d",
+    "printer_branch": "ff6fe9aeda7e2fc59f5d348459ff0b11437d1790",
+    "checker_branch": "f4ef10dbf7b8834eecd23eb6169f4425879d27f9"
+  },
+  "pull_request": {
+    "number": 76,
+    "prior_head": "ba9d6f7268aed0b4e76d533bef03691987b4a565",
+    "head": "63080eb28336a3c6409194935c06c15e35d24473",
+    "state": "open",
+    "draft": true,
+    "discussion": {
+      "comments": 18,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T13:46:36Z"
+    },
+    "report_blob": "1e3f33b3e23e712f5a8d58ec2dc5e4dc5500a2ba",
+    "index_blob": "f847f94cbf3b9ff7ba5a09d4e3f5ff55260cc0e5",
+    "status_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "discussion": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7063273412",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7063464212",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7063573110"
+    ],
+    "compiler": "https://github.com/EShapiro2/GLP/commit/1246d8c8531418a0c36a21cdd31e7c7ddf489b9d",
+    "printer": "https://github.com/EShapiro2/GLP/commit/ff6fe9aeda7e2fc59f5d348459ff0b11437d1790",
+    "checker": "https://github.com/EShapiro2/GLP/commit/f4ef10dbf7b8834eecd23eb6169f4425879d27f9"
+  },
+  "reconciliation": "The preceding lease expired. Read back the preceding PR commit and attributed reply before preserving and advancing. The related synchronize event is the preceding auditor update.",
+  "project_claims": "Calculus reports 42 printed terms and 39 unchanged certified verdicts. GSC reports 749 tests passed. Earlier vGLP reply reports full play success with both corrections. None of these broader results was independently executed.",
+  "inspection": {
+    "compiler": "Identical compiler template on vGLP source and Code's branch. Code's generated play still has val(2).",
+    "checker": "Public diff adds numeric val guards to both argument and expression validators, along with two negative controls and a nonnumeric positive control.",
+    "blobs": {
+      "old_checker": "e980e9df77c7aa3a8d69dea2e05bc9c67c55153c",
+      "checker": "39cb60d21babc089d8c3b84b3d0df777dc53f16f",
+      "printer": "76521220bf7ed1d9eb59ad3802e32752ece94e17",
+      "term": "e3995c97250c523971d2375ef135a2080ab42fa3",
+      "stamp": "0647feaf013704f036f036d0c8fe47feaeaed32f",
+      "compiler": "1ee3ad05a22dc1dd06f911900c75f743ba96e944",
+      "play_platform": "7bb9a077b20c1ea5e2be47d582b30ff222fc1988"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Pinned printer emits num(2); Secure Friendship term hash matches its stamp: 0c91055fafa0e8d905f5c71e39e8389c268d3eb5e9688410895c8775ce22b95e\n30 reports, 28 findings, 0 unanswered",
+      "Compared branch compiler blobs and checked the public GSC test diff."
+    ],
+    "not_run": "No GLP checker, runtime, compiler or full catalogue regeneration. Public Actions showed no runs at these branch pins."
+  },
+  "next": "Check combined public integration, including regenerated source terms, verdict stamps and platforms. Independently execute the GSC numeric argument and expression controls, Section VG double control and Secure Friendship play when GLP runtime is available. Finding 5 stays open for play and re-keying; draft #76 awaits review."
+}
