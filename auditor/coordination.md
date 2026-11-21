@@ -1,3 +1,7 @@
+# GO regenerated platforms inspected — 20 November 2026
+
+[GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694) cites public GLP `617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e`. The six regenerated platform pairs contain the expected Found, service cancellation and arbitration, and Count entries. Community Network supplies inherited arbitration and has no standalone platform. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier evidence and records the inspection. Findings 2, 3 and 6 remain open for behavioral verification. No GLP cascade or runtime execution ran. See [stage 28](stages/28-pr71-go-regenerated-platforms-20261120.json).
+
 # GSA SG results recorded with attribution — 20 November 2026
 
 [GSA’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/73#issuecomment-7057260574) supplies an output excerpt at `6c18841c2d03c8b1ab3ccd0cbf1f1df217f76663` for the three checker verdict controls. The install agent, fixture and relevant harness-check definitions match the earlier pinned GLP source. This run did not execute SG. [PR #73](https://github.com/udi-shapiro/Grassroots-Audit/pull/73) records the distinction and awaits review. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open pending clean refusal of a missing contract export. See [stage 27](stages/27-pr73-gsa-sg-reported-results-20261120.json).

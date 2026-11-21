@@ -1,0 +1,507 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "77bc9894-e566-11f1-902f-9f9afeed06ab",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "4ef7bc685179fc7c04b56fe76bf67830c185e6dd",
+      "comment_id": 7057469694,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:46:07Z"
+      },
+      "processed_at": "2026-11-21T04:50:57Z",
+      "outcome": "Preserved GO's follow-up and verified the generated platform source for Findings 2, 3 and 6. Runtime checks still pending."
+    },
+    {
+      "delivery_id": "1f60b06c-e567-11f1-993c-8b625ee3a8eb",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "929255066eeb2800f2749ec2a41b76cd262702cf",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:46:07Z"
+      },
+      "processed_at": "2026-11-21T04:50:57Z",
+      "outcome": "Observed own regenerated-platform publication update. Review pending."
+    }
+  ],
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "head": "929255066eeb2800f2749ec2a41b76cd262702cf",
+    "prior_head": "4ef7bc685179fc7c04b56fe76bf67830c185e6dd",
+    "state": "open",
+    "review": "pending",
+    "report_blob": "6f9a91108439436ed8dc8777bcd2ab056466900d",
+    "index_blob": "29b053d90d1ab814376bb6beff3741cbe8a8bc13"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "regenerated_platforms": "617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e",
+    "prior_schema_revision": "dc464bcff458a309ecde4a4ed87cde17e3ac7c45"
+  },
+  "project_claim": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694",
+    "attribution": "GO (GO #14), 2026-11-21 UTC, submitted by Audit #3",
+    "summary": "GO reports regeneration by cascade.sh of Organisation, four service platforms, and Liquid Cooperative, with the founder, amount-bearing cancellation and arbitration, and Count expel, respectively."
+  },
+  "inspection": {
+    "artifact_blobs_prior_branch_current_branch_main": {
+      "cascade/Organisation/platform.vglp": [
+        "e82cc62baa2993d1e21ba16130a1db6e28b54b4a",
+        "b1dd758c61ba9a000b7221101d2b51d4bc9b8721",
+        "ee1dcd1e8631a21abe4ac9d8e5f725a40a59ef42"
+      ],
+      "cascade/Organisation/platform.glp": [
+        "7fc2b1afa8cd2de9573dfd5171b016345a4eef55",
+        "f4b33fd5054190ef7883885946908de7bd0e6fa4",
+        "29826087e3af6180594c383bce6065fad08a8434"
+      ],
+      "cascade/Organisation/interface.glp": [
+        "92d289203898442cd14944d9e9d16e8d9b2d78f9",
+        "b77bb1c05a65becb581bc6cd6497ec41bbf1560f",
+        "90d47e5bcd0a2b8c44771a35986fdd5e9894969b"
+      ],
+      "cascade/Organisation/manifest.md": [
+        "0522bd834a98212044e2764a383516b1e43dac0a",
+        "4e2012730b34c29856d131662872eb2587730ce8",
+        "4b56a5263ab6f0bb567cacca23f550e1381fa99f"
+      ],
+      "cascade/Rides/platform.vglp": [
+        "ded62d7b6de14a6e285d12a9654faef32981737d",
+        "39b842ed1bc7302ef70aad50cd91607373e524b6",
+        "8f4f84eb8887e7ce7961d6b6d06c9df6f66f8d68"
+      ],
+      "cascade/Rides/platform.glp": [
+        "db3d9acbaa3aa5f17d8da4eee804eaf4584c4837",
+        "d0a8d86873cfd39ef235fa262a318df995803bf3",
+        "4613f47f5b5d14f6d060572c6fb550d81340c0d3"
+      ],
+      "cascade/Rides/interface.glp": [
+        "ee283a33f5fee62d421947775f8f3d093a462fe8",
+        "e1b06033d908dcb1301d987400d0404e309e9654",
+        "fb793e3c2c74937010268d20ad80071786616f0f"
+      ],
+      "cascade/Rides/manifest.md": [
+        "be6b576ba3adefa9e7ca7f6ef0bb4bde0bbe709b",
+        "df4ae75138f54597236fe04987cecb3374d9d081",
+        "915673c6133edc8f8eb5a4b430f6b772b970048a"
+      ],
+      "cascade/Lodging/platform.vglp": [
+        "ca22232084117469041e168d86651e8225796e41",
+        "d91b29c6ccca658682ca3d849788b034152c0e78",
+        "e31b01e79e1c3a27b40d330f340f7274d6f2ec73"
+      ],
+      "cascade/Lodging/platform.glp": [
+        "744d7751dde8000be8b7dcc3ce987b78dfe131ee",
+        "0c956e55da2ce70f16e4e9049f04864cbbb83fac",
+        "ed76494b1db3e5a2d73bec61a18a5ce899ce5ba3"
+      ],
+      "cascade/Lodging/interface.glp": [
+        "29532e3f655828dda5186f84358d4e75758e88d8",
+        "f701c09bd1a3ee1309ec1384476146a0af5984d5",
+        "1c8158ff376a7ccb2e0d7c1efda8bbfa68f13593"
+      ],
+      "cascade/Lodging/manifest.md": [
+        "8be87a2ab2e05618c7ade7be59cd429ee73dc67a",
+        "773808f08f18c1534e3a048714d9fe5394aa568c",
+        "88de7f47c6d9f4053778b261e4e73b6e2f0370d4"
+      ],
+      "cascade/Gigs/platform.vglp": [
+        "b1babe776415035948b8c84c5e0733be0e8cdf1a",
+        "75dd0dab75b25a7d6ce1b1fad932ba0226c059cd",
+        "ef0bb140e9234558061c5999aa7d95771b64dc5c"
+      ],
+      "cascade/Gigs/platform.glp": [
+        "50ce19d9d782913bd3ab6a97b88ef35893569cab",
+        "e700d7ef8dfcbf02b24f3f25ae2308f72b326f57",
+        "5bd4cd2f43c6dbf4a05798ae28598985e2d30389"
+      ],
+      "cascade/Gigs/interface.glp": [
+        "7da0aa42744db7aea3ffb3e86aa40c2759d8e71b",
+        "8ba23c5aa6a0184e887a91333a8ccdd252cbb8a2",
+        "60f14ac9ef4065502a03e8f5fc5fbbbf6f26a4d7"
+      ],
+      "cascade/Gigs/manifest.md": [
+        "052fdee9b550594f4772fd474ddac2061e2e904b",
+        "05c2f452413d2f725e43daa6f9629c628fb56179",
+        "a119a35782d90a2784cd90c7e3cb76d9fa2762d5"
+      ],
+      "cascade/Community-Market/platform.vglp": [
+        null,
+        "b4de8292c88d7088af483b1a966987d03289bcf7",
+        null
+      ],
+      "cascade/Community-Market/platform.glp": [
+        null,
+        "687b6e058419138983bfadea1fd36d3fe33c428f",
+        null
+      ],
+      "cascade/Community-Market/interface.glp": [
+        null,
+        "11f9453da47c3d209d0705f20d6683c434fb12f8",
+        null
+      ],
+      "cascade/Community-Market/manifest.md": [
+        null,
+        "99a89c05c971ac59beba16a191eddfa12efb17d3",
+        null
+      ],
+      "cascade/Liquid-Cooperative/platform.vglp": [
+        "858853dda5cf827d3fb93dc85ae827fd884a8e01",
+        "c7662b1870ab4fa318678885685d615f5ad89da1",
+        "858853dda5cf827d3fb93dc85ae827fd884a8e01"
+      ],
+      "cascade/Liquid-Cooperative/platform.glp": [
+        "6b09b430c354a7d6d2f4ea49ae6454c41582f1df",
+        "89b026e5f340d67983ce7a319896d0bd03d218b4",
+        "6b09b430c354a7d6d2f4ea49ae6454c41582f1df"
+      ],
+      "cascade/Liquid-Cooperative/interface.glp": [
+        "eee1f9958d0f0d7cc50572c56dee220ab6c6ebaa",
+        "919690e691248c686360b34bda20b7975171ac12",
+        "eee1f9958d0f0d7cc50572c56dee220ab6c6ebaa"
+      ],
+      "cascade/Liquid-Cooperative/manifest.md": [
+        "7f385cb4c1b020873b19d67bef6c983ac526f966",
+        "2ef2e55ac0599462a564bb9f309fd8ebd8a27904",
+        "7f385cb4c1b020873b19d67bef6c983ac526f966"
+      ],
+      "cascade/Community-Network/platform.vglp": [
+        null,
+        null,
+        null
+      ],
+      "cascade/Community-Network/platform.glp": [
+        null,
+        null,
+        null
+      ],
+      "cascade/Community-Network/interface.glp": [
+        null,
+        null,
+        null
+      ],
+      "cascade/Community-Network/manifest.md": [
+        "3b1f92dfd606802f6aa7888f9bb0b4b7d009e920",
+        "4f479cffd1c424072edd4d0826b1bf519338f041",
+        null
+      ]
+    },
+    "source_entry_lines": {
+      "Organisation": {
+        "glp": {
+          "found": {
+            "line": 259,
+            "atoms": [
+              "founder",
+              "participant",
+              "first_officer",
+              "role"
+            ]
+          }
+        },
+        "vglp": {
+          "found": {
+            "line": 244,
+            "atoms": [
+              "founder",
+              "participant",
+              "first_officer",
+              "role"
+            ]
+          }
+        }
+      },
+      "Rides": {
+        "glp": {
+          "cancel_for_the_rider": {
+            "line": 537,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 517,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        },
+        "vglp": {
+          "cancel_for_the_rider": {
+            "line": 1562,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 1522,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        }
+      },
+      "Lodging": {
+        "glp": {
+          "cancel_for_the_traveller": {
+            "line": 509,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_host": {
+            "line": 510,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 489,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        },
+        "vglp": {
+          "cancel_for_the_traveller": {
+            "line": 1504,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_host": {
+            "line": 1506,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 1464,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        }
+      },
+      "Gigs": {
+        "glp": {
+          "cancel_for_the_client": {
+            "line": 505,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_worker": {
+            "line": 506,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 484,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        },
+        "vglp": {
+          "cancel_for_the_client": {
+            "line": 1496,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_worker": {
+            "line": 1498,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 1454,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        }
+      },
+      "Community-Market": {
+        "glp": {
+          "cancel_for_the_buyer": {
+            "line": 499,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_seller": {
+            "line": 500,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 480,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        },
+        "vglp": {
+          "cancel_for_the_buyer": {
+            "line": 1466,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "cancel_for_the_seller": {
+            "line": 1468,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          },
+          "arbitrate_for_the_customer": {
+            "line": 1428,
+            "atoms": [
+              "customer_lock",
+              "provider_lock",
+              "coin"
+            ]
+          }
+        }
+      },
+      "Liquid-Cooperative": {
+        "glp": {
+          "count": {
+            "line": 469,
+            "atoms": [
+              "delegation",
+              "vote"
+            ]
+          },
+          "count_expel": {
+            "line": 470,
+            "atoms": [
+              "delegation",
+              "vote_expel_orga"
+            ]
+          },
+          "count_officer_expel": {
+            "line": 471,
+            "atoms": [
+              "delegation",
+              "vote_officer_expel_orga"
+            ]
+          },
+          "count_amend": {
+            "line": 472,
+            "atoms": [
+              "delegation",
+              "vote_amend_orga"
+            ]
+          }
+        },
+        "vglp": {
+          "count": {
+            "line": 1306,
+            "atoms": [
+              "delegation",
+              "vote"
+            ]
+          },
+          "count_expel": {
+            "line": 1308,
+            "atoms": [
+              "delegation",
+              "vote_expel_orga"
+            ]
+          },
+          "count_officer_expel": {
+            "line": 1310,
+            "atoms": [
+              "delegation",
+              "vote_officer_expel_orga"
+            ]
+          },
+          "count_amend": {
+            "line": 1312,
+            "atoms": [
+              "delegation",
+              "vote_amend_orga"
+            ]
+          }
+        }
+      }
+    },
+    "integration": "The pinned regenerated branch and observed GLP main diverge. Listed branch platform blobs differ from main or are missing from main. Community Network has no standalone platform at the branch pin. The service platforms include inherited arbitration.",
+    "workflow_runs": "No run listed for this public GLP head."
+  },
+  "execution": {
+    "audit": "python3 bin/status.py and cmp passed against published bytes. 29 reports, 23 findings, 0 unanswered.",
+    "product": "No GLP cascade or runtime execution. Dart and Flutter were unavailable. Generated platform bytes and manifests inspected independently."
+  },
+  "next": "Review the publication. At public integration, test founding participation and roles across permitted paths, simultaneous agreements, independent settlement and release, conservation including fees, zero-deposit and nonnegative controls, and delegation chains, prior direct vote and cycles. Leave Findings 2, 3 and 6 open."
+}

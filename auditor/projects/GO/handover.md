@@ -1,3 +1,7 @@
+# GO regenerated platforms inspected — 20 November 2026
+
+[GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694) cites public GLP `617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e`. The six regenerated platform pairs contain the expected Found, service cancellation and arbitration, and Count entries. Community Network supplies inherited arbitration and has no standalone platform. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier evidence and records the inspection. Findings 2, 3 and 6 remain open for behavioral verification. No GLP cascade or runtime execution ran. See [stage 28](../../stages/28-pr71-go-regenerated-platforms-20261120.json).
+
 # GO schema modules regenerated — 20 November 2026
 
 [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242) points to public GLP `dc464bcff458a309ecde4a4ed87cde17e3ac7c45`. All seven regenerated schema modules are present and the source checks confirm the reported Found, lock and Count changes. The existing compiled platform and interface blobs still match the earlier branch revision. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier inspection and adds the new evidence at head `4ef7bc685179fc7c04b56fe76bf67830c185e6dd`. Findings 2, 3 and 6 remain open. No GLP runtime test ran. See [stage 25](../../stages/25-pr71-go-regenerated-modules-20261120.json).
