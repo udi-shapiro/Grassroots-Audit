@@ -1,3 +1,9 @@
+# Secure Friendship threshold and Restore friend controls checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records two independently checked controls from the [public four-play log](https://github.com/EShapiro2/GLP/blob/a56485a68e01d7452cf75d301283f779f1b1625d/cascade/Secure-Friendship/run.log) at GLP `a56485a68e01d7452cf75d301283f779f1b1625d`. Bob’s one-voucher view precedes Dave’s second qualified voucher and the first Accept attempt, which commits. With startup loss, Alice refuses Restore friend solely because her friendship with Carol is present. The audit ran Python checks on the stored trace. GLP main integration, runtime reruns, live loss and re-keying remain pending. See [stage 46](../../stages/46-pr76-threshold-and-restore-friend-controls-20261121.json).
+
+Track the proposed in-run state-loss transition that deletes local friendship facts. Verify the model and both delivery orders after the public proposal and executable support land.
+
 # Secure Friendship startup-loss control checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [two-play log](https://github.com/EShapiro2/GLP/blob/ff122013ff3f68f570b1ef983540cd2005013ed0/cascade/Secure-Friendship/run.log). The startup-loss run isolates an existing-friendship refusal for Restore. The replacement log contains no negative Accept, so the [audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7066552253) requests a paired voucher-threshold control. See [stage 45](../../stages/45-pr76-startup-loss-and-voucher-controls-20261121.json). Check integration on GLP main and request the public paired threshold control already named in PR discussion. Keep the live-loss finding open for actual state deletion and both recovery orders. Independently run the plays and focused numeric controls when a GLP runtime is available.

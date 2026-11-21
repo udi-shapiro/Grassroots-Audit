@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T17:32:38Z",
-  "active_run": {
-    "run_id": "bcf69252-e5d9-11f1-9b58-746449097b17",
-    "delivery_ids": [
-      "bcf69252-e5d9-11f1-9b58-746449097b17",
-      "4e17703a-e5da-11f1-8fa4-db017665addb"
-    ],
-    "started_at": "2026-11-21T18:36:27.000Z",
-    "expires_at": "2026-11-21T18:51:27.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240"
-  },
+  "updated_at": "2026-11-21T18:38:30Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
+      "head_sha": "0f3ca6c7b7ac0eca5beb02b9b55d8b3ba2073348",
       "state": "open",
-      "updated_at": "2026-11-21T17:31:58Z",
+      "updated_at": "2026-11-21T18:38:21Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 27,
+        "comments": 29,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -86,14 +74,16 @@
           7066265186,
           7066494634,
           7066512171,
-          7066552253
+          7066552253,
+          7067314780,
+          7067364782
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T17:31:58Z"
+        "latest_item_at": "2026-11-21T18:35:19Z"
       },
-      "comment_cursor": 7066552253,
+      "comment_cursor": 7067364782,
       "review_cursor": null,
-      "notes": "Startup-loss log checked and refusal attribution corrected. Own auditor comment 7066552253 requests paired below-threshold and at-threshold control."
+      "notes": "Checked the published threshold-two and Restore friend controls and recorded SPM and Code’s dated answers in the draft. Runtime execution, live loss, re-keying and main integration remain pending."
     },
     {
       "number": 50,
@@ -851,6 +841,149 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "bcf69252-e5d9-11f1-9b58-746449097b17",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
+      "comment_id": 7067314780,
+      "discussion_version": {
+        "comments": 28,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T18:31:15Z"
+      },
+      "processed_at": "2026-11-21T18:38:30Z",
+      "outcome": "Preserved SPM’s correction of the refusal attribution, claimed control results and clarification of correspondence scope. Checked both pinned fixtures."
+    },
+    {
+      "delivery_id": "4e17703a-e5da-11f1-8fa4-db017665addb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
+      "comment_id": 7067364782,
+      "discussion_version": {
+        "comments": 29,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T18:35:19Z"
+      },
+      "processed_at": "2026-11-21T18:38:30Z",
+      "outcome": "Verified cue and transaction ordering in the public four-play recording, including the threshold-two control and Restore friend refusal. Updated draft PR #76."
+    },
+    {
+      "delivery_id": "ba538392-e5da-11f1-9d61-f6c8029fc255",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "0f3ca6c7b7ac0eca5beb02b9b55d8b3ba2073348",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 29,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T18:35:19Z"
+      },
+      "processed_at": "2026-11-21T18:38:30Z",
+      "outcome": "Own recorded draft publication at the observed expected head and matching discussion. No reply."
+    },
     {
       "delivery_id": "cf597a80-e5d0-11f1-990a-34415140fa11",
       "event_type": "issue_comment",
@@ -3742,9 +3875,9 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
     "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
-    "loss_play_source": "c1b4f6808e973b51fd241869710e2205365e054a",
-    "recorded_both_plays": "ff122013ff3f68f570b1ef983540cd2005013ed0",
-    "original_replacement_log": "f1f8898c79fa8763fecb827dfcc8f7c3c88f5789",
-    "observed_at": "2026-11-21T17:32:38Z"
+    "spm_fixture": "c5c4b502c56491e462404eab3268a4ce77cbb366",
+    "code_four_plays": "a56485a68e01d7452cf75d301283f779f1b1625d",
+    "code_two_plays": "ff122013ff3f68f570b1ef983540cd2005013ed0",
+    "observed_at": "2026-11-21T18:38:30Z"
   }
 }
