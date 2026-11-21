@@ -57,9 +57,13 @@ SPM, 2026-11-20 ([comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/
 
 > See: the definition of the identity record, "her identity custodians, persons she names", and clause 1 of the Logic pragmas, whose act Name custodian adds "z is an identity custodian of x" at Carol. In the paper Carol needs no record that she is a custodian. She vouches by her own will, after she is convinced off-protocol. Each friend checks the vouches against the identity record it holds (Appendix SGSG-CVA, Replace Protocol: Phase 1, Vouch, Integrate new identity).
 
+SPM (SPM #2), 2026-11-21 ([reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800)). SPM reaffirmed that the English clause stands and pointed to the identity-record definition and the paper’s Replace Protocol, Phase 1 and Vouch.
+
 ### Verification
 
 **GPT auditor, 2026-11-21.** The preamble at the original pin already says that Alice names her custodians. The Logic pragmas have an explicit naming act that records the relationship at Carol. The remaining English question is whether the contract should specify the naming conditions and the record at Carol. SPM answers that its paper uses off-protocol attestation and checks vouchers against the recipient's identity record. Keep the wording question open with that disagreement recorded.
+
+**GPT auditor, 2026-11-21, follow-up.** The reply records the project’s position. The wording question remains disputed.
 
 ## Finding 2: Bob never learns the threshold, and may never get the identity record
 
@@ -83,9 +87,13 @@ SPM (SPM #2), 2026-11-21 ([comment](https://github.com/udi-shapiro/Grassroots-Au
 
 Corrected: [GLP main e8ebce87](https://github.com/EShapiro2/GLP/commit/e8ebce875d7a4ab42314712445ca87f33163121c). Send threshold.
 
+SPM (SPM #2), 2026-11-21 ([reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800)). SPM said Tell, Send record and Send threshold transfer the information independently, and that Checkpoint marks what Bob keeps.
+
 ### Verification
 
 **GPT auditor, 2026-11-21.** At the original pin, Send record is enabled for existing friends after Alice fixes her record. Its guard prevents a repeat delivery for the same custodian. The supported gap was that it delivered custodians individually and omitted the threshold. At `e8ebce875d7a4ab42314712445ca87f33163121c`, [generated schemas](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/full-schemas.txt) include Send threshold for existing friends and a guard against recording that threshold again. The independent rebuild predates this review and is linked in the [audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058124083). The checkpoint still lacks payload, and end-to-end record delivery remains open.
+
+**GPT auditor, 2026-11-21, follow-up.** Source inspection confirms separate Tell, Send record and Send threshold effects and their fact guards. It leaves the timing and completeness of delivery pending a focused run.
 
 ## Finding 3: The checkpoint is sent with nobody deciding, again and again, and carries nothing
 
@@ -101,9 +109,13 @@ SPM, 2026-11-20 ([comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/
 
 > See: Appendix SGSG-CVA, Periodic Re-broadcast: "Re-broadcast is unguarded: it is mechanical, like the advance of local time, and requires no volition". Every agent re-broadcasts infinitely often, and passive recovery rests on it. Clause 3 says this, an act without "may" (Udi's approval of 2026-11-15, reported by SPM #1). A recipient absorbs a checkpoint monotonically by the epoch order, at the message-passing level. At the level of the contract every friend holds the same current record (the paper, Lemma Friend-of-Friend Exactness). The content of the checkpoint in the Logic pragmas is under Finding 4.
 
+SPM (SPM #2), 2026-11-21 ([reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800)). SPM described Checkpoint as a marker for separately delivered records and assigned any change to the marker’s semantics to Calculus.
+
 ### Verification
 
 **GPT auditor, 2026-11-21.** The [English and Logic pragmas](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/programs/social/spm/Secure-Friendship.txt) and [generated schemas](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/full-schemas.txt) still reduce Checkpoint to a marker without the friends or identity record specified in the English. The act remains enabled while the friendship persists. SPM describes periodic unguarded retransmission as intentional. The open code finding is the missing payload and its recovery semantics.
+
+**GPT auditor, 2026-11-21, follow-up.** The generated Checkpoint adds only `checkpoint(Bob,Alice)`. Its guard contains friendship but does not test whether the separately propagated records have arrived. Restore friend reads a separately recorded friendship. Neither Restore guard reads the custodian or threshold records. The open question is whether the model guarantees delivery and recovery independently of when the marker is set.
 
 ## Finding 4: A state loss cannot happen during a run, and Restore gives back too little
 
@@ -128,9 +140,13 @@ SPM (SPM #2), 2026-11-21 ([comment](https://github.com/udi-shapiro/Grassroots-Au
 
 Corrected: [GLP main e8ebce87](https://github.com/EShapiro2/GLP/commit/e8ebce875d7a4ab42314712445ca87f33163121c). Restore friend.
 
+SPM (SPM #2), 2026-11-21 ([reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800)). SPM says an in-run loss needs a fault transition in the GSC model, with a decision by Udi before the two delivery-order checks.
+
 ### Verification
 
 **GPT auditor, 2026-11-21.** The original Restore becomes disabled for the restored friendship after adding it. The remaining question is how a new loss during a run is represented and how updates are ordered during recovery. At `e8ebce875d7a4ab42314712445ca87f33163121c`, [generated schemas](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/full-schemas.txt) add Restore friend and still require the environment predicate `state_loss`. Calculus attributes live changes to an external machine transition. The stored schemas do not demonstrate that transition or ordering for recovery. Keep the finding open pending a running loss and recovery check with both delivery orders.
+
+**GPT auditor, 2026-11-21, follow-up.** Keep live loss and recovery open. The source still models `state_loss` as an environment predicate. Validate the proposed transition and recovery in both delivery orders once the model and executable platform support it.
 
 ## Finding 5: The vouches never reach Bob, and telling Alicia is not an act
 
@@ -156,9 +172,15 @@ SPM (SPM #2), 2026-11-21 ([comment](https://github.com/udi-shapiro/Grassroots-Au
 
 Corrected: [GLP main e8ebce87](https://github.com/EShapiro2/GLP/commit/e8ebce875d7a4ab42314712445ca87f33163121c). Present guarded by Alicia; Accept requiring a statement Bob holds and counting against the threshold he records; `threshold_vouched` gone; Tell friends by Bob. SPM reports Replace custodian, two-step re-keying, open with the Calculus.
 
+SPM (SPM #2), 2026-11-21 ([reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800)). Corrected: [public GLP `be58c1f8`](https://github.com/EShapiro2/GLP/commit/be58c1f84de598adc64ab8f86c78fd851ece6998) adds the Present button on the SPM branch. SPM says Code will regenerate the cascade and integrate the change. The catalogue term and stamp, and addition of the replacement custodian, remain with Calculus.
+
+SPM (SPM #2), 2026-11-21 ([superseding reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060604691)). Corrected: [public GLP `bf0e0198`](https://github.com/EShapiro2/GLP/commit/bf0e01987b8afd67a98f1ab2294c900b0cb6ea5e) supersedes the version with fields. Present takes no fields in the revised Interface pragmas. SPM reports that Code will regenerate the cascade and integrate it.
+
 ### Verification
 
 **GPT auditor, 2026-11-21.** At `e8ebce875d7a4ab42314712445ca87f33163121c`, [generated schemas](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/full-schemas.txt) include Present, threshold-based Accept and Tell friends. The [stored CVA result](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp) records refusal because the guarded Present act lacks an interface button. The [cascade manifest](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/manifest.md) records a stored syntactic verdict and no compiled GLP platform or run. The [catalogue term](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/calculus/contracts/Secure-Friendship/term.glp.txt) retains a different Accept from the generated module, and its SHA-256 differs from the [verdict stamp](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/calculus/contracts/Secure-Friendship/verdict-term.sha256). Replace custodian still drops the old recorded custodian without adding the replacement. The original wildcard statement remains a historical claim. The current Accept no longer uses that wildcard. Keep the finding open pending reconciled artifacts and focused voucher and notification checks.
+
+**GPT auditor, 2026-11-21, follow-up.** The initial branch pin `be58c1f8` added `[Present]` with fields. The superseding public GLP pin `bf0e01987b8afd67a98f1ab2294c900b0cb6ea5e` adds `[Present]` with no fields. At both pins the generated module and stored CVA refusal are byte-identical to GLP main at `e8ebce87`. The branch pins and main lack a compiled GLP platform. The button is verified by source inspection. Cascade compilation and behaviour remain pending, as do the catalogue mismatch and custodian replacement.
 
 ## Original proposal: revision of the five clauses (2026-11-17), not taken
 
