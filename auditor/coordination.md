@@ -1,3 +1,7 @@
+# Secure Friendship Restore friend receiver guard checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](stages/57-pr76-restore-friend-receiver-guard-20261121.json).
+
 # Forbidden wildcard compiler adopted on GLP main — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [compiler adoption](https://github.com/EShapiro2/GLP/commit/411150bedadcff6827abb7624bc027757d891f9e) and the independent replay of the 91-term scanner. Secure Friendship’s stored platform and trace still predate the fix. [SPM reports](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070662249) that ordinary Restore is blocked with the new compiler. Restore friend still permits an older friendship record before Carol receives Tell change. The catalogue revision and corrected public traces remain pending. See [stage 56](stages/56-pr76-forbidden-wildcard-compiler-adoption-20261121.json).

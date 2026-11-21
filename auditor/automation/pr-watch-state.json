@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T23:11:55Z",
-  "active_run": {
-    "run_id": "620b9a22-e601-11f1-9b04-e48d9a4b8949",
-    "delivery_ids": [
-      "620b9a22-e601-11f1-9b04-e48d9a4b8949"
-    ],
-    "started_at": "2026-11-21T23:16:23.000Z",
-    "expires_at": "2026-11-21T23:31:23.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "9dc66fcb717470580e5dce13da3d417f6707b6d3"
-  },
+  "updated_at": "2026-11-21T23:18:25Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "9dc66fcb717470580e5dce13da3d417f6707b6d3",
+      "head_sha": "07d5d85a9850be5491116c301fdf90cbb2614b71",
       "state": "open",
-      "updated_at": "2026-11-21T23:11:45Z",
+      "updated_at": "2026-11-21T23:18:15Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 46,
+        "comments": 47,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -104,14 +93,15 @@
           7070182368,
           7070186436,
           7070660789,
-          7070662249
+          7070662249,
+          7070746953
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T23:07:39Z"
+        "latest_item_at": "2026-11-21T23:15:02Z"
       },
-      "comment_cursor": 7070662249,
+      "comment_cursor": 7070746953,
       "review_cursor": null,
-      "notes": "Reran the published catalogue scanner. Recorded main compiler adoption with stale Secure Friendship cascade and the separate Restore friend notification order."
+      "notes": "Verified the catalogue-only Restore friend receiver guard in isolation and refreshed the issue index. Pending adoption and recorded controls."
     },
     {
       "number": 50,
@@ -869,6 +859,138 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "620b9a22-e601-11f1-9b04-e48d9a4b8949",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "9dc66fcb717470580e5dce13da3d417f6707b6d3",
+      "comment_id": 7070746953,
+      "discussion_version": {
+        "comments": 47,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T23:15:02Z"
+      },
+      "processed_at": "2026-11-21T23:18:25Z",
+      "outcome": "Checked the stamped Restore friend receiver guard and retained sender notice guard. Isolated both notification orders in Python. Main adoption and runtime remain pending."
+    },
+    {
+      "delivery_id": "d44af3f8-e601-11f1-9350-71580be7b46a",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "07d5d85a9850be5491116c301fdf90cbb2614b71",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 47,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T23:15:02Z"
+      },
+      "processed_at": "2026-11-21T23:18:25Z",
+      "outcome": "Own audit draft publication at the observed head. No discussion reply."
+    },
     {
       "delivery_id": "2fa23d30-e600-11f1-8179-16cd0811aa6a",
       "event_type": "pull_request",
@@ -5561,12 +5683,10 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "3e428e04393fe1dc7490284cae2f44ad7bf50ee6",
+    "glp_main": "00d90190901c54cdd0c9b94a2077aa64a8e8d2c1",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
-    "inventory_source": "b590ada9801ab4000ab319b11970648871411828",
-    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
-    "main_compiler_adoption": "411150bedadcff6827abb7624bc027757d891f9e",
-    "old_restore_catalogue": "fb822922dd8c2fa32ceff15882d5a494188bd89c",
-    "observed_at": "2026-11-21T23:11:55Z"
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-21T23:18:25Z"
   }
 }
