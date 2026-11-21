@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T00:13:05Z",
-  "active_run": {
-    "run_id": "28dab13a-e542-11f1-9ac3-127d9c25ecda",
-    "delivery_id": "28dab13a-e542-11f1-9ac3-127d9c25ecda",
-    "pull_request_number": 69,
-    "started_at": "2026-11-21T00:27:42Z",
-    "acquired_at": "2026-11-21T00:27:42Z",
-    "expires_at": "2026-11-21T00:42:42.000Z",
-    "expected_head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5"
-  },
+  "updated_at": "2026-11-21T00:29:06Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -44,6 +36,25 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 69,
+      "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+      "state": "closed",
+      "updated_at": "2026-11-21T00:28:43Z",
+      "merged_at": "2026-11-21T00:28:43Z",
+      "merge_commit_sha": "32807acfc8602213152d6b2cb3d436498873d3b4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "GO reports three corrections pending public GLP adoption and two decisions pending Udi. All contract findings remain open."
+    },
     {
       "number": 68,
       "head_sha": "ed659df226a86cc7fb7e6d707a59ecff89926ff7",
@@ -649,6 +660,40 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "28dab13a-e542-11f1-9ac3-127d9c25ecda",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 69,
+      "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T00:29:06Z",
+      "outcome": "Merged GO's dated reports and decision requests. Public adoption and independent verification remain pending."
+    },
+    {
+      "delivery_id": "820fd258-e542-11f1-8015-80814b29ce8d",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 69,
+      "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T00:29:06Z",
+      "outcome": "Observed own merge at reviewed head. No second action."
+    },
     {
       "delivery_id": "2cdba3fe-e540-11f1-8877-cc3e7acadb1c",
       "event_type": "issue_comment",
@@ -1532,9 +1577,9 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "audit_main": "32807acfc8602213152d6b2cb3d436498873d3b4",
     "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
     "glp_papers": "3491e4e0133288548ee07c1a1eb334769c32e8f8",
-    "observed_at": "2026-11-21T00:13:05Z"
+    "observed_at": "2026-11-21T00:29:06Z"
   }
 }

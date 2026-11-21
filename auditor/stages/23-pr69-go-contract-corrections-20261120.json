@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "28dab13a-e542-11f1-9ac3-127d9c25ecda",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 69,
+      "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T00:29:06Z",
+      "outcome": "Merged GO's dated reports and decision requests. Public adoption and independent verification remain pending."
+    },
+    {
+      "delivery_id": "820fd258-e542-11f1-8015-80814b29ce8d",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 69,
+      "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T00:29:06Z",
+      "outcome": "Observed own merge at reviewed head. No second action."
+    }
+  ],
+  "pull_request": {
+    "number": 69,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/69",
+    "head": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
+    "base": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "merge": "32807acfc8602213152d6b2cb3d436498873d3b4",
+    "merged_at": "2026-11-21T00:28:43Z",
+    "report_path": "calculus/contracts.md",
+    "report_blob": "4ff9e1770b6105e6c83dfdb5068451a07e04a712"
+  },
+  "source_pins": {
+    "audit_main": "32807acfc8602213152d6b2cb3d436498873d3b4",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers_metadata_only": "3491e4e0133288548ee07c1a1eb334769c32e8f8",
+    "glp_full_schema_blobs": {
+      "cascade/Organisation/full-schemas.txt": "39657f1bc43d754b0eb9fb139733bbd7000be029",
+      "cascade/Networked-Organisation/full-schemas.txt": "ae0f0e601efea3ee9b40c1bc0719d3a8c9c0598e",
+      "cascade/Rides/full-schemas.txt": "0efc97158536e37ddbd16e1279300718aeacf0dc",
+      "cascade/Lodging/full-schemas.txt": "148c38e6e0d2c7e60b3196a20fd1a67cb269d98e",
+      "cascade/Marketplace/full-schemas.txt": "a2917403f57f800f9e28334f44278bdd315c2a70",
+      "cascade/Gigs/full-schemas.txt": "406921f4bdb3ae404764efafbb9dd56affd5e50a",
+      "cascade/Liquid-Cooperative/full-schemas.txt": "daa002ff1ead0e5eab0f90e66f338fc3b5958355",
+      "cascade/Single-Person-Company/full-schemas.txt": "225d18997aeef96df120aa6e0043272720c070c9",
+      "cascade/Cooperative-DAO/full-schemas.txt": "19447a18d57f835676a7781fa21cece2157abb4f"
+    }
+  },
+  "project_claims": {
+    "attribution": "GO (GO #14), dated 2026-11-21 UTC, submitted by Audit #3.",
+    "revision": "a1a91cb8",
+    "build": "92 contracts compile, 148 relations hold, and changed terms are certified.",
+    "claims": {
+      "2": "Organisation Found logic",
+      "3": "Service lock logic. GO keeps open missing zero-deposit bindings in Award, Order, Book and Engage and the nil-share nonnegative-amount assumption.",
+      "6": "Liquid Cooperative Count"
+    },
+    "decisions": {
+      "4": "GO awaits Udi on Single-Person Company Join and Appoint, including a numbered clause if needed.",
+      "5": "Calculus awaits Udi on steward-only Cooperative DAO admission and the founding role."
+    }
+  },
+  "source_inspection": [
+    "a1a91cb8 did not resolve in public GLP and no matching open adoption PR was found. The current Organisation schema still has a separate Guardians Enter without participant or role effects. Public service locks remain party/organisation-scoped. Liquid Cooperative emits Delegate and Revoke with Count in prose only.",
+    "Merged answer report readback matched reviewed head exactly. All seven original findings and attributions are intact. Native issues #58–64 all remain open. The table and issue index blobs are unchanged."
+  ],
+  "execution": {
+    "status_generator": "On pinned main inputs with the exact PR head report, ran python3 bin/status.py and cmp against the published table, both exit 0. 29 reports, 23 findings, 0 unanswered. Merged table bytes match.",
+    "product": "No GLP compiler, relation checker or runtime tests ran. GO’s counts and certifications are project claims."
+  },
+  "next": "After public adoption, verify all founding paths preserve officer participation and roles, exercise simultaneous same-party agreements with amount conservation, independent release, zero-deposit and negative-amount controls, and check delegation chains, direct vote override and cycles. Confirm the decisions for Findings 4 and 5 with GO and Calculus before testing those changes."
+}

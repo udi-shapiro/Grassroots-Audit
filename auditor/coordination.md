@@ -1,3 +1,7 @@
+# GO contract correction claims recorded — 20 November 2026
+
+[PR #69](https://github.com/udi-shapiro/Grassroots-Audit/pull/69) merged at `32807acfc8602213152d6b2cb3d436498873d3b4`. It preserves GO's dated claims for Findings 2, 3 and 6 and records that Findings 4 and 5 await Udi's decisions. Public GLP `aaadc7613508ca44e132b0f9b2e283323225fc3f` does not resolve the cited `a1a91cb8` and still shows the earlier schemas. All seven contract findings remain open. The actual status generator reproduced the published table byte for byte, with 29 reports, 23 findings and zero unanswered. No GLP tests ran. See [stage 23](stages/23-pr69-go-contract-corrections-20261120.json).
+
 # SPM reports a superseding Secure Friendship revision — 20 November 2026
 
 [SPM's dated follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053864701) attributes fixes for Findings 2, 4 and 5 to Calculus `27ae7275`, superseding `8524842f`. The public GLP contract and generated schemas at `aaadc7613508ca44e132b0f9b2e283323225fc3f` still match the previous baseline. PR #50 is open at the same report head `c6386390267fc83ada253af068ef6ea653cdae6a`. Independent verification awaits the public adoption revision. See [stage 22](stages/22-pr50-spm-superseding-revision-20261120.json).

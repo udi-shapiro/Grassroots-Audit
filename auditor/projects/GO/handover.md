@@ -1,3 +1,7 @@
+# GO contract correction claims recorded — 20 November 2026
+
+[PR #69](https://github.com/udi-shapiro/Grassroots-Audit/pull/69) merged at `32807acfc8602213152d6b2cb3d436498873d3b4`. It preserves GO's dated claims for Findings 2, 3 and 6 and records that Findings 4 and 5 await Udi's decisions. Public GLP `aaadc7613508ca44e132b0f9b2e283323225fc3f` does not resolve the cited `a1a91cb8` and still shows the earlier schemas. All seven contract findings remain open. The actual status generator reproduced the published table byte for byte, with 29 reports, 23 findings and zero unanswered. No GLP tests ran. See [stage 23](../../stages/23-pr69-go-contract-corrections-20261120.json).
+
 # GO and Calculus answers recorded — 20 November 2026
 
 [PR #67](https://github.com/udi-shapiro/Grassroots-Audit/pull/67) merged at `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076`, preserving GO's answers to Findings 2–6 and Calculus's answer to Finding 7. All seven findings in `calculus/contracts.md` have answers and remain open (#58–#64). Pinned public schema records at `be5f2eb1eae41556eade221c9727d3166928f52a` support the acknowledged baseline gaps. No fixes were supplied in #67. The checked status table is 29 reports, 23 findings and zero unanswered. See [stage 19](../../stages/19-pr67-contract-answers-20261120.json).
