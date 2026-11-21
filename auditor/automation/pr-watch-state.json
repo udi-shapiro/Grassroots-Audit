@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T05:30:41Z",
-  "active_run": {
-    "run_id": "1c63131c-e56e-11f1-8836-418cff8e0cbb",
-    "delivery_id": "1c63131c-e56e-11f1-8836-418cff8e0cbb",
-    "pull_request_number": 50,
-    "started_at": "2026-11-21T05:43:10Z",
-    "acquired_at": "2026-11-21T05:43:10Z",
-    "expires_at": "2026-11-21T05:58:10.000Z",
-    "expected_head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a"
-  },
+  "updated_at": "2026-11-21T05:44:11Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -205,13 +197,13 @@
       "number": 50,
       "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
       "state": "open",
-      "updated_at": "2026-11-21T00:12:01Z",
+      "updated_at": "2026-11-21T05:44:04Z",
       "merged_at": null,
-      "comment_cursor": 7053864701,
+      "comment_cursor": 7058124083,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "SPM cites superseding 27ae7275 for Findings 2, 4 and 5, with public adoption pending. Current public GLP artifacts and PR head are unchanged.",
+      "notes": "Public adoption rebuild verifies full schemas. Stored catalogue Accept differs from rebuilt Accept and the checked-in module remains old. PR stays open with changes requested.",
       "discussion_version": {
-        "comments": 7,
+        "comments": 9,
         "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
@@ -221,14 +213,16 @@
           7053164176,
           7053633313,
           7053676773,
-          7053864701
+          7053864701,
+          7058086928,
+          7058124083
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ"
         ],
-        "latest_item_at": "2026-11-21T00:12:01Z"
+        "latest_item_at": "2026-11-21T05:44:04Z"
       },
       "merge_commit_sha": null
     },
@@ -787,6 +781,69 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "1c63131c-e56e-11f1-8836-418cff8e0cbb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7058086928,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T05:40:50Z"
+      },
+      "processed_at": "2026-11-21T05:44:11Z",
+      "outcome": "Rebuilt Secure Friendship from public source; confirmed matching full schemas, a differing stored Accept term, and stale checked-in module. Published scoped findings in PR discussion."
+    },
+    {
+      "delivery_id": "904e0c82-e56e-11f1-826a-a84b6b7e00e3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7058124083,
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T05:44:04Z"
+      },
+      "processed_at": "2026-11-21T05:44:11Z",
+      "outcome": "Observed own substantive reply and recorded it. No further discussion action."
+    },
     {
       "delivery_id": "27e0a1ca-e56c-11f1-96b4-9114120371d0",
       "event_type": "pull_request",
@@ -1945,7 +2002,7 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "glp_calculus": "f90a52794bde03545a907731d48245203b31b687",
-    "observed_at": "2026-11-21T05:30:41Z"
+    "spm_public_source": "6b8f8463295918b31b5dde02722d692ac990c64a",
+    "observed_at": "2026-11-21T05:44:11Z"
   }
 }

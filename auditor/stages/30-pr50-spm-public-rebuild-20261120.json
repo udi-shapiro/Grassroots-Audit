@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "1c63131c-e56e-11f1-8836-418cff8e0cbb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7058086928,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T05:40:50Z"
+      },
+      "processed_at": "2026-11-21T05:44:11Z",
+      "outcome": "Rebuilt Secure Friendship from public source; confirmed matching full schemas, a differing stored Accept term, and stale checked-in module. Published scoped findings in PR discussion."
+    },
+    {
+      "delivery_id": "904e0c82-e56e-11f1-826a-a84b6b7e00e3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7058124083,
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T05:44:04Z"
+      },
+      "processed_at": "2026-11-21T05:44:11Z",
+      "outcome": "Observed own substantive reply and recorded it. No further discussion action."
+    }
+  ],
+  "report_proposal": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "state": "open",
+    "review": "changes requested",
+    "on_main": false,
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058086928",
+    "auditor_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058124083"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "project_branch": "6b8f8463295918b31b5dde02722d692ac990c64a",
+    "owner_contract": "a5dfa59a5b2c8f12580b8435eeadb119e4e64218",
+    "unregenerated_module": "177c072290dfd160d5363a431172cc7ed04d425d",
+    "catalogue_full_schemas": "3a57d047579706818aaa872ad705a3d6752c9afd",
+    "catalogue_term": "7bc523459df047d2731c02b4d8764ed9901b58ee",
+    "verdict_stamp_blob": "df8bf313383de183abf8c139e2d7ea7a1aa204d4",
+    "rebuild_inputs": {
+      "calculus/NAMES.txt": "3fba8ebb4ad21cf3c6f3334cd2cdb48c9ee2f20d",
+      "calculus/tools/adopt.py": "951a4f4f8f1b471d860efd0eea583e2893114a72",
+      "calculus/tools/gcsas.py": "c7c1eefb3e56e49d0203b6557d90f56754056ae8",
+      "calculus/tools/toglp.py": "4c1c109bb963bacd3583b9105c1411f603d371d3",
+      "calculus/tools/expand.py": "1a20f21bead89f5067a6b32dd994be7cb04737e5",
+      "calculus/tools/revtex.py": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2",
+      "calculus/tools/names.py": "4a93213a56374b6869844a6f5f60526f10ee7092",
+      "calculus/tools/nameslines.py": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c",
+      "calculus/tools/relations.py": "5564cddcd4ddc619094ee216eb2a1947814fed6b",
+      "calculus/contracts/Secure-Friendship/contract.txt": "a5813aded6c9e5d2381659c98734c0776a9c9165",
+      "calculus/contracts/Secure-Friendship/logic-pragmas.txt": "200d232b83f573f092cc69cc3173b93c8ba7777f",
+      "calculus/contracts/Friendship/contract.txt": "b98c7be4d30f79e299eddc96b00a922af60319c6",
+      "calculus/contracts/Friendship/logic-pragmas.txt": "9ae67fe0756e2559663fa1162ed3fb83eca6e784",
+      "calculus/contracts/Knowledge/contract.txt": "2984251a76d49a4edd58f9873dc539c2f51cb550",
+      "calculus/contracts/Knowledge/logic-pragmas.txt": "54ccf8d6b301f097a4efb225f0c76ffd2b42d0bb"
+    }
+  },
+  "project_claim": "SPM #2 reports adoption of revised Logic pragmas for Findings 2, 4 and 5 while the English is unchanged. It attributes paper checking to SPM and identifies two-step custodian re-keying as open.",
+  "source_inspection": [
+    "The public commit changes only the adopted contract text. It is outside current GLP main. The checked-in module is byte-identical to the old main module, and its Accept still reads threshold_vouched. The checkpoint stores a marker in the revised full schemas. No workflow run appeared for this head."
+  ],
+  "execution": {
+    "compiler": "Pinned Python adopt.compiled regenerated the published full schemas after trimming surrounding whitespace. Initial equality assertion for term.glp.txt failed. A diagnostic rebuild and repeated compile_tree check showed one line differs, Accept at line 18, from both the adopted English/Logic and corresponding catalogue inputs. The rebuilt guard holds_statement replaces the stored knows(Alicia,Bob) condition and puts Carol in the role list.",
+    "mapping": "Temporary calculus/PATHS.txt specified Secure-Friendship programs/social/spm/Secure-Friendship.txt, Friendship catalogue, and Knowledge catalogue. Rebuilt both with adopt.written_from and adopt.compile_tree; the second pass substitutes adopt.calculus_text('Secure Friendship') for the adopted inputs.",
+    "output": "Adopted-text and catalogue-source rebuilds agree.\nStored catalogue term differs at line 18 (Accept only).\n",
+    "hashes": {
+      "stored": "ba5b6fce4946e2e8de67f28f58d25ce182e1dead76ecd91c5b6bbb2481919db2",
+      "rebuilt": "b3fef22afcd5937648c80cb2dd98b9c6a4247b27d0b73ac4a3250ee2758c1600",
+      "published_stamp": "b3fef22afcd5937648c80cb2dd98b9c6a4247b27d0b73ac4a3250ee2758c1600"
+    },
+    "limits": "No GLP checker, cascade, runtime, or PDF text execution. No status generation because no report or index changed."
+  },
+  "next": "Reconcile stored catalogue term and adopted checked-in module with the rebuilt output and rerun the checker and behavioral controls for threshold, recovery, vouchers and re-keying. The separate report publication awaits a review-ready revision preserving the proposal and dated replies. Findings 2, 4 and 5 stay open in the proposal."
+}

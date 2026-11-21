@@ -1,3 +1,7 @@
+# Secure Friendship rebuilt from public GLP — 20 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058086928) cites public GLP `6b8f8463295918b31b5dde02722d692ac990c64a`. The pinned Python tools reproduce the published full schemas from both adopted and catalogue inputs. The rebuilt Accept differs from the stored catalogue term and matches the published verdict stamp. The checked-in module retains the earlier logic. [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058124083) records the differences. Audit PR #50 remains open with changes requested. No GLP checker or runtime ran. See [stage 30](stages/30-pr50-spm-public-rebuild-20261120.json).
+
 # Calculus contract Findings 1 and 7 inspected — 20 November 2026
 
 [PR #74](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) records Calculus’s progress. Public GLP `f90a52794bde03545a907731d48245203b31b687` separates the founding and retirement schemas while retaining failed Booking relation records and stamped checker refusals. Nonprofit and Foundation still lack the recipient officer restriction on the direct accepted-coin forms. [Verification PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) is open for review. The newer Calculus claim awaits public evidence, and its certification awaits Udi’s decision on Definition Operations item 5. See [stage 29](stages/29-pr74-calculus-findings-1-7-20261120.json).

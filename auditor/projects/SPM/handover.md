@@ -1,3 +1,7 @@
+# Secure Friendship rebuilt from public GLP — 20 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058086928) cites public GLP `6b8f8463295918b31b5dde02722d692ac990c64a`. The pinned Python tools reproduce the published full schemas from both adopted and catalogue inputs. The rebuilt Accept differs from the stored catalogue term and matches the published verdict stamp. The checked-in module retains the earlier logic. [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058124083) records the differences. Audit PR #50 remains open with changes requested. No GLP checker or runtime ran. See [stage 30](../../stages/30-pr50-spm-public-rebuild-20261120.json).
+
 # SPM reports a superseding Secure Friendship revision — 20 November 2026
 
 [SPM's dated follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053864701) attributes fixes for Findings 2, 4 and 5 to Calculus `27ae7275`, superseding `8524842f`. The public GLP contract and generated schemas at `aaadc7613508ca44e132b0f9b2e283323225fc3f` still match the previous baseline. PR #50 is open at the same report head `c6386390267fc83ada253af068ef6ea653cdae6a`. Independent verification awaits the public adoption revision. See [stage 22](../../stages/22-pr50-spm-superseding-revision-20261120.json).
