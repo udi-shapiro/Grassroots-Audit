@@ -1,3 +1,7 @@
+# GSA installation checker inspected — 20 November 2026
+
+[PR #72](https://github.com/udi-shapiro/Grassroots-Audit/pull/72) links public GLP `2939308886862b76d056330fd6e8f03c22416675`. The install path now invokes the schema checker. The candidate module's contract export is called without an export check, and GSA reports a missing export aborts the agent. [PR #73](https://github.com/udi-shapiro/Grassroots-Audit/pull/73) records source inspection separately. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No GLP runtime checks ran. PR #72 remains open for review because automated approval review rejected the unapproved merge. See [stage 26](../../stages/26-pr72-gsa-installation-checks-20261120.json).
+
 # GSA installation response recorded — 20 November 2026
 
 [PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) merged at `28f8f6e281cfd0b46c577a39f10547f9f03d419a`. The audit corrected a broken link to public GLP `47bb6cfde3bd80fe9ae901f760d71bb2d621d531` and preserved GSA #9's answer. Current source inspection supports changes to certificate and developer warranty handling. Schema checking is still deferred in the code. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No runtime test ran. See [stage 20](../../stages/20-pr68-gsa-and-spm-reply-20261120.json).

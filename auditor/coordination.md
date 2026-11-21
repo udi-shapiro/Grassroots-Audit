@@ -1,3 +1,7 @@
+# GSA installation checker inspected — 20 November 2026
+
+[PR #72](https://github.com/udi-shapiro/Grassroots-Audit/pull/72) links public GLP `2939308886862b76d056330fd6e8f03c22416675`. The install path now invokes the schema checker. The candidate module's contract export is called without an export check, and GSA reports a missing export aborts the agent. [PR #73](https://github.com/udi-shapiro/Grassroots-Audit/pull/73) records source inspection separately. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No GLP runtime checks ran. PR #72 remains open for review because automated approval review rejected the unapproved merge. See [stage 26](stages/26-pr72-gsa-installation-checks-20261120.json).
+
 # GO schema modules regenerated — 20 November 2026
 
 [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242) points to public GLP `dc464bcff458a309ecde4a4ed87cde17e3ac7c45`. All seven regenerated schema modules are present and the source checks confirm the reported Found, lock and Count changes. The existing compiled platform and interface blobs still match the earlier branch revision. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier inspection and adds the new evidence at head `4ef7bc685179fc7c04b56fe76bf67830c185e6dd`. Findings 2, 3 and 6 remain open. No GLP runtime test ran. See [stage 25](stages/25-pr71-go-regenerated-modules-20261120.json).

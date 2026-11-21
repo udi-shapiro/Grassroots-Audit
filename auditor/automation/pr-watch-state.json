@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T02:29:55Z",
-  "active_run": {
-    "run_id": "3a313ad4-e55c-11f1-8abe-b91a9210b388",
-    "delivery_id": "3a313ad4-e55c-11f1-8abe-b91a9210b388",
-    "pull_request_number": 72,
-    "started_at": "2026-11-21T03:34:21Z",
-    "acquired_at": "2026-11-21T03:34:21Z",
-    "expires_at": "2026-11-21T03:49:21.000Z",
-    "expected_head_sha": "9959c1affab07633eadd24b043db2f9a17d1ff2a"
-  },
+  "updated_at": "2026-11-21T03:36:46Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -44,6 +36,44 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 72,
+      "head_sha": "9959c1affab07633eadd24b043db2f9a17d1ff2a",
+      "state": "open",
+      "updated_at": "2026-11-21T03:32:45Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Project answer intact. Automated approval review requires a reviewed PR before merge."
+    },
+    {
+      "number": 73,
+      "head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+      "state": "open",
+      "updated_at": "2026-11-21T03:36:37Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Own source-inspection publication verified at head; awaiting review."
+    },
     {
       "number": 70,
       "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
@@ -708,6 +738,40 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "3a313ad4-e55c-11f1-8abe-b91a9210b388",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 72,
+      "head_sha": "9959c1affab07633eadd24b043db2f9a17d1ff2a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T03:36:46Z",
+      "outcome": "Inspected the public correction. Response merge blocked by automated approval review because the PR lacks an approval. Opened a separate source-inspection publication, with the finding left open."
+    },
+    {
+      "delivery_id": "c281ff18-e55c-11f1-8a00-030c883c029b",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 73,
+      "head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T03:36:46Z",
+      "outcome": "Own source-inspection publication read back at exact head. Awaiting review."
+    },
     {
       "delivery_id": "08fd7ae4-e553-11f1-9abd-59b7b903f92a",
       "event_type": "issue_comment",
@@ -1718,7 +1782,7 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
     "glp_papers": "2fe40e3f10b3c197c54729d9e1622d1c8b74a548",
-    "glp_go_regenerated": "dc464bcff458a309ecde4a4ed87cde17e3ac7c45",
-    "observed_at": "2026-11-21T02:29:55Z"
+    "glp_gsa_branch": "2939308886862b76d056330fd6e8f03c22416675",
+    "observed_at": "2026-11-21T03:36:46Z"
   }
 }
