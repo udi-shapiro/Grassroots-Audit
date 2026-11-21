@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T06:30:08Z",
-  "active_run": {
-    "run_id": "1f1fb4ba-e583-11f1-9bf3-91c6e67211a2",
-    "delivery_id": "1f1fb4ba-e583-11f1-9bf3-91c6e67211a2",
-    "pull_request_number": 71,
-    "started_at": "2026-11-21T08:12:59Z",
-    "acquired_at": "2026-11-21T08:12:59Z",
-    "expires_at": "2026-11-21T08:27:59.000Z",
-    "expected_head_sha": "929255066eeb2800f2749ec2a41b76cd262702cf"
-  },
+  "updated_at": "2026-11-21T08:15:58Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -65,24 +57,25 @@
     },
     {
       "number": 75,
-      "head_sha": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+      "head_sha": "887b4d28cb2bdbe42c8236ea190ff95039b0743d",
       "state": "open",
-      "updated_at": "2026-11-21T06:30:02Z",
+      "updated_at": "2026-11-21T08:15:46Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 1,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
-          7058604467
+          7058604467,
+          7059740675
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T06:26:25Z"
+        "latest_item_at": "2026-11-21T08:11:27Z"
       },
-      "comment_cursor": 7058604467,
+      "comment_cursor": 7059740675,
       "review_cursor": null,
-      "notes": "Focused translation and relation results independently reproduced. Full adoption expansion and GLP checker acceptance remain pending."
+      "notes": "Matched all composition rebuild inputs on GLP main. Updated PR #75 and preserved expansion failure and pending checker verification."
     },
     {
       "number": 72,
@@ -145,25 +138,26 @@
     },
     {
       "number": 71,
-      "head_sha": "929255066eeb2800f2749ec2a41b76cd262702cf",
+      "head_sha": "5ef66a6d48e1b90841e50943b1c50dbed4e0c251",
       "state": "open",
-      "updated_at": "2026-11-21T04:50:49Z",
+      "updated_at": "2026-11-21T08:15:29Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 2,
+        "comments": 3,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7055910242,
-          7057469694
+          7057469694,
+          7059738487
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T04:46:07Z"
+        "latest_item_at": "2026-11-21T08:11:14Z"
       },
-      "comment_cursor": 7057469694,
+      "comment_cursor": 7059738487,
       "review_cursor": null,
-      "notes": "All six regenerated GO platform pairs inspected. Behavioral checks and review pending."
+      "notes": "Verified exact GO platform integration and preserved attributed test claim in PR #71."
     },
     {
       "number": 69,
@@ -207,13 +201,13 @@
       "number": 50,
       "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
       "state": "open",
-      "updated_at": "2026-11-21T05:58:49Z",
+      "updated_at": "2026-11-21T08:11:15Z",
       "merged_at": null,
-      "comment_cursor": 7058299451,
+      "comment_cursor": 7059738642,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "Regenerated public branch module matches the independent rebuild byte for byte. Catalogue term and cascade remain unreconciled; report changes requested.",
+      "notes": "Verified SPM schema integration. Main cascade records compiler refusal for missing Present button. No report on audit main.",
       "discussion_version": {
-        "comments": 10,
+        "comments": 11,
         "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
@@ -226,14 +220,15 @@
           7053864701,
           7058086928,
           7058124083,
-          7058299451
+          7058299451,
+          7059738642
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ"
         ],
-        "latest_item_at": "2026-11-21T05:58:49Z"
+        "latest_item_at": "2026-11-21T08:11:15Z"
       },
       "merge_commit_sha": null
     },
@@ -792,6 +787,104 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "1f1fb4ba-e583-11f1-9bf3-91c6e67211a2",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "929255066eeb2800f2749ec2a41b76cd262702cf",
+      "comment_id": 7059738487,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:14Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Verified exact GO platform integration and preserved attributed test claim in PR #71."
+    },
+    {
+      "delivery_id": "1fed619e-e583-11f1-8627-ae47cacb3d93",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7059738642,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Verified SPM schema integration. Main cascade records compiler refusal for missing Present button. No report on audit main."
+    },
+    {
+      "delivery_id": "26ffaac8-e583-11f1-8ee4-56ba6f50ecc0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 75,
+      "head_sha": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+      "comment_id": 7059740675,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7058604467,
+          7059740675
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:27Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Matched all composition rebuild inputs on GLP main. Updated PR #75 and preserved expansion failure and pending checker verification."
+    },
+    {
+      "delivery_id": "b6cfc200-e583-11f1-9b2f-a778a9a84f3d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "5ef66a6d48e1b90841e50943b1c50dbed4e0c251",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:14Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Own publication update, recorded at exact head. Review pending."
+    },
     {
       "delivery_id": "7afb7ac6-e574-11f1-92b2-a90987c9c1cb",
       "event_type": "issue_comment",
@@ -2083,9 +2176,9 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "calculus_composition_rebuild": "7a0e8d91c74e0d8ccdb153a2554da00bad806e00",
-    "observed_at": "2026-11-21T06:30:08Z"
+    "reported_fast_tier": "7595edcf07df5847aba72415a7ce0913ba1f5dec",
+    "observed_at": "2026-11-21T08:15:58Z"
   }
 }

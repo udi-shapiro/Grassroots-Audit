@@ -1,0 +1,297 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "1f1fb4ba-e583-11f1-9bf3-91c6e67211a2",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "929255066eeb2800f2749ec2a41b76cd262702cf",
+      "comment_id": 7059738487,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:14Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Verified exact GO platform integration and preserved attributed test claim in PR #71."
+    },
+    {
+      "delivery_id": "1fed619e-e583-11f1-8627-ae47cacb3d93",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7059738642,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Verified SPM schema integration. Main cascade records compiler refusal for missing Present button. No report on audit main."
+    },
+    {
+      "delivery_id": "26ffaac8-e583-11f1-8ee4-56ba6f50ecc0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 75,
+      "head_sha": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+      "comment_id": 7059740675,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7058604467,
+          7059740675
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:27Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Matched all composition rebuild inputs on GLP main. Updated PR #75 and preserved expansion failure and pending checker verification."
+    },
+    {
+      "delivery_id": "b6cfc200-e583-11f1-9b2f-a778a9a84f3d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "5ef66a6d48e1b90841e50943b1c50dbed4e0c251",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:14Z"
+      },
+      "processed_at": "2026-11-21T08:15:58Z",
+      "outcome": "Own publication update, recorded at exact head. Review pending."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "project_fast_tier_pin": "7595edcf07df5847aba72415a7ce0913ba1f5dec"
+  },
+  "pull_requests": {
+    "50": {
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+      "prior_head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "state": "open",
+      "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+      "discussion": {
+        "comments": 11,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T08:11:15Z"
+      },
+      "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7059738642",
+      "public_report_blob": null
+    },
+    "71": {
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71",
+      "prior_head": "929255066eeb2800f2749ec2a41b76cd262702cf",
+      "head": "5ef66a6d48e1b90841e50943b1c50dbed4e0c251",
+      "state": "open",
+      "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+      "discussion": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:14Z"
+      },
+      "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7059738487",
+      "public_report_blob": "4fc2f5538a463945ece94846769024560e13304d"
+    },
+    "75": {
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/75",
+      "prior_head": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+      "head": "887b4d28cb2bdbe42c8236ea190ff95039b0743d",
+      "state": "open",
+      "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+      "discussion": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7058604467,
+          7059740675
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T08:11:27Z"
+      },
+      "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/75#issuecomment-7059740675",
+      "public_report_blob": "fbec566f7c6cf3aaff66c300c76e7f6a03ca3159"
+    }
+  },
+  "project_claims": {
+    "GO": "GO #14 reports main integration and Code’s 4198 passes with TY and VG at 7595edcf.",
+    "SPM": "SPM #2 reports main integration for Findings 2, 4 and 5 and cites the same Code run.",
+    "Calculus": "Calculus #10 reports main integration of composition tools, older checker verdicts retained, and a decision on item 5 pending."
+  },
+  "inspection": {
+    "GO": "All 28 paths recorded in stage 28, including expected absences, match exactly on regenerated branch, reported test pin and GLP main. The regenerated branch is an ancestor of main.",
+    "SPM": {
+      "prior_branch_blobs_and_main": [
+        [
+          "programs/social/spm/Secure-Friendship.txt",
+          "a5dfa59a5b2c8f12580b8435eeadb119e4e64218",
+          "a5dfa59a5b2c8f12580b8435eeadb119e4e64218"
+        ],
+        [
+          "programs/social/spm/Secure-Friendship.glp",
+          "0746c1c94ca907276f037d2deacc372fc2945755",
+          "0746c1c94ca907276f037d2deacc372fc2945755"
+        ],
+        [
+          "calculus/contracts/Secure-Friendship/term.glp.txt",
+          "7bc523459df047d2731c02b4d8764ed9901b58ee",
+          "7bc523459df047d2731c02b4d8764ed9901b58ee"
+        ],
+        [
+          "calculus/contracts/Secure-Friendship/full-schemas.txt",
+          "3a57d047579706818aaa872ad705a3d6752c9afd",
+          "3a57d047579706818aaa872ad705a3d6752c9afd"
+        ],
+        [
+          "calculus/contracts/Secure-Friendship/verdict-term.sha256",
+          "df8bf313383de183abf8c139e2d7ea7a1aa204d4",
+          "df8bf313383de183abf8c139e2d7ea7a1aa204d4"
+        ],
+        [
+          "cascade/Secure-Friendship/manifest.md",
+          "ebd3d7444c1ded21e4582543fa03c86bc34b0b60",
+          "80920f444303f1a10eff01ae340bb803e57fc9ea"
+        ]
+      ],
+      "cascade_blobs": [
+        [
+          "cascade/Secure-Friendship/Secure-Friendship.glp",
+          "0746c1c94ca907276f037d2deacc372fc2945755",
+          "0746c1c94ca907276f037d2deacc372fc2945755"
+        ],
+        [
+          "cascade/Secure-Friendship/Secure-Friendship.txt",
+          "a5dfa59a5b2c8f12580b8435eeadb119e4e64218",
+          "a5dfa59a5b2c8f12580b8435eeadb119e4e64218"
+        ],
+        [
+          "cascade/Secure-Friendship/flat.txt",
+          "dfd4e24c34f2c801c5bfabb0701a42c2289c747c",
+          "dfd4e24c34f2c801c5bfabb0701a42c2289c747c"
+        ],
+        [
+          "cascade/Secure-Friendship/full-contract.txt",
+          "edb4846d563380adbb5b697bd4afd406eba2cf90",
+          "edb4846d563380adbb5b697bd4afd406eba2cf90"
+        ],
+        [
+          "cascade/Secure-Friendship/full-pragmas.txt",
+          "b173ea82686eac58057f8863aeb05a64902de652",
+          "b173ea82686eac58057f8863aeb05a64902de652"
+        ],
+        [
+          "cascade/Secure-Friendship/full-schemas.txt",
+          "3a57d047579706818aaa872ad705a3d6752c9afd",
+          "3a57d047579706818aaa872ad705a3d6752c9afd"
+        ],
+        [
+          "cascade/Secure-Friendship/manifest.md",
+          "80920f444303f1a10eff01ae340bb803e57fc9ea",
+          "80920f444303f1a10eff01ae340bb803e57fc9ea"
+        ],
+        [
+          "cascade/Secure-Friendship/platform.vglp",
+          "039570ff2c95da4ae00e262f80d69c02af020078",
+          "039570ff2c95da4ae00e262f80d69c02af020078"
+        ],
+        [
+          "cascade/Secure-Friendship/relations.txt",
+          "2a580e46e2fe25625df6099c8d434c355b11dceb",
+          "2a580e46e2fe25625df6099c8d434c355b11dceb"
+        ],
+        [
+          "cascade/Secure-Friendship/schemas.txt",
+          "44eff774f2bb63ca4f5fc0c7cf9925e828b1a4e6",
+          "44eff774f2bb63ca4f5fc0c7cf9925e828b1a4e6"
+        ],
+        [
+          "cascade/Secure-Friendship/verdict.txt",
+          "eca9073736286958fcd77d6b17722d862c4e436f",
+          "eca9073736286958fcd77d6b17722d862c4e436f"
+        ],
+        [
+          "cascade/Secure-Friendship/vmat.tex",
+          "cfdbf6bf9c9f5b22432a06185f2189a210024143",
+          "cfdbf6bf9c9f5b22432a06185f2189a210024143"
+        ]
+      ],
+      "compiler_refusal_source": "https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp",
+      "status": "GLP main contains the independently rebuilt adopted module and matching cascade copy. The refreshed cascade manifest records a syntactically_grassroots stored verdict and CVA compiler refusal for missing Present button. The report has no compiled GLP platform or runtime run. The differing stored catalogue term remains unchanged."
+    },
+    "Calculus": "All 39 prior rebuild input blobs match GLP main. Earlier focused relation/translation passes and expansion failure therefore have the same recorded inputs on main."
+  },
+  "execution": {
+    "audit": "Both updated reports reproduced the published status-table bytes with python3 bin/status.py and cmp. 29 reports, 23 findings, 0 unanswered.",
+    "limits": "No GLP compilation, checker, or runtime execution in this follow-up. No public workflow logs listed at reported test pin or main. No PR discussion messages posted."
+  },
+  "next": "Review updated PRs #71 and #75. Run the focused founding, settlement and voting controls for GO. Resolve expanded Retire comparison and checker acceptance for Finding 1. For SPM, resolve the interface omission and stored catalogue term, rerun cascade and behavior, and preserve the dated replies in a review-ready report before publication."
+}
