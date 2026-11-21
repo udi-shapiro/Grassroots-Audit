@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "e493ff84-e58e-11f1-8cc2-44f712d12af1",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": 7060680792,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:35:29Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Verified the public branch reprint and its integration on GLP main. Preserved Calculus's claim and verification in audit draft #76."
+    },
+    {
+      "delivery_id": "17f446c2-e58f-11f1-96bc-bc0f04182436",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": 7060696441,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:36:56Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Preserved the dated Calculus integration reply; exact source and hash comparison independently match."
+    },
+    {
+      "delivery_id": "4762e4d6-e58f-11f1-9faf-147dc3c75102",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:36:56Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Own draft update with catalogue reconciliation recorded at the exact head and discussion version."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "glp_prior": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
+    "catalogue_branch": "ed6057e36071f0614a7c4b613702d30682f50d98"
+  },
+  "pull_request": {
+    "number": 76,
+    "old_head": "fea719a7b251f6f9600990ba768c97b001d513df",
+    "head": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+    "state": "open",
+    "draft": true,
+    "discussion": {
+      "comments": 5,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T09:36:56Z"
+    },
+    "report_blob": "5fdfb1600f61aa810ef0c0985ad93093af37bbbd",
+    "index_blob": "64c097f6fa07c15caa1ad3d919a02befde390e49",
+    "table_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "replies": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060680792",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060696441"
+    ],
+    "term": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/calculus/contracts/Secure-Friendship/term.glp.txt",
+    "stamp": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/calculus/contracts/Secure-Friendship/verdict-term.sha256",
+    "module": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/programs/social/spm/Secure-Friendship.glp",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/6c14d338145f6a65c6c1727cd71c7d46cb51e2b7/cascade/Secure-Friendship/manifest.md"
+  },
+  "project_claims": "Calculus identified a stale pre-Accept print, reported the branch reprint and then integration, and described two held catalogue verdicts. The audit did not survey all catalogue contracts.",
+  "inspection": {
+    "main_changes": [
+      "calculus/contracts/Secure-Friendship/term.glp.txt",
+      "cascade/Secure-Friendship/manifest.md"
+    ],
+    "branch_is_ancestor": true,
+    "blobs": {
+      "term": "39a1c8c6f47ae754a7d61e749ce6d7d635baf962",
+      "stamp": "df8bf313383de183abf8c139e2d7ea7a1aa204d4",
+      "module": "0746c1c94ca907276f037d2deacc372fc2945755",
+      "manifest": "17699fa43c25878033276880873732b7d2978a7c"
+    },
+    "disposition": "The Secure Friendship catalogue mismatch is resolved at this pin. Finding 5 remains open. The two held contracts' current public terms match their current public stamps, independent of their held verdicts."
+  },
+  "execution": {
+    "executed": [
+      "Secure Friendship term, stamp and module agree: b3fef22afcd5937648c80cb2dd98b9c6a4247b27d0b73ac4a3250ee2758c1600\nRehearsal Rooms matches stamp\nTennis Courts matches stamp",
+      "30 reports, 28 findings, 0 unanswered"
+    ],
+    "not_executed": "GLP checker, compiler or runtime. Stored manifest still lists no play."
+  },
+  "next": "Draft #76 awaits review and ticket mapping. Continue Finding 5 verification with custodian replacement, voucher counting and notifications on a runnable Secure Friendship platform. Finding 4 still awaits the GSC fault-model decision. Calculus #75 retains its held verdicts and separate item 5 decision."
+}

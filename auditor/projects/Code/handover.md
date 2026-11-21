@@ -1,3 +1,7 @@
+# Secure Friendship catalogue term reconciled — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves Calculus’s two dated replies. At public GLP `6c14d338145f6a65c6c1727cd71c7d46cb51e2b7`, the reprinted catalogue term matches the verdict stamp and the body in the adopted module and its cascade copy. The manifest still records no Secure Friendship play. Finding 5 remains open for custodian replacement and behavioural checks. See [stage 36](../../stages/36-pr76-catalogue-term-reconciled-20261121.json). The public Rehearsal Rooms and Tennis Courts bytes also match their existing stamps. This leaves their held verdicts unchanged.
+
 # Secure Friendship Present artifacts checked — 21 November 2026
 
 [Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the new SPM and Code replies. At public GLP `ee7162e0c773cb42c3c461d65e41ecbc83eaffd8`, both stored platforms contain the no-field Present button and the earlier refusal is gone. The catalogue hash mismatch, custodian replacement and runtime checks remain open. Code reports Section TY passed. The audit ran source and status checks. See [stage 35](../../stages/35-pr76-present-platform-integration-20261121.json).

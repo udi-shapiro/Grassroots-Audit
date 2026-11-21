@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T09:37:07Z",
-  "active_run": {
-    "run_id": "e493ff84-e58e-11f1-8cc2-44f712d12af1",
-    "delivery_ids": [
-      "e493ff84-e58e-11f1-8cc2-44f712d12af1"
-    ],
-    "started_at": "2026-11-21T09:37:07Z",
-    "expires_at": "2026-11-21T09:52:07.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df"
-  },
+  "updated_at": "2026-11-21T09:39:02Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,26 +38,28 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
       "state": "open",
-      "updated_at": "2026-11-21T09:32:54Z",
+      "updated_at": "2026-11-21T09:38:16Z",
       "merged_at": null,
-      "merge_commit_sha": "67366bb138bfb8d55d2a9cadd1f142bd076a056a",
+      "merge_commit_sha": "91165c09f77ebd220ccef972b9e2aba11b553019",
       "discussion_version": {
-        "comments": 3,
+        "comments": 5,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7060589800,
           7060604691,
-          7060627413
+          7060627413,
+          7060680792,
+          7060696441
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T09:31:12Z"
+        "latest_item_at": "2026-11-21T09:36:56Z"
       },
-      "comment_cursor": 7060627413,
+      "comment_cursor": 7060696441,
       "review_cursor": null,
-      "notes": "Dated SPM and Code replies preserved. Verified Present output artifacts on public GLP main. Draft retains all five open or disputed findings."
+      "notes": "Catalogue mismatch resolved at pinned GLP main. Finding 5 remains open for custodian replacement and behaviour. Draft awaits review."
     },
     {
       "number": 50,
@@ -823,6 +814,77 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "e493ff84-e58e-11f1-8cc2-44f712d12af1",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": 7060680792,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:35:29Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Verified the public branch reprint and its integration on GLP main. Preserved Calculus's claim and verification in audit draft #76."
+    },
+    {
+      "delivery_id": "17f446c2-e58f-11f1-96bc-bc0f04182436",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": 7060696441,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:36:56Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Preserved the dated Calculus integration reply; exact source and hash comparison independently match."
+    },
+    {
+      "delivery_id": "4762e4d6-e58f-11f1-9faf-147dc3c75102",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:36:56Z"
+      },
+      "processed_at": "2026-11-21T09:39:02Z",
+      "outcome": "Own draft update with catalogue reconciliation recorded at the exact head and discussion version."
+    },
     {
       "delivery_id": "d9aebbfa-e58d-11f1-9f76-afd7972368f3",
       "event_type": "issue_comment",
@@ -2442,11 +2504,10 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
+    "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "prior_glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
-    "initial_interface_branch": "be58c1f84de598adc64ab8f86c78fd851ece6998",
-    "superseding_interface_branch": "bf0e01987b8afd67a98f1ab2294c900b0cb6ea5e",
-    "observed_at": "2026-11-21T09:34:07Z"
+    "glp_prior": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
+    "catalogue_branch": "ed6057e36071f0614a7c4b613702d30682f50d98",
+    "observed_at": "2026-11-21T09:39:02Z"
   }
 }
