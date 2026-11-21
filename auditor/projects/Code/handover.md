@@ -1,3 +1,9 @@
+# Forbidden wildcard compiler adopted on GLP main — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [compiler adoption](https://github.com/EShapiro2/GLP/commit/411150bedadcff6827abb7624bc027757d891f9e) and the independent replay of the 91-term scanner. Secure Friendship’s stored platform and trace still predate the fix. [SPM reports](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070662249) that ordinary Restore is blocked with the new compiler. Restore friend still permits an older friendship record before Carol receives Tell change. The catalogue revision and corrected public traces remain pending. See [stage 56](../../stages/56-pr76-forbidden-wildcard-compiler-adoption-20261121.json).
+
+Regenerate the Secure Friendship platform after the new compiler and Restore friend catalogue correction. Publish the refusal and both notification orders. Regenerate the wider cascade separately.
+
 # Adopted Restore guard and catalogue reconciliation — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records that the [adopted Restore guard](https://github.com/EShapiro2/GLP/blob/b590ada9801ab4000ab319b11970648871411828/cascade/Secure-Friendship/platform.vglp#L234) still permits old Alice’s Restore in the [public trace](https://github.com/EShapiro2/GLP/blob/b590ada9801ab4000ab319b11970648871411828/cascade/Secure-Friendship/run.log#L34-L39). The 738-schema count now matches public main. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070186436) attributes its extra 26 to the excluded Promoted Matching term. vGLP’s compiler correction is pending. See [stage 55](../../stages/55-pr76-adopted-restore-and-count-reconciliation-20261121.json).
