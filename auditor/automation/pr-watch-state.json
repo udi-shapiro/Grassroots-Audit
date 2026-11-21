@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T12:13:10Z",
-  "active_run": {
-    "run_id": "6422f312-e5a4-11f1-866f-0b82c26a99c5",
-    "delivery_ids": [
-      "6422f312-e5a4-11f1-866f-0b82c26a99c5",
-      "b2d546ae-e5a4-11f1-9ad0-a92abf706d99"
-    ],
-    "started_at": "2026-11-21T12:13:10Z",
-    "expires_at": "2026-11-21T12:28:10.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6"
-  },
+  "updated_at": "2026-11-21T12:15:42Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
       "state": "open",
-      "updated_at": "2026-11-21T10:36:05Z",
+      "updated_at": "2026-11-21T12:14:52Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 10,
+        "comments": 13,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -69,14 +57,17 @@
           7061250888,
           7061251241,
           7061253794,
-          7061318777
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T10:33:30Z"
+        "latest_item_at": "2026-11-21T12:13:09Z"
       },
-      "comment_cursor": 7061318777,
+      "comment_cursor": 7062410286,
       "review_cursor": null,
-      "notes": "Preserved SPM play report. Source-level check supports repeated checkpoint enabling. Await public fix and play."
+      "notes": "Checkpoint guard independently verified on public main. Public play source confirms binding. Reported Identity record failure awaits reproduction."
     },
     {
       "number": 50,
@@ -834,6 +825,131 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "6422f312-e5a4-11f1-866f-0b82c26a99c5",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "comment_id": 7062367227,
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T12:09:23Z"
+      },
+      "processed_at": "2026-11-21T12:15:42Z",
+      "outcome": "Confirmed the branch’s marker-absence guard and preserved Calculus’s reply."
+    },
+    {
+      "delivery_id": "b2d546ae-e5a4-11f1-9ad0-a92abf706d99",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "comment_id": 7062391833,
+      "discussion_version": {
+        "comments": 12,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T12:11:35Z"
+      },
+      "processed_at": "2026-11-21T12:15:42Z",
+      "outcome": "Verified the guard in public main source and generated outputs, and the catalogue stamp and module agreement."
+    },
+    {
+      "delivery_id": "eb61f24c-e5a4-11f1-94c5-bbc75f8fdf8a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "c7bed76207ac6db8974a2905f21d832f4bbc99f6",
+      "comment_id": 7062410286,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T12:13:09Z"
+      },
+      "processed_at": "2026-11-21T12:15:42Z",
+      "outcome": "Verified public play source and matching generated platform. Preserved the reported Identity record blocker pending runtime reproduction."
+    },
+    {
+      "delivery_id": "27fdf796-e5a5-11f1-90c7-6f26dc86005a",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T12:13:09Z"
+      },
+      "processed_at": "2026-11-21T12:15:42Z",
+      "outcome": "Own draft update at the recorded head and discussion version."
+    },
     {
       "delivery_id": "ff4fdd7c-e596-11f1-82d6-0e16afd95677",
       "event_type": "issue_comment",
@@ -2817,8 +2933,10 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
+    "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "observed_at": "2026-11-21T10:36:49Z"
+    "checkpoint_branch": "686f502b168b4c8470b4a2a26ce49a2147fe9e72",
+    "play_branch": "4a7e0e2a00327a06da94d7569237afdfdd51b8f5",
+    "observed_at": "2026-11-21T12:15:42Z"
   }
 }

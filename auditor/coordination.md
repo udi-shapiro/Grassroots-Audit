@@ -1,3 +1,7 @@
+# Secure Friendship checkpoint guard and play checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the checkpoint guard at public GLP `ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4`. It stops repeats while the marker remains. The [play](https://github.com/EShapiro2/GLP/blob/4a7e0e2a00327a06da94d7569237afdfdd51b8f5/programs/vglp/cva/secure_friendship/self.glp) is public on a branch and uses the pinned main platform. SPM reports rejection at Identity record. The audit confirmed the numeric binding in source and did not run the play. See [stage 39](stages/39-pr76-checkpoint-guard-and-public-play-20261121.json).
+
 # Secure Friendship checkpoint play blocker recorded — 21 November 2026
 
 [Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves [SPM’s run-limit report](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7061318777). At public GLP `6c14d338145f6a65c6c1727cd71c7d46cb51e2b7`, Checkpoint remains enabled after adding its marker. The Python source check does not exercise GLP scheduling. The manifest still lists no play. See [stage 38](stages/38-pr76-checkpoint-play-blocker-20261121.json).
