@@ -1,3 +1,9 @@
+# Secure Friendship scratch run recorded — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the [SPM scratch-run report](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026). The project reports both stale Restore attempts were refused across a six-play run with the corrected compiler and catalogue. The fixture pin changes comments only and public GLP main still serves the earlier trace. Finding 4 stays open for public trace verification, both notification orders, positive recovery, and actual loss of the acceptance record. See [stage 58](stages/58-pr76-secure-friendship-scratch-run-20261121.json).
+
+---
+
 # Secure Friendship Restore friend receiver guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](stages/57-pr76-restore-friend-receiver-guard-20261121.json).

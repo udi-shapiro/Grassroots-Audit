@@ -1,3 +1,9 @@
+# Secure Friendship scratch run recorded — 21 November 2026
+
+The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports a successful six-play scratch run. Public [platform](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/platform.vglp) and [run log](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/run.log) retain their earlier blobs. Inspect the regenerated public cascade and Section CAS evidence when published.
+
+---
+
 # Secure Friendship Restore friend receiver guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](../../stages/57-pr76-restore-friend-receiver-guard-20261121.json).

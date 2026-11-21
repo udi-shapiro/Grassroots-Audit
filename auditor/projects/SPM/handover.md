@@ -1,3 +1,9 @@
+# Secure Friendship scratch run recorded — 21 November 2026
+
+The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports both stale Restore refusals. The [fixture revision](https://github.com/EShapiro2/GLP/commit/ceb43d73724b8b8ca9eae5c0c6749163f69382af) changes only comments. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves this result under Finding 4. Next check both notification orders, positive replacement recovery and actual loss of the receiver’s acceptance record.
+
+---
+
 # Secure Friendship Restore friend receiver guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](../../stages/57-pr76-restore-friend-receiver-guard-20261121.json).

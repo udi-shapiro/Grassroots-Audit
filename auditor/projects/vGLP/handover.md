@@ -1,3 +1,9 @@
+# Secure Friendship scratch run recorded — 21 November 2026
+
+[SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports use of the corrected compiler for the six-play scratch run. The [stored platform](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/platform.vglp) predates regeneration. Verify both forbidden wildcard guards in the regenerated schema and verify logged refusals separately.
+
+---
+
 # Secure Friendship Restore friend receiver guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](../../stages/57-pr76-restore-friend-receiver-guard-20261121.json).

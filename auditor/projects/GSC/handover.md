@@ -1,3 +1,9 @@
+# Secure Friendship scratch run recorded — 21 November 2026
+
+[SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports the receiver guard and sender notice guard reject both stale Restore attempts in a scratch run. Check catalogue adoption and both delivery orders in the regenerated public cascade.
+
+---
+
 # Secure Friendship Restore friend receiver guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue change](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt). The two isolated guards reject the old friendship when either the receiver holds acceptance of a replacement or the sender holds the matching notice. The earlier public platform and log still need regeneration. See [stage 57](../../stages/57-pr76-restore-friend-receiver-guard-20261121.json).
