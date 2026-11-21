@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T21:38:10Z",
-  "active_run": {
-    "run_id": "605d3f94-e5f4-11f1-86e6-3ccff844c556",
-    "delivery_ids": [
-      "605d3f94-e5f4-11f1-86e6-3ccff844c556"
-    ],
-    "started_at": "2026-11-21T21:43:43.000Z",
-    "expires_at": "2026-11-21T21:58:43.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "2230218318ddef08e4740c5a61db41755c762096"
-  },
+  "updated_at": "2026-11-21T21:45:25Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "2230218318ddef08e4740c5a61db41755c762096",
+      "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7",
       "state": "open",
-      "updated_at": "2026-11-21T21:38:02Z",
+      "updated_at": "2026-11-21T21:45:15Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 40,
+        "comments": 41,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -98,14 +87,15 @@
           7069059175,
           7069473531,
           7069476309,
-          7069570106
+          7069570106,
+          7069656729
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T21:34:32Z"
+        "latest_item_at": "2026-11-21T21:41:57Z"
       },
-      "comment_cursor": 7069570106,
+      "comment_cursor": 7069656729,
       "review_cursor": null,
-      "notes": "Verified the catalogue-only ordinary Restore guard with the prior recorded view and a synthetic erased-marker comparison. Adoption and runtime still pending."
+      "notes": "Preserved SPM's contrary runtime result and verified a generated forbidden-wildcard mismatch in the Restore guards. Correction and public refusal traces pending."
     },
     {
       "number": 50,
@@ -863,6 +853,126 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "605d3f94-e5f4-11f1-86e6-3ccff844c556",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "2230218318ddef08e4740c5a61db41755c762096",
+      "comment_id": 7069656729,
+      "discussion_version": {
+        "comments": 41,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:41:57Z"
+      },
+      "processed_at": "2026-11-21T21:45:25Z",
+      "outcome": "Preserved SPM’s contrary runtime result. Verified a source-level wildcard mismatch affecting ordinary Restore and the equivalent Restore friend absent atom. Qualified the earlier catalogue-only check."
+    },
+    {
+      "delivery_id": "d65c6468-e5f4-11f1-920c-a2c9cc57d011",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 41,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:41:57Z"
+      },
+      "processed_at": "2026-11-21T21:45:25Z",
+      "outcome": "Own audit draft publication at the observed head. No discussion reply."
+    },
     {
       "delivery_id": "5797a1b6-e5f3-11f1-8ce9-ad84b10ec336",
       "event_type": "issue_comment",
@@ -4870,8 +4980,8 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "2aa20416b81bc42a8ad330a688c31f03e27b91b4",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
-    "restore_guard_catalogue": "fb822922dd8c2fa32ceff15882d5a494188bd89c",
-    "code_branch": "ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d",
-    "observed_at": "2026-11-21T21:38:10Z"
+    "calculus_guard": "fb822922dd8c2fa32ceff15882d5a494188bd89c",
+    "spm_fixture": "b1596a1914f9e068c53dd0b682d4af4044b7686e",
+    "observed_at": "2026-11-21T21:45:25Z"
   }
 }

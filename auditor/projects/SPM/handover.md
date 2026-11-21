@@ -1,3 +1,9 @@
+# Secure Friendship forbidden wildcard checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records [SPM’s failed Restore control](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7069656729). The [generated forbidden-atom check](https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/cascade/Secure-Friendship/platform.vglp#L5008-L5028) can accept an absent test with `any` despite a concrete matching fact. The same source path affects Restore friend. This qualifies the earlier check of the intended catalogue guard. A corrected platform and public traces remain pending. See [stage 53](../../stages/53-pr76-secure-friendship-forbidden-wildcard-20261121.json).
+
+Publish the runtime trace with Bob holding accepted(alicia, alice) and a matching Restore attempt. Repeat the same negative control and an unrelated-restorer positive control after correction. Check Restore friend with Carol’s replacement notice too.
+
 # Secure Friendship ordinary Restore guard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [catalogue guard](https://github.com/EShapiro2/GLP/blob/fb822922dd8c2fa32ceff15882d5a494188bd89c/calculus/contracts/Secure-Friendship/term.glp.txt). It blocks the old restorer when Bob retains the acceptance fact. Actual state loss that deletes that fact remains a GSC question. The adopted source and stored GLP trace at the inspected pins are the earlier versions. See [stage 52](../../stages/52-pr76-secure-friendship-restore-guard-20261121.json).
