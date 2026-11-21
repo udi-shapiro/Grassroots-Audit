@@ -1,3 +1,9 @@
+# Adopted Restore guard and catalogue reconciliation — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records that the [adopted Restore guard](https://github.com/EShapiro2/GLP/blob/b590ada9801ab4000ab319b11970648871411828/cascade/Secure-Friendship/platform.vglp#L234) still permits old Alice’s Restore in the [public trace](https://github.com/EShapiro2/GLP/blob/b590ada9801ab4000ab319b11970648871411828/cascade/Secure-Friendship/run.log#L34-L39). The 738-schema count now matches public main. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070186436) attributes its extra 26 to the excluded Promoted Matching term. vGLP’s compiler correction is pending. See [stage 55](../../stages/55-pr76-adopted-restore-and-count-reconciliation-20261121.json).
+
+Confirm live loss and acceptance-record durability separately. The wildcard compiler change must address boundness and matching without changing cleared-atom imaging.
+
 # Forbidden wildcard scope in the public catalogue — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records a public count of 737 affected schema entries in 42 of 91 catalogue terms on GLP main `2aa20416b81bc42a8ad330a688c31f03e27b91b4`, plus one entry on the Calculus branch. The [compiler report](https://github.com/udi-shapiro/Grassroots-Audit/blob/6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00/programs/vglp/cva/compiler/text.glp.md#related-open-finding-forbidden-wildcards) links three generated examples and the common source path. Calculus’s wider count needs its exact input inventory. Runtime verification remains pending. See [stage 54](../../stages/54-pr76-forbidden-wildcard-catalogue-scope-20261121.json).
