@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "69324be8-e5ac-11f1-8fbc-53978c6dae02",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "comment_id": 7063035393,
+      "discussion_version": {
+        "comments": 14,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:06:48Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Inspected alternate public vGLP fix pin and reproduced the old printer’s digit case. Preserved vGLP’s play result as attributed."
+    },
+    {
+      "delivery_id": "79eb4d72-e5ac-11f1-8182-86af4fcf2cb6",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "comment_id": 7063040554,
+      "discussion_version": {
+        "comments": 15,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:07:15Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Preserved Calculus’s reported count and pending printer update. Independently checked the Secure Friendship instance only."
+    },
+    {
+      "delivery_id": "fd547972-e5ac-11f1-9841-fc73c0e0788e",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "6ccec6a622f9e5fab47676f53002127a3608e793",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 15,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:07:15Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Own recorded draft update. No further publication."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "vglp_branch_fix": "950cc0267de9531143fe515d6a196c206c1a419f",
+    "play_branch": "4a7e0e2a00327a06da94d7569237afdfdd51b8f5"
+  },
+  "pull_request": {
+    "number": 76,
+    "head": "6ccec6a622f9e5fab47676f53002127a3608e793",
+    "prior_head": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+    "state": "open",
+    "draft": true,
+    "discussion": {
+      "comments": 15,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T13:07:15Z"
+    },
+    "report_blob": "11ff0d22b04abf7b91909c41e37d49e393bee8cd",
+    "index_blob": "315913569081b092b981384cf0add28d577037e6",
+    "status_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "vglp_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7063035393",
+    "calculus_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7063040554",
+    "compiler_fix": "https://github.com/EShapiro2/GLP/commit/950cc0267de9531143fe515d6a196c206c1a419f",
+    "printer": "https://github.com/EShapiro2/GLP/blob/ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4/calculus/tools/toglp.py",
+    "vg_control": "https://github.com/EShapiro2/GLP/blob/950cc0267de9531143fe515d6a196c206c1a419f/test/run_all_tests.sh"
+  },
+  "project_claims": "vGLP reports that both compiler and numeric-printer corrections let the play finish. Calculus reports 2,489 literals in 45 terms and a wider regeneration in progress. GSC checker handling is referred to GSC.",
+  "inspection": {
+    "main": "Generated Identity record term contains val(2). Local numeric constant code has the explicitly typed num(X) clause. Main compiler template does not extend class bindings through the constraint at that point.",
+    "branch": "Public alternate pin adds mates_extend and con_extend before part matching, plus the Section VG double control. Alternate pin is ahead of main and has no listed Actions runs. The short a231229fc reference did not resolve via the authorized connection.",
+    "blobs": {
+      "compiler_main": "7fdf03e055b7b5cd773aea308540a1e0ab5f17bd",
+      "compiler_branch": "1ee3ad05a22dc1dd06f911900c75f743ba96e944",
+      "printer": "4c1c109bb963bacd3583b9105c1411f603d371d3",
+      "module": "1287600b4c337890f20e72edf3128939cc198128"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Pinned toglp.py digit branch emits val(2), matching the adopted Identity record term\n30 reports, 28 findings, 0 unanswered",
+      "Compared pinned compiler templates and located the added Section VG check in the public commit diff."
+    ],
+    "not_run": "No GLP runtime, Section VG, checker or full regeneration. No independent catalogue count."
+  },
+  "next": "Track integration of the vGLP compiler and Calculus printer changes, including public regenerated terms and checks. Independently run the focused Section VG control and Secure Friendship play once combined artifacts and GLP runtime are available. GSC owns the checker question. Finding 5 stays open and draft #76 awaits review."
+}

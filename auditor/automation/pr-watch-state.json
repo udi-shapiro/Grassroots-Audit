@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T13:10:11Z",
-  "active_run": {
-    "run_id": "69324be8-e5ac-11f1-8fbc-53978c6dae02",
-    "delivery_ids": [
-      "69324be8-e5ac-11f1-8fbc-53978c6dae02",
-      "79eb4d72-e5ac-11f1-8182-86af4fcf2cb6"
-    ],
-    "started_at": "2026-11-21T13:10:11Z",
-    "expires_at": "2026-11-21T13:25:11.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282"
-  },
+  "updated_at": "2026-11-21T13:11:57Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "head_sha": "6ccec6a622f9e5fab47676f53002127a3608e793",
       "state": "open",
-      "updated_at": "2026-11-21T12:14:52Z",
+      "updated_at": "2026-11-21T13:10:57Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 13,
+        "comments": 15,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -72,14 +60,16 @@
           7061318777,
           7062367227,
           7062391833,
-          7062410286
+          7062410286,
+          7063035393,
+          7063040554
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T12:13:09Z"
+        "latest_item_at": "2026-11-21T13:07:15Z"
       },
-      "comment_cursor": 7062410286,
+      "comment_cursor": 7063040554,
       "review_cursor": null,
-      "notes": "Checkpoint guard independently verified on public main. Public play source confirms binding. Reported Identity record failure awaits reproduction."
+      "notes": "Recorded public vGLP compiler change and reproduced current numeric printer digit branch. Combined runtime evidence pending."
     },
     {
       "number": 50,
@@ -837,6 +827,107 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "69324be8-e5ac-11f1-8fbc-53978c6dae02",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "comment_id": 7063035393,
+      "discussion_version": {
+        "comments": 14,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:06:48Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Inspected alternate public vGLP fix pin and reproduced the old printer’s digit case. Preserved vGLP’s play result as attributed."
+    },
+    {
+      "delivery_id": "79eb4d72-e5ac-11f1-8182-86af4fcf2cb6",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cac4faf7d7b0b89d9e72ab05918685b5107a4282",
+      "comment_id": 7063040554,
+      "discussion_version": {
+        "comments": 15,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:07:15Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Preserved Calculus’s reported count and pending printer update. Independently checked the Secure Friendship instance only."
+    },
+    {
+      "delivery_id": "fd547972-e5ac-11f1-9841-fc73c0e0788e",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "6ccec6a622f9e5fab47676f53002127a3608e793",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 15,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T13:07:15Z"
+      },
+      "processed_at": "2026-11-21T13:11:57Z",
+      "outcome": "Own recorded draft update. No further publication."
+    },
     {
       "delivery_id": "6422f312-e5a4-11f1-866f-0b82c26a99c5",
       "event_type": "issue_comment",
@@ -2947,8 +3038,8 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "checkpoint_branch": "686f502b168b4c8470b4a2a26ce49a2147fe9e72",
+    "vglp_branch_fix": "950cc0267de9531143fe515d6a196c206c1a419f",
     "play_branch": "4a7e0e2a00327a06da94d7569237afdfdd51b8f5",
-    "observed_at": "2026-11-21T12:15:42Z"
+    "observed_at": "2026-11-21T13:11:57Z"
   }
 }

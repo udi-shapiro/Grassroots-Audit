@@ -1,3 +1,7 @@
+# Secure Friendship Identity record follow-up — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [vGLP compiler change](https://github.com/EShapiro2/GLP/commit/950cc0267de9531143fe515d6a196c206c1a419f) and the Calculus printer’s current `val(2)` output. Both are relevant to the reported Identity record rejection. The reported full-play pass awaits a combined public pin and independent execution. See [stage 40](../../stages/40-pr76-identity-record-compiler-printer-20261121.json). Verify the new Section VG double control when integrated.
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.
