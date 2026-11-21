@@ -1,3 +1,7 @@
+# Secure Friendship combined source checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records Code’s combined branch `bbf840928ca69182356ba46bcecebfac120ff5bf`. Its new catalogue term matches the stamp, while the adopted module and play still use `val(2)`. The checker guard and regenerated artifacts remain pending at this pin. See [stage 42](stages/42-pr76-combined-source-awaits-regeneration-20261121.json).
+
 # Secure Friendship numeric correction checked on branches — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [printer correction](https://github.com/EShapiro2/GLP/commit/ff6fe9aeda7e2fc59f5d348459ff0b11437d1790), [checker guard](https://github.com/EShapiro2/GLP/commit/f4ef10dbf7b8834eecd23eb6169f4425879d27f9) and [compiler integration branch](https://github.com/EShapiro2/GLP/commit/1246d8c8531418a0c36a21cdd31e7c7ddf489b9d). The printer emits `num(2)` and the Secure Friendship term matches its stamp. The checker source rejects numeric `val(N)` in arguments and expressions. Full integration and runtime remain pending. See [stage 41](stages/41-pr76-compiler-printer-checker-branches-20261121.json).
