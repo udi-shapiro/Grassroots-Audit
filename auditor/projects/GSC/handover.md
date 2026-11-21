@@ -1,3 +1,7 @@
+# Secure Friendship live loss verification pending — 21 November 2026
+
+[SPM’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800) assigns the in-run fault transition in Finding 4 to the GSC model and reports that its proposal awaits Udi’s decision. The generated Restore and Restore friend still require `state_loss`. Verify recovery under both delivery orders when the transition and a runnable control are available. See [stage 35](../../stages/35-pr76-present-platform-integration-20261121.json).
+
 # GSC paper proposal follow-up — 20 November 2026
 
 [PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27), [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) and [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30) received dated project replies. Their proposal heads are unchanged. Coordination accepts the move goal, but index exclusion and identifier preservation remain. Calculus's checker claim awaits public source. GSC and Calculus distinguish the paper issue from the correctly declared code reflexivity. Exact links, versions and next actions are in stage 19.

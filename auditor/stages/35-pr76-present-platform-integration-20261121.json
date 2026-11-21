@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "d9aebbfa-e58d-11f1-9f76-afd7972368f3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060589800,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:28:02Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Preserved SPM's checkpoint interpretation and verified the first Present button at the initial public branch pin."
+    },
+    {
+      "delivery_id": "07c481c8-e58e-11f1-9a4e-1c76414f6257",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060604691,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:29:19Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Verified the superseding no-field Present button on the public branch."
+    },
+    {
+      "delivery_id": "4b22f83c-e58e-11f1-9c5c-223d37fd4574",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060627413,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Verified integration of both generated platforms and Present button on public GLP main. Section TY pass is attributed to Code."
+    },
+    {
+      "delivery_id": "523cc602-e58e-11f1-8af5-0f67db6d705d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "c853dfab7bbed11b8fb0404eb73b7b970e3a34f4",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Own draft update with branch verification; no additional publication."
+    },
+    {
+      "delivery_id": "87768dd0-e58e-11f1-9f26-9617f4f57da6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Own draft update with main integration evidence; no additional publication."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "prior_glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
+    "initial_interface_branch": "be58c1f84de598adc64ab8f86c78fd851ece6998",
+    "superseding_interface_branch": "bf0e01987b8afd67a98f1ab2294c900b0cb6ea5e"
+  },
+  "pull_requests": {
+    "76": {
+      "original_head": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "intermediate_head": "c853dfab7bbed11b8fb0404eb73b7b970e3a34f4",
+      "head": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+      "state": "open",
+      "draft": true,
+      "discussion": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "report_blob": "5a7aab529a4a3759cce48c033e6daf72c3325475",
+      "index_blob": "0c7e197c5abca87c76af645cfcaa6ab86b9d9815",
+      "table_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+    }
+  },
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "spm_replies": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060604691",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060627413"
+    ],
+    "platform_vglp": "https://github.com/EShapiro2/GLP/blob/ee7162e0c773cb42c3c461d65e41ecbc83eaffd8/cascade/Secure-Friendship/platform.vglp",
+    "platform_glp": "https://github.com/EShapiro2/GLP/blob/ee7162e0c773cb42c3c461d65e41ecbc83eaffd8/cascade/Secure-Friendship/platform.glp",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/ee7162e0c773cb42c3c461d65e41ecbc83eaffd8/cascade/Secure-Friendship/manifest.md"
+  },
+  "project_claims": {
+    "SPM": "Checkpoint is a marker for separately delivered records. Clause 1 stands. GSC needs a live loss transition approved by Udi. Both branch button revisions and final integration are attributed.",
+    "Code": "Reports cascade recording and Section TY pass at GLP main ee7162e0. No public GitHub Actions run was listed for that SHA."
+  },
+  "inspection": {
+    "branch": "Initial branch added fields to Present. Superseding branch adds no fields. Both still carried the prior stored compiler refusal.",
+    "main": "No-field source blob matches the superseding branch. Stored platform.vglp and platform.glp both contain Present and no prior refusal. Stored manifest records no Secure Friendship plays. Catalogue term, verdict stamp and generated module blobs are unchanged from the prior pin.",
+    "checkpoint": "Tell, Send record and Send threshold have separate effects. Checkpoint is guarded by friendship, independent of delivery of the records. Restore friend reads separately recorded friendship. Neither Restore guard reads threshold or custodian records.",
+    "blobs": {
+      "contract": "5b5f48897edbf7e3771c5d8995a936349c7f472c",
+      "module": "0746c1c94ca907276f037d2deacc372fc2945755",
+      "platform_vglp": "35f192aef2297b5a21e7781d2afa64ec543681d4",
+      "platform_glp": "e8cba5536240410f237c300cfff9392c3f6911c7",
+      "manifest": "ba20760d8c7e319246c588caca0f8f3c9b393540",
+      "term": "7bc523459df047d2731c02b4d8764ed9901b58ee",
+      "stamp": "df8bf313383de183abf8c139e2d7ea7a1aa204d4"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Pinned interface, checkpoint and restore assertions passed\n30 reports, 28 findings, 0 unanswered",
+      "Superseding no-field Present interface assertion passed\n30 reports, 28 findings, 0 unanswered",
+      "Catalogue hash mismatch and stable finding IDs confirmed\n30 reports, 28 findings, 0 unanswered",
+      "Compared pinned GitHub artifact blobs and asserted Present bindings and absence of the old refusal in both stored generated platforms."
+    ],
+    "not_executed": "GLP compiler, checker, Section TY or Secure Friendship runtime. Python status generation stayed byte-identical."
+  },
+  "next": "Review audit draft #76 and settle ticket mapping. Calculus to reconcile term and verdict stamp and resolve custodian replacement. GSC’s model decision and an executable loss control are needed for both recovery delivery orders. Run a focused Secure Friendship play for record delivery, replacement, and notifications when available."
+}

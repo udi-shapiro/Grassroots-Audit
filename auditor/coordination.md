@@ -1,3 +1,7 @@
+# Secure Friendship Present artifacts checked — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the new SPM and Code replies. At public GLP `ee7162e0c773cb42c3c461d65e41ecbc83eaffd8`, both stored platforms contain the no-field Present button and the earlier refusal is gone. The catalogue hash mismatch, custodian replacement and runtime checks remain open. Code reports Section TY passed. The audit ran source and status checks. See [stage 35](stages/35-pr76-present-platform-integration-20261121.json).
+
 # Secure Friendship findings prepared for review — 21 November 2026
 
 [Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves Ohad Eitan’s revised report, dated project answers and all five findings from [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50). At public GLP `e8ebce875d7a4ab42314712445ca87f33163121c`, Python source assertions confirmed the stored CVA refusal for the missing Present button and the catalogue term’s verdict-stamp mismatch. No GLP compiler, checker or runtime ran. The draft has 30 reports, 28 findings and zero unanswered. Review the five dispositions and ticket mapping before merging.

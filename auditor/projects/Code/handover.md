@@ -1,3 +1,7 @@
+# Secure Friendship Present artifacts checked — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the new SPM and Code replies. At public GLP `ee7162e0c773cb42c3c461d65e41ecbc83eaffd8`, both stored platforms contain the no-field Present button and the earlier refusal is gone. The catalogue hash mismatch, custodian replacement and runtime checks remain open. Code reports Section TY passed. The audit ran source and status checks. See [stage 35](../../stages/35-pr76-present-platform-integration-20261121.json).
+
 # Public GLP integration checked — 21 November 2026
 
 At GLP `e8ebce875d7a4ab42314712445ca87f33163121c`, GO’s regenerated platform artifacts and all 39 Calculus rebuild inputs match the earlier pins. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) and [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) record integration and await review. [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7059738642) points to the integrated Secure Friendship module. Its refreshed cascade record contains the matching module and a stored checker verdict, but the CVA compiler refused the platform because the guarded Present act has no button. [Refusal record](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp) No GLP run was independently executed in this follow-up. See [stage 33](../../stages/33-glp-main-integration-pr50-71-75-20261121.json).

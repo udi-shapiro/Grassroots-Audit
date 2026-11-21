@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T09:30:35Z",
-  "active_run": {
-    "run_id": "d9aebbfa-e58d-11f1-9f76-afd7972368f3",
-    "delivery_ids": [
-      "d9aebbfa-e58d-11f1-9f76-afd7972368f3",
-      "07c481c8-e58e-11f1-9a4e-1c76414f6257"
-    ],
-    "started_at": "2026-11-21T09:30:35Z",
-    "expires_at": "2026-11-21T09:45:35.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711"
-  },
+  "updated_at": "2026-11-21T09:34:07Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -48,6 +36,29 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "state": "open",
+      "updated_at": "2026-11-21T09:32:54Z",
+      "merged_at": null,
+      "merge_commit_sha": "67366bb138bfb8d55d2a9cadd1f142bd076a056a",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "comment_cursor": 7060627413,
+      "review_cursor": null,
+      "notes": "Dated SPM and Code replies preserved. Verified Present output artifacts on public GLP main. Draft retains all five open or disputed findings."
+    },
     {
       "number": 50,
       "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
@@ -84,25 +95,6 @@
       "comment_cursor": 7060447760,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
       "notes": "Contributor revision retained. Draft #76 records source verification and leaves five findings open or disputed."
-    },
-    {
-      "number": 76,
-      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
-      "state": "open",
-      "updated_at": "2026-11-21T09:14:57Z",
-      "merged_at": null,
-      "merge_commit_sha": "bc0a8e406ff8246264e14cd4a56dd5f34be2494f",
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": null,
-      "review_cursor": null,
-      "notes": "Own main-based publication draft at recorded head. Review and ticket mapping pending."
     },
     {
       "number": 74,
@@ -820,6 +812,113 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "d9aebbfa-e58d-11f1-9f76-afd7972368f3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060589800,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:28:02Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Preserved SPM's checkpoint interpretation and verified the first Present button at the initial public branch pin."
+    },
+    {
+      "delivery_id": "07c481c8-e58e-11f1-9a4e-1c76414f6257",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060604691,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:29:19Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Verified the superseding no-field Present button on the public branch."
+    },
+    {
+      "delivery_id": "4b22f83c-e58e-11f1-9c5c-223d37fd4574",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "6c66356cc1a76af7a3108e2d9d6b65f33e1b8711",
+      "comment_id": 7060627413,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Verified integration of both generated platforms and Present button on public GLP main. Section TY pass is attributed to Code."
+    },
+    {
+      "delivery_id": "523cc602-e58e-11f1-8af5-0f67db6d705d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "c853dfab7bbed11b8fb0404eb73b7b970e3a34f4",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Own draft update with branch verification; no additional publication."
+    },
+    {
+      "delivery_id": "87768dd0-e58e-11f1-9f26-9617f4f57da6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "fea719a7b251f6f9600990ba768c97b001d513df",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T09:31:12Z"
+      },
+      "processed_at": "2026-11-21T09:34:07Z",
+      "outcome": "Own draft update with main integration evidence; no additional publication."
+    },
     {
       "delivery_id": "4854e9e2-e58b-11f1-9881-db3d904f8d7c",
       "event_type": "pull_request",
@@ -2332,10 +2431,11 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
+    "glp_main": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "original_glp": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
-    "reported_fast_tier": "7595edcf07df5847aba72415a7ce0913ba1f5dec",
-    "observed_at": "2026-11-21T09:15:20Z"
+    "prior_glp_main": "e8ebce875d7a4ab42314712445ca87f33163121c",
+    "initial_interface_branch": "be58c1f84de598adc64ab8f86c78fd851ece6998",
+    "superseding_interface_branch": "bf0e01987b8afd67a98f1ab2294c900b0cb6ea5e",
+    "observed_at": "2026-11-21T09:34:07Z"
   }
 }
