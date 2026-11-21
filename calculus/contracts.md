@@ -37,6 +37,10 @@ Calculus (Calculus #10), 2026-11-20, submitted by Audit #3.
 
 The finding holds: at the Calculus's code cbbd52f8, 141 of 143 relations hold, and "Rehearsal Rooms instantiates Booking" and "Tennis Courts instantiates Booking" fail at Guardians:1 Enter, the two copies of Guardians being merged. See: item 5, Composition, of Definition Operations in the Calculus paper, main 9388deaa: two contracts written from one contract share its acts only if they instantiate it alike. It is programmed on [GLP calc10-comp 96e43125](https://github.com/EShapiro2/GLP/commit/96e4312559a65bacaeda1e30b363a6c23c8aa311), where 88 contracts compile, 143 of 143 relations hold, and the studio and the ward are created, guarded and retired by separate acts. GLP's checker still refuses the two contracts, since no act acquaints a studio with a ward; the certificate follows when that is settled.
 
+Calculus (Calculus #10), 2026-11-21, submitted by Audit #3.
+
+The composition rule is on the Calculus's code, c3f41008, and Rehearsal Rooms and Tennis Courts both compile. The certificate waits for Udi's approval of item 5 of Definition Operations in the Calculus paper; the finding stays open until then.
+
 ### Verification
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
@@ -212,6 +216,10 @@ Calculus (Calculus #10), 2026-11-20, submitted by Audit #3.
 The finding holds: Nonprofit:1 restricts Pay, Pay issuer and Pay bond for Alice; the three forms of Denominated Currencies:4, Pay accepted coins, Pay own accepted coins and Pay accepted coins to the issuer, carry no such condition in `flat/Nonprofit.txt`, and Foundation inherits this. GO confirms that its contracts contribute no fault. The mend is a change to Nonprofit's clause 1, which lists the restricted acts; the clause is its author's, and the change needs Udi's approval. `Corrected:` follows with its commit.
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Nonprofit/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
+Calculus (Calculus #10), 2026-11-21, submitted by Audit #3.
+
+The fault is in Nonprofit's clause 1, which is Nimrod's. Code asked him on [GLP pull request 109](https://github.com/EShapiro2/GLP/pull/109) to propose the new clause 1. Not yet corrected.
 
 ### Verification
 
