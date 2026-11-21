@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T14:30:21Z",
-  "active_run": {
-    "run_id": "7ef546dc-e5b7-11f1-9194-35c4df7da911",
-    "delivery_ids": [
-      "7ef546dc-e5b7-11f1-9194-35c4df7da911",
-      "8b0a6dda-e5b7-11f1-9ab5-95e1399fe121",
-      "cd44491e-e5b7-11f1-88bf-bb66f99f6693"
-    ],
-    "started_at": "2026-11-21T14:30:21Z",
-    "expires_at": "2026-11-21T14:45:21.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035"
-  },
+  "updated_at": "2026-11-21T14:31:56Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -51,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035",
+      "head_sha": "d55f792d184b7a88dd9a82d560bccb0f9068f257",
       "state": "open",
-      "updated_at": "2026-11-21T13:54:13Z",
+      "updated_at": "2026-11-21T14:31:09Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 19,
+        "comments": 23,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -79,14 +66,18 @@
           7063273412,
           7063464212,
           7063573110,
-          7063615438
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T13:50:02Z"
+        "latest_item_at": "2026-11-21T14:28:46Z"
       },
-      "comment_cursor": 7063615438,
+      "comment_cursor": 7064117063,
       "review_cursor": null,
-      "notes": "Combined source verified on Code branch; regenerated module and play, checker integration and runtime pending."
+      "notes": "Verified the adopted module and checker source. Preserved the reported play pass. Public regenerated platform, run log and runtime verification remain pending."
     },
     {
       "number": 50,
@@ -844,6 +835,210 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "7ef546dc-e5b7-11f1-9194-35c4df7da911",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035",
+      "comment_id": 7064082013,
+      "discussion_version": {
+        "comments": 20,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T14:26:08Z"
+      },
+      "processed_at": "2026-11-21T14:31:56Z",
+      "outcome": "Verified adopted module, catalogue stamp and checker source. Stored platforms retain the old literal."
+    },
+    {
+      "delivery_id": "8b0a6dda-e5b7-11f1-9ab5-95e1399fe121",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035",
+      "comment_id": 7064086846,
+      "discussion_version": {
+        "comments": 21,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T14:26:28Z"
+      },
+      "processed_at": "2026-11-21T14:31:56Z",
+      "outcome": "Verified empty Secure Friendship play mapping and preserved Code’s planned wiring."
+    },
+    {
+      "delivery_id": "cd44491e-e5b7-11f1-88bf-bb66f99f6693",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035",
+      "comment_id": 7064111136,
+      "discussion_version": {
+        "comments": 22,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T14:28:20Z"
+      },
+      "processed_at": "2026-11-21T14:31:56Z",
+      "outcome": "Preserved SPM’s attributed play pass and checked the public script. No public log or independent run."
+    },
+    {
+      "delivery_id": "dcc67952-e5b7-11f1-9cdc-da0f8bee9f6e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "8d3d5c0e79302499a5e88dd9d78f509d31502035",
+      "comment_id": 7064117063,
+      "discussion_version": {
+        "comments": 23,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T14:28:46Z"
+      },
+      "processed_at": "2026-11-21T14:31:56Z",
+      "outcome": "Recorded the expected cascade run.log location. The file is absent at the observed pin."
+    },
+    {
+      "delivery_id": "31e2e31c-e5b8-11f1-85cc-5baf6777e965",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "d55f792d184b7a88dd9a82d560bccb0f9068f257",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 23,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T14:28:46Z"
+      },
+      "processed_at": "2026-11-21T14:31:56Z",
+      "outcome": "Own recorded draft update."
+    },
     {
       "delivery_id": "73db0d90-e5b2-11f1-9fa8-dbc02be1cf7f",
       "event_type": "issue_comment",
@@ -3310,9 +3505,8 @@
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
-    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "code_combined_branch": "bbf840928ca69182356ba46bcecebfac120ff5bf",
-    "checker_branch": "f4ef10dbf7b8834eecd23eb6169f4425879d27f9",
-    "observed_at": "2026-11-21T13:55:01Z"
+    "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
+    "code_branch": "a6fc2475b4346c80198886ce4ccb40481c3687e4",
+    "observed_at": "2026-11-21T14:31:56Z"
   }
 }

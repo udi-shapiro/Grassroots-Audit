@@ -1,3 +1,7 @@
+# Secure Friendship adopted module and reported play — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records public GLP `a6fc2475b4346c80198886ce4ccb40481c3687e4`. The adopted module now matches the corrected catalogue and stamp, while both stored platforms retain the earlier literal. SPM reports a completed play with a freshly generated platform. Its expected public cascade log is pending. See [stage 43](stages/43-pr76-reprinted-module-and-reported-play-20261121.json).
+
 # Secure Friendship combined source checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records Code’s combined branch `bbf840928ca69182356ba46bcecebfac120ff5bf`. Its new catalogue term matches the stamp, while the adopted module and play still use `val(2)`. The checker guard and regenerated artifacts remain pending at this pin. See [stage 42](stages/42-pr76-combined-source-awaits-regeneration-20261121.json).
