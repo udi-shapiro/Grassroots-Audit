@@ -2,7 +2,15 @@
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
   "updated_at": "2026-11-21T04:29:31Z",
-  "active_run": null,
+  "active_run": {
+    "run_id": "77bc9894-e566-11f1-902f-9f9afeed06ab",
+    "delivery_id": "77bc9894-e566-11f1-902f-9f9afeed06ab",
+    "pull_request_number": 71,
+    "started_at": "2026-11-21T04:49:11Z",
+    "acquired_at": "2026-11-21T04:49:11Z",
+    "expires_at": "2026-11-21T05:04:11.000Z",
+    "expected_head_sha": "4ef7bc685179fc7c04b56fe76bf67830c185e6dd"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
