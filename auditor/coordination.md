@@ -1,3 +1,7 @@
+# GO contract corrections partially verified — 20 November 2026
+
+[PR #70](https://github.com/udi-shapiro/Grassroots-Audit/pull/70) preserves GO’s public correction pin `e8688eafb085841202953c70e75697f7f69bca49`. The pinned Python tools rebuilt all seven relevant catalogue schemas. The checked-in modules still contain the earlier forms of Organisation Enter, the service locks, and Liquid Cooperative voting. [Verification PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) is open for review. Findings 2, 3 and 6 remain open. See [stage 24](stages/24-pr70-go-public-verification-20261120.json).
+
 # GO contract correction claims recorded — 20 November 2026
 
 [PR #69](https://github.com/udi-shapiro/Grassroots-Audit/pull/69) merged at `32807acfc8602213152d6b2cb3d436498873d3b4`. It preserves GO's dated claims for Findings 2, 3 and 6 and records that Findings 4 and 5 await Udi's decisions. Public GLP `aaadc7613508ca44e132b0f9b2e283323225fc3f` does not resolve the cited `a1a91cb8` and still shows the earlier schemas. All seven contract findings remain open. The actual status generator reproduced the published table byte for byte, with 29 reports, 23 findings and zero unanswered. No GLP tests ran. See [stage 23](stages/23-pr69-go-contract-corrections-20261120.json).

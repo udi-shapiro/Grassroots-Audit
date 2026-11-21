@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T00:29:06Z",
-  "active_run": {
-    "run_id": "da3e59c6-e54d-11f1-8b9a-bc8f8a0a92df",
-    "delivery_id": "da3e59c6-e54d-11f1-8b9a-bc8f8a0a92df",
-    "pull_request_number": 70,
-    "started_at": "2026-11-21T01:51:27Z",
-    "acquired_at": "2026-11-21T01:51:27Z",
-    "expires_at": "2026-11-21T02:06:27.000Z",
-    "expected_head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279"
-  },
+  "updated_at": "2026-11-21T01:57:23Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -44,6 +36,44 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 70,
+      "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+      "state": "closed",
+      "updated_at": "2026-11-21T01:52:31Z",
+      "merged_at": "2026-11-21T01:52:31Z",
+      "merge_commit_sha": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Attributed project answer merged; partial verification follows in PR #71."
+    },
+    {
+      "number": 71,
+      "head_sha": "3f349c84f9c54807572474e61736ebf830c7c274",
+      "state": "open",
+      "updated_at": "2026-11-21T01:57:14Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Own verification publication at exact head; awaiting review."
+    },
     {
       "number": 69,
       "head_sha": "1012c2f9d92a74224adf02b7b7bb32d508c6cec5",
@@ -668,6 +698,57 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "da3e59c6-e54d-11f1-8b9a-bc8f8a0a92df",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 70,
+      "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Merged the attributed public GLP answer. Independently rebuilt catalogue schemas, identified stale checked-in modules, and opened the separate verification PR."
+    },
+    {
+      "delivery_id": "36feb87c-e54e-11f1-87a0-23dd65cd84a0",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 70,
+      "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Observed our answer merge at the reviewed head. No second action."
+    },
+    {
+      "delivery_id": "e01f1974-e54e-11f1-8e9c-0ca76f942c85",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 71,
+      "head_sha": "3f349c84f9c54807572474e61736ebf830c7c274",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Recorded our publication. Awaiting review at verified head."
+    },
     {
       "delivery_id": "28dab13a-e542-11f1-9ac3-127d9c25ecda",
       "event_type": "pull_request",
@@ -1585,9 +1666,10 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "32807acfc8602213152d6b2cb3d436498873d3b4",
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
-    "glp_papers": "3491e4e0133288548ee07c1a1eb334769c32e8f8",
-    "observed_at": "2026-11-21T00:29:06Z"
+    "glp_papers": "0166bdb30e879130042d581f71f427354d64cb2c",
+    "glp_go_branch": "e8688eafb085841202953c70e75697f7f69bca49",
+    "observed_at": "2026-11-21T01:57:23Z"
   }
 }

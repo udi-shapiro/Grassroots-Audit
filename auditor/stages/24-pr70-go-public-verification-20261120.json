@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "da3e59c6-e54d-11f1-8b9a-bc8f8a0a92df",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 70,
+      "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Merged the attributed public GLP answer. Independently rebuilt catalogue schemas, identified stale checked-in modules, and opened the separate verification PR."
+    },
+    {
+      "delivery_id": "36feb87c-e54e-11f1-87a0-23dd65cd84a0",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 70,
+      "head_sha": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Observed our answer merge at the reviewed head. No second action."
+    },
+    {
+      "delivery_id": "e01f1974-e54e-11f1-8e9c-0ca76f942c85",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 71,
+      "head_sha": "3f349c84f9c54807572474e61736ebf830c7c274",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T01:57:23Z",
+      "outcome": "Recorded our publication. Awaiting review at verified head."
+    }
+  ],
+  "answer": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/70",
+    "head": "699bdf14d4ec84c0c58418f4a4f75f7c85a53279",
+    "base": "32807acfc8602213152d6b2cb3d436498873d3b4",
+    "merge": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "report_blob": "6a7f8c1f48b701a20a6ef1b89bd2d54dc2bdecee"
+  },
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71",
+    "head": "3f349c84f9c54807572474e61736ebf830c7c274",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "state": "open",
+    "review": "pending"
+  },
+  "source_pins": {
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "papers_metadata_only": "0166bdb30e879130042d581f71f427354d64cb2c",
+    "go_branch": "e8688eafb085841202953c70e75697f7f69bca49",
+    "go_branch_parent": "532fc7e4b4f63e60fcd20786acdf92e86309d045",
+    "calculus_publication": "f90a52794bde03545a907731d48245203b31b687",
+    "affected_blobs": {
+      "Organisation": {
+        "catalog": "b2bfca808fdf6dfbda70d214aebd2737d48a3689",
+        "owner_text": "fbc62d1850619a12263bc1c63cd2d197ff1d7a70",
+        "module": "0f5ef86eb7db11f21ffe9f5913ec61959111af90",
+        "module_parent": "0f5ef86eb7db11f21ffe9f5913ec61959111af90",
+        "module_main": "a58814673d8b0a653dfca8366d3469eac46fb15a",
+        "cascade": "dc1662eb1a8dfefbe1a9a6e0e777c1a6ac2915b5"
+      },
+      "Community-Network": {
+        "catalog": "506a0e1af2fc7a98779b78fe5d0be5827940052c",
+        "owner_text": "79b07933626600e9dd1691e2fb47137eb3588c42",
+        "module": "38429f83834ebf233662ff2fe5951bfeeb3fd5b0",
+        "module_parent": "38429f83834ebf233662ff2fe5951bfeeb3fd5b0",
+        "cascade": "ac1307a09bf2eb98745a072e25d07800f84c0f21"
+      },
+      "Community-Market": {
+        "catalog": "0b5119e8f999aa60f07f419b9a422edebf1acf60",
+        "owner_text": "4a183cc51c616fe8ef2445a62a9b553943bda0f5",
+        "module": "4995ec0525c02c6b80c5dbf344c772e3b5c81077",
+        "module_parent": "4995ec0525c02c6b80c5dbf344c772e3b5c81077",
+        "module_main": "80d47b3855aa3c93bb09b70f5d23eb4c72ae1474",
+        "cascade": null
+      },
+      "Rides": {
+        "catalog": "021e30e622e6e59bb3b718f3321b07f5bfe706c5",
+        "owner_text": "1613c5872a4b3858c07fc2a0fb548da5fdae3c60",
+        "module": "77fbfcde4ff623c85483854b3072bca2b8b37bb2",
+        "module_parent": "77fbfcde4ff623c85483854b3072bca2b8b37bb2",
+        "module_main": "3630e55a9aee2c0ff406df42495b918b435ffe87",
+        "cascade": "aefd860585b6ea78195d3eafd8acf3ca83adf0c4"
+      },
+      "Lodging": {
+        "catalog": "51d0d218df94eb1fd1ec0543dea10971bafb3f88",
+        "owner_text": "a6a66b3fc000b8d48bd303fe01ac6b95ca4696a0",
+        "module": "e3009a26a3cc9d156725c61a61b5c64b52ff2085",
+        "module_parent": "e3009a26a3cc9d156725c61a61b5c64b52ff2085",
+        "module_main": "ce763601c0ee0442c3c857770f51935fa63efa9a",
+        "cascade": "bf56817bfac20bca049fd633a0b2fd15fc7bcc00"
+      },
+      "Gigs": {
+        "catalog": "dc60fcb6f6fd58376fcd287bc5ffaf1e896f3155",
+        "owner_text": "d4004baf1c32c2732e3745f4e64b19655f305a27",
+        "module": "e8b6bbe70346534f41379ee1741b67f37d0516ed",
+        "module_parent": "e8b6bbe70346534f41379ee1741b67f37d0516ed",
+        "module_main": "a08dba2d6f76b1ea624e176271bf27c464c92f17",
+        "cascade": "82201b5c817e24253a1e55630aaba60c881f7b3f"
+      },
+      "Liquid-Cooperative": {
+        "catalog": "729ccdeea7309442bd45ff1806bad516efc5ed2a",
+        "owner_text": "9a6191f8936c6a66c3cbd81ed90702a456d4dc1e",
+        "module": "8c60c8a80f11562ae9e43d6b5e93539566a5f5a7",
+        "module_parent": "8c60c8a80f11562ae9e43d6b5e93539566a5f5a7",
+        "module_main": "8c5d6f5cf02870a52665c31d4e5ba536974bb67f",
+        "cascade": "3c5b062645f62cfa55cd961c4dd08fe29ace5762"
+      }
+    }
+  },
+  "project_claims": "GO attributes corrected Found, amount-bearing service locks and Count variants to branch e8688eaf, awaiting GLP main integration. Earlier GO answer leaves zero-deposit bindings and a nonnegative amount assumption open.",
+  "inspection": [
+    "Catalogue Found replaces standalone Guardians Enter and adds the participation/role effects and founder consent. Stored Organisation still exposes old Enter.",
+    "Catalogue service locks carry agreement, issuer, denomination and amounts, with debits and release effects. The five checked-in modules retain three-argument locks.",
+    "Catalogue Liquid Cooperative has Count, Count expel, Count officer expel and Count amend. The checked-in module has none of these.",
+    "The inspected .glp module blobs match the branch parent, with Community Market compared to its previous Marketplace path."
+  ],
+  "executed_checks": {
+    "compiler": "Ran pinned Python adopt.compiled against catalogue pairs and their prerequisites (using a narrow PATHS.txt in scratch). Organisation, Community Network, Community Market, Rides, Lodging, Gigs and Liquid Cooperative all matched their stored catalogue full schemas after trimming surrounding whitespace. Initial Rides setup lacked Second-Score Auction, which was then fetched from the same pin and Rides passed on retry.",
+    "schema_lines": {
+      "Organisation": 65,
+      "Community-Network": 234,
+      "Community-Market": 261,
+      "Rides": 266,
+      "Lodging": 266,
+      "Gigs": 268,
+      "Liquid-Cooperative": 237
+    },
+    "reproduction_script_paths_and_output_hashes": "import sys\nfrom pathlib import Path\nsys.path.insert(0, str(Path(\"calculus/tools\").resolve()))\nimport adopt\nimport names\nfor stem in sys.argv[1:] or [\"Organisation\",\"Community-Network\",\"Community-Market\",\"Rides\",\"Lodging\",\"Gigs\",\"Liquid-Cooperative\"]:\n    try:\n        output, _ = adopt.compiled(names.name_of(stem))\n    except SystemExit as exc:\n        print(stem, \"failed\", exc, flush=True)\n        continue\n    expected = Path(\"calculus/contracts\", stem, \"full-schemas.txt\").read_text()\n    actual = output[\"full-schemas.txt\"]\n    Path(stem + \".schemas\").write_text(actual)\n    Path(stem + \".term\").write_text(output[\"term.glp.txt\"])\n    print(stem, actual.strip() == expected.strip(), len(actual.splitlines()), flush=True)\nOrganisation catalogue\nCommunity-Network catalogue\nCommunity-Market catalogue\nRides catalogue\nLodging catalogue\nGigs catalogue\nLiquid-Cooperative catalogue\nGuardians catalogue\nDenominated-Currencies catalogue\nRecommendations catalogue\nOverlay catalogue\nAuction catalogue\nCooperative-DAO catalogue\nFriendship catalogue\nDenominated-Coins catalogue\nBonds catalogue\nKnowledge catalogue\nLocal-Overlay catalogue\nCooperative catalogue\nDAO catalogue\nCoins catalogue\nConstitution catalogue\nNotes catalogue\nSecond-Score-Auction catalogue\ne7da71a5b2169ee889304905b84fedec64b00a4f68c8cb0c81c49d7f25a09706  Community-Market.schemas\n8ca96341909c8b9216120c4e09b53332d8cf3b158047cabda42ef50a4ce02582  Community-Network.schemas\nfdd922869f1b5691672b399958a0422fbcd874fae979cfa16b812a2aad86c26b  Gigs.schemas\nfb21cb9fa06c5cddbd3704333ae7470968e1503d8b9280bdbeb7b11262710b6a  Liquid-Cooperative.schemas\n5567fb839ec7fb548dd395710b38eb0198e2e8864cd25ef2f0f5e2dcd8b54f50  Lodging.schemas\ne4276cc0b55a46d9d1aa9520db5aeb57903affad6d482b2050c567bc23cd8460  Organisation.schemas\n189d9064cbeb7b01cf8ead601f8e489ff18887fb500278c519b8db6443f83d6c  Rides.schemas\n",
+    "status": "python3 bin/status.py and cmp against the published table both exited zero. 29 reports, 23 findings, 0 unanswered.",
+    "limits": "No Dart or GLP runtime checks ran. Settlement and voting behavior pending."
+  },
+  "next": "Review PR #71. Check the public integration revision for regenerated GO modules and cascades. Test all founding paths, two agreements between the same parties, independent release and conservation including fees and zero/nonnegative controls, plus delegation chains, a prior direct vote and a cycle without a vote."
+}
