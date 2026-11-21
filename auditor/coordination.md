@@ -1,3 +1,7 @@
+# Calculus composition rebuild checked — 20 November 2026
+
+[Calculus’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/75#issuecomment-7058604467) points to public tools. On GLP `7a0e8d91c74e0d8ccdb153a2554da00bad806e00`, both children translated with 56 schemas and all five of their relations passed. Full adoption still stops at differently bound Guardians:5 Retire clauses. [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) preserves the distinction and awaits review. Findings 1 and 7 remain open. See [stage 32](stages/32-pr75-calculus-composition-rebuild-20261120.json).
+
 # Secure Friendship module rebuild confirmed — 20 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7058299451) links public GLP `589d1f22be5ddda803fde15e1ef19acbab0eb1ea`. The adopted module at that pin matches the independent Python rebuild byte for byte. Its term matches the published verdict stamp, while the stored catalogue term differs at Accept. The cascade manifest is unchanged. [PR #50](https://github.com/udi-shapiro/Grassroots-Audit/pull/50) remains open with changes requested. No GLP checker or runtime ran. See [stage 31](stages/31-pr50-spm-regenerated-module-20261120.json).

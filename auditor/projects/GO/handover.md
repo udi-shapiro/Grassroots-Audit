@@ -1,3 +1,7 @@
+# Calculus composition rebuild checked — 20 November 2026
+
+[Calculus’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/75#issuecomment-7058604467) points to public tools. On GLP `7a0e8d91c74e0d8ccdb153a2554da00bad806e00`, both children translated with 56 schemas and all five of their relations passed. Full adoption still stops at differently bound Guardians:5 Retire clauses. [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) preserves the distinction and awaits review. Findings 1 and 7 remain open. See [stage 32](../../stages/32-pr75-calculus-composition-rebuild-20261120.json).
+
 # Calculus contract Findings 1 and 7 inspected — 20 November 2026
 
 [PR #74](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) records Calculus’s progress. Public GLP `f90a52794bde03545a907731d48245203b31b687` separates the founding and retirement schemas while retaining failed Booking relation records and stamped checker refusals. Nonprofit and Foundation still lack the recipient officer restriction on the direct accepted-coin forms. [Verification PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) is open for review. The newer Calculus claim awaits public evidence, and its certification awaits Udi’s decision on Definition Operations item 5. See [stage 29](../../stages/29-pr74-calculus-findings-1-7-20261120.json).

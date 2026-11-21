@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "7afb7ac6-e574-11f1-92b2-a90987c9c1cb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 75,
+      "head_sha": "381c718873860b785177eb99f40d611fbd2515a1",
+      "comment_id": 7058604467,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7058604467
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T06:26:25Z"
+      },
+      "processed_at": "2026-11-21T06:30:08Z",
+      "outcome": "Reproduced the two focused schema translations and five passing relations. Diagnosed the separately failing full adoption expansion. Updated audit publication."
+    },
+    {
+      "delivery_id": "fb8d7054-e574-11f1-9139-87bfb68f7552",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 75,
+      "head_sha": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7058604467
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T06:26:25Z"
+      },
+      "processed_at": "2026-11-21T06:30:08Z",
+      "outcome": "Observed own publication update. Review pending."
+    }
+  ],
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/75",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "head": "4377985f410e9dcc51c7418a44ae7f3fcadf04dd",
+    "prior_head": "381c718873860b785177eb99f40d611fbd2515a1",
+    "state": "open",
+    "review": "pending",
+    "report_blob": "7de40d85e2b5e679873bb3d47ea20343ba37632d",
+    "index_blob": "d6f1e055177f00b450ce563c37a06be435c48e22"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "public_tools_pin": "07e15a062e6836c2bdf0ecf167d18880a5ef7263",
+    "rebuild_pin": "7a0e8d91c74e0d8ccdb153a2554da00bad806e00",
+    "inputs": {
+      "calculus/NAMES.txt": "3fba8ebb4ad21cf3c6f3334cd2cdb48c9ee2f20d",
+      "calculus/tools/adopt.py": "951a4f4f8f1b471d860efd0eea583e2893114a72",
+      "calculus/tools/gcsas.py": "c7c1eefb3e56e49d0203b6557d90f56754056ae8",
+      "calculus/tools/toglp.py": "4c1c109bb963bacd3583b9105c1411f603d371d3",
+      "calculus/tools/expand.py": "1a20f21bead89f5067a6b32dd994be7cb04737e5",
+      "calculus/tools/revtex.py": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2",
+      "calculus/tools/names.py": "4a93213a56374b6869844a6f5f60526f10ee7092",
+      "calculus/tools/nameslines.py": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c",
+      "calculus/tools/relations.py": "5564cddcd4ddc619094ee216eb2a1947814fed6b",
+      "calculus/contracts/Rehearsal-Rooms/contract.txt": "ec6e40f5e15532c6b51db1756c6f9b3dbce74cdc",
+      "calculus/contracts/Rehearsal-Rooms/logic-pragmas.txt": "ec6e40f5e15532c6b51db1756c6f9b3dbce74cdc",
+      "calculus/contracts/Tennis-Courts/contract.txt": "317226bbd9d318024b9aaad6796e9a7060dfcfc1",
+      "calculus/contracts/Tennis-Courts/logic-pragmas.txt": "61092bdb1622562a2f36c88fd90e54c258dec9ac",
+      "calculus/contracts/Partners/contract.txt": "8a279cec623f76f6c6a12ab2909c54f572ac9c0f",
+      "calculus/contracts/Partners/logic-pragmas.txt": "8a279cec623f76f6c6a12ab2909c54f572ac9c0f",
+      "calculus/contracts/Booking/contract.txt": "36d5ef9da002b51c89ca92ace5def8786873bf3f",
+      "calculus/contracts/Booking/logic-pragmas.txt": "8b7d3a279b1ca9adb487a55837b184ba2308ecd1",
+      "calculus/contracts/Free-Matching/contract.txt": "a0743bd0732365ed1b0adf938a1e7b0705f4f284",
+      "calculus/contracts/Free-Matching/logic-pragmas.txt": "a0743bd0732365ed1b0adf938a1e7b0705f4f284",
+      "calculus/contracts/Organisation/contract.txt": "702f3a0f3c3dd0eafb018d7bd0ab3858858a8fc2",
+      "calculus/contracts/Organisation/logic-pragmas.txt": "67e193f5fffcb4aaca5e47ca7cb38c3516167f9b",
+      "calculus/contracts/Anonymous-Matching/contract.txt": "b417907c2fff69e59c5dc1d399eb94df919ee787",
+      "calculus/contracts/Anonymous-Matching/logic-pragmas.txt": "300394d9c75929aa875046302f2607c0e41708be",
+      "calculus/contracts/Guardians/contract.txt": "403d54bf015ce7636d124892198a5d96d7edba4d",
+      "calculus/contracts/Guardians/logic-pragmas.txt": "7eeb86fdfd0798ccb09384eeddc17f24b5ea05bc",
+      "calculus/contracts/Anonymous-Rendezvous/contract.txt": "248c65ea2ef61d0d2bfb69bb8e7b75e13d7924fb",
+      "calculus/contracts/Anonymous-Rendezvous/logic-pragmas.txt": "bf835b4119ef40f82756ee07a91da603e49b780f",
+      "calculus/contracts/Matching/contract.txt": "cec3fdab0d5b9b628052704271c922f3d96af5bf",
+      "calculus/contracts/Matching/logic-pragmas.txt": "f1a29a20b13c56b835623cb5bc0e1c36d66524e3",
+      "calculus/contracts/Friendship/contract.txt": "b98c7be4d30f79e299eddc96b00a922af60319c6",
+      "calculus/contracts/Friendship/logic-pragmas.txt": "9ae67fe0756e2559663fa1162ed3fb83eca6e784",
+      "calculus/contracts/Rendezvous/contract.txt": "92f89b2aafa1f0eb313a01c87b8785172dae32ff",
+      "calculus/contracts/Rendezvous/logic-pragmas.txt": "b646bfac9d92e12a2a0843d7a15708f8146d9a15",
+      "calculus/contracts/Gossip/contract.txt": "e552cd8a471bf3dc34b5fb7a9e5b9c7bcc463cec",
+      "calculus/contracts/Gossip/logic-pragmas.txt": "c095b9d038a375bae72a18de3c057504cd26fc81",
+      "calculus/contracts/Knowledge/contract.txt": "2984251a76d49a4edd58f9873dc539c2f51cb550",
+      "calculus/contracts/Knowledge/logic-pragmas.txt": "54ccf8d6b301f097a4efb225f0c76ffd2b42d0bb",
+      "calculus/contracts/Services/contract.txt": "f09db5bb001244ce6a0bfc12f1f3f6cc85444c3f",
+      "calculus/contracts/Services/logic-pragmas.txt": "9eed42f96366174322aaa9769338d4ab26a357d8"
+    }
+  },
+  "project_claims": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/75#issuecomment-7058604467",
+    "attribution": "Calculus (Calculus #10), dated 2026-11-21 UTC, submitted by Audit #3.",
+    "summary": "The public composition tools are available. Calculus reports 148/148 relations hold and both contracts compile but the GLP checker still refuses them. It awaits Udi on Definition Operations item 5. Finding 7 awaits a revised Nonprofit clause 1."
+  },
+  "source_inspection": "Same gcsas.py, relations.py and nameslines.py blobs at the two branch pins. The rebuild pin and current GLP main diverge. Public stored relations still reflect older failed Booking results. No workflow run listed for the rebuild pin.",
+  "execution": {
+    "setup": "Used the pinned catalogue contract and Logic pragmas pairs for the two children and their dependency closure. In scratch, built the rev and gr trees from those files and copied NAMES.txt. Ran pinned Python tools.",
+    "end_to_end": {
+      "command": "GLP_DIR=$PWD python3 check.py (calls adopt.compiled for both children with a scratch catalogue PATHS.txt)",
+      "result": "Both adopt.compiled calls raised SystemExit(2) at expand.py, which rejected differently bound Guardians:5 Retire clauses for Orga and Wendy.",
+      "output": "Rehearsal Rooms\nadopt.py: Rehearsal Rooms: expand.py failed, exit 1; nothing written: Rehearsal Rooms, Guardians:5: comes by two paths in two texts that are not one clause with restrictions: [Guardians:5. ■ Retire: Those who decide for Orga may retire Orga; every guardianship and relation of Orga then ends and Orga can take no act.] and [Guardians:5. ■ Retire: Those who decide for Wendy may retire Wendy; every guardianship and relation of Wendy then ends and Wendy can take no act.]\nCompile failed: 2\nTennis Courts\nadopt.py: Tennis Courts: expand.py failed, exit 1; nothing written: : Tennis Courts, Guardians:5: comes by two paths in two texts that are not one clause with restrictions: [Guardians:5. ■ Retire: Those who decide for Orga may retire Orga; every guardianship and relation of Orga then ends and Orga can take no act.] and [Guardians:5. ■ Retire: Those who decide for Wendy may retire Wendy; every guardianship and relation of Wendy then ends and Wendy can take no act.]\nCompile failed: 2\n"
+    },
+    "focused": {
+      "commands": [
+        "python3 tools/gcsas.py 'Rehearsal Rooms' 'Tennis Courts'",
+        "python3 tools/toglp.py Rehearsal-Rooms Tennis-Courts",
+        "python3 tools/relations.py --root \"$PWD\" --schemas sasx 'Rehearsal Rooms' 'Tennis Courts'"
+      ],
+      "output": "Anonymous Matching commute yes; return yes; recover same\nFree Matching commute yes; return yes; recover same\nPartners   commute yes; return yes; recover same\nRehearsal Rooms commute yes; return yes; recover same\nTennis Courts commute yes; return yes; recover same\nnames: 5 names of two kinds neither of which is under the other\nkinds: Anonymous Matching: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Free Matching: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Partners: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Rehearsal Rooms: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Tennis Courts: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\n15 contracts, 0 with a fault\ngcsas exit 0\nRehearsal-Rooms translated: 56 schemas\nTennis-Courts translated: 56 schemas\ntoglp exit 0\nRehearsal Rooms instantiates Booking: holds\nRehearsal Rooms composes it (Booking) with Partners: holds\nTennis Courts instantiates Booking: holds\nTennis Courts composes it (Booking) with Partners: holds\nTennis Courts restricts it (Booking and Partners): holds\n5 relations, 5 hold, 0 fail\nrelations exit 0\n",
+      "generated": "sasx/Tennis-Courts.txt:Guardians:5+Organisation:4 ■ Retire: retired(Orga), ~officer(_,Orga), ~has_officer(Orga,_), ~friend(Orga,_), ~friend(_,Orga), ~role(_,Orga,_), ~has_role(Orga,_,_) <- ~retired(\nsasx/Tennis-Courts.txt:Guardians:1 ■ Enter: identity(Wendy), ward(Wendy), has_guardian(Wendy,Alice), creator(Alice,Wendy), guardian(Alice,Wendy), knows(Alice,Wendy), knows(Wendy,Alice), friend(Alice\nsasx/Tennis-Courts.txt:Guardians:5 ■ Retire: retired(Wendy), ~guardian(_,Wendy), ~has_guardian(Wendy,_), ~friend(Wendy,_), ~friend(_,Wendy) <- ~retired(Wendy) guarded by guardians(Wendy).\nsasx/Rehearsal-Rooms.txt:Guardians:5+Organisation:4 ■ Retire: retired(Orga), ~officer(_,Orga), ~has_officer(Orga,_), ~friend(Orga,_), ~friend(_,Orga), ~role(_,Orga,_), ~has_role(Orga,_,_) <- ~retire\nsasx/Rehearsal-Rooms.txt:Guardians:1 ■ Enter: identity(Wendy), ward(Wendy), has_guardian(Wendy,Alice), creator(Alice,Wendy), guardian(Alice,Wendy), knows(Alice,Wendy), knows(Wendy,Alice), friend(Ali\nsasx/Rehearsal-Rooms.txt:Guardians:5 ■ Retire: retired(Wendy), ~guardian(_,Wendy), ~has_guardian(Wendy,_), ~friend(Wendy,_), ~friend(_,Wendy) <- ~retired(Wendy) guarded by guardians(Wendy).\nde562150059fbc27d13525bd4b6eb0b8b0d8c7dfa15cec7b52e8160ef90f8ec1  glp/Rehearsal-Rooms.glp.txt\nf5a90cbd1fe487cff2d23131499bf99004119cc8c28a25623067f3035156671e  glp/Tennis-Courts.glp.txt\n"
+    },
+    "status": "python3 bin/status.py and cmp returned zero. 29 reports, 23 findings, 0 unanswered. Identical published table bytes.",
+    "limits": "No whole-catalogue rebuild, GLP checker, or runtime run. Dart and Flutter were unavailable."
+  },
+  "next": "Resolve expand.py handling of differently instantiated Retire clauses, rerun the full adoption path and checker on public source, verify lifecycles and applicable budget/rendezvous controls, then check main integration. Finding 7 stays open pending revised owner text. PR #75 awaits review."
+}
