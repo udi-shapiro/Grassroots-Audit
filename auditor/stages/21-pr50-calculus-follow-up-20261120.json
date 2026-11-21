@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "processed_at": "2026-11-20T23:59:58Z",
+      "delivery_id": "13129b64-e53e-11f1-877d-a0b4f8223ded",
+      "comment_id": 7053633313,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:56:58Z"
+      },
+      "outcome": "Calculus's four Logic-pragmas corrections and two clarifications recorded. Public GLP still shows the previous behavior and its stored syntactic verdict already passes. Requested the public adoption revision and behavioral evidence; PR remains open."
+    },
+    {
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "processed_at": "2026-11-20T23:59:58Z",
+      "delivery_id": "762cb41e-e53e-11f1-85d6-361a8bdf0e61",
+      "comment_id": 7053676773,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:59:44Z"
+      },
+      "outcome": "Own evidence comment observed at the same head and recorded without a reply."
+    }
+  ],
+  "pull_request": {
+    "number": 50,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "state": "open",
+    "report": "programs/social/spm/Secure-Friendship.txt.md",
+    "proposal_on_main": false,
+    "spm_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053164176",
+    "calculus_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053633313",
+    "auditor_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053676773"
+  },
+  "source_pins": {
+    "audit_main": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers_metadata_only": "3e8c6d0bcb57ca17202a08629928adcb06346ebe",
+    "contract_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
+    "compiled_contract_blob": "177c072290dfd160d5363a431172cc7ed04d425d",
+    "logic_pragmas_blob": "46e340520dd9bf485169e2a1de940025229e9c54",
+    "full_schemas_blob": "75943f78ccbca1986f2f9c659163dfe9043f8a04",
+    "stored_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "glp_pr86": {
+      "head": "160ed2a48244d9cdd105f62671c64396718ee34a",
+      "closed_unmerged": true
+    }
+  },
+  "project_claims": {
+    "attribution": "Calculus (Calculus #10), 2026-11-20, submitted by Audit #3",
+    "correction_ref": "8524842f",
+    "build_ref": "01fb8815",
+    "build": "92 contracts compile with zero faults; Secure Friendship is reported syntactically grassroots.",
+    "changes": "Separate threshold delivery (Finding 2), restore friends and relearn their friends (Finding 4), present and count recorded vouchers, and issue replacement notifications (Finding 5). Calculus says the English clauses are unchanged, a machine transition can update the state-loss predicate, and the negated wildcard is universally quantified under the GSC paper's semantics; the revised Accept is reported to remove it."
+  },
+  "source_inspection": [
+    "Neither cited revision resolved in public EShapiro2/GLP at the time of review. The current public contract and generated blob match the earlier inspected baseline.",
+    "Send record writes a custodian record. Checkpoint only writes a marker. Restore writes a single friendship and recovered marker. Accept still reads threshold_vouched and has a wildcard in the negated accepted atom.",
+    "The stored GLP verdict already says syntactically_grassroots for that baseline. The verdict alone does not verify threshold delivery, recovery, or identity-replacement behavior.",
+    "Audit PR #50 retains the proposed English rewrite, and the SPM and Calculus responses are in the discussion. The report is still a proposal."
+  ],
+  "execution": "No compiler, GLP runtime, checker or status generator executed. Source inspection and stored verdict readback only. Paper text was not reviewed; no private repository was accessed. No main report or totals changed.",
+  "next": "Obtain an immutable public GLP adoption pin and run focused controls for late threshold delivery, checkpoint payload and monotonic recovery in both delivery orders (including tied versions), state loss injected during execution, below-threshold and repeat or invalid vouchers, identity replacement and notifications. Preserve the original finding identifiers and dated contributions. Revise the proposal to distinguish the English contract, Logic pragmas and runtime before publication."
+}

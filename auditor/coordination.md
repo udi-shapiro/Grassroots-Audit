@@ -1,3 +1,7 @@
+# Calculus follow-up to Secure Friendship review — 20 November 2026
+
+[Calculus's dated follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053633313) claims fixes to threshold delivery, recovery, vouchers and replacement notifications. At public GLP `aaadc7613508ca44e132b0f9b2e283323225fc3f` the generated schemas still show the earlier behavior, and the baseline's stored verdict already says `syntactically_grassroots`. [The audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053676773) records the evidence and requests a public adoption revision and behavioral checks. PR #50 remains open at `c6386390267fc83ada253af068ef6ea653cdae6a`. No runtime or compiler check ran. Preserve Ohad's proposal, SPM's disagreement and Calculus's follow-up under the original finding identifiers. See [stage 21](stages/21-pr50-calculus-follow-up-20261120.json).
+
 # GSA installation response recorded — 20 November 2026
 
 [PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) merged at `28f8f6e281cfd0b46c577a39f10547f9f03d419a`. The audit corrected a broken link to public GLP `47bb6cfde3bd80fe9ae901f760d71bb2d621d531` and preserved GSA #9's answer. Current source inspection supports changes to certificate and developer warranty handling. Schema checking is still deferred in the code. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No runtime test ran. See [stage 20](stages/20-pr68-gsa-and-spm-reply-20261120.json).

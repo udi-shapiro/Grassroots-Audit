@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T23:33:01.864Z",
-  "active_run": {
-    "run_id": "13129b64-e53e-11f1-877d-a0b4f8223ded",
-    "delivery_id": "13129b64-e53e-11f1-877d-a0b4f8223ded",
-    "pull_request_number": 50,
-    "started_at": "2026-11-20T23:58:38Z",
-    "acquired_at": "2026-11-20T23:58:38Z",
-    "expires_at": "2026-11-21T00:13:38.000Z",
-    "expected_head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a"
-  },
+  "updated_at": "2026-11-20T23:59:58Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -67,27 +59,29 @@
       "number": 50,
       "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
       "state": "open",
-      "updated_at": "2026-11-20T23:28:10Z",
+      "updated_at": "2026-11-20T23:59:44Z",
       "merged_at": null,
-      "comment_cursor": 7053164176,
+      "comment_cursor": 7053676773,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "SPM's substantive disagreement recorded; unchanged proposal stays open pending revised report and public evidence.",
+      "notes": "Calculus follow-up claims Logic-pragmas fixes outside currently available public GLP. Recorded source inspection and verification prerequisites. PR remains open with unchanged report proposal.",
       "discussion_version": {
-        "comments": 4,
+        "comments": 6,
         "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
           5944465842,
           5944513543,
           5971010401,
-          7053164176
+          7053164176,
+          7053633313,
+          7053676773
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ"
         ],
-        "latest_item_at": "2026-11-20T23:28:10Z"
+        "latest_item_at": "2026-11-20T23:59:44Z"
       },
       "merge_commit_sha": null
     },
@@ -646,6 +640,63 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "processed_at": "2026-11-20T23:59:58Z",
+      "delivery_id": "13129b64-e53e-11f1-877d-a0b4f8223ded",
+      "comment_id": 7053633313,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:56:58Z"
+      },
+      "outcome": "Calculus's four Logic-pragmas corrections and two clarifications recorded. Public GLP still shows the previous behavior and its stored syntactic verdict already passes. Requested the public adoption revision and behavioral evidence; PR remains open."
+    },
+    {
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "processed_at": "2026-11-20T23:59:58Z",
+      "delivery_id": "762cb41e-e53e-11f1-85d6-361a8bdf0e61",
+      "comment_id": 7053676773,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-20T23:59:44Z"
+      },
+      "outcome": "Own evidence comment observed at the same head and recorded without a reply."
+    },
     {
       "delivery_id": "07ed0b2e-e53a-11f1-90ff-c4f668d50bc9",
       "event_type": "pull_request",
@@ -1442,12 +1493,9 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
-    "glp_main_inspected": "2edbcd8c6ab343dd4d6fad5421f8e6e5386d3266",
-    "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
-    "gsc_pdf_blob": "a0a5a395c73eb4d6a878764618fc5a6f597380a7",
-    "inspection": "PR50 report, pinned Secure-Friendship English/Logic source and generated term, compiler environment/unguarded documentation, and GLP PR86 metadata inspected; no GLP or status tool execution",
-    "secure_friendship_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
-    "secure_friendship_generated_blob": "177c072290dfd160d5363a431172cc7ed04d425d"
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers": "3e8c6d0bcb57ca17202a08629928adcb06346ebe",
+    "audit_main": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "observed_at": "2026-11-20T23:59:58Z"
   }
 }
