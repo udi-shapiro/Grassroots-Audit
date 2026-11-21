@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "cf597a80-e5d0-11f1-990a-34415140fa11",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "comment_id": 7066494634,
+      "discussion_version": {
+        "comments": 25,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:27:21Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Checked public startup-loss fixture and separated accepted replacement from repeated-send refusal."
+    },
+    {
+      "delivery_id": "029cb0ba-e5d1-11f1-8b26-671b55cf0b94",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "comment_id": 7066512171,
+      "discussion_version": {
+        "comments": 26,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:28:46Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Verified recorded existing-friendship refusal with startup loss. No Restore friend attempt occurred."
+    },
+    {
+      "delivery_id": "62e9c03e-e5d1-11f1-9ba5-0dd63e0174f5",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 26,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:28:46Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Own draft update at the observed head."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
+    "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
+    "loss_play_source": "c1b4f6808e973b51fd241869710e2205365e054a",
+    "recorded_both_plays": "ff122013ff3f68f570b1ef983540cd2005013ed0",
+    "original_replacement_log": "f1f8898c79fa8763fecb827dfcc8f7c3c88f5789"
+  },
+  "pull_request": {
+    "number": 76,
+    "prior_head": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+    "head": "1519338b45052f8418b326dbff2dfac5e019c240",
+    "state": "open",
+    "draft": true,
+    "discussion": {
+      "comments": 27,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T17:31:58Z"
+    },
+    "report_blob": "82ca354b8db0f796172cb24cbaeafb4ec2900637",
+    "index_blob": "68d79932ff0b73495620a8c60c9a2569f20d1e35",
+    "table_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "spm_replies": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7066494634",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7066512171"
+    ],
+    "auditor_control_request": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7066552253",
+    "log": "https://github.com/EShapiro2/GLP/blob/ff122013ff3f68f570b1ef983540cd2005013ed0/cascade/Secure-Friendship/run.log",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/ff122013ff3f68f570b1ef983540cd2005013ed0/cascade/Secure-Friendship/manifest.md"
+  },
+  "project_claims": "SPM reports the startup-loss control and argues fair delivery with persistent eligibility. Both plays are recorded on the public Code branch. GSC fault proposal remains pending.",
+  "inspection": {
+    "summary": "The startup flag with friendship present isolates refusal on existing friendship for Restore. No Restore friend attempt appears in that segment. The original replacement segment is unchanged. One records_custodian refusal was for repeated Send record; Accept commits and no negative Accept appears. A repeated Tell friends is refused after delivery. The source delivery guards explain persistent enabling only under stable prerequisite facts.",
+    "blobs": {
+      "script": "23eb050cbf5513a29d096858fb245adf9c957f46",
+      "log": "3471cf699715f1631f9d8d8501f6dd0ec1a62915",
+      "manifest": "aeedca5dbd923bd08a46bf78b45ea6cc36da30f9"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Custodian diagnostic is a repeated Send record. Accept commits; no Accept abort is logged.\nStartup-loss play source present; manifest still lists replacement only.",
+      "30 reports, 28 findings, 0 unanswered",
+      "Replacement log unchanged. Startup loss: Alice refuses Restore on existing friendship alone; no Restore friend attempt.",
+      "30 reports, 28 findings, 0 unanswered"
+    ],
+    "not_run": "No GLP compiler, play or runtime executed. SPM’s cited paper result was not independently verified."
+  },
+  "next": "Check integration on GLP main and request the public paired threshold control already named in PR discussion. Keep the live-loss finding open for actual state deletion and both recovery orders. Independently run the plays and focused numeric controls when a GLP runtime is available."
+}

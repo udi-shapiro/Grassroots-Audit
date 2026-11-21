@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T17:30:45Z",
-  "active_run": {
-    "run_id": "cf597a80-e5d0-11f1-990a-34415140fa11",
-    "delivery_ids": [
-      "cf597a80-e5d0-11f1-990a-34415140fa11",
-      "029cb0ba-e5d1-11f1-8b26-671b55cf0b94"
-    ],
-    "started_at": "2026-11-21T17:30:45Z",
-    "expires_at": "2026-11-21T17:45:45.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27"
-  },
+  "updated_at": "2026-11-21T17:32:38Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
       "state": "open",
-      "updated_at": "2026-11-21T17:15:27Z",
+      "updated_at": "2026-11-21T17:31:58Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 24,
+        "comments": 27,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -83,14 +71,17 @@
           7064086846,
           7064111136,
           7064117063,
-          7066265186
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T17:10:16Z"
+        "latest_item_at": "2026-11-21T17:31:58Z"
       },
-      "comment_cursor": 7066265186,
+      "comment_cursor": 7066552253,
       "review_cursor": null,
-      "notes": "Verified public branch artifacts and recorded positive replacement play. Main integration and independent runtime controls remain pending."
+      "notes": "Startup-loss log checked and refusal attribution corrected. Own auditor comment 7066552253 requests paired below-threshold and at-threshold control."
     },
     {
       "number": 50,
@@ -848,6 +839,140 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "cf597a80-e5d0-11f1-990a-34415140fa11",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "comment_id": 7066494634,
+      "discussion_version": {
+        "comments": 25,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:27:21Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Checked public startup-loss fixture and separated accepted replacement from repeated-send refusal."
+    },
+    {
+      "delivery_id": "029cb0ba-e5d1-11f1-8b26-671b55cf0b94",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "11c2564c205c0c1cc96e50ffd9b4b368bfd51b27",
+      "comment_id": 7066512171,
+      "discussion_version": {
+        "comments": 26,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:28:46Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Verified recorded existing-friendship refusal with startup loss. No Restore friend attempt occurred."
+    },
+    {
+      "delivery_id": "62e9c03e-e5d1-11f1-9ba5-0dd63e0174f5",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "1519338b45052f8418b326dbff2dfac5e019c240",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 26,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T17:28:46Z"
+      },
+      "processed_at": "2026-11-21T17:32:38Z",
+      "outcome": "Own draft update at the observed head."
+    },
     {
       "delivery_id": "6ce92df2-e5ce-11f1-9059-86fd0b257738",
       "event_type": "issue_comment",
@@ -3605,9 +3730,9 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
     "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
-    "code_full_regeneration": "a47abaf46b2fc9d6b65d30db2a05e7603ab4d445",
-    "spm_play_declaration": "38c836c047399e5fc9c7b2844b1e6aa7a2da9adc",
-    "public_recorded_play": "f1f8898c79fa8763fecb827dfcc8f7c3c88f5789",
-    "observed_at": "2026-11-21T17:16:16Z"
+    "loss_play_source": "c1b4f6808e973b51fd241869710e2205365e054a",
+    "recorded_both_plays": "ff122013ff3f68f570b1ef983540cd2005013ed0",
+    "original_replacement_log": "f1f8898c79fa8763fecb827dfcc8f7c3c88f5789",
+    "observed_at": "2026-11-21T17:32:38Z"
   }
 }
