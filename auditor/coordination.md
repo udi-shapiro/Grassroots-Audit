@@ -1,3 +1,7 @@
+# Secure Friendship and GSC project follow-ups — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the project replies on re-keying and live-loss modelling. Public GLP `6c14d338145f6a65c6c1727cd71c7d46cb51e2b7` still has the separate custodian effects and no Secure Friendship play. [GSC’s paper follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7061253610) reports edits pending the Overleaf handoff. GSC says the marked state-loss proposal has yet to be submitted. See [stage 37](stages/37-pr30-50-76-gsc-spm-followups-20261121.json).
+
 # Secure Friendship catalogue term reconciled — 21 November 2026
 
 [Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves Calculus’s two dated replies. At public GLP `6c14d338145f6a65c6c1727cd71c7d46cb51e2b7`, the reprinted catalogue term matches the verdict stamp and the body in the adopted module and its cascade copy. The manifest still records no Secure Friendship play. Finding 5 remains open for custodian replacement and behavioural checks. See [stage 36](stages/36-pr76-catalogue-term-reconciled-20261121.json).

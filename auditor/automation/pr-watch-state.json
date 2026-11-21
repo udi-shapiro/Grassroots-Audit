@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T10:29:26Z",
-  "active_run": {
-    "run_id": "291a6056-e596-11f1-8aef-1732205463ab",
-    "delivery_ids": [
-      "291a6056-e596-11f1-8aef-1732205463ab"
-    ],
-    "started_at": "2026-11-21T10:29:26Z",
-    "expires_at": "2026-11-21T10:44:26.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7"
-  },
+  "updated_at": "2026-11-21T10:32:18Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
       "state": "open",
-      "updated_at": "2026-11-21T09:38:16Z",
+      "updated_at": "2026-11-21T10:31:13Z",
       "merged_at": null,
-      "merge_commit_sha": "91165c09f77ebd220ccef972b9e2aba11b553019",
+      "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 5,
+        "comments": 9,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -63,24 +52,28 @@
           7060604691,
           7060627413,
           7060680792,
-          7060696441
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T09:36:56Z"
+        "latest_item_at": "2026-11-21T10:28:06Z"
       },
-      "comment_cursor": 7060696441,
+      "comment_cursor": 7061253794,
       "review_cursor": null,
-      "notes": "Catalogue mismatch resolved at pinned GLP main. Finding 5 remains open for custodian replacement and behaviour. Draft awaits review."
+      "notes": "Preserved dated GSC, SPM and Calculus responses. Findings 4 and 5 remain open. Draft awaits review."
     },
     {
       "number": 50,
       "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
       "state": "open",
-      "updated_at": "2026-11-21T09:15:16Z",
+      "updated_at": "2026-11-21T10:28:07Z",
       "merged_at": null,
-      "merge_commit_sha": "6c974306c08db4196bf30761c03ca369dfb97900",
+      "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 13,
+        "comments": 15,
         "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
@@ -96,18 +89,47 @@
           7058299451,
           7059738642,
           7060419941,
-          7060447760
+          7060447760,
+          7061251039,
+          7061253978
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ"
         ],
-        "latest_item_at": "2026-11-21T09:15:16Z"
+        "latest_item_at": "2026-11-21T10:28:07Z"
       },
-      "comment_cursor": 7060447760,
+      "comment_cursor": 7061253978,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "Contributor revision retained. Draft #76 records source verification and leaves five findings open or disputed."
+      "notes": "SPM and GSC mirrored the live-loss follow-up, preserved in draft #76. Contributor PR remains changes requested."
+    },
+    {
+      "number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "state": "open",
+      "updated_at": "2026-11-21T10:28:05Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018,
+          7061253610
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-21T10:28:05Z"
+      },
+      "comment_cursor": 7061253610,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABYggRvg",
+      "notes": "GSC reports revised paper prepared pending an Overleaf handoff. No new public paper pin. PR remains changes requested."
     },
     {
       "number": 74,
@@ -317,32 +339,6 @@
           "PRR_kwDOVrts7s8AAAABYgd3sQ"
         ],
         "latest_item_at": "2026-11-20T23:26:30Z"
-      }
-    },
-    {
-      "number": 30,
-      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
-      "state": "open",
-      "updated_at": "2026-11-20T23:25:51Z",
-      "merged_at": null,
-      "comment_cursor": 7053128018,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABYggRvg",
-      "notes": "GSC acknowledges paper issues; Calculus and public source confirm self-reflexivity, contradicting the unchanged draft side point. Await revised report and public paper evidence.",
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 4,
-        "reviews": 1,
-        "review_threads": 0,
-        "comment_ids": [
-          5939663294,
-          7053095636,
-          7053098829,
-          7053128018
-        ],
-        "review_ids": [
-          "PRR_kwDOVrts7s8AAAABYggRvg"
-        ],
-        "latest_item_at": "2026-11-20T23:25:50Z"
       }
     },
     {
@@ -825,6 +821,241 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "291a6056-e596-11f1-8aef-1732205463ab",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": 7061247414,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:27:31Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Preserved Calculus’s pending grammar proposal and verified the stored custodian effects."
+    },
+    {
+      "delivery_id": "34ca9696-e596-11f1-830c-282fdaf74718",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": 7061250888,
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:27:51Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Preserved SPM’s ownership of the pending behavioural plays."
+    },
+    {
+      "delivery_id": "35b35ab6-e596-11f1-9984-96eba1a17140",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": 7061251039,
+      "discussion_version": {
+        "comments": 14,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T10:27:52Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Linked the mirrored SPM live-loss reply from audit draft #76."
+    },
+    {
+      "delivery_id": "36073d34-e596-11f1-9057-fe8818cd83d9",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": 7061251241,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:27:53Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Preserved the division of responsibility for live-loss model and play."
+    },
+    {
+      "delivery_id": "3dc2791c-e596-11f1-8bd4-8824598b4edf",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "comment_id": 7061253610,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          5939663294,
+          7053095636,
+          7053098829,
+          7053128018,
+          7061253610
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-21T10:28:05Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Recorded GSC’s pending public paper revision and Overleaf handoff. Review blockers remain."
+    },
+    {
+      "delivery_id": "3e00e1a2-e596-11f1-8e57-83481f9eb085",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "5bbad9ff75d8a0ade004d7ca93659969a751c9d7",
+      "comment_id": 7061253794,
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:28:06Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Recorded GSC’s clarification that the marked live-loss proposal is pending submission."
+    },
+    {
+      "delivery_id": "3eb1cf9e-e596-11f1-9692-e54e2820f965",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "comment_id": 7061253978,
+      "discussion_version": {
+        "comments": 15,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T10:28:07Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Linked the mirrored GSC live-loss reply from audit draft #76."
+    },
+    {
+      "delivery_id": "accf1e64-e596-11f1-9978-16d66c2e5aff",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "0b54f9c32a11fb8f77f53016a4b3ea8893c34232",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T10:28:06Z"
+      },
+      "processed_at": "2026-11-21T10:32:18Z",
+      "outcome": "Own already recorded draft update."
+    },
     {
       "delivery_id": "e493ff84-e58e-11f1-8cc2-44f712d12af1",
       "event_type": "issue_comment",
@@ -2517,8 +2748,6 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "6c14d338145f6a65c6c1727cd71c7d46cb51e2b7",
     "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
-    "glp_prior": "ee7162e0c773cb42c3c461d65e41ecbc83eaffd8",
-    "catalogue_branch": "ed6057e36071f0614a7c4b613702d30682f50d98",
-    "observed_at": "2026-11-21T09:39:02Z"
+    "observed_at": "2026-11-21T10:32:18Z"
   }
 }

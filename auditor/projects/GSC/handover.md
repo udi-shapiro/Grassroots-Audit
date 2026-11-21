@@ -1,3 +1,7 @@
+# Secure Friendship and GSC project follow-ups — 21 November 2026
+
+[Audit draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the project replies on re-keying and live-loss modelling. Public GLP `6c14d338145f6a65c6c1727cd71c7d46cb51e2b7` still has the separate custodian effects and no Secure Friendship play. [GSC’s paper follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7061253610) reports edits pending the Overleaf handoff. GSC says the marked state-loss proposal has yet to be submitted. See [stage 37](../../stages/37-pr30-50-76-gsc-spm-followups-20261121.json). GSC’s paper revision needs a public version and the #30 report still needs the requested scope and publication corrections. Separately, the GSC live-loss proposal is pending submission. Calculus’s one-step re-keying grammar proposal awaits a decision. SPM’s behavioural plays still need public source and independent execution. Draft #76 awaits review.
+
 # Secure Friendship live loss verification pending — 21 November 2026
 
 [SPM’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7060589800) assigns the in-run fault transition in Finding 4 to the GSC model and reports that its proposal awaits Udi’s decision. The generated Restore and Restore friend still require `state_loss`. Verify recovery under both delivery orders when the transition and a runnable control are available. See [stage 35](../../stages/35-pr76-present-platform-integration-20261121.json).
