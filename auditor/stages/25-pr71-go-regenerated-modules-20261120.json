@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "08fd7ae4-e553-11f1-9abd-59b7b903f92a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "comment_id": 7055910242,
+      "head_sha": "3f349c84f9c54807572474e61736ebf830c7c274",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T02:27:01Z"
+      },
+      "processed_at": "2026-11-21T02:29:55Z",
+      "outcome": "Preserved GO's dated follow-up, independently inspected regenerated modules and compared compiled platform blobs. Updated the publication, findings remain open."
+    },
+    {
+      "delivery_id": "6ca13e96-e553-11f1-9b66-5baf606c7b6d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "4ef7bc685179fc7c04b56fe76bf67830c185e6dd",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T02:27:01Z"
+      },
+      "processed_at": "2026-11-21T02:29:55Z",
+      "outcome": "Observed own publication update. Review pending at the new head."
+    }
+  ],
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "prior_head": "3f349c84f9c54807572474e61736ebf830c7c274",
+    "head": "4ef7bc685179fc7c04b56fe76bf67830c185e6dd",
+    "state": "open",
+    "review": "Pending",
+    "report_blob": "4623fc2ef666593c0e7998c7168ea31e6ba55c8a",
+    "index_blob": "9722c2745b7468e369d5dc4546dc3521a13d384a"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers_metadata_only": "2fe40e3f10b3c197c54729d9e1622d1c8b74a548",
+    "regenerated_modules": "dc464bcff458a309ecde4a4ed87cde17e3ac7c45",
+    "previous_go_revision": "e8688eafb085841202953c70e75697f7f69bca49"
+  },
+  "project_claim": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242",
+    "attribution": "GO (GO #14), dated 2026-11-21 UTC, submitted by Audit #3",
+    "summary": "Regenerated schema modules are available. The compiled cascade platforms still await regeneration; all three findings stay open."
+  },
+  "source_inspection": {
+    "observations": [
+      "Source assertions confirm the standalone Organisation Enter is absent and Found has participant, role, first-officer effects and founder consent.",
+      "Award, Order, Book and Engage carry amount-bearing locks. Arbitrate has deal and fee operands. Liquid Cooperative now contains all four Count acts.",
+      "All seven programs/go modules and their cascade schema copies changed. Generated full-schemas files changed. Existing platform.vglp, platform.glp and interface.glp blobs are unchanged from e8688eaf. Community Network and Community Market have no standalone compiled platforms at this pin. Organisation's unchanged manifest still identifies 7f55cf2e."
+    ],
+    "checks": {
+      "noStandaloneEnter": true,
+      "foundAdds": true,
+      "foundRequiresFounder": true,
+      "fees": true,
+      "voteActs": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "amounts": {
+        "Rides": true,
+        "Lodging": true,
+        "Gigs": true,
+        "Community-Market": true
+      }
+    },
+    "blobs_old_and_new": {
+      "Organisation": {
+        "programs/go/Organisation.glp": [
+          "0f5ef86eb7db11f21ffe9f5913ec61959111af90",
+          "e601ffd8de4361776de6976737170101f2c338c6"
+        ],
+        "cascade/Organisation/Organisation.glp": [
+          "0f5ef86eb7db11f21ffe9f5913ec61959111af90",
+          "e601ffd8de4361776de6976737170101f2c338c6"
+        ],
+        "cascade/Organisation/full-schemas.txt": [
+          "dc1662eb1a8dfefbe1a9a6e0e777c1a6ac2915b5",
+          "b2bfca808fdf6dfbda70d214aebd2737d48a3689"
+        ],
+        "cascade/Organisation/manifest.md": [
+          "0522bd834a98212044e2764a383516b1e43dac0a",
+          "0522bd834a98212044e2764a383516b1e43dac0a"
+        ],
+        "cascade/Organisation/platform.vglp": [
+          "e82cc62baa2993d1e21ba16130a1db6e28b54b4a",
+          "e82cc62baa2993d1e21ba16130a1db6e28b54b4a"
+        ],
+        "cascade/Organisation/platform.glp": [
+          "7fc2b1afa8cd2de9573dfd5171b016345a4eef55",
+          "7fc2b1afa8cd2de9573dfd5171b016345a4eef55"
+        ],
+        "cascade/Organisation/interface.glp": [
+          "92d289203898442cd14944d9e9d16e8d9b2d78f9",
+          "92d289203898442cd14944d9e9d16e8d9b2d78f9"
+        ]
+      },
+      "Community-Network": {
+        "programs/go/Community-Network.glp": [
+          "38429f83834ebf233662ff2fe5951bfeeb3fd5b0",
+          "bb7188e8cbe89d791703a6ad10a1d6699559c54d"
+        ],
+        "cascade/Community-Network/Community-Network.glp": [
+          "38429f83834ebf233662ff2fe5951bfeeb3fd5b0",
+          "bb7188e8cbe89d791703a6ad10a1d6699559c54d"
+        ],
+        "cascade/Community-Network/full-schemas.txt": [
+          "ac1307a09bf2eb98745a072e25d07800f84c0f21",
+          "506a0e1af2fc7a98779b78fe5d0be5827940052c"
+        ],
+        "cascade/Community-Network/manifest.md": [
+          "3b1f92dfd606802f6aa7888f9bb0b4b7d009e920",
+          "3b1f92dfd606802f6aa7888f9bb0b4b7d009e920"
+        ],
+        "cascade/Community-Network/platform.vglp": [
+          null,
+          null
+        ],
+        "cascade/Community-Network/platform.glp": [
+          null,
+          null
+        ],
+        "cascade/Community-Network/interface.glp": [
+          null,
+          null
+        ]
+      },
+      "Rides": {
+        "programs/go/Rides.glp": [
+          "77fbfcde4ff623c85483854b3072bca2b8b37bb2",
+          "98187e4591b88ee660b8beb12fc42fc0d8ac473e"
+        ],
+        "cascade/Rides/Rides.glp": [
+          "77fbfcde4ff623c85483854b3072bca2b8b37bb2",
+          "98187e4591b88ee660b8beb12fc42fc0d8ac473e"
+        ],
+        "cascade/Rides/full-schemas.txt": [
+          "aefd860585b6ea78195d3eafd8acf3ca83adf0c4",
+          "021e30e622e6e59bb3b718f3321b07f5bfe706c5"
+        ],
+        "cascade/Rides/manifest.md": [
+          "be6b576ba3adefa9e7ca7f6ef0bb4bde0bbe709b",
+          "be6b576ba3adefa9e7ca7f6ef0bb4bde0bbe709b"
+        ],
+        "cascade/Rides/platform.vglp": [
+          "ded62d7b6de14a6e285d12a9654faef32981737d",
+          "ded62d7b6de14a6e285d12a9654faef32981737d"
+        ],
+        "cascade/Rides/platform.glp": [
+          "db3d9acbaa3aa5f17d8da4eee804eaf4584c4837",
+          "db3d9acbaa3aa5f17d8da4eee804eaf4584c4837"
+        ],
+        "cascade/Rides/interface.glp": [
+          "ee283a33f5fee62d421947775f8f3d093a462fe8",
+          "ee283a33f5fee62d421947775f8f3d093a462fe8"
+        ]
+      },
+      "Lodging": {
+        "programs/go/Lodging.glp": [
+          "e3009a26a3cc9d156725c61a61b5c64b52ff2085",
+          "f00a2512ea779dfde1e68d67df589830cfe27baf"
+        ],
+        "cascade/Lodging/Lodging.glp": [
+          "e3009a26a3cc9d156725c61a61b5c64b52ff2085",
+          "f00a2512ea779dfde1e68d67df589830cfe27baf"
+        ],
+        "cascade/Lodging/full-schemas.txt": [
+          "bf56817bfac20bca049fd633a0b2fd15fc7bcc00",
+          "51d0d218df94eb1fd1ec0543dea10971bafb3f88"
+        ],
+        "cascade/Lodging/manifest.md": [
+          "8be87a2ab2e05618c7ade7be59cd429ee73dc67a",
+          "8be87a2ab2e05618c7ade7be59cd429ee73dc67a"
+        ],
+        "cascade/Lodging/platform.vglp": [
+          "ca22232084117469041e168d86651e8225796e41",
+          "ca22232084117469041e168d86651e8225796e41"
+        ],
+        "cascade/Lodging/platform.glp": [
+          "744d7751dde8000be8b7dcc3ce987b78dfe131ee",
+          "744d7751dde8000be8b7dcc3ce987b78dfe131ee"
+        ],
+        "cascade/Lodging/interface.glp": [
+          "29532e3f655828dda5186f84358d4e75758e88d8",
+          "29532e3f655828dda5186f84358d4e75758e88d8"
+        ]
+      },
+      "Gigs": {
+        "programs/go/Gigs.glp": [
+          "e8b6bbe70346534f41379ee1741b67f37d0516ed",
+          "c329c56b3c55d7b240e05ce023dbadd45507e6e1"
+        ],
+        "cascade/Gigs/Gigs.glp": [
+          "e8b6bbe70346534f41379ee1741b67f37d0516ed",
+          "c329c56b3c55d7b240e05ce023dbadd45507e6e1"
+        ],
+        "cascade/Gigs/full-schemas.txt": [
+          "82201b5c817e24253a1e55630aaba60c881f7b3f",
+          "dc60fcb6f6fd58376fcd287bc5ffaf1e896f3155"
+        ],
+        "cascade/Gigs/manifest.md": [
+          "052fdee9b550594f4772fd474ddac2061e2e904b",
+          "052fdee9b550594f4772fd474ddac2061e2e904b"
+        ],
+        "cascade/Gigs/platform.vglp": [
+          "b1babe776415035948b8c84c5e0733be0e8cdf1a",
+          "b1babe776415035948b8c84c5e0733be0e8cdf1a"
+        ],
+        "cascade/Gigs/platform.glp": [
+          "50ce19d9d782913bd3ab6a97b88ef35893569cab",
+          "50ce19d9d782913bd3ab6a97b88ef35893569cab"
+        ],
+        "cascade/Gigs/interface.glp": [
+          "7da0aa42744db7aea3ffb3e86aa40c2759d8e71b",
+          "7da0aa42744db7aea3ffb3e86aa40c2759d8e71b"
+        ]
+      },
+      "Community-Market": {
+        "programs/go/Community-Market.glp": [
+          "4995ec0525c02c6b80c5dbf344c772e3b5c81077",
+          "f46fb3a59367738d4a63a0bd2d8db085a37a0c6f"
+        ],
+        "cascade/Community-Market/Community-Market.glp": [
+          null,
+          "f46fb3a59367738d4a63a0bd2d8db085a37a0c6f"
+        ],
+        "cascade/Community-Market/full-schemas.txt": [
+          null,
+          "0b5119e8f999aa60f07f419b9a422edebf1acf60"
+        ],
+        "cascade/Community-Market/manifest.md": [
+          null,
+          null
+        ],
+        "cascade/Community-Market/platform.vglp": [
+          null,
+          null
+        ],
+        "cascade/Community-Market/platform.glp": [
+          null,
+          null
+        ],
+        "cascade/Community-Market/interface.glp": [
+          null,
+          null
+        ]
+      },
+      "Liquid-Cooperative": {
+        "programs/go/Liquid-Cooperative.glp": [
+          "8c60c8a80f11562ae9e43d6b5e93539566a5f5a7",
+          "7e5eb746f2c154dd6e49983afd599f0e36e9e7b3"
+        ],
+        "cascade/Liquid-Cooperative/Liquid-Cooperative.glp": [
+          "8c60c8a80f11562ae9e43d6b5e93539566a5f5a7",
+          "7e5eb746f2c154dd6e49983afd599f0e36e9e7b3"
+        ],
+        "cascade/Liquid-Cooperative/full-schemas.txt": [
+          "3c5b062645f62cfa55cd961c4dd08fe29ace5762",
+          "729ccdeea7309442bd45ff1806bad516efc5ed2a"
+        ],
+        "cascade/Liquid-Cooperative/manifest.md": [
+          "7f385cb4c1b020873b19d67bef6c983ac526f966",
+          "7f385cb4c1b020873b19d67bef6c983ac526f966"
+        ],
+        "cascade/Liquid-Cooperative/platform.vglp": [
+          "858853dda5cf827d3fb93dc85ae827fd884a8e01",
+          "858853dda5cf827d3fb93dc85ae827fd884a8e01"
+        ],
+        "cascade/Liquid-Cooperative/platform.glp": [
+          "6b09b430c354a7d6d2f4ea49ae6454c41582f1df",
+          "6b09b430c354a7d6d2f4ea49ae6454c41582f1df"
+        ],
+        "cascade/Liquid-Cooperative/interface.glp": [
+          "eee1f9958d0f0d7cc50572c56dee220ab6c6ebaa",
+          "eee1f9958d0f0d7cc50572c56dee220ab6c6ebaa"
+        ]
+      }
+    }
+  },
+  "execution": {
+    "status": "python3 bin/status.py and cmp both returned zero. Published table matches byte for byte. 29 reports, 23 findings, zero unanswered.",
+    "product": "No GLP cascade, checker or runtime executed in this follow-up. Earlier catalogue compiler executions remain pinned in stage 24."
+  },
+  "next": "Review the updated publication. When a public cascade revision is available, compare newly generated platform and interface outputs to the corrected modules, then verify founding paths, per-agreement settlement and conservation (including fees and zero-deposit/nonnegative controls), and delegation with chains, prior direct vote and cycles."
+}

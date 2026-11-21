@@ -1,3 +1,7 @@
+# GO schema modules regenerated — 20 November 2026
+
+[GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7055910242) points to public GLP `dc464bcff458a309ecde4a4ed87cde17e3ac7c45`. All seven regenerated schema modules are present and the source checks confirm the reported Found, lock and Count changes. The existing compiled platform and interface blobs still match the earlier branch revision. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier inspection and adds the new evidence at head `4ef7bc685179fc7c04b56fe76bf67830c185e6dd`. Findings 2, 3 and 6 remain open. No GLP runtime test ran. See [stage 25](../../stages/25-pr71-go-regenerated-modules-20261120.json).
+
 # GO contract corrections partially verified — 20 November 2026
 
 [PR #70](https://github.com/udi-shapiro/Grassroots-Audit/pull/70) preserves GO’s public correction pin `e8688eafb085841202953c70e75697f7f69bca49`. The pinned Python tools rebuilt all seven relevant catalogue schemas. The checked-in modules still contain the earlier forms of Organisation Enter, the service locks, and Liquid Cooperative voting. [Verification PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) is open for review. Findings 2, 3 and 6 remain open. See [stage 24](../../stages/24-pr70-go-public-verification-20261120.json).
