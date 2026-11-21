@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T03:36:46Z",
-  "active_run": {
-    "run_id": "c71b564e-e563-11f1-83a4-97128c1d4f85",
-    "delivery_id": "c71b564e-e563-11f1-83a4-97128c1d4f85",
-    "pull_request_number": 73,
-    "started_at": "2026-11-21T04:27:52Z",
-    "acquired_at": "2026-11-21T04:27:52Z",
-    "expires_at": "2026-11-21T04:42:52.000Z",
-    "expected_head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c"
-  },
+  "updated_at": "2026-11-21T04:29:31Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -65,22 +57,24 @@
     },
     {
       "number": 73,
-      "head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+      "head_sha": "ce96384c621ab0000be25cd2b6396333202fa91f",
       "state": "open",
-      "updated_at": "2026-11-21T03:36:37Z",
+      "updated_at": "2026-11-21T04:29:25Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 1,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7057260574
+        ],
         "review_ids": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-21T04:26:52Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7057260574,
       "review_cursor": null,
-      "notes": "Own source-inspection publication verified at head; awaiting review."
+      "notes": "Preserved GSA SG excerpt and verified source equivalence. Issue #38 remains open and revised publication awaits review."
     },
     {
       "number": 70,
@@ -746,6 +740,45 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "c71b564e-e563-11f1-83a4-97128c1d4f85",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 73,
+      "head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+      "comment_id": 7057260574,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7057260574
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:26:52Z"
+      },
+      "processed_at": "2026-11-21T04:29:31Z",
+      "outcome": "Preserved the attributed SG output excerpt in the verification PR and independently matched the relevant source and verdict-control definitions. No runtime test ran."
+    },
+    {
+      "delivery_id": "2246d660-e564-11f1-8f13-50c6d1ac6446",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 73,
+      "head_sha": "ce96384c621ab0000be25cd2b6396333202fa91f",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7057260574
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:26:52Z"
+      },
+      "processed_at": "2026-11-21T04:29:31Z",
+      "outcome": "Observed own publication update. No additional interaction. Review pending."
+    },
     {
       "delivery_id": "3a313ad4-e55c-11f1-8abe-b91a9210b388",
       "event_type": "pull_request",
@@ -1789,8 +1822,8 @@
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
-    "glp_papers": "2fe40e3f10b3c197c54729d9e1622d1c8b74a548",
-    "glp_gsa_branch": "2939308886862b76d056330fd6e8f03c22416675",
-    "observed_at": "2026-11-21T03:36:46Z"
+    "glp_papers": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "gsa_reported_test_revision": "6c18841c2d03c8b1ab3ccd0cbf1f1df217f76663",
+    "observed_at": "2026-11-21T04:29:31Z"
   }
 }

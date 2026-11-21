@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "c71b564e-e563-11f1-83a4-97128c1d4f85",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 73,
+      "head_sha": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+      "comment_id": 7057260574,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7057260574
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:26:52Z"
+      },
+      "processed_at": "2026-11-21T04:29:31Z",
+      "outcome": "Preserved the attributed SG output excerpt in the verification PR and independently matched the relevant source and verdict-control definitions. No runtime test ran."
+    },
+    {
+      "delivery_id": "2246d660-e564-11f1-8f13-50c6d1ac6446",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 73,
+      "head_sha": "ce96384c621ab0000be25cd2b6396333202fa91f",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7057260574
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T04:26:52Z"
+      },
+      "processed_at": "2026-11-21T04:29:31Z",
+      "outcome": "Observed own publication update. No additional interaction. Review pending."
+    }
+  ],
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/73",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "prior_head": "e8edf302bed6d0b24067be48a86e1abe4a26148c",
+    "head": "ce96384c621ab0000be25cd2b6396333202fa91f",
+    "state": "open",
+    "report_blob": "b9338b32dbe20143f35d3ac0e67138b9529e9a91",
+    "review": "pending"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "previous_gsa_revision": "2939308886862b76d056330fd6e8f03c22416675",
+    "reported_test_revision": "6c18841c2d03c8b1ab3ccd0cbf1f1df217f76663"
+  },
+  "project_claims": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/73#issuecomment-7057260574",
+    "attribution": "GSA (GSA #9), dated 2026-11-21 UTC, submitted by Audit #3",
+    "reported_command": "GLP_SECTIONS=SG",
+    "reported_total": 189,
+    "reported_pass": 188,
+    "verdict_controls": "The output excerpt reports grassroots acceptance, plus non-grassroots and malformed refusal. GSA also reports refusal without a developer warranty.",
+    "remaining": "GSA says clean refusal when contract/2 is absent awaits an export guard."
+  },
+  "source_inspection": {
+    "comparison": "The cited revision descends from the earlier branch. The install agent, checker entry point and three fixtures match byte for byte. The test harness changes include currency test rewiring, while the five matching checker-control lines and the shared registry block are unchanged.",
+    "workflow_runs": "No public workflow run was listed for the cited GLP head.",
+    "evidence": {
+      "sameControls": true,
+      "sameRegistry": true,
+      "blobs": {
+        "programs/gsc/checker/self.glp": [
+          "c8dba0804e14d89b8e50707575fb072baa4dd463",
+          "c8dba0804e14d89b8e50707575fb072baa4dd463"
+        ],
+        "programs/social/graph/checked/grassroots/self.glp": [
+          "618dfa0baf24085ee69d180017abdc344766a3a5",
+          "618dfa0baf24085ee69d180017abdc344766a3a5"
+        ],
+        "programs/social/graph/checked/malformed/self.glp": [
+          "eee0196d140efafe711cbdc237e59387e16a7df2",
+          "eee0196d140efafe711cbdc237e59387e16a7df2"
+        ],
+        "programs/social/graph/checked/not_grassroots/self.glp": [
+          "1eeb8dff2dbcc99e77ef546838a213478c3bc99f",
+          "1eeb8dff2dbcc99e77ef546838a213478c3bc99f"
+        ],
+        "programs/social/graph/core/agent.glp": [
+          "50bdf8983b662ba448ccd3ba53fc1f2db6a12802",
+          "50bdf8983b662ba448ccd3ba53fc1f2db6a12802"
+        ],
+        "test/run_all_tests.sh": [
+          "e6c91954a63125d4839c750cbf3361a701edc474",
+          "bae7421d378b72f7a1e605dd58d09f2b3ac2852e"
+        ]
+      }
+    }
+  },
+  "checks": {
+    "executed": "python3 bin/status.py and cmp both returned zero. 29 reports, 23 findings, 0 unanswered. Generated table matches the published bytes.",
+    "pending": "No independent GLP compiler or SG run. Dart and Flutter were unavailable."
+  },
+  "next": "Review updated PR #73. PR #72 remains open with its approval blocker. Keep issue #38 open. Independently rerun the existing installation controls at a reproducible public pin and check that an absent contract export is refused while the agent remains available."
+}
