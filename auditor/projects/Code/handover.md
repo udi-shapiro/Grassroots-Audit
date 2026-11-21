@@ -1,3 +1,9 @@
+# Secure Friendship state-loss dependency — 21 November 2026
+
+The [pinned public log](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/run.log#L34-L39) still records the old Restore commit. Check the regenerated public cascade and Section CAS evidence, and record whether any post-Accept Restore attempts reached a vote. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
+
+---
+
 # Secure Friendship scratch run recorded — 21 November 2026
 
 The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports a successful six-play scratch run. Public [platform](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/platform.vglp) and [run log](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/run.log) retain their earlier blobs. Inspect the regenerated public cascade and Section CAS evidence when published.

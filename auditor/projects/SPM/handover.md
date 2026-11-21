@@ -1,3 +1,9 @@
+# Secure Friendship state-loss dependency — 21 November 2026
+
+[SPM clarified](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) that the scratch refusals were before Accept and that Carol made no later Restore friend attempt. After GSC’s in-run fault, exercise both notice orders, successful recovery and loss of Bob’s acceptance record. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
+
+---
+
 # Secure Friendship scratch run recorded — 21 November 2026
 
 The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports both stale Restore refusals. The [fixture revision](https://github.com/EShapiro2/GLP/commit/ceb43d73724b8b8ca9eae5c0c6749163f69382af) changes only comments. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves this result under Finding 4. Next check both notification orders, positive replacement recovery and actual loss of the receiver’s acceptance record.

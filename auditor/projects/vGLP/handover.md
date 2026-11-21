@@ -1,3 +1,9 @@
+# Secure Friendship state-loss dependency — 21 November 2026
+
+[SPM’s timing clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) leaves post-Accept refusal coverage pending. Check both forbidden wildcard guards in the regenerated public schema and distinguish no attempt from a no vote. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
+
+---
+
 # Secure Friendship scratch run recorded — 21 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports use of the corrected compiler for the six-play scratch run. The [stored platform](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/platform.vglp) predates regeneration. Verify both forbidden wildcard guards in the regenerated schema and verify logged refusals separately.

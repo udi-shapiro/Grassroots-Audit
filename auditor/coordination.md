@@ -1,3 +1,9 @@
+# Secure Friendship state-loss dependency — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves [SPM’s timing clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744). The scratch refusals were before Accept. Source checks show that isolating Carol’s notice guard needs Bob to lose acceptance after Tell change. Recovering the replacement friendship needs an in-run loss of that friendship. SPM identifies the GSC fault as with Udi. The regenerated public trace and independent runtime verification are pending. See [stage 59](stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
+
+---
+
 # Secure Friendship scratch run recorded — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the [SPM scratch-run report](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026). The project reports both stale Restore attempts were refused across a six-play run with the corrected compiler and catalogue. The fixture pin changes comments only and public GLP main still serves the earlier trace. Finding 4 stays open for public trace verification, both notification orders, positive recovery, and actual loss of the acceptance record. See [stage 58](stages/58-pr76-secure-friendship-scratch-run-20261121.json).

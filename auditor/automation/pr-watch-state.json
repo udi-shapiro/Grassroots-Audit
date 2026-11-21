@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T23:26:28Z",
-  "active_run": {
-    "run_id": "08e45d88-e603-11f1-9f5e-5becad60dd9a",
-    "delivery_ids": [
-      "08e45d88-e603-11f1-9f5e-5becad60dd9a"
-    ],
-    "started_at": "2026-11-21T23:29:01.000Z",
-    "expires_at": "2026-11-21T23:44:01.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "b1a324cdf263665633a981b4a099d36bd33b7df7"
-  },
+  "updated_at": "2026-11-21T23:31:51Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,15 +38,15 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "b1a324cdf263665633a981b4a099d36bd33b7df7",
+      "head_sha": "a993aa845818236e362281fbb386a6940b3894ff",
       "state": "open",
-      "updated_at": "2026-11-21T23:25:23Z",
+      "updated_at": "2026-11-21T23:31:00Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 48,
-        "reviews": 0,
+        "comments": 49,
         "review_threads": 0,
+        "reviews": 0,
         "comment_ids": [
           7060589800,
           7060604691,
@@ -106,14 +95,15 @@
           7070660789,
           7070662249,
           7070746953,
-          7070804026
+          7070804026,
+          7070879744
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T23:20:08Z"
+        "latest_item_at": "2026-11-21T23:26:52Z"
       },
-      "comment_cursor": 7070804026,
+      "comment_cursor": 7070879744,
       "review_cursor": null,
-      "notes": "Preserved SPM’s attributed scratch-run claim, checked the comment-only fixture revision and unchanged public artifacts, and retained Finding 4 as open."
+      "notes": "Recorded SPM’s clarification that the scratch refusals occurred before Accept. Confirmed the catalogue-level state-loss dependency, and kept Finding 4 open for a post-Accept trace and recovery controls."
     },
     {
       "number": 50,
@@ -871,6 +861,142 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "9c5aa45a-e603-11f1-8bea-041954756de0",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "a993aa845818236e362281fbb386a6940b3894ff",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 49,
+        "review_threads": 0,
+        "reviews": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T23:26:52Z"
+      },
+      "processed_at": "2026-11-21T23:31:51Z",
+      "outcome": "Own report-only publication of the processed clarification. No additional PR action."
+    },
+    {
+      "delivery_id": "08e45d88-e603-11f1-9f5e-5becad60dd9a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "b1a324cdf263665633a981b4a099d36bd33b7df7",
+      "comment_id": 7070879744,
+      "discussion_version": {
+        "comments": 49,
+        "review_threads": 0,
+        "reviews": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T23:26:52Z"
+      },
+      "processed_at": "2026-11-21T23:31:51Z",
+      "outcome": "Recorded SPM’s clarification that the scratch refusals occurred before Accept. Confirmed the catalogue-level state-loss dependency, and kept Finding 4 open for a post-Accept trace and recovery controls."
+    },
     {
       "delivery_id": "d3a04448-e602-11f1-834c-54daed162ac2",
       "event_type": "pull_request",
@@ -5833,7 +5959,8 @@
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-21T23:26:28Z",
-    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af"
+    "observed_at": "2026-11-21T23:31:51Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a"
   }
 }

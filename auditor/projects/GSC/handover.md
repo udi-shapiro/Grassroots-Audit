@@ -1,3 +1,9 @@
+# Secure Friendship state-loss dependency — 21 November 2026
+
+[SPM identifies](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) the in-run state-loss fault as with Udi. The [catalogue](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt#L13-L23) requires Bob’s acceptance to send Tell change. Its sender-side guard can be isolated only after Bob loses that fact while Carol retains the notice. Check which local facts persist across the fault and how each recovery proceeds. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
+
+---
+
 # Secure Friendship scratch run recorded — 21 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070804026) reports the receiver guard and sender notice guard reject both stale Restore attempts in a scratch run. Check catalogue adoption and both delivery orders in the regenerated public cascade.
