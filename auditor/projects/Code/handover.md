@@ -1,3 +1,9 @@
+# Forbidden wildcard scope in the public catalogue — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records a public count of 737 affected schema entries in 42 of 91 catalogue terms on GLP main `2aa20416b81bc42a8ad330a688c31f03e27b91b4`, plus one entry on the Calculus branch. The [compiler report](https://github.com/udi-shapiro/Grassroots-Audit/blob/6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00/programs/vglp/cva/compiler/text.glp.md#related-open-finding-forbidden-wildcards) links three generated examples and the common source path. Calculus’s wider count needs its exact input inventory. Runtime verification remains pending. See [stage 54](../../stages/54-pr76-forbidden-wildcard-catalogue-scope-20261121.json).
+
+Regenerate affected executable platforms after the vGLP fix. Start with the recorded Secure Friendship controls and sample other schemas using forbidden any. Record which contracts lack executable outputs.
+
 # Secure Friendship forbidden wildcard checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records [SPM’s failed Restore control](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7069656729). The [generated forbidden-atom check](https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/cascade/Secure-Friendship/platform.vglp#L5008-L5028) can accept an absent test with `any` despite a concrete matching fact. The same source path affects Restore friend. This qualifies the earlier check of the intended catalogue guard. A corrected platform and public traces remain pending. See [stage 53](../../stages/53-pr76-secure-friendship-forbidden-wildcard-20261121.json).

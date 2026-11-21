@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T21:45:25Z",
-  "active_run": {
-    "run_id": "f300030e-e5f4-11f1-9a97-0e98cdae1e69",
-    "delivery_ids": [
-      "f300030e-e5f4-11f1-9a97-0e98cdae1e69"
-    ],
-    "started_at": "2026-11-21T21:49:56.000Z",
-    "expires_at": "2026-11-21T22:04:56.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7"
-  },
+  "updated_at": "2026-11-21T21:51:54Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7",
+      "head_sha": "6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00",
       "state": "open",
-      "updated_at": "2026-11-21T21:45:15Z",
+      "updated_at": "2026-11-21T21:51:44Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 41,
+        "comments": 42,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -99,14 +88,15 @@
           7069473531,
           7069476309,
           7069570106,
-          7069656729
+          7069656729,
+          7069705048
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T21:41:57Z"
+        "latest_item_at": "2026-11-21T21:46:02Z"
       },
-      "comment_cursor": 7069656729,
+      "comment_cursor": 7069705048,
       "review_cursor": null,
-      "notes": "Preserved SPM's contrary runtime result and verified a generated forbidden-wildcard mismatch in the Restore guards. Correction and public refusal traces pending."
+      "notes": "Verified the public catalogue scope and matched the forbidden-wildcard mechanism in three generated platforms. Compiler fix and project corpus reconciliation pending."
     },
     {
       "number": 50,
@@ -864,6 +854,128 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "f300030e-e5f4-11f1-9a97-0e98cdae1e69",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7",
+      "comment_id": 7069705048,
+      "discussion_version": {
+        "comments": 42,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:46:02Z"
+      },
+      "processed_at": "2026-11-21T21:51:54Z",
+      "outcome": "Preserved Calculus’s corpus claim. Independently counted the pinned public catalogue and found the same forbidden-wildcard path in three other generated platforms. The reported count has a different corpus."
+    },
+    {
+      "delivery_id": "be4060d6-e5f5-11f1-93b5-055ccd2ef9fd",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 42,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:46:02Z"
+      },
+      "processed_at": "2026-11-21T21:51:54Z",
+      "outcome": "Own audit draft publication at the observed head. No discussion reply."
+    },
     {
       "delivery_id": "605d3f94-e5f4-11f1-86e6-3ccff844c556",
       "event_type": "issue_comment",
@@ -4992,7 +5104,7 @@
     "glp_main": "2aa20416b81bc42a8ad330a688c31f03e27b91b4",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "calculus_guard": "fb822922dd8c2fa32ceff15882d5a494188bd89c",
-    "spm_fixture": "b1596a1914f9e068c53dd0b682d4af4044b7686e",
-    "observed_at": "2026-11-21T21:45:25Z"
+    "code_branch": "ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d",
+    "observed_at": "2026-11-21T21:51:54Z"
   }
 }

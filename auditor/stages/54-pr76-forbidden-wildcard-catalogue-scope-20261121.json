@@ -1,0 +1,815 @@
+{
+  "date": "2026-11-21",
+  "events": [
+    {
+      "delivery_id": "f300030e-e5f4-11f1-9a97-0e98cdae1e69",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "293b67848f20b4b07432899af5eeab779a5b16e7",
+      "comment_id": 7069705048,
+      "discussion_version": {
+        "comments": 42,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:46:02Z"
+      },
+      "processed_at": "2026-11-21T21:51:54Z",
+      "outcome": "Preserved Calculus’s corpus claim. Independently counted the pinned public catalogue and found the same forbidden-wildcard path in three other generated platforms. The reported count has a different corpus."
+    },
+    {
+      "delivery_id": "be4060d6-e5f5-11f1-93b5-055ccd2ef9fd",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 42,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T21:46:02Z"
+      },
+      "processed_at": "2026-11-21T21:51:54Z",
+      "outcome": "Own audit draft publication at the observed head. No discussion reply."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "2aa20416b81bc42a8ad330a688c31f03e27b91b4",
+    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "calculus_guard": "fb822922dd8c2fa32ceff15882d5a494188bd89c",
+    "code_branch": "ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d"
+  },
+  "pull_request": {
+    "number": 76,
+    "prior_head": "293b67848f20b4b07432899af5eeab779a5b16e7",
+    "head": "6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00",
+    "state": "open",
+    "draft": true,
+    "discussion": {
+      "comments": 42,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253,
+        7067314780,
+        7067364782,
+        7067612357,
+        7068625212,
+        7068678235,
+        7068705219,
+        7068999354,
+        7069004310,
+        7069007322,
+        7069059175,
+        7069473531,
+        7069476309,
+        7069570106,
+        7069656729,
+        7069705048
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-21T21:46:02Z"
+    },
+    "report_blob": "1b8d63cece56fe4a668be1a229b478ab83784a54",
+    "compiler_report_blob": "e87e2850ae5585ffb22fe03b12009ca937168b8d",
+    "index_blob": "68d79932ff0b73495620a8c60c9a2569f20d1e35",
+    "table_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+  },
+  "links": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76",
+    "calculus_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7069705048",
+    "public_catalogue": "https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/calculus/contracts",
+    "compiler_source": "https://github.com/EShapiro2/GLP/blob/2aa20416b81bc42a8ad330a688c31f03e27b91b4/programs/vglp/cva/compiler/text.glp",
+    "vglp_paper": "https://github.com/EShapiro2/GLP/blob/3424e4971fe34e7c6c48aa30e5e39f58da444526/papers/vGLP.pdf",
+    "gsc_paper": "https://github.com/EShapiro2/GLP/blob/3424e4971fe34e7c6c48aa30e5e39f58da444526/papers/GSC.pdf",
+    "compiler_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/6f0663aab7ebcc9b2dfebf5eeaf2d2b00f9abf00/programs/vglp/cva/compiler/text.glp.md#related-open-finding-forbidden-wildcards"
+  },
+  "project_claims": "Calculus reports 764 affected schemas across 43 of 92 contracts and attributes universal wildcard semantics to the GSC and vGLP papers. It treats Secure Friendship’s catalogue as corrected and generated platforms as blocked on vGLP.",
+  "inspection": {
+    "summary": "Checked all 91 public catalogue terms. The compared Calculus branch differs from main only in Secure Friendship’s catalogue artifacts. Its term adds one direct forbidden wildcard. The three sampled executable platforms use any with the shared forbidden-atom helper. Some catalogued contracts have compiler refusal artifacts rather than executable platforms.",
+    "paper_blobs": {
+      "GSC": "354b7c42c64d4932639a83bf318f912ecc98eca1",
+      "vGLP": "0ab9f5a684c21aafa32652269d7914822c9de9a6"
+    },
+    "samples": [
+      {
+        "contract": "Groups",
+        "schema_name": "join",
+        "blob": "4a5e7285038e0fb742df2e5c5ac1c0269eb22a91",
+        "schema_line": 162,
+        "helper_line": 4806,
+        "image_line": 6624
+      },
+      {
+        "contract": "Denominated-Coins",
+        "schema_name": "first_issue",
+        "blob": "a77813fa2911044540df90fdf8474eff28cb44f2",
+        "schema_line": 140,
+        "helper_line": 4794,
+        "image_line": 6612
+      },
+      {
+        "contract": "Second-Score-Auction",
+        "schema_name": "call",
+        "blob": "fb3b9cee0775f1d0c13e456f9967271778c38ae6",
+        "schema_line": 294,
+        "helper_line": 4977,
+        "image_line": 6795
+      }
+    ]
+  },
+  "inventory": {
+    "method": "List calculus/contracts/*/term.glp.txt in the pinned Git tree, use exact Git blob identities, parse each sas call's seven fields and top-level list in field 5 ignoring quoted delimiters. Count a schema entry once if a direct not(atom(P, Args)) in that list has '_' as an argument. Secure-Friendship is counted with the branch term in the table, and has one fewer matching schema on main.",
+    "main": {
+      "terms": 91,
+      "affected_contracts": 42,
+      "affected_schema_entries": 737
+    },
+    "branch": {
+      "terms": 91,
+      "affected_contracts": 42,
+      "affected_schema_entries": 738
+    },
+    "records": [
+      {
+        "path": "calculus/contracts/Ads/term.glp.txt",
+        "sha": "e3247e7999081731a17db828b87ac65869b526c0",
+        "schemas": 176,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Agents/term.glp.txt",
+        "sha": "dcfc3aa298ff4f5db2bf8ca1e79a54a5999eebd9",
+        "schemas": 23,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Agora/term.glp.txt",
+        "sha": "6d38052945aa06358cc147063d9a23ac92b58f73",
+        "schemas": 38,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Anonymous-Matching/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Anonymous-Rendezvous/term.glp.txt",
+        "sha": "cb5cd243b78a2d0d163ae1a526d5fb94941a90a8",
+        "schemas": 27,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/App/term.glp.txt",
+        "sha": "eaeeb239ea2dddd5a91a9d77094d3285c6a50582",
+        "schemas": 51,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/AppStore/term.glp.txt",
+        "sha": "5699d2f6c9d8357dd3e2a6403afd256e07ac8634",
+        "schemas": 35,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Appointments/term.glp.txt",
+        "sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+        "schemas": 30,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Auction/term.glp.txt",
+        "sha": "fbebb6faaa2c0399f39e6a3451cf5be91174a7ef",
+        "schemas": 18,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Backchannel-Feeds/term.glp.txt",
+        "sha": "a56ecff2e32a65bfdbce084f50ba282b011338f4",
+        "schemas": 17,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Backed-Community/term.glp.txt",
+        "sha": "584983fae305b985f47190d1377a2eb9191fb31a",
+        "schemas": 159,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Bank/term.glp.txt",
+        "sha": "7d5c1dd0f7621a73cdc44ffa32fb09c21c08ecaf",
+        "schemas": 157,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Bonds/term.glp.txt",
+        "sha": "7d18af5c0b6685fd5bc6b4c27914a1de4483f497",
+        "schemas": 21,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Booking/term.glp.txt",
+        "sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+        "schemas": 30,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Carpool/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Central-Bank/term.glp.txt",
+        "sha": "88b287669839f63d490e3d78aef4a883beb0361c",
+        "schemas": 161,
+        "affected": 27
+      },
+      {
+        "path": "calculus/contracts/Children/term.glp.txt",
+        "sha": "2f00e32a25f9e1540f532120c037c261c244ec52",
+        "schemas": 42,
+        "affected": 4
+      },
+      {
+        "path": "calculus/contracts/Coins/term.glp.txt",
+        "sha": "869ad37fe64c555b2bca119b70171627ddb82a0d",
+        "schemas": 11,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Commercial-Bank/term.glp.txt",
+        "sha": "dd0493afe5296446a53ed9d1d23621d3dc72ef7b",
+        "schemas": 164,
+        "affected": 30
+      },
+      {
+        "path": "calculus/contracts/Community-Bank/term.glp.txt",
+        "sha": "a78cca8fd0b81c4dae427d82ba8d23a4d7b3f706",
+        "schemas": 159,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Community-Market/term.glp.txt",
+        "sha": "fc6b6eaed91d2bcd606110dbfdada7282ff16773",
+        "schemas": 185,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Community-Network/term.glp.txt",
+        "sha": "d140417d2a919000e2cf3fa0f4ca658e3c282960",
+        "schemas": 167,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Community/term.glp.txt",
+        "sha": "054d033ba376eb6db36aae19eaff0b65b2e51e1c",
+        "schemas": 158,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Constitution/term.glp.txt",
+        "sha": "ae12f2322a97fffdb56501a0713f7a5427481fa3",
+        "schemas": 32,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Consumers-Cooperative/term.glp.txt",
+        "sha": "fddb21534bd499b1b81965da9b78e2e96672c6e9",
+        "schemas": 166,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Cooperative-DAO/term.glp.txt",
+        "sha": "12c4ba218c7bee62628bd0e870093317571b96c4",
+        "schemas": 161,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Cooperative/term.glp.txt",
+        "sha": "12c4ba218c7bee62628bd0e870093317571b96c4",
+        "schemas": 161,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Corporation/term.glp.txt",
+        "sha": "7d5c1dd0f7621a73cdc44ffa32fb09c21c08ecaf",
+        "schemas": 157,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/DAO/term.glp.txt",
+        "sha": "7a1c0b4c7b11947281ddfbb6179bc3861c729740",
+        "schemas": 18,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Dating/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Democratic-Community/term.glp.txt",
+        "sha": "93ef74378ab3c76f73acc7c65251fd5b626d61cd",
+        "schemas": 162,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Denominated-Coins/term.glp.txt",
+        "sha": "25048a32ff9773012ec525367d312f80a6270953",
+        "schemas": 12,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Denominated-Currencies/term.glp.txt",
+        "sha": "cafe05bd5f345689075da1cb6d8eec534b500a60",
+        "schemas": 34,
+        "affected": 7
+      },
+      {
+        "path": "calculus/contracts/Directory/term.glp.txt",
+        "sha": "867c9c5bb95d30bf15b90d460a0185b19e71f59e",
+        "schemas": 32,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Disputes/term.glp.txt",
+        "sha": "b3fc8146ff3a813a25cfc47ff21bab14b3bd2d83",
+        "schemas": 30,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Distrust/term.glp.txt",
+        "sha": "b1a5b8f0774a9395b4784983d18fa71c917032eb",
+        "schemas": 9,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Encounters/term.glp.txt",
+        "sha": "ebfd7b202a735ebad5b07baf92a8f78abbc760f1",
+        "schemas": 6,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Feeds/term.glp.txt",
+        "sha": "d91ae158b65a835bb403c243bd3569017849667d",
+        "schemas": 15,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Forwarding/term.glp.txt",
+        "sha": "295f2e472e589bf09f197ef070a5223595c63e3c",
+        "schemas": 7,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Foundation/term.glp.txt",
+        "sha": "ff35f9d2b18ea6d6ae259bdc53b3affc5679e579",
+        "schemas": 157,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Free-Matching/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Friendship/term.glp.txt",
+        "sha": "7f74b5f2a3ad1457fc95ee47b34d586a118fff0d",
+        "schemas": 5,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Funded-DAO/term.glp.txt",
+        "sha": "47a86c4d7f48bdb77f1c0fa3ca4e52526078f112",
+        "schemas": 28,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Gigs/term.glp.txt",
+        "sha": "000e2f16ecccebfdbaecd9d6b80544bdb7196757",
+        "schemas": 188,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Gossip/term.glp.txt",
+        "sha": "91b243ba9591912055ba244343e5e4accb616b3b",
+        "schemas": 7,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Groups/term.glp.txt",
+        "sha": "b810f2d201a4bc5d67638dbd5267994bd8bf54df",
+        "schemas": 15,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Guardians/term.glp.txt",
+        "sha": "d892bf185e3a0b87a2027d79781a461d66ed451b",
+        "schemas": 19,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Help/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Home-Exchange/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Jobs/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Joint-Accounts/term.glp.txt",
+        "sha": "341c611b9afb4d8cfc9ab281b3732ee73d14d74a",
+        "schemas": 16,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Knowledge/term.glp.txt",
+        "sha": "be000736ef56571a252a70885856e3fe161b3d91",
+        "schemas": 3,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Labelled-Overlay/term.glp.txt",
+        "sha": "125b6b1266ec51f4d423a874ff1503306e971303",
+        "schemas": 13,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Lending/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Library/term.glp.txt",
+        "sha": "79ee01d15c8e68dbdd87ec9845e0c337a1663b47",
+        "schemas": 6,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Liquid-Cooperative/term.glp.txt",
+        "sha": "68c6a5f5db6be8c1849df463af4cf25a521756ec",
+        "schemas": 167,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Liquid-DAO/term.glp.txt",
+        "sha": "2d993f819841fcce11b8f58cae50415a391be373",
+        "schemas": 27,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Local-Overlay/term.glp.txt",
+        "sha": "75538fc615fb1a2f55ac4240fa46171deb0667e8",
+        "schemas": 8,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Lodging/term.glp.txt",
+        "sha": "e4982a5d303f147f7acb89bba34c9c89408346c6",
+        "schemas": 187,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Lost-and-Found/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Matching/term.glp.txt",
+        "sha": "ab91d9777d7f8918b1bc357a95ed65a44d6f53a3",
+        "schemas": 9,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Meeting-Rooms/term.glp.txt",
+        "sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+        "schemas": 30,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Mutual-Credit/term.glp.txt",
+        "sha": "83843a3a93ae91facc45244b364ee58cdb1ac7ee",
+        "schemas": 158,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Nonprofit/term.glp.txt",
+        "sha": "f10474be1523f25f64e827e5dac6cc0ff61cc88e",
+        "schemas": 157,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Notes/term.glp.txt",
+        "sha": "29af82ac4c0e25445b8c95e50a4d308077206fd1",
+        "schemas": 9,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Organisation/term.glp.txt",
+        "sha": "8c999cbe2d80fe6f4ec47cc4c23ec761f4fa4422",
+        "schemas": 28,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Overlay/term.glp.txt",
+        "sha": "563630793e7ed70e12bd75b5f5d3c9619adec347",
+        "schemas": 8,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Partners/term.glp.txt",
+        "sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+        "schemas": 31,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Partnership/term.glp.txt",
+        "sha": "367acd4fd3e727846156f01e6d2066ea67217852",
+        "schemas": 157,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Programs/term.glp.txt",
+        "sha": "f48bbc471185d8533e2d2cc38c857a235cd0b08b",
+        "schemas": 15,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Promoted-Gossip/term.glp.txt",
+        "sha": "0a2ec9a2b4535d00def1777fb5197536b1489a53",
+        "schemas": 161,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Provenance-Groups/term.glp.txt",
+        "sha": "98ef3be7752efc83fbacf3435e30cb8e622ec71f",
+        "schemas": 36,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Recommendations/term.glp.txt",
+        "sha": "9ba81fa680f2bbc97589ec4b59ebd47dc567d4e9",
+        "schemas": 6,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Rehearsal-Rooms/term.glp.txt",
+        "sha": "30cccf7d4efc6ad3478f08d71d1d0bef7c3cf4cb",
+        "schemas": 58,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Rendezvous/term.glp.txt",
+        "sha": "6c7a6f890131467493bf7d77d85ecc8a24c62ee8",
+        "schemas": 25,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Resilient-Feeds/term.glp.txt",
+        "sha": "2d8d33e38bb588f20b8eb0fda239e1df1a8faa40",
+        "schemas": 16,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Rides/term.glp.txt",
+        "sha": "bee23a1a5a001a3910ad7fff4903dd1b7abc9af5",
+        "schemas": 182,
+        "affected": 27
+      },
+      {
+        "path": "calculus/contracts/Second-Score-Auction/term.glp.txt",
+        "sha": "52c3def6ec9714356f23dec0ef41cca4b2053031",
+        "schemas": 18,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Secure-Friendship/term.glp.txt",
+        "sha": "fd087995fd1073850d9aad37eab1f80c4d92d697",
+        "schemas": 23,
+        "affected": 2
+      },
+      {
+        "path": "calculus/contracts/Separating-Distrust/term.glp.txt",
+        "sha": "46e3ac19bd4ff6125760b81162cca76f641c3e3b",
+        "schemas": 9,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Services/term.glp.txt",
+        "sha": "939b19fd5ccb82cfd7101eebd4addbd7eeacf333",
+        "schemas": 19,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Shareholding-Corporation/term.glp.txt",
+        "sha": "5e8873a83e6f7eaf94ecc2e338d001bcad492616",
+        "schemas": 196,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Shares/term.glp.txt",
+        "sha": "711e06c36a797d9be4e1381021d6a28a96ad0908",
+        "schemas": 59,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Short-Feeds/term.glp.txt",
+        "sha": "e85ec56a9f8d3ff453ad7563b8b782d9070951cb",
+        "schemas": 16,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Single-Person-Company/term.glp.txt",
+        "sha": "ea3ce832b279056fb88cba8f97e5004653aa7208",
+        "schemas": 157,
+        "affected": 27
+      },
+      {
+        "path": "calculus/contracts/Stays/term.glp.txt",
+        "sha": "674b5b613cdfe44c12721430dc2bad6540d80397",
+        "schemas": 15,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+        "sha": "f8a65641bc9d5cd4654aa94899d7c9276297f696",
+        "schemas": 58,
+        "affected": 1
+      },
+      {
+        "path": "calculus/contracts/Trading-Company/term.glp.txt",
+        "sha": "e2e1df46e061063e669e9233f3b1b0c74ca1d1a9",
+        "schemas": 160,
+        "affected": 26
+      },
+      {
+        "path": "calculus/contracts/Warded-Groups/term.glp.txt",
+        "sha": "6a7f933e32d6a6f6184163643f5f6f6dd01d3d4b",
+        "schemas": 42,
+        "affected": 5
+      },
+      {
+        "path": "calculus/contracts/Warnings/term.glp.txt",
+        "sha": "fecb92c3cd9e0f9e48855d155c506ef0963dba22",
+        "schemas": 29,
+        "affected": 0
+      },
+      {
+        "path": "calculus/contracts/Workers-Cooperative/term.glp.txt",
+        "sha": "5b3296d99ac104355155a51a633ee2a381deea3d",
+        "schemas": 165,
+        "affected": 26
+      }
+    ]
+  },
+  "execution": {
+    "executed": [
+      "Parsed 6,008 schema occurrences in 91 pinned catalogue terms. Verified only the Secure Friendship term differs between the counted commit pins.",
+      "Asserted shared forbidden-atom and literal membership paths in three generated executable samples.",
+      "30 reports, 28 findings, 0 unanswered\nStatus table regenerated and matched. Both reports retain all earlier lines."
+    ],
+    "not_run": "No Dart executable available. No GLP runtime or compiler ran. The GitHub connection resolved paper blob metadata but did not return decodable PDF bytes, so the cited paper passages were not independently checked."
+  },
+  "dispositions": "Finding 4 remains open. The compiler report records the shared scope without adding a duplicate finding. Draft #76 awaits review.",
+  "next": {
+    "SPM": "Retest ordinary Restore and Restore friend once the compiler correction and regenerated platform are public. Keep the custody and offline controls distinct.",
+    "Code": "Regenerate affected executable platforms after the vGLP fix. Start with the recorded Secure Friendship controls and sample other schemas using forbidden any. Record which contracts lack executable outputs.",
+    "GSC": "Check the exact wildcard quantification footnote in the pinned public papers once PDF bytes are readable. Keep the ordinary Restore acceptance-record durability question separate.",
+    "vGLP": "Fix and verify the common forbidden-wildcard semantics. Preserve literal handling in cleared-atom class images. Reconcile Calculus’s 92-term count against the 91 public catalogue terms when the input inventory is available."
+  }
+}
