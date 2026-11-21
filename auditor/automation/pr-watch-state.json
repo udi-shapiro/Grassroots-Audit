@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T20:51:18Z",
-  "active_run": {
-    "run_id": "5b333af2-e5ed-11f1-9543-91ab48fb9fb6",
-    "delivery_ids": [
-      "5b333af2-e5ed-11f1-9543-91ab48fb9fb6"
-    ],
-    "started_at": "2026-11-21T20:54:17.000Z",
-    "expires_at": "2026-11-21T21:09:17.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "e8d1bfb0811f3e1dacfe9f8f455fc35beb2e1709"
-  },
+  "updated_at": "2026-11-21T20:56:17Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "e8d1bfb0811f3e1dacfe9f8f455fc35beb2e1709",
+      "head_sha": "cffabcab25378433bb808a164cc854d4162bbac4",
       "state": "open",
-      "updated_at": "2026-11-21T20:51:10Z",
+      "updated_at": "2026-11-21T20:56:09Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 36,
+        "comments": 37,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -94,14 +83,15 @@
           7068705219,
           7068999354,
           7069004310,
-          7069007322
+          7069007322,
+          7069059175
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T20:47:16Z"
+        "latest_item_at": "2026-11-21T20:51:41Z"
       },
-      "comment_cursor": 7069007322,
+      "comment_cursor": 7069059175,
       "review_cursor": null,
-      "notes": "Verified recorded two-party Accept and conditional Restore schemas on GLP main. Preserved the offline blocker and vGLP proposal awaiting Udi. Targeted recordings and runtime checks pending."
+      "notes": "Checked the public recovery fixture and ordinary Restore conditions. Preserved SPM’s reported outcome. Awaiting a matching public trace and positive live-loss control."
     },
     {
       "number": 50,
@@ -859,6 +849,118 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "5b333af2-e5ed-11f1-9543-91ab48fb9fb6",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "e8d1bfb0811f3e1dacfe9f8f455fc35beb2e1709",
+      "comment_id": 7069059175,
+      "discussion_version": {
+        "comments": 37,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T20:51:41Z"
+      },
+      "processed_at": "2026-11-21T20:56:17Z",
+      "outcome": "Preserved SPM’s reported recovery-path result. Independently checked fixture assumptions and generated Restore conditions. New execution trace remains pending."
+    },
+    {
+      "delivery_id": "fa5e549a-e5ed-11f1-865d-f0c71665191e",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "cffabcab25378433bb808a164cc854d4162bbac4",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 37,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T20:51:41Z"
+      },
+      "processed_at": "2026-11-21T20:56:17Z",
+      "outcome": "Own recorded audit publication at the observed head. No reply."
+    },
     {
       "delivery_id": "a5a8010e-e5ec-11f1-830a-f8fe36ca1cc9",
       "event_type": "issue_comment",
@@ -4463,9 +4565,9 @@
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
     "glp_main": "2a248be193c55fe39b0d941496d4885441e6d71b",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
-    "restore_catalogue": "b58c17cc9d7f065b39002aadb402c3b35f36dc77",
-    "custodian_fixture": "c2afbfc5d96c19df7a51e1bee519cc71ddf8e167",
-    "accept_adoption": "4049b899c570963e7dd08029fd609eb3ac2c1990",
-    "observed_at": "2026-11-21T20:51:18Z"
+    "spm_recovery_fixture": "b1596a1914f9e068c53dd0b682d4af4044b7686e",
+    "spm_merge_parent": "ef9718b29f264e398a82b27361f299fa3872037d",
+    "code_branch": "ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d",
+    "observed_at": "2026-11-21T20:56:17Z"
   }
 }

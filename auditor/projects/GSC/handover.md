@@ -1,3 +1,9 @@
+# Secure Friendship recovery fixture checked — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [SPM recovery fixture](https://github.com/EShapiro2/GLP/blob/b1596a1914f9e068c53dd0b682d4af4044b7686e/programs/vglp/cva/secure_friendship/self.glp). Bob starts with `state_loss` and old Alice remains online. The generated ordinary Restore guard explains the reported return of the old friendship. The public log still covers the earlier four plays. A recorded trace and a positive live-loss recovery control remain pending. See [stage 50](../../stages/50-pr76-secure-friendship-recovery-fixture-20261121.json).
+
+Track live state loss with actual friendship deletion and the timing of replacement notices. Verify how the model excludes acts from an identity whose key is lost.
+
 # Secure Friendship main recovery and offline blocker — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [two-party Accept trace](https://github.com/EShapiro2/GLP/blob/2a248be193c55fe39b0d941496d4885441e6d71b/cascade/Secure-Friendship/run.log#L18) and replacement-aware recovery schemas at GLP main `2a248be193c55fe39b0d941496d4885441e6d71b`. SPM reports that taking old Alice offline stalls Carol’s Tell before she can vouch. The generated lock and tally support that mechanism. [vGLP’s proposal](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7069004310) awaits Udi’s decision. The public custodian, offline and recovery controls remain pending. See [stage 49](../../stages/49-pr76-secure-friendship-offline-blocker-20261121.json).
