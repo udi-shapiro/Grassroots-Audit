@@ -1,3 +1,7 @@
+# Calculus contract Findings 1 and 7 inspected — 20 November 2026
+
+[PR #74](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) records Calculus’s progress. Public GLP `f90a52794bde03545a907731d48245203b31b687` separates the founding and retirement schemas while retaining failed Booking relation records and stamped checker refusals. Nonprofit and Foundation still lack the recipient officer restriction on the direct accepted-coin forms. [Verification PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) is open for review. The newer Calculus claim awaits public evidence, and its certification awaits Udi’s decision on Definition Operations item 5. See [stage 29](../../stages/29-pr74-calculus-findings-1-7-20261120.json).
+
 # GO and Calculus answers recorded — 20 November 2026
 
 [PR #67](https://github.com/udi-shapiro/Grassroots-Audit/pull/67) merged at `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076`, preserving GO's answers to Findings 2–6 and Calculus's answer to Finding 7. All seven findings in `calculus/contracts.md` have answers and remain open (#58–#64). Pinned public schema records at `be5f2eb1eae41556eade221c9727d3166928f52a` support the acknowledged baseline gaps. No fixes were supplied in #67. The checked status table is 29 reports, 23 findings and zero unanswered. See [stage 19](../../stages/19-pr67-contract-answers-20261120.json).

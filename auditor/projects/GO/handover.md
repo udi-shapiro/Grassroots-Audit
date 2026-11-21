@@ -1,3 +1,7 @@
+# Calculus contract Findings 1 and 7 inspected — 20 November 2026
+
+[PR #74](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) records Calculus’s progress. Public GLP `f90a52794bde03545a907731d48245203b31b687` separates the founding and retirement schemas while retaining failed Booking relation records and stamped checker refusals. Nonprofit and Foundation still lack the recipient officer restriction on the direct accepted-coin forms. [Verification PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) is open for review. The newer Calculus claim awaits public evidence, and its certification awaits Udi’s decision on Definition Operations item 5. See [stage 29](../../stages/29-pr74-calculus-findings-1-7-20261120.json).
+
 # GO regenerated platforms inspected — 20 November 2026
 
 [GO’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7057469694) cites public GLP `617cceb7bee6e3290a9b3da05f1c5dfca2b3de3e`. The six regenerated platform pairs contain the expected Found, service cancellation and arbitration, and Count entries. Community Network supplies inherited arbitration and has no standalone platform. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) preserves the earlier evidence and records the inspection. Findings 2, 3 and 6 remain open for behavioral verification. No GLP cascade or runtime execution ran. See [stage 28](../../stages/28-pr71-go-regenerated-platforms-20261120.json).

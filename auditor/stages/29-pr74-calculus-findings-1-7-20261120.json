@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "27e0a1ca-e56c-11f1-96b4-9114120371d0",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 74,
+      "head_sha": "79389eba7b5cd9a9e12eb920f57f7b91af3a5377",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T05:30:41Z",
+      "outcome": "Preserved the unapproved project response for review. Independently checked public artifacts and opened the source-verification PR."
+    },
+    {
+      "delivery_id": "abdfaad4-e56c-11f1-9a49-8c4b4fab528a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 75,
+      "head_sha": "381c718873860b785177eb99f40d611fbd2515a1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-21T05:30:41Z",
+      "outcome": "Recorded own publication. No additional interaction; review pending."
+    }
+  ],
+  "response": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/74",
+    "head": "79389eba7b5cd9a9e12eb920f57f7b91af3a5377",
+    "state": "open",
+    "report_blob": "4ff3cdb37fc805d9641ba2c0fc437fd6cedec635",
+    "review": "pending"
+  },
+  "publication": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/75",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "head": "381c718873860b785177eb99f40d611fbd2515a1",
+    "state": "open",
+    "report_blob": "95ef59a05bfd287ac17cb661112b6da2bb5d74d5",
+    "index_blob": "a3c893513cd48f84dba21f08ed6b173d14ef710e"
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "be1eba8d571baed580ed43c7931e1d9f8a7f9bd1",
+    "glp_calculus_publication": "f90a52794bde03545a907731d48245203b31b687",
+    "papers_metadata_only": "41dc0dff855728335b249d20d11c2e7eef8acb4e",
+    "gcc_pdf_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
+    "nonprofit_flat": "8c124d62dbdd4e2b74476f9e0111f3fd99e3e50a",
+    "foundation_flat": "016b7a96c118142a796d4ede5180702b50afa4e5",
+    "glp_pr109_head": "42aa2d6abbfa6799fee9b331b45d2a65468b440b"
+  },
+  "project_claims": {
+    "attribution": "Calculus (Calculus #10), 2026-11-21 UTC, submitted by Audit #3",
+    "one": "Reports Rehearsal Rooms and Tennis Courts compile at Calculus revision c3f41008. Certification waits for Udi's approval of item 5, Definition Operations.",
+    "seven": "Nonprofit clause 1 awaits a revision from Nimrod. Code requested it in GLP PR #109."
+  },
+  "inspection": {
+    "one": "Public publication has separate Organisation/ward Enter and Retire entries. Both recorded Booking relations fail and stored terms have matching not_grassroots verdict stamps. c3f41008 and the earlier proposal's GLP link did not resolve in public GLP during this run.",
+    "seven": "Pinned Nonprofit and Foundation flat artifacts retain all three direct accepted-coin forms without the recipient officer restriction. The for-Alice variants guard the officer acting for the payer. GLP #109 closed without merging, and Code’s later comment requests a new clause from the owner.",
+    "owner_request": "https://github.com/EShapiro2/GLP/pull/109#issuecomment-7051356222"
+  },
+  "execution": {
+    "term_hashes": "Rehearsal-Rooms 1031c319cf4d6faf3d77dbf3abb7f2f86671c9823ce589f72cecb705fc988681 1031c319cf4d6faf3d77dbf3abb7f2f86671c9823ce589f72cecb705fc988681 True\nTennis-Courts ebfdf10e6d4098ef27ee85843eaf04f991702aa033f621b0d69e5b7bfb3778da ebfdf10e6d4098ef27ee85843eaf04f991702aa033f621b0d69e5b7bfb3778da True\n",
+    "status": "python3 bin/status.py and cmp returned zero on the project response and separate audit proposal. Table identical, 29 reports, 23 findings, zero unanswered.",
+    "limits": "No GLP compiler, checker, runtime, or PDF text checks ran."
+  },
+  "next": "Review both audit PRs. Once item 5 is decided, obtain public provenance for c3f41008 or its successor, rebuild the children and check Booking relations, lifecycles, budgets, rendezvous and checker acceptance. For Finding 7, wait for the clause owner's revised text and verify inherited payment paths. Issues #58 and #64 remain open."
+}

@@ -1,3 +1,7 @@
+# Calculus contract Findings 1 and 7 inspected — 20 November 2026
+
+[PR #74](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) records Calculus’s progress. Public GLP `f90a52794bde03545a907731d48245203b31b687` separates the founding and retirement schemas while retaining failed Booking relation records and stamped checker refusals. Nonprofit and Foundation still lack the recipient officer restriction on the direct accepted-coin forms. [Verification PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) is open for review. The newer Calculus claim awaits public evidence, and its certification awaits Udi’s decision on Definition Operations item 5. See [stage 29](../../stages/29-pr74-calculus-findings-1-7-20261120.json).
+
 # Report migration follow-up — 20 November 2026
 
 [PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27), [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) and [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30) received dated project replies. Their proposal heads are unchanged. Coordination accepts the move goal, but index exclusion and identifier preservation remain. Calculus's checker claim awaits public source. GSC and Calculus distinguish the paper issue from the correctly declared code reflexivity. Exact links, versions and next actions are in stage 19.
