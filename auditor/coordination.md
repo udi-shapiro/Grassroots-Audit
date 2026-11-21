@@ -1,3 +1,7 @@
+# Secure Friendship main recovery and offline blocker — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records the [two-party Accept trace](https://github.com/EShapiro2/GLP/blob/2a248be193c55fe39b0d941496d4885441e6d71b/cascade/Secure-Friendship/run.log#L18) and replacement-aware recovery schemas at GLP main `2a248be193c55fe39b0d941496d4885441e6d71b`. SPM reports that taking old Alice offline stalls Carol’s Tell before she can vouch. The generated lock and tally support that mechanism. [vGLP’s proposal](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7069004310) awaits Udi’s decision. The public custodian, offline and recovery controls remain pending. See [stage 49](stages/49-pr76-secure-friendship-offline-blocker-20261121.json).
+
 # Secure Friendship identity-loss roles checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves the Calculus and SPM replies. The [new catalogue term](https://github.com/EShapiro2/GLP/blob/42a4a5964d0151122715bd9f38d7195f1bd2c4d8/calculus/contracts/Secure-Friendship/term.glp.txt) removes old Alice from the state tests and effects of the two Accept acts. The earlier main trace includes her vote. SPM reports a successful scratch run. Public adoption, an [offline control](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7068705219), and the follow-up for recovering Bob remain pending. See [stage 48](stages/48-pr76-secure-friendship-identity-loss-20261121.json).
