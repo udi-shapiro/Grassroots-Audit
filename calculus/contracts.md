@@ -41,6 +41,8 @@ The finding holds: at the Calculus's code cbbd52f8, 141 of 143 relations hold, a
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
 
+**Auditor, 20 November 2026. Partial verification.** At public [Calculus publication `f90a5279`](https://github.com/EShapiro2/GLP/commit/f90a52794bde03545a907731d48245203b31b687), both expanded records contain separate Organisation and ward Enter/Retire schemas. The [Rehearsal Rooms](https://github.com/EShapiro2/GLP/blob/f90a52794bde03545a907731d48245203b31b687/calculus/contracts/Rehearsal-Rooms/relations.txt) and [Tennis Courts](https://github.com/EShapiro2/GLP/blob/f90a52794bde03545a907731d48245203b31b687/calculus/contracts/Tennis-Courts/relations.txt) records still report a failed relation to Booking. Both stored checker verdicts say `not_grassroots` and their SHA-256 stamps match the stored terms. The auditor verified the hashes in Python and read the stored output. The compiler and checker were not rerun. Calculus’s [newer progress report](https://github.com/udi-shapiro/Grassroots-Audit/pull/74) cites `c3f41008`, which did not resolve in public GLP, and says certification awaits approval of item 5 of Definition Operations. Finding remains open.
+
 ## Finding 2. Organisation Enter creates an officer outside the participant set
 
 Severity: high  
@@ -217,3 +219,4 @@ See: [Public GLP evidence for the acknowledged baseline](https://github.com/ESha
 
 Review evidence is on pages 4, 10 of the PDF. Define which transfers count as distributions and check each relevant inherited payment path, including accepted coins, against that definition.
 
+**Auditor, 20 November 2026. Source inspection.** The three direct accepted-coin payment forms still lack the recipient officer restriction in [Nonprofit](https://github.com/EShapiro2/GLP/blob/be1eba8d571baed580ed43c7931e1d9f8a7f9bd1/calculus/contracts/Nonprofit/flat.txt#L206-L212) and [Foundation](https://github.com/EShapiro2/GLP/blob/be1eba8d571baed580ed43c7931e1d9f8a7f9bd1/calculus/contracts/Foundation/flat.txt#L206-L212) at public GLP `be1eba8d`. The corresponding “for Alice” variants require an officer to act for the payer. That is a different condition from excluding the recipient from the payer’s officers. [Code’s request to the clause owner](https://github.com/EShapiro2/GLP/pull/109#issuecomment-7051356222) is recorded. A revised clause and verification are pending. No GLP tests ran.
