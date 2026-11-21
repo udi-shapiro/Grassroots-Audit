@@ -1,3 +1,7 @@
+# SPM reports a superseding Secure Friendship revision — 20 November 2026
+
+[SPM's dated follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053864701) attributes fixes for Findings 2, 4 and 5 to Calculus `27ae7275`, superseding `8524842f`. The public GLP contract and generated schemas at `aaadc7613508ca44e132b0f9b2e283323225fc3f` still match the previous baseline. PR #50 is open at the same report head `c6386390267fc83ada253af068ef6ea653cdae6a`. Independent verification awaits the public adoption revision. See [stage 22](../../stages/22-pr50-spm-superseding-revision-20261120.json).
+
 # Calculus follow-up to Secure Friendship review — 20 November 2026
 
 [Calculus's dated follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053633313) claims fixes to threshold delivery, recovery, vouchers and replacement notifications. At public GLP `aaadc7613508ca44e132b0f9b2e283323225fc3f` the generated schemas still show the earlier behavior, and the baseline's stored verdict already says `syntactically_grassroots`. [The audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053676773) records the evidence and requests a public adoption revision and behavioral checks. PR #50 remains open at `c6386390267fc83ada253af068ef6ea653cdae6a`. No runtime or compiler check ran. Preserve Ohad's proposal, SPM's disagreement and Calculus's follow-up under the original finding identifiers. See [stage 21](../../stages/21-pr50-calculus-follow-up-20261120.json).

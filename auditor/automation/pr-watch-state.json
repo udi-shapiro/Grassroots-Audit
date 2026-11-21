@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-20T23:59:58Z",
-  "active_run": {
-    "run_id": "2cdba3fe-e540-11f1-8877-cc3e7acadb1c",
-    "delivery_id": "2cdba3fe-e540-11f1-8877-cc3e7acadb1c",
-    "pull_request_number": 50,
-    "started_at": "2026-11-21T00:13:05Z",
-    "acquired_at": "2026-11-21T00:13:05Z",
-    "expires_at": "2026-11-21T00:28:05.000Z",
-    "expected_head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a"
-  },
+  "updated_at": "2026-11-21T00:13:05Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -67,13 +59,13 @@
       "number": 50,
       "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
       "state": "open",
-      "updated_at": "2026-11-20T23:59:44Z",
+      "updated_at": "2026-11-21T00:12:01Z",
       "merged_at": null,
-      "comment_cursor": 7053676773,
+      "comment_cursor": 7053864701,
       "review_cursor": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-      "notes": "Calculus follow-up claims Logic-pragmas fixes outside currently available public GLP. Recorded source inspection and verification prerequisites. PR remains open with unchanged report proposal.",
+      "notes": "SPM cites superseding 27ae7275 for Findings 2, 4 and 5, with public adoption pending. Current public GLP artifacts and PR head are unchanged.",
       "discussion_version": {
-        "comments": 6,
+        "comments": 7,
         "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
@@ -82,14 +74,15 @@
           5971010401,
           7053164176,
           7053633313,
-          7053676773
+          7053676773,
+          7053864701
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ"
         ],
-        "latest_item_at": "2026-11-20T23:59:44Z"
+        "latest_item_at": "2026-11-21T00:12:01Z"
       },
       "merge_commit_sha": null
     },
@@ -648,6 +641,36 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "2cdba3fe-e540-11f1-8877-cc3e7acadb1c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7053864701,
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T00:12:01Z"
+      },
+      "processed_at": "2026-11-21T00:13:05Z",
+      "outcome": "SPM’s superseding claim recorded for Findings 2, 4 and 5. Public GLP adoption and independent verification pending."
+    },
     {
       "event_type": "issue_comment",
       "action": "created",
@@ -1501,9 +1524,9 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
-    "glp_papers": "3e8c6d0bcb57ca17202a08629928adcb06346ebe",
     "audit_main": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
-    "observed_at": "2026-11-20T23:59:58Z"
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers": "3491e4e0133288548ee07c1a1eb334769c32e8f8",
+    "observed_at": "2026-11-21T00:13:05Z"
   }
 }

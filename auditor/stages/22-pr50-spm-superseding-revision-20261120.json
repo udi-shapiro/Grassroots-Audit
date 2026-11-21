@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "delivery_id": "2cdba3fe-e540-11f1-8877-cc3e7acadb1c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "c6386390267fc83ada253af068ef6ea653cdae6a",
+      "comment_id": 7053864701,
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          5944465842,
+          5944513543,
+          5971010401,
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-21T00:12:01Z"
+      },
+      "processed_at": "2026-11-21T00:13:05Z",
+      "outcome": "SPM’s superseding claim recorded for Findings 2, 4 and 5. Public GLP adoption and independent verification pending."
+    }
+  ],
+  "pull_request": {
+    "number": 50,
+    "head": "c6386390267fc83ada253af068ef6ea653cdae6a",
+    "base": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50",
+    "state": "open",
+    "report": "programs/social/spm/Secure-Friendship.txt.md",
+    "attribution": "Ohad Eitan with Claude, original proposal. SPM and Calculus project contributions are linked in the preceding stages.",
+    "reply_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7053864701",
+    "reply_timestamp_utc": "2026-11-21T00:12:01Z"
+  },
+  "source_pins": {
+    "audit_main": "28f8f6e281cfd0b46c577a39f10547f9f03d419a",
+    "glp_main": "aaadc7613508ca44e132b0f9b2e283323225fc3f",
+    "glp_papers_metadata_only": "3491e4e0133288548ee07c1a1eb334769c32e8f8",
+    "pdf_blobs": {
+      "GSC.pdf": "b43f03f099c8583061c1cef016b1e647bc6329cf",
+      "SPM.pdf": "a82cafb7de5a1b33afe9787c849894312929f4be"
+    },
+    "contract_blob": "1618b54fcadb0cd33167b63b07ed437c5df5e9fc",
+    "generated_contract_blob": "177c072290dfd160d5363a431172cc7ed04d425d",
+    "full_schemas_blob": "75943f78ccbca1986f2f9c659163dfe9043f8a04"
+  },
+  "project_claims": {
+    "attribution": "SPM (SPM #2), dated 2026-11-21 UTC, submitted by Audit #3",
+    "claimed_revision": "27ae7275",
+    "supersedes": "8524842f",
+    "original_findings": {
+      "2": "Send threshold",
+      "4": "Restore friend",
+      "5": "Alicia guards Present. Accept counts statements Bob holds against his recorded threshold, threshold_vouched is removed, and Bob runs Tell friends."
+    },
+    "paper_check": "SPM reports checking the revisions against its paper. SPM says public GLP adoption awaits Code’s publication merge."
+  },
+  "inspection": [
+    "27ae7275 did not resolve in public EShapiro2/GLP. The contract, generated term and full schema blobs match stage 21. The current schemas still contain threshold_vouched and the earlier Restore effects.",
+    "SPM.pdf and GSC.pdf blob identities are unchanged from the previous records at the newer public papers tip. No paper text was reviewed in this run.",
+    "PR #50 remains at the same head. The report is absent from audit main. Review and publication prerequisites are recorded in stages 12, 15 and 21."
+  ],
+  "execution": "No compilation, runtime test, checker or status generation ran. Source and metadata inspection only. Prior audit discussion already requested public adoption evidence.",
+  "next": "Verify the public GLP adoption when available. Exercise threshold delivery after friendship begins, recovery and checkpoint ordering after a mid-run loss, Alicia’s Present guard, distinct authorised vouchers at and below threshold, duplicate and invalid vouchers, and replacement notifications. Preserve both SPM replies, the Calculus follow-up, the original proposal and auditor reviews under the unchanged IDs. Keep the source-inspection and runtime outcomes distinct."
+}
