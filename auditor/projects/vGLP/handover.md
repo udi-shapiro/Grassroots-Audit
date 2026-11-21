@@ -1,3 +1,9 @@
+# Secure Friendship controls confirmed on GLP main — 21 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records integration at GLP main `ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d`. The [four-play log](https://github.com/EShapiro2/GLP/blob/ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d/cascade/Secure-Friendship/run.log), manifest, fixture and both vGLP platform copies match the previously checked recording. Python checks confirmed the Secure Friendship numeral spelling and stamped term. Source checks confirmed the compiler and checker changes. Code reports 4,205 passes at the earlier `ff122013ff3f68f570b1ef983540cd2005013ed0` pin. Independent runtime verification, live loss and re-keying remain open. See [stage 47](../../stages/47-pr76-secure-friendship-main-integration-20261121.json).
+
+The numeric binding extension is present on GLP main. Rerun the focused runtime control when Dart is available and verify §5.4 and its hypotheses for the adopted contract.
+
 # Secure Friendship threshold and Restore friend controls checked — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) records two independently checked controls from the [public four-play log](https://github.com/EShapiro2/GLP/blob/a56485a68e01d7452cf75d301283f779f1b1625d/cascade/Secure-Friendship/run.log) at GLP `a56485a68e01d7452cf75d301283f779f1b1625d`. Bob’s one-voucher view precedes Dave’s second qualified voucher and the first Accept attempt, which commits. With startup loss, Alice refuses Restore friend solely because her friendship with Carol is present. The audit ran Python checks on the stored trace. GLP main integration, runtime reruns, live loss and re-keying remain pending. See [stage 46](../../stages/46-pr76-threshold-and-restore-friend-controls-20261121.json).

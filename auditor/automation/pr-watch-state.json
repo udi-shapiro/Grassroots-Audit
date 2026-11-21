@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-21T18:38:30Z",
-  "active_run": {
-    "run_id": "124726c4-e5dd-11f1-8f36-889c4ab7beab",
-    "delivery_ids": [
-      "124726c4-e5dd-11f1-8f36-889c4ab7beab"
-    ],
-    "started_at": "2026-11-21T18:57:11.000Z",
-    "expires_at": "2026-11-21T19:12:11.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "0f3ca6c7b7ac0eca5beb02b9b55d8b3ba2073348"
-  },
+  "updated_at": "2026-11-21T18:59:01Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "0f3ca6c7b7ac0eca5beb02b9b55d8b3ba2073348",
+      "head_sha": "9233fa556b5a6ac79c2989cf8dc1371fc0379b6c",
       "state": "open",
-      "updated_at": "2026-11-21T18:38:21Z",
+      "updated_at": "2026-11-21T18:58:53Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 29,
+        "comments": 30,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -87,14 +76,15 @@
           7066512171,
           7066552253,
           7067314780,
-          7067364782
+          7067364782,
+          7067612357
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-21T18:35:19Z"
+        "latest_item_at": "2026-11-21T18:55:07Z"
       },
-      "comment_cursor": 7067364782,
+      "comment_cursor": 7067612357,
       "review_cursor": null,
-      "notes": "Checked the published threshold-two and Restore friend controls and recorded SPM and Code’s dated answers in the draft. Runtime execution, live loss, re-keying and main integration remain pending."
+      "notes": "Verified GLP main integration of the four previously checked Secure Friendship traces and focused numeric sources. Retained the older test pin and pending runtime results."
     },
     {
       "number": 50,
@@ -852,6 +842,104 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "124726c4-e5dd-11f1-8f36-889c4ab7beab",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "0f3ca6c7b7ac0eca5beb02b9b55d8b3ba2073348",
+      "comment_id": 7067612357,
+      "discussion_version": {
+        "comments": 30,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T18:55:07Z"
+      },
+      "processed_at": "2026-11-21T18:59:01Z",
+      "outcome": "Preserved Code’s dated answer. Verified main integration and focused Secure Friendship numeric sources. Recorded the fast-tier tally with its older test pin."
+    },
+    {
+      "delivery_id": "98566d2e-e5dd-11f1-9247-9ad99b9cd2b3",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "9233fa556b5a6ac79c2989cf8dc1371fc0379b6c",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 30,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-21T18:55:07Z"
+      },
+      "processed_at": "2026-11-21T18:59:01Z",
+      "outcome": "Own audit draft publication at the observed head. No discussion reply."
+    },
     {
       "delivery_id": "bcf69252-e5d9-11f1-9b58-746449097b17",
       "event_type": "issue_comment",
@@ -3884,11 +3972,10 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "ec20d0da9f50e0c0a90b5bd2d40dd03c0d6f1fc4",
+    "glp_main": "ff6579e19e58f01e0c2bc8793407ea9d8d2e2f1d",
     "glp_papers": "4c215157386a8759c267cceb346ed1a8e3c356dc",
-    "spm_fixture": "c5c4b502c56491e462404eab3268a4ce77cbb366",
-    "code_four_plays": "a56485a68e01d7452cf75d301283f779f1b1625d",
-    "code_two_plays": "ff122013ff3f68f570b1ef983540cd2005013ed0",
-    "observed_at": "2026-11-21T18:38:30Z"
+    "code_integration": "a56485a68e01d7452cf75d301283f779f1b1625d",
+    "reported_fast_tier": "ff122013ff3f68f570b1ef983540cd2005013ed0",
+    "observed_at": "2026-11-21T18:59:01Z"
   }
 }
