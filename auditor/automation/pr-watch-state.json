@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T07:02:46Z",
-  "active_run": {
-    "run_id": "0ee5b3d8-e646-11f1-9890-21c040d3d04e",
-    "delivery_ids": [
-      "0ee5b3d8-e646-11f1-9890-21c040d3d04e"
-    ],
-    "started_at": "2026-11-22T07:27:58.000Z",
-    "expires_at": "2026-11-22T07:42:58.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff"
-  },
+  "updated_at": "2026-11-22T07:30:38Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+      "head_sha": "4006884746194d97b82563a5713423491c111894",
       "state": "open",
-      "updated_at": "2026-11-22T07:01:53Z",
+      "updated_at": "2026-11-22T07:29:44Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 52,
+        "comments": 53,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -110,20 +99,21 @@
           7070879744,
           7075299198,
           7075300665,
-          7075632249
+          7075632249,
+          7075917325
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T06:58:05Z",
+        "latest_item_at": "2026-11-22T07:26:38Z",
         "latest_comments": [
           {
-            "id": 7075632249,
-            "updated_at": "2026-11-22T06:58:05Z"
+            "id": 7075917325,
+            "updated_at": "2026-11-22T07:26:38Z"
           }
         ]
       },
-      "comment_cursor": 7075632249,
+      "comment_cursor": 7075917325,
       "review_cursor": null,
-      "notes": "Confirmed Section CAS manifest selection and current not_grassroots verdicts for the two retained website records. Secure Friendship artifacts are byte-identical to the prior pin. Kept findings open."
+      "notes": "Preserved the Calculus reply naming Udi’s decision on Definition Operations item 5. The public catalogue and retained records show the same certification blocker. Finding 1 remains open."
     },
     {
       "number": 50,
@@ -881,6 +871,162 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "7d419dba-e646-11f1-9c33-9ca15c73e7d4",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "4006884746194d97b82563a5713423491c111894",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 53,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:26:38Z",
+        "latest_comments": [
+          {
+            "id": 7075917325,
+            "updated_at": "2026-11-22T07:26:38Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:30:38Z",
+      "outcome": "Own verified report publication. No additional PR action."
+    },
+    {
+      "delivery_id": "0ee5b3d8-e646-11f1-9890-21c040d3d04e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+      "comment_id": 7075917325,
+      "discussion_version": {
+        "comments": 53,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:26:38Z",
+        "latest_comments": [
+          {
+            "id": 7075917325,
+            "updated_at": "2026-11-22T07:26:38Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:30:38Z",
+      "outcome": "Preserved the Calculus reply naming Udi’s decision on Definition Operations item 5. The public catalogue and retained records show the same certification blocker. Finding 1 remains open."
+    },
     {
       "delivery_id": "9961c668-e642-11f1-80e6-7d728111b99d",
       "event_type": "pull_request",
@@ -6373,7 +6519,7 @@
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T07:02:46Z",
+    "observed_at": "2026-11-22T07:30:38Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",

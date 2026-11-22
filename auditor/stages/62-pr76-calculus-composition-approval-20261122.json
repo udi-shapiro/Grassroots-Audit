@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "0ee5b3d8-e646-11f1-9890-21c040d3d04e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+      "comment_id": 7075917325,
+      "discussion_version": {
+        "comments": 53,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:26:38Z",
+        "latest_comments": [
+          {
+            "id": 7075917325,
+            "updated_at": "2026-11-22T07:26:38Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:30:38Z",
+      "outcome": "Preserved the Calculus reply naming Udi’s decision on Definition Operations item 5. The public catalogue and retained records show the same certification blocker. Finding 1 remains open."
+    },
+    {
+      "delivery_id": "7d419dba-e646-11f1-9c33-9ca15c73e7d4",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "4006884746194d97b82563a5713423491c111894",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 53,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:26:38Z",
+        "latest_comments": [
+          {
+            "id": 7075917325,
+            "updated_at": "2026-11-22T07:26:38Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:30:38Z",
+      "outcome": "Own verified report publication. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "2e4ffb148f7c76936224afcbbd8705fe3dd9a885",
+    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T07:30:38Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79"
+  },
+  "links": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/4006884746194d97b82563a5713423491c111894",
+    "finding": "https://github.com/udi-shapiro/Grassroots-Audit/issues/58",
+    "tennis": "https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/calculus/contracts/Tennis-Courts/verdict.txt",
+    "rehearsal": "https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/calculus/contracts/Rehearsal-Rooms/verdict.txt",
+    "promoted_matching": "https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/programs/gm/Promoted-Matching.txt",
+    "papers": "https://github.com/EShapiro2/GLP/tree/3424e4971fe34e7c6c48aa30e5e39f58da444526/papers"
+  },
+  "pull_request": {
+    "number": 76,
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "event_head": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+    "publication_head": "4006884746194d97b82563a5713423491c111894",
+    "discussion_version": {
+      "comments": 53,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253,
+        7067314780,
+        7067364782,
+        7067612357,
+        7068625212,
+        7068678235,
+        7068705219,
+        7068999354,
+        7069004310,
+        7069007322,
+        7069059175,
+        7069473531,
+        7069476309,
+        7069570106,
+        7069656729,
+        7069705048,
+        7070182368,
+        7070186436,
+        7070660789,
+        7070662249,
+        7070746953,
+        7070804026,
+        7070879744,
+        7075299198,
+        7075300665,
+        7075632249,
+        7075917325
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T07:26:38Z",
+      "latest_comments": [
+        {
+          "id": 7075917325,
+          "updated_at": "2026-11-22T07:26:38Z"
+        }
+      ]
+    },
+    "draft": true,
+    "report_blob": "383319be12aa188fb2fc706fa8ccc2f9a3e7608f"
+  },
+  "project_claims": {
+    "Calculus": "The two compositions lack an act acquainting wards across instances. Udi’s approval of Definition Operations item 5 (proposed 2026-11-20 and last revised 2026-11-21) is pending. After approval, Calculus plans to revise the paper and checker, check Tennis Courts, Rehearsal Rooms and Promoted Matching, and have the records reprinted."
+  },
+  "inspection": {
+    "sameVerdicts": true,
+    "sameManifestBlobs": [
+      true,
+      true
+    ],
+    "promotedMatchingPaths": [
+      "programs/gm/Promoted-Matching.txt"
+    ],
+    "papersBranchHasCalculusPaper": false,
+    "termChecks": [
+      [
+        "atom(person, ['Alice'])",
+        "atom(person, ['Bob'])"
+      ],
+      [
+        "atom(person, ['Alice'])",
+        "atom(person, ['Bob'])"
+      ]
+    ],
+    "publicPlatforms": [],
+    "term_blobs": [
+      "f8a65641bc9d5cd4654aa94899d7c9276297f696",
+      "30cccf7d4efc6ad3478f08d71d1d0bef7c3cf4cb"
+    ],
+    "verdict_blob": "fb0940906c41afca411cccfa1089b4f26cc4a2f2",
+    "manifest_blobs": [
+      "90774c381e98259480e3cf16a9ca5a5a51cd4265",
+      "28e11c5aba0c67389aeeb02292a2eddce6ae3690"
+    ]
+  },
+  "execution": {
+    "executed": [
+      "Checked exact person requirements and both unobtainable roles in the pinned public terms and verdicts. Compared catalogue and retained record blobs and searched the public tree and papers inventory.",
+      "Ran pinned bin/status.py against the 30 reports before and after appending both attributed paragraphs. The table is unchanged with 28 findings and 0 unanswered."
+    ],
+    "pending": "The Calculus revision and checker results are pending. The audit did not run the checker or cascade."
+  },
+  "dispositions": "Calculus Finding 1 stays open. Draft #76 has no reviews.",
+  "next": {
+    "Calculus": "Upon Udi’s decision, pin the revised rule and checker outcomes for the three contracts before rechecking original composition and relation regressions.",
+    "Code": "Reprint the two held records after certification and verify CAS.",
+    "GSC": "Review public checker semantics and the new verdicts after adoption."
+  }
+}

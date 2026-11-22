@@ -1,3 +1,9 @@
+# Calculus composition rule approval pending — 22 November 2026
+
+[Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) will ask for reprinting after the checker certifies Tennis Courts and Rehearsal Rooms. Their pinned records still hold no platform or run. See [stage 62](../../stages/62-pr76-calculus-composition-approval-20261122.json).
+
+---
+
 # CAS coverage and held Calculus verdicts checked — 22 November 2026
 
 The [CAS patch](https://github.com/EShapiro2/GLP/commit/fe4192d3c308e885f1fa8b09401347f4b827d1cf) adds selection for 25 manifests without table rows, including the two website records [restored at the release](https://github.com/EShapiro2/GLP/commit/769f038f267f284ff451ef011bd2b44c6fdeff79). The 4,220 fast-tier passes and CAS results remain [Code’s report](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075632249). Reprint Tennis Courts and Rehearsal Rooms once certified. See [stage 61](../../stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).

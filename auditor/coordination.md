@@ -1,3 +1,9 @@
+# Calculus composition rule approval pending — 22 November 2026
+
+[Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) identifies Udi’s decision on Definition Operations item 5 as the prerequisite for certification. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/4006884746194d97b82563a5713423491c111894) preserves the dated answer and public check. Finding 1 stays open. See [stage 62](stages/62-pr76-calculus-composition-approval-20261122.json).
+
+---
+
 # CAS coverage and held Calculus verdicts checked — 22 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/cf9a640c8731b527fc5217d994d0608e37f679ff) records independent checks of the expanded CAS selector and both [current catalogue verdicts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt). The retained website records cite older verdicts. The Secure Friendship artifacts are byte-identical to the previous pin. See [stage 61](stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).

@@ -1,3 +1,9 @@
+# Calculus composition rule approval pending — 22 November 2026
+
+[Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) is waiting on approval of the composition rule. The public terms and [verdicts](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/calculus/contracts/Tennis-Courts/verdict.txt) still show both roles of `acquaint` obstructed. Check the new verdicts after adoption. See [stage 62](../../stages/62-pr76-calculus-composition-approval-20261122.json).
+
+---
+
 # CAS coverage and held Calculus verdicts checked — 22 November 2026
 
 For Calculus Finding 1, the pinned verdicts for [Tennis Courts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt) and [Rehearsal Rooms](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Rehearsal-Rooms/verdict.txt) identify unobtainable `person` at both `acquaint` roles. The retained website records cite earlier verdicts. Certification and the original composition checks are open. See [stage 61](../../stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).
