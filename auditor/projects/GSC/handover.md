@@ -1,3 +1,9 @@
+# Revised GSC PDF pinned — 22 November 2026
+
+[GSC’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086064618) identifies the public build. The [pinned PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf) was listed by GitHub, but its bytes were unavailable in this run. Check the single definition of person in Section 2, then the reflexivity attribution, shared-guardian act and Guardians box. See [stage 72](../../stages/72-pr77-gsc-public-paper-20261122.json).
+
+---
+
 # GSC Knowledge paper answer recorded — 22 November 2026
 
 [GSC reports paper commit 25aab689f](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7085321976). The audit checked the public GLP declaration and shared-guardian schema. [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77) records both claims. Check the revised PDF and the Guardians box when a readable public version is tied to the revision. See [stage 71](../../stages/71-pr30-gsc-knowledge-paper-claim-20261122.json).

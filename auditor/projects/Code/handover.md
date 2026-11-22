@@ -1,3 +1,9 @@
+# Revised GSC PDF pinned — 22 November 2026
+
+[Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77/commits/f410982e6092e2f27504994aa933fce0cee91622) pins the public GSC PDF. Use the previously checked Knowledge declaration and shared-guardian schema at GLP `91aa44294fbb070b0f9940b2cd68c41f15da058d` as the comparison for Section 8 and the printed Guardians box when the PDF can be read. See [stage 72](../../stages/72-pr77-gsc-public-paper-20261122.json).
+
+---
+
 # GSC Knowledge paper answer recorded — 22 November 2026
 
 The reported GSC paper revision awaits confirmation from the published PDF and its source provenance. The [public paper pin](https://github.com/EShapiro2/GLP/blob/4599e9200271b25bb4ffbf5cf5fb0044492613d5/papers/GSC.pdf) is in [stage 71](../../stages/71-pr30-gsc-knowledge-paper-claim-20261122.json).

@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "85acf09c-e6bb-11f1-9dae-78012fd33cc8",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 77,
+      "head_sha": "31fcefa98314c03ff486f6736c3dec63b0bef175",
+      "comment_id": 7086064618,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7086064618
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T21:27:29Z",
+        "latest_comments": [
+          {
+            "id": 7086064618,
+            "updated_at": "2026-11-22T21:27:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T21:31:58Z",
+      "outcome": "Preserved the new attributed GSC reply and pinned the revised public PDF on draft #77. PDF text inaccessible in this run. Both findings remain answered and open."
+    },
+    {
+      "delivery_id": "22838958-e6bc-11f1-953f-faa840b37d97",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 77,
+      "head_sha": "f410982e6092e2f27504994aa933fce0cee91622",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7086064618
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T21:27:29Z",
+        "latest_comments": [
+          {
+            "id": 7086064618,
+            "updated_at": "2026-11-22T21:27:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T21:31:58Z",
+      "outcome": "Synchronize from this run’s publication commit. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "91aa44294fbb070b0f9940b2cd68c41f15da058d",
+    "glp_papers": "801b7d9a94c8b94f81ed6bfc6e4f607954d524bb",
+    "gsc_public_pdf_blob": "a382e68d047de58c2c1c2fc1e8c4cf328dd05598",
+    "observed_at": "2026-11-22T21:31:58Z"
+  },
+  "links": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086064618",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77/commits/f410982e6092e2f27504994aa933fce0cee91622",
+    "paper": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf",
+    "release": "https://github.com/EShapiro2/GLP/commit/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/54"
+  },
+  "pull_request": {
+    "number": 77,
+    "reviewed_head": "31fcefa98314c03ff486f6736c3dec63b0bef175",
+    "publication_head": "f410982e6092e2f27504994aa933fce0cee91622",
+    "draft": true,
+    "discussion_version": {
+      "comments": 1,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7086064618
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T21:27:29Z",
+      "latest_comments": [
+        {
+          "id": 7086064618,
+          "updated_at": "2026-11-22T21:27:29Z"
+        }
+      ]
+    }
+  },
+  "project_claims": {
+    "paper_commit": "25aab689f",
+    "public_build_at": "2026-11-22T21:11:00Z",
+    "identity": "Earlier natural-person-of-age definition removed.",
+    "reflexivity": "Section 8 credits Knowledge and distinguishes the ward act. Guardians box uses has_guardian."
+  },
+  "inspection": {
+    "publication": "GitHub reports a new papers-branch artifact at the pinned commit. The tree entry and commit change agree on its blob and 2,129,223-byte size.",
+    "pdf_access": "GitHub contents returned empty base64 for the PDF. The Git blob endpoint refused binary content. Web retrieval was unavailable and cloud browser access to the pinned page was denied. No independent PDF text inspection or build provenance check was possible."
+  },
+  "execution": {
+    "audit_status": {
+      "command": "python3 bin/status.py",
+      "result": "30 reports, 25 findings, 0 unanswered. Regenerated table byte-identical to the draft.",
+      "table_blob": "8a606e7a222054985b3e0e7e76b289ee114e5d1a"
+    },
+    "paper_or_glp_tests": "None run."
+  },
+  "dispositions": {
+    "knowledge_1": "Answered, open.",
+    "knowledge_2": "Answered, open.",
+    "publication": "Draft retains attributed record and awaits review."
+  },
+  "next": [
+    "Retrieve the pinned public PDF and confirm its Git blob hash. Inspect Section 2 and the Knowledge box for the definition, then compare Section 8 and the Guardians box, including the ward act and has_guardian, with the pinned GLP files. Review draft #77 at its current head before merge."
+  ]
+}

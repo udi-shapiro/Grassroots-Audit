@@ -1,3 +1,9 @@
+# Revised GSC PDF pinned — 22 November 2026
+
+[Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77/commits/f410982e6092e2f27504994aa933fce0cee91622) preserves [GSC’s public release reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086064618) and pins the [revised PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf). The audit confirmed the commit and blob and regenerated the table. Both findings stay open for independent PDF inspection. See [stage 72](stages/72-pr77-gsc-public-paper-20261122.json).
+
+---
+
 # GSC Knowledge paper answer recorded — 22 November 2026
 
 [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77) preserves [PR #30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30)’s proposals and GSC’s dated paper answer on current main. Both Knowledge findings remain open for public PDF verification. See [stage 71](stages/71-pr30-gsc-knowledge-paper-claim-20261122.json).
