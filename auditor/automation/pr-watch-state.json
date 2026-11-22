@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T07:46:57Z",
-  "active_run": {
-    "run_id": "3e197036-e64b-11f1-9a05-025548fd324c",
-    "delivery_ids": [
-      "3e197036-e64b-11f1-9a05-025548fd324c"
-    ],
-    "started_at": "2026-11-22T08:05:38.000Z",
-    "expires_at": "2026-11-22T08:20:38.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7"
-  },
+  "updated_at": "2026-11-22T08:08:24Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
+      "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
       "state": "open",
-      "updated_at": "2026-11-22T07:45:57Z",
+      "updated_at": "2026-11-22T08:07:19Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 55,
+        "comments": 56,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -113,24 +102,21 @@
           7075632249,
           7075917325,
           7076061323,
-          7076071704
+          7076071704,
+          7076285150
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T07:42:26Z",
+        "latest_item_at": "2026-11-22T08:03:45Z",
         "latest_comments": [
           {
-            "id": 7076061323,
-            "updated_at": "2026-11-22T07:41:15Z"
-          },
-          {
-            "id": 7076071704,
-            "updated_at": "2026-11-22T07:42:26Z"
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
           }
         ]
       },
-      "comment_cursor": 7076071704,
+      "comment_cursor": 7076285150,
       "review_cursor": null,
-      "notes": "Verified the below-threshold and extended stale-Restore fixture sources and the generated candidate and Ready filters. The new runtime traces remain pending. Findings 4 and 5 stay open."
+      "notes": "Verified adopted fixtures and the published stale-retry and threshold traces. Findings 4 and 5 remain open for other controls."
     },
     {
       "number": 50,
@@ -888,6 +874,168 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "bd0d664a-e64b-11f1-8642-0c554c4a2abb",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 56,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:03:45Z",
+        "latest_comments": [
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T08:08:24Z",
+      "outcome": "Own audit publication. No additional PR action."
+    },
+    {
+      "delivery_id": "3e197036-e64b-11f1-9a05-025548fd324c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
+      "comment_id": 7076285150,
+      "discussion_version": {
+        "comments": 56,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:03:45Z",
+        "latest_comments": [
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T08:08:24Z",
+      "outcome": "Verified adopted fixtures and the published stale-retry and threshold traces. Findings 4 and 5 remain open for other controls."
+    },
     {
       "delivery_id": "c0f6fbfc-e648-11f1-8b14-c5fc1e0b2368",
       "event_type": "pull_request",
@@ -6784,11 +6932,11 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "2e4ffb148f7c76936224afcbbd8705fe3dd9a885",
+    "glp_main": "746c37a44d2adee5cb6196eb06280fe9cdc8e3c4",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T07:46:57Z",
+    "observed_at": "2026-11-22T08:08:24Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -6796,6 +6944,7 @@
     "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
     "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
     "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
-    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795"
+    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
+    "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f"
   }
 }

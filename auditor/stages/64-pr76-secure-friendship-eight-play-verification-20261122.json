@@ -1,0 +1,453 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "3e197036-e64b-11f1-9a05-025548fd324c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
+      "comment_id": 7076285150,
+      "discussion_version": {
+        "comments": 56,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:03:45Z",
+        "latest_comments": [
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T08:08:24Z",
+      "outcome": "Verified adopted fixtures and the published stale-retry and threshold traces. Findings 4 and 5 remain open for other controls."
+    },
+    {
+      "delivery_id": "bd0d664a-e64b-11f1-8642-0c554c4a2abb",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 56,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:03:45Z",
+        "latest_comments": [
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T08:08:24Z",
+      "outcome": "Own audit publication. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "746c37a44d2adee5cb6196eb06280fe9cdc8e3c4",
+    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T08:08:24Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
+    "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
+    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
+    "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f"
+  },
+  "pull_request": {
+    "number": 76,
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "event_head": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
+    "publication_head": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
+    "discussion_version": {
+      "comments": 56,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253,
+        7067314780,
+        7067364782,
+        7067612357,
+        7068625212,
+        7068678235,
+        7068705219,
+        7068999354,
+        7069004310,
+        7069007322,
+        7069059175,
+        7069473531,
+        7069476309,
+        7069570106,
+        7069656729,
+        7069705048,
+        7070182368,
+        7070186436,
+        7070660789,
+        7070662249,
+        7070746953,
+        7070804026,
+        7070879744,
+        7075299198,
+        7075300665,
+        7075632249,
+        7075917325,
+        7076061323,
+        7076071704,
+        7076285150
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T08:03:45Z",
+      "latest_comments": [
+        {
+          "id": 7076285150,
+          "updated_at": "2026-11-22T08:03:45Z"
+        }
+      ]
+    },
+    "draft": true,
+    "report_blobs": {
+      "ISSUES.md": "1390bcde2f4f2be88bf829e5da64ca7787bc9995",
+      "programs/social/spm/Secure-Friendship.txt.md": "8058e523d38fa4c778344a5468c610d59e4efb95"
+    }
+  },
+  "links": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076285150",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/710c300dc2a01381b813ed82040f3b7f8bafcd41",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/manifest.md",
+    "stale": "https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53",
+    "below": "https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L41-L46",
+    "positive": "https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L13-L19",
+    "fixture": "https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/programs/vglp/cva/secure_friendship/self.glp#L282-L352"
+  },
+  "project_claims": {
+    "Code": "Both new SPM fixtures are on main and the cascade log records eight plays."
+  },
+  "inspection": {
+    "mainReleaseRelationship": "Public main is one handover-only commit ahead of the eight-play release.",
+    "fixtureBlobMatchesPublishedSPMBranch": true,
+    "blobs": {
+      "fixture": "27bfee216291d1f832427fa587c8c327f504b6da",
+      "log": "81ce82ee4b7719ec80d641eb552a1d0a47cd5bde",
+      "manifest": "84610b7c2523e9e0040eb9b6e944faa21759cf4b",
+      "platform": "1486d6911069880f69b6ef1359b1cad7438ce3bc",
+      "table": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Parsed the published eight-play log for suspension markers, exact attempt events in network order, matching Ready messages, and terminal actor views. Compared statement counts and Accept outcomes in plays three and seven.",
+      "Ran bin/status.py against the 30 pinned reports before and after the update. The output is unchanged at 28 findings and 0 unanswered. Verified that both findings retain all prior report lines."
+    ],
+    "trace_checks": {
+      "suspensions": 8,
+      "belowThreshold": {
+        "lines": "41–46",
+        "vouch": "carol/18",
+        "present": "alicia/24",
+        "statements": 1,
+        "threshold": 2,
+        "startsOfAccept": 0,
+        "lastBob": "view(bob, [holds_statement(carol, alicia, alice), knows(alicia), records_threshold(alice, 2), records_custodian(alice, carol), custodian_of(alice), checkpoint(alice), friend(alice), knows(alice), identity, person"
+      },
+      "positiveControl": {
+        "lines": "13–19",
+        "accept": "bob/69",
+        "statements": 2,
+        "threshold": 2
+      },
+      "extended": {
+        "lines": "48–53",
+        "commits": [
+          [
+            "bob/58",
+            "accept(bob, alicia, alice)"
+          ],
+          [
+            "bob/63",
+            "tell_change(bob, carol, alice, alicia)"
+          ],
+          [
+            "alicia/70",
+            "befriend(carol, alicia)"
+          ],
+          [
+            "carol/88",
+            "tell(carol, alice, alicia)"
+          ]
+        ],
+        "staleRefusals": [
+          [
+            "alice/14",
+            "restore(alice, bob)"
+          ],
+          [
+            "carol/47",
+            "restore_friend(carol, bob, alice)"
+          ],
+          [
+            "carol/54",
+            "restore_friend(carol, bob, alice)"
+          ]
+        ],
+        "matchingReady": 0,
+        "oldTargetStartsAfterAccept": 0,
+        "otherRestoreStartsAfterAccept": [
+          [
+            "alicia/60",
+            "restore(alicia, bob)"
+          ],
+          [
+            "carol/64",
+            "restore_replaced_friend(carol, bob, alicia, alice)"
+          ],
+          [
+            "carol/66",
+            "restore_replaced_friend(carol, bob, alicia, alice)"
+          ],
+          [
+            "alicia/66",
+            "restore_friend(alicia, bob, carol)"
+          ],
+          [
+            "alicia/69",
+            "restore_friend(alicia, bob, carol)"
+          ],
+          [
+            "carol/69",
+            "restore_replaced_friend(carol, bob, alicia, alice)"
+          ],
+          [
+            "bob/72",
+            "restore(bob, alicia)"
+          ],
+          [
+            "carol/73",
+            "restore_friend(carol, bob, alicia)"
+          ],
+          [
+            "alicia/78",
+            "restore(alicia, carol)"
+          ],
+          [
+            "carol/80",
+            "restore_friend(carol, bob, alicia)"
+          ],
+          [
+            "alicia/81",
+            "restore(alicia, carol)"
+          ],
+          [
+            "bob/84",
+            "restore_friend(bob, alicia, carol)"
+          ],
+          [
+            "alicia/87",
+            "restore_friend(alicia, carol, alice)"
+          ],
+          [
+            "alicia/89",
+            "restore_friend(alicia, carol, alice)"
+          ],
+          [
+            "bob/88",
+            "restore_friend(bob, carol, alicia)"
+          ],
+          [
+            "alicia/90",
+            "restore_friend(alicia, carol, alice)"
+          ],
+          [
+            "alicia/91",
+            "restore_friend(alicia, carol, alice)"
+          ],
+          [
+            "alice/90",
+            "restore_friend(alice, carol, alicia)"
+          ],
+          [
+            "alicia/92",
+            "restore_friend(alicia, carol, alice)"
+          ],
+          [
+            "alicia/94",
+            "restore_friend(alicia, carol, bob)"
+          ],
+          [
+            "alicia/95",
+            "restore_friend(alicia, carol, bob)"
+          ],
+          [
+            "carol/96",
+            "restore(carol, alicia)"
+          ],
+          [
+            "carol/97",
+            "restore_friend(carol, alicia, bob)"
+          ]
+        ],
+        "lastBob": "view(bob, [records_friend(carol, alicia), records_friend(alicia, carol), checkpoint(alicia), friend(alicia), accepted(alicia, alice), holds_statement(carol, alicia, alice), knows(alicia), records_custodian(alice, carol), records_threshold(alice, 1), records_friend(carol, alice), checkpoint(carol), friend(carol), records_friend(alice, carol), knows(carol), checkpoint(alice), knows(alice), identity, person, state_loss"
+      }
+    },
+    "pending": "Dart unavailable. The audit did not rerun GLP or Section CAS."
+  },
+  "dispositions": "Verified retry suppression with acceptance retained in the extended schedule and threshold-two behavior with one and two statements in the public controls. Findings 4 and 5 stay open. Draft #76 remains unreviewed.",
+  "next": {
+    "SPM": "Once in-run loss is modeled, exercise both notice orders, isolate the receiver and sender guards, and record positive replacement recovery. Keep the offline control separate.",
+    "Code": "Keep these verified public traces pinned. Record new loss and offline controls when available.",
+    "GSC": "Continue the live state-loss modeling and the Calculus one-step re-keying dependency.",
+    "vGLP": "Track pre-commit abandonment in the offline case and retain the distinction between retry suppression and isolated guard refusal."
+  }
+}

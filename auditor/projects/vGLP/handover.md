@@ -1,3 +1,9 @@
+# Secure Friendship eight-play trace checked — 22 November 2026
+
+[The extended trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) shows no Ready or later stale retry for the earlier unable attempts. Bob retains acceptance. Keep guard isolation with in-run loss and offline pre-commit handling pending. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
+
+---
+
 # Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
 
 The [candidate filter](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/cascade/Secure-Friendship/platform.vglp#L2392-L2419) waits for Ready on unable refusals and [Ready](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/cascade/Secure-Friendship/platform.vglp#L2739-L2750) requires the receiver’s state in the part domain. Check this explanation against the extended trace, separately from the offline pre-commit proposal. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).

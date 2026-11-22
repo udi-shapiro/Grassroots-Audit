@@ -1,3 +1,9 @@
+# Secure Friendship eight-play trace checked — 22 November 2026
+
+[The public manifest](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/manifest.md) now lists eight plays. The audit checked both new recordings and did not rerun CAS. Preserve this pin and record the next loss and offline controls. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
+
+---
+
 # Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
 
 The two new fixtures are public on SPM’s branch. The old main/cascade record has neither play. When integrated, publish the output and keep the longer check separate from time-limited CAS if needed. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).

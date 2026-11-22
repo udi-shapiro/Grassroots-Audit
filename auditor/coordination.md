@@ -1,3 +1,9 @@
+# Secure Friendship eight-play trace checked — 22 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/710c300dc2a01381b813ed82040f3b7f8bafcd41) verifies the [extended stale-Restore trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) and the public threshold-two controls with [one](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L41-L46) and [two](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L13-L19) statements. Findings 4 and 5 stay open for remaining loss, offline and re-keying work. See [stage 64](stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
+
+---
+
 # Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/52a7b107578139aaf9b211c69fa1516cb53a4de7) preserves both SPM replies and the [new threshold](https://github.com/EShapiro2/GLP/blob/225430f3925d044455f080aa34b1e4f4bd89bee8/programs/vglp/cva/secure_friendship/self.glp#L275-L304) and [stale-retry](https://github.com/EShapiro2/GLP/blob/ba79cda1265b6aa7231fadd67770e3f2bf649795/programs/vglp/cva/secure_friendship/self.glp#L312-L352) fixture checks. The older public log and generated filters support the retry explanation. The new runtime traces remain pending. See [stage 63](stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).

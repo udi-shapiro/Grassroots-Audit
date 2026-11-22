@@ -1,3 +1,9 @@
+# Secure Friendship eight-play trace checked — 22 November 2026
+
+[The extended public play](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) retains Bob’s acceptance record. In-run loss, both notice orders and positive recovery remain open. One-step re-keying remains with the Calculus grammar. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
+
+---
+
 # Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
 
 SPM’s new scripts exercise attempts with retained acceptance and a one-of-two statement count. The in-run loss model, both notice schedules and one-step re-keying remain open. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).

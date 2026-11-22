@@ -1,3 +1,9 @@
+# Secure Friendship eight-play trace checked — 22 November 2026
+
+Both new recordings are public. [The stale trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) shows no stale retry after Accept. [The below-threshold trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L41-L46) shows one statement, threshold two and no Accept. Keep the live-loss and offline controls open. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
+
+---
+
 # Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
 
 The audit checked both [fixture source](https://github.com/EShapiro2/GLP/blob/ba79cda1265b6aa7231fadd67770e3f2bf649795/programs/vglp/cva/secure_friendship/self.glp#L312-L352) and [threshold source](https://github.com/EShapiro2/GLP/blob/225430f3925d044455f080aa34b1e4f4bd89bee8/programs/vglp/cva/secure_friendship/self.glp#L275-L304). Publish the new logs with attempt and Ready ordering and final state. The offline and actual-loss controls remain open. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
