@@ -1,3 +1,9 @@
+# Single-Person Company catalogue Join checked — 22 November 2026
+
+[GO’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7082237974) and the public catalogue confirm the entrant’s first-officer condition. Resign leaves participation facts in the term. Verify the current-officer lifecycle with the adopted module. See [stage 66](../../stages/66-pr71-single-person-company-join-20261122.json).
+
+---
+
 # Public GLP integration checked — 21 November 2026
 
 At GLP `e8ebce875d7a4ab42314712445ca87f33163121c`, GO’s regenerated platform artifacts and all 39 Calculus rebuild inputs match the earlier pins. [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71) and [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) record integration and await review. [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7059738642) points to the integrated Secure Friendship module. Its refreshed cascade record contains the matching module and a stored checker verdict, but the CVA compiler refused the platform because the guarded Present act has no button. [Refusal record](https://github.com/EShapiro2/GLP/blob/e8ebce875d7a4ab42314712445ca87f33163121c/cascade/Secure-Friendship/platform.vglp) No GLP run was independently executed in this follow-up. See [stage 33](../../stages/33-glp-main-integration-pr50-71-75-20261121.json).

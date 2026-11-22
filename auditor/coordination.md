@@ -1,3 +1,9 @@
+# Single-Person Company catalogue Join checked — 22 November 2026
+
+[PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/221aa5c2e92ef0c852aee71338c1bf384b6727c5) records partial verification of the [Single-Person Company Join restriction](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/calculus/contracts/Single-Person-Company/term.glp.txt#L6-L23). The [owner module](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/programs/go/Single-Person-Company.glp#L27) and [cascade platform](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/cascade/Single-Person-Company/platform.vglp) still lag. Finding 4 remains open. See [stage 66](stages/66-pr71-single-person-company-join-20261122.json).
+
+---
+
 # Secure Friendship guard-isolation follow-up — 22 November 2026
 
 [SPM’s guard-isolation clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) is consistent with the pinned [sixth](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L34-L39) and [eighth](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) plays. Both have no stale start between Accept and Tell change. Finding 4 remains open with the existing live-loss dependency. See [stage 65](stages/65-pr76-secure-friendship-guard-isolation-20261122.json).

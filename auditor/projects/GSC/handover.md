@@ -1,3 +1,9 @@
+# Single-Person Company catalogue Join checked — 22 November 2026
+
+The [catalogue term](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/calculus/contracts/Single-Person-Company/term.glp.txt#L6-L23) restricts Single-Person Company Join and its [stored verdict](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/calculus/contracts/Single-Person-Company/verdict.txt) matches the stamped term. Verify the adopted runtime and officer lifecycle. See [stage 66](../../stages/66-pr71-single-person-company-join-20261122.json).
+
+---
+
 # Secure Friendship guard-isolation follow-up — 22 November 2026
 
 The sender-only check requires loss of Bob’s acceptance after Carol receives the notice. The receiver-only check needs an attempted stale act during the pre-notice window. [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) confirms no new attempt trace. See [stage 65](../../stages/65-pr76-secure-friendship-guard-isolation-20261122.json).

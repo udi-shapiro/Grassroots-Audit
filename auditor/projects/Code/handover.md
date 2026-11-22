@@ -1,3 +1,9 @@
+# Single-Person Company catalogue Join checked — 22 November 2026
+
+The [owner module](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/programs/go/Single-Person-Company.glp#L27) lacks the catalogue’s first-officer entrant guard. The [stored cascade](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/cascade/Single-Person-Company/platform.vglp) is an earlier refusal. Adopt and regenerate before testing. See [stage 66](../../stages/66-pr71-single-person-company-join-20261122.json).
+
+---
+
 # Secure Friendship eight-play trace checked — 22 November 2026
 
 [The public manifest](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/manifest.md) now lists eight plays. The audit checked both new recordings and did not rerun CAS. Preserve this pin and record the next loss and offline controls. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).
