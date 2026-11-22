@@ -1,3 +1,9 @@
+# Single-Person Company founding proposal checked — 22 November 2026
+
+The [fixture](https://github.com/EShapiro2/GLP/blob/a1d69fab1730b7d0fdfefc01737301adceb40dbb/programs/vglp/cva/single_person_company/self.glp) matches the published generated platform. Validate the founding path with explicit Hello and Start evidence before recording the Join and Resign controls. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).
+
+---
+
 # Single-Person Company admission invariant checked — 22 November 2026
 
 The [manifest](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/manifest.md) still records no play. The remaining control is Found, non-officer Join attempt, Resign and a later non-officer attempt, with refusal or suppression recorded. See [stage 68](../../stages/68-pr71-single-person-company-admission-invariant-20261122.json).

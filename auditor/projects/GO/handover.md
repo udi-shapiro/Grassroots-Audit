@@ -1,3 +1,9 @@
+# Single-Person Company founding proposal checked — 22 November 2026
+
+The [fixture](https://github.com/EShapiro2/GLP/blob/a1d69fab1730b7d0fdfefc01737301adceb40dbb/programs/vglp/cva/single_person_company/self.glp) requests Found with Gov acquainted and no prior exchange with Orga. The admission and Resign play remains blocked. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).
+
+---
+
 # Single-Person Company admission invariant checked — 22 November 2026
 
 [GO clarified](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7082859659) that the contract limits admission. Found admits the first officer, Resign keeps membership, and Leave may remove it. The audit confirmed the invariant from schema effects. Runtime verification remains open. See [stage 68](../../stages/68-pr71-single-person-company-admission-invariant-20261122.json).

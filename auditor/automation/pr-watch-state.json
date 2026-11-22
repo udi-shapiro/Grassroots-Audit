@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T17:32:16Z",
-  "active_run": {
-    "run_id": "e79b34a0-e69b-11f1-904a-878c7a4a49ad",
-    "delivery_ids": [
-      "e79b34a0-e69b-11f1-904a-878c7a4a49ad"
-    ],
-    "started_at": "2026-11-22T17:43:33.000Z",
-    "expires_at": "2026-11-22T17:58:33.000Z",
-    "pull_request_numbers": [
-      71
-    ],
-    "head_sha": "3d123bc71378c1cc078b61b86094a4a00c509f20"
-  },
+  "updated_at": "2026-11-22T17:45:51Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -298,13 +287,13 @@
     },
     {
       "number": 71,
-      "head_sha": "3d123bc71378c1cc078b61b86094a4a00c509f20",
+      "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
       "state": "open",
-      "updated_at": "2026-11-22T17:31:04Z",
+      "updated_at": "2026-11-22T17:44:58Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 6,
+        "comments": 7,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -313,20 +302,21 @@
           7059738487,
           7082237974,
           7082395613,
-          7082859659
+          7082859659,
+          7083025434
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T17:28:02Z",
+        "latest_item_at": "2026-11-22T17:41:09Z",
         "latest_comments": [
           {
-            "id": 7082859659,
-            "updated_at": "2026-11-22T17:28:02Z"
+            "id": 7083025434,
+            "updated_at": "2026-11-22T17:41:09Z"
           }
         ]
       },
-      "comment_cursor": 7082859659,
+      "comment_cursor": 7083025434,
       "review_cursor": null,
-      "notes": "Verified the first-officer admission invariant by scanning 157 adopted schemas. Runtime controls for founding and refusal before and after resignation remain pending. Finding 4 stays open."
+      "notes": "Verified the generated Found transport-knowledge gate and the fixture’s missing exchange with Orga. Finding 4 remains open. Runtime execution and a supported founding path remain pending."
     },
     {
       "number": 69,
@@ -895,6 +885,70 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "6fac491a-e69c-11f1-9bea-246651915b80",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:41:09Z",
+        "latest_comments": [
+          {
+            "id": 7083025434,
+            "updated_at": "2026-11-22T17:41:09Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:45:51Z",
+      "outcome": "Own audit publication. No additional action."
+    },
+    {
+      "delivery_id": "e79b34a0-e69b-11f1-904a-878c7a4a49ad",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "3d123bc71378c1cc078b61b86094a4a00c509f20",
+      "comment_id": 7083025434,
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:41:09Z",
+        "latest_comments": [
+          {
+            "id": 7083025434,
+            "updated_at": "2026-11-22T17:41:09Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:45:51Z",
+      "outcome": "Verified the generated Found transport-knowledge gate and the fixture’s missing exchange with Orga. Finding 4 remains open. Runtime execution and a supported founding path remain pending."
+    },
     {
       "delivery_id": "7e6d1206-e69a-11f1-9ea6-e7162740d5f0",
       "event_type": "pull_request",
@@ -7219,7 +7273,7 @@
     "glp_papers": "4599e9200271b25bb4ffbf5cf5fb0044492613d5",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T17:32:16Z",
+    "observed_at": "2026-11-22T17:45:51Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -7231,6 +7285,7 @@
     "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f",
     "go_spc_branch": "8a087f6787d24838bf8589f6a78fb5f5719b3265",
     "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
-    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332"
+    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332",
+    "spc_found_fixture": "a1d69fab1730b7d0fdfefc01737301adceb40dbb"
   }
 }

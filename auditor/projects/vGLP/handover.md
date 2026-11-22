@@ -1,3 +1,9 @@
+# Single-Person Company founding proposal checked — 22 November 2026
+
+The [generated Found gate](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/platform.vglp#L9547-L9555) requires reciprocal transport knowledge of both remote participants. Establish whether an unestablished organisation can be discovered through a supported request before Found. The public Organisation and Corporation platforms share the gate. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).
+
+---
+
 # Secure Friendship eight-play trace checked — 22 November 2026
 
 [The extended trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) shows no Ready or later stale retry for the earlier unable attempts. Bob retains acceptance. Keep guard isolation with in-run loss and offline pre-commit handling pending. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).

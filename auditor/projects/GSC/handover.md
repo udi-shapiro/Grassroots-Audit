@@ -1,3 +1,9 @@
+# Single-Person Company founding proposal checked — 22 November 2026
+
+The [Found schema](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/platform.vglp#L924) creates the organisation’s contract identity. The generated proposer also requires transport discovery, a separate condition. Track compatibility of the founding path with vGLP. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).
+
+---
+
 # Single-Person Company admission invariant checked — 22 November 2026
 
 The [adopted schema](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/calculus/contracts/Single-Person-Company/term.glp.txt#L6-L24) requires a current deciding officer for Join and Appoint. Resign keeps membership. The general last-officer resignation rule is distinct from Finding 4’s admission restriction. See [stage 68](../../stages/68-pr71-single-person-company-admission-invariant-20261122.json).
