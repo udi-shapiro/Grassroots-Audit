@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T16:44:00Z",
-  "active_run": {
-    "run_id": "fa8e5d64-e694-11f1-8c40-41e2633c3ec0",
-    "delivery_ids": [
-      "fa8e5d64-e694-11f1-8c40-41e2633c3ec0"
-    ],
-    "started_at": "2026-11-22T16:53:30.000Z",
-    "expires_at": "2026-11-22T17:08:30.000Z",
-    "pull_request_numbers": [
-      71
-    ],
-    "head_sha": "221aa5c2e92ef0c852aee71338c1bf384b6727c5"
-  },
+  "updated_at": "2026-11-22T16:56:08Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -298,33 +287,34 @@
     },
     {
       "number": 71,
-      "head_sha": "221aa5c2e92ef0c852aee71338c1bf384b6727c5",
+      "head_sha": "b1afab7bd22945edf27c18528f76ad7fe2e19e6b",
       "state": "open",
-      "updated_at": "2026-11-22T16:43:10Z",
+      "updated_at": "2026-11-22T16:55:12Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 4,
+        "comments": 5,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7055910242,
           7057469694,
           7059738487,
-          7082237974
+          7082237974,
+          7082395613
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T16:39:07Z",
+        "latest_item_at": "2026-11-22T16:51:34Z",
         "latest_comments": [
           {
-            "id": 7082237974,
-            "updated_at": "2026-11-22T16:39:07Z"
+            "id": 7082395613,
+            "updated_at": "2026-11-22T16:51:34Z"
           }
         ]
       },
-      "comment_cursor": 7082237974,
+      "comment_cursor": 7082395613,
       "review_cursor": null,
-      "notes": "Verified the catalogue’s first-officer Join restriction and identified the pending owner-module, cascade and officer-lifecycle checks. Finding 4 remains open."
+      "notes": "Verified the exact term in the owner and cascade copies, and the first-officer Join guard in both published platforms. Finding 4 stays open for runtime controls and officer lifecycle."
     },
     {
       "number": 69,
@@ -893,6 +883,66 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "7bd64b66-e695-11f1-8c4f-20e2a5bcf8c9",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "b1afab7bd22945edf27c18528f76ad7fe2e19e6b",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T16:51:34Z",
+        "latest_comments": [
+          {
+            "id": 7082395613,
+            "updated_at": "2026-11-22T16:51:34Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T16:56:08Z",
+      "outcome": "Own audit publication. No additional PR action."
+    },
+    {
+      "delivery_id": "fa8e5d64-e694-11f1-8c40-41e2633c3ec0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "221aa5c2e92ef0c852aee71338c1bf384b6727c5",
+      "comment_id": 7082395613,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T16:51:34Z",
+        "latest_comments": [
+          {
+            "id": 7082395613,
+            "updated_at": "2026-11-22T16:51:34Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T16:56:08Z",
+      "outcome": "Verified the exact term in the owner and cascade copies, and the first-officer Join guard in both published platforms. Finding 4 stays open for runtime controls and officer lifecycle."
+    },
     {
       "delivery_id": "cd1fba40-e693-11f1-9e13-36f820cd1175",
       "event_type": "pull_request",
@@ -7091,11 +7141,11 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
+    "glp_main": "e096318081bbd0fce83abfd0f1f313bde3fe2430",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T16:44:00Z",
+    "observed_at": "2026-11-22T16:56:08Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -7106,6 +7156,7 @@
     "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
     "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f",
     "go_spc_branch": "8a087f6787d24838bf8589f6a78fb5f5719b3265",
-    "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b"
+    "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
+    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332"
   }
 }

@@ -1,3 +1,9 @@
+# Single-Person Company platform adoption checked — 22 November 2026
+
+[Audit PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/b1afab7bd22945edf27c18528f76ad7fe2e19e6b) records public adoption in the owner module and both emitted platforms. Finding 4 stays open for runtime and resignation checks. See [stage 67](stages/67-pr71-single-person-company-platform-adoption-20261122.json).
+
+---
+
 # Single-Person Company catalogue Join checked — 22 November 2026
 
 [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/221aa5c2e92ef0c852aee71338c1bf384b6727c5) records partial verification of the [Single-Person Company Join restriction](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/calculus/contracts/Single-Person-Company/term.glp.txt#L6-L23). The [owner module](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/programs/go/Single-Person-Company.glp#L27) and [cascade platform](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/cascade/Single-Person-Company/platform.vglp) still lag. Finding 4 remains open. See [stage 66](stages/66-pr71-single-person-company-join-20261122.json).

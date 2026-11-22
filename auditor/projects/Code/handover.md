@@ -1,3 +1,9 @@
+# Single-Person Company platform adoption checked — 22 November 2026
+
+The [regenerated manifest](https://github.com/EShapiro2/GLP/blob/1d40e504db128cf0ca90be655bfa2f1498140332/cascade/Single-Person-Company/manifest.md) records both platforms and no play. Record the admission and officer-lifecycle controls when available. See [stage 67](../../stages/67-pr71-single-person-company-platform-adoption-20261122.json).
+
+---
+
 # Single-Person Company catalogue Join checked — 22 November 2026
 
 The [owner module](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/programs/go/Single-Person-Company.glp#L27) lacks the catalogue’s first-officer entrant guard. The [stored cascade](https://github.com/EShapiro2/GLP/blob/1d33e2d5805d9dd11ed95a3b528228e6ab474c7b/cascade/Single-Person-Company/platform.vglp) is an earlier refusal. Adopt and regenerate before testing. See [stage 66](../../stages/66-pr71-single-person-company-join-20261122.json).
