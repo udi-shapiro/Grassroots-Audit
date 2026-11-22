@@ -1,3 +1,9 @@
+# Secure Friendship guard-isolation follow-up — 22 November 2026
+
+The sender-only check requires loss of Bob’s acceptance after Carol receives the notice. The receiver-only check needs an attempted stale act during the pre-notice window. [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) confirms no new attempt trace. See [stage 65](../../stages/65-pr76-secure-friendship-guard-isolation-20261122.json).
+
+---
+
 # Secure Friendship eight-play trace checked — 22 November 2026
 
 [The extended public play](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) retains Bob’s acceptance record. In-run loss, both notice orders and positive recovery remain open. One-step re-keying remains with the Calculus grammar. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).

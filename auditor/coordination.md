@@ -1,3 +1,9 @@
+# Secure Friendship guard-isolation follow-up — 22 November 2026
+
+[SPM’s guard-isolation clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) is consistent with the pinned [sixth](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L34-L39) and [eighth](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) plays. Both have no stale start between Accept and Tell change. Finding 4 remains open with the existing live-loss dependency. See [stage 65](stages/65-pr76-secure-friendship-guard-isolation-20261122.json).
+
+---
+
 # Secure Friendship eight-play trace checked — 22 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/710c300dc2a01381b813ed82040f3b7f8bafcd41) verifies the [extended stale-Restore trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) and the public threshold-two controls with [one](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L41-L46) and [two](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L13-L19) statements. Findings 4 and 5 stay open for remaining loss, offline and re-keying work. See [stage 64](stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).

@@ -1,3 +1,9 @@
+# Secure Friendship guard-isolation follow-up — 22 November 2026
+
+[SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) ties its two planned guard-isolation plays to GSC’s live-loss revision. The existing pre-notice window contains no stale start in either recorded play. See [stage 65](../../stages/65-pr76-secure-friendship-guard-isolation-20261122.json).
+
+---
+
 # Secure Friendship eight-play trace checked — 22 November 2026
 
 Both new recordings are public. [The stale trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L48-L53) shows no stale retry after Accept. [The below-threshold trace](https://github.com/EShapiro2/GLP/blob/e6b768b5fb487e2a96d336926f994627d9ae177f/cascade/Secure-Friendship/run.log#L41-L46) shows one statement, threshold two and no Accept. Keep the live-loss and offline controls open. See [stage 64](../../stages/64-pr76-secure-friendship-eight-play-verification-20261122.json).

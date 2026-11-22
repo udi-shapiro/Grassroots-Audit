@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T08:08:24Z",
-  "active_run": {
-    "run_id": "66235b52-e64e-11f1-98cd-64ea716b1ef2",
-    "delivery_ids": [
-      "66235b52-e64e-11f1-98cd-64ea716b1ef2"
-    ],
-    "started_at": "2026-11-22T08:27:47.000Z",
-    "expires_at": "2026-11-22T08:42:47.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41"
-  },
+  "updated_at": "2026-11-22T08:28:42Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -51,11 +40,11 @@
       "number": 76,
       "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
       "state": "open",
-      "updated_at": "2026-11-22T08:07:19Z",
+      "updated_at": "2026-11-22T08:26:21Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 56,
+        "comments": 57,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -114,20 +103,21 @@
           7075917325,
           7076061323,
           7076071704,
-          7076285150
+          7076285150,
+          7076518476
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T08:03:45Z",
+        "latest_item_at": "2026-11-22T08:26:21Z",
         "latest_comments": [
           {
-            "id": 7076285150,
-            "updated_at": "2026-11-22T08:03:45Z"
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
           }
         ]
       },
-      "comment_cursor": 7076285150,
+      "comment_cursor": 7076518476,
       "review_cursor": null,
-      "notes": "Verified adopted fixtures and the published stale-retry and threshold traces. Findings 4 and 5 remain open for other controls."
+      "notes": "Recorded SPM’s guard-isolation clarification. Current public artifacts match the previous pin, and plays 6 and 8 contain no stale start between Accept and Tell change. Finding 4 remains open. The draft already records the dependency."
     },
     {
       "number": 50,
@@ -885,6 +875,88 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "66235b52-e64e-11f1-98cd-64ea716b1ef2",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
+      "comment_id": 7076518476,
+      "discussion_version": {
+        "comments": 57,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150,
+          7076518476
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:26:21Z",
+        "latest_comments": [
+          {
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T08:28:42Z",
+      "outcome": "Recorded SPM’s guard-isolation clarification. Current public artifacts match the previous pin, and plays 6 and 8 contain no stale start between Accept and Tell change. Finding 4 remains open. The draft already records the dependency."
+    },
     {
       "delivery_id": "bd0d664a-e64b-11f1-8642-0c554c4a2abb",
       "event_type": "pull_request",
@@ -6947,7 +7019,7 @@
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T08:08:24Z",
+    "observed_at": "2026-11-22T08:28:42Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
