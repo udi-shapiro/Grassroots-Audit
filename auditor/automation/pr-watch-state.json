@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T16:56:08Z",
-  "active_run": {
-    "run_id": "1251146e-e69a-11f1-9e2c-e331bf1df9d3",
-    "delivery_ids": [
-      "1251146e-e69a-11f1-9e2c-e331bf1df9d3"
-    ],
-    "started_at": "2026-11-22T17:29:21.000Z",
-    "expires_at": "2026-11-22T17:44:21.000Z",
-    "pull_request_numbers": [
-      71
-    ],
-    "head_sha": "b1afab7bd22945edf27c18528f76ad7fe2e19e6b"
-  },
+  "updated_at": "2026-11-22T17:32:16Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -298,13 +287,13 @@
     },
     {
       "number": 71,
-      "head_sha": "b1afab7bd22945edf27c18528f76ad7fe2e19e6b",
+      "head_sha": "3d123bc71378c1cc078b61b86094a4a00c509f20",
       "state": "open",
-      "updated_at": "2026-11-22T16:55:12Z",
+      "updated_at": "2026-11-22T17:31:04Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 5,
+        "comments": 6,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -312,20 +301,21 @@
           7057469694,
           7059738487,
           7082237974,
-          7082395613
+          7082395613,
+          7082859659
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T16:51:34Z",
+        "latest_item_at": "2026-11-22T17:28:02Z",
         "latest_comments": [
           {
-            "id": 7082395613,
-            "updated_at": "2026-11-22T16:51:34Z"
+            "id": 7082859659,
+            "updated_at": "2026-11-22T17:28:02Z"
           }
         ]
       },
-      "comment_cursor": 7082395613,
+      "comment_cursor": 7082859659,
       "review_cursor": null,
-      "notes": "Verified the exact term in the owner and cascade copies, and the first-officer Join guard in both published platforms. Finding 4 stays open for runtime controls and officer lifecycle."
+      "notes": "Verified the first-officer admission invariant by scanning 157 adopted schemas. Runtime controls for founding and refusal before and after resignation remain pending. Finding 4 stays open."
     },
     {
       "number": 69,
@@ -894,6 +884,68 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "7e6d1206-e69a-11f1-9ea6-e7162740d5f0",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "3d123bc71378c1cc078b61b86094a4a00c509f20",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:28:02Z",
+        "latest_comments": [
+          {
+            "id": 7082859659,
+            "updated_at": "2026-11-22T17:28:02Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:32:16Z",
+      "outcome": "Own audit publication. No additional PR action."
+    },
+    {
+      "delivery_id": "1251146e-e69a-11f1-9e2c-e331bf1df9d3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "b1afab7bd22945edf27c18528f76ad7fe2e19e6b",
+      "comment_id": 7082859659,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:28:02Z",
+        "latest_comments": [
+          {
+            "id": 7082859659,
+            "updated_at": "2026-11-22T17:28:02Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:32:16Z",
+      "outcome": "Verified the first-officer admission invariant by scanning 157 adopted schemas. Runtime controls for founding and refusal before and after resignation remain pending. Finding 4 stays open."
+    },
     {
       "delivery_id": "7bd64b66-e695-11f1-8c4f-20e2a5bcf8c9",
       "event_type": "pull_request",
@@ -7152,11 +7204,11 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "e096318081bbd0fce83abfd0f1f313bde3fe2430",
-    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "glp_main": "90ab68ca2eebeb2ac0aeca55570b59886dc0a54d",
+    "glp_papers": "4599e9200271b25bb4ffbf5cf5fb0044492613d5",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T16:56:08Z",
+    "observed_at": "2026-11-22T17:32:16Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",

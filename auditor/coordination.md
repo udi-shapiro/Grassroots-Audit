@@ -1,3 +1,9 @@
+# Single-Person Company admission invariant checked — 22 November 2026
+
+[PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/3d123bc71378c1cc078b61b86094a4a00c509f20) preserves [GO’s admission clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7082859659). The [schema scan](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/calculus/contracts/Single-Person-Company/term.glp.txt) verifies the first-officer invariant. The recorded admission and resignation control is pending. See [stage 68](stages/68-pr71-single-person-company-admission-invariant-20261122.json).
+
+---
+
 # Single-Person Company platform adoption checked — 22 November 2026
 
 [Audit PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/b1afab7bd22945edf27c18528f76ad7fe2e19e6b) records public adoption in the owner module and both emitted platforms. Finding 4 stays open for runtime and resignation checks. See [stage 67](stages/67-pr71-single-person-company-platform-adoption-20261122.json).

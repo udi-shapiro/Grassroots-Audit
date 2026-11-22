@@ -1,3 +1,9 @@
+# Single-Person Company admission invariant checked — 22 November 2026
+
+[GO clarified](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7082859659) that the contract limits admission. Found admits the first officer, Resign keeps membership, and Leave may remove it. The audit confirmed the invariant from schema effects. Runtime verification remains open. See [stage 68](../../stages/68-pr71-single-person-company-admission-invariant-20261122.json).
+
+---
+
 # Single-Person Company platform adoption checked — 22 November 2026
 
 The [owner module](https://github.com/EShapiro2/GLP/blob/1d40e504db128cf0ca90be655bfa2f1498140332/programs/go/Single-Person-Company.glp#L27) now carries the catalogue’s corrected Join. Published Resign still leaves membership. Confirm the lifecycle through resignation. See [stage 67](../../stages/67-pr71-single-person-company-platform-adoption-20261122.json).

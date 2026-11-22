@@ -1,3 +1,9 @@
+# Single-Person Company admission invariant checked — 22 November 2026
+
+The [manifest](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/manifest.md) still records no play. The remaining control is Found, non-officer Join attempt, Resign and a later non-officer attempt, with refusal or suppression recorded. See [stage 68](../../stages/68-pr71-single-person-company-admission-invariant-20261122.json).
+
+---
+
 # Single-Person Company platform adoption checked — 22 November 2026
 
 The [regenerated manifest](https://github.com/EShapiro2/GLP/blob/1d40e504db128cf0ca90be655bfa2f1498140332/cascade/Single-Person-Company/manifest.md) records both platforms and no play. Record the admission and officer-lifecycle controls when available. See [stage 67](../../stages/67-pr71-single-person-company-platform-adoption-20261122.json).
