@@ -1,3 +1,9 @@
+# GSC raw PDF links checked — 22 November 2026
+
+[GSC’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086849887) supplies two direct URLs for the [same pinned PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf). No PDF bytes were available through the attempted routes in this run. [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77) still records both answers and the remaining PDF checks. See [stage 73](../../stages/73-pr77-gsc-raw-links-iglp-verification-20261122.json).
+
+---
+
 # Revised GSC PDF pinned — 22 November 2026
 
 [GSC’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086064618) identifies the public build. The [pinned PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf) was listed by GitHub, but its bytes were unavailable in this run. Check the single definition of person in Section 2, then the reflexivity attribution, shared-guardian act and Guardians box. See [stage 72](../../stages/72-pr77-gsc-public-paper-20261122.json).

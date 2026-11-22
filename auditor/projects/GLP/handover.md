@@ -1,3 +1,9 @@
+# Public IGLP corrections verified — 22 November 2026
+
+[PR #78](https://github.com/udi-shapiro/Grassroots-Audit/pull/78/commits/2def7c800706ddbaf97887ef364bf36b89d6dd60) verifies IGLP Findings 1 and 2 at the pinned [public release](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/IGLP.pdf). The old left/right and Reduce–Communicate witnesses were rerun. GLP-Spec Finding 1 remains pending. Compare the revised acyclic reduction rule and LP proof with the typed example and dependent implementation account. See [stage 73](../../stages/73-pr77-gsc-raw-links-iglp-verification-20261122.json).
+
+---
+
 # PR #21 handled — 16 November 2026
 
 [Response PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21), head `8643c6addcacd9716498fb0cc73ed5c0ede57ffd`, is merged as `69e15daca90763d7765d7a81dc3e9418f027e212`. It preserves GLP's dated answers to GLP-Spec Finding 1 and IGLP Findings 1 and 2. The answers are recorded but the claimed fixes are not independently verified or closed. No private paper repository was accessed and no revised proof text was examined.

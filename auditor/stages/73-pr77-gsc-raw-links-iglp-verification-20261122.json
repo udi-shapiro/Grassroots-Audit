@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "1ee7cad6-e6c4-11f1-9140-f7e09f1792d9",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 77,
+      "head_sha": "f410982e6092e2f27504994aa933fce0cee91622",
+      "comment_id": 7086849887,
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7086064618,
+          7086849887
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T22:29:02Z",
+        "latest_comments": [
+          {
+            "id": 7086064618,
+            "updated_at": "2026-11-22T21:27:29Z"
+          },
+          {
+            "id": 7086849887,
+            "updated_at": "2026-11-22T22:29:02Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T22:34:52Z",
+      "outcome": "GSC supplied direct raw URLs for the same pinned public GSC PDF. Binary retrieval through GitHub and web failed and direct HTTPS timed out. The draft and finding status need no revision. No comment posted."
+    },
+    {
+      "delivery_id": "e6f0d522-e6c4-11f1-8c9b-97b30ac857dd",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 78,
+      "head_sha": "2def7c800706ddbaf97887ef364bf36b89d6dd60",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-22T22:34:52Z",
+      "outcome": "Own audit publication opened. Corrected IGLP Findings 1 and 2 independently verified in the public PDF and bounded paper-rule witness. Publication awaits review."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "91aa44294fbb070b0f9940b2cd68c41f15da058d",
+    "glp_papers": "801b7d9a94c8b94f81ed6bfc6e4f607954d524bb",
+    "iglp_public_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
+    "gsc_public_pdf_blob": "a382e68d047de58c2c1c2fc1e8c4cf328dd05598",
+    "observed_at": "2026-11-22T22:34:52Z"
+  },
+  "paper_tree": [
+    {
+      "path": "papers/GLP-Spec.pdf",
+      "sha": "30020aabd7bb9c625780976086ba33ed4b3935e9",
+      "size": 340060
+    },
+    {
+      "path": "papers/GSC.pdf",
+      "sha": "a382e68d047de58c2c1c2fc1e8c4cf328dd05598",
+      "size": 2129223
+    },
+    {
+      "path": "papers/IGLP.pdf",
+      "sha": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
+      "size": 849683
+    },
+    {
+      "path": "papers/TGLP.pdf",
+      "sha": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e",
+      "size": 685804
+    },
+    {
+      "path": "papers/sGLP.pdf",
+      "sha": "5c3a98b7348ca22d2a239c5c13dabb510fc43355",
+      "size": 702714
+    },
+    {
+      "path": "papers/vGLP.pdf",
+      "sha": "0ab9f5a684c21aafa32652269d7914822c9de9a6",
+      "size": 2691256
+    }
+  ],
+  "links": {
+    "iglp_pdf": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/IGLP.pdf",
+    "gsc_pdf": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf",
+    "gsc_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086849887",
+    "gsc_draft": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77",
+    "iglp_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/78",
+    "iglp_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/78/commits/2def7c800706ddbaf97887ef364bf36b89d6dd60",
+    "witness": "https://github.com/udi-shapiro/Grassroots-Audit/blob/f41ab3efdb7511e870452dd1b95df85e7b45ee14/auditor/checks/stage2-sweep/formal_semantics.py",
+    "glp_spec": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GLP-Spec.pdf",
+    "tglp": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/TGLP.pdf",
+    "sglp": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/sGLP.pdf",
+    "vglp": "https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/vGLP.pdf"
+  },
+  "project_claims": {
+    "gsc": "Project attributes the PDF to revision 25aab689f and reports that both raw URLs served matching 2,129,223-byte PDF files.",
+    "iglp": "The GLP answer in merged PR #21 attributes the correction to its private source revision 06e7103."
+  },
+  "inspection": {
+    "gsc": "Same public Git blob. GitHub Fetch refused raw PDF retrieval, direct HTTPS timed out, and the web reader could not obtain the file. GSC text and project revision provenance remain unverified.",
+    "iglp": "Fetched the 79-page public artifact via the authorized GitHub connection. Git blob hash matched the pinned tree entry. Extracted text, and visually checked pp. 4, 12, 40. Reviewed Definitions 2.2, 2.3, 3.14 and 3.27, Lemmas 3.29 and 6.45, Theorems 3.30 and 6.46, Remark 3.31 and Proposition 6.41 for the original objections. Private-source provenance was outside the check.",
+    "core_gate": "All six original findings have attributed project answers on current main. GLP-Spec and TGLP blobs were hash-checked and text retrieved. Both describe the original cyclic example and acyclicity. Full LP-correspondence verification remains pending."
+  },
+  "execution": {
+    "paper_extraction": "git hash-object, sha256sum, pdfinfo and pdftotext -layout on public GLP-Spec, IGLP, TGLP and sGLP artifacts. pdftoppm on IGLP pp. 4, 12, 40.",
+    "iglp_sha256": "5ee37d7c4812097f4c20ce97a28f86d1ad03a5041b90ce24acc71a0873caead1",
+    "witness": {
+      "command": "python3 formal_semantics.py",
+      "checker_blob": "23f21f82dc1e09a9ec16d196a84ed19a4bba1caa",
+      "result_path": "auditor/evidence/core-20261122/iglp-formal-semantics-result.json",
+      "result": "17 states, cGLP left and right, FIFO left, original mapping endpoints connected by two safe transitions. No Dart/network execution."
+    },
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "29 reports, 23 findings, 0 unanswered. Table byte-identical.",
+      "table_blob": "a9bf264692afb5f5a1042cab343073cfa2e2e0c7"
+    }
+  },
+  "dispositions": {
+    "gsc_knowledge_1_2": "Answered, open. Draft #77 unchanged.",
+    "iglp_1_2": "Verified corrected in the public paper. Main-based publication #78 open for review. Existing issues left open pending review and merge.",
+    "publication_blobs": [
+      {
+        "path": "ISSUES.md",
+        "sha": "ae75a33fed67656da74507a051003a8b4b4d0b0f"
+      },
+      {
+        "path": "README.md",
+        "sha": "7bd173683516f987d58dad57d696e1bac3acd25c"
+      },
+      {
+        "path": "papers/IGLP.pdf.md",
+        "sha": "0ebe40ef5f714b5c8a18cd38cab216a4f5b779fd"
+      }
+    ]
+  },
+  "next": [
+    "Review IGLP verification PR #78 at its pinned head. After merge, close existing issues #32 and #33 with the verification and merge links.",
+    "Continue GLP-Spec Finding 1 from the retrieved GLP-Spec and TGLP releases. The original cyclic example and acyclic rule are present. Check cumulative composition and the LP correspondence proof, including the treatment of the reader-to-writer projection, and the published dependent IGLP account.",
+    "Verify vGLP #1 and sGLP #1 and #2 at the pinned papers releases. sGLP PDF was retrieved, but its proof was not reviewed in this run. Open a separate publication for each substantive verification batch.",
+    "Continue GSC Knowledge Findings 1 and 2 when the pinned public PDF bytes can be retrieved and hash-checked in this environment. Inspect Sections 2 and 8 and the Guardians box."
+  ]
+}

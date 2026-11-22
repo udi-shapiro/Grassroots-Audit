@@ -1,3 +1,9 @@
+# Public IGLP corrections verified — 22 November 2026
+
+[PR #78](https://github.com/udi-shapiro/Grassroots-Audit/pull/78/commits/2def7c800706ddbaf97887ef364bf36b89d6dd60) records both IGLP verifications in the [public PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/IGLP.pdf) and awaits review. All six original core findings have project answers. Continue the remaining four checks from [stage 73](stages/73-pr77-gsc-raw-links-iglp-verification-20261122.json). The new [GSC raw links](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086849887) did not make the pinned PDF bytes accessible to the audit. Knowledge Findings 1 and 2 remain open.
+
+---
+
 # Revised GSC PDF pinned — 22 November 2026
 
 [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77/commits/f410982e6092e2f27504994aa933fce0cee91622) preserves [GSC’s public release reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086064618) and pins the [revised PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf). The audit confirmed the commit and blob and regenerated the table. Both findings stay open for independent PDF inspection. See [stage 72](stages/72-pr77-gsc-public-paper-20261122.json).
