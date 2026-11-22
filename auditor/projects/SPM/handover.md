@@ -1,3 +1,9 @@
+# Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
+
+The audit checked both [fixture source](https://github.com/EShapiro2/GLP/blob/ba79cda1265b6aa7231fadd67770e3f2bf649795/programs/vglp/cva/secure_friendship/self.glp#L312-L352) and [threshold source](https://github.com/EShapiro2/GLP/blob/225430f3925d044455f080aa34b1e4f4bd89bee8/programs/vglp/cva/secure_friendship/self.glp#L275-L304). Publish the new logs with attempt and Ready ordering and final state. The offline and actual-loss controls remain open. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
+
+---
+
 # Regenerated Secure Friendship cascade checked — 22 November 2026
 
 [The public trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) shows Bob keeping Alicia and the acceptance record. No targeted Restore starts or votes occur after Accept. The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075300665) still ties the remaining controls to GSC’s state loss. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).

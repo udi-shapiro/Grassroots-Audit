@@ -1,3 +1,9 @@
+# Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
+
+SPM’s new scripts exercise attempts with retained acceptance and a one-of-two statement count. The in-run loss model, both notice schedules and one-step re-keying remain open. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
+
+---
+
 # Calculus composition rule approval pending — 22 November 2026
 
 [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) is waiting on approval of the composition rule. The public terms and [verdicts](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/calculus/contracts/Tennis-Courts/verdict.txt) still show both roles of `acquaint` obstructed. Check the new verdicts after adoption. See [stage 62](../../stages/62-pr76-calculus-composition-approval-20261122.json).

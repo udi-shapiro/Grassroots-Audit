@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T07:30:38Z",
-  "active_run": {
-    "run_id": "19814698-e648-11f1-9c78-56acfa54018c",
-    "delivery_ids": [
-      "19814698-e648-11f1-9c78-56acfa54018c"
-    ],
-    "started_at": "2026-11-22T07:43:21.000Z",
-    "expires_at": "2026-11-22T07:58:21.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "4006884746194d97b82563a5713423491c111894"
-  },
+  "updated_at": "2026-11-22T07:46:57Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "4006884746194d97b82563a5713423491c111894",
+      "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
       "state": "open",
-      "updated_at": "2026-11-22T07:29:44Z",
+      "updated_at": "2026-11-22T07:45:57Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 53,
+        "comments": 55,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -111,20 +100,26 @@
           7075299198,
           7075300665,
           7075632249,
-          7075917325
+          7075917325,
+          7076061323,
+          7076071704
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T07:26:38Z",
+        "latest_item_at": "2026-11-22T07:42:26Z",
         "latest_comments": [
           {
-            "id": 7075917325,
-            "updated_at": "2026-11-22T07:26:38Z"
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
           }
         ]
       },
-      "comment_cursor": 7075917325,
+      "comment_cursor": 7076071704,
       "review_cursor": null,
-      "notes": "Preserved the Calculus reply naming Udi’s decision on Definition Operations item 5. The public catalogue and retained records show the same certification blocker. Finding 1 remains open."
+      "notes": "Verified the below-threshold and extended stale-Restore fixture sources and the generated candidate and Ready filters. The new runtime traces remain pending. Findings 4 and 5 stay open."
     },
     {
       "number": 50,
@@ -882,6 +877,258 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "c0f6fbfc-e648-11f1-8b14-c5fc1e0b2368",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "52a7b107578139aaf9b211c69fa1516cb53a4de7",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 55,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:42:26Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:46:57Z",
+      "outcome": "Own verified audit publication. No additional PR action."
+    },
+    {
+      "delivery_id": "3f9c78d4-e648-11f1-8005-b432f7937052",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "4006884746194d97b82563a5713423491c111894",
+      "comment_id": 7076071704,
+      "discussion_version": {
+        "comments": 55,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:42:26Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:46:57Z",
+      "outcome": "Verified the new stale-Restore fixture commit and attributed the unobserved longer run."
+    },
+    {
+      "delivery_id": "19814698-e648-11f1-9c78-56acfa54018c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "4006884746194d97b82563a5713423491c111894",
+      "comment_id": 7076061323,
+      "discussion_version": {
+        "comments": 55,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T07:42:26Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:46:57Z",
+      "outcome": "Verified the below-threshold and extended stale-Restore fixture sources and the generated candidate and Ready filters. The new runtime traces remain pending. Findings 4 and 5 stay open."
+    },
     {
       "delivery_id": "7d419dba-e646-11f1-9c33-9ca15c73e7d4",
       "event_type": "pull_request",
@@ -6530,12 +6777,14 @@
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T07:30:38Z",
+    "observed_at": "2026-11-22T07:46:57Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
     "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
     "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
-    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79"
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
+    "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
+    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795"
   }
 }

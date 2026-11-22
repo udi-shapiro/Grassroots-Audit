@@ -1,3 +1,9 @@
+# Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
+
+The [candidate filter](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/cascade/Secure-Friendship/platform.vglp#L2392-L2419) waits for Ready on unable refusals and [Ready](https://github.com/EShapiro2/GLP/blob/2e4ffb148f7c76936224afcbbd8705fe3dd9a885/cascade/Secure-Friendship/platform.vglp#L2739-L2750) requires the receiver’s state in the part domain. Check this explanation against the extended trace, separately from the offline pre-commit proposal. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
+
+---
+
 # Regenerated Secure Friendship cascade checked — 22 November 2026
 
 The regenerated platform includes the wildcard [runtime membership branch](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L5029-L5044) and [both acceptance guards](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L234-L238). The [trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) records no post-Accept target start. Keep runtime coverage of those guards pending. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).

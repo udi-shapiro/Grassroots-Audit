@@ -1,3 +1,9 @@
+# Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/52a7b107578139aaf9b211c69fa1516cb53a4de7) preserves both SPM replies and the [new threshold](https://github.com/EShapiro2/GLP/blob/225430f3925d044455f080aa34b1e4f4bd89bee8/programs/vglp/cva/secure_friendship/self.glp#L275-L304) and [stale-retry](https://github.com/EShapiro2/GLP/blob/ba79cda1265b6aa7231fadd67770e3f2bf649795/programs/vglp/cva/secure_friendship/self.glp#L312-L352) fixture checks. The older public log and generated filters support the retry explanation. The new runtime traces remain pending. See [stage 63](stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
+
+---
+
 # Calculus composition rule approval pending — 22 November 2026
 
 [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) identifies Udi’s decision on Definition Operations item 5 as the prerequisite for certification. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/4006884746194d97b82563a5713423491c111894) preserves the dated answer and public check. Finding 1 stays open. See [stage 62](stages/62-pr76-calculus-composition-approval-20261122.json).

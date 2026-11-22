@@ -1,3 +1,9 @@
+# Secure Friendship threshold and stale retry fixtures checked — 22 November 2026
+
+The two new fixtures are public on SPM’s branch. The old main/cascade record has neither play. When integrated, publish the output and keep the longer check separate from time-limited CAS if needed. See [stage 63](../../stages/63-pr76-secure-friendship-threshold-and-retry-20261122.json).
+
+---
+
 # Calculus composition rule approval pending — 22 November 2026
 
 [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075917325) will ask for reprinting after the checker certifies Tennis Courts and Rehearsal Rooms. Their pinned records still hold no platform or run. See [stage 62](../../stages/62-pr76-calculus-composition-approval-20261122.json).
