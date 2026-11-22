@@ -1,3 +1,9 @@
+# vGLP founding discovery dependency checked — 22 November 2026
+
+[PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/a1063d0300992800b45436d99ecffbada2471ab2) preserves [vGLP and GO’s explanation](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) and the two-role compiler check. The vGLP paper revision awaits Udi’s approval. See [stage 70](stages/70-pr71-vglp-founding-discovery-20261122.json).
+
+---
+
 # Single-Person Company founding proposal checked — 22 November 2026
 
 [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/86a3c1ecda29a4501b030225c9d6207e476a3b00) records [GO’s Found blocker](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083025434) and the source path for the all-peer transport gate. Finding 4 remains open. See [stage 69](stages/69-pr71-single-person-company-founding-gate-20261122.json).

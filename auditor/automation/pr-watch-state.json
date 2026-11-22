@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T17:45:51Z",
-  "active_run": {
-    "run_id": "3dc41882-e69d-11f1-9da9-a5154cea6030",
-    "delivery_ids": [
-      "3dc41882-e69d-11f1-9da9-a5154cea6030"
-    ],
-    "started_at": "2026-11-22T17:52:10.000Z",
-    "expires_at": "2026-11-22T18:07:10.000Z",
-    "pull_request_numbers": [
-      71
-    ],
-    "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00"
-  },
+  "updated_at": "2026-11-22T17:54:20Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -298,13 +287,13 @@
     },
     {
       "number": 71,
-      "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
+      "head_sha": "a1063d0300992800b45436d99ecffbada2471ab2",
       "state": "open",
-      "updated_at": "2026-11-22T17:44:58Z",
+      "updated_at": "2026-11-22T17:53:30Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 7,
+        "comments": 8,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -314,20 +303,21 @@
           7082237974,
           7082395613,
           7082859659,
-          7083025434
+          7083025434,
+          7083148179
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T17:41:09Z",
+        "latest_item_at": "2026-11-22T17:50:43Z",
         "latest_comments": [
           {
-            "id": 7083025434,
-            "updated_at": "2026-11-22T17:41:09Z"
+            "id": 7083148179,
+            "updated_at": "2026-11-22T17:50:43Z"
           }
         ]
       },
-      "comment_cursor": 7083025434,
+      "comment_cursor": 7083148179,
       "review_cursor": null,
-      "notes": "Verified the generated Found transport-knowledge gate and the fixture’s missing exchange with Orga. Finding 4 remains open. Runtime execution and a supported founding path remain pending."
+      "notes": "Preserved the vGLP and GO explanation and approval dependency. Independently verified the two-role discovery filter and the generated Found/Enter contrast. Finding 4 remains open."
     },
     {
       "number": 69,
@@ -896,6 +886,72 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "a0ba0be0-e69d-11f1-9367-447446f73bf1",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "a1063d0300992800b45436d99ecffbada2471ab2",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434,
+          7083148179
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:50:43Z",
+        "latest_comments": [
+          {
+            "id": 7083148179,
+            "updated_at": "2026-11-22T17:50:43Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:54:20Z",
+      "outcome": "Own audit publication. No additional action."
+    },
+    {
+      "delivery_id": "3dc41882-e69d-11f1-9da9-a5154cea6030",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
+      "comment_id": 7083148179,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434,
+          7083148179
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:50:43Z",
+        "latest_comments": [
+          {
+            "id": 7083148179,
+            "updated_at": "2026-11-22T17:50:43Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:54:20Z",
+      "outcome": "Preserved the vGLP and GO explanation and approval dependency. Independently verified the two-role discovery filter and the generated Found/Enter contrast. Finding 4 remains open."
+    },
     {
       "delivery_id": "6fac491a-e69c-11f1-9bea-246651915b80",
       "event_type": "pull_request",
@@ -7280,11 +7336,11 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "90ab68ca2eebeb2ac0aeca55570b59886dc0a54d",
+    "glp_main": "91aa44294fbb070b0f9940b2cd68c41f15da058d",
     "glp_papers": "4599e9200271b25bb4ffbf5cf5fb0044492613d5",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T17:45:51Z",
+    "observed_at": "2026-11-22T17:54:20Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",

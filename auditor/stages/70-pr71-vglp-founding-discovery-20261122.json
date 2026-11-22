@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "3dc41882-e69d-11f1-9da9-a5154cea6030",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 71,
+      "head_sha": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
+      "comment_id": 7083148179,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434,
+          7083148179
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:50:43Z",
+        "latest_comments": [
+          {
+            "id": 7083148179,
+            "updated_at": "2026-11-22T17:50:43Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:54:20Z",
+      "outcome": "Preserved the vGLP and GO explanation and approval dependency. Independently verified the two-role discovery filter and the generated Found/Enter contrast. Finding 4 remains open."
+    },
+    {
+      "delivery_id": "a0ba0be0-e69d-11f1-9367-447446f73bf1",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 71,
+      "head_sha": "a1063d0300992800b45436d99ecffbada2471ab2",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 8,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7055910242,
+          7057469694,
+          7059738487,
+          7082237974,
+          7082395613,
+          7082859659,
+          7083025434,
+          7083148179
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T17:50:43Z",
+        "latest_comments": [
+          {
+            "id": 7083148179,
+            "updated_at": "2026-11-22T17:50:43Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T17:54:20Z",
+      "outcome": "Own audit publication. No additional action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "91aa44294fbb070b0f9940b2cd68c41f15da058d",
+    "glp_papers": "4599e9200271b25bb4ffbf5cf5fb0044492613d5",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T17:54:20Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
+    "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
+    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
+    "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f",
+    "go_spc_branch": "8a087f6787d24838bf8589f6a78fb5f5719b3265",
+    "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
+    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332",
+    "spc_found_fixture": "a1d69fab1730b7d0fdfefc01737301adceb40dbb"
+  },
+  "links": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/a1063d0300992800b45436d99ecffbada2471ab2",
+    "finding": "https://github.com/udi-shapiro/Grassroots-Audit/issues/61",
+    "compiler": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/vglp/cva/compiler/cvac.glp#L4554-L4570",
+    "found": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Single-Person-Company/platform.vglp#L924",
+    "foundDiscovery": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Single-Person-Company/platform.vglp#L7989-L8021",
+    "enterDiscovery": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Guardians/platform.vglp#L875-L885",
+    "paper": "https://github.com/EShapiro2/GLP/blob/4599e9200271b25bb4ffbf5cf5fb0044492613d5/papers/vGLP.pdf"
+  },
+  "pull_request": {
+    "number": 71,
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "event_head": "86a3c1ecda29a4501b030225c9d6207e476a3b00",
+    "publication_head": "a1063d0300992800b45436d99ecffbada2471ab2",
+    "discussion_version": {
+      "comments": 8,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7055910242,
+        7057469694,
+        7059738487,
+        7082237974,
+        7082395613,
+        7082859659,
+        7083025434,
+        7083148179
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T17:50:43Z",
+      "latest_comments": [
+        {
+          "id": 7083148179,
+          "updated_at": "2026-11-22T17:50:43Z"
+        }
+      ]
+    },
+    "reviews": 0,
+    "report_blobs": {
+      "ISSUES.md": "b2acd4a6b7d461eaf8e156bec4226e41327a8502",
+      "calculus/contracts.md": "3b3f19e4ac08ef9ee9d29d09ad544be88df93237"
+    }
+  },
+  "project_claims": {
+    "vGLP_and_GO": "The paper’s compilation rule for two-role acquaintances is responsible for the three-role Found blocker. The paper revision awaits Udi’s approval, followed by compiler revision, platform regeneration and GO’s runtime control."
+  },
+  "inspection": {
+    "foundRoles": 3,
+    "foundGuardedRoles": 3,
+    "requiredMeetingRoles": 2,
+    "emittedMeetingPeerFound": false,
+    "guardianEnterMeetingPeer": true,
+    "mainPlatformUnchanged": true,
+    "paperBlobs": {
+      "GSC.pdf": "354b7c42c64d4932639a83bf318f912ecc98eca1",
+      "vGLP.pdf": "0ab9f5a684c21aafa32652269d7914822c9de9a6"
+    },
+    "blobs": {
+      "cvac": "cf2392c29895bfbfe59754a1d294ff9d9a62ed03",
+      "foundPlatform": "63662a697f21ad1e300b2b638df8f1bf9292c52b",
+      "guardiansPlatform": "e348d44c97afd611b51da08305b523d725001df2"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Checked that meeting_schema matches exactly two guarding roles subject to its cross-role condition. Counted three guarding Found roles and searched the generated meeting_peer clauses for Found and Guardians Enter.",
+      "Regenerated bin/status.py from the prior pinned corpus before and after editing the report. The byte-identical table contains 29 reports, 23 findings and 0 unanswered."
+    ],
+    "pending": "No independent GLP run. The connector listed both pinned PDFs, but could not deliver their binary contents. The proposed paper revision was not independently verified."
+  },
+  "dispositions": "Finding 4 and issue #61 stay open. PR #71 is unreviewed.",
+  "next": {
+    "vGLP": "Resolve the proposed paper revision with Udi. Verify the adopted public text and compiler and check the Found/Enter discovery behavior separately.",
+    "GO": "Record the admission control after Found works.",
+    "Code": "Regenerate affected GO platforms after the compiler change and publish Found, Join and Resign traces.",
+    "GSC": "Check the contract identity and ward state assumptions against the approved discovery rule."
+  }
+}

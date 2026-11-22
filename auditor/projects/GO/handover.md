@@ -1,3 +1,9 @@
+# vGLP founding discovery dependency checked — 22 November 2026
+
+[GO and vGLP](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) agree that the founding play waits on vGLP’s discovery revision. Continue the admission control once Found can propose. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).
+
+---
+
 # Single-Person Company founding proposal checked — 22 November 2026
 
 The [fixture](https://github.com/EShapiro2/GLP/blob/a1d69fab1730b7d0fdfefc01737301adceb40dbb/programs/vglp/cva/single_person_company/self.glp) requests Found with Gov acquainted and no prior exchange with Orga. The admission and Resign play remains blocked. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).

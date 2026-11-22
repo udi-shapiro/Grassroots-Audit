@@ -1,3 +1,9 @@
+# vGLP founding discovery dependency checked — 22 November 2026
+
+The [two-role compiler filter](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/vglp/cva/compiler/cvac.glp#L4554-L4570) emits discovery for [Guardians Enter](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Guardians/platform.vglp#L875-L885) and none for Found. [vGLP’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) places the paper revision before Udi. Recheck the public revision, then the compiler and runtime. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).
+
+---
+
 # Single-Person Company founding proposal checked — 22 November 2026
 
 The [generated Found gate](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/platform.vglp#L9547-L9555) requires reciprocal transport knowledge of both remote participants. Establish whether an unestablished organisation can be discovered through a supported request before Found. The public Organisation and Corporation platforms share the gate. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).

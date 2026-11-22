@@ -1,3 +1,9 @@
+# vGLP founding discovery dependency checked — 22 November 2026
+
+The [Found schema](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Single-Person-Company/platform.vglp#L924) has three guarding roles. Verify that the eventual discovery change respects the contract’s creation of Orga’s identity. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).
+
+---
+
 # Single-Person Company founding proposal checked — 22 November 2026
 
 The [Found schema](https://github.com/EShapiro2/GLP/blob/90ab68ca2eebeb2ac0aeca55570b59886dc0a54d/cascade/Single-Person-Company/platform.vglp#L924) creates the organisation’s contract identity. The generated proposer also requires transport discovery, a separate condition. Track compatibility of the founding path with vGLP. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).

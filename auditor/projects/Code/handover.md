@@ -1,3 +1,9 @@
+# vGLP founding discovery dependency checked — 22 November 2026
+
+The [compiler gate](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/vglp/cva/compiler/cvac.glp#L4554-L4570) explains the generated Found and Enter contrast. Reprint the GO platforms after the vGLP revision and record the founding and admission play. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).
+
+---
+
 # Single-Person Company founding proposal checked — 22 November 2026
 
 The [fixture](https://github.com/EShapiro2/GLP/blob/a1d69fab1730b7d0fdfefc01737301adceb40dbb/programs/vglp/cva/single_person_company/self.glp) matches the published generated platform. Validate the founding path with explicit Hello and Start evidence before recording the Join and Resign controls. See [stage 69](../../stages/69-pr71-single-person-company-founding-gate-20261122.json).
