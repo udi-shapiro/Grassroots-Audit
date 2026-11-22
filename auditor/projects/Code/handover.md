@@ -1,3 +1,9 @@
+# CAS coverage and held Calculus verdicts checked — 22 November 2026
+
+The [CAS patch](https://github.com/EShapiro2/GLP/commit/fe4192d3c308e885f1fa8b09401347f4b827d1cf) adds selection for 25 manifests without table rows, including the two website records [restored at the release](https://github.com/EShapiro2/GLP/commit/769f038f267f284ff451ef011bd2b44c6fdeff79). The 4,220 fast-tier passes and CAS results remain [Code’s report](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075632249). Reprint Tennis Courts and Rehearsal Rooms once certified. See [stage 61](../../stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).
+
+---
+
 # Regenerated Secure Friendship cascade checked — 22 November 2026
 
 [Code](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075299198) reports 66 passing CAS table rows and a stale Groups with Coins record. The audit verified the [public Secure Friendship log](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log) and regenerated schema. Independent CAS execution and the remaining recovery controls are pending. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).

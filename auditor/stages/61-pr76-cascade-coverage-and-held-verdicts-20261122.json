@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "11e5ef3e-e642-11f1-90ac-184ded8974fb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+      "comment_id": 7075632249,
+      "discussion_version": {
+        "comments": 52,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:58:05Z",
+        "latest_comments": [
+          {
+            "id": 7075632249,
+            "updated_at": "2026-11-22T06:58:05Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:02:46Z",
+      "outcome": "Confirmed Section CAS manifest selection and current not_grassroots verdicts for the two retained website records. Secure Friendship artifacts are byte-identical to the prior pin. Kept findings open."
+    },
+    {
+      "delivery_id": "9961c668-e642-11f1-80e6-7d728111b99d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 52,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:58:05Z",
+        "latest_comments": [
+          {
+            "id": 7075632249,
+            "updated_at": "2026-11-22T06:58:05Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:02:46Z",
+      "outcome": "Own publication already verified and recorded. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "2e4ffb148f7c76936224afcbbd8705fe3dd9a885",
+    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T07:02:46Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79"
+  },
+  "pull_request": {
+    "number": 76,
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "event_head": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+    "publication_head": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+    "discussion_version": {
+      "comments": 52,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253,
+        7067314780,
+        7067364782,
+        7067612357,
+        7068625212,
+        7068678235,
+        7068705219,
+        7068999354,
+        7069004310,
+        7069007322,
+        7069059175,
+        7069473531,
+        7069476309,
+        7069570106,
+        7069656729,
+        7069705048,
+        7070182368,
+        7070186436,
+        7070660789,
+        7070662249,
+        7070746953,
+        7070804026,
+        7070879744,
+        7075299198,
+        7075300665,
+        7075632249
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T06:58:05Z",
+      "latest_comments": [
+        {
+          "id": 7075632249,
+          "updated_at": "2026-11-22T06:58:05Z"
+        }
+      ]
+    },
+    "draft": true,
+    "report_blobs": {
+      "calculus/contracts.md": "f2a65e1978535c2b4634c1c35919f246df1050e2",
+      "test/run_all_tests.sh.md": "30d79e8175ffe925f2169afa4bb6938308d6462d"
+    }
+  },
+  "links": {
+    "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075632249",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/cf9a640c8731b527fc5217d994d0608e37f679ff",
+    "harness": "https://github.com/EShapiro2/GLP/commit/fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "restoration": "https://github.com/EShapiro2/GLP/commit/769f038f267f284ff451ef011bd2b44c6fdeff79",
+    "tennis_verdict": "https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt",
+    "rehearsal_verdict": "https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Rehearsal-Rooms/verdict.txt",
+    "kept_tennis": "https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/cascade/Tennis-Courts/manifest.md",
+    "kept_rehearsal": "https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/cascade/Rehearsal-Rooms/manifest.md"
+  },
+  "project_claims": {
+    "Code": "CAS pass except Groups+Coins, Tennis Courts and Rehearsal Rooms. Fast tier 4,220/4,220. GLP #118 closed. Calculus certification awaits Udi."
+  },
+  "inspection": {
+    "manifest_selection": {
+      "changes": [
+        "test/run_all_tests.sh"
+      ],
+      "rows": 67,
+      "uniqueFiles": 67,
+      "manifests": 92,
+      "fallback": [
+        "Anonymous-Matching",
+        "Anonymous-Rendezvous",
+        "Appointments",
+        "Booking",
+        "Carpool",
+        "Dating",
+        "Democratic-Community",
+        "Disputes",
+        "Foundation",
+        "Free-Matching",
+        "Gossip",
+        "Help",
+        "Home-Exchange",
+        "Jobs",
+        "Lending",
+        "Lost-and-Found",
+        "Matching",
+        "Meeting-Rooms",
+        "Nonprofit",
+        "Partners",
+        "Partnership",
+        "Promoted-Gossip",
+        "Rehearsal-Rooms",
+        "Tennis-Courts",
+        "Warnings"
+      ],
+      "composition": [
+        "Groups+Coins"
+      ],
+      "bothOnTable": [],
+      "tableSansManifest": [
+        [
+          "gfwc",
+          "GFWC"
+        ]
+      ],
+      "patchCasOnly": true
+    },
+    "catalogue_verdicts": {
+      "tennis": "not_grassroots([obstructed(acquaint, 1, atom(person, []), unobtainable), obstructed(acquaint, 2, atom(person, []), unobtainable)])",
+      "rehearsal": "not_grassroots([obstructed(acquaint, 1, atom(person, []), unobtainable), obstructed(acquaint, 2, atom(person, []), unobtainable)])"
+    },
+    "blobs": {
+      "secure_friendship_log": "3e2a5344a9ed0f81512916ecde24ba3a94b04a1f",
+      "secure_friendship_platform": "1486d6911069880f69b6ef1359b1cad7438ce3bc",
+      "retained_tennis_manifest": "90774c381e98259480e3cf16a9ca5a5a51cd4265",
+      "retained_rehearsal_manifest": "28e11c5aba0c67389aeeb02292a2eddce6ae3690",
+      "verdict": "fb0940906c41afca411cccfa1089b4f26cc4a2f2",
+      "table": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+    },
+    "github_actions_runs_for_release": 0
+  },
+  "execution": {
+    "executed": [
+      "Replayed the harness row and fallback selection on all 92 manifest names in Bash, using the pinned cascade.sh table. Counted 66 table manifests, 25 fallback manifests and Groups+Coins in its separate composition check.",
+      "Compared public tree entries, confirming unchanged cascade blobs and a Section CAS-only patch to test/run_all_tests.sh.",
+      "Ran pinned bin/status.py against all 30 reports before and after the edit. Confirmed identical output of 28 findings and 0 unanswered, and unchanged table bytes. Verified the report diff scope."
+    ],
+    "pending": "Did not run the checker, cascade generation, Section CAS or the fast tier. Project test results were not available as a public GitHub workflow at that pin."
+  },
+  "dispositions": "Calculus Finding 1 and Secure Friendship Findings 4 and 5 stay open. Draft #76 has no reviews.",
+  "next": {
+    "Calculus": "Resolve the two current catalogue certification failures, then verify the original composition and relation checks.",
+    "Code": "Reprint both records after Calculus certification and check CAS. Keep the held Groups+Coins composition separate.",
+    "SPM": "Continue previously recorded live state-loss and re-keying controls. No new Secure Friendship trace."
+  }
+}

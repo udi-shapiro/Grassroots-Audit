@@ -1,3 +1,9 @@
+# CAS coverage and held Calculus verdicts checked — 22 November 2026
+
+For Calculus Finding 1, the pinned verdicts for [Tennis Courts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt) and [Rehearsal Rooms](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Rehearsal-Rooms/verdict.txt) identify unobtainable `person` at both `acquaint` roles. The retained website records cite earlier verdicts. Certification and the original composition checks are open. See [stage 61](../../stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).
+
+---
+
 # Regenerated Secure Friendship cascade checked — 22 November 2026
 
 The [regenerated platform](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L234-L238) contains both Restore friend guard locations. The [public play](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) only refuses the targeted stale acts before Accept. GSC’s live-loss model and the Calculus one-step Replace custodian grammar remain with the project and Udi. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).

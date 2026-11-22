@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-22T06:30:16Z",
-  "active_run": {
-    "run_id": "11e5ef3e-e642-11f1-90ac-184ded8974fb",
-    "delivery_ids": [
-      "11e5ef3e-e642-11f1-90ac-184ded8974fb"
-    ],
-    "started_at": "2026-11-22T06:59:46.000Z",
-    "expires_at": "2026-11-22T07:14:46.000Z",
-    "pull_request_numbers": [
-      76
-    ],
-    "head_sha": "2b8a5104f2f51b4a590a4649224e1e25e74623b7"
-  },
+  "updated_at": "2026-11-22T07:02:46Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,13 +38,13 @@
   "processed_prs": [
     {
       "number": 76,
-      "head_sha": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
       "state": "open",
-      "updated_at": "2026-11-22T06:29:15Z",
+      "updated_at": "2026-11-22T07:01:53Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 51,
+        "comments": 52,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -109,24 +98,21 @@
           7070804026,
           7070879744,
           7075299198,
-          7075300665
+          7075300665,
+          7075632249
         ],
         "review_ids": [],
-        "latest_item_at": "2026-11-22T06:23:41Z",
+        "latest_item_at": "2026-11-22T06:58:05Z",
         "latest_comments": [
           {
-            "id": 7075299198,
-            "updated_at": "2026-11-22T06:23:32Z"
-          },
-          {
-            "id": 7075300665,
-            "updated_at": "2026-11-22T06:23:41Z"
+            "id": 7075632249,
+            "updated_at": "2026-11-22T06:58:05Z"
           }
         ]
       },
-      "comment_cursor": 7075300665,
+      "comment_cursor": 7075632249,
       "review_cursor": null,
-      "notes": "Verified regenerated schemas and public trace. No stale Restore commit or post-Accept target start in play six. Kept Findings 4 and 5 open."
+      "notes": "Confirmed Section CAS manifest selection and current not_grassroots verdicts for the two retained website records. Secure Friendship artifacts are byte-identical to the prior pin. Kept findings open."
     },
     {
       "number": 50,
@@ -884,6 +870,160 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "9961c668-e642-11f1-80e6-7d728111b99d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "cf9a640c8731b527fc5217d994d0608e37f679ff",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 52,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:58:05Z",
+        "latest_comments": [
+          {
+            "id": 7075632249,
+            "updated_at": "2026-11-22T06:58:05Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:02:46Z",
+      "outcome": "Own publication already verified and recorded. No additional PR action."
+    },
+    {
+      "delivery_id": "11e5ef3e-e642-11f1-90ac-184ded8974fb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+      "comment_id": 7075632249,
+      "discussion_version": {
+        "comments": 52,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:58:05Z",
+        "latest_comments": [
+          {
+            "id": 7075632249,
+            "updated_at": "2026-11-22T06:58:05Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T07:02:46Z",
+      "outcome": "Confirmed Section CAS manifest selection and current not_grassroots verdicts for the two retained website records. Secure Friendship artifacts are byte-identical to the prior pin. Kept findings open."
+    },
     {
       "delivery_id": "0a4efcb0-e63e-11f1-8b61-2c3472cef3be",
       "event_type": "pull_request",
@@ -6218,14 +6358,16 @@
   },
   "latest_source_observed": {
     "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
-    "glp_main": "f3ae115896619436dd7da0b00d86347c1f5a104d",
+    "glp_main": "2e4ffb148f7c76936224afcbbd8705fe3dd9a885",
     "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-22T06:30:16Z",
+    "observed_at": "2026-11-22T07:02:46Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
-    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef"
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79"
   }
 }

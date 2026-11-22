@@ -1,3 +1,9 @@
+# CAS coverage and held Calculus verdicts checked — 22 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/cf9a640c8731b527fc5217d994d0608e37f679ff) records independent checks of the expanded CAS selector and both [current catalogue verdicts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt). The retained website records cite older verdicts. The Secure Friendship artifacts are byte-identical to the previous pin. See [stage 61](stages/61-pr76-cascade-coverage-and-held-verdicts-20261122.json).
+
+---
+
 # Regenerated Secure Friendship cascade checked — 22 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/2b8a5104f2f51b4a590a4649224e1e25e74623b7) records the [regenerated Secure Friendship trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) and the two project replies. The new play has no stale Restore commit, and all targeted refusals precede Accept. Findings 4 and 5 remain open. See [stage 60](stages/60-pr76-secure-friendship-public-cascade-20261122.json).
