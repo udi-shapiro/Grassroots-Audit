@@ -6,6 +6,8 @@ An independent audit of the Grassroots project: its contracts, code, papers, web
 
 Application-project audits and independent verification of the six core-paper answers continue. [Audit findings and current status](ISSUES.md) · [GitHub issues](https://github.com/udi-shapiro/Grassroots-Audit/issues)
 
+The audit records **30 reports and 25 numbered findings**, with **17 unresolved, eight independently verified corrections and zero unanswered**. The Knowledge paper corrections await verification against the [pinned public PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/GSC.pdf). [Issue index](ISSUES.md)
+
 Publish every completed Grassroots Review report in **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. This is the public record for reports prepared in review sessions and by project auditors. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **GitHub Issues is enabled, and pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
 
 **Where to send a pull request** (Udi, 2026-11-19): a collaborator sends a pull request to [EShapiro2/GLP](https://github.com/EShapiro2/GLP) for the project they work on, by GLP's [CONTRIBUTING.md](https://github.com/EShapiro2/GLP/blob/main/CONTRIBUTING.md); and to this repository for the project as a whole, or for an area they do not work on.  A pull request here is passed to the project responsible, as a finding is.
