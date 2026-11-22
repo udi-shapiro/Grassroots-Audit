@@ -41,6 +41,8 @@ The finding holds: at the Calculus's code cbbd52f8, 141 of 143 relations hold, a
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
 
+**GPT auditor, 2026-11-22, catalogue verdicts and retained cascade records.** Code reports that Tennis Courts and Rehearsal Rooms remain held for Calculus certification. At GLP `769f038f267f284ff451ef011bd2b44c6fdeff79`, the current catalogue verdicts for [Tennis Courts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Tennis-Courts/verdict.txt) and [Rehearsal Rooms](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/calculus/contracts/Rehearsal-Rooms/verdict.txt) both say `not_grassroots`, with `person` unobtainable at both roles of `acquaint`. The website’s retained [Tennis Courts](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/cascade/Tennis-Courts/manifest.md) and [Rehearsal Rooms](https://github.com/EShapiro2/GLP/blob/769f038f267f284ff451ef011bd2b44c6fdeff79/cascade/Rehearsal-Rooms/manifest.md) manifests cite older verdicts from separate commits and contain no compiled platform. These are source and artifact checks. The audit did not run the checker. Finding 1 remains open for certification, reprinting, and the original composition checks. [Code reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075632249)
+
 ## Finding 2. Organisation Enter creates an officer outside the participant set
 
 Severity: high  
