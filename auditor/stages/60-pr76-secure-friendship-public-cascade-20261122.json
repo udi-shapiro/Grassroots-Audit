@@ -1,0 +1,426 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "3e6092ee-e63d-11f1-88b9-2ea19e9460fe",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "a993aa845818236e362281fbb386a6940b3894ff",
+      "comment_id": 7075299198,
+      "discussion_version": {
+        "comments": 51,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:23:41Z",
+        "latest_comments": [
+          {
+            "id": 7075299198,
+            "updated_at": "2026-11-22T06:23:32Z"
+          },
+          {
+            "id": 7075300665,
+            "updated_at": "2026-11-22T06:23:41Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T06:30:16Z",
+      "outcome": "Recorded Code’s reported CAS result and verified the published regeneration."
+    },
+    {
+      "delivery_id": "436afe3c-e63d-11f1-8448-624e0255458e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 76,
+      "head_sha": "a993aa845818236e362281fbb386a6940b3894ff",
+      "comment_id": 7075300665,
+      "discussion_version": {
+        "comments": 51,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:23:41Z",
+        "latest_comments": [
+          {
+            "id": 7075299198,
+            "updated_at": "2026-11-22T06:23:32Z"
+          },
+          {
+            "id": 7075300665,
+            "updated_at": "2026-11-22T06:23:41Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T06:30:16Z",
+      "outcome": "Verified the six suspensions and final state claimed by SPM. The targeted refusals precede Accept."
+    },
+    {
+      "delivery_id": "0a4efcb0-e63e-11f1-8b61-2c3472cef3be",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 51,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T06:23:41Z",
+        "latest_comments": [
+          {
+            "id": 7075299198,
+            "updated_at": "2026-11-22T06:23:32Z"
+          },
+          {
+            "id": 7075300665,
+            "updated_at": "2026-11-22T06:23:41Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T06:30:16Z",
+      "outcome": "Own already-recorded audit publication. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "f3ae115896619436dd7da0b00d86347c1f5a104d",
+    "glp_papers": "3424e4971fe34e7c6c48aa30e5e39f58da444526",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T06:30:16Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef"
+  },
+  "pull_request": {
+    "number": 76,
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "event_head": "a993aa845818236e362281fbb386a6940b3894ff",
+    "publication_head": "2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+    "discussion_version": {
+      "comments": 51,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7060589800,
+        7060604691,
+        7060627413,
+        7060680792,
+        7060696441,
+        7061247414,
+        7061250888,
+        7061251241,
+        7061253794,
+        7061318777,
+        7062367227,
+        7062391833,
+        7062410286,
+        7063035393,
+        7063040554,
+        7063273412,
+        7063464212,
+        7063573110,
+        7063615438,
+        7064082013,
+        7064086846,
+        7064111136,
+        7064117063,
+        7066265186,
+        7066494634,
+        7066512171,
+        7066552253,
+        7067314780,
+        7067364782,
+        7067612357,
+        7068625212,
+        7068678235,
+        7068705219,
+        7068999354,
+        7069004310,
+        7069007322,
+        7069059175,
+        7069473531,
+        7069476309,
+        7069570106,
+        7069656729,
+        7069705048,
+        7070182368,
+        7070186436,
+        7070660789,
+        7070662249,
+        7070746953,
+        7070804026,
+        7070879744,
+        7075299198,
+        7075300665
+      ],
+      "review_ids": [],
+      "latest_item_at": "2026-11-22T06:23:41Z",
+      "latest_comments": [
+        {
+          "id": 7075299198,
+          "updated_at": "2026-11-22T06:23:32Z"
+        },
+        {
+          "id": 7075300665,
+          "updated_at": "2026-11-22T06:23:41Z"
+        }
+      ]
+    },
+    "draft": true,
+    "blobs": {
+      "ISSUES.md": "7262bce858f0324d1903ba357b3a4bfd348d5161",
+      "programs/social/spm/Secure-Friendship.txt.md": "fd1b4a83045273788c605f25a2e9fc6891f882f6",
+      "programs/vglp/cva/compiler/text.glp.md": "26ba19b54ec1e2d3b31d0cd525503b2b52c98e20"
+    }
+  },
+  "links": {
+    "code": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075299198",
+    "spm": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075300665",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/2b8a5104f2f51b4a590a4649224e1e25e74623b7",
+    "platform": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L234-L238",
+    "wildcard_runtime": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L5029-L5044",
+    "wildcard_binding": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L6931-L6944",
+    "run_log": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log",
+    "play_six": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39",
+    "manifest": "https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/manifest.md",
+    "closed_glp_pr": "https://github.com/EShapiro2/GLP/pull/118"
+  },
+  "project_claims": {
+    "Code": "Section CAS passed the 66 cascade.sh table rows. Groups with Coins remains stale. GSC live state loss and Calculus grammar for one-step Replace custodian await Udi.",
+    "SPM": "All six public plays suspended and no agent recovered old Alice. The live-loss controls await GSC’s model change."
+  },
+  "inspection": {
+    "source_ancestry": "The release is the parent of public main’s handover-only follow-up. The pinned term carries the receiver guard. Generated platform has forbidden wildcard membership and bounds handling. GLP #118 is closed and GitHub reports merged=false. The cascade is published via other commits.",
+    "public_cas_workflow_runs_for_release": 0,
+    "blobs": {
+      "platform": "1486d6911069880f69b6ef1359b1cad7438ce3bc",
+      "log": "3e2a5344a9ed0f81512916ecde24ba3a94b04a1f",
+      "term": "b77f0577fd7a7a63b7243a1cab122ca609fc35bf",
+      "fixture": "4bcb15810f9837cb5170e9d80a99c0c89f055d7c",
+      "manifest": "141a452ea1884b4f1bc7fff9e916dbaef17941c2",
+      "compiler": "3ae730b535220be38100eeac5cabd62779c01a3b",
+      "status_table": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Parsed the pinned log for six suspension markers, recovery atoms, exact named attempt starts, votes and outcomes in network order, and final Bob and Carol views. Inspected generated schemas and runtime matching clauses.",
+      "Ran pinned bin/status.py on the 30 pinned reports before and after the edit. Confirmed identical published table and 28 findings with 0 unanswered. Checked SPM report history preservation and exact diff scope."
+    ],
+    "public_trace": {
+      "suspended": 6,
+      "targetStarts": [
+        "alice/12",
+        "alice/14",
+        "carol/47",
+        "carol/54"
+      ],
+      "preAcceptRefusals": [
+        {
+          "id": "alice/14",
+          "act": "restore(alice, bob)",
+          "reason": "friend(alice) present"
+        },
+        {
+          "id": "carol/47",
+          "act": "restore_friend(carol, bob, alice)",
+          "reason": "friend(alice) present"
+        },
+        {
+          "id": "carol/54",
+          "act": "restore_friend(carol, bob, alice)",
+          "reason": "friend(alice) present"
+        }
+      ],
+      "commitOrder": [
+        "accept(bob, alicia, alice)",
+        "tell_change(bob, carol, alice, alicia)"
+      ],
+      "postAcceptTargetMessages": 0,
+      "finalBob": [
+        "friend(alicia)",
+        "accepted(alicia, alice)",
+        "no friend(alice)"
+      ],
+      "finalCarol": [
+        "records_friend(bob, alice)",
+        "records_replacement(bob, alice, alicia)"
+      ],
+      "generatedSchemas": [
+        234,
+        236
+      ]
+    },
+    "pending": "Dart unavailable. The audit did not run GLP, Section CAS or the compiler. No public workflow runs were returned for the release."
+  },
+  "dispositions": "Verified regenerated schemas and public trace. No stale Restore commit or post-Accept target start in play six. Kept Findings 4 and 5 open. Draft #76 is unreviewed.",
+  "next": {
+    "SPM": "After the GSC fault is modeled, exercise both notice orders, lost acceptance and positive replacement recovery. Record attempt and refusal reasons separately.",
+    "Code": "Preserve public evidence for new recovery controls when available. The held Groups with Coins record remains separate.",
+    "GSC": "Resolve in-run state loss with Udi and confirm how loss affects acceptance and friendship facts. Track the Calculus grammar for one-step re-keying under Finding 5.",
+    "vGLP": "Wildcard matching in the regenerated artifact has source support. A post-Accept targeted refusal and GSC live-loss controls remain pending."
+  }
+}

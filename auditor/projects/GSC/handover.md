@@ -1,3 +1,9 @@
+# Regenerated Secure Friendship cascade checked — 22 November 2026
+
+The [regenerated platform](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L234-L238) contains both Restore friend guard locations. The [public play](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) only refuses the targeted stale acts before Accept. GSC’s live-loss model and the Calculus one-step Replace custodian grammar remain with the project and Udi. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).
+
+---
+
 # Secure Friendship state-loss dependency — 21 November 2026
 
 [SPM identifies](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) the in-run state-loss fault as with Udi. The [catalogue](https://github.com/EShapiro2/GLP/blob/65796c8f9495e71948b52a4335c801deb63448a9/calculus/contracts/Secure-Friendship/term.glp.txt#L13-L23) requires Bob’s acceptance to send Tell change. Its sender-side guard can be isolated only after Bob loses that fact while Carol retains the notice. Check which local facts persist across the fault and how each recovery proceeds. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).

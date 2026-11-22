@@ -1,3 +1,9 @@
+# Regenerated Secure Friendship cascade checked — 22 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/2b8a5104f2f51b4a590a4649224e1e25e74623b7) records the [regenerated Secure Friendship trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) and the two project replies. The new play has no stale Restore commit, and all targeted refusals precede Accept. Findings 4 and 5 remain open. See [stage 60](stages/60-pr76-secure-friendship-public-cascade-20261122.json).
+
+---
+
 # Secure Friendship state-loss dependency — 21 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76) preserves [SPM’s timing clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744). The scratch refusals were before Accept. Source checks show that isolating Carol’s notice guard needs Bob to lose acceptance after Tell change. Recovering the replacement friendship needs an in-run loss of that friendship. SPM identifies the GSC fault as with Udi. The regenerated public trace and independent runtime verification are pending. See [stage 59](stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).

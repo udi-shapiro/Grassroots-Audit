@@ -1,3 +1,9 @@
+# Regenerated Secure Friendship cascade checked — 22 November 2026
+
+[The public trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) shows Bob keeping Alicia and the acceptance record. No targeted Restore starts or votes occur after Accept. The [SPM reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075300665) still ties the remaining controls to GSC’s state loss. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).
+
+---
+
 # Secure Friendship state-loss dependency — 21 November 2026
 
 [SPM clarified](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) that the scratch refusals were before Accept and that Carol made no later Restore friend attempt. After GSC’s in-run fault, exercise both notice orders, successful recovery and loss of Bob’s acceptance record. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).

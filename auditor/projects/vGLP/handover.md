@@ -1,3 +1,9 @@
+# Regenerated Secure Friendship cascade checked — 22 November 2026
+
+The regenerated platform includes the wildcard [runtime membership branch](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L5029-L5044) and [both acceptance guards](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/platform.vglp#L234-L238). The [trace](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log#L34-L39) records no post-Accept target start. Keep runtime coverage of those guards pending. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).
+
+---
+
 # Secure Friendship state-loss dependency — 21 November 2026
 
 [SPM’s timing clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7070879744) leaves post-Accept refusal coverage pending. Check both forbidden wildcard guards in the regenerated public schema and distinguish no attempt from a no vote. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).

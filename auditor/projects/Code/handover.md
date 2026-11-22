@@ -1,3 +1,9 @@
+# Regenerated Secure Friendship cascade checked — 22 November 2026
+
+[Code](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7075299198) reports 66 passing CAS table rows and a stale Groups with Coins record. The audit verified the [public Secure Friendship log](https://github.com/EShapiro2/GLP/blob/dd7f57027e3206c417aa382c8d99015631804f3d/cascade/Secure-Friendship/run.log) and regenerated schema. Independent CAS execution and the remaining recovery controls are pending. See [stage 60](../../stages/60-pr76-secure-friendship-public-cascade-20261122.json).
+
+---
+
 # Secure Friendship state-loss dependency — 21 November 2026
 
 The [pinned public log](https://github.com/EShapiro2/GLP/blob/00d90190901c54cdd0c9b94a2077aa64a8e8d2c1/cascade/Secure-Friendship/run.log#L34-L39) still records the old Restore commit. Check the regenerated public cascade and Section CAS evidence, and record whether any post-Accept Restore attempts reached a vote. See [stage 59](../../stages/59-pr76-secure-friendship-state-loss-dependency-20261121.json).
