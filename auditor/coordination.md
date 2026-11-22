@@ -1,3 +1,9 @@
+# GSC Knowledge paper answer recorded — 22 November 2026
+
+[Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77) preserves [PR #30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30)’s proposals and GSC’s dated paper answer on current main. Both Knowledge findings remain open for public PDF verification. See [stage 71](stages/71-pr30-gsc-knowledge-paper-claim-20261122.json).
+
+---
+
 # vGLP founding discovery dependency checked — 22 November 2026
 
 [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71/commits/a1063d0300992800b45436d99ecffbada2471ab2) preserves [vGLP and GO’s explanation](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) and the two-role compiler check. The vGLP paper revision awaits Udi’s approval. See [stage 70](stages/70-pr71-vglp-founding-discovery-20261122.json).

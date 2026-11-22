@@ -1,3 +1,9 @@
+# GSC Knowledge paper answer recorded — 22 November 2026
+
+[GSC reports paper commit 25aab689f](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7085321976). The audit checked the public GLP declaration and shared-guardian schema. [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77) records both claims. Check the revised PDF and the Guardians box when a readable public version is tied to the revision. See [stage 71](../../stages/71-pr30-gsc-knowledge-paper-claim-20261122.json).
+
+---
+
 # vGLP founding discovery dependency checked — 22 November 2026
 
 The [Found schema](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Single-Person-Company/platform.vglp#L924) has three guarding roles. Verify that the eventual discovery change respects the contract’s creation of Orga’s identity. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).

@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-22",
+  "events": [
+    {
+      "delivery_id": "8fc9350c-e6b3-11f1-93f9-c5d7347b1089",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "comment_id": 7085321976,
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7053095636,
+          7053098829,
+          7053128018,
+          7061253610,
+          7085321976
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "latest_item_at": "2026-11-22T20:30:29Z",
+        "latest_comments": [
+          {
+            "id": 7085321976,
+            "updated_at": "2026-11-22T20:30:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-22T20:36:42Z",
+      "outcome": "Preserved the attributed GSC paper correction claim and revised report in draft #77. Public code matches the declaration and separate ward act. Both paper findings remain open. Original PR #30 has conflicts and a changes-requested review."
+    },
+    {
+      "delivery_id": "4aed7c3a-e6b4-11f1-93e6-79ae5cde5985",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 77,
+      "head_sha": "31fcefa98314c03ff486f6736c3dec63b0bef175",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-22T20:36:42Z",
+      "outcome": "Own audit publication opened as a draft. No additional PR action."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "91aa44294fbb070b0f9940b2cd68c41f15da058d",
+    "glp_papers": "4599e9200271b25bb4ffbf5cf5fb0044492613d5",
+    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
+    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
+    "observed_at": "2026-11-22T20:36:42Z",
+    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
+    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
+    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
+    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
+    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
+    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
+    "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
+    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
+    "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f",
+    "go_spc_branch": "8a087f6787d24838bf8589f6a78fb5f5719b3265",
+    "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
+    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332",
+    "spc_found_fixture": "a1d69fab1730b7d0fdfefc01737301adceb40dbb",
+    "gsc_public_pdf_blob": "354b7c42c64d4932639a83bf318f912ecc98eca1"
+  },
+  "links": {
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7085321976",
+    "proposal": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30#pullrequestreview-5939663294",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/54",
+    "knowledge": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/gsc/Knowledge.txt#L24-L28",
+    "parse": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/calculus/tools/gcsas.py#L319-L327",
+    "guardians": "https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/gsc/Guardians.glp#L22",
+    "paper": "https://github.com/EShapiro2/GLP/blob/4599e9200271b25bb4ffbf5cf5fb0044492613d5/papers/GSC.pdf"
+  },
+  "pull_request": {
+    "number": 30,
+    "head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+    "base": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+    "mergeable_state": "dirty",
+    "review_state": "CHANGES_REQUESTED",
+    "discussion_version": {
+      "comments": 5,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        7053095636,
+        7053098829,
+        7053128018,
+        7061253610,
+        7085321976
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYggRvg"
+      ],
+      "latest_item_at": "2026-11-22T20:30:29Z",
+      "latest_comments": [
+        {
+          "id": 7085321976,
+          "updated_at": "2026-11-22T20:30:29Z"
+        }
+      ]
+    }
+  },
+  "publication": {
+    "number": 77,
+    "head": "31fcefa98314c03ff486f6736c3dec63b0bef175",
+    "base": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "draft": true,
+    "report_blobs": {
+      "ISSUES.md": "be81f0ad75a0792219c954142de553e4c3050bf6",
+      "README.md": "01aa295c8545bd9ecd9bfb377f764afbf96cdb0f",
+      "programs/gsc/Knowledge.txt.md": "09ea8970026f2c04fb068293a80e111b95df29d1",
+      "sections/status-table.tex": "8a606e7a222054985b3e0e7e76b289ee114e5d1a"
+    }
+  },
+  "project_claims": {
+    "GSC": "Paper commit 25aab689f removes the separate definition in Section 2, attributes knowledge reflexivity to Knowledge, describes the separate ward friendship act and reprints the Guardians box. GSC reports a 73-page build without errors."
+  },
+  "inspection": {
+    "knowledgeDeclaresKnows": true,
+    "knowledgeTerm": true,
+    "guardiansTerm": true,
+    "explicitSeparateAct": true,
+    "adoptedGuardiansSeparateAct": true,
+    "parserSpec": true,
+    "blobs": {
+      "knowledge": "e68fa32dbc7091b530eb2c67f3f2667a7f6d33f0",
+      "guardians": "b231940f8d6337b90c105c99b952ac5a08e5a7db",
+      "knowledge_term": "be000736ef56571a252a70885856e3fe161b3d91",
+      "guardians_term": "d892bf185e3a0b87a2027d79781a461d66ed451b",
+      "parser": "c7c1eefb3e56e49d0203b6557d90f56754056ae8"
+    }
+  },
+  "execution": {
+    "executed": [
+      "Checked the exact declaration and binary predicate lookup, both generated terms and the adopted shared-guardian ward friendship schema. Read the old review and compared proposal against current main.",
+      "Ran pinned python3 bin/status.py on the 29-report baseline and regenerated it for the 30-report draft. The draft has 25 findings, 17 unresolved, eight verified corrections and zero unanswered."
+    ],
+    "pending": "The public branch listed and pinned GSC.pdf, but the connector rejected binary delivery and the public PDF fetch failed. No independent check of the revised PDF or build was performed."
+  },
+  "dispositions": "Both Knowledge findings are answered and open. The original proposal remains in place for review. Draft #77 is based on current main and awaits review.",
+  "next": {
+    "GSC": "Verify a readable public GSC PDF tied to the claimed paper revision. Check Section 2, Section 8 and the Guardians schema box.",
+    "Code": "Check the paper publish provenance for the version that incorporates the claimed revision."
+  }
+}
