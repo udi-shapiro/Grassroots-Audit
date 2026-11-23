@@ -1,0 +1,83 @@
+{
+  "stamp": "3024cb0c662f39a82d95419b6be2d2e4abbfc97d31d22b7e3c4c529d7a074774",
+  "published_catalogue_term_sha256": "3024cb0c662f39a82d95419b6be2d2e4abbfc97d31d22b7e3c4c529d7a074774",
+  "recompiled_candidate_term_sha256": "c57ba700d313f31bf3bc19f21abea900d285e1c01bd67ef35501cf11b332be15",
+  "candidate_module_matches_recompiled_term": true,
+  "recovery_schema_lines": [
+    "sas(checkpoint, ['Bob', 'Alice'], [], [atom(checkpoint, ['Bob', 'Alice'])], [atom(identity, ['Bob']), atom(identity, ['Alice']), atom(friend, ['Alice', 'Bob']), atom(friend, ['Bob', 'Alice']), not(atom(checkpoint, ['Bob', 'Alice']))], true, ['Alice']),",
+    "sas(checkpoint_tell, ['Bob', 'Alice', 'Carol'], [], [atom(records_friend, ['Bob', 'Alice', 'Carol'])], [atom(identity, ['Bob']), atom(identity, ['Alice']), atom(identity, ['Carol']), atom(friend, ['Alice', 'Bob']), atom(friend, ['Bob', 'Alice']), atom(friend, ['Alice', 'Carol']), atom(friend, ['Carol', 'Alice']), not(atom(records_friend, ['Bob', 'Alice', 'Carol']))], true, ['Alice']),",
+    "sas(checkpoint_record, ['Bob', 'Alice', 'Carol'], ['Carol'], [atom(records_custodian, ['Bob', 'Alice', 'Carol'])], [atom(identity, ['Bob']), atom(identity, ['Alice']), atom(friend, ['Alice', 'Bob']), atom(friend, ['Bob', 'Alice']), atom(fixed, ['Alice']), atom(custodian, ['Alice', 'Carol']), not(atom(records_custodian, ['Bob', 'Alice', 'Carol']))], true, ['Alice']),",
+    "sas(checkpoint_threshold, ['Bob', 'Alice'], ['Share'], [atom(records_threshold, ['Bob', 'Alice', num('Share')])], [atom(identity, ['Bob']), atom(identity, ['Alice']), atom(friend, ['Alice', 'Bob']), atom(friend, ['Bob', 'Alice']), atom(threshold, ['Alice', num('Share')]), not(atom(records_threshold, ['Bob', 'Alice', num('Share')]))], true, ['Alice']),",
+    "sas(restore, ['Alice', 'Bob'], [], [atom(friend, ['Alice', 'Bob']), atom(recovered, ['Alice', 'Bob'])], [atom(identity, ['Alice']), atom(identity, ['Bob']), atom(friend, ['Bob', 'Alice']), not(atom(accepted, ['Alice', '_', 'Bob'])), not(atom(friend, ['Alice', 'Bob']))], true, ['Bob']),",
+    "sas(restore_friend, ['Alice', 'Bob', 'Carol'], ['Carol'], [atom(friend, ['Alice', 'Carol']), atom(recovered_friend, ['Alice', 'Carol', 'Bob'])], [atom(identity, ['Alice']), atom(identity, ['Bob']), atom(state_loss, ['Alice']), atom(friend, ['Bob', 'Alice']), atom(checkpoint, ['Bob', 'Alice']), atom(records_friend, ['Bob', 'Alice', 'Carol']), not(atom(records_replacement, ['Bob', 'Alice', 'Carol', '_'])), not(atom(accepted, ['Alice', '_', 'Carol'])), not(atom(friend, ['Alice', 'Carol']))], true, ['Bob']),",
+    "sas(restore_replaced_friend, ['Alice', 'Bob', 'Dave', 'Carol'], ['Dave', 'Carol'], [atom(friend, ['Alice', 'Dave']), atom(recovered_replaced, ['Alice', 'Bob', 'Dave', 'Carol'])], [atom(identity, ['Alice']), atom(identity, ['Bob']), atom(state_loss, ['Alice']), atom(friend, ['Bob', 'Alice']), atom(checkpoint, ['Bob', 'Alice']), atom(records_friend, ['Bob', 'Alice', 'Carol']), atom(records_replacement, ['Bob', 'Alice', 'Carol', 'Dave']), not(atom(friend, ['Alice', 'Dave']))], true, ['Bob']),"
+  ],
+  "adoption_check_exit_code": 2,
+  "adoption_check_stderr": "adopt.py: verdict is of another text: run the checker on Secure Friendship",
+  "build_commands": [
+    "GLP_DIR=<candidate directory> python3 calculus/tools/adopt.py --check Secure-Friendship",
+    "adopt.compiled('Secure Friendship') and adopt.module(...) using the same pinned compiler and adopted-file inputs"
+  ],
+  "input_blobs": [
+    {
+      "path": "calculus/NAMES.txt",
+      "sha": "3fba8ebb4ad21cf3c6f3334cd2cdb48c9ee2f20d"
+    },
+    {
+      "path": "calculus/tools/gcsas.py",
+      "sha": "c7c1eefb3e56e49d0203b6557d90f56754056ae8"
+    },
+    {
+      "path": "calculus/tools/toglp.py",
+      "sha": "76521220bf7ed1d9eb59ad3802e32752ece94e17"
+    },
+    {
+      "path": "calculus/tools/expand.py",
+      "sha": "1a20f21bead89f5067a6b32dd994be7cb04737e5"
+    },
+    {
+      "path": "calculus/tools/revtex.py",
+      "sha": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+    },
+    {
+      "path": "calculus/tools/names.py",
+      "sha": "4a93213a56374b6869844a6f5f60526f10ee7092"
+    },
+    {
+      "path": "calculus/tools/nameslines.py",
+      "sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+    },
+    {
+      "path": "calculus/tools/relations.py",
+      "sha": "5564cddcd4ddc619094ee216eb2a1947814fed6b"
+    },
+    {
+      "path": "calculus/tools/adopt.py",
+      "sha": "951a4f4f8f1b471d860efd0eea583e2893114a72"
+    },
+    {
+      "path": "calculus/contracts/Secure-Friendship/term.glp.txt",
+      "sha": "b77f0577fd7a7a63b7243a1cab122ca609fc35bf"
+    },
+    {
+      "path": "calculus/contracts/Secure-Friendship/verdict-term.sha256",
+      "sha": "6846c44e40165bd1e3a0dfb7b283e915ae5688d4"
+    },
+    {
+      "path": "programs/social/spm/Secure-Friendship.txt",
+      "sha": "2fc770faa994aab02439d1a919f9a75dfb4ed962"
+    },
+    {
+      "path": "programs/social/spm/Secure-Friendship.glp",
+      "sha": "4b326da01d660d52ee28d2453c75164b01268b17"
+    },
+    {
+      "path": "programs/gsc/Friendship.txt",
+      "sha": "748d53c0e8fba1cead7f8c3120f4f0e243d13b82"
+    },
+    {
+      "path": "programs/gsc/Knowledge.txt",
+      "sha": "e68fa32dbc7091b530eb2c67f3f2667a7f6d33f0"
+    }
+  ]
+}

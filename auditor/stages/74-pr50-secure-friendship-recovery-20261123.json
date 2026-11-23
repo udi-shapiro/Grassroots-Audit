@@ -1,0 +1,399 @@
+{
+  "date": "2026-11-23",
+  "events": [
+    {
+      "delivery_id": "3ad0d860-e77c-11f1-9bde-dde2f8296ff8",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-23T20:27:29Z",
+        "latest_comments": [
+          {
+            "id": 7060447760,
+            "updated_at": "2026-11-21T09:15:16Z"
+          },
+          {
+            "id": 7061251039,
+            "updated_at": "2026-11-21T10:27:52Z"
+          },
+          {
+            "id": 7061253978,
+            "updated_at": "2026-11-21T10:28:07Z"
+          },
+          {
+            "id": 7113089372,
+            "updated_at": "2026-11-23T20:27:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-23T20:33:42Z",
+      "outcome": "Reviewed Ohad Eitan’s report update and reply. Recompiled the stacked public Secure Friendship term, reproduced the verdict refusal, and checked the generated recovery schemas, simulator and compiler source. Preserved the scoped findings in draft #76. Runtime witness verification remains pending."
+    },
+    {
+      "delivery_id": "4e2c8ee0-e77c-11f1-965a-27c2f57c1663",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "comment_id": 7113089372,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ"
+        ],
+        "latest_item_at": "2026-11-23T20:27:29Z",
+        "latest_comments": [
+          {
+            "id": 7060447760,
+            "updated_at": "2026-11-21T09:15:16Z"
+          },
+          {
+            "id": 7061251039,
+            "updated_at": "2026-11-21T10:27:52Z"
+          },
+          {
+            "id": 7061253978,
+            "updated_at": "2026-11-21T10:28:07Z"
+          },
+          {
+            "id": 7113089372,
+            "updated_at": "2026-11-23T20:27:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-23T20:33:42Z",
+      "outcome": "Reviewed Ohad Eitan’s report update and reply. Recompiled the stacked public Secure Friendship term, reproduced the verdict refusal, and checked the generated recovery schemas, simulator and compiler source. Preserved the scoped findings in draft #76. Runtime witness verification remains pending."
+    },
+    {
+      "delivery_id": "05507302-e77d-11f1-9e7c-1f72e2f0917b",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "228d7093a8322ede0a53f5084585e63ed28fa5d8",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 57,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150,
+          7076518476
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:26:21Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          },
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          },
+          {
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-23T20:33:42Z",
+      "outcome": "Own draft publication of this run. No additional PR action."
+    }
+  ],
+  "pull_requests": {
+    "50": {
+      "head": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "prior_head": "172e15d54fe6bb625391ba9467ac860acaef271a",
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 4,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw"
+        ],
+        "latest_item_at": "2026-11-23T20:33:34Z",
+        "latest_comments": [
+          {
+            "id": 7060447760,
+            "updated_at": "2026-11-21T09:15:16Z"
+          },
+          {
+            "id": 7061251039,
+            "updated_at": "2026-11-21T10:27:52Z"
+          },
+          {
+            "id": 7061253978,
+            "updated_at": "2026-11-21T10:28:07Z"
+          },
+          {
+            "id": 7113089372,
+            "updated_at": "2026-11-23T20:27:29Z"
+          }
+        ]
+      },
+      "changes_requested": true
+    },
+    "76": {
+      "head": "228d7093a8322ede0a53f5084585e63ed28fa5d8",
+      "prior_head": "710c300dc2a01381b813ed82040f3b7f8bafcd41",
+      "discussion_version": {
+        "comments": 57,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150,
+          7076518476
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:26:21Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          },
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          },
+          {
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
+          }
+        ]
+      },
+      "draft": true,
+      "publication_blobs": [
+        [
+          "programs/social/spm/Secure-Friendship.txt.md",
+          "6e093056a3eefc87999cb56fe5a37ac076cbc619"
+        ],
+        [
+          "ISSUES.md",
+          "293bf49dd13ce36ded62f9431ff1b893c63a1ea8"
+        ]
+      ]
+    }
+  },
+  "source_pins": {
+    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "glp_main": "b9078ef4bf98749a1eb1249f074aae02c2935b92",
+    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
+    "secure_friendship_recovery_contract": "a2785f50826f47965708460e6a068ed97fd4db2e",
+    "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
+    "observed_at": "2026-11-23T20:33:42Z"
+  },
+  "links": {
+    "contributor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7113089372",
+    "auditor_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6029052947",
+    "source_note": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50/commits/4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+    "draft": "https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8",
+    "contract": "https://github.com/EShapiro2/GLP/pull/144",
+    "platform": "https://github.com/EShapiro2/GLP/pull/145"
+  },
+  "project_claims": {
+    "contributor": "Both delivery orders recover in reported three-person sGLP runs, and identity loss ends with recovery through a new identity. Contributor reports 1,349/1,349 vGLP and no fast-tier failures. Confirm-before-apply remains separate."
+  },
+  "inspection": {
+    "stack": "GLP #145 is stacked directly on #144. Both are open.",
+    "checkpoint": "The candidate marker remains separate. Each data act uses missing-record insertion. The generated schemas checked carry no version ordering or equal-version conflict handling.",
+    "restore": "Ordinary Restore restores a friendship and records recovery. The two specific Restore acts still require state_loss and checkpoint.",
+    "retry": "Simulator source cuts off the old process and restarts the same key for state loss. Compiler source includes a retry to unvoted peers and later abandonment. The re-greeting handler checks an identifier in place of evidence of a prior signed hello; the transport boundary remains to be reviewed.",
+    "published_trace": "Cascade manifest lists the eight prior scripted vGLP plays. The new sGLP report is contributor evidence."
+  },
+  "execution": {
+    "adoption": "auditor/evidence/secure-friendship-20261123/adoption-check.json",
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "30 reports, 28 findings, 0 unanswered. Table matched the draft blob.",
+      "table_blob": "0c4897cfd9c865766cc4a79b48448850f9497c66"
+    },
+    "glp_runtime": "No vGLP, sGLP, checker or fast-tier run executed."
+  },
+  "next": [
+    "Calculus to issue a current verdict for the new exact term. Check the published verdict and independently repeat the adoption check.",
+    "SPM to reconcile the newer-or-missing language with generated effects and verify delivery-order and conflict handling.",
+    "vGLP and Code to account for signed-hello provenance at the compiler/transport boundary. Confirm retry and abandonment in live runs.",
+    "Run sGLP live state loss in both delivery orders and an identity-loss/offline-old-machine case with a no-fault control. Confirm final records and no stale restore. Keep confirm-before-apply and the separate re-keying issue open."
+  ]
+}

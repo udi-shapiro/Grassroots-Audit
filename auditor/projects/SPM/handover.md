@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals checked — 23 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) records the stacked contract and compiler proposals for Findings 3–5. Check how recipients decide which record is newer, then repeat both delivery orders under live loss and the old-machine-offline identity-loss case. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).
+
+---
+
 # Secure Friendship guard-isolation follow-up — 22 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/76#issuecomment-7076518476) ties its two planned guard-isolation plays to GSC’s live-loss revision. The existing pre-notice window contains no stale start in either recorded play. See [stage 65](../../stages/65-pr76-secure-friendship-guard-isolation-20261122.json).

@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals checked — 23 November 2026
+
+[GLP #145](https://github.com/EShapiro2/GLP/pull/145) adds a retry and an abandonment path for initiators. Verify the signed-hello provenance at the compiler/transport boundary and measure recovery with missing and delayed votes. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).
+
+---
+
 # vGLP founding discovery dependency checked — 22 November 2026
 
 The [two-role compiler filter](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/programs/vglp/cva/compiler/cvac.glp#L4554-L4570) emits discovery for [Guardians Enter](https://github.com/EShapiro2/GLP/blob/91aa44294fbb070b0f9940b2cd68c41f15da058d/cascade/Guardians/platform.vglp#L875-L885) and none for Found. [vGLP’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) places the paper revision before Udi. Recheck the public revision, then the compiler and runtime. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).

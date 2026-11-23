@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals checked — 23 November 2026
+
+The candidate generated module matches the independent Python rebuild. [GLP #145](https://github.com/EShapiro2/GLP/pull/145) still has the old verdict stamp. Recheck candidate certification and cascade after the Calculus refreshes it. The cited fast tier is contributor-reported. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).
+
+---
+
 # Revised GSC PDF pinned — 22 November 2026
 
 [Draft #77](https://github.com/udi-shapiro/Grassroots-Audit/pull/77/commits/f410982e6092e2f27504994aa933fce0cee91622) pins the public GSC PDF. Use the previously checked Knowledge declaration and shared-guardian schema at GLP `91aa44294fbb070b0f9940b2cd68c41f15da058d` as the comparison for Section 8 and the printed Guardians box when the PDF can be read. See [stage 72](../../stages/72-pr77-gsc-public-paper-20261122.json).

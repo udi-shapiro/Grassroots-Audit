@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals checked — 23 November 2026
+
+The [stacked proposal](https://github.com/EShapiro2/GLP/pull/145) adds a simulator fault step. Run live state loss in both delivery orders and identity loss without restarting the old process. Include a no-fault control and record final state. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).
+
+---
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.

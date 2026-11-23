@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals checked — 23 November 2026
+
+[Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) preserves [Ohad’s report update](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7113089372) and the [audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6029052947). Candidate schemas recompile, but the published verdict still covers the old term. The version-order and runtime checks are pending. See [stage 74](stages/74-pr50-secure-friendship-recovery-20261123.json).
+
+---
+
 # Public IGLP corrections verified — 22 November 2026
 
 [PR #78](https://github.com/udi-shapiro/Grassroots-Audit/pull/78/commits/2def7c800706ddbaf97887ef364bf36b89d6dd60) records both IGLP verifications in the [public PDF](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/IGLP.pdf) and awaits review. All six original core findings have project answers. Continue the remaining four checks from [stage 73](stages/73-pr77-gsc-raw-links-iglp-verification-20261122.json). The new [GSC raw links](https://github.com/udi-shapiro/Grassroots-Audit/pull/77#issuecomment-7086849887) did not make the pinned PDF bytes accessible to the audit. Knowledge Findings 1 and 2 remain open.
