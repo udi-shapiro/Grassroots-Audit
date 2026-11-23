@@ -1,0 +1,5947 @@
+{
+  "source_repository": "EShapiro2/GLP",
+  "source_commit_label": "b590ada9801ab4000ab319b11970648871411828",
+  "method": "Count each sas entry once if its body has a direct not(atom(P, Args)) literal with a standalone wildcard argument. Do not count effects or nested formula atoms.",
+  "scope": "Catalogue source inventory; not a count of executable platforms or verified runtime failures.",
+  "contracts": 91,
+  "affected_contracts": 42,
+  "affected_schema_entries": 738,
+  "records": [
+    {
+      "path": "calculus/contracts/Ads/term.glp.txt",
+      "git_blob_sha": "e3247e7999081731a17db828b87ac65869b526c0",
+      "sha256": "c9eccc16322c1a0c281ee0715663d0a428d972d9659146e834f8640332f0fd8e",
+      "schema_entries": 176,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Agents/term.glp.txt",
+      "git_blob_sha": "dcfc3aa298ff4f5db2bf8ca1e79a54a5999eebd9",
+      "sha256": "3d05b4e2d09ac9f6f7ed35aeb26ae5eda1cbefdf34efaaa5cf900d887e80370d",
+      "schema_entries": 23,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Agora/term.glp.txt",
+      "git_blob_sha": "6d38052945aa06358cc147063d9a23ac92b58f73",
+      "sha256": "e511fc4058548867ba666fa4a591e9f1f8d6a5049c3b0b141043e325cd570f44",
+      "schema_entries": 38,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 24,
+          "name": "join",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Mart'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Matching/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Rendezvous/term.glp.txt",
+      "git_blob_sha": "cb5cd243b78a2d0d163ae1a526d5fb94941a90a8",
+      "sha256": "b8120b45389d75a78fd8023359a758eee4206e2014a92ecbf5bc218c0e884146",
+      "schema_entries": 27,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/App/term.glp.txt",
+      "git_blob_sha": "eaeeb239ea2dddd5a91a9d77094d3285c6a50582",
+      "sha256": "419f7de7903a524bdda236b58597b3ab0df2a54f4bc9fc0459e026b0f48f391e",
+      "schema_entries": 51,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/AppStore/term.glp.txt",
+      "git_blob_sha": "5699d2f6c9d8357dd3e2a6403afd256e07ac8634",
+      "sha256": "430467ee18ce19fb5d0c2b9e7573fb085458880b23bff89449ac3655c71904ad",
+      "schema_entries": 35,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Appointments/term.glp.txt",
+      "git_blob_sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+      "sha256": "e41b6d5da15278b91f5a91adfa88b5fb4cb6d56a2ac1115bbd183e44830a00d3",
+      "schema_entries": 30,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 29,
+          "name": "book",
+          "forbidden": [
+            "not(atom(booked, ['Orga', const('Res'), const('Slot'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Auction/term.glp.txt",
+      "git_blob_sha": "fbebb6faaa2c0399f39e6a3451cf5be91174a7ef",
+      "sha256": "51c665020a35bc6b30ceb755011a5adf2cde4c5cd3bb7cc9a6d765c8e3641d2f",
+      "schema_entries": 18,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "call",
+          "forbidden": [
+            "not(atom(open_call, ['Alice', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Backchannel-Feeds/term.glp.txt",
+      "git_blob_sha": "a56ecff2e32a65bfdbce084f50ba282b011338f4",
+      "sha256": "a790d03725e3b218397ccf9453b22347d94d526e6369503fb7a20ecdf62b1825",
+      "schema_entries": 17,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Backed-Community/term.glp.txt",
+      "git_blob_sha": "584983fae305b985f47190d1377a2eb9191fb31a",
+      "sha256": "2100d89ae521de077d69e98b8cc9f002e9504729866bb49bc72bf6d83397f7cc",
+      "schema_entries": 159,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Bank/term.glp.txt",
+      "git_blob_sha": "7d5c1dd0f7621a73cdc44ffa32fb09c21c08ecaf",
+      "sha256": "89e0559e5a53853d3982c130b034f804458abf80cd64650891f374a3a1ba6ade",
+      "schema_entries": 157,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Bonds/term.glp.txt",
+      "git_blob_sha": "7d18af5c0b6685fd5bc6b4c27914a1de4483f497",
+      "sha256": "b8a15c4eabc72b261a91f4b4b3c8c0b14e19d4cbd337739a1a4a53edd8b56187",
+      "schema_entries": 21,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Booking/term.glp.txt",
+      "git_blob_sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+      "sha256": "e41b6d5da15278b91f5a91adfa88b5fb4cb6d56a2ac1115bbd183e44830a00d3",
+      "schema_entries": 30,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 29,
+          "name": "book",
+          "forbidden": [
+            "not(atom(booked, ['Orga', const('Res'), const('Slot'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Carpool/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Central-Bank/term.glp.txt",
+      "git_blob_sha": "88b287669839f63d490e3d78aef4a883beb0361c",
+      "sha256": "ca7c7d599ebb5f10a61231da03c36af69014e6c940c2cdffd91bf7840fcc125a",
+      "schema_entries": 161,
+      "affected_schema_entries": 27,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 160,
+          "name": "lend",
+          "forbidden": [
+            "not(atom(role, ['Bob', 'Orga', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Children/term.glp.txt",
+      "git_blob_sha": "2f00e32a25f9e1540f532120c037c261c244ec52",
+      "sha256": "357c192bfebc4062b469c6dd311aebfdc64e5533dd4041706312ba7be7cd1e78",
+      "schema_entries": 42,
+      "affected_schema_entries": 4,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "join",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 36,
+          "name": "child_join",
+          "forbidden": [
+            "not(atom(member, ['Wendy', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 37,
+          "name": "children_join",
+          "forbidden": [
+            "not(atom(member, ['Will', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 38,
+          "name": "children_of_one_parent_join",
+          "forbidden": [
+            "not(atom(member, ['Will', const('Grupo'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Coins/term.glp.txt",
+      "git_blob_sha": "869ad37fe64c555b2bca119b70171627ddb82a0d",
+      "sha256": "f0dfb962efc4b7b3a01544f22aabcba31b52ce308ab89dd998459c6ab8b9a084",
+      "schema_entries": 11,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Commercial-Bank/term.glp.txt",
+      "git_blob_sha": "dd0493afe5296446a53ed9d1d23621d3dc72ef7b",
+      "sha256": "ab860a3de89961e7b933c55ae2d758a056a36d4a95aef43f063f12bb572d2212",
+      "schema_entries": 164,
+      "affected_schema_entries": 30,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 158,
+          "name": "bank_deposit",
+          "forbidden": [
+            "not(atom(role, ['Bob', 'Orga', '_']))"
+          ]
+        },
+        {
+          "ordinal": 159,
+          "name": "bank_deposit_own_coins",
+          "forbidden": [
+            "not(atom(role, ['Bob', 'Orga', '_']))"
+          ]
+        },
+        {
+          "ordinal": 160,
+          "name": "loan",
+          "forbidden": [
+            "not(atom(role, ['Bob', 'Orga', '_']))"
+          ]
+        },
+        {
+          "ordinal": 161,
+          "name": "loan_by_the_directors",
+          "forbidden": [
+            "not(atom(role, ['Bob', 'Orga', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Community/term.glp.txt",
+      "git_blob_sha": "054d033ba376eb6db36aae19eaff0b65b2e51e1c",
+      "sha256": "22be59c139346db4e9d05b409d8000197a5d4d1ae9365398f5fa7493a51adb65",
+      "schema_entries": 158,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Community-Bank/term.glp.txt",
+      "git_blob_sha": "a78cca8fd0b81c4dae427d82ba8d23a4d7b3f706",
+      "sha256": "f0236d20c72e5b0ced1820eabb0b8ab41974889988e778f9aefe8ee5e57fe2df",
+      "schema_entries": 159,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Community-Market/term.glp.txt",
+      "git_blob_sha": "fc6b6eaed91d2bcd606110dbfdada7282ff16773",
+      "sha256": "84e82c2eae604bf18d504191c7a7555a8d127f8ffb6c414104ff90bda94e4b1b",
+      "schema_entries": 185,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Community-Network/term.glp.txt",
+      "git_blob_sha": "d140417d2a919000e2cf3fa0f4ca658e3c282960",
+      "sha256": "8efaf064d3d267bc525e60164d7eaea1deb005e72c0d278f55a3a7339320fdd9",
+      "schema_entries": 167,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Constitution/term.glp.txt",
+      "git_blob_sha": "ae12f2322a97fffdb56501a0713f7a5427481fa3",
+      "sha256": "5aadfb0590f867280da5a7cabfd40bbc5cd30764628daf02b85d1b57e9d90be0",
+      "schema_entries": 32,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Consumers-Cooperative/term.glp.txt",
+      "git_blob_sha": "fddb21534bd499b1b81965da9b78e2e96672c6e9",
+      "sha256": "6ab49d4260706389c3960c7d615b56284563f0935d970d1b4c6ed71afb51c22f",
+      "schema_entries": 166,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 72,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 78,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 83,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 120,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 121,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 132,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 133,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 144,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 145,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Cooperative/term.glp.txt",
+      "git_blob_sha": "12c4ba218c7bee62628bd0e870093317571b96c4",
+      "sha256": "50c1433fc9b02998627b35421d865d9d96a9d86119783eea539ddec1b6135cb4",
+      "schema_entries": 161,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 72,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 78,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 83,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 120,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 121,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 132,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 133,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 144,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 145,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Cooperative-DAO/term.glp.txt",
+      "git_blob_sha": "12c4ba218c7bee62628bd0e870093317571b96c4",
+      "sha256": "50c1433fc9b02998627b35421d865d9d96a9d86119783eea539ddec1b6135cb4",
+      "schema_entries": 161,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 72,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 78,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 83,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 120,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 121,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 132,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 133,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 144,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 145,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Corporation/term.glp.txt",
+      "git_blob_sha": "7d5c1dd0f7621a73cdc44ffa32fb09c21c08ecaf",
+      "sha256": "89e0559e5a53853d3982c130b034f804458abf80cd64650891f374a3a1ba6ade",
+      "schema_entries": 157,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/DAO/term.glp.txt",
+      "git_blob_sha": "7a1c0b4c7b11947281ddfbb6179bc3861c729740",
+      "sha256": "c3c38c14132230401ef6a0e097dff31c8eafd441c764f78b083c9f152381852f",
+      "schema_entries": 18,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Dating/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Democratic-Community/term.glp.txt",
+      "git_blob_sha": "93ef74378ab3c76f73acc7c65251fd5b626d61cd",
+      "sha256": "07d8529e08e8e8202d20ece25c04abb6f06aed483bd3b36efed50b252e3ff66a",
+      "schema_entries": 162,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Denominated-Coins/term.glp.txt",
+      "git_blob_sha": "25048a32ff9773012ec525367d312f80a6270953",
+      "sha256": "0659f333ca25ca8bce840a2f38ccb618f9c11d955b1dfc7ee1089c43fd12e77a",
+      "schema_entries": 12,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 12,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Denominated-Currencies/term.glp.txt",
+      "git_blob_sha": "cafe05bd5f345689075da1cb6d8eec534b500a60",
+      "sha256": "7c812feefb9a19019aab28a5fd612958387413df273e3512ce6447e07763b0cd",
+      "schema_entries": 34,
+      "affected_schema_entries": 7,
+      "matches": [
+        {
+          "ordinal": 12,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 13,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 22,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 24,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 25,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 27,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 28,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Directory/term.glp.txt",
+      "git_blob_sha": "867c9c5bb95d30bf15b90d460a0185b19e71f59e",
+      "sha256": "a026fd567bc13036e7636f627b52fe507081630b05e938310d9d0adaa324fe6f",
+      "schema_entries": 32,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Disputes/term.glp.txt",
+      "git_blob_sha": "b3fc8146ff3a813a25cfc47ff21bab14b3bd2d83",
+      "sha256": "22374bf76e3daa3116005d567942ba4a47d94f7fd1c2e6faa8178044d576acc5",
+      "schema_entries": 30,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Distrust/term.glp.txt",
+      "git_blob_sha": "b1a5b8f0774a9395b4784983d18fa71c917032eb",
+      "sha256": "7586624c9211b08c529587357ffd1ae287266b9db5e9f56d4e0d16f79c16edfd",
+      "schema_entries": 9,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Encounters/term.glp.txt",
+      "git_blob_sha": "ebfd7b202a735ebad5b07baf92a8f78abbc760f1",
+      "sha256": "abb2bc913c579d2e90290ce869a497650dbf4bd5fa0b6cbc658ded2c1eab376f",
+      "schema_entries": 6,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Feeds/term.glp.txt",
+      "git_blob_sha": "d91ae158b65a835bb403c243bd3569017849667d",
+      "sha256": "38627e0f7b1a79247e7221e5e1de0e8fbef44657b3d1129f0c21e2f521cb199b",
+      "schema_entries": 15,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Forwarding/term.glp.txt",
+      "git_blob_sha": "295f2e472e589bf09f197ef070a5223595c63e3c",
+      "sha256": "f57ca92fa0300f43aff18c709c3d4633ea684a7e6424d63c32ce187b84b5fae5",
+      "schema_entries": 7,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Foundation/term.glp.txt",
+      "git_blob_sha": "ff35f9d2b18ea6d6ae259bdc53b3affc5679e579",
+      "sha256": "4ef4be0c8f3c81601f6fbe450564590ffe674abb1209da6a82523e68c9027d64",
+      "schema_entries": 157,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Free-Matching/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Friendship/term.glp.txt",
+      "git_blob_sha": "7f74b5f2a3ad1457fc95ee47b34d586a118fff0d",
+      "sha256": "d3440d192917500e9d2d0dbe5363568aa344b4dfb71a27a58c8753a5a190cdc3",
+      "schema_entries": 5,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Funded-DAO/term.glp.txt",
+      "git_blob_sha": "47a86c4d7f48bdb77f1c0fa3ca4e52526078f112",
+      "sha256": "abd7f940c2d73fa32f725d1c8f8a12f4ff19fc508c46f491426706f6c4946834",
+      "schema_entries": 28,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Gigs/term.glp.txt",
+      "git_blob_sha": "000e2f16ecccebfdbaecd9d6b80544bdb7196757",
+      "sha256": "8adea68dcebd1d1ccc380a693a4ad0589d46f9b89c84a02ab52ec7a2f2a7078f",
+      "schema_entries": 188,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Gossip/term.glp.txt",
+      "git_blob_sha": "91b243ba9591912055ba244343e5e4accb616b3b",
+      "sha256": "70d434c44ec38524cbffedb7a0c73e6515bd88bff6ee8a1f7349814419080fbb",
+      "schema_entries": 7,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Groups/term.glp.txt",
+      "git_blob_sha": "b810f2d201a4bc5d67638dbd5267994bd8bf54df",
+      "sha256": "c715d4f3946598a9903ec5091ae737600ee562b334660aae18177d912dc42963",
+      "schema_entries": 15,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "join",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Grupo'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Guardians/term.glp.txt",
+      "git_blob_sha": "d892bf185e3a0b87a2027d79781a461d66ed451b",
+      "sha256": "e49a778beec5ca7193a4eaa95793bba8d6cb2024905de7a10c0d10e9f6d5ea4b",
+      "schema_entries": 19,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Help/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Home-Exchange/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Jobs/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Joint-Accounts/term.glp.txt",
+      "git_blob_sha": "341c611b9afb4d8cfc9ab281b3732ee73d14d74a",
+      "sha256": "6f13467f3ca3380259d89b00865ea96373537ded04ccb05ef65d4b308713e14c",
+      "schema_entries": 16,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Knowledge/term.glp.txt",
+      "git_blob_sha": "be000736ef56571a252a70885856e3fe161b3d91",
+      "sha256": "7a951196a6a28d9924484084b13719638444cf273c2f399e4c1ab281be1fa7fe",
+      "schema_entries": 3,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Labelled-Overlay/term.glp.txt",
+      "git_blob_sha": "125b6b1266ec51f4d423a874ff1503306e971303",
+      "sha256": "ab20a5eaa40dbe608ed333f50ce8d235f2fb73e3f227fd8a5e96bdb51a825169",
+      "schema_entries": 13,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Lending/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Library/term.glp.txt",
+      "git_blob_sha": "79ee01d15c8e68dbdd87ec9845e0c337a1663b47",
+      "sha256": "9de513da5bd03ae48d0a30592cc231405e1cba4cac00b6e66c73c713e3793d86",
+      "schema_entries": 6,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Liquid-Cooperative/term.glp.txt",
+      "git_blob_sha": "68c6a5f5db6be8c1849df463af4cf25a521756ec",
+      "sha256": "d18aceb8641cb0b2d51e10681b4d831149af726660acf4df8b8c8a70ce0e612e",
+      "schema_entries": 167,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 72,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 78,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 83,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 120,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 121,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 132,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 133,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 144,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 145,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Liquid-DAO/term.glp.txt",
+      "git_blob_sha": "2d993f819841fcce11b8f58cae50415a391be373",
+      "sha256": "754465a520b47e17706f7df452ddef34df9f03428a33bd856f4bcfd3368f0eea",
+      "schema_entries": 27,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Local-Overlay/term.glp.txt",
+      "git_blob_sha": "75538fc615fb1a2f55ac4240fa46171deb0667e8",
+      "sha256": "aa447d9af6717cf01d3d43216ff25b83916017b579080b2b61830a4ac7b5bea7",
+      "schema_entries": 8,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Lodging/term.glp.txt",
+      "git_blob_sha": "e4982a5d303f147f7acb89bba34c9c89408346c6",
+      "sha256": "c69cf94990320a6569c9796f2cbadd75539d97b1dfe291fdedbd82d8454dc175",
+      "schema_entries": 187,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Lost-and-Found/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Matching/term.glp.txt",
+      "git_blob_sha": "ab91d9777d7f8918b1bc357a95ed65a44d6f53a3",
+      "sha256": "d7ea5c82ea447965b18af15cec0415f33043b6faad283dfa2b29ae171f63a2c1",
+      "schema_entries": 9,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Meeting-Rooms/term.glp.txt",
+      "git_blob_sha": "0c5607fa374b6bb96b7a615d9dee82112e334f2b",
+      "sha256": "e41b6d5da15278b91f5a91adfa88b5fb4cb6d56a2ac1115bbd183e44830a00d3",
+      "schema_entries": 30,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 29,
+          "name": "book",
+          "forbidden": [
+            "not(atom(booked, ['Orga', const('Res'), const('Slot'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Mutual-Credit/term.glp.txt",
+      "git_blob_sha": "83843a3a93ae91facc45244b364ee58cdb1ac7ee",
+      "sha256": "68e67959e7b39c1fe40f0467addb56dceccecf0f739cc361fef9bb6133bf1a33",
+      "schema_entries": 158,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Nonprofit/term.glp.txt",
+      "git_blob_sha": "f10474be1523f25f64e827e5dac6cc0ff61cc88e",
+      "sha256": "1ea73d8f683588e6a761ef7acd0b35dd5105dea4943c8578bbc64311a2c363de",
+      "schema_entries": 157,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Notes/term.glp.txt",
+      "git_blob_sha": "29af82ac4c0e25445b8c95e50a4d308077206fd1",
+      "sha256": "59363c842e62674620cc1d01c9187de453b45c12a39b4023a826daf0270a099b",
+      "schema_entries": 9,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Organisation/term.glp.txt",
+      "git_blob_sha": "8c999cbe2d80fe6f4ec47cc4c23ec761f4fa4422",
+      "sha256": "94eb4a2d0971e8458d53d074ddabd4471de82ed9b6ed1f6374826df57167a1a6",
+      "schema_entries": 28,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Overlay/term.glp.txt",
+      "git_blob_sha": "563630793e7ed70e12bd75b5f5d3c9619adec347",
+      "sha256": "3bb3ef7d68d98561937dc261be9c29f782166f4842abb11548dfdb8f6f2518bc",
+      "schema_entries": 8,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Partners/term.glp.txt",
+      "git_blob_sha": "72f7f6c06ab59ca7802d7189e8b414c51ce41d1b",
+      "sha256": "bc10fed19758c98d563c315342047f5cd62eba92e63bbe875a7bdb7002a5ac0d",
+      "schema_entries": 31,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Partnership/term.glp.txt",
+      "git_blob_sha": "367acd4fd3e727846156f01e6d2066ea67217852",
+      "sha256": "b56a92f542d21475f30e535e0befec468b9dcd1a53b9bbe348635b35f3cfc03c",
+      "schema_entries": 157,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Programs/term.glp.txt",
+      "git_blob_sha": "f48bbc471185d8533e2d2cc38c857a235cd0b08b",
+      "sha256": "13bc75f7626693251b408f090651e9d9df768fd61d4a823f22f7596d183e0cb8",
+      "schema_entries": 15,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Promoted-Gossip/term.glp.txt",
+      "git_blob_sha": "0a2ec9a2b4535d00def1777fb5197536b1489a53",
+      "sha256": "042f43642598adcabe06f2c6383d39e537f329aa33da7b0747d504fb2f6dca8e",
+      "schema_entries": 161,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 70,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 76,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 118,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 119,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Provenance-Groups/term.glp.txt",
+      "git_blob_sha": "98ef3be7752efc83fbacf3435e30cb8e622ec71f",
+      "sha256": "4a31593d414873d462ff9d3e2e22b3ea2e6aab0b0da674ac0f78309f9bae1d97",
+      "schema_entries": 36,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "join",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Grupo'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Recommendations/term.glp.txt",
+      "git_blob_sha": "9ba81fa680f2bbc97589ec4b59ebd47dc567d4e9",
+      "sha256": "024ec18da51a728abe5844eb75a11fe9e46c41a70d2fb181a7ed67f1de60b1da",
+      "schema_entries": 6,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/term.glp.txt",
+      "git_blob_sha": "30cccf7d4efc6ad3478f08d71d1d0bef7c3cf4cb",
+      "sha256": "1031c319cf4d6faf3d77dbf3abb7f2f86671c9823ce589f72cecb705fc988681",
+      "schema_entries": 58,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 30,
+          "name": "book",
+          "forbidden": [
+            "not(atom(booked, ['Orga', const('Res'), const('Slot'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Rendezvous/term.glp.txt",
+      "git_blob_sha": "6c7a6f890131467493bf7d77d85ecc8a24c62ee8",
+      "sha256": "599f6a110ef47346238a284c048062b4e9e6ba43cfde661092323c4801e4eca7",
+      "schema_entries": 25,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Resilient-Feeds/term.glp.txt",
+      "git_blob_sha": "2d8d33e38bb588f20b8eb0fda239e1df1a8faa40",
+      "sha256": "b120af902e5c58cbff577f6a910a55e7ef052d16d89dc5edaaba548ec6a667bd",
+      "schema_entries": 16,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Rides/term.glp.txt",
+      "git_blob_sha": "bee23a1a5a001a3910ad7fff4903dd1b7abc9af5",
+      "sha256": "e84dd93207a0fe5178b588c590455023afe6e5e1bfc1a3fcc1ab0ec6422ce5ed",
+      "schema_entries": 182,
+      "affected_schema_entries": 27,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 171,
+          "name": "call",
+          "forbidden": [
+            "not(atom(open_call, ['Alice', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Second-Score-Auction/term.glp.txt",
+      "git_blob_sha": "52c3def6ec9714356f23dec0ef41cca4b2053031",
+      "sha256": "f53ee830d1375c31e65cfdc1c788eb8f5dc1a5686b624abb2871f5431aef1812",
+      "schema_entries": 18,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "call",
+          "forbidden": [
+            "not(atom(open_call, ['Alice', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Secure-Friendship/term.glp.txt",
+      "git_blob_sha": "fd087995fd1073850d9aad37eab1f80c4d92d697",
+      "sha256": "f05b35f458ccb528d9b69cf1f1695197a9b2a4f74ed99c43478d9916bfb7f905",
+      "schema_entries": 23,
+      "affected_schema_entries": 2,
+      "matches": [
+        {
+          "ordinal": 13,
+          "name": "restore",
+          "forbidden": [
+            "not(atom(accepted, ['Alice', '_', 'Bob']))"
+          ]
+        },
+        {
+          "ordinal": 14,
+          "name": "restore_friend",
+          "forbidden": [
+            "not(atom(records_replacement, ['Bob', 'Alice', 'Carol', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Separating-Distrust/term.glp.txt",
+      "git_blob_sha": "46e3ac19bd4ff6125760b81162cca76f641c3e3b",
+      "sha256": "cd722963020429d87d15a9b49724e124a7a1a72ccc4a848f4f451de6bbe39e61",
+      "schema_entries": 9,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Services/term.glp.txt",
+      "git_blob_sha": "939b19fd5ccb82cfd7101eebd4addbd7eeacf333",
+      "sha256": "604626bcf92b621c8ecdd11cebb3d2c32f4349809305859a44e0cd6c85ad39de",
+      "schema_entries": 19,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Shareholding-Corporation/term.glp.txt",
+      "git_blob_sha": "5e8873a83e6f7eaf94ecc2e338d001bcad492616",
+      "sha256": "8152147fbcd0e4367544832a6c8ff757374265f2b8b50bca564a079a8f537766",
+      "schema_entries": 196,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Shares/term.glp.txt",
+      "git_blob_sha": "711e06c36a797d9be4e1381021d6a28a96ad0908",
+      "sha256": "6040fac70242b074945915c7dfe31f5152d4d5d1b4f4c2d63c86c0aa7a404df3",
+      "schema_entries": 59,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Short-Feeds/term.glp.txt",
+      "git_blob_sha": "e85ec56a9f8d3ff453ad7563b8b782d9070951cb",
+      "sha256": "e27da77f405709b568a106f1e551a039435ed4108bb5786c3c3b42c3c6ec230e",
+      "schema_entries": 16,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Single-Person-Company/term.glp.txt",
+      "git_blob_sha": "ea3ce832b279056fb88cba8f97e5004653aa7208",
+      "sha256": "b60124625e9714d9bc27e3ca2a44e56907ea717e27aa6c0113d2a078457f43ca",
+      "schema_entries": 157,
+      "affected_schema_entries": 27,
+      "matches": [
+        {
+          "ordinal": 23,
+          "name": "join",
+          "forbidden": [
+            "not(atom(has_participant, ['Orga', '_']))"
+          ]
+        },
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Stays/term.glp.txt",
+      "git_blob_sha": "674b5b613cdfe44c12721430dc2bad6540d80397",
+      "sha256": "8ce7a1895205f8e2f6c5e9981eda0c57b319e04f4b6f7d6ae8f5d0d14ad27428",
+      "schema_entries": 15,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+      "git_blob_sha": "f8a65641bc9d5cd4654aa94899d7c9276297f696",
+      "sha256": "ebfdf10e6d4098ef27ee85843eaf04f991702aa033f621b0d69e5b7bfb3778da",
+      "schema_entries": 58,
+      "affected_schema_entries": 1,
+      "matches": [
+        {
+          "ordinal": 30,
+          "name": "book",
+          "forbidden": [
+            "not(atom(booked, ['Orga', const('Res'), const('Slot'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Trading-Company/term.glp.txt",
+      "git_blob_sha": "e2e1df46e061063e669e9233f3b1b0c74ca1d1a9",
+      "sha256": "6a918584e51fca47979aad9b519ae247f8c139a5025bb927c7cb272a2fa2c936",
+      "schema_entries": 160,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 68,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 69,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 71,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 74,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 116,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 117,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 122,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 123,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 124,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 125,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 134,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 135,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 136,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 137,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Warded-Groups/term.glp.txt",
+      "git_blob_sha": "6a7f933e32d6a6f6184163643f5f6f6dd01d3d4b",
+      "sha256": "017601ed1ab5498474568c97a6e3520d2eb2a4d21760904d2f7dcaf76e2c4981",
+      "schema_entries": 42,
+      "affected_schema_entries": 5,
+      "matches": [
+        {
+          "ordinal": 9,
+          "name": "join",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 36,
+          "name": "ward_join",
+          "forbidden": [
+            "not(atom(member, ['Wendy', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 37,
+          "name": "wards_join",
+          "forbidden": [
+            "not(atom(member, ['Will', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 38,
+          "name": "wards_of_one_guardian_join",
+          "forbidden": [
+            "not(atom(member, ['Will', const('Grupo'), '_']))"
+          ]
+        },
+        {
+          "ordinal": 40,
+          "name": "ward_add",
+          "forbidden": [
+            "not(atom(member, ['Bob', const('Grupo'), '_']))"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "calculus/contracts/Warnings/term.glp.txt",
+      "git_blob_sha": "fecb92c3cd9e0f9e48855d155c506ef0963dba22",
+      "sha256": "cbd1b9c75b5c97009dd3d3af53264958fa38cda78b10cbc9549f8e48b5f08309",
+      "schema_entries": 29,
+      "affected_schema_entries": 0,
+      "matches": []
+    },
+    {
+      "path": "calculus/contracts/Workers-Cooperative/term.glp.txt",
+      "git_blob_sha": "5b3296d99ac104355155a51a633ee2a381deea3d",
+      "sha256": "8d01d8e8c36d9e782e05b07859ea4612e563a882bbdb0f6b452b3c88d5ef1312",
+      "schema_entries": 165,
+      "affected_schema_entries": 26,
+      "matches": [
+        {
+          "ordinal": 72,
+          "name": "deposit",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 73,
+          "name": "deposit_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 75,
+          "name": "deposit_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 77,
+          "name": "deposit_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 78,
+          "name": "deposit_bond",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 79,
+          "name": "deposit_bond_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 81,
+          "name": "deposit_bond_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 83,
+          "name": "deposit_bond_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 120,
+          "name": "first_issue",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 121,
+          "name": "first_issue_for_alice",
+          "forbidden": [
+            "not(atom(issued_in, ['Alice', '_']))"
+          ]
+        },
+        {
+          "ordinal": 126,
+          "name": "deposit_own_coins",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 127,
+          "name": "deposit_own_coins_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 128,
+          "name": "deposit_own_coins_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 129,
+          "name": "deposit_own_coins_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 130,
+          "name": "deposit_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 131,
+          "name": "deposit_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 132,
+          "name": "deposit_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 133,
+          "name": "deposit_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 138,
+          "name": "deposit_own_bonds",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 139,
+          "name": "deposit_own_bonds_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 140,
+          "name": "deposit_own_bonds_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 141,
+          "name": "deposit_own_bonds_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 142,
+          "name": "deposit_bond_with_the_issuer",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 143,
+          "name": "deposit_bond_with_the_issuer_for_alice",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 144,
+          "name": "deposit_bond_with_the_issuer_for_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        },
+        {
+          "ordinal": 145,
+          "name": "deposit_bond_with_the_issuer_for_alice_and_carol",
+          "forbidden": [
+            "not(atom(escrow_denomination, ['Carol', 'Alice', 'Bob', 'Cond', '_']))"
+          ]
+        }
+      ]
+    }
+  ]
+}
