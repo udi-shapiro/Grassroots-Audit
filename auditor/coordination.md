@@ -1,3 +1,9 @@
+# Contract generation audit merged — 23 November 2026
+
+[PR #81](https://github.com/udi-shapiro/Grassroots-Audit/pull/81) is on [main](https://github.com/udi-shapiro/Grassroots-Audit/commit/0d2b8e92cdcecad2bf1667ca98b650d49c754654). The status table regenerated exactly and the [CSV](https://github.com/udi-shapiro/Grassroots-Audit/blob/0d2b8e92cdcecad2bf1667ca98b650d49c754654/calculus/contract-generation-2026-11-23.csv) identifies two stale expansions. New Calculus Findings 8 and 9 await project answers. Draft #76 now conflicts with main and remains at the preserved [candidate head](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8). See [stage 75](stages/75-pr81-merged-contract-generation-audit-20261123.json).
+
+---
+
 # Secure Friendship recovery proposals checked — 23 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) preserves [Ohad’s report update](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7113089372) and the [audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6029052947). Candidate schemas recompile, but the published verdict still covers the old term. The version-order and runtime checks are pending. See [stage 74](stages/74-pr50-secure-friendship-recovery-20261123.json).

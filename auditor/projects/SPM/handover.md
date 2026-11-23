@@ -1,3 +1,9 @@
+# Secure Friendship draft has a main conflict — 23 November 2026
+
+[PR #81](https://github.com/udi-shapiro/Grassroots-Audit/pull/81) merged after the Secure Friendship draft update. Reconcile [draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) with the new issue index and status entries before review. Preserve the dated recovery findings and the Calculus additions. See [stage 75](../../stages/75-pr81-merged-contract-generation-audit-20261123.json).
+
+---
+
 # Secure Friendship recovery proposals checked — 23 November 2026
 
 [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) records the stacked contract and compiler proposals for Findings 3–5. Check how recipients decide which record is newer, then repeat both delivery orders under live loss and the old-machine-offline identity-loss case. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).

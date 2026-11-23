@@ -1,22 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-23T20:33:42Z",
-  "active_run": {
-    "run_id": "499e19c4-e77d-11f1-98e4-f3e0f6537be1",
-    "delivery_ids": [
-      "284aa5c6-e77d-11f1-85d0-e1467964bb8d",
-      "499e19c4-e77d-11f1-98e4-f3e0f6537be1",
-      "5ac729c0-e77d-11f1-8982-8fabe8f4989d"
-    ],
-    "started_at": "2026-11-23T20:36:57.000Z",
-    "expires_at": "2026-11-23T20:51:57.000Z",
-    "pull_request_numbers": [
-      50,
-      81
-    ],
-    "head_sha": "7da6ab89c736139d52fe8f3aea415d8f48075df1"
-  },
+  "updated_at": "2026-11-23T20:38:27Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,6 +36,25 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 81,
+      "head_sha": "7da6ab89c736139d52fe8f3aea415d8f48075df1",
+      "state": "closed",
+      "updated_at": "2026-11-23T20:35:00Z",
+      "merged_at": "2026-11-23T20:34:59Z",
+      "merge_commit_sha": "0d2b8e92cdcecad2bf1667ca98b650d49c754654",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Merged publication confirmed at current main. Two Calculus findings await answers."
+    },
     {
       "number": 78,
       "head_sha": "2def7c800706ddbaf97887ef364bf36b89d6dd60",
@@ -195,7 +200,7 @@
       },
       "comment_cursor": 7076518476,
       "review_cursor": null,
-      "notes": "Own draft updated with GLP #144 and #145, adoption failure and pending controls. No merge."
+      "notes": "Own audit evidence preserved at exact head. Recent merge of #81 introduces a main conflict to reconcile for review."
     },
     {
       "number": 50,
@@ -987,6 +992,97 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "5ac729c0-e77d-11f1-8982-8fabe8f4989d",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 81,
+      "head_sha": "7da6ab89c736139d52fe8f3aea415d8f48075df1",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-23T20:38:27Z",
+      "outcome": "Confirmed merge and all six published blobs. Checked CSV totals and sampled affected public schemas. Both new Calculus findings await project answers. No new discussion posted."
+    },
+    {
+      "delivery_id": "499e19c4-e77d-11f1-98e4-f3e0f6537be1",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 81,
+      "head_sha": "7da6ab89c736139d52fe8f3aea415d8f48075df1",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-23T20:38:27Z",
+      "outcome": "Publication already merged when inspected. Reviewed the actual diff and observed merged report and evidence."
+    },
+    {
+      "delivery_id": "284aa5c6-e77d-11f1-85d0-e1467964bb8d",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 50,
+      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 4,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw"
+        ],
+        "latest_item_at": "2026-11-23T20:33:34Z",
+        "latest_comments": [
+          {
+            "id": 7060447760,
+            "updated_at": "2026-11-21T09:15:16Z"
+          },
+          {
+            "id": 7061251039,
+            "updated_at": "2026-11-21T10:27:52Z"
+          },
+          {
+            "id": 7061253978,
+            "updated_at": "2026-11-21T10:28:07Z"
+          },
+          {
+            "id": 7113089372,
+            "updated_at": "2026-11-23T20:27:29Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-23T20:38:27Z",
+      "outcome": "Own previously recorded COMMENT review. No additional PR action."
+    },
     {
       "delivery_id": "05507302-e77d-11f1-9e7c-1f72e2f0917b",
       "event_type": "pull_request",
@@ -7789,12 +7885,12 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "17ec6f33c29e9379965bc65168ebc0403eca9e13",
+    "audit_main": "0d2b8e92cdcecad2bf1667ca98b650d49c754654",
     "glp_main": "b9078ef4bf98749a1eb1249f074aae02c2935b92",
     "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-23T20:33:42Z",
+    "observed_at": "2026-11-23T20:38:27Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -7811,6 +7907,7 @@
     "gsc_public_pdf_blob": "a382e68d047de58c2c1c2fc1e8c4cf328dd05598",
     "iglp_public_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
     "secure_friendship_recovery_contract": "a2785f50826f47965708460e6a068ed97fd4db2e",
-    "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d"
+    "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
+    "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5"
   }
 }
