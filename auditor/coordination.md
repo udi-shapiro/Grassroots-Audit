@@ -1,3 +1,9 @@
+# Stage 86 — retained sGLP harness output — 24 November 2026
+
+[sGLP’s public output](https://github.com/EShapiro2/GLP/blob/f7190dc4a228f569590c0a050d5ede51c1377b28/programs/sglp/tests/output-87eb09a.txt) is a direct child of tested integration `87eb09abc44c32cce842e9692cc6ef5ea6742764` and records 108 passes, no failures or known-red entries. The audit inspected blob `b3456ece7a4429fb3754935652d3750de5250e69`, including the focused clock and environment sections.
+
+This is strong project-run evidence and remains separate from an audit-executed run. Current GLP main retains the tested source as an ancestor. Independent runtime Verification remains pending because Dart is unavailable. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089) · [stage record](./stages/86-pr83-sglp-retained-tests-20261124.json)
+
 # Stage 85 — retained CVA runtime evidence — 24 November 2026
 
 [vGLP’s public artifact](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) records 15 focused passes and no failures for PR 83 compiler Findings 1–3 on build `574caf8b7`. The audit inspected blob `2bdcf8ba8adfadf817316d2745e3c61b609b1219` and found nine ranks, five once and one deads PASS lines plus the expected REPL results.

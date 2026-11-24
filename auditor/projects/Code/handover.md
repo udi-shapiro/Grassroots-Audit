@@ -1,3 +1,7 @@
+# sGLP retained harness output — 24 November 2026
+
+sGLP published full `test_sglp.sh` output at `f7190dc4a228f569590c0a050d5ede51c1377b28`, directly on tested integration `87eb09abc44c32cce842e9692cc6ef5ea6742764`: 108 passes, no failures, with the clock and environment controls. Current main is 23 commits ahead and retains the tested source. The audit did not execute the suite. [Evidence](https://github.com/EShapiro2/GLP/blob/f7190dc4a228f569590c0a050d5ede51c1377b28/programs/sglp/tests/output-87eb09a.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089)
+
 # vGLP evidence and regeneration branch pending merge — 24 November 2026
 
 The branch ending at `196f0ed40f5c7f26d5dd0326a2d929e66068bf1c` is six commits ahead of GLP main `574caf8b722307747fb8375a8e47672cbadfd26f`. It includes regenerated compiler platforms at `e9ed11f537f75123c85ec86c55770ceeaf96a86d` and retained 15/0 focused output for PR 83. The audit inspected the log and found the expected finding-specific results. Code integration and independent runtime execution remain pending. [Evidence](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897)

@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T11:19:35.126Z",
-  "active_run": {
-    "lease_id": "bec44342-e7f8-11f1-898b-fe53fa9456e7",
-    "delivery_id": "bec44342-e7f8-11f1-898b-fe53fa9456e7",
-    "pull_request_number": 83,
-    "event_type": "issue_comment",
-    "action": "created",
-    "comment_id": 7129923248,
-    "acquired_at": "2026-11-24T11:19:35.126Z",
-    "expires_at": "2026-11-24T11:39:35.126Z"
-  },
+  "updated_at": "2026-11-24T11:21:25.600Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,11 +40,11 @@
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
       "state": "open",
-      "updated_at": "2026-11-24T11:13:15Z",
+      "updated_at": "2026-11-24T11:20:11Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 11,
+        "comments": 13,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
@@ -67,7 +58,9 @@
           7129296965,
           7129400576,
           7129757859,
-          7129816897
+          7129816897,
+          7129923248,
+          7129969089
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABZ8PPaw",
@@ -91,27 +84,27 @@
         ],
         "latest_comments": [
           {
-            "id": 7129296965,
-            "updated_at": "2026-11-24T10:49:42Z"
-          },
-          {
-            "id": 7129400576,
-            "updated_at": "2026-11-24T10:54:24Z"
-          },
-          {
             "id": 7129757859,
             "updated_at": "2026-11-24T11:10:41Z"
           },
           {
             "id": 7129816897,
-            "updated_at": "2026-11-24T11:13:15Z"
+            "updated_at": "2026-11-24T11:13:22Z"
+          },
+          {
+            "id": 7129923248,
+            "updated_at": "2026-11-24T11:18:14Z"
+          },
+          {
+            "id": 7129969089,
+            "updated_at": "2026-11-24T11:20:11Z"
           }
         ],
-        "latest_item_at": "2026-11-24T11:13:15Z"
+        "latest_item_at": "2026-11-24T11:20:11Z"
       },
-      "comment_cursor": 7129816897,
+      "comment_cursor": 7129969089,
       "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "Public artifact 196f0ed40 records 15 focused CVA passes and no failures on build 574caf8b7, with the relevant REPL output. The artifact is internally consistent and strengthens Findings 1-3, but is project-run evidence. Its branch is six commits ahead of current main and includes regenerated platforms at e9ed11f5. Audit rerun and Code integration remain pending."
+      "notes": "sGLP published retained test_sglp output at f7190dc4, a direct child of tested integration 87eb09a. The file contains 108 PASS, 0 FAIL/KNOWN RED and focused clock/environment results. Recorded as strong project-run evidence; audit execution remains pending because Dart is unavailable."
     },
     {
       "number": 82,
@@ -8914,6 +8907,76 @@
       "processed_at": "2026-11-24T11:14:27.647Z",
       "outcome": "Inspected retained public test output at 196f0ed40. It contains 15 PASS lines, no failures, three REPL transcripts pinned to build 574caf8b7 and the expected finding-specific results. Recorded it as strong project-run evidence. The evidence and regenerated platforms are six commits ahead of current main; independent rerun and Code integration remain pending.",
       "audit_reply": 7129816897
+    },
+    {
+      "delivery_id": "bec44342-e7f8-11f1-898b-fe53fa9456e7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "comment_id": 7129923248,
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7129757859,
+            "updated_at": "2026-11-24T11:10:41Z"
+          },
+          {
+            "id": 7129816897,
+            "updated_at": "2026-11-24T11:13:22Z"
+          },
+          {
+            "id": 7129923248,
+            "updated_at": "2026-11-24T11:18:14Z"
+          },
+          {
+            "id": 7129969089,
+            "updated_at": "2026-11-24T11:20:11Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T11:20:11Z"
+      },
+      "processed_at": "2026-11-24T11:21:25.600Z",
+      "outcome": "Inspected retained sGLP test output at f7190dc4. The direct-child evidence contains 108 PASS, no failures or known-red entries, and the focused environment and simulated-clock results on tested source 87eb09a. Recorded as strong project-run evidence; audit execution remains pending.",
+      "audit_reply": 7129969089
     }
   ],
   "source_observed_after_event": {
@@ -8926,8 +8989,8 @@
     },
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access",
     "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
-    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
-    "observed_at": "2026-11-24T11:14:27.647Z"
+    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
+    "observed_at": "2026-11-24T11:21:25.600Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -8941,10 +9004,10 @@
   "latest_source_observed": {
     "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
     "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
-    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
+    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T11:14:27.647Z",
+    "observed_at": "2026-11-24T11:21:25.600Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -8973,6 +9036,9 @@
     "vglp_integration": "574caf8b722307747fb8375a8e47672cbadfd26f",
     "vglp_pr83_test_evidence": "196f0ed40f5c7f26d5dd0326a2d929e66068bf1c",
     "vglp_pr83_test_blob": "2bdcf8ba8adfadf817316d2745e3c61b609b1219",
-    "vglp_regenerated_platforms": "e9ed11f537f75123c85ec86c55770ceeaf96a86d"
+    "vglp_regenerated_platforms": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
+    "sglp_tested_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "sglp_pr83_test_evidence": "f7190dc4a228f569590c0a050d5ede51c1377b28",
+    "sglp_pr83_test_blob": "b3456ece7a4429fb3754935652d3750de5250e69"
   }
 }

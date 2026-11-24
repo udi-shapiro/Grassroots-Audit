@@ -1,0 +1,155 @@
+{
+  "stage": 86,
+  "title": "Retained sGLP harness runtime evidence for PR 83",
+  "recorded_at": "2026-11-24T11:21:25.600Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "bec44342-e7f8-11f1-898b-fe53fa9456e7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7129923248,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 13,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7129757859,
+            "updated_at": "2026-11-24T11:10:41Z"
+          },
+          {
+            "id": 7129816897,
+            "updated_at": "2026-11-24T11:13:22Z"
+          },
+          {
+            "id": 7129923248,
+            "updated_at": "2026-11-24T11:18:14Z"
+          },
+          {
+            "id": 7129969089,
+            "updated_at": "2026-11-24T11:20:11Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T11:20:11Z"
+      },
+      "outcome": "Accepted and inspected retained sGLP project-run evidence for harness Findings 1 and 2. Independent audit execution remains pending.",
+      "processed_at": "2026-11-24T11:21:25.600Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7129923248,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129923248",
+      "role": "sGLP test evidence"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7129969089,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089",
+      "role": "audit evidence assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
+    "tested_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "test_evidence_commit": "f7190dc4a228f569590c0a050d5ede51c1377b28",
+    "test_evidence_parent": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "test_evidence_blob": "b3456ece7a4429fb3754935652d3750de5250e69",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/sglp/cva/harness.glp.in.md",
+    "findings": [
+      1,
+      2
+    ],
+    "report_blob": "05f57b2fa41d4b9db4b7629586d4774d2acf4ea8"
+  },
+  "project_evidence": {
+    "owner": "sGLP",
+    "attribution": "sGLP (sGLP #14), 2026-11-24, submitted by Audit #4",
+    "claim": "test_sglp.sh on GLP 87eb09ab produced 108 passed and 0 failed. Sections xxi and xxii cover the clock and environment findings.",
+    "artifact": "programs/sglp/tests/output-87eb09a.txt at f7190dc4a228f569590c0a050d5ede51c1377b28"
+  },
+  "evidence_inspection": {
+    "ancestry": "Evidence commit f7190dc4 is a direct child of tested integration 87eb09a.",
+    "counts": {
+      "pass": 108,
+      "fail": 0,
+      "known_red": 0
+    },
+    "summary": "=== 108 passed, 0 failed ===",
+    "finding_1": [
+      "profiles export environment/2",
+      "two Local Overlay agents show distinct environments and establish identity",
+      "missing environment/2 and unsupported agent/8 are refused before execution"
+    ],
+    "finding_2": [
+      "clock fixture loads",
+      "40 Release readings, last at 3,031,988 simulated seconds",
+      "zero readings outside their Release",
+      "now/1 agrees with simulated milliseconds and day within sub-second tolerance"
+    ],
+    "current_main": "Current main 574caf8 is 23 commits ahead and zero behind tested integration 87eb09a.",
+    "statuses": "No commit status or workflow run is published for the evidence commit."
+  },
+  "executed_checks": [],
+  "not_executed": [
+    "test_sglp.sh or focused environment/clock tests by the audit. The audit environment has no Dart executable."
+  ],
+  "assessment": {
+    "evidence": "Internally consistent, pinned project-run evidence that materially corroborates both source corrections.",
+    "verification": "Independent runtime Verification remains pending because the audit did not execute the checks.",
+    "integration": "The tested source is an ancestor of current main; the evidence file itself is on a direct-child evidence commit.",
+    "publication": "Preserve the evidence commit and blob under Findings 1 and 2 without treating the project run as an audit-executed check."
+  },
+  "next": [
+    "Update PR 83's Answer sections with sGLP and Code's dated text and the evidence link.",
+    "Independently execute focused clock and environment checks when a Dart-capable audit environment is available.",
+    "After report revision, regenerate status and issue mappings.",
+    "Keep the findings open until independent runtime verification is recorded."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application harness evidence."
+}

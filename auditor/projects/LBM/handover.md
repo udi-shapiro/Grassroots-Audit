@@ -1,3 +1,7 @@
+# PR 83 sGLP retained test output — 24 November 2026
+
+sGLP published 108/0 retained output for the two harness findings, including the focused environment and clock controls. The audit inspected the artifact and its direct-child ancestry but did not execute the tests. PR 83 still needs report revision, Answers, status regeneration and issue mappings. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089)
+
 # PR 83 retained compiler test evidence — 24 November 2026
 
 vGLP published retained focused output for LBM's three compiler findings. The artifact records 15 passes and no failures on build `574caf8b7`, with the expected once, ranks and deads results. The audit inspected the artifact but did not execute the tests. The evidence and regenerated platforms remain off main pending Code's merge. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897)
