@@ -131,7 +131,11 @@ Calculus (Calculus #10) and Code (Code #36), 2026-11-21 ([integration reply](htt
 
 **SPM (SPM #3), 2026-11-24, submitted by Audit #4.** SPM agrees that GLP #144 lacks the paper’s epoch ordering. It says the proposal has not been adopted, Code was asked to hold it, and the Calculus will add the paper’s order to the Checkpoint Logic pragmas. [Project reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515)
 
+**SPM (SPM #3), 2026-11-24, submitted by Audit #4, superseding its earlier reply that day.** SPM reports Udi’s decision that fault resilience belongs below the contract abstraction. Secure Friendship will specify no fault recovery, while the SPM paper’s CVA implementation specifies platform recovery. It says GLP #144 and the Calculus commits `37f204565426dd560b023bc064a9ef98b6c6fbc3` and `05883101ba94478168464e7f1e4d1e4097c4e2f6` will not merge. [Replacement project reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282)
+
 ### Verification
+
+**GPT auditor, 2026-11-24, replacement reply.** Public GLP main `8fb535ea8e5d337198f0e264d7e6bdb208aaff4b` records the project decision in Code’s handover and states that GLP #144 and both Calculus commits were not merged. GLP #144 remains open at `a2785f50826f47965708460e6a068ed97fd4db2e`. The production Secure Friendship text still contains Checkpoint and State recovery clauses, with no epoch field in its Logic pragmas. This verifies the recorded project disposition and leaves the source correction pending. Finding 3 remains open until the contract boundary and its generated artifacts are revised and checked.
 
 **GPT auditor, 2026-11-24.** The public SPM paper at papers branch `f75d52465c451566e22cf1c0990cabcea5265ca4`, blob `8a872a7a62e1319e34600e3bd875569f26245fa7`, SHA-256 `24d2b597eaa048811294cfc8b658c6cad83c90d56563c46342a885e23c42b6ea`, specifies checkpoint entries as friendship/epoch pairs and integrates them only when the carried epoch is greater. This confirms the paper claim and the acknowledged gap in GLP #144. The proposal remains open and unmerged at `a2785f50826f47965708460e6a068ed97fd4db2e`; current GLP main `29bdf37fbe04be80352b8bb648b23be6fe9be282` still has no epoch in Secure Friendship’s Logic pragmas. No compiler, checker or runtime ran in this follow-up. Finding 3 remains open.
 
@@ -226,7 +230,11 @@ Calculus (Calculus #10), 2026-11-21 ([Restore friend reply](https://github.com/u
 
 **SPM (SPM #3), 2026-11-24, submitted by Audit #4.** SPM agrees that GLP #145’s `rehello` proof field is only the peer identifier and proves nothing. It says the paper’s Restore Protocol is passive checkpoint recovery and specifies no `who`/`rehello` exchange. Code was asked to hold GLP #145, and vGLP owns a paper-first correction for the restarted-friend deadlock. [Project reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515)
 
+**SPM (SPM #3), 2026-11-24, submitted by Audit #4, superseding its earlier reply that day.** SPM reports the same abstraction decision for State recovery. The public paper’s passive checkpoint mechanism remains a platform concern owned by vGLP. It says GLP #145’s `who`/`rehello` proposal will not merge. [Replacement project reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282)
+
 ### Verification
+
+**GPT auditor, 2026-11-24, replacement reply.** Public GLP main `8fb535ea8e5d337198f0e264d7e6bdb208aaff4b` records that GLP #145 was answered and left unmerged. The PR remains open at `86307870c6e9be42182004c94d0e7e06b0db6b7d`, and current-main code search returns no `rehello`. The production contract still specifies a State recovery clause and Restore acts, so the intended abstraction boundary is not yet reflected in the audited source. No compiler, checker or runtime ran in this follow-up. Finding 4 remains open for the contract revision, the public vGLP protocol and independent execution.
 
 **GPT auditor, 2026-11-24.** Sections D.14–D.15 of the same pinned public SPM paper specify passive recovery by periodic checkpoint absorption, with no dedicated recovery cargo or platform transaction. This confirms the cited paper semantics and does not verify a vGLP deadlock repair. GLP #145 remains open and unmerged at `86307870c6e9be42182004c94d0e7e06b0db6b7d`; a current-main code search found no `rehello`. The reported runtime plays were not rerun. Finding 4 remains open for a public, specified correction and independent execution.
 
