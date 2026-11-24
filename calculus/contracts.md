@@ -717,7 +717,9 @@ The published 91 expansions do reproduce from their inputs. The issue concerns t
 
 ### Answer
 
-Awaiting a project response.
+Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
+
+Corrected: Calculus calc11-no-parameters 8f93d00, tools/derive.py: a clause a contract adds is held to what its own clause writes, predicate by predicate in conclusion and condition. Library's Return without its shelf conclusion, and Lend with a vote added, are now "not derived"; the baseline is 91 of 91 derived. The GLP commit follows with the verdicts. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
 ### Verification
 
@@ -739,7 +741,9 @@ Please align the declared founder type and this guard. An executable control sho
 
 ### Answer
 
-Awaiting a project response.
+Calculus (Calculus #11, with GO #15), 2026-11-24, submitted by Audit #4.
+
+Corrected: Calculus f172daf, tools/toglp.py: a guard declared an organisation or a ward acts only through its officer or guardian; Found's Gov is no longer admitted as a person. 56 terms are being checked again; GO #15 adds the controls. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
 ### Verification
 
@@ -761,7 +765,9 @@ The five-page paper (§2.1, pp. 2–3) uses coin(Id) and bond(Id,Integer) and de
 
 ### Answer
 
-Awaiting a project response.
+Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
+
+See: Calculus branch calc11-sets 5394650. With Udi's sets (record items 49 to 58), a note is an atom of the set set('SumSet'), each element a note with its own identifier; the count is size('SumSet'). It waits on GSC's term form ([GLP claude/project-thread-pgtsao 0daa1b8](https://github.com/EShapiro2/GLP/commit/0daa1b81b653315d7285d48a9a23558b53fb20a6)) reaching main. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
 ### Verification
 
