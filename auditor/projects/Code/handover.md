@@ -1,3 +1,7 @@
+# sGLP correction merged; reported run unobserved — 24 November 2026
+
+GLP main `87eb09abc44c32cce842e9692cc6ef5ea6742764` integrates sGLP `ae2a75ca6f18712fa4e16c7cda94732df3488bc3`. Exact ancestry and blob comparison verify source integration for `programs/sglp/cva/harness.glp.in.md` Findings 1 and 2. Code reports `test_sglp.sh: 108 passed, 0 failed`, while no workflow, status, or retained output was available to the audit and no Dart executable was present. Preserve the run as Code's dated claim and keep runtime verification pending. [Project answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991)
+
 # sGLP harness correction awaits integration — 24 November 2026
 
 Public sGLP commit [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3) is a direct child of current main and supplies `agent/5` and `agent/6` adapters, exported per-person environments, a simulated clock bridge and focused tests. Integrate with an expected-head check. Then run and inspect the environment and clock controls. The audit has only source-level support and shell/arity checks. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).

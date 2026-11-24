@@ -1,3 +1,7 @@
+# GLP-main integration verified; runtime pending — 24 November 2026
+
+Code integrated sGLP's public correction `ae2a75ca6f18712fa4e16c7cda94732df3488bc3` at GLP main `87eb09abc44c32cce842e9692cc6ef5ea6742764`. The audit verified that the integrated commit has the correction as a parent and that all nine critical harness, monitor, transformer, and focused-test blobs are identical. Code's reported `test_sglp.sh: 108 passed, 0 failed` has no available workflow, status, or retained output, so runtime Verification remains pending. Keep Findings 1 and 2 open. [Project answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991)
+
 # Canonical CVA harness corrections inspected — 24 November 2026
 
 [sGLP’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) points both harness findings to public [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3). Source inspection supports the environment adapter and clock bridge. Preserve both answers. Code must integrate the commit, then the focused environment and clock tests must be observed before Verification is added. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).

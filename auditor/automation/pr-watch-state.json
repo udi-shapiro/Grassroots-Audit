@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T10:12:00Z",
-  "active_run": {
-    "lease_id": "331745a0-e7ef-11f1-89fe-ed1661cb2205",
-    "delivery_id": "331745a0-e7ef-11f1-89fe-ed1661cb2205",
-    "pull_request_number": 83,
-    "event_type": "issue_comment",
-    "action": "created",
-    "comment_id": 7128404005,
-    "acquired_at": "2026-11-24T10:12:00Z",
-    "expires_at": "2026-11-24T10:32:00Z"
-  },
+  "updated_at": "2026-11-24T10:14:30Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,18 +40,20 @@
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
       "state": "open",
-      "updated_at": "2026-11-24T09:47:03Z",
+      "updated_at": "2026-11-24T10:13:34Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 4,
+        "comments": 6,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
           7127067874,
           7127142911,
           7127785077,
-          7127882865
+          7127882865,
+          7128404005,
+          7128486991
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABZ8PPaw",
@@ -84,31 +77,27 @@
         ],
         "latest_comments": [
           {
-            "id": 7127067874,
-            "node_id": "IC_kwDOVrts7s8AAAABqM5s4g",
-            "updated_at": "2026-11-24T09:11:02Z"
-          },
-          {
-            "id": 7127142911,
-            "node_id": "IC_kwDOVrts7s8AAAABqM-R_w",
-            "updated_at": "2026-11-24T09:14:26Z"
-          },
-          {
             "id": 7127785077,
-            "node_id": "IC_kwDOVrts7s8AAAABqNledQ",
             "updated_at": "2026-11-24T09:42:46Z"
           },
           {
             "id": 7127882865,
-            "node_id": "IC_kwDOVrts7s8AAAABqNrccQ",
             "updated_at": "2026-11-24T09:47:03Z"
+          },
+          {
+            "id": 7128404005,
+            "updated_at": "2026-11-24T10:09:55Z"
+          },
+          {
+            "id": 7128486991,
+            "updated_at": "2026-11-24T10:13:34Z"
           }
         ],
-        "latest_item_at": "2026-11-24T09:47:03Z"
+        "latest_item_at": "2026-11-24T10:13:34Z"
       },
-      "comment_cursor": 7127882865,
+      "comment_cursor": 7128486991,
       "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "Calculus answer accepted for compiler Finding 1. sGLP answers both harness findings with public ae2a75ca; source correction supported, runtime tests unobserved and Code integration pending."
+      "notes": "sGLP and Code report integration at GLP main 87eb09a and Code claims 108/0. Exact ancestry and nine critical blob identities independently verify source integration. Runtime execution remains unobserved; both findings stay open pending focused runtime verification."
     },
     {
       "number": 82,
@@ -8713,6 +8702,69 @@
       "processed_at": "2026-11-24T09:48:00Z",
       "outcome": "Accepted sGLP answers to both harness findings. Public commit ae2a75ca is a direct child of pinned main; source inspection supports agent/6 environment wiring and simulated clock bridging. bash -n and arity-parser controls passed. GLP runtime tests remain unobserved; Code integration pending.",
       "audit_reply": 7127882865
+    },
+    {
+      "delivery_id": "331745a0-e7ef-11f1-89fe-ed1661cb2205",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "comment_id": 7128404005,
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7127785077,
+            "updated_at": "2026-11-24T09:42:46Z"
+          },
+          {
+            "id": 7127882865,
+            "updated_at": "2026-11-24T09:47:03Z"
+          },
+          {
+            "id": 7128404005,
+            "updated_at": "2026-11-24T10:09:55Z"
+          },
+          {
+            "id": 7128486991,
+            "updated_at": "2026-11-24T10:13:34Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T10:13:34Z"
+      },
+      "processed_at": "2026-11-24T10:14:30Z",
+      "outcome": "Verified that GLP main 87eb09a integrates sGLP correction ae2a75ca exactly across nine critical source and test blobs. Recorded Code's 108/0 result as a project claim because no workflow, status, retained output or Dart runtime was available. Both findings remain open pending runtime verification.",
+      "audit_reply": 7128486991
     }
   ],
   "source_observed_after_event": {
@@ -8723,7 +8775,10 @@
       "papers/TGLP.pdf": "2cfca6e4ae7838708ce30b9ab59aa1bf959c90d3",
       "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
     },
-    "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
+    "inspection": "metadata only; no revised PDF proof-text check and no private-source access",
+    "glp_main": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "observed_at": "2026-11-24T10:14:30Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -8736,11 +8791,11 @@
   },
   "latest_source_observed": {
     "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
-    "glp_main": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "glp_main": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
     "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T09:48:00Z",
+    "observed_at": "2026-11-24T10:14:30Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -8762,6 +8817,7 @@
     "spm_pdf_blob": "8a872a7a62e1319e34600e3bd875569f26245fa7",
     "secure_friendship_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5",
     "auction_simulation_candidate": "d9190620deb95b0038706ba3e4f60f9a1e68bba6",
-    "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3"
+    "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3",
+    "sglp_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764"
   }
 }

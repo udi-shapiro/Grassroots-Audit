@@ -1,3 +1,9 @@
+# Stage 83 — sGLP harness integrated on GLP main — 24 November 2026
+
+[PR 83's sGLP and Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005) identifies GLP main [`87eb09a`](https://github.com/EShapiro2/GLP/commit/87eb09abc44c32cce842e9692cc6ef5ea6742764) as Code's integration of sGLP [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3) and reports `test_sglp.sh: 108 passed, 0 failed`.
+
+The audit verified the merge ancestry and byte-identical critical blobs for both harness findings. No workflow, status, retained run output, or Dart executable was available, so 108/0 remains Code's project claim and runtime verification is pending. Both findings remain open. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991) · [stage record](./stages/83-pr83-sglp-main-integration-20261124.json)
+
 # sGLP answers both LBM harness findings — 24 November 2026
 
 [sGLP’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) supplies public commit [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3), a direct child of pinned main. Source inspection supports the `agent/6` environment adapter and the simulated-to-machine-clock bridge. The [audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127882865) records a passing shell syntax check and 5/6/8 arity controls. Runtime tests were not observed, and Code integration remains pending. See [stage 82](stages/82-pr83-sglp-harness-answers-20261124.json).

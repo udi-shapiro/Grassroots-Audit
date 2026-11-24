@@ -1,0 +1,154 @@
+{
+  "stage": 83,
+  "title": "sGLP canonical CVA harness integrated on GLP main",
+  "recorded_at": "2026-11-24T10:14:30.000Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "331745a0-e7ef-11f1-89fe-ed1661cb2205",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7128404005,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7127785077,
+            "updated_at": "2026-11-24T09:42:46Z"
+          },
+          {
+            "id": 7127882865,
+            "updated_at": "2026-11-24T09:47:03Z"
+          },
+          {
+            "id": 7128404005,
+            "updated_at": "2026-11-24T10:09:55Z"
+          },
+          {
+            "id": 7128486991,
+            "updated_at": "2026-11-24T10:13:34Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T10:13:34Z"
+      },
+      "outcome": "Independently verified exact source integration. Code's 108/0 result is retained as a dated project claim; runtime verification remains pending.",
+      "processed_at": "2026-11-24T10:14:30Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7128404005,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005",
+      "role": "sGLP and Code answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7128486991,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991",
+      "role": "audit integration verification"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/sglp/cva/harness.glp.in.md",
+    "findings": [
+      1,
+      2
+    ],
+    "report_blob": "05f57b2fa41d4b9db4b7629586d4774d2acf4ea8"
+  },
+  "project_answer": {
+    "owners": [
+      "sGLP",
+      "Code"
+    ],
+    "attribution": "sGLP (sGLP #14) and Code (Code #37), 2026-11-24, submitted by Audit #4",
+    "correction": "GLP main 87eb09abc44c32cce842e9692cc6ef5ea6742764, Code's merge of sGLP ae2a75ca",
+    "claimed_execution": "test_sglp.sh: 108 passed, 0 failed"
+  },
+  "source_inspection": {
+    "ancestry": "GLP main 87eb09a is a merge commit with ae2a75ca as a parent.",
+    "additional_change": "Relative to ae2a75ca, the integrated commit adds only programs/vglp/cva/compiler/pragmas.sh, unrelated to these findings.",
+    "exact_blob_identity": {
+      "programs/sglp/cva/agent5.glp.in": "91e9fe8ed7398270049f439d928add145db32afb",
+      "programs/sglp/cva/agent6.glp.in": "f58f358d895fcc1352b916265466816460625ac4",
+      "programs/sglp/cva/harness.glp.in": "609db95847a214f31a8c4bac9a585e62d05bcc20",
+      "programs/sglp/cva/run.sh": "c8ef32b9dec84e5be741d0d60f3032c58fbbc4fd",
+      "programs/sglp/monitor.glp": "83b085347993a13212774cbb4eece3870d55ae1f",
+      "programs/sglp/test_sglp.sh": "86905ba3253203cd0e7f3256ced0fdc40c537e48",
+      "programs/sglp/tests/clock/self.glp": "60902aabbed95adf22c9d50a18ef02e0c6b94420",
+      "programs/sglp/tests/environment/environment_sglp.glp": "1695ba7d44121f8455f8c3cba9026d44d0d4871a",
+      "programs/sglp/transform/transform.glp": "8db248cc4337a027cf9f462c11da1b4aa884b3c8"
+    },
+    "statuses": "No commit status or workflow run was published for 87eb09a."
+  },
+  "executed_checks": [],
+  "prior_executed_checks": [
+    {
+      "stage": 82,
+      "command": "bash -n on programs/sglp/cva/run.sh at ae2a75ca",
+      "result": "passed"
+    },
+    {
+      "stage": 82,
+      "command": "exact run.sh AWK arity parser on representative canonical agent/5, agent/6 and agent/8 declarations",
+      "result": "printed 5, 6 and 8"
+    }
+  ],
+  "not_executed": [
+    "test_sglp.sh or focused GLP runtime tests. No Dart executable was available and no retained run output, commit status or workflow run was published."
+  ],
+  "assessment": {
+    "source_integration": "Verified for Findings 1 and 2 by ancestry and exact critical blob identity.",
+    "project_claim": "Code's 108 passed, 0 failed is preserved as a dated project claim.",
+    "runtime": "Pending independent execution or retained focused output.",
+    "disposition": "Keep both findings open. Mark source integration verified without claiming runtime verification."
+  },
+  "next": [
+    "Preserve both dated project contributions and the two source commits under Findings 1 and 2.",
+    "Run or publish the focused environment and clock outputs on integrated main and inspect any failures.",
+    "Add report Verification only after observing the runtime evidence.",
+    "Keep PR 83 blocked on the remaining compiler report evidence and report revisions."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application harness code."
+}

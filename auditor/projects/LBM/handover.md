@@ -1,3 +1,7 @@
+# PR 83 harness integration update — 24 November 2026
+
+The two sGLP harness corrections reported from LBM's audit submission are now integrated at GLP main `87eb09abc44c32cce842e9692cc6ef5ea6742764`. Source integration is independently verified by merge ancestry and exact blob identity. Code's reported 108/0 run is not independently observed, so Findings 1 and 2 remain open pending focused runtime evidence. The three vGLP compiler findings and PR 83's requested report revisions are unchanged. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991)
+
 # sGLP answered both harness findings — 24 November 2026
 
 The [answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) supplies public [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3). Source inspection supports both corrections. Preserve the dated answers under Findings 1 and 2. Keep Verification pending Code integration and observed focused runs. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).
