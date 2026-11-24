@@ -729,6 +729,8 @@ Corrected: Calculus calc11-no-parameters 8f93d00, tools/derive.py: a clause a co
 
 Rerun both altered Library cases and check that the baseline still succeeds.
 
+24 November 2026. **The correction is not verified in the public source.** I ran public GLP main `5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e`'s `calculus/tools/derive.py` (blob `00bd9d92950a702e08c30ee4d42f05e0ab621d24`) on an exact minimal Knowledge/Library tree. The unmodified Library expansion reported `Library: derived`. Dropping Return's `shelf(Alice,Tome)` conclusion and appending a Vote for Lend with the unrelated conclusion `unrelated(Alice,Tome)` each still reported `Library: derived`. Removing inherited Introduce reported one differing clause. Every process exited zero. The first two focused controls therefore still reproduce the finding in public GLP main. The cited Calculus commit `8f93d00` is outside the public source and was not treated as verification.
+
 ## Finding 19. Found admits a person for a role declared to be an organisation
 
 Severity: high
@@ -752,6 +754,8 @@ Corrected: Calculus f172daf, tools/toglp.py: a guard declared an organisation or
 ### Verification
 
 Compare the revised Found rule on a person and a duly represented organisation.
+
+24 November 2026. **The correction is not present in the public catalogue.** At public GLP main `5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e`, the exact Organisation term blob `d1203a815e4e6b6198c3da0897333b55c88959b0` still requires `or(person(Gov), and(organisation(Gov), ...))` for `found`. An established person therefore still satisfies the founder guard without being an organisation represented by an officer. This is source inspection; no GLP execution was performed. The cited Calculus commit `f172daf` is outside the public source and was not treated as verification.
 
 ## Finding 20. The note identifier is absent from the formal state
 
@@ -780,6 +784,8 @@ See, beside Calculus 5394650: GSC branch sets-2026-11-24 0ba34c7 (Notes' schemas
 ### Verification
 
 Show either an identifier-preserving representation or the stated abstraction and its implementation boundary.
+
+24 November 2026. **The public prerequisites are merged, while the catalogue correction is not.** GSC set-variable commit `0daa1b81b653315d7285d48a9a23558b53fb20a6` and runtime commit `03bc123ff8a9c4cca1c614bb33c6c720b337a72e` are ancestors of public GLP main `5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e`. The exact public Notes term blob `76237320d1d0c7e1a5f120a29fddcb1de7fc3a45` still represents notes as `times(num(Sum), atom(note, [Holder, Issuer, Type]))`, with no note identifier. The cited private Calculus, GSC and Grassroots Bonds branches were not inspected or executed. The finding remains pending public catalogue integration or a stated abstraction boundary.
 
 ## Finding 21. Definition 3 excludes agent identifications used by the catalogue
 
