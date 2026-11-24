@@ -1,3 +1,9 @@
+# Stage 89 — Calculus paper Findings 10–17 answered — 24 November 2026
+
+[PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94) merged at [`b6460b38`](https://github.com/udi-shapiro/Grassroots-Audit/commit/b6460b3878ad52bb661530cd41dd3de326fc86b4), preserving Calculus’s dated answers to Findings 10–17. The original findings and Verification requests remain intact, and [issues #84–91](https://github.com/udi-shapiro/Grassroots-Audit/issues/84) remain open. The cited paper commit `6dfa1ed9` is private, so the merge records the project claim without treating any correction as verified.
+
+An exact-equivalent run of `bin/status.py`’s answer predicate found 17 Calculus findings and zero unanswered. The merged table is the exact one-row delta from the previously verified base, giving 29 reports, 33 findings and zero unanswered. The repository script itself was not run in a checked-out tree. [Stage record](./stages/89-pr94-calculus-answers-20261124.json)
+
 # Stage 88 — corrected Calculus ownership and Code integration — 24 November 2026
 
 [Calculus corrected its answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131128823): the duplicate condition in compiler Finding 1 originates in `calculus/tools/gcsas.py`. Candidate `4789e80e06ffb8b8da6964b0c3364d5691fe9d4a` suppresses a deletion already present in the condition at both generator paths and changes the focused expectation from two copies to one. Current GLP main `b9d0bb7d420db4781c29aacbb118339d5cdca357` still lacks that candidate, so Finding 1 remains open.

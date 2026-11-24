@@ -1,0 +1,159 @@
+{
+  "stage": 89,
+  "title": "Calculus paper Findings 10-17 answered and merged",
+  "recorded_at": "2026-11-24T12:33:11.780Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "839a18e8-e800-11f1-8007-9aa31464f6e7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7131147711,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "outcome": "Already recorded at the same discussion version in Stage 88; no duplicate action."
+    },
+    {
+      "delivery_id": "9090503a-e800-11f1-8aaa-28099bbb0275",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 94,
+      "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Reviewed together with the synchronized current head."
+    },
+    {
+      "delivery_id": "92d43488-e800-11f1-8543-954c849d71bc",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 94,
+      "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Exact answer-only head accepted and merged with expected-head checking."
+    },
+    {
+      "delivery_id": "eb08a92a-e802-11f1-843c-05c2f4f01bf4",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 94,
+      "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+      "merge_commit_sha": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own merge event confirmed; no automated reply loop."
+    }
+  ],
+  "audit_main_before": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
+  "audit_main_after": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
+  "pull_request": {
+    "number": 94,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/94",
+    "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+    "merge_commit_sha": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
+    "changed_files": 3,
+    "additions": 41,
+    "deletions": 9,
+    "comments": 0,
+    "reviews": 0
+  },
+  "source_pins": {
+    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
+    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
+    "claimed_private_paper_commit": "6dfa1ed9",
+    "report_blob": "904ff409fa960b31db633fe74e71eb7913c96dbc",
+    "status_table_blob": "890e0564d1b54852972e88e60dc54c8a412eb54b",
+    "issues_blob": "6ef4521a3827a2d466d6426e42b7e0d37f21d5b6"
+  },
+  "affected_report": {
+    "path": "calculus/contracts.md",
+    "findings": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "tickets": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ]
+  },
+  "attribution": {
+    "contributor": "Calculus (Calculus #8), 2026-11-24, submitted by Audit #4",
+    "answer": "Corrected: 6dfa1ed9",
+    "provenance": "PR body attributes the private paper commit and design-decisions item 62. The audit preserves this claim without using or requiring the private repository."
+  },
+  "diff_inspection": {
+    "calculus/contracts.md": "Adds one dated Answer to each original Finding 10-17 and leaves the original finding and Verification text intact.",
+    "ISSUES.md": "Changes all eight rows from awaiting an answer to answered in PR 94 with independent verification pending.",
+    "sections/status-table.tex": "Changes only calculus/contracts from 8 unanswered to 0."
+  },
+  "executed_checks": [
+    {
+      "check": "Exact-equivalent has_answer parsing on the merged report",
+      "result": "17 findings, 0 unanswered. Each new Answer contains a non-backticked Corrected: reference as required by bin/status.py."
+    },
+    {
+      "check": "Generated-table delta",
+      "result": "Replacing the single calculus/contracts row in the previously verified base table from 8 to 0 yields byte-for-byte the merged status-table blob."
+    },
+    {
+      "check": "Issue state inspection",
+      "result": "Issues 84-91 all remain open after the answer merge."
+    },
+    {
+      "check": "CI metadata inspection",
+      "result": "The PR head has no combined commit statuses or associated workflow runs."
+    }
+  ],
+  "not_executed": [
+    "The repository's Python bin/status.py was not run in a checked-out tree. Its answer predicate was reproduced exactly for the changed report and the complete generated table was checked by byte comparison against the previously verified base.",
+    "The private paper commit 6dfa1ed9 and private design-decision record were not accessed.",
+    "No proof, paper, compiler or runtime verification was inferred from the answer merge."
+  ],
+  "disposition": {
+    "answers": "Preserved on main with original finding identifiers and dated attribution.",
+    "verification": "All eight findings remain open and independently unverified.",
+    "status": "Published table correctly reports 29 reports, 33 findings and 0 unanswered because answered-but-open findings are not unanswered.",
+    "merge": "Merged with expected head 60bfbfdb; merge commit b6460b38."
+  },
+  "next": [
+    "Verify Findings 10-17 against a public revised paper on EShapiro2/GLP or its papers branch when available.",
+    "Keep issues 84-91 open until each corresponding claim is independently checked.",
+    "Continue the already resumed core-paper verification queue separately."
+  ],
+  "core_queue": "All six original core findings have answers. This answer merge does not change their verification queue."
+}
