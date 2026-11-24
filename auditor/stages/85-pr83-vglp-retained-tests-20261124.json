@@ -1,0 +1,150 @@
+{
+  "stage": 85,
+  "title": "Retained focused runtime evidence for PR 83 compiler findings",
+  "recorded_at": "2026-11-24T11:14:27.647Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "b0c220c6-e7f7-11f1-97ab-b88f203148e5",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7129757859,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 11,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7129296965,
+            "updated_at": "2026-11-24T10:49:42Z"
+          },
+          {
+            "id": 7129400576,
+            "updated_at": "2026-11-24T10:54:24Z"
+          },
+          {
+            "id": 7129757859,
+            "updated_at": "2026-11-24T11:10:41Z"
+          },
+          {
+            "id": 7129816897,
+            "updated_at": "2026-11-24T11:13:15Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T11:13:15Z"
+      },
+      "outcome": "Accepted and inspected retained project-run evidence for Findings 1-3. Independent runtime execution and branch integration remain pending.",
+      "processed_at": "2026-11-24T11:14:27.647Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7129757859,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129757859",
+      "role": "vGLP test evidence"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7129816897,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897",
+      "role": "audit evidence assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
+    "test_evidence_commit": "196f0ed40f5c7f26d5dd0326a2d929e66068bf1c",
+    "test_evidence_blob": "2bdcf8ba8adfadf817316d2745e3c61b609b1219",
+    "regenerated_platforms_commit": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/vglp/cva/compiler/cvac.glp.md",
+    "findings": [
+      1,
+      2,
+      3
+    ],
+    "report_blob": "16718cc48772454a931e4cd1dde202027250f2c8"
+  },
+  "project_evidence": {
+    "owner": "vGLP",
+    "attribution": "vGLP (vGLP #32), 2026-11-24, submitted by Audit #4",
+    "claim": "CVA once, ranks and deads ran on GLP main 574caf8b7 with 15 passed and 0 failed.",
+    "artifact": "programs/vglp/cva/compiler/audit/pr83-tests.txt at 196f0ed40f5c7f26d5dd0326a2d929e66068bf1c"
+  },
+  "evidence_inspection": {
+    "line_counts": {
+      "pass": 15,
+      "fail_or_known_red": 0,
+      "ranks": 9,
+      "once": 5,
+      "deads": 1
+    },
+    "build_lines": [
+      "Build: 574caf8b7",
+      "Build: 574caf8b7",
+      "Build: 574caf8b7"
+    ],
+    "finding_1": "K1 yes with one bid, K2 no without it, deletion-only control K3 yes and K4 no.",
+    "finding_2": "Generated schema_numeric chain, reduced request, proposed part, positive and negative domain results are retained.",
+    "finding_3": "Compiler output says not compiled(deads) and names the add/delete overlap.",
+    "branch_status": "Evidence commit is six commits ahead and zero behind current main. The intervening branch includes e9ed11f5, which regenerates 35 compiler platforms.",
+    "statuses": "No commit status or workflow run is published for the evidence commit."
+  },
+  "executed_checks": [],
+  "not_executed": [
+    "CVA once, CVA ranks, CVA deads, compiler or GLP runtime by the audit. The audit environment has no Dart executable."
+  ],
+  "assessment": {
+    "evidence": "Internally consistent, pinned project-run evidence that materially corroborates all three source corrections.",
+    "verification": "Independent runtime Verification remains pending because the audit did not execute the checks.",
+    "integration": "The evidence file and regenerated platforms remain off main until Code merges the six-commit branch.",
+    "publication": "Preserve the artifact commit and blob under the three findings without converting the project run into an audit-executed check."
+  },
+  "next": [
+    "Code to merge the evidence/regeneration branch with expected-head checking.",
+    "After integration, verify the evidence blob and regenerated platform set on main.",
+    "Independently execute the narrow CVA once, ranks and deads checks when a Dart-capable audit environment is available.",
+    "Update PR 83's Answer and Verification sections, regenerate status and issue mappings."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application compiler evidence."
+}

@@ -1,3 +1,7 @@
+# PR 83 retained compiler test evidence — 24 November 2026
+
+vGLP published retained focused output for LBM's three compiler findings. The artifact records 15 passes and no failures on build `574caf8b7`, with the expected once, ranks and deads results. The audit inspected the artifact but did not execute the tests. The evidence and regenerated platforms remain off main pending Code's merge. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897)
+
 # PR 83 compiler answers — 24 November 2026
 
 vGLP and Code have answered all three compiler findings from LBM's submitted use report. Public corrections are integrated at GLP main `574caf8b722307747fb8375a8e47672cbadfd26f`, and their source mechanisms are independently supported. Runtime checks remain pending. PR 83 still needs the evidence/scope revisions requested by the audit, the dated Answer text, regenerated status and issue mappings. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576)

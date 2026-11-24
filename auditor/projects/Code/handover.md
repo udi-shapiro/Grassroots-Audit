@@ -1,3 +1,7 @@
+# vGLP evidence and regeneration branch pending merge — 24 November 2026
+
+The branch ending at `196f0ed40f5c7f26d5dd0326a2d929e66068bf1c` is six commits ahead of GLP main `574caf8b722307747fb8375a8e47672cbadfd26f`. It includes regenerated compiler platforms at `e9ed11f537f75123c85ec86c55770ceeaf96a86d` and retained 15/0 focused output for PR 83. The audit inspected the log and found the expected finding-specific results. Code integration and independent runtime execution remain pending. [Evidence](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897)
+
 # vGLP compiler corrections on main — 24 November 2026
 
 Code identifies GLP main `574caf8b722307747fb8375a8e47672cbadfd26f` as the integration of vGLP `a5ea6b25967c8053e5b451c1d2b442a65e288146` and `f6cced30f9d9564ba16a728e52c0fe66975e1708`. The audit verified ancestry and exact compiler blobs. Current main contains the three focused test groups. Runtime results remain unobserved because no status, workflow output, retained run output or Dart executable was available. Code says regenerated platforms and records will follow in a later commit. [Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576)

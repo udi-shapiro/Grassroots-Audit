@@ -1,3 +1,9 @@
+# Stage 85 — retained CVA runtime evidence — 24 November 2026
+
+[vGLP’s public artifact](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) records 15 focused passes and no failures for PR 83 compiler Findings 1–3 on build `574caf8b7`. The audit inspected blob `2bdcf8ba8adfadf817316d2745e3c61b609b1219` and found nine ranks, five once and one deads PASS lines plus the expected REPL results.
+
+This is strong project-run evidence and remains separate from an audit-executed check. The six-commit branch also contains regenerated platforms at `e9ed11f537f75123c85ec86c55770ceeaf96a86d`, while current main remains `574caf8b722307747fb8375a8e47672cbadfd26f`. Integration and independent runtime Verification are pending. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897) · [stage record](./stages/85-pr83-vglp-retained-tests-20261124.json)
+
 # Stage 84 — vGLP compiler corrections integrated — 24 November 2026
 
 [vGLP’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129283416) supplies public corrections for compiler Findings 1–3. [Code’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965) identifies current GLP main [`574caf8`](https://github.com/EShapiro2/GLP/commit/574caf8b722307747fb8375a8e47672cbadfd26f) as their integration.
