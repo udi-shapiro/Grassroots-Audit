@@ -1,3 +1,7 @@
+# Updated public GLP-Spec and TGLP PDFs pinned — 24 November 2026
+
+At papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5`, the audit hash-checked and read GLP-Spec blob `6e045f277432debfd278f2f853e40c92bf6c2df7` and TGLP blob `605ddff24122c85fa6ea9ec9344d9ee16a7f087e`. Their acyclicity restrictions exclude the original cyclic witness. Finish the cumulative substitution and LP projection argument in GLP-Spec Proposition E.1 and check the dependent IGLP account before disposition. IGLP PR #78 remains open for review. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)
+
 # Public IGLP corrections verified — 22 November 2026
 
 [PR #78](https://github.com/udi-shapiro/Grassroots-Audit/pull/78/commits/2def7c800706ddbaf97887ef364bf36b89d6dd60) verifies IGLP Findings 1 and 2 at the pinned [public release](https://github.com/EShapiro2/GLP/blob/801b7d9a94c8b94f81ed6bfc6e4f607954d524bb/papers/IGLP.pdf). The old left/right and Reduce–Communicate witnesses were rerun. GLP-Spec Finding 1 remains pending. Compare the revised acyclic reduction rule and LP proof with the typed example and dependent implementation account. See [stage 73](../../stages/73-pr77-gsc-raw-links-iglp-verification-20261122.json).

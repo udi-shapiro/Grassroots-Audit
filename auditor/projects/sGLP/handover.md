@@ -1,3 +1,7 @@
+# Public paper correction verified — 24 November 2026
+
+[PR #93](https://github.com/udi-shapiro/Grassroots-Audit/pull/93) verifies paper Finding 1 at papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5`, blob `8fc1626d3b0e7ea2912632876c58fde80bfeef20`. The observable history omits pending activation times and Proposition 2.6 now assumes non-anticipation. For paper Finding 2, the relay excludes a late answer and keeps discarded writers in the held-variable projection. Issue #36 remains open for the current vGLP paper comparison. The proof check and the earlier PR #83 harness evidence concern separate findings. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)
+
 # Retained test_sglp output inspected — 24 November 2026
 
 Evidence commit `f7190dc4a228f569590c0a050d5ede51c1377b28`, a direct child of tested source `87eb09abc44c32cce842e9692cc6ef5ea6742764`, contains 108 PASS, no FAIL or KNOWN RED entries, and the expected focused clock and environment results. The audit inspected the public output but did not rerun it because Dart is unavailable. Preserve commit `f7190dc4a228f569590c0a050d5ede51c1377b28` and blob `b3456ece7a4429fb3754935652d3750de5250e69` under Findings 1 and 2. [Evidence](https://github.com/EShapiro2/GLP/blob/f7190dc4a228f569590c0a050d5ede51c1377b28/programs/sglp/tests/output-87eb09a.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089)

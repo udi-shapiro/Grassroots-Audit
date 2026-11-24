@@ -1,3 +1,7 @@
+# Same-release Answer-rule comparison pending — 24 November 2026
+
+[PR #93](https://github.com/udi-shapiro/Grassroots-Audit/pull/93) checks the sGLP side of the closed-question correction. Compare the Answer/closed-question premises in public vGLP PDF blob `0ab9f5a684c21aafa32652269d7914822c9de9a6` at papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5` with the revised sGLP relay and projection. The contents endpoint supplied the vGLP blob metadata with an empty PDF body. The separate vGLP fairness proof and compiler verification remain pending. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)
+
 # Retained CVA test output inspected — 24 November 2026
 
 Public evidence commit `196f0ed40f5c7f26d5dd0326a2d929e66068bf1c`, blob `2bdcf8ba8adfadf817316d2745e3c61b609b1219`, contains 15 PASS lines, no failures, and the expected REPL output for `CVA ranks`, `CVA once` and `CVA deads` on build `574caf8b7`. It materially corroborates Findings 1–3. The audit did not rerun the tests because Dart is unavailable. The evidence branch is six commits ahead of main and includes regenerated platforms at `e9ed11f537f75123c85ec86c55770ceeaf96a86d`. [Evidence](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897)

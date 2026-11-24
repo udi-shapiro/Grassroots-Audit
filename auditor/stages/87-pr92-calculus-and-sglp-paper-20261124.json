@@ -1,0 +1,108 @@
+{
+  "stage": 87,
+  "title": "Calculus publication and sGLP paper verification",
+  "recorded_at": "2026-11-24T11:34:25.242Z",
+  "events": [
+    {
+      "delivery_id": "110bf46e-e7fa-11f1-9c90-8d684e0cb1e4",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 92,
+      "head_sha": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
+    },
+    {
+      "delivery_id": "1dbf86a8-e7fa-11f1-80a8-6f1cc2d9d86b",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 92,
+      "head_sha": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
+    },
+    {
+      "delivery_id": "d4b50acc-e7fa-11f1-95e9-7fbe1ea66d56",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 93,
+      "head_sha": "007e194369dd676ec69df00558cbe6e51d29b543",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Own publication at the exact head. Independent public sGLP Finding 1 proof verification and Finding 2 partial cross-paper verification submitted for review."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
+    "sglp_pdf_blob": "8fc1626d3b0e7ea2912632876c58fde80bfeef20",
+    "sglp_pdf_sha256": "ec364eed8dbd2317a6be9755c827fefb49ce5b6dda39ca34d4bfc74a8aa36cda",
+    "vglp_pdf_blob": "0ab9f5a684c21aafa32652269d7914822c9de9a6",
+    "glp_spec_pdf_blob": "6e045f277432debfd278f2f853e40c92bf6c2df7",
+    "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e",
+    "calculus_review_pdf_blob": "cbc52d0e196783e16f34e3722afa366c8dae55ae",
+    "public_gcc_pdf_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
+    "pr92_head": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+    "pr93_head": "007e194369dd676ec69df00558cbe6e51d29b543"
+  },
+  "evidence": {
+    "calculus_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/92",
+    "calculus_review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/b68c9d6a588167ac3f33a1d1f9ef67494af666f4/calculus/grassroots_contracts_calculus_review_2026-11-24.pdf",
+    "calculus_original_manuscript_sha256": "8a041b471639cee62991cfd581f5fd6e5686e68113911ebd402cadfafa67a717",
+    "sglp_pdf": "https://github.com/EShapiro2/GLP/blob/95cd323ac213aed0203e09279b4dab3cdc0ee6b5/papers/sGLP.pdf",
+    "sglp_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/93",
+    "sglp_original_answers": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/12",
+      "https://github.com/udi-shapiro/Grassroots-Audit/pull/17"
+    ]
+  },
+  "inspection": {
+    "calculus": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher. GLP papers/GCC.pdf is the seven-page Grassroots Community Currencies document, distinct from the 34-page manuscript. No private repositories accessed.",
+    "core_gate": "All six original findings have attributed answers on audit main.",
+    "sglp_1": "Definition 2.5 hides future activation times and disallows anticipating Machine choices. Proposition 2.6 conditions on the observable history. At a Release, surviving clocks are conditioned on survival, retaining independent exponential residuals. Verified for a nonempty pending set under the stated assumptions.",
+    "sglp_2": "Definition 3.7, Definition 3.14, Appendix A cases (3) and (5), and Definition E.15 exclude the old late-answer edge in the sGLP projection. Current vGLP comparison pending.",
+    "glp_spec": "Read the acyclic reduction rule and original witness in GLP-Spec and TGLP. Read GLP-Spec E.1; full LP-proof verification pending."
+  },
+  "executed_checks": {
+    "pdf": "Decoded public GitHub base64 content, matched Git blobs using git hash-object, computed SHA-256, checked pdfinfo, and extracted text using pdftotext (including raw p. 2 of sGLP).",
+    "status": "python3 bin/status.py on pinned main and the proposed verification. Both runs returned 29 reports, 33 findings, 8 unanswered, and a byte-identical table (blob 217147eff963cc163f6d3f9eeaaae32e6e72f4ab).",
+    "runtime": "No Dart or stochastic runtime run."
+  },
+  "next": [
+    "After review and a merge of PR #93, confirm removal of sGLP Finding 1 from unresolved and closure of #35. Preserve #36 until the same-release vGLP Answer/closed-question comparison is done.",
+    "Retrieve the full same-release vGLP PDF bytes for independent comparison with sGLP Definition E.15 and the discarded-writer/cancellation proof. The base64 contents endpoint reported the vGLP blob metadata with an empty body.",
+    "Trace the reader-to-writer projection and cumulative substitutions through GLP-Spec Proposition E.1. The revised GLP-Spec/TGLP acyclicity rules exclude the original cycle; the LP correspondence and IGLP alignment remain pending.",
+    "Keep IGLP PR #78 open for review at 2def7c800706ddbaf97887ef364bf36b89d6dd60. Preserve pending PR #83 application work and continue to prioritize contract and code work.",
+    "Track Calculus tickets #84–91 for attributed answers and #79 for the public Provenance Groups revision. The verified wording in #80 is confined to the reviewed manuscript."
+  ]
+}

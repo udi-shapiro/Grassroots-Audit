@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T11:31:08.129Z",
-  "active_run": {
-    "lease_id": "1dbf86a8-e7fa-11f1-80a8-6f1cc2d9d86b",
-    "delivery_id": "1dbf86a8-e7fa-11f1-80a8-6f1cc2d9d86b",
-    "pull_request_number": 92,
-    "event_type": "pull_request",
-    "action": "closed",
-    "comment_id": null,
-    "acquired_at": "2026-11-24T11:31:08.129Z",
-    "expires_at": "2026-11-24T11:51:08.129Z"
-  },
+  "updated_at": "2026-11-24T11:34:25.242Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,6 +36,44 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 93,
+      "head_sha": "007e194369dd676ec69df00558cbe6e51d29b543",
+      "state": "open",
+      "updated_at": "2026-11-24T11:33:11Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Own publication at the exact head. Independent public sGLP Finding 1 proof verification and Finding 2 partial cross-paper verification submitted for review."
+    },
+    {
+      "number": 92,
+      "head_sha": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+      "state": "closed",
+      "updated_at": "2026-11-24T11:28:04Z",
+      "merged_at": "2026-11-24T11:28:04Z",
+      "merge_commit_sha": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
+    },
     {
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
@@ -8986,6 +9015,63 @@
       "processed_at": "2026-11-24T11:21:25.600Z",
       "outcome": "Inspected retained sGLP test output at f7190dc4. The direct-child evidence contains 108 PASS, no failures or known-red entries, and the focused environment and simulated-clock results on tested source 87eb09a. Recorded as strong project-run evidence; audit execution remains pending.",
       "audit_reply": 7129969089
+    },
+    {
+      "delivery_id": "110bf46e-e7fa-11f1-9c90-8d684e0cb1e4",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 92,
+      "head_sha": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
+    },
+    {
+      "delivery_id": "1dbf86a8-e7fa-11f1-80a8-6f1cc2d9d86b",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 92,
+      "head_sha": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
+    },
+    {
+      "delivery_id": "d4b50acc-e7fa-11f1-95e9-7fbe1ea66d56",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 93,
+      "head_sha": "007e194369dd676ec69df00558cbe6e51d29b543",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T11:34:25.242Z",
+      "outcome": "Own publication at the exact head. Independent public sGLP Finding 1 proof verification and Finding 2 partial cross-paper verification submitted for review."
     }
   ],
   "source_observed_after_event": {
@@ -9011,12 +9097,12 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+    "audit_main": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
     "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
     "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T11:21:25.600Z",
+    "observed_at": "2026-11-24T11:34:25.242Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9048,6 +9134,15 @@
     "vglp_regenerated_platforms": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
     "sglp_tested_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
     "sglp_pr83_test_evidence": "f7190dc4a228f569590c0a050d5ede51c1377b28",
-    "sglp_pr83_test_blob": "b3456ece7a4429fb3754935652d3750de5250e69"
+    "sglp_pr83_test_blob": "b3456ece7a4429fb3754935652d3750de5250e69",
+    "sglp_pdf_blob": "8fc1626d3b0e7ea2912632876c58fde80bfeef20",
+    "sglp_pdf_sha256": "ec364eed8dbd2317a6be9755c827fefb49ce5b6dda39ca34d4bfc74a8aa36cda",
+    "vglp_pdf_blob": "0ab9f5a684c21aafa32652269d7914822c9de9a6",
+    "glp_spec_pdf_blob": "6e045f277432debfd278f2f853e40c92bf6c2df7",
+    "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e",
+    "calculus_review_pdf_blob": "cbc52d0e196783e16f34e3722afa366c8dae55ae",
+    "public_gcc_pdf_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
+    "pr92_head": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
+    "pr93_head": "007e194369dd676ec69df00558cbe6e51d29b543"
   }
 }
