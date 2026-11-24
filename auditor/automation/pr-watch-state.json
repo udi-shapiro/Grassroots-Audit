@@ -1,8 +1,19 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T01:02:00Z",
-  "active_run": null,
+  "updated_at": "2026-11-24T01:10:30Z",
+  "active_run": {
+    "run_id": "pr50-comment-7118818729-bbf05908",
+    "started_at": "2026-11-24T01:10:30Z",
+    "expires_at": "2026-11-24T01:30:30Z",
+    "delivery_ids": [
+      "bbf05908-e7a3-11f1-8805-49aa97c529b0"
+    ],
+    "pull_requests": [
+      50
+    ],
+    "purpose": "Process SPM project reversal and preserve dated audit history"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
