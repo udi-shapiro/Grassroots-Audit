@@ -1,28 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T14:19:29.151Z",
-  "active_run": {
-    "run_id": "github-pr-watch-20261124-pr102-close-pr94-comment-7134028134",
-    "acquired_at": "2026-11-24T14:19:29.151Z",
-    "expires_at": "2026-11-24T14:34:29.151Z",
-    "expected_head_sha": "e6fc5ce11c7158589e35ce45a11441d2930c0fae",
-    "events": [
-      {
-        "delivery_id": "09e257ca-e811-11f1-8726-1745e1b43c56",
-        "pull_request_number": 102,
-        "event_type": "pull_request",
-        "action": "closed"
-      },
-      {
-        "delivery_id": "34040f4e-e811-11f1-8653-00654403ed1a",
-        "pull_request_number": 94,
-        "event_type": "issue_comment",
-        "action": "created",
-        "comment_id": 7134028134
-      }
-    ]
-  },
+  "updated_at": "2026-11-24T14:35:30.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -57,42 +37,64 @@
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
     {
+      "number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:24:40Z",
+      "merged_at": "2026-11-24T14:24:40Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Calculus answers preserved; merged as b5983e532b1a23d98496183c77f5be9ccb6be240"
+    },
+    {
+      "number": 104,
+      "head_sha": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:27:17Z",
+      "merged_at": "2026-11-24T14:27:17Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Calculus answer preserved; merged as aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7"
+    },
+    {
+      "number": 105,
+      "head_sha": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:28:51Z",
+      "merged_at": "2026-11-24T14:28:51Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "GSC answer preserved; merged as dfa244fb61734a9fb771945074e1d1830fef1ecf"
+    },
+    {
+      "number": 106,
+      "head_sha": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:35:30.000Z",
+      "merged_at": "2026-11-24T14:33:26Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "audit verification publication merged as 94f679a5388395c02154886dcb8e3630d6334a7b"
+    },
+    {
       "number": 102,
       "head_sha": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
       "state": "closed",
       "updated_at": "2026-11-24T14:12:09Z",
       "merged_at": "2026-11-24T14:12:09Z",
-      "merge_commit_sha": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": null,
-      "review_cursor": null,
-      "notes": "Publication already merged when inspected; confirmed exact tree, mapped issue states and byte-identical status regeneration. No duplicate PR, merge, or discussion."
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "already-recorded audit publication merge"
     },
     {
       "number": 94,
       "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
       "state": "closed",
-      "updated_at": "2026-11-24T12:31:04Z",
-      "merged_at": "2026-11-24T12:31:04Z",
-      "merge_commit_sha": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": null,
-      "review_cursor": null,
-      "notes": "Merged the exact answer-only head. Preserved Calculus's dated answers for contracts.md Findings 10-17 and issue mappings #84-91. All eight issues remain open; private paper commit 6dfa1ed9 was not treated as verified. Exact-equivalent answer parsing gives 17 findings, 0 unanswered, and the published table is the exact expected one-row delta."
+      "updated_at": "2026-11-24T14:13:20Z",
+      "merged_at": "2026-11-24T11:36:50Z",
+      "comment_cursor": "7134028134@2026-11-24T14:13:20Z",
+      "review_cursor": "none",
+      "notes": "new own audit summary recorded; no automated reply"
     },
     {
       "number": 93,
@@ -9444,17 +9446,201 @@
       },
       "processed_at": "2026-11-24T11:34:25.242Z",
       "outcome": "Own publication at the exact head. Independent public sGLP Finding 1 proof verification and Finding 2 partial cross-paper verification submitted for review."
+    },
+    {
+      "delivery_id": "09e257ca-e811-11f1-8726-1745e1b43c56",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 102,
+      "head_sha": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Already-recorded audit publication merge at the same head and zero-discussion version; skipped without a reply or duplicate publication."
+    },
+    {
+      "delivery_id": "34040f4e-e811-11f1-8653-00654403ed1a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 94,
+      "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+      "comment_id": 7134028134,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7134028134
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-24T14:13:20Z",
+        "latest_comments": [
+          {
+            "id": 7134028134,
+            "updated_at": "2026-11-24T14:13:20Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Own substantive audit summary of merged PR102; recorded at the new comment version and skipped without an automated reply."
+    },
+    {
+      "delivery_id": "016d64da-e812-11f1-853f-74290e2070fe",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved Calculus answers to Findings 18-20; merged exact head without treating the claimed fixes as verified."
+    },
+    {
+      "delivery_id": "0876ea9e-e812-11f1-94f0-815059fd8071",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Same final head and discussion version as the opened event; folded into the exact-head answer merge."
+    },
+    {
+      "delivery_id": "6a84c17a-e812-11f1-88a7-5d0e9c247e12",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as b5983e532b1a23d98496183c77f5be9ccb6be240; verification remained separate."
+    },
+    {
+      "delivery_id": "c8cdecca-e812-11f1-8543-a5403ae40ac8",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 104,
+      "head_sha": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved the dated Calculus answer to Finding 1; merged exact head without inferring a private-branch fix."
+    },
+    {
+      "delivery_id": "16ee59f8-e813-11f1-93b1-2d11ead21a56",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 104,
+      "head_sha": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7; independent verification pending."
+    },
+    {
+      "delivery_id": "dc13e7d0-e812-11f1-8c6c-a9742c18d1c0",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 105,
+      "head_sha": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved GSC's dated answer beside Calculus for Finding 20; merged exact head without private-source verification."
+    },
+    {
+      "delivery_id": "5f30482a-e813-11f1-9eb9-518b100d9dcb",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 105,
+      "head_sha": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as dfa244fb61734a9fb771945074e1d1830fef1ecf; public catalogue verification remained pending."
+    },
+    {
+      "delivery_id": "ea3c2be6-e813-11f1-8420-04eca4e7f0ef",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 106,
+      "head_sha": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Own audit publication at the exact head; reviewed, merged as 94f679a5388395c02154886dcb8e3630d6334a7b, and recorded without an automated reply."
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "audit_main": "94f679a5388395c02154886dcb8e3630d6334a7b",
     "glp_main": "5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e",
     "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
-    "calculus_catalogue": "ec66a1595d9325771739142e5437aaada218dffb",
-    "pr102_head": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
-    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
-    "observed_at": "2026-11-24T14:15:08.190Z",
-    "inspection": "Published exact tree, issue states and catalogue CSV inspected; status generator and CSV checks executed locally."
+    "pr103_head": "74314e3995e963da4fee38a02498de8715731f02",
+    "pr103_merge": "b5983e532b1a23d98496183c77f5be9ccb6be240",
+    "pr104_head": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+    "pr104_merge": "aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7",
+    "pr105_head": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+    "pr105_merge": "dfa244fb61734a9fb771945074e1d1830fef1ecf",
+    "pr106_head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+    "pr106_merge": "94f679a5388395c02154886dcb8e3630d6334a7b",
+    "observed_at": "2026-11-24T14:35:30.000Z",
+    "inspection": "Preserved attributed answers, executed public derive.py controls for Finding 18, inspected exact public catalogue blobs for Findings 19-20, regenerated status exactly, and merged the reviewed audit publication."
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -9463,15 +9649,19 @@
       68
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
-    "reason": "Preserved GSA answer and documented SPM dispute."
+    "reason": "Preserved GSA answer and documented SPM dispute.",
+    "last_reconciled_at": "2026-11-24T14:35:30.000Z",
+    "last_stage": 92,
+    "processed_through_pr": 106,
+    "notes": "PR102 close and PR94 own summary skipped without reply; PR103-105 answers merged; PR106 public verification merged."
   },
   "latest_source_observed": {
-    "audit_main": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "audit_main": "94f679a5388395c02154886dcb8e3630d6334a7b",
     "glp_main": "5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e",
     "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T14:15:08.190Z",
+    "observed_at": "2026-11-24T14:35:30.000Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9526,6 +9716,19 @@
     "calculus_deleted_once_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
     "calculus_catalogue": "ec66a1595d9325771739142e5437aaada218dffb",
     "pr102_head": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
-    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322"
+    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "pr103_head": "74314e3995e963da4fee38a02498de8715731f02",
+    "pr103_merge": "b5983e532b1a23d98496183c77f5be9ccb6be240",
+    "pr104_head": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+    "pr104_merge": "aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7",
+    "pr105_head": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+    "pr105_merge": "dfa244fb61734a9fb771945074e1d1830fef1ecf",
+    "pr106_head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+    "pr106_merge": "94f679a5388395c02154886dcb8e3630d6334a7b",
+    "calculus_derive_public_blob": "00bd9d92950a702e08c30ee4d42f05e0ab621d24",
+    "organisation_term_public_blob": "d1203a815e4e6b6198c3da0897333b55c88959b0",
+    "notes_term_public_blob": "76237320d1d0c7e1a5f120a29fddcb1de7fc3a45",
+    "gsc_set_variables": "0daa1b81b653315d7285d48a9a23558b53fb20a6",
+    "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e"
   }
 }

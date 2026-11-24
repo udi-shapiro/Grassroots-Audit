@@ -1,3 +1,7 @@
+# Organisation Found correction remains private — 24 November 2026
+
+Calculus's dated answer to contracts Finding 19 is preserved in [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103). Public GLP `5ba668c3` still has the `person(Gov)` alternative in the exact Organisation term. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) records source inspection only; no GLP play was executed. Keep issue #96 open until the corrected public term distinguishes a person from an organisation represented by its officer. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)
+
 # Organisation and Cooperative DAO publication reconciled — 24 November 2026
 
 [PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) closes #59 for the creation-path effects and #62 after withdrawal of the steward admission clause. #96 tracks the separate Found role-type discrepancy. #60, #61 and #63 remain open for settlement, admission runtime and delegated voting respectively. The pinned controls and remaining work are in the [report](https://github.com/udi-shapiro/Grassroots-Audit/blob/b73f18a2158342bc13d7daf0f4faaa5730a8a322/calculus/contracts.md). [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)

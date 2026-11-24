@@ -1,0 +1,289 @@
+{
+  "stage": 92,
+  "title": "Calculus answers preserved and Findings 18-20 checked against public GLP",
+  "recorded_at": "2026-11-24T14:35:30.000Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "09e257ca-e811-11f1-8726-1745e1b43c56",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 102,
+      "head_sha": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Already-recorded audit publication merge at the same head and zero-discussion version; skipped without a reply or duplicate publication."
+    },
+    {
+      "delivery_id": "34040f4e-e811-11f1-8653-00654403ed1a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 94,
+      "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
+      "comment_id": 7134028134,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7134028134
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-24T14:13:20Z",
+        "latest_comments": [
+          {
+            "id": 7134028134,
+            "updated_at": "2026-11-24T14:13:20Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Own substantive audit summary of merged PR102; recorded at the new comment version and skipped without an automated reply."
+    },
+    {
+      "delivery_id": "016d64da-e812-11f1-853f-74290e2070fe",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved Calculus answers to Findings 18-20; merged exact head without treating the claimed fixes as verified."
+    },
+    {
+      "delivery_id": "0876ea9e-e812-11f1-94f0-815059fd8071",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Same final head and discussion version as the opened event; folded into the exact-head answer merge."
+    },
+    {
+      "delivery_id": "6a84c17a-e812-11f1-88a7-5d0e9c247e12",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 103,
+      "head_sha": "74314e3995e963da4fee38a02498de8715731f02",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as b5983e532b1a23d98496183c77f5be9ccb6be240; verification remained separate."
+    },
+    {
+      "delivery_id": "c8cdecca-e812-11f1-8543-a5403ae40ac8",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 104,
+      "head_sha": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved the dated Calculus answer to Finding 1; merged exact head without inferring a private-branch fix."
+    },
+    {
+      "delivery_id": "16ee59f8-e813-11f1-93b1-2d11ead21a56",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 104,
+      "head_sha": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7; independent verification pending."
+    },
+    {
+      "delivery_id": "dc13e7d0-e812-11f1-8c6c-a9742c18d1c0",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 105,
+      "head_sha": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Preserved GSC's dated answer beside Calculus for Finding 20; merged exact head without private-source verification."
+    },
+    {
+      "delivery_id": "5f30482a-e813-11f1-9eb9-518b100d9dcb",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 105,
+      "head_sha": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Answer PR merged at exact head as dfa244fb61734a9fb771945074e1d1830fef1ecf; public catalogue verification remained pending."
+    },
+    {
+      "delivery_id": "ea3c2be6-e813-11f1-8420-04eca4e7f0ef",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 106,
+      "head_sha": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:35:30.000Z",
+      "outcome": "Own audit publication at the exact head; reviewed, merged as 94f679a5388395c02154886dcb8e3630d6334a7b, and recorded without an automated reply."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "audit_main_after": "94f679a5388395c02154886dcb8e3630d6334a7b",
+    "glp_main": "5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e",
+    "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
+    "pr103_head": "74314e3995e963da4fee38a02498de8715731f02",
+    "pr103_merge": "b5983e532b1a23d98496183c77f5be9ccb6be240",
+    "pr104_head": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
+    "pr104_merge": "aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7",
+    "pr105_head": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
+    "pr105_merge": "dfa244fb61734a9fb771945074e1d1830fef1ecf",
+    "pr106_head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+    "pr106_merge": "94f679a5388395c02154886dcb8e3630d6334a7b"
+  },
+  "project_answers": [
+    {
+      "finding": "calculus/contracts.md #1",
+      "project": "Calculus",
+      "date": "2026-11-24",
+      "claim": "Corrected at private Calculus abd32d0",
+      "publication_pr": 104,
+      "verification": "pending public correction and focused execution"
+    },
+    {
+      "finding": "calculus/contracts.md #18",
+      "project": "Calculus",
+      "date": "2026-11-24",
+      "claim": "Corrected at private Calculus 8f93d00",
+      "publication_pr": 103,
+      "verification": "not reproduced in public GLP"
+    },
+    {
+      "finding": "calculus/contracts.md #19",
+      "project": "Calculus with GO",
+      "date": "2026-11-24",
+      "claim": "Corrected at private Calculus f172daf",
+      "publication_pr": 103,
+      "verification": "correction absent from public catalogue"
+    },
+    {
+      "finding": "calculus/contracts.md #20",
+      "project": "Calculus and GSC with Currencies",
+      "date": "2026-11-24",
+      "claim": "See private Calculus 5394650, GSC 0ba34c7 and Grassroots Bonds aaa10cf",
+      "publication_prs": [
+        103,
+        105
+      ],
+      "verification": "public prerequisites present; catalogue term still lacks identifier"
+    }
+  ],
+  "executed_checks": [
+    {
+      "check": "Public calculus/tools/derive.py on an exact minimal Knowledge/Library tree",
+      "source": "GLP 5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e; derive.py blob 00bd9d92950a702e08c30ee4d42f05e0ab621d24",
+      "result": "Baseline Library: derived; Return effect removed: derived; unrelated Lend effect appended: derived; inherited Introduce removed: 1 clauses differ. All processes exited zero."
+    },
+    {
+      "check": "Exact status generator logic over all published reports and byte comparison",
+      "source": "audit PR106 head f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "result": "29 reports, 40 findings, 4 unanswered; generated table byte-identical to sections/status-table.tex"
+    }
+  ],
+  "source_inspection": [
+    {
+      "finding": 19,
+      "source": "Organisation term blob d1203a815e4e6b6198c3da0897333b55c88959b0",
+      "result": "Public found guard still contains person(Gov) as an alternative to an organisation represented by an officer; no GLP execution performed."
+    },
+    {
+      "finding": 20,
+      "source": "Notes term blob 76237320d1d0c7e1a5f120a29fddcb1de7fc3a45",
+      "result": "Public term remains times(num(Sum), atom(note,[Holder,Issuer,Type])) without an identifier. Commits 0daa1b8 and 03bc123 are ancestors of public main; private branches were not inspected or executed."
+    }
+  ],
+  "publication": {
+    "pr": 106,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/106",
+    "head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+    "merge": "94f679a5388395c02154886dcb8e3630d6334a7b",
+    "changed_files": [
+      "ISSUES.md",
+      "calculus/contracts.md"
+    ],
+    "discussion_version": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0
+    },
+    "issue_states": {
+      "95": "open",
+      "96": "open",
+      "97": "open"
+    }
+  },
+  "next": [
+    "Recheck Finding 18 when the corrected derivation checker is published in public GLP, using the baseline and both altered controls.",
+    "Recheck Finding 19 when the corrected Organisation term is public, distinguishing a person from an organisation represented by its officer.",
+    "Recheck Finding 20 when the identifier-preserving Notes term is public or the abstraction and implementation boundary is stated.",
+    "Verify Finding 1 only from public source and focused execution; the private Calculus commit reference is an answer, not verification.",
+    "Continue the recorded core verification queue; all six original core findings have project answers."
+  ]
+}

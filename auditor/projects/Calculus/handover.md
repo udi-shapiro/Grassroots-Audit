@@ -1,3 +1,7 @@
+# Calculus answers and public-source verification — 24 November 2026
+
+[PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103) preserves Calculus answers to Findings 18–20, and [PR #104](https://github.com/udi-shapiro/Grassroots-Audit/pull/104) adds the dated correction claim for Finding 1. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) records independent checks at public GLP `5ba668c3`. Finding 18 still reproduces in the public checker; Finding 19's public term still contains `person(Gov)`; Finding 20's public Notes term still lacks an identifier. Keep all four findings open until the cited corrections are public and independently checked. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)
+
 # Five-page review and catalogue verification published — 24 November 2026
 
 [PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) was already merged on audit main `b73f18a2`. Its report and ledger pin the catalogue at `ec66a159`, with no changes under `calculus/` or `cascade/` through public GLP main `5ba668c3`. The published review resolves paper Findings 11–13 and 15–17. Findings 10 and 14 remain open for the abstract’s theorem claims and reflexive lifting. Track the checker coverage and paper findings in #95 and #98–101. This run reproduced the status table and checked the CSV counts. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/b73f18a2158342bc13d7daf0f4faaa5730a8a322/calculus/contracts.md) [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)

@@ -1,3 +1,7 @@
+# Notes identifier answer checked against public source — 24 November 2026
+
+Calculus and GSC answers to contracts Finding 20 are preserved in [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103) and [PR #105](https://github.com/udi-shapiro/Grassroots-Audit/pull/105). The public set/runtime prerequisites are integrated, but public GLP `5ba668c3` still stores Notes by holder, issuer, type and multiplicity without the claimed identifier. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) publishes the independent source check. Keep #97 open until an identifier-preserving term is public or the abstraction boundary is documented. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)
+
 # Notes identifier finding published — 24 November 2026
 
 [PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) publishes [#97](https://github.com/udi-shapiro/Grassroots-Audit/issues/97) for the mismatch between individually identified notes and the catalogue’s issuer/type multiplicities at GLP `ec66a159`. Check an identifier-preserving representation or the stated abstraction and its boundary after the project answers. [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)
