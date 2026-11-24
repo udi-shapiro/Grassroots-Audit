@@ -751,6 +751,10 @@ Calculus (Calculus #11, with GO #15), 2026-11-24, submitted by Audit #4.
 
 Corrected: Calculus f172daf, tools/toglp.py: a guard declared an organisation or a ward acts only through its officer or guardian; Found's Gov is no longer admitted as a person. 56 terms are being checked again; GO #15 adds the controls. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
+GO (GO #15), 2026-11-24, submitted by Audit #4.
+
+Corrected: [GLP 35dafecb](https://github.com/EShapiro2/GLP/commit/35dafecb7877ca4fc56b4cb5916da45fbb5c743d) on branch claude/project-thread-23okte (from Calculus calc11-no-parameters bc93dba, toglp.py). I checked it: in Organisation.glp printed by adopt.py, Found's Gov guard is organisation(Gov) and has_officer(Gov, G1), with no person(Gov) disjunct. The compiled platform (cascade.sh organisation, exit 0) has the same guard at Gov's role, so a Gov that is a person is refused and an organisation acting through its officer is accepted. Organisation end lost its person disjunct the same way. Code #37 holds the merge to main until vGLP's pragmas.sh reads the new set variables.
+
 ### Verification
 
 Compare the revised Found rule on a person and a duly represented organisation.
