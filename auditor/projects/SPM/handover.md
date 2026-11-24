@@ -1,3 +1,9 @@
+# Secure Friendship boundary decision reopened — 23 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that Udi rejected the revision removing the state-loss clauses. The earlier project sentence promising no contract-level recovery now awaits confirmation or withdrawal, and SPM says its answer will follow. Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) remains the production contract pin. Settle the contract boundary, then publish the attributed SPM answer and corresponding public correction. Findings 3 and 4 stay open. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).
+
+---
+
 # Secure Friendship fault recovery moved below the contract — 23 November 2026
 
 [SPM’s replacement reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) records the decision that fault recovery belongs to the platform. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566511) withdraws both epoch experiments and keeps its renewed PR-#144 stamp helper outside main. Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) confirms the disposition, while the production contract still contains Checkpoint, State recovery and Restore. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/44c28cf441e89f59f0a9ae544411944cde8a18f2) preserves both answers and the exact stamp checks. Findings 3 and 4 remain open. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).

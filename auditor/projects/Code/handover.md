@@ -1,3 +1,9 @@
+# Secure Friendship adoption remains held — 23 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reopens the contract-versus-platform recovery boundary. Keep GLP #144, GLP #145 and the Calculus experiments out of main. Adopt and regenerate only after SPM publishes the settled boundary and the owning implementation supplies reproducible evidence. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).
+
+---
+
 # Secure Friendship recovery proposals held — 23 November 2026
 
 Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) records that GLP #144, GLP #145 and both Calculus epoch experiments stay out of main. Keep production adoption blocked until SPM removes fault recovery from the contract and vGLP publishes the platform protocol. Regenerate only against that public owner-approved boundary. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).

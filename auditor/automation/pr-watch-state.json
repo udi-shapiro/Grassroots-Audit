@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T01:10:30Z",
-  "active_run": {
-    "run_id": "pr50-comment-7118818729-bbf05908",
-    "started_at": "2026-11-24T01:10:30Z",
-    "expires_at": "2026-11-24T01:30:30Z",
-    "delivery_ids": [
-      "bbf05908-e7a3-11f1-8805-49aa97c529b0"
-    ],
-    "pull_requests": [
-      50
-    ],
-    "purpose": "Process SPM project reversal and preserve dated audit history"
-  },
+  "updated_at": "2026-11-24T01:17:00Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -139,9 +128,9 @@
     },
     {
       "number": 76,
-      "head_sha": "44c28cf441e89f59f0a9ae544411944cde8a18f2",
+      "head_sha": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea",
       "state": "open",
-      "updated_at": "2026-11-24T01:00:42Z",
+      "updated_at": "2026-11-24T01:14:37Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
@@ -230,19 +219,19 @@
       },
       "comment_cursor": 7076518476,
       "review_cursor": null,
-      "notes": "Own audit publication preserves the superseding SPM and Calculus replies plus exact term/stamp verification. Existing main conflict remains intact.",
-      "previous_head_sha": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66"
+      "notes": "Own audit publication preserves SPM’s boundary reversal and the audit’s pending-decision disposition. Existing main conflict remains intact.",
+      "previous_head_sha": "44c28cf441e89f59f0a9ae544411944cde8a18f2"
     },
     {
       "number": 50,
       "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
       "state": "open",
-      "updated_at": "2026-11-24T01:00:59Z",
+      "updated_at": "2026-11-24T01:15:26Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 16,
-        "reviews": 7,
+        "comments": 17,
+        "reviews": 8,
         "review_threads": 0,
         "comment_ids": [
           7053164176,
@@ -260,7 +249,8 @@
           7113089372,
           7117804515,
           7118566282,
-          7118566511
+          7118566511,
+          7118818729
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
@@ -269,14 +259,11 @@
           "PRR_kwDOVrts7s8AAAABZ1wMEw",
           "PRR_kwDOVrts7s8AAAABZ4PeWw",
           "PRR_kwDOVrts7s8AAAABZ4kCqg",
-          "PRR_kwDOVrts7s8AAAABZ4lJIg"
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg"
         ],
-        "latest_item_at": "2026-11-24T01:00:59Z",
+        "latest_item_at": "2026-11-24T01:15:26Z",
         "latest_comments": [
-          {
-            "id": 7113089372,
-            "updated_at": "2026-11-23T20:27:29Z"
-          },
           {
             "id": 7117804515,
             "updated_at": "2026-11-24T00:11:36Z"
@@ -288,12 +275,16 @@
           {
             "id": 7118566511,
             "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
           }
         ]
       },
-      "comment_cursor": 7118566511,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABZ4lJIg",
-      "notes": "SPM superseded its prior answer and moved fault recovery below the contract abstraction. Calculus withdrew both epoch experiments. Exact helper and main term/stamp pairs verified. Findings 3 and 4 remain open."
+      "comment_cursor": 7118818729,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+      "notes": "SPM reports that Udi rejected the revision removing state-loss clauses. The earlier platform-only recovery commitment awaits confirmation or withdrawal. Findings 3 and 4 remain answered/open; no correction verified."
     },
     {
       "number": 30,
@@ -8336,6 +8327,163 @@
       "processed_at": "2026-11-16T17:36:30Z",
       "outcome": "merged response PR21; merged auditor publication PR22",
       "publication_pr": 22
+    },
+    {
+      "delivery_id": "bbf05908-e7a3-11f1-8805-49aa97c529b0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "comment_id": 7118818729,
+      "discussion_version": {
+        "comments": 17,
+        "reviews": 8,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515,
+          7118566282,
+          7118566511,
+          7118818729
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg"
+        ],
+        "latest_item_at": "2026-11-24T01:15:26Z",
+        "latest_comments": [
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          },
+          {
+            "id": 7118566282,
+            "updated_at": "2026-11-24T00:54:56Z"
+          },
+          {
+            "id": 7118566511,
+            "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
+          }
+        ]
+      },
+      "outcome": "Boundary reversal preserved in draft #76 at 930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea; Findings 3 and 4 remain answered/open; audit review 6032149038",
+      "publication_pr": 76,
+      "processed_at": "2026-11-24T01:17:00Z"
+    },
+    {
+      "delivery_id": "6aaf61f0-e7a4-11f1-86aa-fecdf6d61c76",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea",
+      "discussion_version": {
+        "comments": 57,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150,
+          7076518476
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:26:21Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          },
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          },
+          {
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
+          }
+        ]
+      },
+      "outcome": "Own publication update from this run; recorded without an automated reply.",
+      "processed_at": "2026-11-24T01:17:00Z"
     }
   ],
   "source_observed_after_event": {
@@ -8363,7 +8511,7 @@
     "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T01:02:00Z",
+    "observed_at": "2026-11-24T01:17:00Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",

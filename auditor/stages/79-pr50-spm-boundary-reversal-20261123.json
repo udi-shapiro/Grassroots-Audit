@@ -1,0 +1,95 @@
+{
+  "stage": 79,
+  "title": "Secure Friendship contract boundary reopened",
+  "recorded_at": "2026-11-24T01:17:00Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "bbf05908-e7a3-11f1-8805-49aa97c529b0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "comment_id": 7118818729,
+      "actor_login": "EShapiro2",
+      "pr_head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287"
+    },
+    {
+      "delivery_id": "6aaf61f0-e7a4-11f1-86aa-fecdf6d61c76",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "actor_login": "udi-shapiro",
+      "head_sha": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea",
+      "disposition": "Own publication event from this run; recorded without an automated reply."
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "publication": {
+    "pull_request": 76,
+    "starting_head": "44c28cf441e89f59f0a9ae544411944cde8a18f2",
+    "final_head": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea",
+    "path": "programs/social/spm/Secure-Friendship.txt.md",
+    "final_blob": "f2075191985e22e9d8e2570a137ccde4bdd479f3",
+    "state": "open draft",
+    "mergeable": false,
+    "note": "Existing main conflict preserved for review."
+  },
+  "audit_discussion": [
+    {
+      "pull_request": 50,
+      "review_id": 6032149038,
+      "review_node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6032149038"
+    }
+  ],
+  "project_responses": [
+    {
+      "project": "SPM",
+      "date": "2026-11-24",
+      "comment_id": 7118818729,
+      "status": "boundary decision reopened",
+      "claims": [
+        "Udi rejected the Secure Friendship revision that would remove the state-loss clauses.",
+        "The production contract stays as on GLP main for now.",
+        "The earlier sentence promising no contract-level recovery awaits Udi’s confirmation or withdrawal.",
+        "SPM’s answer will follow that decision."
+      ]
+    }
+  ],
+  "source_pins": {
+    "audit_pr_50_head": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+    "audit_pr_76_head": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea",
+    "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+    "glp_main": "8fb535ea8e5d337198f0e264d7e6bdb208aaff4b",
+    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4"
+  },
+  "source_inspection": [
+    "The new SPM reply cites no later public source commit.",
+    "At GLP main 8fb535e, the production Secure Friendship contract still contains Checkpoint, State recovery and Restore.",
+    "The earlier platform-only recovery commitment is no longer treated as adopted while it awaits confirmation or withdrawal."
+  ],
+  "executed_checks": [
+    {
+      "check": "python3 bin/status.py on the exact updated draft #76 report fixture",
+      "result": "30 reports, 28 findings, 0 unanswered; generated status table SHA-256 c68af207b39260915e5f704ea3ef67e976df11b2ea548ce3eb408c6e674c989d, byte-identical to the prior draft table"
+    },
+    {
+      "check": "Git object identity for updated Secure Friendship report",
+      "result": "local report blob f2075191985e22e9d8e2570a137ccde4bdd479f3, matching the published draft blob"
+    }
+  ],
+  "not_executed": [
+    "No GLP compiler, checker or runtime ran because the reply reports a project decision and cites no source correction.",
+    "No correction was inferred from the discussion status."
+  ],
+  "findings": {
+    "programs/social/spm/Secure-Friendship.txt.md#3": "answered and open; contract boundary decision pending",
+    "programs/social/spm/Secure-Friendship.txt.md#4": "answered and open; contract boundary and public recovery protocol pending"
+  },
+  "next": [
+    "Udi and SPM should confirm whether fault recovery remains in the Secure Friendship contract.",
+    "SPM should publish its attributed answer after that decision.",
+    "The owning project should publish the corresponding contract or platform correction in public GLP source.",
+    "Reconcile draft #76 with current audit main while preserving the complete dated history."
+  ]
+}

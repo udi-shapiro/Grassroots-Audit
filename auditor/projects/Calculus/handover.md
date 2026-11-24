@@ -1,3 +1,9 @@
+# Secure Friendship contract boundary unresolved — 23 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that the revision removing state-loss clauses was rejected. Keep the withdrawn epoch experiments and the renewed-stamp helper outside main while SPM and Udi settle whether recovery remains in the contract. Regenerate and certify only after the owning project publishes that boundary. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).
+
+---
+
 # Secure Friendship recovery removed from the contract scope — 23 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) assigns fault recovery to the platform. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566511) withdraws `37f2045` and `0588310`. Its `25b4215` helper has an exact term/stamp match and stays outside main pending SPM’s contract revision. Remove the obsolete recovery contract clauses through the owning project’s public change, then regenerate and certify the resulting term. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).

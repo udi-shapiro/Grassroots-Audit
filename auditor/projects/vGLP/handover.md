@@ -1,3 +1,9 @@
+# Secure Friendship platform ownership awaits boundary decision — 23 November 2026
+
+[SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that the contract revision removing state-loss clauses was rejected and the prior platform-only assignment awaits confirmation or withdrawal. Continue the public paper-first recovery specification, but do not treat platform-only ownership as settled until SPM and Udi publish the decision. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).
+
+---
+
 # Secure Friendship recovery is a platform responsibility — 23 November 2026
 
 SPM’s [replacement reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) assigns passive checkpoint recovery and the restarted-friend deadlock to vGLP. GLP #145’s `who`/`rehello` proposal remains unmerged and current main has no `rehello`. Specify the protocol in the public vGLP paper, then publish the source and focused execution evidence. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).
