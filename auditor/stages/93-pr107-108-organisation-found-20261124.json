@@ -1,7 +1,7 @@
 {
   "stage": 93,
   "title": "GO answer preserved and Organisation Found guard partially verified",
-  "recorded_at": "2026-11-24T18:20:56.000Z",
+  "recorded_at": "2026-11-24T18:26:11.919Z",
   "repository": "udi-shapiro/Grassroots-Audit",
   "events": [
     {
@@ -59,6 +59,51 @@
       },
       "processed_at": "2026-11-24T18:20:56.000Z",
       "outcome": "Own verification publication; exact-head review and merge recorded. No automated reply."
+    },
+    {
+      "delivery_id": "9dcefeb2-e833-11f1-9bdd-078c4b5ba7c9",
+      "pull_request_number": 108,
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "head_sha": "22dd1c6f9df1be19c56457ec3dc2e61e768c2e15",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T18:26:11.919Z",
+      "outcome": "Already-recorded own audit publication merge at the same head and zero-discussion version; skipped without a reply or publication loop."
+    },
+    {
+      "delivery_id": "ac354088-e833-11f1-9bbf-b869396398b5",
+      "pull_request_number": 107,
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "udi-shapiro",
+      "comment_id": 7140496087,
+      "head_sha": "cb805780a6434254c54e80be8b7ed1e32f09459c",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7140496087
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-24T18:20:04Z",
+        "latest_comments": [
+          {
+            "id": 7140496087,
+            "updated_at": "2026-11-24T18:20:04Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-24T18:26:11.919Z",
+      "outcome": "Own already-recorded audit reply at the same head and discussion version; skipped without an automated response loop."
     }
   ],
   "source_pins": {
@@ -193,7 +238,9 @@
         "inline_comments": 0
       }
     },
-    "issue_state": "open"
+    "issue_state": "closed",
+    "merged": true,
+    "merged_at": "2026-11-24T18:19:40Z"
   },
   "next": [
     "Adopt the catalogue guard in programs/go/Organisation.glp and publish regenerated Organisation vGLP and GLP platforms on public GLP.",
