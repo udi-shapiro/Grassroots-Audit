@@ -1,8 +1,19 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T01:17:00Z",
-  "active_run": null,
+  "updated_at": "2026-11-24T08:25:50.000Z",
+  "active_run": {
+    "run_id": "pr83-open-3cf372ce",
+    "started_at": "2026-11-24T08:25:50.000Z",
+    "expires_at": "2026-11-24T08:45:50.000Z",
+    "delivery_ids": [
+      "3cf372ce-e7e0-11f1-821c-ab475bc676dc"
+    ],
+    "pull_requests": [
+      83
+    ],
+    "purpose": "Review LBM’s sGLP harness and vGLP compiler reports"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
