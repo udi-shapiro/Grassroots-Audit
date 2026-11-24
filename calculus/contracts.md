@@ -1,10 +1,46 @@
 # Grassroots contracts and their relations
 
-[24 November paper review](#paper-review-24-november-2026) · [Printable review (PDF)](grassroots_contracts_calculus_review_2026-11-24.pdf)
-
 Date: 2026-11-24
 
-The latest entry reviews the supplied manuscript. The GLP commit below identifies the 23 November catalogue experiment.
+## Catalogue and project responses, 24 November 2026
+
+**All 91 contracts regenerate. Their stated relations do not all survive translation to the terms used for certification.** Rehearsal Rooms and Tennis Courts each unite Booking and Partners. A guardian who can retire a fresh ward under Partners cannot do so under either child. The translated inherited act requires an officer of the ward. All three terms carry positive stored grassroots verdicts. The verdict and the inheritance question concern different properties. [#58](https://github.com/udi-shapiro/Grassroots-Audit/issues/58)
+
+Auditor: ChatGPT (Codex, GPT-6), Grassroots Review
+
+GLP commit: ec66a1595d9325771739142e5437aaada218dffb
+
+I used the updated catalogue on GLP main. The `calculus/`, `cascade/`, and `programs/` trees also match main commit `abd4471c`. I read the eight author responses in [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94) and the earlier project replies on the contracts. The latest manuscript available to this review was the 34-page file with SHA-256 `8a041b471639cee62991cfd581f5fd6e5686e68113911ebd402cadfafa67a717`. Its appendices are still present. The newer paper identified by the authors, `6dfa1ed9`, was unavailable. The earlier [manuscript review](#paper-review-24-november-2026) and its page references apply to the 34-page file. [GLP `ec66a159`](https://github.com/EShapiro2/GLP/commit/ec66a1595d9325771739142e5437aaada218dffb)
+
+| Independent check | Result |
+| --- | --- |
+| Catalogue and inheritance graph | 91 contracts, one root (Knowledge), 90 derived contracts, 118 immediate-parent references, maximum depth nine |
+| Source generation | All 91 commute between the two compilation orders and recover the flat text. Recovery of the input pragmas gives 72 identical and 19 schema-equivalent texts. |
+| Rebuilt publication | All 91 match Git byte for byte in each of six forms: own schemas, full schemas, flat text, full Logic pragmas, full readable text and checker input. |
+| Seven-operation derivation report | 91 reported derived, including the root. All 90 children’s proposed declarations match the published first lines. Both detailed output files match the project’s publication. |
+| Normalized relation checks | All 155 rows pass on a fresh build and match all stored relation rows: 102 extends, 32 restricts, 13 strengthens, 5 instantiates and 3 composes. These labels are internal to this checker. |
+| Regression fixtures | 61/61 reproduce their expected outputs, including `deleted-once`. |
+| Stored certification and platforms | All 91 term SHA-256 stamps match the rebuilt terms. All 91 verdicts are positive: 33 plain and 58 with wards. The catalogue reports 62 compiled platforms and 29 parametric contracts. No live GLP checker or platform run was performed here. |
+
+**The counterexample.** Start with a person Alice and fresh ward Wendy. Enter makes Alice Wendy’s guardian. It assigns her no office. In Partners, this supplies the decision role for Retire. In both children, `retire_2` looks up `has_officer(Wendy,Decider)` and `officer(Decider,Wendy)`. An officer of a separately founded club is an officer of that club, which also fails Wendy’s lookup. Make guardian has the same defect. The readable schemas and the derivation report conceal the difference because the inherited acts still name the abstract role `deciders(Wendy)`. [Parent term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Partners/term.glp.txt#L23) · [Rehearsal Rooms term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Rehearsal-Rooms/term.glp.txt#L48) · [Tennis Courts term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Tennis-Courts/term.glp.txt#L48)
+
+**What the other checks establish.** Two independently altered Library expansions still received `derived`: one lost the effect returning a book to its shelf, and the other acquired a purported vote for Lend with an unrelated effect. Deleting an inherited Introduce produced a difference, with exit status zero. On the unaltered catalogue the generated forms match exactly. The two controls show why a positive derivation report alone cannot establish the contents of every child clause or generated vote. [#95](https://github.com/udi-shapiro/Grassroots-Audit/issues/95)
+
+**Other diagnostics.** `supplied.py` and `possibly.py` reported no failures. `redundant.py` reported the same Meet/Acquaint pattern in 13 contracts. `typecheck_places.py` flagged Agora at two argument positions used for an offered item or a wish. The generator also printed 19 kind diagnostics. `grcheck.py` found two clause-level discrepancies: DAO’s “Deliver decision” appears as “Deliver pass” and “Deliver reject”, and Labelled Overlay’s numbered Friend pointers rule appears as an unnumbered condition on friendship in the readable text. Its 62 word-level warnings are prompts for inspection. These counts describe the individual diagnostics. [Human/pragmas comparison](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/tools/grcheck.py#L2) · [Labelled Overlay clauses](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Labelled-Overlay/logic-pragmas.txt#L8) · [Agora’s posting acts](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Agora/full-schemas.txt#L36)
+
+**The website and recorded runs.** All 91 recorded cascade directories agree with the catalogue’s own schemas and relation files. The expanded schemas agree in 40 and differ in 51. For example, the Provenance Groups manifest records an earlier refused platform, while the current catalogue lists a compiled platform. The two records identify different source revisions. The site’s build reads the owner files and stored platforms, so current catalogue certificates alone cannot establish what an app on the site executes. The public site could not be loaded during this review. The CSV identifies the affected contracts individually. [Site build inputs](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/servers/peoplesweb/README.md#L21) · [Provenance Groups run](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/cascade/Provenance-Groups/manifest.md#L3) · [Current catalogue status](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/STATUS.txt#L72)
+
+**Contracts with earlier findings.** The organisation founder now receives membership and role together, Cooperative DAO has withdrawn the steward-only admission claim, and Provenance Groups preserves the sender of an inherited message. The evidence closes [#59](https://github.com/udi-shapiro/Grassroots-Audit/issues/59), [#62](https://github.com/udi-shapiro/Grassroots-Audit/issues/62) and [#79](https://github.com/udi-shapiro/Grassroots-Audit/issues/79). Commercial agreement settlement works in the positive-amount projection tested here. Liquid Cooperative still omits delegated admission ballots, and Nonprofit and Foundation still admit an accepted-coin payment to the payer’s officer. The numbered findings below give the remaining conditions and the underlying clauses.
+
+**Manuscript responses.** The authors report withdrawing five appendix claims or definitions and revising three groups of definitions. The response about commutation explicitly leaves proofs for the §3 operations to future work. The responses concerning local constraints, symmetric updates and well-formed operations give plausible answers to the earlier examples. Independent manuscript verification is pending for Findings 10–17. The distinction matters for any claim that the calculus proves the relation observed in all 91 examples. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
+[PDF report](calculus-verification-2026-11-24.pdf) · [91-contract results (CSV)](catalogue-verification-2026-11-24.csv) · [Executable focused controls](catalogue-controls-2026-11-24.py) · [Original 24 November paper review](grassroots_contracts_calculus_review_2026-11-24.pdf)
+
+To reproduce the catalogue checks and the focused examples from a checkout of the pinned GLP commit, run the audit script with the checkout’s `calculus` directory. All generated outputs go to a temporary directory.
+
+```sh
+python3 catalogue-controls-2026-11-24.py /path/to/GLP/calculus --rebuild
+```
 
 ## Contract generation and inheritance, 23 November 2026
 
@@ -105,6 +141,8 @@ A contract that unites contracts is to have the clauses of each, by plain union 
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Partial correction.** The two children now reproduce their full contracts, pragmas, schemas, and checker terms. Both have a separate Found and Enter, organisation–ward acquaintance, the inherited budget condition on Tell, and the rendezvous-server condition on Present. The remaining failure occurs one stage later. Partners selects a guardian of Wendy for Make guardian and Retire. Both children select an officer of Wendy. Their Enter installs a guardian and gives Wendy no officer. With Alice as sole guardian, the parent permits retirement and the children cannot bind the required Decider. Both stored certificates are positive. Keep the finding open through term generation. [Partners Retire](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Partners/term.glp.txt#L23) · [Rehearsal Rooms Enter and Make guardian](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Rehearsal-Rooms/term.glp.txt#L35) · [Tennis Courts ward Retire](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Tennis-Courts/term.glp.txt#L48)
+
 ## Finding 2. Organisation Enter creates an officer outside the participant set
 
 Severity: high  
@@ -136,6 +174,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 ### Verification
 
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Verified for the reported creation path.** Organisation has one act that creates its identity. Found installs the same Alice as officer, first officer and participant, with the reciprocal records and her role. Appoint requires the incoming officer to be a participant. The separate bare Enter that created an officer outside the participant set is gone in the expanded schema and regenerated term. Close [#59](https://github.com/udi-shapiro/Grassroots-Audit/issues/59). The type accepted for the founding party is tracked separately in [#96](https://github.com/udi-shapiro/Grassroots-Audit/issues/96). [Found term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Organisation/term.glp.txt#L6) · [Appoint schema](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Organisation/full-schemas.txt#L21)
 
 ## Finding 3. Commercial agreement locks omit the deal and settlement amounts
 
@@ -169,6 +209,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 Review evidence is on pages 4 of the PDF. Trace two simultaneous agreements between the same parties through escrow and settlement. Check the asset, debits, amount conservation including fees, independent settlement and release exactly once.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Partial correction.** In Gigs, Community Market, Lodging and Rides the two parties are debited and each lock includes deal, issuer, denomination and amount. In the balance-and-lock projection of the printed rules, two Gigs between the same parties lock 6+2 and 4+1. Arbitration distributes the first 8 as 2, 5 and a fee of 1. Acceptance pays the second 5 to the provider. Both keyed locks are consumed, the other deal survives the first settlement, and balances starting at (30,10,0) end at (22,17,1). The project’s zero-deposit binding and amount-domain questions remain open. The replay covers positive values at schema level. [Engage and Accept work](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Gigs/full-schemas.txt#L215) · [Arbitrate](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Gigs/full-schemas.txt#L188)
+
 ## Finding 4. Single-Person Company can admit a second participant
 
 Severity: medium  
@@ -196,6 +238,8 @@ The correction waits for Udi's answer to GO.
 ### Verification
 
 Review evidence is on pages 5, 10 of the PDF. Show that joining and appointing preserve the sole-officer membership rule, including when the officer consents to the proposed additional member.
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Admission invariant verified in the catalogue.** Found sets the first officer, Join requires the entrant to be that person, and Appoint requires prior participation. Resign removes officer status and may leave membership. The current term is parametric. The reported three-role Found discovery blocker precedes Join in the runtime control. A compatible instantiated contract and recorded permitted/refused admissions are still needed for this ticket. [Join](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Single-Person-Company/full-schemas.txt#L45) · [Checker term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Single-Person-Company/term.glp.txt#L1) · [PR #71](https://github.com/udi-shapiro/Grassroots-Audit/pull/71)
 
 ## Finding 5. Cooperative DAO admission still requires a member vote
 
@@ -229,6 +273,8 @@ Udi decided that no contract sets bylaws and that the founder of an organisation
 
 Review evidence is on pages 3, 10 of the PDF. Specify who authorises an admission, bind Join to that rule and exercise admission by the authorised parties.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Verified by amendment of the approved text.** The founder’s first officer holds the steward role. The clause assigning admissions to the steward has been withdrawn. The inherited Constitution Join uses the member decision, consistently with the amended contract. Close [#62](https://github.com/udi-shapiro/Grassroots-Audit/issues/62) on that basis. [Cooperative DAO](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Cooperative-DAO/contract.txt#L3) · [Inherited admission](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Cooperative-DAO/full-schemas.txt#L45)
+
 ## Finding 6. Liquid Cooperative records delegation without counting delegated votes
 
 Severity: medium  
@@ -261,6 +307,8 @@ Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb08584
 
 Review evidence is on pages 3, 10 of the PDF. Show how a delegated vote changes the decision tally. Exercise a chain, a direct vote before counting and a delegation cycle without an originating vote.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Partial correction.** The generic Count propagates an existing eligible vote along a delegation chain. Its absence test prevents duplicate counting and also blocks a later direct vote. A cycle without a seed produces no votes. The three specialized counts cover expulsion, officer expulsion and amendment. Admission uses a separate ballot predicate, `vote_join_orga`. Only a direct voter produces it. With three participants, one direct yes and a second participant delegating to that voter, Join still counts one and fails the strict-majority test. Eligibility and the other admission conditions can all hold. Give Join a counting rule or delimit the delegation promise and justify its exclusions. [Join and its ballot](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Liquid-Cooperative/full-schemas.txt#L45) · [Four Count acts](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Liquid-Cooperative/full-schemas.txt#L180)
+
 ## Finding 7. Nonprofit omits its officer restriction from accepted-coin payments
 
 Severity: medium  
@@ -289,6 +337,8 @@ Udi approved the revised Nonprofit:1 on 2026-11-23 16:13 UTC (the record, "Secti
 
 Review evidence is on pages 4, 10 of the PDF. Define which transfers count as distributions and check each relevant inherited payment path, including accepted coins, against that definition.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Still reproducible.** Both Nonprofit and Foundation exclude an officer recipient on ordinary Pay and Pay issuer. The three direct accepted-coin paths omit that test. For example, take Alice as payer and issuer, Bob as her officer, an issued denomination, one coin held by Alice, and Bob’s recorded acceptance. With Alice’s consent and acquaintance, Pay own accepted coins transfers her coin to Bob. This is a schema-level example. The delegated forms check who represents Alice, which leaves the recipient question open. [Ordinary payment](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Nonprofit/full-schemas.txt#L67) · [Three accepted-coin forms](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Nonprofit/full-schemas.txt#L161) · [Inherited payment](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Foundation/full-schemas.txt#L164)
+
 ## Finding 8. Section 3 cannot express the Provenance Groups substitution
 
 Severity: medium
@@ -315,6 +365,8 @@ The finding holds. The paper has no substitution; Provenance Groups is to keep t
 
 24 November 2026. Paper verification. Definition 18(4), p. 15, and the discussion following Corollary 30, p. 29, retain the projection in the previous calculus. The project’s planned strengthening keeps the original message. Finding 8 remains open until the revised contract is available for verification. [Project answer in PR #82](https://github.com/udi-shapiro/Grassroots-Audit/pull/82)
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Verified in the current catalogue and checker term.** The inherited Message retains the sender in `message(Bob,Alice,Text)` and adds `item(Bob,Text)`. The extra body conditions make it an augmentation. The separate Agent message is a new act and provides a different case. The projection formerly required for the inherited act has gone. Close [#79](https://github.com/udi-shapiro/Grassroots-Audit/issues/79) for the revised example. [Groups](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Groups/full-schemas.txt#L18) · [Provenance Groups term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Provenance-Groups/term.glp.txt#L6)
+
 ## Finding 9. Agents strengthens the inherited Enter clause
 
 Severity: medium
@@ -340,6 +392,8 @@ The finding holds. The sentence is in Section 3 of the Calculus paper. See: ESha
 23 November 2026. Compared the parent heads with the inherited child clause at the cited GLP commit. To resolve, align the example with the published derivation or exhibit the module and weakening that produce the eleven effects.
 
 24 November 2026. Correction verified in the supplied paper, p. 5, immediately after Definition 10. The replacement explicitly includes augmentation and extension. The earlier pure-weakening claim has been removed. This resolves the published wording in Finding 9. The next catalogue review will examine the concrete derivation. [Project answer in PR #82](https://github.com/udi-shapiro/Grassroots-Audit/pull/82)
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Verified again in the catalogue.** AI Agents declares a union with a renaming and both extension and augmentation. Its inherited Enter keeps the substantive extra attestation. The declaration and the prior paper correction agree on augmentation. [AI Agents declaration](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/AI-Agents/contract.txt#L2) · [AI Agents Enter](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/AI-Agents/full-schemas.txt#L18)
 
 ## Paper review, 24 November 2026
 
@@ -408,6 +462,8 @@ Corrected: 6dfa1ed9. The appendices are deleted; the two results will be proved 
 
 24 November 2026. Checked against the supplied manuscript identified above. State and prove the square for §3 or scope the existing theorem explicitly to Definition 18.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** The response removes the appendices and says two theorems for §3 **will be proved**. The present response supplies neither proof. Check the abstract, theorem statements and cross-references for their new status, then verify a proof against each operation, particularly union. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
 ## Finding 11. The empty initial state violates the stated reflexivity constraint
 
 Severity: high
@@ -435,6 +491,8 @@ Corrected: 6dfa1ed9. An atom p(a) of a reflexive predicate holds at a with no st
 ### Verification
 
 24 November 2026. Checked against the supplied manuscript identified above. Give the stored and interpreted initial states and check the Knowledge and Friendship examples under the same rule.
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** An implicit reflexive self-fact makes an empty stored state consistent. A symmetric head expanded into both directed updates addresses the half-update example, provided both endpoints participate, including for deletion. Verify self-pairs, negation and induced transactions in the manuscript. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
 
 ## Finding 12. Participant-local validation does not preserve arbitrary configuration constraints
 
@@ -464,6 +522,8 @@ Corrected: 6dfa1ed9. Semantic constraints are on local states only; symmetry is 
 
 24 November 2026. Checked against the supplied manuscript identified above. Prove preservation under adding stationary agents or give the alternative global semantics.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** If admissibility is a conjunction of local-state conditions, checking the changed states suffices from a legal configuration: the other states are unchanged. The original global token bound no longer belongs to that language. Check that the definitions and any closure claim use exactly that scope. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
 ## Finding 13. The formal grammar and the proofs use different state and term languages
 
 Severity: high
@@ -491,6 +551,8 @@ Corrected: 6dfa1ed9. The grammar of Appendix A and the multiset results of Appen
 ### Verification
 
 24 November 2026. Checked against the supplied manuscript identified above. Type the payment example and establish the scope or translation of the multiset results.
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** The response removes the appendix grammar and multiset results and makes §2’s typed terms and sets authoritative. Check all references and the bridge to executable examples. Notes uses multiplicities at the checker boundary. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
 
 ## Finding 14. Guard weakening can produce an ill-formed clause
 
@@ -520,6 +582,8 @@ Corrected: 6dfa1ed9. Weakening and strengthening are by a well-typed literal; a 
 
 24 November 2026. Checked against the supplied manuscript identified above. Specify the side conditions on guards, literals, and lifted predicate declarations.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** The proposed conditions address dangling guards, the type of an added argument, and lifting a symmetric predicate. Check the definitions for well-typed additions, name occurrence and freshness in every case where the operations are applied. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
 ## Finding 15. Removing redundant implications can delete an inherited clause during extension
 
 Severity: medium
@@ -547,6 +611,8 @@ Corrected: 6dfa1ed9. Definitions 18 and 22 are deleted with the appendices. The 
 ### Verification
 
 24 November 2026. Checked against the supplied manuscript identified above. Specify at which stage extension preserves literal clause inclusion.
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** The definitions supporting the disputed normalization claim are reported deleted. Verify that no surviving result uses literal inclusion after pruning. If normalization is part of an implementation, specify which representation is compared. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
 
 ## Finding 16. The relaxation proof omits the identification of two agent names
 
@@ -576,6 +642,8 @@ Corrected: 6dfa1ed9. Definition 18(6) is deleted with the appendices. The paper 
 
 24 November 2026. Checked against the supplied manuscript identified above. Give the substitution on the entire implication and prove the relaxation case for it.
 
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** The relaxation operation and proof in the appendix are reported deleted. Verify the withdrawal throughout the paper. Any replacement theorem covering identifications needs an explicit rule for the two roles becoming one. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
 ## Finding 17. The proof of Proposition 28 reverses guard inclusion in case (b)
 
 Severity: low
@@ -603,3 +671,71 @@ Corrected: 6dfa1ed9. Proposition 28 is deleted with the appendices. The paper is
 ### Verification
 
 24 November 2026. Checked against the supplied manuscript identified above. Correct the inclusion in the proof of case (b) and distinguish it from (d).
+
+**Auditor, 24 November 2026, catalogue and response verification.** **Response assessed; revised manuscript pending.** Proposition 28 is reported deleted. Verify deletion of its claim and dependent references. A future simulation proof using ordered guards must establish the direction of inclusion under its stated hypotheses. [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94)
+
+## Finding 18. The derivation checker accepts changes absent from the source clauses
+
+Severity: medium
+
+Project: Calculus
+
+Ticket: [#95](https://github.com/udi-shapiro/Grassroots-Audit/issues/95)
+
+At GLP `ec66a159`, I copied only Knowledge and Library into a temporary directory and retained both contracts’ own schemas and relation declarations. Removing the shelf-restoring conclusion from Library’s expanded Return still produced `Library: derived`. Appending a vote called “Vote of Alice for Lend” with an unrelated conclusion also produced `derived`. As a positive control for difference detection, deleting inherited Introduce was reported as a difference, with process exit status zero.
+
+The published 91 expansions do reproduce from their inputs. The issue concerns the independent claim made by `derive.py`, particularly the contents of newly added clauses and the conclusions and conditions of generated votes. Compare the expanded clause with its own source or a forward-generated witness, check a generated vote’s contents, and exercise both altered cases in the test suite.
+
+[Checker and its stated coverage](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/tools/derive.py#L1-L29) · [Child-owned acts](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/tools/derive.py#L368-L379) · [Generated votes](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/tools/derive.py#L478-L485) · [Library expansion](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Library/full-schemas.txt#L10-L13)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+Rerun both altered Library cases and check that the baseline still succeeds.
+
+## Finding 19. Found admits a person for a role declared to be an organisation
+
+Severity: high
+
+Project: GO, with Calculus
+
+Ticket: [#96](https://github.com/udi-shapiro/Grassroots-Audit/issues/96)
+
+Organisation’s approved founding clause gives creation to an organisation. Its Logic pragmas declare both Gov and Orga to be organisations. The generated `found` term instead accepts Gov if `person(Gov)` holds, or if Gov is an organisation with a listed officer. The first disjunct is sufficient for an established person with no organisation or officer facts. Alice, Gov and a fresh Orga are distinct in this example and all three consent. The original officer/participant finding in #59 is a separate question and its founding effects are now present.
+
+Please align the declared founder type and this guard. An executable control should distinguish a person acting in their own capacity from an organisation acting through its officer.
+
+[Approved clause](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Organisation/contract.txt#L3-L5) · [Role declarations and founding rule](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Organisation/logic-pragmas.txt#L4-L5) · [Regenerated term](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Organisation/term.glp.txt#L6)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+Compare the revised Found rule on a person and a duly represented organisation.
+
+## Finding 20. The note identifier is absent from the formal state
+
+Severity: medium
+
+Project: GSC, with Calculus and Currencies
+
+Ticket: [#97](https://github.com/udi-shapiro/Grassroots-Audit/issues/97)
+
+The revised definition gives every note a unique identifier and an issuer signature. Issue, Pay and Escrow represent notes by issuer, type and multiplicity. Suppose Alice holds notes i and j of the same type from the same issuer. Paying i to Bob and paying j to Bob give the same pair of balances in the generated term. Individual identity, signature and the choice of which note is in escrow cannot be read back from it.
+
+The count representation may be intentional for fungible rights. Specify the abstraction, its observational boundary, and where a signed individually identified note and its transfer are checked. Alternatively carry the identifier through the acts and verify two same-type notes can be transferred and released independently.
+
+[Contract definition and obligations](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Notes/contract.txt#L3-L8) · [Vocabulary](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Notes/logic-pragmas.txt#L9-L16) · [Checker input](https://github.com/EShapiro2/GLP/blob/ec66a1595d9325771739142e5437aaada218dffb/calculus/contracts/Notes/term.glp.txt#L4-L9)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+Show either an identifier-preserving representation or the stated abstraction and its implementation boundary.

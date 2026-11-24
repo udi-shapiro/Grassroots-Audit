@@ -2,6 +2,8 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
+**91-contract verification, 24 November 2026.** All 91 contracts regenerate and 155 relation checks pass. The generated terms for Rehearsal Rooms and Tennis Courts nevertheless change a guardian’s authority to retire a ward. The report assesses all eight manuscript responses. The paper version cited in the responses is pending independent reading. [Verification report (PDF)](calculus/calculus-verification-2026-11-24.pdf) · [Full evidence](calculus/contracts.md#catalogue-and-project-responses-24-november-2026) · [91-contract ledger](calculus/catalogue-verification-2026-11-24.csv)
+
 **Grassroots Contracts Calculus, 24 November 2026.** Paper review of the revised operations, operational semantics, proofs and 66-contract table. [Paper review (PDF)](calculus/grassroots_contracts_calculus_review_2026-11-24.pdf) · [Findings and evidence](calculus/contracts.md#paper-review-24-november-2026)
 
 **Contract generation and inheritance, 23 November 2026.** All 91 contracts generate, and all 148 declared relation steps pass on a fresh build. Two checked-in expansions are stale. The report also identifies two discrepancies between the paper’s §3 and the published derivations. [Report](calculus/contracts.md#contract-generation-and-inheritance-23-november-2026) · [91-contract results (CSV)](calculus/contract-generation-2026-11-23.csv)
