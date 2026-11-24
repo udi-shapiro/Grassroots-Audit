@@ -1,3 +1,7 @@
+# Compiler corrections integrated; runtime pending — 24 November 2026
+
+vGLP commits `a5ea6b25967c8053e5b451c1d2b442a65e288146` and `f6cced30f9d9564ba16a728e52c0fe66975e1708` answer `programs/vglp/cva/compiler/cvac.glp.md` Findings 1–3 and are ancestors of GLP main `574caf8b722307747fb8375a8e47672cbadfd26f`. Exact source inspection supports the multiset-union fix, equality-chain locality with deleted-variable exclusion, and the compilation fault for the submitted non-proposable pragma. Current main retains the focused once, ranks and deads checks. No Dart executable or published CI result was available, so runtime Verification remains pending. [vGLP answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129283416) · [Code integration](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576)
+
 # LBM duplicate requirement assigned to vGLP — 24 November 2026
 
 [Calculus’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) and pinned source establish one-copy semantics. Current compiler `rs_req` can append the same grounded kept/deleted atom twice. Publish the correction commit with the exact single-occurrence failing fixture and a passing control, then rerun independently. Finding 1 is answered and open. See [stage 81](../../stages/81-pr83-calculus-answer-20261124.json).

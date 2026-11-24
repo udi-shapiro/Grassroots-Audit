@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T10:53:28.199Z",
-  "active_run": {
-    "lease_id": "ababadb2-e7f4-11f1-8855-ada2e76e0188",
-    "delivery_id": "ababadb2-e7f4-11f1-8855-ada2e76e0188",
-    "pull_request_number": 83,
-    "event_type": "issue_comment",
-    "action": "created",
-    "comment_id": 7129283416,
-    "acquired_at": "2026-11-24T10:53:28.199Z",
-    "expires_at": "2026-11-24T11:13:28.199Z"
-  },
+  "updated_at": "2026-11-24T10:56:08.947Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,11 +40,11 @@
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
       "state": "open",
-      "updated_at": "2026-11-24T10:13:34Z",
+      "updated_at": "2026-11-24T10:54:24Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 6,
+        "comments": 9,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
@@ -62,7 +53,10 @@
           7127785077,
           7127882865,
           7128404005,
-          7128486991
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABZ8PPaw",
@@ -86,27 +80,27 @@
         ],
         "latest_comments": [
           {
-            "id": 7127785077,
-            "updated_at": "2026-11-24T09:42:46Z"
-          },
-          {
-            "id": 7127882865,
-            "updated_at": "2026-11-24T09:47:03Z"
-          },
-          {
-            "id": 7128404005,
-            "updated_at": "2026-11-24T10:09:55Z"
-          },
-          {
             "id": 7128486991,
             "updated_at": "2026-11-24T10:13:34Z"
+          },
+          {
+            "id": 7129283416,
+            "updated_at": "2026-11-24T10:49:04Z"
+          },
+          {
+            "id": 7129296965,
+            "updated_at": "2026-11-24T10:49:42Z"
+          },
+          {
+            "id": 7129400576,
+            "updated_at": "2026-11-24T10:54:24Z"
           }
         ],
-        "latest_item_at": "2026-11-24T10:13:34Z"
+        "latest_item_at": "2026-11-24T10:54:24Z"
       },
-      "comment_cursor": 7128486991,
+      "comment_cursor": 7129400576,
       "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "sGLP and Code report integration at GLP main 87eb09a and Code claims 108/0. Exact ancestry and nine critical blob identities independently verify source integration. Runtime execution remains unobserved; both findings stay open pending focused runtime verification."
+      "notes": "Accepted vGLP and Code answers for compiler Findings 1-3. a5ea6b25 and f6cced30 are ancestors of GLP main 574caf8; exact compiler blobs and retained focused tests support all three source corrections. Runtime tests were not executed in the audit environment. PR report revisions, status regeneration and independent runtime verification remain pending."
     },
     {
       "number": 82,
@@ -8774,6 +8768,73 @@
       "processed_at": "2026-11-24T10:14:30Z",
       "outcome": "Verified that GLP main 87eb09a integrates sGLP correction ae2a75ca exactly across nine critical source and test blobs. Recorded Code's 108/0 result as a project claim because no workflow, status, retained output or Dart runtime was available. Both findings remain open pending runtime verification.",
       "audit_reply": 7128486991
+    },
+    {
+      "delivery_id": "ababadb2-e7f4-11f1-8855-ada2e76e0188",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "comment_id": 7129283416,
+      "related_comment_id": 7129296965,
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7128486991,
+            "updated_at": "2026-11-24T10:13:34Z"
+          },
+          {
+            "id": 7129283416,
+            "updated_at": "2026-11-24T10:49:04Z"
+          },
+          {
+            "id": 7129296965,
+            "updated_at": "2026-11-24T10:49:42Z"
+          },
+          {
+            "id": 7129400576,
+            "updated_at": "2026-11-24T10:54:24Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T10:54:24Z"
+      },
+      "processed_at": "2026-11-24T10:56:08.947Z",
+      "outcome": "Accepted vGLP and Code answers for compiler Findings 1-3. Public commits a5ea6b25 and f6cced30 are already integrated in GLP main 574caf8. Exact source blobs and focused test presence support the three corrections; runtime execution remains unobserved and PR report revisions remain pending.",
+      "audit_reply": 7129400576
     }
   ],
   "source_observed_after_event": {
@@ -8785,9 +8846,9 @@
       "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
     },
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access",
-    "glp_main": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
-    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
-    "observed_at": "2026-11-24T10:14:30Z"
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
+    "observed_at": "2026-11-24T10:56:08.947Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -8800,11 +8861,11 @@
   },
   "latest_source_observed": {
     "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
-    "glp_main": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
-    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T10:14:30Z",
+    "observed_at": "2026-11-24T10:56:08.947Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -8827,6 +8888,9 @@
     "secure_friendship_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5",
     "auction_simulation_candidate": "d9190620deb95b0038706ba3e4f60f9a1e68bba6",
     "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3",
-    "sglp_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764"
+    "sglp_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
+    "vglp_audit4_a5": "a5ea6b25967c8053e5b451c1d2b442a65e288146",
+    "vglp_audit4_f6": "f6cced30f9d9564ba16a728e52c0fe66975e1708",
+    "vglp_integration": "574caf8b722307747fb8375a8e47672cbadfd26f"
   }
 }

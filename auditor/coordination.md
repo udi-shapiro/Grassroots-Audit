@@ -1,3 +1,9 @@
+# Stage 84 — vGLP compiler corrections integrated — 24 November 2026
+
+[vGLP’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129283416) supplies public corrections for compiler Findings 1–3. [Code’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965) identifies current GLP main [`574caf8`](https://github.com/EShapiro2/GLP/commit/574caf8b722307747fb8375a8e47672cbadfd26f) as their integration.
+
+The audit verified ancestry, exact compiler blobs and the presence of the focused `CVA once`, `CVA ranks` and `CVA deads` checks. The audit environment has no Dart executable and the commits have no published status or workflow run, so runtime Verification remains pending. PR 83 still needs its report revisions, Answer sections, regenerated status and issue mappings. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576) · [stage record](./stages/84-pr83-vglp-compiler-answers-20261124.json)
+
 # Stage 83 — sGLP harness integrated on GLP main — 24 November 2026
 
 [PR 83's sGLP and Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005) identifies GLP main [`87eb09a`](https://github.com/EShapiro2/GLP/commit/87eb09abc44c32cce842e9692cc6ef5ea6742764) as Code's integration of sGLP [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3) and reports `test_sglp.sh: 108 passed, 0 failed`.

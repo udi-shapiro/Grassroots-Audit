@@ -1,3 +1,7 @@
+# vGLP compiler corrections on main — 24 November 2026
+
+Code identifies GLP main `574caf8b722307747fb8375a8e47672cbadfd26f` as the integration of vGLP `a5ea6b25967c8053e5b451c1d2b442a65e288146` and `f6cced30f9d9564ba16a728e52c0fe66975e1708`. The audit verified ancestry and exact compiler blobs. Current main contains the three focused test groups. Runtime results remain unobserved because no status, workflow output, retained run output or Dart executable was available. Code says regenerated platforms and records will follow in a later commit. [Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576)
+
 # sGLP correction merged; reported run unobserved — 24 November 2026
 
 GLP main `87eb09abc44c32cce842e9692cc6ef5ea6742764` integrates sGLP `ae2a75ca6f18712fa4e16c7cda94732df3488bc3`. Exact ancestry and blob comparison verify source integration for `programs/sglp/cva/harness.glp.in.md` Findings 1 and 2. Code reports `test_sglp.sh: 108 passed, 0 failed`, while no workflow, status, or retained output was available to the audit and no Dart executable was present. Preserve the run as Code's dated claim and keep runtime verification pending. [Project answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128404005) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991)

@@ -1,3 +1,7 @@
+# PR 83 compiler answers — 24 November 2026
+
+vGLP and Code have answered all three compiler findings from LBM's submitted use report. Public corrections are integrated at GLP main `574caf8b722307747fb8375a8e47672cbadfd26f`, and their source mechanisms are independently supported. Runtime checks remain pending. PR 83 still needs the evidence/scope revisions requested by the audit, the dated Answer text, regenerated status and issue mappings. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576)
+
 # PR 83 harness integration update — 24 November 2026
 
 The two sGLP harness corrections reported from LBM's audit submission are now integrated at GLP main `87eb09abc44c32cce842e9692cc6ef5ea6742764`. Source integration is independently verified by merge ancestry and exact blob identity. Code's reported 108/0 run is not independently observed, so Findings 1 and 2 remain open pending focused runtime evidence. The three vGLP compiler findings and PR 83's requested report revisions are unchanged. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991)

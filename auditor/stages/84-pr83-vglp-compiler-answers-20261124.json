@@ -1,0 +1,184 @@
+{
+  "stage": 84,
+  "title": "vGLP compiler answers and integrated source corrections",
+  "recorded_at": "2026-11-24T10:56:08.947Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "ababadb2-e7f4-11f1-8855-ada2e76e0188",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7129283416,
+      "related_comment_id": 7129296965,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7128486991,
+            "updated_at": "2026-11-24T10:13:34Z"
+          },
+          {
+            "id": 7129283416,
+            "updated_at": "2026-11-24T10:49:04Z"
+          },
+          {
+            "id": 7129296965,
+            "updated_at": "2026-11-24T10:49:42Z"
+          },
+          {
+            "id": 7129400576,
+            "updated_at": "2026-11-24T10:54:24Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T10:54:24Z"
+      },
+      "outcome": "Accepted three dated vGLP answers and Code's integrated-main answer. Source corrections and integration are supported; runtime verification and report publication remain pending.",
+      "processed_at": "2026-11-24T10:56:08.947Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7129283416,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129283416",
+      "role": "vGLP answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7129296965,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129296965",
+      "role": "Code integration answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7129400576,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576",
+      "role": "audit source assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "glp_papers": "73ad4626fe3d3e7f238f2b6a9ba619ded490881a",
+    "vglp_findings_2_3": "a5ea6b25967c8053e5b451c1d2b442a65e288146",
+    "vglp_finding_1": "f6cced30f9d9564ba16a728e52c0fe66975e1708",
+    "a5_parent": "a5a59e21c531441b181df31c90727d59c2400aba",
+    "f6_parent": "a5ea6b25967c8053e5b451c1d2b442a65e288146",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/vglp/cva/compiler/cvac.glp.md",
+    "findings": [
+      1,
+      2,
+      3
+    ],
+    "report_blob": "16718cc48772454a931e4cd1dde202027250f2c8"
+  },
+  "project_answers": [
+    {
+      "owner": "vGLP",
+      "attribution": "vGLP (vGLP #32), 2026-11-24, submitted by Audit #4",
+      "comment_id": 7129283416,
+      "claims": {
+        "finding_1": "rs_req uses the union of kept and deleted atoms, with CVA once controls.",
+        "finding_2": "constraint-determined number chains become role-local while deleted-atom variables remain binding inputs, with CVA ranks controls.",
+        "finding_3": "a pragma button for an add/delete-overlap guarded schema is a compilation fault with an explanatory line, with CVA deads control."
+      }
+    },
+    {
+      "owner": "Code",
+      "attribution": "Code (Code #37), 2026-11-24, submitted by Audit #4",
+      "comment_id": 7129296965,
+      "claim": "GLP main 574caf8 integrates vGLP a5ea6b25 and f6cced30. Regenerated platforms and records will follow."
+    }
+  ],
+  "source_inspection": {
+    "ancestry": "a5ea6b25 is the parent of f6cced30, and f6cced30 is an ancestor of GLP main 574caf8.",
+    "finding_1": "Generated rs_req/2 uses ms_join/3 over kept and uncleared-deleted atoms. Current main retains the corrected text.glp blob.",
+    "finding_2": "det_each/5 extends local variables through equality conjuncts; det_pick/3 selects an unnamed numeric unknown when the remaining unknowns are atom-bound; dels_name/3 excludes variables read from deleted atoms. Current main retains the corrected local.glp blob.",
+    "finding_3": "dead_lines/4 rejects a pragma button naming a guarded schema absent from the proposable set and emits the explanatory line. Current main retains the corrected cvac.glp blob.",
+    "exact_blobs": {
+      "programs/vglp/cva/compiler/cvac.glp": {
+        "a5": "d8da41402e0fadf8105a98328767a953e9347ac7",
+        "f6": "d8da41402e0fadf8105a98328767a953e9347ac7",
+        "main": "d8da41402e0fadf8105a98328767a953e9347ac7"
+      },
+      "programs/vglp/cva/compiler/local.glp": {
+        "a5": "0d8ebb6014926adf7653d15f08c866915f5b6dd2",
+        "f6": "0d8ebb6014926adf7653d15f08c866915f5b6dd2",
+        "main": "0d8ebb6014926adf7653d15f08c866915f5b6dd2"
+      },
+      "programs/vglp/cva/compiler/text.glp": {
+        "a5": "3ae730b535220be38100eeac5cabd62779c01a3b",
+        "f6": "f12f8f9420908cf92a2789ff7746275049161dce",
+        "main": "f12f8f9420908cf92a2789ff7746275049161dce"
+      },
+      "test/run_all_tests.sh": {
+        "a5": "c59cd3a8b67d7d8dc1a40edb7bc6e81d17ff6d14",
+        "f6": "308ab8d700b546d8826a34cb9dc82727caa014ca",
+        "main": "66ffe354c2035c90004610a6f55671900273ca98"
+      }
+    },
+    "focused_tests_on_main": {
+      "CVA once": 5,
+      "CVA ranks": 9,
+      "CVA deads": 1
+    },
+    "statuses": "No commit statuses or workflow runs were published for a5ea6b25 or f6cced30."
+  },
+  "executed_checks": [],
+  "not_executed": [
+    "CVA once, CVA ranks, CVA deads, compiler or GLP runtime. The audit environment has no Dart executable."
+  ],
+  "assessment": {
+    "finding_1": "Source correction and integration supported. Runtime Verification pending.",
+    "finding_2": "Source correction and integration supported for the submitted equality-chain case. Runtime Verification pending.",
+    "finding_3": "Source correction and integration supported for the submitted add/delete-overlap pragma. Runtime Verification pending.",
+    "publication": "Preserve both dated answers under the three stable IDs. The PR still needs revised finding scope/evidence, Answer sections, regenerated status and issue mappings."
+  },
+  "next": [
+    "Update PR 83's report with vGLP and Code's dated Answer text and integrated-main links while preserving the original findings.",
+    "Revise the findings with the pinned focused schemas and controls requested in the audit review.",
+    "Regenerate the published status and update issue mappings on the PR branch.",
+    "Observe the focused CVA once, ranks and deads checks on integrated main before adding runtime Verification.",
+    "Inspect Code's promised regenerated platforms and records when the later commit appears."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application compiler code."
+}
