@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-23",
+  "events": [
+    {
+      "delivery_id": "a62083b4-e799-11f1-8fae-678426c75908",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 82,
+      "head_sha": "ed14ef103fcdf79dd71e4ea3d514c72b7d15323d",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T00:00:25Z",
+      "outcome": "Reviewed the current properly attributed answer-only diff and merged its exact head."
+    },
+    {
+      "delivery_id": "aa25fbf6-e799-11f1-9517-c5c3ac82f384",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 82,
+      "head_sha": "ed14ef103fcdf79dd71e4ea3d514c72b7d15323d",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T00:00:25Z",
+      "outcome": "Refetched the synchronized PR. Its head and discussion were the same reviewed version, so no separate publication or comment was needed."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before_merge": "0d2b8e92cdcecad2bf1667ca98b650d49c754654",
+    "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+    "glp_main": "b9078ef4bf98749a1eb1249f074aae02c2935b92",
+    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
+    "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
+    "observed_at": "2026-11-24T00:00:25Z"
+  },
+  "pull_request": {
+    "number": 82,
+    "head": "ed14ef103fcdf79dd71e4ea3d514c72b7d15323d",
+    "merge_sha": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+    "merged_at": "2026-11-24T00:00:15Z",
+    "discussion_version": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "latest_item_at": null
+    },
+    "blobs": [
+      [
+        "ISSUES.md",
+        "9dd2b2b34d7353c9fe86c24bfcc7bb247dbd2634"
+      ],
+      [
+        "calculus/contracts.md",
+        "944e35e2adf4e6aacd64d51567cad232becdf443"
+      ],
+      [
+        "sections/status-table.tex",
+        "f8f5d9c5a14ff7d07c0a8cc1283ee420a04e5879"
+      ]
+    ]
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/82",
+    "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+    "glp": "https://github.com/EShapiro2/GLP/tree/b9078ef4bf98749a1eb1249f074aae02c2935b92/calculus/contracts",
+    "paper": "https://github.com/EShapiro2/GLP/blob/f75d52465c451566e22cf1c0990cabcea5265ca4/papers/GCC.pdf"
+  },
+  "findings": [
+    {
+      "finding": 1,
+      "issue": 58,
+      "attributed_answer": "Plain union is the planned direction; the proposal is to be written.",
+      "public_inspection": "Both stored Booking-instantiation failures remain present in the public main artifacts.",
+      "next": "Verify the revised operation, separate creation and retirement, preservation of parent requirements, and current checker results.",
+      "disposition": "Answered and open."
+    },
+    {
+      "finding": 5,
+      "issue": 62,
+      "attributed_answer": "Calculus reports a decision to remove the steward-authorises-admission wording.",
+      "public_inspection": "Public Cooperative DAO still contains the steward definition and Join still reads a vote condition.",
+      "next": "Check revised definitions and Join against the final authorisation rule and exercise admission.",
+      "disposition": "Answered and open."
+    },
+    {
+      "finding": 7,
+      "issue": 64,
+      "attributed_answer": "Calculus reports approval of a revised Nonprofit clause, pending implementation.",
+      "public_inspection": "Public Nonprofit still carries only the three restrictions in clause 1 and the accepted-coin payment schema still lacks the recipient-officer test.",
+      "next": "Check the revised distinction between distributions and other transfers and all payment paths.",
+      "disposition": "Answered and open."
+    },
+    {
+      "finding": 8,
+      "issue": 79,
+      "attributed_answer": "Calculus agrees to retain message and add item by strengthening.",
+      "public_inspection": "The public Provenance Groups Message still projects down to item.",
+      "next": "Verify that the new derived Message retains the inherited literal and adds item.",
+      "disposition": "Answered and open."
+    },
+    {
+      "finding": 9,
+      "issue": 80,
+      "attributed_answer": "Calculus agrees that the Agents sentence needs revision and says it awaits Udi's approval.",
+      "public_inspection": "The public Agents Enter still has the two additional attestation effects. The public GCC PDF blob matches the previously reviewed public version, whose hash differs from the reviewed draft.",
+      "next": "Verify the revised example in an identifiable public PDF against the published Agents derivation.",
+      "disposition": "Answered and open."
+    }
+  ],
+  "source_blobs": [
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/relations.txt",
+      "sha": "851e1b2253defa6a9d80233e564141fc651e5f51"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/relations.txt",
+      "sha": "7a2f118a0bdfe7b3ca9b82873cadfb75c9b308d1"
+    },
+    {
+      "path": "calculus/contracts/Cooperative-DAO/contract.txt",
+      "sha": "e83104dd91632ee9b277e2058c8c844690474c39"
+    },
+    {
+      "path": "calculus/contracts/Cooperative-DAO/full-schemas.txt",
+      "sha": "0421d981d0c7b5b89c1e0f0f48a8e343c2fb90d2"
+    },
+    {
+      "path": "calculus/contracts/Nonprofit/contract.txt",
+      "sha": "bbbc95691e3e4423626d95d2daea184bbdb0d241"
+    },
+    {
+      "path": "calculus/contracts/Nonprofit/full-schemas.txt",
+      "sha": "af1fc6cea196cb5675eba0cb5ba031ad4e0cf92c"
+    },
+    {
+      "path": "calculus/contracts/Provenance-Groups/full-schemas.txt",
+      "sha": "d310901f57d7ae9e73ca65b149ddabc34fdac924"
+    },
+    {
+      "path": "calculus/contracts/Agents/full-schemas.txt",
+      "sha": "f43c219bef646bbfa54f9baf6eafe90eafc38947"
+    }
+  ],
+  "execution": {
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "29 reports, 25 findings, 0 unanswered",
+      "table_blob": "f8f5d9c5a14ff7d07c0a8cc1283ee420a04e5879"
+    },
+    "other": "No GLP rebuild, suite or proof check was run. This event contains no public correction candidate."
+  },
+  "note": "The ledger records this run’s merge. A later event caused solely by this exact merge has no additional PR work."
+}
