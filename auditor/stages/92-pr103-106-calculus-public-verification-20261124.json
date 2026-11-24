@@ -1,7 +1,7 @@
 {
   "stage": 92,
   "title": "Calculus answers preserved and Findings 18-20 checked against public GLP",
-  "recorded_at": "2026-11-24T14:35:30.000Z",
+  "recorded_at": "2026-11-24T14:37:40.000Z",
   "repository": "udi-shapiro/Grassroots-Audit",
   "events": [
     {
@@ -182,6 +182,23 @@
       },
       "processed_at": "2026-11-24T14:35:30.000Z",
       "outcome": "Own audit publication at the exact head; reviewed, merged as 94f679a5388395c02154886dcb8e3630d6334a7b, and recorded without an automated reply."
+    },
+    {
+      "delivery_id": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 106,
+      "head_sha": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:37:40.000Z",
+      "outcome": "Already-recorded own audit publication merge at the same head and zero-discussion version; skipped without a reply or publication loop."
     }
   ],
   "source_pins": {
@@ -277,7 +294,9 @@
       "95": "open",
       "96": "open",
       "97": "open"
-    }
+    },
+    "close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
+    "closure_outcome": "Already-recorded own audit publication merge at the same head and zero-discussion version; skipped without a reply or publication loop."
   },
   "next": [
     "Recheck Finding 18 when the corrected derivation checker is published in public GLP, using the baseline and both altered controls.",

@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T14:37:00.000Z",
-  "active_run": {
-    "run_id": "github-pr-watch-20261124-pr106-close",
-    "acquired_at": "2026-11-24T14:37:00.000Z",
-    "expires_at": "2026-11-24T14:52:00.000Z",
-    "expected_head_sha": "77bee4c9554b228077a7148aae6ee349d7c37a4d",
-    "events": [
-      {
-        "delivery_id": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
-        "pull_request_number": 106,
-        "event_type": "pull_request",
-        "action": "closed"
-      }
-    ]
-  },
+  "updated_at": "2026-11-24T14:37:40.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -9638,6 +9625,23 @@
       },
       "processed_at": "2026-11-24T14:35:30.000Z",
       "outcome": "Own audit publication at the exact head; reviewed, merged as 94f679a5388395c02154886dcb8e3630d6334a7b, and recorded without an automated reply."
+    },
+    {
+      "delivery_id": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 106,
+      "head_sha": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:37:40.000Z",
+      "outcome": "Already-recorded own audit publication merge at the same head and zero-discussion version; skipped without a reply or publication loop."
     }
   ],
   "source_observed_after_event": {
@@ -9652,8 +9656,9 @@
     "pr105_merge": "dfa244fb61734a9fb771945074e1d1830fef1ecf",
     "pr106_head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
     "pr106_merge": "94f679a5388395c02154886dcb8e3630d6334a7b",
-    "observed_at": "2026-11-24T14:35:30.000Z",
-    "inspection": "Preserved attributed answers, executed public derive.py controls for Finding 18, inspected exact public catalogue blobs for Findings 19-20, regenerated status exactly, and merged the reviewed audit publication."
+    "observed_at": "2026-11-24T14:37:40.000Z",
+    "inspection": "PR106 closure matches the already-recorded exact head, merge SHA and zero-discussion version; no reply or new publication.",
+    "pr106_close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -9663,10 +9668,10 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-24T14:35:30.000Z",
+    "last_reconciled_at": "2026-11-24T14:37:40.000Z",
     "last_stage": 92,
     "processed_through_pr": 106,
-    "notes": "PR102 close and PR94 own summary skipped without reply; PR103-105 answers merged; PR106 public verification merged."
+    "notes": "PR102/94 and PR103-106 event sequence complete through supplied PR106 closure; own publication closure skipped without reply."
   },
   "latest_source_observed": {
     "audit_main": "94f679a5388395c02154886dcb8e3630d6334a7b",
@@ -9674,7 +9679,7 @@
     "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T14:35:30.000Z",
+    "observed_at": "2026-11-24T14:37:40.000Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9742,6 +9747,7 @@
     "organisation_term_public_blob": "d1203a815e4e6b6198c3da0897333b55c88959b0",
     "notes_term_public_blob": "76237320d1d0c7e1a5f120a29fddcb1de7fc3a45",
     "gsc_set_variables": "0daa1b81b653315d7285d48a9a23558b53fb20a6",
-    "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e"
+    "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e",
+    "pr106_close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178"
   }
 }
