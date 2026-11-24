@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) confirms the canonical harness calls agent/5 where the baseline examples export agent/6. The date-enabled GLP #146 candidate reads the machine clock, while the canonical monitor steps simulated time separately. Use a standard-harness arity control and a date-dependent run that crosses simulated midnight with fixed machine time. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # Secure Friendship recovery proposals checked — 23 November 2026
 
 The [stacked proposal](https://github.com/EShapiro2/GLP/pull/145) adds a simulator fault step. Run live state loss in both delivery orders and identity loss without restarting the old process. Include a no-fault control and record final state. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).

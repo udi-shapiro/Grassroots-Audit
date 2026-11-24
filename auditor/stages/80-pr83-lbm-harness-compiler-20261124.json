@@ -1,0 +1,105 @@
+{
+  "stage": 80,
+  "title": "Review of LBM’s canonical harness and compiler reports",
+  "recorded_at": "2026-11-24T08:27:38.000Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "3cf372ce-e7e0-11f1-821c-ab475bc676dc",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "OhadEitan",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_item_at": "2026-11-24T08:27:32Z"
+      },
+      "outcome": "Requested changes at the proposed head. Harness arity and independent clock paths supported by source. Three compiler reports require narrowing or original fixtures. Publication pending.",
+      "processed_at": "2026-11-24T08:27:38.000Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "review_id": 6035907221,
+      "review_node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221",
+      "state": "CHANGES_REQUESTED"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "contributor_baseline": "235bab588e903e4975a6da00ea481862f11c345a",
+    "glp_pr_146_head": "d9190620deb95b0038706ba3e4f60f9a1e68bba6",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "report_blobs": [
+    {
+      "path": "programs/sglp/cva/harness.glp.in.md",
+      "sha": "05f57b2fa41d4b9db4b7629586d4774d2acf4ea8"
+    },
+    {
+      "path": "programs/vglp/cva/compiler/cvac.glp.md",
+      "sha": "d2edea04d9cee693d5dde5ca8c4316212380845e"
+    }
+  ],
+  "project_claims": {
+    "contributor": "Ohad Eitan and LBM Claude",
+    "simulation": "Ten persons, 40 simulated minutes on the scratch harness. REPL checks reported for the duplicate requirement; numeric and Proposal symptoms reported without isolated failing fixtures.",
+    "evidence": "https://github.com/EShapiro2/GLP/pull/146/commits/d9190620deb95b0038706ba3e4f60f9a1e68bba6"
+  },
+  "source_inspection": {
+    "programs/sglp/cva/harness.glp.in.md#1": "Canonical agents/3 calls agent/5. The two pinned platforms export agent/6 and read the environment at startup. Scratch harness supplies environment by key and leaves the canonical harness unchanged.",
+    "programs/sglp/cva/harness.glp.in.md#2": "The canonical monitor's start_clock/step_clock and machine now/1 are separate. The two baseline artifacts have no dated/2. PR 146 emits it and the scratch monitor bridges the two clocks; clock views are supplied in the scratch harness. Scope the finding to date-enabled contracts without a bridge.",
+    "programs/vglp/cva/compiler/cvac.glp.md#1": "text.glp rs_req appends kept and ordinary deleted requirements; cand_ok applies multiset subtraction. The duplicate fails with a single occurrence. On PR 146, rank_behind uses the ordinary deletion without repeating the bid in its kept requirements.",
+    "programs/vglp/cva/compiler/cvac.glp.md#2": "eq_ext can solve for one free variable on either side given a solvable integer equality. Candidate adds Score and Late atoms, so it does not isolate the reported failures. Ask for original schema, request and state plus a control.",
+    "programs/vglp/cva/compiler/cvac.glp.md#3": "cvac.glp uses local.glp proposable; guarded schemas need a canonical binding that determines a transaction. Per-participant delete/add overlap fails deltas_valid. Clarify intended semantics versus a missing diagnostic and attach exact source and output."
+  },
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py on Git-blob-checked status inputs at audit main",
+      "result": "29 reports, 25 findings, 0 unanswered. Byte-identical to published status table, Git blob f8f5d9c5a14ff7d07c0a8cc1283ee420a04e5879."
+    },
+    {
+      "command": "python3 bin/status.py with both exact audit PR 83 report blobs added",
+      "result": "31 reports, 30 findings, 5 unanswered. Candidate table SHA-256 075c2dd4c20df3dcbe24e64c706f47b98f9457ace3b2bab7c97c8e07d72bf979."
+    }
+  ],
+  "not_executed": [
+    "GLP REPL, compiler and runtime. No Dart executable was available in the run PATH. The committed ten-person summary was inspected as contributor evidence."
+  ],
+  "next": [
+    "Preserve all five submitted IDs and attributed text. Re-assess the next report head against the review, including exact failing fixtures for numeric and proposal semantics.",
+    "sGLP to address the canonical harness interface and clock boundary. GRH owns the Auction contract sources. vGLP owns compiler semantics with Calculus input on admissible schemas.",
+    "Use a pinned standard harness arity control and a date-dependent run crossing model midnight with fixed machine time, then confirm exact sGLP clock semantics if needed. Keep this independent of the unmerged scratch workaround.",
+    "Once findings are accepted, publish their issue mappings and regenerate status from current audit main. No report merged from this head."
+  ],
+  "core_queue": "All six original core findings have recorded answers (stage 73). No new core paper verification was required by PR 83; resume the established queue."
+}

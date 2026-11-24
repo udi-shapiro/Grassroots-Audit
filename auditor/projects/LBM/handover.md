@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+[PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83) preserves Ohad Eitan and LBM Claude’s five submitted findings. The [audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) requests scope and evidence changes before publication. The [scratch simulation](https://github.com/EShapiro2/GLP/pull/146/commits/d9190620deb95b0038706ba3e4f60f9a1e68bba6) demonstrates the contributor’s workaround. Supply the original failing schema, request/state and matching controls. GRH owns the Auction source. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # GO and Calculus answers recorded — 20 November 2026
 
 [PR #67](https://github.com/udi-shapiro/Grassroots-Audit/pull/67) merged at `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076`, preserving GO's answers to Findings 2–6 and Calculus's answer to Finding 7. All seven findings in `calculus/contracts.md` have answers and remain open (#58–#64). Pinned public schema records at `be5f2eb1eae41556eade221c9727d3166928f52a` support the acknowledged baseline gaps. No fixes were supplied in #67. The checked status table is 29 reports, 23 findings and zero unanswered. See [stage 19](../../stages/19-pr67-contract-answers-20261120.json).

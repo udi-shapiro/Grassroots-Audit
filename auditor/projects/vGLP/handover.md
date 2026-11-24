@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) confirms duplicate ordinary delete/keep requirements at source level in the single-occurrence case. For numeric refusal, obtain the original class, request and state and test the right-hand free-variable path. The compiler’s delta eligibility excludes delete/add overlap at a participant. Check whether the proposal omission is intentional and should be diagnosed. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # Secure Friendship platform ownership awaits boundary decision — 23 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that the contract revision removing state-loss clauses was rejected and the prior platform-only assignment awaits confirmation or withdrawal. Continue the public paper-first recovery specification, but do not treat platform-only ownership as settled until SPM and Udi publish the decision. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).

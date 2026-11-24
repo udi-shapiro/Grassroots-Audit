@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T08:25:50.000Z",
-  "active_run": {
-    "run_id": "pr83-open-3cf372ce",
-    "started_at": "2026-11-24T08:25:50.000Z",
-    "expires_at": "2026-11-24T08:45:50.000Z",
-    "delivery_ids": [
-      "3cf372ce-e7e0-11f1-821c-ab475bc676dc"
-    ],
-    "pull_requests": [
-      83
-    ],
-    "purpose": "Review LBM’s sGLP harness and vGLP compiler reports"
-  },
+  "updated_at": "2026-11-24T08:27:38.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -47,6 +36,44 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "state": "open",
+      "updated_at": "2026-11-24T08:23:10Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_item_at": "2026-11-24T08:27:32Z"
+      },
+      "comment_cursor": null,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+      "notes": "Source review requests changes; both reports remain on contributor PR. Own review is recorded at this head."
+    },
     {
       "number": 82,
       "head_sha": "ed14ef103fcdf79dd71e4ea3d514c72b7d15323d",
@@ -1031,6 +1058,43 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "3cf372ce-e7e0-11f1-821c-ab475bc676dc",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "OhadEitan",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_item_at": "2026-11-24T08:27:32Z"
+      },
+      "outcome": "Requested changes at the proposed head. Harness arity and independent clock paths supported by source. Three compiler reports require narrowing or original fixtures. Publication pending.",
+      "processed_at": "2026-11-24T08:27:38.000Z"
+    },
     {
       "delivery_id": "793298de-e7a2-11f1-954a-e7ca98b8cfe6",
       "event_type": "pull_request",
@@ -8518,11 +8582,11 @@
   },
   "latest_source_observed": {
     "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
-    "glp_main": "8fb535ea8e5d337198f0e264d7e6bdb208aaff4b",
-    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
+    "glp_main": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T01:17:00Z",
+    "observed_at": "2026-11-24T08:27:38.000Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -8542,6 +8606,7 @@
     "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
     "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
     "spm_pdf_blob": "8a872a7a62e1319e34600e3bd875569f26245fa7",
-    "secure_friendship_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5"
+    "secure_friendship_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5",
+    "auction_simulation_candidate": "d9190620deb95b0038706ba3e4f60f9a1e68bba6"
   }
 }

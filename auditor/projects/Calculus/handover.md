@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) routes the duplicate requirement and overlapping effects to Calculus and vGLP. Determine whether those schema forms are admitted and what the checker promises about them. Require the original term and pinned checker evidence. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # Secure Friendship contract boundary unresolved — 23 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that the revision removing state-loss clauses was rejected. Keep the withdrawn epoch experiments and the renewed-stamp helper outside main while SPM and Udi settle whether recovery remains in the contract. Regenerate and certify only after the owning project publishes that boundary. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).

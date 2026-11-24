@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) records two harness gaps and three compiler observations before publication. The GLP #146 scratch harness supplies per-agent environment and bridges simulated time. Keep its recorded run distinct from a canonical harness run. Dart and GLP runtime checks are pending. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # Secure Friendship adoption remains held — 23 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reopens the contract-versus-platform recovery boundary. Keep GLP #144, GLP #145 and the Calculus experiments out of main. Adopt and regenerate only after SPM publishes the settled boundary and the owning implementation supplies reproducible evidence. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).

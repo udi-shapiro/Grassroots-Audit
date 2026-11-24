@@ -1,3 +1,9 @@
+# LBM auction simulation reports reviewed — 24 November 2026
+
+[PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83) preserves Ohad Eitan and LBM Claude’s five submitted findings. The [audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) requests scope and evidence changes before publication. Main’s status table reproduced exactly. The two draft reports add five unanswered findings if published. The GLP simulation was inspected as contributor evidence. See [stage 80](stages/80-pr83-lbm-harness-compiler-20261124.json).
+
+---
+
 # Secure Friendship boundary decision reopened — 23 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that Udi rejected the revision removing the state-loss clauses and that the earlier promise of no contract-level recovery awaits confirmation or withdrawal. Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) still contains Checkpoint, State recovery and Restore. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea) preserves the dated reversal, and the [audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6032149038) records the blocker. Findings 3 and 4 remain answered and open. See [stage 79](stages/79-pr50-spm-boundary-reversal-20261123.json).
