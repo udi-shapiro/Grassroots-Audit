@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T00:11:49Z",
-  "active_run": {
-    "owner": "gpt-auditor-webhook-9def8094-e79b-11f1-91ce-368fa79c62f2",
-    "delivery_ids": [
-      "9def8094-e79b-11f1-91ce-368fa79c62f2"
-    ],
-    "acquired_at": "2026-11-24T00:11:49Z",
-    "expires_at": "2026-11-24T00:31:49Z",
-    "expected_auditor_head": "14a35be52c98b1811636ae4aac08238df198e220",
-    "pull_requests": [
-      50
-    ]
-  },
+  "updated_at": "2026-11-24T00:19:30Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -139,9 +128,9 @@
     },
     {
       "number": 76,
-      "head_sha": "228d7093a8322ede0a53f5084585e63ed28fa5d8",
+      "head_sha": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66",
       "state": "open",
-      "updated_at": "2026-11-23T20:32:37Z",
+      "updated_at": "2026-11-24T00:17:58Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
@@ -230,18 +219,19 @@
       },
       "comment_cursor": 7076518476,
       "review_cursor": null,
-      "notes": "Own audit evidence preserved at exact head. Recent merge of #81 introduces a main conflict to reconcile for review."
+      "notes": "Own audit publication preserved SPM #3 and public-paper verification. Existing main conflict remains intact for reconciliation.",
+      "previous_head_sha": "228d7093a8322ede0a53f5084585e63ed28fa5d8"
     },
     {
       "number": 50,
       "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
       "state": "open",
-      "updated_at": "2026-11-23T20:27:29Z",
+      "updated_at": "2026-11-24T00:18:25Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 13,
-        "reviews": 4,
+        "comments": 14,
+        "reviews": 5,
         "review_threads": 0,
         "comment_ids": [
           7053164176,
@@ -256,20 +246,18 @@
           7060447760,
           7061251039,
           7061253978,
-          7113089372
+          7113089372,
+          7117804515
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYlFZsg",
           "PRR_kwDOVrts7s8AAAABYlIUBw",
           "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-          "PRR_kwDOVrts7s8AAAABZ1wMEw"
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw"
         ],
-        "latest_item_at": "2026-11-23T20:33:34Z",
+        "latest_item_at": "2026-11-24T00:18:25Z",
         "latest_comments": [
-          {
-            "id": 7060447760,
-            "updated_at": "2026-11-21T09:15:16Z"
-          },
           {
             "id": 7061251039,
             "updated_at": "2026-11-21T10:27:52Z"
@@ -281,12 +269,16 @@
           {
             "id": 7113089372,
             "updated_at": "2026-11-23T20:27:29Z"
+          },
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
           }
         ]
       },
-      "comment_cursor": 7113089372,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABZ1wMEw",
-      "notes": "Contributor recovery follow-up reviewed. Own COMMENT review recorded; previous changes requested still stand."
+      "comment_cursor": 7117804515,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+      "notes": "SPM agrees GLP #144 lacks paper epoch ordering and GLP #145 rehello proves nothing. Public paper semantics verified. Both proposals held; Findings 3 and 4 remain open."
     },
     {
       "number": 30,
@@ -1022,6 +1014,157 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "8082766e-e79c-11f1-8ceb-a82770583ac2",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66",
+      "comment_id": null,
+      "discussion_version": {
+        "comments": 57,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7060589800,
+          7060604691,
+          7060627413,
+          7060680792,
+          7060696441,
+          7061247414,
+          7061250888,
+          7061251241,
+          7061253794,
+          7061318777,
+          7062367227,
+          7062391833,
+          7062410286,
+          7063035393,
+          7063040554,
+          7063273412,
+          7063464212,
+          7063573110,
+          7063615438,
+          7064082013,
+          7064086846,
+          7064111136,
+          7064117063,
+          7066265186,
+          7066494634,
+          7066512171,
+          7066552253,
+          7067314780,
+          7067364782,
+          7067612357,
+          7068625212,
+          7068678235,
+          7068705219,
+          7068999354,
+          7069004310,
+          7069007322,
+          7069059175,
+          7069473531,
+          7069476309,
+          7069570106,
+          7069656729,
+          7069705048,
+          7070182368,
+          7070186436,
+          7070660789,
+          7070662249,
+          7070746953,
+          7070804026,
+          7070879744,
+          7075299198,
+          7075300665,
+          7075632249,
+          7075917325,
+          7076061323,
+          7076071704,
+          7076285150,
+          7076518476
+        ],
+        "review_ids": [],
+        "latest_item_at": "2026-11-22T08:26:21Z",
+        "latest_comments": [
+          {
+            "id": 7076061323,
+            "updated_at": "2026-11-22T07:41:15Z"
+          },
+          {
+            "id": 7076071704,
+            "updated_at": "2026-11-22T07:42:26Z"
+          },
+          {
+            "id": 7076285150,
+            "updated_at": "2026-11-22T08:03:45Z"
+          },
+          {
+            "id": 7076518476,
+            "updated_at": "2026-11-22T08:26:21Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-24T00:19:30Z",
+      "outcome": "Own exact publication update from this run. Recorded without an additional reply or publication loop."
+    },
+    {
+      "delivery_id": "9def8094-e79b-11f1-91ce-368fa79c62f2",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "comment_id": 7117804515,
+      "discussion_version": {
+        "comments": 14,
+        "reviews": 5,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw"
+        ],
+        "latest_item_at": "2026-11-24T00:18:25Z",
+        "latest_comments": [
+          {
+            "id": 7061251039,
+            "updated_at": "2026-11-21T10:27:52Z"
+          },
+          {
+            "id": 7061253978,
+            "updated_at": "2026-11-21T10:28:07Z"
+          },
+          {
+            "id": 7113089372,
+            "updated_at": "2026-11-23T20:27:29Z"
+          },
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          }
+        ]
+      },
+      "processed_at": "2026-11-24T00:19:30Z",
+      "outcome": "Preserved SPM's concessions under Findings 3 and 4, verified the cited semantics in the public SPM PDF, published the audit update in draft #76, and posted COMMENT review 6031662683. Both findings remain open."
+    },
     {
       "delivery_id": "aa25fbf6-e799-11f1-9517-c5c3ac82f384",
       "event_type": "pull_request",
@@ -7952,11 +8095,11 @@
   },
   "latest_source_observed": {
     "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
-    "glp_main": "b9078ef4bf98749a1eb1249f074aae02c2935b92",
+    "glp_main": "29bdf37fbe04be80352b8bb648b23be6fe9be282",
     "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T00:00:25Z",
+    "observed_at": "2026-11-24T00:19:30Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -7974,6 +8117,7 @@
     "iglp_public_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
     "secure_friendship_recovery_contract": "a2785f50826f47965708460e6a068ed97fd4db2e",
     "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
-    "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5"
+    "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
+    "spm_pdf_blob": "8a872a7a62e1319e34600e3bd875569f26245fa7"
   }
 }

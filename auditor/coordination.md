@@ -1,3 +1,9 @@
+# SPM paper semantics confirm two held proposals — 23 November 2026
+
+[SPM’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #144 lacks the paper’s epoch ordering and that GLP #145’s `rehello` proof field proves nothing. The public [SPM paper](https://github.com/EShapiro2/GLP/blob/f75d52465c451566e22cf1c0990cabcea5265ca4/papers/SPM.pdf) confirms strictly newer epoch integration and passive checkpoint recovery. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/7d46d1930ac53b4ddefc46fddca3ce5e1721dc66) preserves the answer and audit verification. Findings 3 and 4 stay open. See [stage 77](stages/77-pr50-spm-paper-semantics-20261123.json).
+
+---
+
 # Calculus answers merged — 23 November 2026
 
 [PR #82](https://github.com/udi-shapiro/Grassroots-Audit/pull/82) preserves the dated answers to Findings 1, 5, 7, 8 and 9 on [main](https://github.com/udi-shapiro/Grassroots-Audit/commit/9ae009fd6b73c1d41672cc2af8a5dafee3012b81). The regenerated table reports 29 reports, 25 findings and zero unanswered. All five remain open pending public corrections and verification. See [stage 76](stages/76-pr82-calculus-answers-20261123.json).

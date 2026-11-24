@@ -1,3 +1,9 @@
+# Secure Friendship epoch pragmas pending — 23 November 2026
+
+[SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #144 omits the epoch ordering in the public paper and assigns the Checkpoint Logic-pragmas correction to Calculus. The proposal remains unmerged. Write the strictly-newer comparison into the public contract, renew the verdict stamp, and expose reproducible checks. See [stage 77](../../stages/77-pr50-spm-paper-semantics-20261123.json).
+
+---
+
 # Calculus answers merged — 23 November 2026
 
 [PR #82](https://github.com/udi-shapiro/Grassroots-Audit/pull/82) preserves the dated answers to Findings 1, 5, 7, 8 and 9 on [main](https://github.com/udi-shapiro/Grassroots-Audit/commit/9ae009fd6b73c1d41672cc2af8a5dafee3012b81). The regenerated table reports 29 reports, 25 findings and zero unanswered. All five remain open pending public corrections and verification. The Agents paper example in [#80](https://github.com/udi-shapiro/Grassroots-Audit/issues/80) awaits Udi's approval according to the project. Check the other four obligations when the public source lands. See [stage 76](../../stages/76-pr82-calculus-answers-20261123.json).

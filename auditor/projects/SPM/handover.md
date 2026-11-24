@@ -1,3 +1,9 @@
+# SPM paper semantics confirm two held proposals — 23 November 2026
+
+[SPM’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #144 lacks the paper’s epoch ordering and that GLP #145’s `rehello` proof field proves nothing. The public [SPM paper](https://github.com/EShapiro2/GLP/blob/f75d52465c451566e22cf1c0990cabcea5265ca4/papers/SPM.pdf) confirms strictly newer epoch integration and passive checkpoint recovery. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/7d46d1930ac53b4ddefc46fddca3ce5e1721dc66) preserves the answer and audit verification. Findings 3 and 4 stay open. See [stage 77](../../stages/77-pr50-spm-paper-semantics-20261123.json).
+
+---
+
 # Secure Friendship draft has a main conflict — 23 November 2026
 
 [PR #81](https://github.com/udi-shapiro/Grassroots-Audit/pull/81) merged after the Secure Friendship draft update. Reconcile [draft #76](https://github.com/udi-shapiro/Grassroots-Audit/pull/76/commits/228d7093a8322ede0a53f5084585e63ed28fa5d8) with the new issue index and status entries before review. Preserve the dated recovery findings and the Calculus additions. See [stage 75](../../stages/75-pr81-merged-contract-generation-audit-20261123.json).

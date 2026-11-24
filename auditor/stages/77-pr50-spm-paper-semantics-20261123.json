@@ -1,0 +1,92 @@
+{
+  "stage": 77,
+  "title": "SPM paper semantics and held recovery proposals",
+  "recorded_at": "2026-11-24T00:19:30Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "event": {
+    "delivery_id": "9def8094-e79b-11f1-91ce-368fa79c62f2",
+    "event_type": "issue_comment",
+    "action": "created",
+    "pull_request_number": 50,
+    "comment_id": 7117804515,
+    "actor_login": "EShapiro2",
+    "pr_head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287"
+  },
+  "related_own_event": {
+    "delivery_id": "8082766e-e79c-11f1-8ceb-a82770583ac2",
+    "event_type": "pull_request",
+    "action": "synchronize",
+    "pull_request_number": 76,
+    "head_sha": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66",
+    "disposition": "Own exact publication update from this run; recorded without an additional reply."
+  },
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "publication": {
+    "pull_request": 76,
+    "previous_head": "228d7093a8322ede0a53f5084585e63ed28fa5d8",
+    "head": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66",
+    "path": "programs/social/spm/Secure-Friendship.txt.md",
+    "blob": "6bbf064dfb6d340aa02243297748dc8e7e559bef",
+    "state": "open draft",
+    "mergeable": false,
+    "note": "The existing main conflict is preserved for review."
+  },
+  "audit_discussion": {
+    "pull_request": 50,
+    "review_id": 6031662683,
+    "review_node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6031662683",
+    "review_state": "COMMENTED"
+  },
+  "project_response": {
+    "project": "SPM",
+    "date": "2026-11-24",
+    "submitted_by": "Audit #4",
+    "claims": [
+      "GLP #144 lacks the paper's epoch ordering, is held, and awaits a Calculus correction.",
+      "GLP #145's rehello proof field proves nothing, is held, and awaits a vGLP paper-first correction."
+    ]
+  },
+  "source_pins": {
+    "glp_main": "29bdf37fbe04be80352b8bb648b23be6fe9be282",
+    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
+    "spm_pdf_blob": "8a872a7a62e1319e34600e3bd875569f26245fa7",
+    "spm_pdf_sha256": "24d2b597eaa048811294cfc8b658c6cad83c90d56563c46342a885e23c42b6ea",
+    "glp_144_head": "a2785f50826f47965708460e6a068ed97fd4db2e",
+    "glp_145_head": "86307870c6e9be42182004c94d0e7e06b0db6b7d"
+  },
+  "source_inspection": [
+    "SPM PDF Definition 24 carries (friend, epoch) pairs and updates direct and observed epochs only when the carried epoch is greater.",
+    "SPM PDF Sections D.14-D.15 specify passive state recovery through periodic checkpoint absorption with no dedicated recovery cargo or platform transaction.",
+    "GLP #144 and #145 were open and unmerged at their pinned heads.",
+    "Current GLP Secure-Friendship.txt contains no epoch field in its Logic pragmas.",
+    "Current GLP default-branch code search returned no rehello."
+  ],
+  "executed_checks": [
+    {
+      "command": "pdftotext -layout evidence/SPM.pdf evidence/SPM.txt",
+      "result": "success"
+    },
+    {
+      "command": "rg on the extracted SPM text for Periodic Re-broadcast, Integrate checkpoint, epoch, Restore Protocol, rehello, re-greet and who",
+      "result": "located the paper's epoch and passive-recovery definitions; no specified who/rehello protocol"
+    },
+    {
+      "command": "python3 bin/status.py on the exact draft #76 report fixture",
+      "result": "30 reports, 28 findings, 0 unanswered; generated table SHA-256 c68af207b39260915e5f704ea3ef67e976df11b2ea548ce3eb408c6e674c989d and byte-identical to the prior draft table"
+    }
+  ],
+  "not_executed": [
+    "No GLP compiler, checker or runtime ran in this follow-up.",
+    "The contributor's reported runtime plays were not rerun."
+  ],
+  "findings": {
+    "programs/social/spm/Secure-Friendship.txt.md#3": "open; paper semantics verified, public Logic-pragmas correction pending",
+    "programs/social/spm/Secure-Friendship.txt.md#4": "open; paper semantics verified, restarted-friend protocol and independent execution pending"
+  },
+  "next": [
+    "Calculus should publish epoch-ordered Checkpoint Logic pragmas with a renewed verdict stamp.",
+    "vGLP should publish the restarted-friend protocol in its paper before code adoption.",
+    "Reconcile draft #76 with current main without discarding dated findings or answers."
+  ]
+}
