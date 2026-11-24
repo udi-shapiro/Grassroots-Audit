@@ -1,3 +1,7 @@
+# Stage 96 — Calculus #11 on Villagers Findings 1–4 — 24 November 2026
+
+Public candidate `5e6186d` passes `py_compile`, the focused `unionand` case and the exact `Jobs and Lost and Found` name probe. Disputes records Ruling in the contract, schema and term. GLP main remains `17f0c0d3`. Integrate the parser and ruling changes, supply the paper's union rule, and rerun the full Villagers declarations. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)
+
 # Villagers publication and replay — 24 November 2026
 
 [PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) replays seven Villagers unions at public GLP `17f0c0d3`. Follow #115 on union semantics, #116 on the Lost and Found parent split, and #117 on aggregate Retire translation. The standalone GSC answer is in [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121). [Stage record](../../stages/95-pr120-121-villagers-20261124.json)

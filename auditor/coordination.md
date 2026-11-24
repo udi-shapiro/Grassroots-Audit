@@ -1,3 +1,7 @@
+# Stage 96 — Calculus answers Villagers Findings 1–4 — 24 November 2026
+
+[Calculus #11](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664) answers Villagers Findings 1–4. The focused union-name regression and exact name probe pass at public candidate `5e6186d`. Source inspection confirms the asymmetric Secure Friendship composition and the new Disputes ruling field. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) preserves the answers and checks. It remains open pending independent review. Finding 5 still awaits Villagers. [Stage record](./stages/96-pr120-122-villagers-calculus-20261124.json)
+
 # Stage 95 — Villagers replay and Guardians answer — 24 November 2026
 
 [PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) published five Villagers findings. The independent replay at public GLP `17f0c0d3` reproduced 114 selected baseline schemas, one exact derived declaration, two schema round-trip failures and two term-translation refusals. [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121) preserves GSC’s Finding 3 answer. All five remain open. The status table has 32 reports, 50 findings and eight unanswered. [Stage record](./stages/95-pr120-121-villagers-20261124.json)

@@ -1,3 +1,7 @@
+# Stage 96 — Guardians attribution retained — 24 November 2026
+
+GSC #21 remains the standalone Guardians answer. Calculus #11 agrees that Guardians is not the aggregate fault and identifies the asymmetric Secure Friendship Restore composition. The audit confirmed the relevant public schemas. Both aggregate translations remain open. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)
+
 # Villagers publication and replay — 24 November 2026
 
 [GSC #21’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869) is preserved in [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121). The audit confirmed the standalone Guardians roles by source inspection. Both aggregate translations still refuse Retire in the replay. Calculus’s response is pending. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)

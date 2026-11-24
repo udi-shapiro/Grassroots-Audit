@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T23:23:33.001Z",
-  "active_run": {
-    "run_id": "pr-watch-f02443b4-e85d-11f1-83cb-0f7aeba52372",
-    "acquired_at": "2026-11-24T23:23:33.001Z",
-    "expires_at": "2026-11-24T23:38:33.001Z",
-    "delivery_ids": [
-      "f02443b4-e85d-11f1-83cb-0f7aeba52372"
-    ],
-    "pull_requests": [
-      120
-    ],
-    "event": "issue_comment.created",
-    "actor_login": "EShapiro2",
-    "comment_id": 7147328664
-  },
+  "updated_at": "2026-11-24T23:34:23.814Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,23 +32,25 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 121,
-  "publication_merge_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
-  "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "publication_pr": 122,
+  "publication_merge_sha": null,
+  "source_verified": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
   "processed_prs": [
     {
       "number": 120,
       "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
       "merge_commit_sha": "dc835f34f3a26c18b1d4cf0adf7da98f394b6225",
       "state": "closed",
-      "updated_at": "2026-11-24T23:12:14Z",
+      "updated_at": "2026-11-24T23:32:22Z",
       "merged_at": "2026-11-24T23:09:27Z",
       "discussion_version": {
-        "comments": 1,
+        "comments": 3,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
-          7147132869
+          7147132869,
+          7147328664,
+          7147514176
         ],
         "review_ids": [],
         "review_versions": [],
@@ -69,13 +58,21 @@
           {
             "id": 7147132869,
             "updated_at": "2026-11-24T23:12:14Z"
+          },
+          {
+            "id": 7147328664,
+            "updated_at": "2026-11-24T23:22:37Z"
+          },
+          {
+            "id": 7147514176,
+            "updated_at": "2026-11-24T23:32:22Z"
           }
         ],
-        "latest_item_at": "2026-11-24T23:12:14Z"
+        "latest_item_at": "2026-11-24T23:32:22Z"
       },
-      "comment_cursor": 7147132869,
+      "comment_cursor": 7147514176,
       "review_cursor": "none",
-      "notes": "Villagers publication replayed. GSC reply 7147132869 preserved in PR #121."
+      "notes": "Calculus #11 reply 7147328664 processed. Audit assessment 7147514176 links open publication PR #122. Findings 1–4 answered and open; Finding 5 remains unanswered."
     },
     {
       "number": 121,
@@ -1390,18 +1387,57 @@
       "comment_cursor": null,
       "review_cursor": null,
       "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 122,
+      "head_sha": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+      "base_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "state": "open",
+      "updated_at": "2026-11-24T23:31:24Z",
+      "merged_at": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own clean audit publication. Exact four-file diff checked. Merge blocked pending independent review; no merge claimed."
     }
   ],
   "source_observed_after_tests": {
-    "commit": "3f80bdeec52c0658235d97117ef3d94d6a5a8962",
-    "changes": [
-      "programs/apps/gb/screens/README.md",
-      "programs/apps/gb/screens/gb-a-alice-mint-bond.png",
-      "programs/apps/gb/screens/gb-b-bob-asked-loan.png",
-      "programs/apps/gb/screens/gb-c-alice-redeem.png",
-      "programs/apps/gb/screens/gb-d-carol-asked-deposit.png"
+    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
+    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
+    "candidate_branch": "claude/project-thread-23okte",
+    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+    "observed_at": "2026-11-24T23:34:23.814Z",
+    "executed": [
+      {
+        "command": "python3 -m py_compile tools/*.py",
+        "result": "exit 0"
+      },
+      {
+        "command": "python3 tools/tests.py",
+        "result": "exit 0; unionand same; 1 cases, 0 that differ"
+      },
+      {
+        "command": "names.split_list('Jobs and Lost and Found')",
+        "result": "['Jobs', 'Lost and Found']"
+      },
+      {
+        "command": "python3 bin/status.py",
+        "result": "32 reports, 50 findings, 5 unanswered"
+      }
     ],
-    "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
+    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term."
   },
   "processed_events": [
     {
@@ -10658,22 +10694,94 @@
       },
       "processed_at": "2026-11-24T23:18:26.386Z",
       "outcome": "Own exact-head audit publication; merged and checked without a follow-up reply."
+    },
+    {
+      "delivery_id": "f02443b4-e85d-11f1-83cb-0f7aeba52372",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 120,
+      "actor_login": "EShapiro2",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "comment_id": 7147328664,
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869,
+          7147328664,
+          7147514176
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          },
+          {
+            "id": 7147328664,
+            "updated_at": "2026-11-24T23:22:37Z"
+          },
+          {
+            "id": 7147514176,
+            "updated_at": "2026-11-24T23:32:22Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:32:22Z"
+      },
+      "processed_at": "2026-11-24T23:34:23.814Z",
+      "outcome": "Preserved Calculus #11 answers to Villagers Findings 1–4 in PR #122. Independently ran the focused union-name regression and inspected the Secure Friendship and Disputes candidates. All four findings remain open."
+    },
+    {
+      "delivery_id": "2a6b1506-e85f-11f1-804e-6ce3840a275e",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 122,
+      "actor_login": "udi-shapiro",
+      "head_sha": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T23:34:23.814Z",
+      "outcome": "Own publication created during this run. Exact diff clean; left open because no independent review is recorded."
     }
   ],
   "source_observed_after_event": {
-    "audit_main_before": "94f679a5388395c02154886dcb8e3630d6334a7b",
-    "audit_main": "9c30c04118830849accadc200d52a0a41dc2f603",
-    "glp_main": "bb99275f53ac546975098669fdafc9a1906520ad",
-    "glp_papers": "1947e12613a554aa241b96c4d9b8b231fa48a8cb",
-    "glp_candidate": "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
-    "pr107_head": "cb805780a6434254c54e80be8b7ed1e32f09459c",
-    "pr107_merge": "7939da5467b88c05ef72434d84847cdb007ba778",
-    "pr108_head": "22dd1c6f9df1be19c56457ec3dc2e61e768c2e15",
-    "pr108_merge": "9c30c04118830849accadc200d52a0a41dc2f603",
-    "calculus_report_blob": "5fb7c520a8eb322a99ea189918d341f5be2bbe55",
-    "status_table_blob": "1874a5573961cfb690f7ff41eea567d20856e106",
-    "observed_at": "2026-11-24T18:20:56.000Z",
-    "inspection": "Organisation catalogue correction present in public candidate only; adopted module and both platforms retain the old person alternative."
+    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
+    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
+    "candidate_branch": "claude/project-thread-23okte",
+    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+    "observed_at": "2026-11-24T23:34:23.814Z",
+    "executed": [
+      {
+        "command": "python3 -m py_compile tools/*.py",
+        "result": "exit 0"
+      },
+      {
+        "command": "python3 tools/tests.py",
+        "result": "exit 0; unionand same; 1 cases, 0 that differ"
+      },
+      {
+        "command": "names.split_list('Jobs and Lost and Found')",
+        "result": "['Jobs', 'Lost and Found']"
+      },
+      {
+        "command": "python3 bin/status.py",
+        "result": "32 reports, 50 findings, 5 unanswered"
+      }
+    ],
+    "inspection": "Calculus #11 public candidate inspected; audit publication PR #122 remains open pending independent review."
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -10683,18 +10791,18 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-24T23:18:26.386Z",
-    "last_stage": 95,
-    "processed_through_pr": 121,
-    "notes": "PR 120 and own PR 121 recorded. Public Calculus replay observed and GSC’s reply preserved."
+    "last_reconciled_at": "2026-11-24T23:34:23.814Z",
+    "last_stage": 96,
+    "processed_through_pr": 122,
+    "notes": "PR 120 comment 7147328664 and own PR 122 open event recorded. Publication remains unmerged pending independent review."
   },
   "latest_source_observed": {
-    "audit_main": "9c30c04118830849accadc200d52a0a41dc2f603",
-    "glp_main": "bb99275f53ac546975098669fdafc9a1906520ad",
-    "glp_papers": "1947e12613a554aa241b96c4d9b8b231fa48a8cb",
+    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T18:20:56.000Z",
+    "observed_at": "2026-11-24T23:34:23.814Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -10765,10 +10873,32 @@
     "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e",
     "pr106_close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
     "audit_main_before": "94f679a5388395c02154886dcb8e3630d6334a7b",
-    "glp_candidate": "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
+    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
     "pr107_head": "cb805780a6434254c54e80be8b7ed1e32f09459c",
     "pr107_merge": "7939da5467b88c05ef72434d84847cdb007ba778",
     "pr108_head": "22dd1c6f9df1be19c56457ec3dc2e61e768c2e15",
-    "pr108_merge": "9c30c04118830849accadc200d52a0a41dc2f603"
+    "pr108_merge": "9c30c04118830849accadc200d52a0a41dc2f603",
+    "candidate_branch": "claude/project-thread-23okte",
+    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+    "executed": [
+      {
+        "command": "python3 -m py_compile tools/*.py",
+        "result": "exit 0"
+      },
+      {
+        "command": "python3 tools/tests.py",
+        "result": "exit 0; unionand same; 1 cases, 0 that differ"
+      },
+      {
+        "command": "names.split_list('Jobs and Lost and Found')",
+        "result": "['Jobs', 'Lost and Found']"
+      },
+      {
+        "command": "python3 bin/status.py",
+        "result": "32 reports, 50 findings, 5 unanswered"
+      }
+    ],
+    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term."
   }
 }

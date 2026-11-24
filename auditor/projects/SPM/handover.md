@@ -1,3 +1,7 @@
+# Stage 96 — Secure Friendship composition blocks Villagers Retire — 24 November 2026
+
+Calculus #11 shows that Secure Friendship Restore can add an outgoing friendship without adding its converse, while Guardians Retire deletes both directions. The audit confirmed byte-identical schemas at GLP main `17f0c0d3` and candidate `5e6186d`. Decide whether Villagers uses Friendship or SPM changes Secure Friendship, then rerun both aggregate translations and retirement. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)
+
 # Villagers publication and replay — 24 November 2026
 
 [Villagers #119](https://github.com/udi-shapiro/Grassroots-Audit/issues/119) concerns the paper’s account of recoverable phone state. Pinned Secure Friendship source covers social and identity records. This is separate from the restart-deadlock work in PR #50. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)

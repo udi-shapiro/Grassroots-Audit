@@ -1,0 +1,140 @@
+{
+  "stage": 96,
+  "title": "Calculus answers Villagers Findings 1–4",
+  "recorded_at": "2026-11-24T23:34:23.814Z",
+  "events": [
+    {
+      "delivery_id": "f02443b4-e85d-11f1-83cb-0f7aeba52372",
+      "type": "issue_comment.created",
+      "pr": 120,
+      "actor": "EShapiro2",
+      "comment_id": 7147328664
+    },
+    {
+      "delivery_id": "2a6b1506-e85f-11f1-804e-6ce3840a275e",
+      "type": "pull_request.opened",
+      "pr": 122,
+      "actor": "udi-shapiro",
+      "classification": "own publication"
+    }
+  ],
+  "prs": [
+    {
+      "number": 120,
+      "state": "closed",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "comments": [
+        7147132869,
+        7147328664,
+        7147514176
+      ],
+      "reviews": []
+    },
+    {
+      "number": 122,
+      "state": "open",
+      "base_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "head_sha": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+      "comments": [],
+      "reviews": [],
+      "mergeable_state": "clean",
+      "merge": "blocked pending independent review"
+    }
+  ],
+  "source_pins": {
+    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
+    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
+    "candidate_branch": "claude/project-thread-23okte",
+    "secure_friendship_schemas_blob": "affbb2ace498b98f33750c573ef7f2630e91dd0a",
+    "disputes_contract_blob": "4394fad9c095cfc68d3ae5c2c9c3c87bd1b9751a",
+    "disputes_schemas_blob": "ed98edc02723e48d5cedf46b34dd3e24ebb30526",
+    "disputes_term_blob": "c94167b90963e16b5fe0ab4878166197744f52c4"
+  },
+  "evidence": {
+    "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664",
+    "audit_assessment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147514176",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/122",
+    "public_candidate": "https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d"
+  },
+  "checks_executed": [
+    {
+      "scope": "candidate Python sources",
+      "command": "python3 -m py_compile tools/*.py",
+      "result": "exit 0"
+    },
+    {
+      "scope": "calculus/tests/unionand",
+      "command": "python3 tools/tests.py",
+      "result": "exit 0; unionand same; 1 cases, 0 that differ"
+    },
+    {
+      "scope": "exact ambiguous name",
+      "command": "names.split_list('Jobs and Lost and Found')",
+      "result": "['Jobs', 'Lost and Found']"
+    },
+    {
+      "scope": "audit publication",
+      "command": "python3 bin/status.py",
+      "result": "32 reports, 50 findings, 5 unanswered"
+    },
+    {
+      "scope": "source inspection",
+      "result": "Candidate Disputes records Ruling in readable contract, schema and term. Secure Friendship restore schemas remain asymmetric and unchanged from GLP main."
+    }
+  ],
+  "not_executed": [
+    "No access to the separate Calculus paper repository or its private commit references.",
+    "No native checker, Dart runtime, compiled Disputes platform or full Villagers seven-declaration replay.",
+    "PR #122 was not merged because no independent review is recorded."
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "issue": 115,
+      "answer": "Calculus #11 See",
+      "status": "answered and open",
+      "next": "Decide and publish the common-base union rule; revise Villagers renamings; exercise booking and expulsion routes."
+    },
+    {
+      "id": 2,
+      "issue": 116,
+      "answer": "Calculus #11 Corrected",
+      "status": "focused candidate parser verified; open",
+      "next": "Integrate to main and rerun the exact Villagers expansions and relation check."
+    },
+    {
+      "id": 3,
+      "issue": 117,
+      "answer": "GSC #21 and Calculus #11 See",
+      "status": "answered and open",
+      "next": "Revise the union or Secure Friendship, translate both aggregates and run two-incoming-friend retirement."
+    },
+    {
+      "id": 4,
+      "issue": 118,
+      "answer": "Calculus #11 Corrected",
+      "status": "candidate source inspected; open",
+      "next": "Integrate to main and execute two distinguishable rulings with both-party observation."
+    },
+    {
+      "id": 5,
+      "issue": 119,
+      "answer": null,
+      "status": "unanswered and open",
+      "next": "Obtain Villagers answer on recovery scope."
+    }
+  ],
+  "publication": {
+    "pr": 122,
+    "head_sha": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+    "state": "open",
+    "status_table": "32 reports, 50 findings, 5 unanswered",
+    "blocker": "Independent review required before merge."
+  },
+  "core": {
+    "initial_six_answered": true,
+    "next": "Continue the recorded core verification queue after application work."
+  }
+}

@@ -1,3 +1,7 @@
+# Stage 96 — Villagers Calculus answers published for review — 24 November 2026
+
+[PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) preserves Calculus #11 and the focused public checks. The exact four-file diff is clean and the status table reads 32 reports, 50 findings and five unanswered. Merge awaits independent review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)
+
 # Villagers publication and replay — 24 November 2026
 
 [PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) published five Villagers findings. The independent replay at public GLP `17f0c0d3` reproduced 114 selected baseline schemas, one exact derived declaration, two schema round-trip failures and two term-translation refusals. [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121) preserves GSC’s Finding 3 answer. All five remain open. The status table has 32 reports, 50 findings and eight unanswered. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)
