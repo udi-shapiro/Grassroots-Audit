@@ -1,3 +1,9 @@
+# LBM duplicate requirement assigned to vGLP — 24 November 2026
+
+[Calculus’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) and pinned source establish one-copy semantics. Current compiler `rs_req` can append the same grounded kept/deleted atom twice. Publish the correction commit with the exact single-occurrence failing fixture and a passing control, then rerun independently. Finding 1 is answered and open. See [stage 81](../../stages/81-pr83-calculus-answer-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) confirms duplicate ordinary delete/keep requirements at source level in the single-occurrence case. For numeric refusal, obtain the original class, request and state and test the right-hand free-variable path. The compiler’s delta eligibility excludes delete/add overlap at a participant. Check whether the proposal omission is intentional and should be diagnosed. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).

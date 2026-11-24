@@ -1,3 +1,9 @@
+# LBM duplicate-requirement ownership answered — 24 November 2026
+
+[Calculus’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) is supported by pinned `sas_minus` and `nrs_req`: a condition deleted once is required once. Preserve the answer under compiler Finding 1. Calculus needs no term change for this case. vGLP’s public correction and focused controls remain pending. See [stage 81](../../stages/81-pr83-calculus-answer-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) routes the duplicate requirement and overlapping effects to Calculus and vGLP. Determine whether those schema forms are admitted and what the checker promises about them. Require the original term and pinned checker evidence. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).

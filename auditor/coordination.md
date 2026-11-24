@@ -1,3 +1,9 @@
+# Calculus answer fixes ownership of LBM compiler Finding 1 — 24 November 2026
+
+[Calculus’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) states that a condition also deleted is required once. Pinned `programs/gsc/self.glp` supports that rule through `sas_minus` and `nrs_req`; pinned compiler `rs_req` still appends kept and deleted atoms and can require two copies. The [audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127142911) accepts the Calculus answer and keeps Finding 1 open pending a public vGLP correction and focused failing/passing controls. See [stage 81](stages/81-pr83-calculus-answer-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 [PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83) preserves Ohad Eitan and LBM Claude’s five submitted findings. The [audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) requests scope and evidence changes before publication. Main’s status table reproduced exactly. The two draft reports add five unanswered findings if published. The GLP simulation was inspected as contributor evidence. See [stage 80](stages/80-pr83-lbm-harness-compiler-20261124.json).

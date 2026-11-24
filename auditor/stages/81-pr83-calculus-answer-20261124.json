@@ -1,0 +1,109 @@
+{
+  "stage": 81,
+  "title": "Calculus answer to LBM compiler duplicate requirement",
+  "recorded_at": "2026-11-24T09:15:00.000Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "f9181a12-e7e6-11f1-8bce-24e00c9ac922",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7127067874,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7127067874,
+            "node_id": "IC_kwDOVrts7s8AAAABqM5s4g",
+            "updated_at": "2026-11-24T09:11:02Z"
+          },
+          {
+            "id": 7127142911,
+            "node_id": "IC_kwDOVrts7s8AAAABqM-R_w",
+            "updated_at": "2026-11-24T09:14:26Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T09:14:26Z"
+      },
+      "outcome": "Accepted the dated Calculus answer to compiler Finding 1. Source confirms that the calculus requires one copy while the current compiler can request two. Finding remains open for vGLP correction and focused controls.",
+      "processed_at": "2026-11-24T09:15:00Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7127067874,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874",
+      "role": "project answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7127142911,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127142911",
+      "role": "audit assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+    "glp_pr_146_head": "d9190620deb95b0038706ba3e4f60f9a1e68bba6"
+  },
+  "affected_report": {
+    "path": "programs/vglp/cva/compiler/cvac.glp.md",
+    "finding": 1,
+    "report_blob": "d2edea04d9cee693d5dde5ca8c4316212380845e"
+  },
+  "project_answer": {
+    "owner": "Calculus",
+    "attribution": "Calculus (Calculus #11), 2026-11-24, submitted by Audit #4",
+    "conclusion": "A condition also deleted by an act is required once. The Calculus text and generated term stay; vGLP must count it once.",
+    "correction_claim": "No correction commit supplied. The reply contains the placeholder Corrected: <commit> for vGLP."
+  },
+  "source_inspection": {
+    "calculus": "programs/gsc/self.glp at the pinned main constructs Keep as =(i) less -(i) through sas_minus. nrs_req reconstructs the written requirement from that remainder and the deletion multiset, so one required-and-deleted atom needs one state copy.",
+    "compiler": "programs/vglp/cva/compiler/text.glp at the pinned main constructs rs_req by appending kept atoms and ordinary deleted atoms. If both contain the same grounded atom, downstream multiset subtraction consumes two copies.",
+    "assessment": "Calculus ownership and intended one-copy semantics are independently supported. This answers the finding on the calculus side but does not verify a vGLP correction."
+  },
+  "executed_checks": [],
+  "not_executed": [
+    "GLP checker, compiler and runtime. This run performed pinned source inspection only; no correction commit or focused fixture was supplied."
+  ],
+  "next": [
+    "Preserve the dated Calculus answer under Finding 1 without changing its identifier.",
+    "Obtain the public vGLP correction commit, exact single-occurrence failing schema and state, and a passing control.",
+    "Independently inspect and execute the focused compiler behavior before adding Verification or closing the finding.",
+    "Keep PR 83 publication blocked on the outstanding review requests for all five findings."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application/compiler ownership."
+}

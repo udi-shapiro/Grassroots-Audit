@@ -1,3 +1,9 @@
+# Calculus answered compiler Finding 1 — 24 November 2026
+
+The [answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) assigns the duplicate requirement to vGLP and keeps the Calculus term unchanged. Pinned source supports the one-copy rule. Preserve the dated answer in the report and supply the vGLP correction commit plus exact failing and passing controls. See [stage 81](../../stages/81-pr83-calculus-answer-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 [PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83) preserves Ohad Eitan and LBM Claude’s five submitted findings. The [audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) requests scope and evidence changes before publication. The [scratch simulation](https://github.com/EShapiro2/GLP/pull/146/commits/d9190620deb95b0038706ba3e4f60f9a1e68bba6) demonstrates the contributor’s workaround. Supply the original failing schema, request/state and matching controls. GRH owns the Auction source. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).
