@@ -1,8 +1,26 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T19:16:10.304Z",
-  "active_run": null,
+  "updated_at": "2026-11-24T23:11:48.116Z",
+  "active_run": {
+    "run_id": "github-pr-watch-20261124-pr120-villagers",
+    "acquired_at": "2026-11-24T23:11:48.116Z",
+    "expires_at": "2026-11-24T23:26:48.116Z",
+    "events": [
+      {
+        "delivery_id": "0db36f06-e85c-11f1-9c75-46a9dd5a77e7",
+        "event_type": "pull_request",
+        "action": "opened",
+        "pull_request_number": 120
+      },
+      {
+        "delivery_id": "18f73df2-e85c-11f1-930a-2d61b0791cf0",
+        "event_type": "pull_request",
+        "action": "closed",
+        "pull_request_number": 120
+      }
+    ]
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
