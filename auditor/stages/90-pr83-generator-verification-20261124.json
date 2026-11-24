@@ -1,0 +1,188 @@
+{
+  "stage": 90,
+  "title": "PR 83 generator-side correction independently verified",
+  "recorded_at": "2026-11-24T13:23:38.220Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "7f8cacf8-e809-11f1-818b-d3473f8c5a87",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7132635068,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T13:22:04Z"
+      },
+      "outcome": "Code integration claim supported. Exact public deleted-once fixture independently executed. Generator-side Finding 1 correction verified; platform runtime remains pending.",
+      "processed_at": "2026-11-24T13:23:38.220Z"
+    }
+  ],
+  "audit_main": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7132635068,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132635068",
+      "role": "Code integration and project-run evidence"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7132728634,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634",
+      "role": "independent generator verification"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "glp_papers": "96394513dfebb3be7f3191ac711ba6f2294d604e",
+    "candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
+    "integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
+    "focused_test_commit": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "gcsas_blob": "8fc45d2cfac99f618a3ce9fdf5b39a35130e57fe",
+    "retained_project_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/vglp/cva/compiler/cvac.glp.md",
+    "finding": 1,
+    "pr_head_blob": "d2edea04d9cee693d5dde5ca8c4316212380845e"
+  },
+  "ancestry": {
+    "candidate_to_main": {
+      "status": "ahead",
+      "ahead_by": 23,
+      "behind_by": 0,
+      "merge_base": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a"
+    },
+    "integration_to_main": {
+      "status": "ahead",
+      "ahead_by": 12,
+      "behind_by": 0,
+      "merge_base": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff"
+    }
+  },
+  "source_inspection": {
+    "paths": [
+      "both: merged-schema conditions plus deletions absent from the conditions",
+      "phi: flat-text conditions plus deletions absent from the conditions",
+      "After-sentence construction: parsed conditions plus deletions absent from the conditions"
+    ],
+    "focused_commit_scope": "Adds the R/S fixture, expected output, retained audit-pr83 output, and the After-sentence path filter. No contract term file changes in 9dba1f2.",
+    "ci": "No combined commit statuses or associated workflow runs are published for 9dba1f2."
+  },
+  "project_execution": {
+    "owner": "Calculus / Code",
+    "artifact": "calculus/tests/deleted-once/audit-pr83.txt",
+    "claim": "python3 tools/tests.py, 61 cases, 0 that differ",
+    "assessment": "Pinned, internally consistent project-run output. Kept distinct from the audit execution."
+  },
+  "audit_execution": {
+    "environment": "Python 3 with a minimal calculus tree reconstructed from exact public blobs at 9dba1f2",
+    "command": "python3 tools/tests.py",
+    "scope": "Only tests/deleted-once was present, with gcsas.py, names.py, nameslines.py, tests.py and NAMES.txt from the pinned public commit.",
+    "exit_code": 0,
+    "output": [
+      "deleted-once same",
+      "1 cases, 0 that differ"
+    ],
+    "direct_output": [
+      "R:1 ■ Spend: ~p(Alice) <- p(Alice) guarded by Alice.",
+      "S:1 ■ Drop: ~p(Alice) <- p(Alice) guarded by Alice."
+    ],
+    "input_blobs": {
+      "calculus/tools/gcsas.py": "8fc45d2cfac99f618a3ce9fdf5b39a35130e57fe",
+      "calculus/tools/tests.py": "180eb6becfb335e2b93704bc07d4e088fec09dc3",
+      "calculus/tools/names.py": "4a93213a56374b6869844a6f5f60526f10ee7092",
+      "calculus/tools/nameslines.py": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c",
+      "calculus/NAMES.txt": "8ad00b5e07e9c9d60addee402503cc37e36571d1",
+      "R.txt": "db784e4f74abf9b9866fd2e29e38d63df0f53a4f",
+      "S.txt": "958007221034559dbb7aadf5cdae7fe4887c932c",
+      "expect.txt": "98b6a93a0a8e98e66752456308423271720bf58c"
+    }
+  },
+  "not_executed": [
+    "Dart compiler/runtime",
+    "CVA once on the compiled canonical platform",
+    "the complete 61-case Calculus suite"
+  ],
+  "disposition": {
+    "generator_side": "Independently verified corrected at public GLP main 9dba1f2.",
+    "platform_runtime": "The earlier retained CVA output remains attributed project execution; independent Dart execution is pending.",
+    "report": "PR 83 remains open with changes requested and blank Answer/Verification sections. Preserve dated contributions when revised."
+  },
+  "next": [
+    "Preserve Code's answer and this audit execution under Finding 1.",
+    "Run the focused CVA once compiler/runtime check independently when Dart is available.",
+    "Revise PR 83's broad wording and fill its Answer/Verification sections without erasing the original history.",
+    "Regenerate status and issue mappings before any main publication."
+  ],
+  "core_queue": "All six original core findings have answers. This application generator verification does not change the core-paper queue."
+}

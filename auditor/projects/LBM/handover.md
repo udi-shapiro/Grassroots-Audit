@@ -1,3 +1,7 @@
+# PR 83 generator-side Finding 1 verified — 24 November 2026
+
+The duplicate required condition is corrected on GLP main `9dba1f2`. The audit independently ran the exact public condition-plus-deletion fixture and matched control; both require one `p(Alice)` and the case passes. The broader compiled-platform behavior still awaits independent Dart execution. PR 83 remains changes-requested and must preserve its original finding, dated answers and separate Verification record when revised. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)
+
 # PR 83 corrected ownership and integrated compiler evidence — 24 November 2026
 
 Calculus now owns the generator-side duplicate in compiler Finding 1 and has candidate `4789e80`, which is not yet on GLP main. Code integrated vGLP’s regenerated platforms and the retained 15/0 focused project output on current main `b9d0bb7`. Finding 1 remains open pending Calculus integration and focused observation. Findings 2–3 have integrated source and project-run evidence; independent runtime execution remains pending. PR 83 still needs the requested report revisions, dated Answer/Verification text, status regeneration and issue mappings. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)

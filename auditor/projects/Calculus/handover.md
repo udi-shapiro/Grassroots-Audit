@@ -1,3 +1,7 @@
+# Duplicate-condition generator correction verified — 24 November 2026
+
+Public GLP main `9dba1f2c0b092f7464fe7165e8507b76ae4eb538` contains candidate `4789e80`, Code integration `ccd9e35`, and the final After-sentence path correction. Current `gcsas.py` filters a deletion already present in the condition in all three relevant constructions. The audit independently ran the exact public `deleted-once` fixture: exit 0, one case, zero differences; R and S each emit one `p(Alice)` requirement. Generator-side Finding 1 is verified. Preserve the project’s separate 61/0 artifact as attributed evidence. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)
+
 # Paper Findings 10–17 answered; verification pending — 24 November 2026
 
 [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94) preserves Calculus’s dated `Corrected: 6dfa1ed9` answers under Findings 10–17 and updates issue mappings #84–91. Main merge `b6460b3878ad52bb661530cd41dd3de326fc86b4` leaves every issue open and every Verification request intact. The cited paper and design-decision record are private, so no fix is verified from the commit reference. Verify each claim against a public revised paper when it reaches EShapiro2/GLP or its papers branch. The status table correctly reports these findings as answered and open. [Stage record](../../stages/89-pr94-calculus-answers-20261124.json)

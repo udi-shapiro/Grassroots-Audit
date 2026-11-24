@@ -1,3 +1,7 @@
+# PR 83 Finding 1 generator side verified — 24 November 2026
+
+Calculus’s correction is integrated on GLP main `9dba1f2` and independently passes the focused public R/S fixture. The generated condition-plus-deletion schema requires one copy, as does its deletion-only control. vGLP’s previously integrated `ms_join` protection and retained CVA output remain separate evidence. Independent Dart execution of the compiled platform is still pending. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)
+
 # PR 83 compiler evidence integrated; generator repair pending — 24 November 2026
 
 Current GLP main `b9d0bb7d420db4781c29aacbb118339d5cdca357` contains regenerated platforms `e9ed11f5` and focused evidence `196f0ed4` at exact blob `2bdcf8ba`, recording 15 passes and no failures. This verifies Code integration and retains project-run evidence for Findings 1–3. The audit did not execute Dart. Finding 1 remains open because Calculus candidate `4789e80`, which removes the duplicate at the generator boundary, is not on main. Findings 2–3 retain integrated source and project evidence with independent runtime execution pending. [Integration assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)

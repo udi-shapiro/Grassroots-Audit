@@ -1,3 +1,7 @@
+# Calculus generator integration verified on GLP main — 24 November 2026
+
+GLP main `9dba1f2` contains `4789e80` and `ccd9e35` in its ancestry plus the After-sentence path correction and focused fixture. The audit inspected all three generator paths and independently executed the exact public `deleted-once` case, obtaining exit 0 and zero differences. Commit `9dba1f2` changes only the generator and new fixture files, supporting the no-contract-term-change statement for that step. Dart/CVA runtime verification remains pending. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)
+
 # PR 83 regeneration and evidence integration verified — 24 November 2026
 
 GLP main `b9d0bb7d420db4781c29aacbb118339d5cdca357` contains regenerated-platform commit `e9ed11f5` and retained evidence commit `196f0ed4`; merge `60f3a57a` has the evidence commit as a parent. The evidence blob remains `2bdcf8ba` with 15 focused passes and no failures. The audit did not execute the runtime, and no combined status or workflow run was published. Calculus candidate `4789e80` is still absent from main, so compiler Finding 1 needs generator-side integration and focused observation. [Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131147711) · [assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)

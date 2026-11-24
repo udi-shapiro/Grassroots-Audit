@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T13:19:06.021Z",
-  "active_run": {
-    "lease_id": "7f8cacf8-e809-11f1-818b-d3473f8c5a87",
-    "delivery_id": "7f8cacf8-e809-11f1-818b-d3473f8c5a87",
-    "pull_request_number": 83,
-    "event_type": "issue_comment",
-    "action": "created",
-    "comment_id": 7132635068,
-    "acquired_at": "2026-11-24T13:19:06.021Z",
-    "expires_at": "2026-11-24T13:39:06.021Z"
-  },
+  "updated_at": "2026-11-24T13:23:38.220Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -106,11 +97,11 @@
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
       "state": "open",
-      "updated_at": "2026-11-24T12:18:49Z",
+      "updated_at": "2026-11-24T13:22:05Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 17,
+        "comments": 19,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
@@ -130,7 +121,9 @@
           7131128823,
           7131147711,
           7131207153,
-          7131263070
+          7131263070,
+          7132635068,
+          7132728634
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABZ8PPaw",
@@ -154,10 +147,6 @@
         ],
         "latest_comments": [
           {
-            "id": 7131128823,
-            "updated_at": "2026-11-24T12:13:03Z"
-          },
-          {
             "id": 7131147711,
             "updated_at": "2026-11-24T12:13:52Z"
           },
@@ -168,13 +157,21 @@
           {
             "id": 7131263070,
             "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
           }
         ],
-        "latest_item_at": "2026-11-24T12:18:49Z"
+        "latest_item_at": "2026-11-24T13:22:04Z"
       },
-      "comment_cursor": 7131263070,
+      "comment_cursor": 7132728634,
       "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "Calculus corrected its ownership answer: candidate 4789e80 removes the duplicate condition at both generator paths but is not on GLP main. Code integrated regenerated vGLP platforms and retained focused 15/0 project evidence through 60f3a57 onto GLP main b9d0bb7. Exact ancestry and evidence blob verified. Findings 2-3 have integrated source plus project-run evidence; audit runtime execution remains pending. Finding 1 remains open pending Calculus integration and focused observation."
+      "notes": "Code integrated the Calculus generator fix on GLP main 9dba1f2. Candidate 4789e80 and integration ccd9e35 are ancestors. Current gcsas filters duplicate deleted conditions in the merged, flat-text, and After-sentence paths. The audit reconstructed the exact public deleted-once fixture and ran it: exit 0, one case, zero differences; R and S each require p(Alice) once. Generator-side correction independently verified. Dart compiler/runtime execution remains pending for the broader platform behavior."
     },
     {
       "number": 82,
@@ -1160,6 +1157,86 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "7f8cacf8-e809-11f1-818b-d3473f8c5a87",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "comment_id": 7132635068,
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T13:22:04Z"
+      },
+      "processed_at": "2026-11-24T13:23:38.220Z",
+      "outcome": "Verified Code's generator-side integration on public GLP main 9dba1f2, inspected all three gcsas paths and retained project output, independently executed the exact focused deleted-once fixture, and posted audit comment 7132728634. Generator correction verified; Dart platform runtime remains pending."
+    },
     {
       "delivery_id": "eb08a92a-e802-11f1-843c-05c2f4f01bf4",
       "event_type": "pull_request",
@@ -9313,15 +9390,15 @@
   ],
   "source_observed_after_event": {
     "audit_main": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
-    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
-    "pr94_head": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
-    "pr94_merge": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "calculus_report_blob": "904ff409fa960b31db633fe74e71eb7913c96dbc",
-    "status_table_blob": "890e0564d1b54852972e88e60dc54c8a412eb54b",
-    "issues_blob": "6ef4521a3827a2d466d6426e42b7e0d37f21d5b6",
-    "inspection": "exact PR diff, attribution, answer parser, table delta, issue states, commit status and workflow metadata; no private paper or production-source verification",
-    "observed_at": "2026-11-24T12:33:11.780Z"
+    "glp_main": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "glp_papers": "96394513dfebb3be7f3191ac711ba6f2294d604e",
+    "candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
+    "integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
+    "focused_commit": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "gcsas_blob": "8fc45d2cfac99f618a3ce9fdf5b39a35130e57fe",
+    "retained_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
+    "inspection": "source, ancestry, exact blobs, retained output, commit scope, status/workflow metadata, and independently executed public deleted-once fixture",
+    "observed_at": "2026-11-24T13:23:38.220Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -9334,11 +9411,11 @@
   },
   "latest_source_observed": {
     "audit_main": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
-    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
+    "glp_main": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "glp_papers": "96394513dfebb3be7f3191ac711ba6f2294d604e",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T12:33:11.780Z",
+    "observed_at": "2026-11-24T13:23:38.220Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9387,6 +9464,9 @@
     "pr94_merge": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
     "calculus_answers_10_17_claimed_private_commit": "6dfa1ed9",
     "calculus_report_blob": "904ff409fa960b31db633fe74e71eb7913c96dbc",
-    "status_table_blob": "890e0564d1b54852972e88e60dc54c8a412eb54b"
+    "status_table_blob": "890e0564d1b54852972e88e60dc54c8a412eb54b",
+    "calculus_duplicate_condition_integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
+    "calculus_deleted_once_test": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "calculus_deleted_once_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55"
   }
 }

@@ -1,3 +1,9 @@
+# Stage 90 — PR 83 generator correction independently verified — 24 November 2026
+
+Code integrated the Calculus duplicate-condition repair on public GLP main [`9dba1f2`](https://github.com/EShapiro2/GLP/commit/9dba1f2c0b092f7464fe7165e8507b76ae4eb538). Candidate `4789e80` and integration `ccd9e35` are ancestors, and current `gcsas.py` filters the duplicate in the merged-schema, flat-text and After-sentence paths.
+
+The audit reconstructed `calculus/tests/deleted-once` from exact public blobs and executed it independently. It exited 0 with one case and zero differences; both the condition-plus-deletion case and the deletion-only control emit one `p(Alice)` requirement. This verifies the generator side of compiler Finding 1. Dart/CVA runtime execution remains pending. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage record](./stages/90-pr83-generator-verification-20261124.json)
+
 # Stage 89 — Calculus paper Findings 10–17 answered — 24 November 2026
 
 [PR #94](https://github.com/udi-shapiro/Grassroots-Audit/pull/94) merged at [`b6460b38`](https://github.com/udi-shapiro/Grassroots-Audit/commit/b6460b3878ad52bb661530cd41dd3de326fc86b4), preserving Calculus’s dated answers to Findings 10–17. The original findings and Verification requests remain intact, and [issues #84–91](https://github.com/udi-shapiro/Grassroots-Audit/issues/84) remain open. The cited paper commit `6dfa1ed9` is private, so the merge records the project claim without treating any correction as verified.
