@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T12:13:57.202Z",
-  "active_run": {
-    "lease_id": "6688772c-e800-11f1-8f2d-6ab8cd5986b7",
-    "delivery_id": "6688772c-e800-11f1-8f2d-6ab8cd5986b7",
-    "pull_request_number": 83,
-    "event_type": "issue_comment",
-    "action": "created",
-    "comment_id": 7131128823,
-    "acquired_at": "2026-11-24T12:13:57.202Z",
-    "expires_at": "2026-11-24T12:33:57.202Z"
-  },
+  "updated_at": "2026-11-24T12:21:01.798Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -87,11 +78,11 @@
       "number": 83,
       "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
       "state": "open",
-      "updated_at": "2026-11-24T11:20:11Z",
+      "updated_at": "2026-11-24T12:18:49Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 13,
+        "comments": 17,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
@@ -107,7 +98,11 @@
           7129757859,
           7129816897,
           7129923248,
-          7129969089
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABZ8PPaw",
@@ -131,27 +126,27 @@
         ],
         "latest_comments": [
           {
-            "id": 7129757859,
-            "updated_at": "2026-11-24T11:10:41Z"
+            "id": 7131128823,
+            "updated_at": "2026-11-24T12:13:03Z"
           },
           {
-            "id": 7129816897,
-            "updated_at": "2026-11-24T11:13:22Z"
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
           },
           {
-            "id": 7129923248,
-            "updated_at": "2026-11-24T11:18:14Z"
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
           },
           {
-            "id": 7129969089,
-            "updated_at": "2026-11-24T11:20:11Z"
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
           }
         ],
-        "latest_item_at": "2026-11-24T11:20:11Z"
+        "latest_item_at": "2026-11-24T12:18:49Z"
       },
-      "comment_cursor": 7129969089,
+      "comment_cursor": 7131263070,
       "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "sGLP published retained test_sglp output at f7190dc4, a direct child of tested integration 87eb09a. The file contains 108 PASS, 0 FAIL/KNOWN RED and focused clock/environment results. Recorded as strong project-run evidence; audit execution remains pending because Dart is unavailable."
+      "notes": "Calculus corrected its ownership answer: candidate 4789e80 removes the duplicate condition at both generator paths but is not on GLP main. Code integrated regenerated vGLP platforms and retained focused 15/0 project evidence through 60f3a57 onto GLP main b9d0bb7. Exact ancestry and evidence blob verified. Findings 2-3 have integrated source plus project-run evidence; audit runtime execution remains pending. Finding 1 remains open pending Calculus integration and focused observation."
     },
     {
       "number": 82,
@@ -1137,6 +1132,80 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "6688772c-e800-11f1-8f2d-6ab8cd5986b7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "comment_id": 7131128823,
+      "discussion_version": {
+        "comments": 17,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131128823,
+            "updated_at": "2026-11-24T12:13:03Z"
+          },
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T12:18:49Z"
+      },
+      "processed_at": "2026-11-24T12:21:01.798Z",
+      "outcome": "Accepted Calculus's corrected ownership answer after inspecting candidate 4789e80 and current GLP main. Also processed adjacent Code comment 7131147711: verified regenerated platforms and retained 15/0 focused evidence integrated on main b9d0bb7. Posted audit assessments 7131207153 and 7131263070. Finding 1 remains open; no runtime suite was executed by the audit."
+    },
     {
       "delivery_id": "3cf372ce-e7e0-11f1-821c-ab475bc676dc",
       "event_type": "pull_request",
@@ -9084,17 +9153,15 @@
     }
   ],
   "source_observed_after_event": {
-    "main_commit": "54ce81f270c412308c9c173d9ba279b98c61fc89",
-    "papers_commit": "0276d20ab77a52e019f60333810649e4afb56fd1",
-    "paper_blobs": {
-      "papers/GLP-Spec.pdf": "30136f46ee6be9e73290b295d9e665c84591cefe",
-      "papers/TGLP.pdf": "2cfca6e4ae7838708ce30b9ab59aa1bf959c90d3",
-      "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
-    },
-    "inspection": "metadata only; no revised PDF proof-text check and no private-source access",
-    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
-    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
-    "observed_at": "2026-11-24T11:21:25.600Z"
+    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
+    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
+    "calculus_candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
+    "vglp_regenerated_platforms": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
+    "vglp_test_evidence": "196f0ed40f5c7f26d5dd0326a2d929e66068bf1c",
+    "vglp_test_blob": "2bdcf8ba8adfadf817316d2745e3c61b609b1219",
+    "code_merge": "60f3a57acee4b0063ada51746339e736bc64c11a",
+    "inspection": "source, ancestry, exact blobs, retained project output and status/workflow metadata; no Dart runtime execution",
+    "observed_at": "2026-11-24T12:21:01.798Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -9107,11 +9174,11 @@
   },
   "latest_source_observed": {
     "audit_main": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
-    "glp_main": "574caf8b722307747fb8375a8e47672cbadfd26f",
-    "glp_papers": "95cd323ac213aed0203e09279b4dab3cdc0ee6b5",
+    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
+    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T11:34:25.242Z",
+    "observed_at": "2026-11-24T12:21:01.798Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9152,6 +9219,9 @@
     "calculus_review_pdf_blob": "cbc52d0e196783e16f34e3722afa366c8dae55ae",
     "public_gcc_pdf_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
     "pr92_head": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
-    "pr93_head": "007e194369dd676ec69df00558cbe6e51d29b543"
+    "pr93_head": "007e194369dd676ec69df00558cbe6e51d29b543",
+    "calculus_duplicate_condition_candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
+    "vglp_pr83_code_merge": "60f3a57acee4b0063ada51746339e736bc64c11a",
+    "pr83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
   }
 }

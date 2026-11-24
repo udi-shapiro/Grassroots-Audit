@@ -1,3 +1,7 @@
+# PR 83 compiler evidence integrated; generator repair pending — 24 November 2026
+
+Current GLP main `b9d0bb7d420db4781c29aacbb118339d5cdca357` contains regenerated platforms `e9ed11f5` and focused evidence `196f0ed4` at exact blob `2bdcf8ba`, recording 15 passes and no failures. This verifies Code integration and retains project-run evidence for Findings 1–3. The audit did not execute Dart. Finding 1 remains open because Calculus candidate `4789e80`, which removes the duplicate at the generator boundary, is not on main. Findings 2–3 retain integrated source and project evidence with independent runtime execution pending. [Integration assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)
+
 # Same-release Answer-rule comparison pending — 24 November 2026
 
 [PR #93](https://github.com/udi-shapiro/Grassroots-Audit/pull/93) checks the sGLP side of the closed-question correction. Compare the Answer/closed-question premises in public vGLP PDF blob `0ab9f5a684c21aafa32652269d7914822c9de9a6` at papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5` with the revised sGLP relay and projection. The contents endpoint supplied the vGLP blob metadata with an empty PDF body. The separate vGLP fairness proof and compiler verification remain pending. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)

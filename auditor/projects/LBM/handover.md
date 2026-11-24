@@ -1,3 +1,7 @@
+# PR 83 corrected ownership and integrated compiler evidence — 24 November 2026
+
+Calculus now owns the generator-side duplicate in compiler Finding 1 and has candidate `4789e80`, which is not yet on GLP main. Code integrated vGLP’s regenerated platforms and the retained 15/0 focused project output on current main `b9d0bb7`. Finding 1 remains open pending Calculus integration and focused observation. Findings 2–3 have integrated source and project-run evidence; independent runtime execution remains pending. PR 83 still needs the requested report revisions, dated Answer/Verification text, status regeneration and issue mappings. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)
+
 # PR 83 sGLP retained test output — 24 November 2026
 
 sGLP published 108/0 retained output for the two harness findings, including the focused environment and clock controls. The audit inspected the artifact and its direct-child ancestry but did not execute the tests. PR 83 still needs report revision, Answers, status regeneration and issue mappings. [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089)

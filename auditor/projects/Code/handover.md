@@ -1,3 +1,7 @@
+# PR 83 regeneration and evidence integration verified — 24 November 2026
+
+GLP main `b9d0bb7d420db4781c29aacbb118339d5cdca357` contains regenerated-platform commit `e9ed11f5` and retained evidence commit `196f0ed4`; merge `60f3a57a` has the evidence commit as a parent. The evidence blob remains `2bdcf8ba` with 15 focused passes and no failures. The audit did not execute the runtime, and no combined status or workflow run was published. Calculus candidate `4789e80` is still absent from main, so compiler Finding 1 needs generator-side integration and focused observation. [Code answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131147711) · [assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) · [stage](../../stages/88-pr83-calculus-correction-code-integration-20261124.json)
+
 # sGLP retained harness output — 24 November 2026
 
 sGLP published full `test_sglp.sh` output at `f7190dc4a228f569590c0a050d5ede51c1377b28`, directly on tested integration `87eb09abc44c32cce842e9692cc6ef5ea6742764`: 108 passes, no failures, with the clock and environment controls. Current main is 23 commits ahead and retains the tested source. The audit did not execute the suite. [Evidence](https://github.com/EShapiro2/GLP/blob/f7190dc4a228f569590c0a050d5ede51c1377b28/programs/sglp/tests/output-87eb09a.txt) · [Audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089)

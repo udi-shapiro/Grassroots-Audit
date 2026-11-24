@@ -1,0 +1,186 @@
+{
+  "stage": 88,
+  "title": "PR 83 corrected Calculus ownership and Code integration",
+  "recorded_at": "2026-11-24T12:21:01.798Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "6688772c-e800-11f1-8f2d-6ab8cd5986b7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7131128823,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 17,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131128823,
+            "updated_at": "2026-11-24T12:13:03Z"
+          },
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T12:18:49Z"
+      },
+      "related_new_discussion": {
+        "comment_id": 7131147711,
+        "actor_login": "EShapiro2",
+        "role": "Code integration answer"
+      },
+      "outcome": "Corrected ownership accepted. Calculus candidate verified by source inspection; Code integration and retained evidence verified. Finding 1 remains open and Findings 2-3 remain pending independent runtime execution.",
+      "processed_at": "2026-11-24T12:21:01.798Z"
+    }
+  ],
+  "audit_main": "b68c9d6a588167ac3f33a1d1f9ef67494af666f4",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7131128823,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131128823",
+      "role": "Calculus corrected answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7131147711,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131147711",
+      "role": "Code integration answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7131207153,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131207153",
+      "role": "audit corrected-ownership assessment"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7131263070,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070",
+      "role": "audit integration assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "b9d0bb7d420db4781c29aacbb118339d5cdca357",
+    "glp_papers": "32b49dd010788368166fad8118f11219fe500b4d",
+    "calculus_candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
+    "calculus_candidate_parent": "574caf8b722307747fb8375a8e47672cbadfd26f",
+    "regenerated_platforms_commit": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
+    "test_evidence_commit": "196f0ed40f5c7f26d5dd0326a2d929e66068bf1c",
+    "test_evidence_blob": "2bdcf8ba8adfadf817316d2745e3c61b609b1219",
+    "code_merge": "60f3a57acee4b0063ada51746339e736bc64c11a",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/vglp/cva/compiler/cvac.glp.md",
+    "findings": [
+      1,
+      2,
+      3
+    ],
+    "pr_head_blob": "16718cc48772454a931e4cd1dde202027250f2c8"
+  },
+  "corrected_answer": {
+    "owner": "Calculus",
+    "attribution": "Calculus (Calculus #11), 2026-11-24",
+    "supersedes": "Earlier conclusion that Calculus required no term change. History remains in PR discussion.",
+    "correction": "The doubled condition originates in calculus/tools/gcsas.py. Candidate 4789e80 suppresses a deletion already present in the condition at both both/3 and phi/2.",
+    "integration": "Candidate is one commit ahead of its old-main merge base and current main is eight commits ahead; current main still has the old duplicate-appending expressions."
+  },
+  "source_inspection": {
+    "candidate_files_changed": 274,
+    "focused_expectation": "calculus/tests/twopaths/expect.txt changes the derived body from two p(Alice) requirements to one.",
+    "current_main": "Still contains both duplicate-appending generator expressions and the duplicate focused expectation.",
+    "integration_ancestry": "GLP main b9d0bb7 contains e9ed11f5 and 196f0ed4. Merge 60f3a57 has 196f0ed4 as a parent.",
+    "retained_evidence": "Current main retains programs/vglp/cva/compiler/audit/pr83-tests.txt at blob 2bdcf8b, recording 15 focused passes and 0 failures.",
+    "compiler_blobs": {
+      "programs/vglp/cva/compiler/text.glp": "f12f8f9420908cf92a2789ff7746275049161dce",
+      "programs/vglp/cva/compiler/local.glp": "0d8ebb6014926adf7653d15f08c866915f5b6dd2",
+      "programs/vglp/cva/compiler/cvac.glp": "d8da41402e0fadf8105a98328767a953e9347ac7",
+      "test/run_all_tests.sh": "e1830beb6397075a1ab252894f495845b23a71e1"
+    },
+    "ci": "No combined commit status or associated workflow run was published for the candidate or integration merge."
+  },
+  "executed_checks": [
+    {
+      "type": "deterministic data-structure microcheck",
+      "result": "The old construction requires multiplicity 2 for the shared condition; the candidate construction requires multiplicity 1.",
+      "scope": "Generator-list behavior only. It does not execute Calculus, the compiler, or the GLP runtime."
+    }
+  ],
+  "project_execution": {
+    "owner": "vGLP / Code",
+    "claim": "15 passed, 0 failed for CVA ranks, once and deads on build 574caf8b7; Code also states Section VG 1366 of 1367.",
+    "assessment": "The focused artifact and exact blob are integrated. The full-suite count remains an attributed project claim. It is not converted to an audit-executed check or a new per-app known-red finding."
+  },
+  "not_executed": [
+    "Calculus suite",
+    "CVA compiler",
+    "Dart or GLP runtime",
+    "full test/run_all_tests.sh suite"
+  ],
+  "disposition": {
+    "finding_1": "Open. vGLP compiler protection and project evidence are integrated; the generator-side Calculus repair is still absent from main and requires focused observation after integration.",
+    "finding_2": "Source correction, regenerated platforms and project-run focused evidence are integrated. Independent runtime execution remains pending.",
+    "finding_3": "Source correction, regenerated platforms and project-run focused evidence are integrated. Independent runtime execution remains pending.",
+    "publication": "No audit-main report publication. PR 83 still has requested report revisions and blank Answer/Verification fields."
+  },
+  "next": [
+    "Code to integrate the Calculus candidate or its rebased equivalent with expected-head checking.",
+    "After integration, verify both generator paths and observe the one-copy focused output.",
+    "Independently execute CVA once, ranks and deads when a Dart-capable audit environment is available.",
+    "Preserve both dated ownership answers in the report history and regenerate status and issue mappings before publication."
+  ],
+  "core_queue": "All six original core findings have answers. This event concerned the application compiler report and did not change the resumed core verification queue."
+}
