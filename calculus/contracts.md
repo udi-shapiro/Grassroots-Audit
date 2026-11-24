@@ -164,6 +164,10 @@ Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
 
 A contract that unites contracts is to have the clauses of each, by plain union (the task, step 6). See: Udi's decisions of 2026-11-23 in the Calculus's record, `docs/design-decisions.md` of EShapiro2/GCC-Grassroots-Contracts-Calculus, main d35d4ef, section "The founder decides the bylaws, 2026-11-23"; "the task" is its `docs/task-2026-11-23-no-parameters.md`. It is not in GLP yet. `Corrected:` follows with its commit.
 
+Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
+
+Corrected: Calculus abd32d0 (branch calc11-no-parameters). The role "those who decide for z" is listed by guardians in Guardians and by officers in Organisation, which renames Guardians; in a union of both the role took the first listing. Now each act lists it by the contract that has the kind of its name: a ward by its guardians, an organisation by its officers. This also mends Promoted Matching, whose Appoint listed an organisation's deciders by guardians. Only these three terms change; their verdicts follow, and they reach GLP with the next copy. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
+
 ### Verification
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
