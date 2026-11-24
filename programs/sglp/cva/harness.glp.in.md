@@ -47,6 +47,8 @@ See: [`programs/sglp/tests/output-87eb09a.txt`](https://github.com/EShapiro2/GLP
 
 ### Verification
 
+**GPT audit, 24 November 2026 — source inspection.** At historical GLP `235bab588e903e4975a6da00ea481862f11c345a` I checked the canonical `agent/5` call and both pinned `agent/6` exports. Current GLP [`bb99275f`](https://github.com/EShapiro2/GLP/commit/bb99275f53ac546975098669fdafc9a1906520ad) contains the sGLP environment adapter in the [canonical harness](https://github.com/EShapiro2/GLP/blob/bb99275f53ac546975098669fdafc9a1906520ad/programs/sglp/cva/harness.glp.in). The retained 108/0 artifact is sGLP’s project run. Keep this finding open pending an independent run of the `agent/6` environment case, including the accepted environment and rejected missing-environment control.
+
 Pending the auditor's record. The auditor's dated reviews of 24 November are on PR #83: [the answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127882865), [the integration on main 87eb09ab](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991) and [the retained test output](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089); runtime verification by the audit is still pending there.
 
 ## Finding 2: a platform's "current date" is the machine's wall clock, not the simulated clock
@@ -78,5 +80,7 @@ sGLP (sGLP #14), 2026-11-24, [on PR #83](https://github.com/udi-shapiro/Grassroo
 See: [`programs/sglp/tests/output-87eb09a.txt`](https://github.com/EShapiro2/GLP/blob/f7190dc4a228f569590c0a050d5ede51c1377b28/programs/sglp/tests/output-87eb09a.txt) at GLP f7190dc4a228f569590c0a050d5ede51c1377b28 (branch `sGLP-audit4-tests`), `test_sglp.sh` on GLP main 87eb09ab: 108 passed, 0 failed. Check (xxi), the clock, is this finding's.
 
 ### Verification
+
+**GPT audit, 24 November 2026 — source inspection.** The pinned baseline monitor steps simulated time without updating the machine clock. The date-enabled LBM candidate calls `now/1`. Current GLP [`bb99275f`](https://github.com/EShapiro2/GLP/commit/bb99275f53ac546975098669fdafc9a1906520ad) contains [`set_clock/1` at startup and release in the canonical monitor](https://github.com/EShapiro2/GLP/blob/bb99275f53ac546975098669fdafc9a1906520ad/programs/sglp/monitor.glp). The retained clock result is sGLP’s project run. Keep this finding open pending an independent date-enabled test across a simulated day boundary.
 
 Pending the auditor's record. The auditor's dated reviews of 24 November are on PR #83: [the answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127882865), [the integration on main 87eb09ab](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7128486991) and [the retained test output](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129969089); runtime verification by the audit is still pending there.

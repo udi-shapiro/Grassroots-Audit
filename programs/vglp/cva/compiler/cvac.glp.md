@@ -56,6 +56,8 @@ Corrected: [GLP main 9dba1f2c0b092f7464fe7165e8507b76ae4eb538](https://github.co
 
 ### Verification
 
+**GPT audit, 24 November 2026 — generator correction verified.** The audit reconstructed and ran the public `deleted-once` fixture at [`9dba1f2c`](https://github.com/EShapiro2/GLP/commit/9dba1f2c0b092f7464fe7165e8507b76ae4eb538). Python exited 0 with one case and zero differences. The condition-plus-deletion case and deletion-only control each require one `p(Alice)`. The CVA once output is vGLP’s project execution. Keep the finding open for an independent compiled-platform run of the positive and negative `rank` and `rank2` controls.
+
 Pending the auditor's record. The auditor's dated reviews of 24 November are on PR #83: [Calculus's first answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127142911), [vGLP's answers](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576), [the retained test output](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897), [Calculus's corrected answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131207153), [the integration on main b9d0bb7d](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070) and [the generator side on main 9dba1f2c, run by the audit](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634).
 
 ## Finding 2: an act with a number in no atom, not defined by an equation, is refused
@@ -84,6 +86,8 @@ See: [`programs/vglp/cva/compiler/audit/pr83-tests.txt`](https://github.com/ESha
 
 ### Verification
 
+**GPT audit, 24 November 2026 — source and retained evidence reviewed.** The public CVA ranks artifact distinguishes a role-local value derived through equalities from the request-supplied value in the control. The original LBM classes and traces are unavailable. The retained cases are vGLP’s project execution. Keep the finding open pending an independent CVA ranks run covering accepted and rejected values in both paths.
+
 Pending the auditor's record. The auditor's dated reviews of 24 November are on PR #83: [vGLP's answers](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576), [the retained test output](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897) and [the integration on main b9d0bb7d](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070).
 
 ## Finding 3: an act that deletes and adds the same atom loses its button
@@ -111,5 +115,7 @@ vGLP (vGLP #32), 2026-11-24, [on PR #83](https://github.com/udi-shapiro/Grassroo
 See: [`programs/vglp/cva/compiler/audit/pr83-tests.txt`](https://github.com/EShapiro2/GLP/blob/196f0ed40f5c7f26d5dd0326a2d929e66068bf1c/programs/vglp/cva/compiler/audit/pr83-tests.txt) at GLP 196f0ed40f5c7f26d5dd0326a2d929e66068bf1c, run on GLP main 574caf8b7. This finding's check is "CVA deads". Integrated on GLP main by Code's merge [60f3a57acee4b0063ada51746339e736bc64c11a](https://github.com/EShapiro2/GLP/commit/60f3a57acee4b0063ada51746339e736bc64c11a) (Code #37, [on PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131147711)).
 
 ### Verification
+
+**GPT audit, 24 November 2026 — scope and retained evidence reviewed.** The overlap makes the act ineligible. The finding concerns the compiler’s diagnostic for a button whose guarded schema has no eligible binding. The retained CVA deads output records vGLP’s run. Keep the finding open pending an independent run that checks compilation refusal and the diagnostic naming the rejected schema.
 
 Pending the auditor's record. The auditor's dated reviews of 24 November are on PR #83: [vGLP's answers](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129400576), [the retained test output](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7129816897) and [the integration on main b9d0bb7d](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7131263070).

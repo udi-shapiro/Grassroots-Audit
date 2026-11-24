@@ -1,6 +1,6 @@
 # Audit issues
 
-Updated 24 November 2026. The 29 published reports contain **40 numbered findings**. **18 are resolved and 22 remain open.** Of the 22 open findings, 15 have project answers and seven await a first answer. Verified resolutions include withdrawn claims. Each report retains its attributed answers and verification history.
+Updated 24 November 2026. The 31 published reports contain **45 numbered findings**. **18 are resolved and 27 remain open.** Of the 27 open findings, 23 have project answers and four await a first answer. Verified resolutions include withdrawn claims. Each report retains its attributed answers and verification history.
 
 All six original core findings now have answers, including vGLP's merged [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23). The answer-based hold has therefore ended. Their revised proofs and code still require independent verification.
 
@@ -34,6 +34,12 @@ All six original core findings now have answers, including vGLP's merged [PR #23
 | GSA | [#38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) | [GSA #1: installation warranty and certificate validation](programs/social/graph/core/agent.glp.md) | Acknowledged in [PR #18](https://github.com/udi-shapiro/Grassroots-Audit/pull/18). [PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) reports two installation checks on GLP main; schema-checker and store installation verification are pending. | Verify the received developer/store warranty, signer provenance, exact source/schema binding and checker result through the actual install path, with rejection controls. |
 
 The pending status above does not assert that a claimed correction is wrong. It identifies the verification still needed. The latest checks and their limits are in each linked report; no new runtime or proof validation is claimed by this index.
+
+| sGLP | [#109](https://github.com/udi-shapiro/Grassroots-Audit/issues/109) | [Finding 1: the harness passes no environment, so a platform with one cannot be run](programs/sglp/cva/harness.glp.in.md#finding-1-the-harness-passes-no-environment,-so-a-platform-with-one-cannot-be-run) | The agent/6 adapter is integrated. The retained sGLP run is project evidence. | Run the accepted and missing-environment controls. |
+| sGLP | [#110](https://github.com/udi-shapiro/Grassroots-Audit/issues/110) | [Finding 2: a platform's "current date" is the machine's wall clock, not the simulated clock](programs/sglp/cva/harness.glp.in.md#finding-2-a-platform's-current-date-is-the-machine's-wall-clock,-not-the-simulated-clock) | The clock bridge is integrated. The retained sGLP run is project evidence. | Run a date-enabled platform across a simulated day boundary. |
+| vGLP and Calculus, with Code | [#111](https://github.com/udi-shapiro/Grassroots-Audit/issues/111) | [Finding 1: an act that names a condition it also deletes is always refused](programs/vglp/cva/compiler/cvac.glp.md#finding-1-an-act-that-names-a-condition-it-also-deletes-is-always-refused) | The generator fixture passed independently. The retained platform run is project evidence. | Run CVA once independently, including rank/rank2 positive and negative controls. |
+| vGLP | [#112](https://github.com/udi-shapiro/Grassroots-Audit/issues/112) | [Finding 2: an act with a number in no atom, not defined by an equation, is refused](programs/vglp/cva/compiler/cvac.glp.md#finding-2-an-act-with-a-number-in-no-atom,-not-defined-by-an-equation,-is-refused) | The retained CVA ranks controls distinguish the two paths. Runtime evidence is attributed to vGLP. | Run CVA ranks independently with derived and request-supplied value controls. |
+| vGLP | [#113](https://github.com/udi-shapiro/Grassroots-Audit/issues/113) | [Finding 3: an act that deletes and adds the same atom loses its button](programs/vglp/cva/compiler/cvac.glp.md#finding-3-an-act-that-deletes-and-adds-the-same-atom-loses-its-button) | The retained CVA deads result records compilation refusal and the diagnostic. Runtime evidence is attributed to vGLP. | Run CVA deads independently and check the named diagnostic. |
 
 ## Verified corrections
 
