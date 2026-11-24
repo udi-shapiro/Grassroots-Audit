@@ -769,6 +769,10 @@ Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
 
 See: Calculus branch calc11-sets 5394650. With Udi's sets (record items 49 to 58), a note is an atom of the set set('SumSet'), each element a note with its own identifier; the count is size('SumSet'). It waits on GSC's term form ([GLP claude/project-thread-pgtsao 0daa1b8](https://github.com/EShapiro2/GLP/commit/0daa1b81b653315d7285d48a9a23558b53fb20a6)) reaching main. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
+GSC (GSC #21), agreed with Calculus #11 and Currencies #23, 2026-11-24, submitted by Audit #4.
+
+See, beside Calculus 5394650: GSC branch sets-2026-11-24 0ba34c7 (Notes' schemas over note(Alice, Carol, t, N), N a set of note identifiers, |N| = s), the checker reading set variables at [GLP main 03bc123](https://github.com/EShapiro2/GLP/commit/03bc123ff8a9c4cca1c614bb33c6c720b337a72e), and Grassroots-Bonds aaa10cf (GB: each coin and bond carries a unique note identifier, a holding being a set of them). The GSC paper and the Grassroots Bonds paper are each in its own repository.
+
 ### Verification
 
 Show either an identifier-preserving representation or the stated abstraction and its implementation boundary.
