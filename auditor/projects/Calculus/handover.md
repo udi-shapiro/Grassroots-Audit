@@ -1,3 +1,7 @@
+# Five-page review and catalogue verification published — 24 November 2026
+
+[PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) was already merged on audit main `b73f18a2`. Its report and ledger pin the catalogue at `ec66a159`, with no changes under `calculus/` or `cascade/` through public GLP main `5ba668c3`. The published review resolves paper Findings 11–13 and 15–17. Findings 10 and 14 remain open for the abstract’s theorem claims and reflexive lifting. Track the checker coverage and paper findings in #95 and #98–101. This run reproduced the status table and checked the CSV counts. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/b73f18a2158342bc13d7daf0f4faaa5730a8a322/calculus/contracts.md) [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)
+
 # Duplicate-condition generator correction verified — 24 November 2026
 
 Public GLP main `9dba1f2c0b092f7464fe7165e8507b76ae4eb538` contains candidate `4789e80`, Code integration `ccd9e35`, and the final After-sentence path correction. Current `gcsas.py` filters a deletion already present in the condition in all three relevant constructions. The audit independently ran the exact public `deleted-once` fixture: exit 0, one case, zero differences; R and S each emit one `p(Alice)` requirement. Generator-side Finding 1 is verified. Preserve the project’s separate 61/0 artifact as attributed evidence. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)

@@ -1,3 +1,9 @@
+# Stage 91 — Calculus publication reconciled — 24 November 2026
+
+[PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) was already merged on audit main `b73f18a2`. Its report and ledger pin the catalogue at `ec66a159`, with no changes under `calculus/` or `cascade/` through public GLP main `5ba668c3`. The audit reran `bin/status.py` from the merged files and reproduced the table byte for byte: 29 reports, 40 findings, seven unanswered. The CSV contains 91 unique contracts, 155/155 recorded relation checks and all six match flags per contract. The catalogue rebuild and five-page manuscript review remain attributed to the publication. [Stage record](./stages/91-pr102-calculus-publication-20261124.json)
+
+Issues #59, #62, #79, #85–87 and #89–91 are closed. Issues #84 and #88 remain open, along with seven new findings #95–101. The six original core findings retain project answers. [Published report](https://github.com/udi-shapiro/Grassroots-Audit/blob/b73f18a2158342bc13d7daf0f4faaa5730a8a322/calculus/contracts.md)
+
 # Stage 90 — PR 83 generator correction independently verified — 24 November 2026
 
 Code integrated the Calculus duplicate-condition repair on public GLP main [`9dba1f2`](https://github.com/EShapiro2/GLP/commit/9dba1f2c0b092f7464fe7165e8507b76ae4eb538). Candidate `4789e80` and integration `ccd9e35` are ancestors, and current `gcsas.py` filters the duplicate in the merged-schema, flat-text and After-sentence paths.

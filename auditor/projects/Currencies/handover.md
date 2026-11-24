@@ -1,3 +1,7 @@
+# Notes identifier finding published — 24 November 2026
+
+[PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) publishes [#97](https://github.com/udi-shapiro/Grassroots-Audit/issues/97) for the mismatch between individually identified notes and the catalogue’s issuer/type multiplicities at GLP `ec66a159`. Check an identifier-preserving representation or the stated abstraction and its boundary after the project answers. [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)
+
 # GO and Calculus answers recorded — 20 November 2026
 
 [PR #67](https://github.com/udi-shapiro/Grassroots-Audit/pull/67) merged at `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076`, preserving GO's answers to Findings 2–6 and Calculus's answer to Finding 7. All seven findings in `calculus/contracts.md` have answers and remain open (#58–#64). Pinned public schema records at `be5f2eb1eae41556eade221c9727d3166928f52a` support the acknowledged baseline gaps. No fixes were supplied in #67. The checked status table is 29 reports, 23 findings and zero unanswered. See [stage 19](../../stages/19-pr67-contract-answers-20261120.json).

@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T14:13:56.869Z",
-  "active_run": {
-    "lease_id": "fdb43cac-e810-11f1-836f-83e89161d788",
-    "delivery_id": "fdb43cac-e810-11f1-836f-83e89161d788",
-    "pull_request_number": 102,
-    "event_type": "pull_request",
-    "action": "opened",
-    "comment_id": null,
-    "acquired_at": "2026-11-24T14:13:56.869Z",
-    "expires_at": "2026-11-24T14:33:56.869Z"
-  },
+  "updated_at": "2026-11-24T14:15:08.190Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,6 +36,25 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 102,
+      "head_sha": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+      "state": "closed",
+      "updated_at": "2026-11-24T14:12:09Z",
+      "merged_at": "2026-11-24T14:12:09Z",
+      "merge_commit_sha": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "Publication already merged when inspected; confirmed exact tree, mapped issue states and byte-identical status regeneration. No duplicate PR, merge, or discussion."
+    },
     {
       "number": 94,
       "head_sha": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
@@ -1166,6 +1176,25 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "fdb43cac-e810-11f1-836f-83e89161d788",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 102,
+      "comment_id": null,
+      "head_sha": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T14:15:08.190Z",
+      "outcome": "Publication already merged when inspected; confirmed exact tree, mapped issue states and byte-identical status regeneration. No duplicate PR, merge, or discussion."
+    },
     {
       "delivery_id": "7f8cacf8-e809-11f1-818b-d3473f8c5a87",
       "event_type": "issue_comment",
@@ -9398,16 +9427,14 @@
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "glp_main": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
-    "glp_papers": "96394513dfebb3be7f3191ac711ba6f2294d604e",
-    "candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
-    "integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
-    "focused_commit": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
-    "gcsas_blob": "8fc45d2cfac99f618a3ce9fdf5b39a35130e57fe",
-    "retained_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
-    "inspection": "source, ancestry, exact blobs, retained output, commit scope, status/workflow metadata, and independently executed public deleted-once fixture",
-    "observed_at": "2026-11-24T13:23:38.220Z"
+    "audit_main": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "glp_main": "5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e",
+    "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
+    "calculus_catalogue": "ec66a1595d9325771739142e5437aaada218dffb",
+    "pr102_head": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "observed_at": "2026-11-24T14:15:08.190Z",
+    "inspection": "Published exact tree, issue states and catalogue CSV inspected; status generator and CSV checks executed locally."
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -9419,12 +9446,12 @@
     "reason": "Preserved GSA answer and documented SPM dispute."
   },
   "latest_source_observed": {
-    "audit_main": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "glp_main": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
-    "glp_papers": "96394513dfebb3be7f3191ac711ba6f2294d604e",
+    "audit_main": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
+    "glp_main": "5ba668c33e9d1362ecc8d295af8e42f8b4e17e3e",
+    "glp_papers": "812bd9491042da9becf4babc8fc26df6df131707",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T13:23:38.220Z",
+    "observed_at": "2026-11-24T14:15:08.190Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -9476,6 +9503,9 @@
     "status_table_blob": "890e0564d1b54852972e88e60dc54c8a412eb54b",
     "calculus_duplicate_condition_integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
     "calculus_deleted_once_test": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
-    "calculus_deleted_once_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55"
+    "calculus_deleted_once_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
+    "calculus_catalogue": "ec66a1595d9325771739142e5437aaada218dffb",
+    "pr102_head": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
+    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322"
   }
 }

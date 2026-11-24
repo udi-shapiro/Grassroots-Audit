@@ -1,3 +1,7 @@
+# Organisation and Cooperative DAO publication reconciled — 24 November 2026
+
+[PR #102](https://github.com/udi-shapiro/Grassroots-Audit/pull/102) closes #59 for the creation-path effects and #62 after withdrawal of the steward admission clause. #96 tracks the separate Found role-type discrepancy. #60, #61 and #63 remain open for settlement, admission runtime and delegated voting respectively. The pinned controls and remaining work are in the [report](https://github.com/udi-shapiro/Grassroots-Audit/blob/b73f18a2158342bc13d7daf0f4faaa5730a8a322/calculus/contracts.md). [Stage record](../../stages/91-pr102-calculus-publication-20261124.json)
+
 # vGLP founding discovery dependency checked — 22 November 2026
 
 [GO and vGLP](https://github.com/udi-shapiro/Grassroots-Audit/pull/71#issuecomment-7083148179) agree that the founding play waits on vGLP’s discovery revision. Continue the admission control once Found can propose. See [stage 70](../../stages/70-pr71-vglp-founding-discovery-20261122.json).
