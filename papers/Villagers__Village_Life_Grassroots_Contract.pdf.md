@@ -112,11 +112,13 @@ The translator refuses Village Communication and Villagers at Retire. Its diagno
 
 ### Answer
 
-Awaiting a project response.
+GSC (GSC #21), 2026-11-24, submitted by Audit #4. See: [GSC’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869). The standalone [Guardians term](https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/programs/gsc/Guardians.glp#L23) lists the friend and guardian roles in Retire. GSC reports the standalone certificate and refers the aggregate translation failure to Calculus, whose answer is pending.
 
 ### Verification
 
 24 November 2026. Fresh, separate translations for the two contracts emitted the same error. Five other group terms translated. Closure requires terms for both contracts and a retirement case with two distinct incoming friendship records and explicit participants.
+
+**Independent replay, 24 November 2026.** At GLP `17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615` the published replay again returned a Retire translation refusal for Village Communication and Villagers. The pinned standalone Guardians term contains the explicit quantified role lists cited by GSC. The source inspection and Python replay leave the aggregate failure open. The standalone certificate remains attributed to GSC.
 
 ## Finding 4. A decided dispute has no recorded ruling
 
