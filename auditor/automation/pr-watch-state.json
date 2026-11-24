@@ -1,26 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T23:11:48.116Z",
-  "active_run": {
-    "run_id": "github-pr-watch-20261124-pr120-villagers",
-    "acquired_at": "2026-11-24T23:11:48.116Z",
-    "expires_at": "2026-11-24T23:26:48.116Z",
-    "events": [
-      {
-        "delivery_id": "0db36f06-e85c-11f1-9c75-46a9dd5a77e7",
-        "event_type": "pull_request",
-        "action": "opened",
-        "pull_request_number": 120
-      },
-      {
-        "delivery_id": "18f73df2-e85c-11f1-930a-2d61b0791cf0",
-        "event_type": "pull_request",
-        "action": "closed",
-        "pull_request_number": 120
-      }
-    ]
-  },
+  "updated_at": "2026-11-24T23:18:26.386Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,10 +32,59 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 114,
-  "publication_merge_sha": "6073dfdfa6667e2102d86d70536ba83eb207360c",
+  "publication_pr": 121,
+  "publication_merge_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 120,
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "merge_commit_sha": "dc835f34f3a26c18b1d4cf0adf7da98f394b6225",
+      "state": "closed",
+      "updated_at": "2026-11-24T23:12:14Z",
+      "merged_at": "2026-11-24T23:09:27Z",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "comment_cursor": 7147132869,
+      "review_cursor": "none",
+      "notes": "Villagers publication replayed. GSC reply 7147132869 preserved in PR #121."
+    },
+    {
+      "number": 121,
+      "head_sha": "414cb21446500416063074d790d585d45c1e8157",
+      "merge_commit_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "state": "closed",
+      "updated_at": "2026-11-24T23:17:37Z",
+      "merged_at": "2026-11-24T23:17:37Z",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own publication, exact-head reviewed and merged. Finding 3 remains open."
+    },
     {
       "number": 83,
       "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
@@ -10540,6 +10571,80 @@
       },
       "processed_at": "2026-11-24T19:16:10.304Z",
       "outcome": "Own exact-head merge 93a79c79c03d579b5cb5c0de09efad944909bd33 already recorded in stage 94; skipped without a publication loop."
+    },
+    {
+      "delivery_id": "0db36f06-e85c-11f1-9c75-46a9dd5a77e7",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 120,
+      "actor_login": "udi-shapiro",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Reconciled the merged Villagers publication and reproduced its Calculus checks. GSC’s newly observed Finding 3 answer was preserved by PR #121."
+    },
+    {
+      "delivery_id": "18f73df2-e85c-11f1-930a-2d61b0791cf0",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 120,
+      "actor_login": "udi-shapiro",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Reconciled the merged Villagers publication and reproduced its Calculus checks. GSC’s newly observed Finding 3 answer was preserved by PR #121."
+    },
+    {
+      "delivery_id": "32c26b02-e85d-11f1-862d-f035d38e07c7",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 121,
+      "actor_login": "udi-shapiro",
+      "head_sha": "414cb21446500416063074d790d585d45c1e8157",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Own exact-head audit publication; merged and checked without a follow-up reply."
     }
   ],
   "source_observed_after_event": {
@@ -10565,10 +10670,10 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-24T19:16:10.304Z",
-    "last_stage": 94,
-    "processed_through_pr": 114,
-    "notes": "Reconciled PR83 approval/closure and PR50 comment receipts already represented by stage 94; no automated source reply."
+    "last_reconciled_at": "2026-11-24T23:18:26.386Z",
+    "last_stage": 95,
+    "processed_through_pr": 121,
+    "notes": "PR 120 and own PR 121 recorded. Public Calculus replay observed and GSC’s reply preserved."
   },
   "latest_source_observed": {
     "audit_main": "9c30c04118830849accadc200d52a0a41dc2f603",

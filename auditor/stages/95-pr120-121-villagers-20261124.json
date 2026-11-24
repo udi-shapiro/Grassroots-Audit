@@ -1,0 +1,300 @@
+{
+  "stage": 95,
+  "title": "Villagers replay and Guardians answer",
+  "recorded_at": "2026-11-24T23:18:26.386Z",
+  "events": [
+    {
+      "delivery_id": "0db36f06-e85c-11f1-9c75-46a9dd5a77e7",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 120,
+      "actor_login": "udi-shapiro",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Reconciled the merged Villagers publication and reproduced its Calculus checks. GSC’s newly observed Finding 3 answer was preserved by PR #121."
+    },
+    {
+      "delivery_id": "18f73df2-e85c-11f1-930a-2d61b0791cf0",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 120,
+      "actor_login": "udi-shapiro",
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Reconciled the merged Villagers publication and reproduced its Calculus checks. GSC’s newly observed Finding 3 answer was preserved by PR #121."
+    },
+    {
+      "delivery_id": "32c26b02-e85d-11f1-862d-f035d38e07c7",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 121,
+      "actor_login": "udi-shapiro",
+      "head_sha": "414cb21446500416063074d790d585d45c1e8157",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T23:18:26.386Z",
+      "outcome": "Own exact-head audit publication; merged and checked without a follow-up reply."
+    }
+  ],
+  "prs": [
+    {
+      "number": 120,
+      "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",
+      "merge_commit_sha": "dc835f34f3a26c18b1d4cf0adf7da98f394b6225",
+      "state": "closed",
+      "updated_at": "2026-11-24T23:12:14Z",
+      "merged_at": "2026-11-24T23:09:27Z",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7147132869
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7147132869,
+            "updated_at": "2026-11-24T23:12:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T23:12:14Z"
+      },
+      "comment_cursor": 7147132869,
+      "review_cursor": "none",
+      "notes": "Villagers publication replayed. GSC reply 7147132869 preserved in PR #121."
+    },
+    {
+      "number": 121,
+      "head_sha": "414cb21446500416063074d790d585d45c1e8157",
+      "merge_commit_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "state": "closed",
+      "updated_at": "2026-11-24T23:17:37Z",
+      "merged_at": "2026-11-24T23:17:37Z",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own publication, exact-head reviewed and merged. Finding 3 remains open."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "dc835f34f3a26c18b1d4cf0adf7da98f394b6225",
+    "audit_main_after": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_papers": "1947e12613a554aa241b96c4d9b8b231fa48a8cb",
+    "glp_replay": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "guardians_blob": "ba52cef38f6b82e167fc0554db530c0c5cb567c1"
+  },
+  "evidence": {
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/77d55c973c0b7c0674597b2f39084bd26bd34d5e/papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+    "replay": "https://github.com/udi-shapiro/Grassroots-Audit/blob/dc835f34f3a26c18b1d4cf0adf7da98f394b6225/papers/villagers-replay-2026-11-24.py",
+    "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/121",
+    "original_files": [
+      [
+        "ISSUES.md",
+        "49ff3c308177a6f7382e53d151c10fba6fed345c"
+      ],
+      [
+        "README.md",
+        "9f7ec82a4598d3a046008ef1fd79a9239720cc52"
+      ],
+      [
+        "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+        "fc00f77cc96799dd6aa6d47077fdf9a35a791495"
+      ],
+      [
+        "papers/villagers-replay-2026-11-24.py",
+        "3674681ce492792907597fb3eb7ca0b26d196fd0"
+      ],
+      [
+        "papers/villagers-village-life-review-2026-11-24.pdf",
+        "d1bd724bc919a8e20ee134a8c085021cdc71154d"
+      ],
+      [
+        "sections/04-status.tex",
+        "29489c10a8830de4794934adf187719c700bcf0a"
+      ],
+      [
+        "sections/status-table.tex",
+        "a8fb7b948d7a52c91c3f713a3c2e171198016021"
+      ]
+    ],
+    "publication_files": [
+      [
+        "ISSUES.md",
+        "2c668dacf39667ae0dd37b8f153edd3d4a6c739e"
+      ],
+      [
+        "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+        "6a59f7b5cf271d30922f8d2296cf0089ca196551"
+      ],
+      [
+        "sections/04-status.tex",
+        "d1d1807d046551002c71b47a7fd91000d2a68818"
+      ],
+      [
+        "sections/status-table.tex",
+        "45c2cea6d1c9368c644c107e22d8bca055a62ecb"
+      ]
+    ],
+    "pinned_input_blobs": 265,
+    "catalogue_count_from_pinned_tree": 91,
+    "source_inspection": [
+      "The pinned papers branch has no Villagers PDF or public registry key. The report documents the supplied manuscript.",
+      "Standalone Guardians Retire names the friend and guardian roles in quantified effects. Its certificate remains attributed to GSC. Disputes Decide records the case identities and issue without the disposition. Secure Friendship Checkpoint and Restore cover friendship and identity."
+    ],
+    "replay_stdout": "57 catalogue contracts; 30 facing, 27 support, 71 direct parent references\nexpand.py\n1\nFAIL: Village Life: the first line names Lost, not in rev/\nFAIL: Village Life: the first line names Found, not in rev/\ngcsas.py 1\n64 contracts, 2 with a fault\nAll 114 published schema files reproduced byte-for-byte.\n7 contracts, 7 derived\nVillage Communication commute yes; return yes; recover same | exact declaration False | normalized relation holds | ValueError: Retire: the deletion friend(_,Wendy) has no extent the acts that add friend give\nVillage Government commute yes; return yes; recover same | exact declaration False | normalized relation holds | Village-Government translated: 131 schemas\nVillage Money commute yes; return yes; recover same | exact declaration False | normalized relation 2 differences | Village-Money translated: 129 schemas\nVillage Services commute yes; return equivalent; recover same | exact declaration False | normalized relation holds | Village-Services translated: 199 schemas\nVillage Life commute yes; return yes; recover same | exact declaration True | normalized relation FileNotFoundError: [Errno 2] No such file or directory: '<scratch>/evidence/gr/Lost.txt' | Village-Life translated: 34 schemas\nVillage Commons commute NO; return NO; recover same | exact declaration False | normalized relation holds | Village-Commons translated: 58 schemas\nVillagers  commute NO; return NO; recover same | exact declaration False | normalized relation 31 differences | ValueError: Retire: the deletion friend(_,Wendy) has no extent the acts that add friend give\nVillage Commons\nBooking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.\nVillagers\nBooking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.\nJobs, Help, Lending, Lost and Found, Carpool, Home Exchange, Partners, Dating, Free Matching: 1 distinct term(s) 40b0cd9a63af2e4bba4d8917ca2f00a80f3afdee\nBooking, Meeting Rooms, Appointments: 1 distinct term(s) 2ab875add8f2190423bb7422a1c5da96aba979a3",
+    "replay_scope": "The 57 selected catalogue folders were materialized for the replay. The full count comes from the pinned Git tree."
+  },
+  "checks_executed": [
+    {
+      "command": "python3 bin/status.py && cmp sections/expected-status.tex sections/status-table.tex",
+      "exit": 0,
+      "result": "32 reports, 50 findings, 9 unanswered"
+    },
+    {
+      "command": "python3 -m py_compile papers/villagers-replay-2026-11-24.py",
+      "exit": 0
+    },
+    {
+      "command": "python3 -I villagers-replay.py calculus --output evidence",
+      "exit": 0,
+      "result": "114 exact schema files. One exact derived declaration. Two schema round-trip failures and two term-translation refusals."
+    },
+    {
+      "command": "python3 bin/status.py (with the GSC answer)",
+      "exit": 0,
+      "result": "32 reports, 50 findings, 8 unanswered"
+    }
+  ],
+  "not_executed": [
+    "Native checker or handset/runtime checks",
+    "Independent rereading of the supplied manuscript PDF"
+  ],
+  "findings": [
+    {
+      "finding": 1,
+      "issue": 115,
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "status": "Open, awaiting project answer",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+      "next": "Specify resource-specific booking consent and the member-expulsion rule, then check both."
+    },
+    {
+      "finding": 2,
+      "issue": 116,
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "status": "Open, awaiting project answer",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/116",
+      "next": "Keep Lost and Found intact through readable and schema expansion, then check relations."
+    },
+    {
+      "finding": 3,
+      "issue": 117,
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "status": "Open, GSC answered and Calculus pending",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/117",
+      "next": "Obtain Calculus’s answer and corrected aggregate terms. Check retirement with two incoming friendship records."
+    },
+    {
+      "finding": 4,
+      "issue": 118,
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "status": "Open, awaiting project answer",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/118",
+      "next": "Record distinguishable rulings and give both parties access to the applicable one."
+    },
+    {
+      "finding": 5,
+      "issue": 119,
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "status": "Open, awaiting project answer",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/119",
+      "next": "Limit the paper claim to recoverable social records or demonstrate the wider restoration."
+    }
+  ],
+  "core": {
+    "initial_six_answered": [
+      [
+        "papers/GLP-Spec.pdf.md",
+        [
+          true
+        ]
+      ],
+      [
+        "papers/IGLP.pdf.md",
+        [
+          true,
+          true
+        ]
+      ],
+      [
+        "papers/sGLP.pdf.md",
+        [
+          true,
+          true
+        ]
+      ],
+      [
+        "papers/vGLP.pdf.md",
+        [
+          true
+        ]
+      ]
+    ],
+    "next": "Continue the recorded core verification queue."
+  }
+}

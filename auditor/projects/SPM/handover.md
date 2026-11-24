@@ -1,3 +1,7 @@
+# Villagers publication and replay — 24 November 2026
+
+[Villagers #119](https://github.com/udi-shapiro/Grassroots-Audit/issues/119) concerns the paper’s account of recoverable phone state. Pinned Secure Friendship source covers social and identity records. This is separate from the restart-deadlock work in PR #50. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)
+
 # PR 83 / PR 50 audit checkpoint — 24 November 2026
 
 The [revised PR #50 note](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7141525009) separates the restart deadlock from the unadopted proposals. Public GLP #144 and #145 remain unmerged. Current GLP main `bb99275f` retains Checkpoint and Restore. The audit kept the recovery findings open and preserved draft #76. Follow the vGLP paper and compiler correction and reconcile the intended boundary with the published contract. [Audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6045562509) [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)

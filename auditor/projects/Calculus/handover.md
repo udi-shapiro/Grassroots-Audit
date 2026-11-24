@@ -1,3 +1,7 @@
+# Villagers publication and replay — 24 November 2026
+
+[PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) replays seven Villagers unions at public GLP `17f0c0d3`. Follow #115 on union semantics, #116 on the Lost and Found parent split, and #117 on aggregate Retire translation. The standalone GSC answer is in [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121). [Stage record](../../stages/95-pr120-121-villagers-20261124.json)
+
 # PR 83 / PR 50 audit checkpoint — 24 November 2026
 
 Compiler Finding 1’s original and corrected Calculus answers and the independent deleted-once generator result are preserved in [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/vglp/cva/compiler/cvac.glp.md). Issue #111 remains open for compiled-platform controls. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)

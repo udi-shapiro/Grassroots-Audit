@@ -1,3 +1,7 @@
+# Villagers publication and replay — 24 November 2026
+
+[GSC #21’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869) is preserved in [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121). The audit confirmed the standalone Guardians roles by source inspection. Both aggregate translations still refuse Retire in the replay. Calculus’s response is pending. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)
+
 # Notes identifier answers preserved; public term still lacks the identifier — 24 November 2026
 
 [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103) preserves Calculus's answer and [PR #105](https://github.com/udi-shapiro/Grassroots-Audit/pull/105) preserves GSC's dated answer to contracts Finding 20. Public set-variable commit `0daa1b8` and runtime commit `03bc123` are ancestors of GLP main `5ba668c3`, while the exact public Notes term still represents issuer, type and multiplicity without a note identifier. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) records this source inspection. Keep issue #97 open pending public catalogue integration or a stated abstraction boundary. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)

@@ -1,3 +1,7 @@
+# Villagers publication and replay — 24 November 2026
+
+[PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) published five Villagers findings. The independent replay at public GLP `17f0c0d3` reproduced 114 selected baseline schemas, one exact derived declaration, two schema round-trip failures and two term-translation refusals. [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121) preserves GSC’s Finding 3 answer. All five remain open. The status table has 32 reports, 50 findings and eight unanswered. [Stage record](../../stages/95-pr120-121-villagers-20261124.json)
+
 # GSA installation response recorded — 20 November 2026
 
 [PR #68](https://github.com/udi-shapiro/Grassroots-Audit/pull/68) merged at `28f8f6e281cfd0b46c577a39f10547f9f03d419a`. The audit corrected a broken link to public GLP `47bb6cfde3bd80fe9ae901f760d71bb2d621d531` and preserved GSA #9's answer. Current source inspection supports changes to certificate and developer warranty handling. Schema checking is still deferred in the code. [Issue #38](https://github.com/udi-shapiro/Grassroots-Audit/issues/38) remains open. No runtime test ran. See [stage 20](../../stages/20-pr68-gsa-and-spm-reply-20261120.json).

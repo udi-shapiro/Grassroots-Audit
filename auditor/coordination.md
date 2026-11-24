@@ -1,3 +1,7 @@
+# Stage 95 — Villagers replay and Guardians answer — 24 November 2026
+
+[PR #120](https://github.com/udi-shapiro/Grassroots-Audit/pull/120) published five Villagers findings. The independent replay at public GLP `17f0c0d3` reproduced 114 selected baseline schemas, one exact derived declaration, two schema round-trip failures and two term-translation refusals. [PR #121](https://github.com/udi-shapiro/Grassroots-Audit/pull/121) preserves GSC’s Finding 3 answer. All five remain open. The status table has 32 reports, 50 findings and eight unanswered. [Stage record](./stages/95-pr120-121-villagers-20261124.json)
+
 # Stage 94 — LBM findings published and Secure Friendship reviewed — 24 November 2026
 
 The revised LBM reports and all five answers are on main via [PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83). [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/pull/114) publishes dated verification and maps issues #109–113. The regenerated table has 31 reports, 45 findings and four unanswered. The five additions are answered and open. The generator-only check was previously executed. Independent Dart checks remain pending.
