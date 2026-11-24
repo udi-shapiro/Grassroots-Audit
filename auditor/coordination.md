@@ -1,3 +1,9 @@
+# Secure Friendship fault recovery moved below the contract — 23 November 2026
+
+[SPM’s replacement reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) records the decision that fault recovery belongs to the platform. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566511) withdraws both epoch experiments and keeps its renewed PR-#144 stamp helper outside main. Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) confirms the disposition, while the production contract still contains Checkpoint, State recovery and Restore. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/44c28cf441e89f59f0a9ae544411944cde8a18f2) preserves both answers and the exact stamp checks. Findings 3 and 4 remain open. See [stage 78](stages/78-pr50-spm-abstraction-boundary-20261123.json).
+
+---
+
 # SPM paper semantics confirm two held proposals — 23 November 2026
 
 [SPM’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #144 lacks the paper’s epoch ordering and that GLP #145’s `rehello` proof field proves nothing. The public [SPM paper](https://github.com/EShapiro2/GLP/blob/f75d52465c451566e22cf1c0990cabcea5265ca4/papers/SPM.pdf) confirms strictly newer epoch integration and passive checkpoint recovery. [Draft #76](https://github.com/udi-shapiro/Grassroots-Audit/commit/7d46d1930ac53b4ddefc46fddca3ce5e1721dc66) preserves the answer and audit verification. Findings 3 and 4 stay open. See [stage 77](stages/77-pr50-spm-paper-semantics-20261123.json).

@@ -1,3 +1,9 @@
+# Secure Friendship recovery removed from the contract scope — 23 November 2026
+
+[SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) assigns fault recovery to the platform. [Calculus](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566511) withdraws `37f2045` and `0588310`. Its `25b4215` helper has an exact term/stamp match and stays outside main pending SPM’s contract revision. Remove the obsolete recovery contract clauses through the owning project’s public change, then regenerate and certify the resulting term. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).
+
+---
+
 # Secure Friendship epoch pragmas pending — 23 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #144 omits the epoch ordering in the public paper and assigns the Checkpoint Logic-pragmas correction to Calculus. The proposal remains unmerged. Write the strictly-newer comparison into the public contract, renew the verdict stamp, and expose reproducible checks. See [stage 77](../../stages/77-pr50-spm-paper-semantics-20261123.json).

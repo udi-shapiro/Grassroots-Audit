@@ -1,0 +1,134 @@
+{
+  "stage": 78,
+  "title": "Secure Friendship abstraction boundary and withdrawn proposals",
+  "recorded_at": "2026-11-24T01:02:00Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "ab895530-e7a1-11f1-8cdf-bd5ca9c7e62c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "comment_id": 7118566282,
+      "actor_login": "EShapiro2",
+      "pr_head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287"
+    },
+    {
+      "delivery_id": null,
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "comment_id": 7118566511,
+      "actor_login": "EShapiro2",
+      "pr_head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+      "note": "Observed in the same discussion refresh; no webhook delivery ID was supplied."
+    },
+    {
+      "delivery_id": "267f9600-e7a2-11f1-91d7-fa240a5fb6ee",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "866d5a4a22af90655cb2081d7c04d2ff7ad30092",
+      "disposition": "Own publication event from this run; no automated reply."
+    },
+    {
+      "delivery_id": "793298de-e7a2-11f1-954a-e7ca98b8cfe6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 76,
+      "head_sha": "44c28cf441e89f59f0a9ae544411944cde8a18f2",
+      "disposition": "Own final publication update from this run; recorded without a reply."
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "publication": {
+    "pull_request": 76,
+    "starting_head": "7d46d1930ac53b4ddefc46fddca3ce5e1721dc66",
+    "intermediate_head": "866d5a4a22af90655cb2081d7c04d2ff7ad30092",
+    "final_head": "44c28cf441e89f59f0a9ae544411944cde8a18f2",
+    "path": "programs/social/spm/Secure-Friendship.txt.md",
+    "final_blob": "39441efa76abebd1e9977066c75903726c03c9aa",
+    "state": "open draft",
+    "mergeable": false,
+    "note": "Existing main conflict preserved for review."
+  },
+  "audit_discussion": [
+    {
+      "pull_request": 50,
+      "review_id": 6031999658,
+      "review_node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6031999658"
+    },
+    {
+      "pull_request": 50,
+      "review_id": 6032017698,
+      "review_node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6032017698"
+    }
+  ],
+  "project_responses": [
+    {
+      "project": "SPM",
+      "date": "2026-11-24",
+      "supersedes_comment": 7117804515,
+      "claims": [
+        "Fault recovery belongs below the contract abstraction.",
+        "GLP #144 and #145 will not merge.",
+        "The platform owns passive checkpoint recovery."
+      ]
+    },
+    {
+      "project": "Calculus",
+      "date": "2026-11-24",
+      "claims": [
+        "Commit 25b4215 renews the stamp for the current GLP #144 term but stays outside main.",
+        "Epoch experiments 37f2045 and 0588310 are withdrawn.",
+        "SPM must remove checkpoint and recovery acts from the contract."
+      ]
+    }
+  ],
+  "source_pins": {
+    "glp_main": "8fb535ea8e5d337198f0e264d7e6bdb208aaff4b",
+    "glp_papers": "f75d52465c451566e22cf1c0990cabcea5265ca4",
+    "glp_144_head": "a2785f50826f47965708460e6a068ed97fd4db2e",
+    "glp_145_head": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
+    "calculus_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5",
+    "calculus_epoch_helper": "37f204565426dd560b023bc064a9ef98b6c6fbc3",
+    "calculus_checkpoint_end_helper": "05883101ba94478168464e7f1e4d1e4097c4e2f6"
+  },
+  "source_inspection": [
+    "GLP main 8fb535e contains Code's handover record that both PRs and both epoch experiments were left unmerged.",
+    "GLP #144 and #145 remain open and unmerged at the pinned heads.",
+    "Current production Secure-Friendship.txt still specifies Checkpoint, State recovery and Restore acts, with no epoch field.",
+    "Current default-branch code search returns no rehello.",
+    "The exact 25b4215 term hash matches its stored stamp, and current main's exact term hash matches current main's stored stamp."
+  ],
+  "executed_checks": [
+    {
+      "check": "SHA-256 of 25b4215 calculus/contracts/Secure-Friendship/term.glp.txt",
+      "result": "c57ba700d313f31bf3bc19f21abea900d285e1c01bd67ef35501cf11b332be15; exact stored-stamp match"
+    },
+    {
+      "check": "SHA-256 of 8fb535e calculus/contracts/Secure-Friendship/term.glp.txt",
+      "result": "3024cb0c662f39a82d95419b6be2d2e4abbfc97d31d22b7e3c4c529d7a074774; exact stored-stamp match"
+    },
+    {
+      "check": "python3 bin/status.py on exact draft #76 report fixture",
+      "result": "30 reports, 28 findings, 0 unanswered; generated table SHA-256 c68af207b39260915e5f704ea3ef67e976df11b2ea548ce3eb408c6e674c989d, byte-identical to prior draft"
+    }
+  ],
+  "not_executed": [
+    "The helper's reported checker verdict and platform load were not rerun.",
+    "No GLP compiler, checker or runtime ran in the SPM boundary follow-up."
+  ],
+  "findings": {
+    "programs/social/spm/Secure-Friendship.txt.md#3": "open; superseding boundary decision recorded, production contract revision pending",
+    "programs/social/spm/Secure-Friendship.txt.md#4": "open; production contract and public vGLP recovery protocol pending"
+  },
+  "next": [
+    "SPM should remove contract-level fault recovery from the public Secure Friendship contract.",
+    "vGLP should publish and implement the platform recovery protocol with focused execution evidence.",
+    "Calculus and Code should regenerate only after the public contract boundary is adopted.",
+    "Reconcile draft #76 with current audit main while preserving the full dated history."
+  ]
+}

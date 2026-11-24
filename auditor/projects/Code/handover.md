@@ -1,3 +1,9 @@
+# Secure Friendship recovery proposals held — 23 November 2026
+
+Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) records that GLP #144, GLP #145 and both Calculus epoch experiments stay out of main. Keep production adoption blocked until SPM removes fault recovery from the contract and vGLP publishes the platform protocol. Regenerate only against that public owner-approved boundary. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).
+
+---
+
 # Secure Friendship recovery proposals checked — 23 November 2026
 
 The candidate generated module matches the independent Python rebuild. [GLP #145](https://github.com/EShapiro2/GLP/pull/145) still has the old verdict stamp. Recheck candidate certification and cascade after the Calculus refreshes it. The cited fast tier is contributor-reported. See [stage 74](../../stages/74-pr50-secure-friendship-recovery-20261123.json).

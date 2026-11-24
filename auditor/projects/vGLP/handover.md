@@ -1,3 +1,9 @@
+# Secure Friendship recovery is a platform responsibility — 23 November 2026
+
+SPM’s [replacement reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118566282) assigns passive checkpoint recovery and the restarted-friend deadlock to vGLP. GLP #145’s `who`/`rehello` proposal remains unmerged and current main has no `rehello`. Specify the protocol in the public vGLP paper, then publish the source and focused execution evidence. See [stage 78](../../stages/78-pr50-spm-abstraction-boundary-20261123.json).
+
+---
+
 # Restarted-friend deadlock returned to vGLP — 23 November 2026
 
 [SPM](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7117804515) agrees that GLP #145’s `rehello` proof field is only an identifier and assigns a paper-first correction to vGLP. The public SPM paper specifies passive checkpoint recovery and no `who`/`rehello` exchange. Define the intended restart protocol publicly before a code proposal, then add focused execution evidence. See [stage 77](../../stages/77-pr50-spm-paper-semantics-20261123.json).
