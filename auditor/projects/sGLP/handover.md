@@ -1,3 +1,9 @@
+# Canonical CVA harness corrections inspected — 24 November 2026
+
+[sGLP’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) points both harness findings to public [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3). Source inspection supports the environment adapter and clock bridge. Preserve both answers. Code must integrate the commit, then the focused environment and clock tests must be observed before Verification is added. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) confirms the canonical harness calls agent/5 where the baseline examples export agent/6. The date-enabled GLP #146 candidate reads the machine clock, while the canonical monitor steps simulated time separately. Use a standard-harness arity control and a date-dependent run that crosses simulated midnight with fixed machine time. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).

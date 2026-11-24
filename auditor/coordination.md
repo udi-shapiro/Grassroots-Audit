@@ -1,3 +1,9 @@
+# sGLP answers both LBM harness findings — 24 November 2026
+
+[sGLP’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) supplies public commit [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3), a direct child of pinned main. Source inspection supports the `agent/6` environment adapter and the simulated-to-machine-clock bridge. The [audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127882865) records a passing shell syntax check and 5/6/8 arity controls. Runtime tests were not observed, and Code integration remains pending. See [stage 82](stages/82-pr83-sglp-harness-answers-20261124.json).
+
+---
+
 # Calculus answer fixes ownership of LBM compiler Finding 1 — 24 November 2026
 
 [Calculus’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) states that a condition also deleted is required once. Pinned `programs/gsc/self.glp` supports that rule through `sas_minus` and `nrs_req`; pinned compiler `rs_req` still appends kept and deleted atoms and can require two copies. The [audit assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127142911) accepts the Calculus answer and keeps Finding 1 open pending a public vGLP correction and focused failing/passing controls. See [stage 81](stages/81-pr83-calculus-answer-20261124.json).

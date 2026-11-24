@@ -1,0 +1,141 @@
+{
+  "stage": 82,
+  "title": "sGLP answers and source corrections for the canonical CVA harness",
+  "recorded_at": "2026-11-24T09:48:00.000Z",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "68958d4e-e7eb-11f1-85e4-2913bb394516",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 83,
+      "comment_id": 7127785077,
+      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7127067874,
+            "node_id": "IC_kwDOVrts7s8AAAABqM5s4g",
+            "updated_at": "2026-11-24T09:11:02Z"
+          },
+          {
+            "id": 7127142911,
+            "node_id": "IC_kwDOVrts7s8AAAABqM-R_w",
+            "updated_at": "2026-11-24T09:14:26Z"
+          },
+          {
+            "id": 7127785077,
+            "node_id": "IC_kwDOVrts7s8AAAABqNledQ",
+            "updated_at": "2026-11-24T09:42:46Z"
+          },
+          {
+            "id": 7127882865,
+            "node_id": "IC_kwDOVrts7s8AAAABqNrccQ",
+            "updated_at": "2026-11-24T09:47:03Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T09:47:03Z"
+      },
+      "outcome": "Accepted both dated sGLP answers. Source-level corrections are supported. Runtime verification and Code integration remain pending.",
+      "processed_at": "2026-11-24T09:48:00Z"
+    }
+  ],
+  "audit_main": "9ae009fd6b73c1d41672cc2af8a5dafee3012b81",
+  "audit_discussion": [
+    {
+      "pull_request": 83,
+      "comment_id": 7127785077,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077",
+      "role": "project answer"
+    },
+    {
+      "pull_request": 83,
+      "comment_id": 7127882865,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127882865",
+      "role": "audit assessment"
+    }
+  ],
+  "source_pins": {
+    "glp_main": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "glp_papers": "090f2dff8fbc16944ca1b46030872c4233eebeb8",
+    "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3",
+    "sglp_audit4_parent": "24dce134f8acd07c721e14ac67b7c855bdf122af",
+    "audit_pr_83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c"
+  },
+  "affected_report": {
+    "path": "programs/sglp/cva/harness.glp.in.md",
+    "findings": [
+      1,
+      2
+    ],
+    "report_blob": "05f57b2fa41d4b9db4b7629586d4774d2acf4ea8"
+  },
+  "project_answer": {
+    "owner": "sGLP",
+    "attribution": "sGLP (sGLP #14), 2026-11-24, submitted by Audit #4",
+    "findings": {
+      "1": "Corrected at public GLP ae2a75ca on branch sGLP-audit4 for Code to merge.",
+      "2": "Corrected at the same public commit for Code to merge."
+    }
+  },
+  "source_inspection": {
+    "finding_1": "run.sh selects agent5.glp.in or agent6.glp.in from the platform's exported agent arity. agent6.glp.in redraws the same persons from the run inputs, obtains profiles#environment/2 by person, matches by key and passes it as argument five. transform.glp exports environment/2. The Local Overlay fixture includes two environments and negative missing-environment and agent/8 controls.",
+    "finding_2": "harness.glp.in and monitor.glp set the machine clock to 0 at start and floor(T*1000) at each simulated release. Runtime setClock sets an absolute Unix-millisecond clock and now/1 reads it. The new clock fixture checks forty releases across simulated days.",
+    "integration": "Commit ae2a75ca is a direct child of pinned GLP main. It is not merged into main. No CI workflow or commit status was present."
+  },
+  "executed_checks": [
+    {
+      "command": "bash -n on programs/sglp/cva/run.sh at ae2a75ca",
+      "result": "passed"
+    },
+    {
+      "command": "exact run.sh AWK arity parser on representative canonical agent/5, agent/6 and agent/8 declarations",
+      "result": "printed 5, 6 and 8"
+    }
+  ],
+  "not_executed": [
+    "programs/sglp/test_sglp.sh tests (xxi) and (xxii), GLP compiler or runtime. No Dart executable was available and no CI run or status was published for the commit."
+  ],
+  "assessment": {
+    "finding_1": "Source correction supported. Verification pending observed focused run after integration.",
+    "finding_2": "Source correction supported. Verification pending observed focused run after integration.",
+    "publication": "Preserve both answers under their existing IDs. Do not mark the corrections verified or close the findings yet."
+  },
+  "next": [
+    "Code to merge ae2a75ca with expected-head checking or publish the integration commit.",
+    "On integrated public source, run test_sglp.sh focused clock and environment sections or an equivalent narrow command and inspect failures.",
+    "Record actual test output separately from the project claim, then add Verification if both controls pass.",
+    "Keep PR 83 blocked on the remaining compiler report evidence and report revisions."
+  ],
+  "core_queue": "Unchanged. All six original core findings have answers; this event concerned application harness code."
+}

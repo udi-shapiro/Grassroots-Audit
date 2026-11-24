@@ -1,3 +1,9 @@
+# sGLP harness correction awaits integration — 24 November 2026
+
+Public sGLP commit [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3) is a direct child of current main and supplies `agent/5` and `agent/6` adapters, exported per-person environments, a simulated clock bridge and focused tests. Integrate with an expected-head check. Then run and inspect the environment and clock controls. The audit has only source-level support and shell/arity checks. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).
+
+---
+
 # LBM auction simulation reports reviewed — 24 November 2026
 
 The [PR #83 review](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6035907221) records two harness gaps and three compiler observations before publication. The GLP #146 scratch harness supplies per-agent environment and bridges simulated time. Keep its recorded run distinct from a canonical harness run. Dart and GLP runtime checks are pending. See [stage 80](../../stages/80-pr83-lbm-harness-compiler-20261124.json).

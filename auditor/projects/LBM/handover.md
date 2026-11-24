@@ -1,3 +1,9 @@
+# sGLP answered both harness findings — 24 November 2026
+
+The [answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127785077) supplies public [`ae2a75ca`](https://github.com/EShapiro2/GLP/commit/ae2a75ca6f18712fa4e16c7cda94732df3488bc3). Source inspection supports both corrections. Preserve the dated answers under Findings 1 and 2. Keep Verification pending Code integration and observed focused runs. See [stage 82](../../stages/82-pr83-sglp-harness-answers-20261124.json).
+
+---
+
 # Calculus answered compiler Finding 1 — 24 November 2026
 
 The [answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7127067874) assigns the duplicate requirement to vGLP and keeps the Calculus term unchanged. Pinned source supports the one-copy rule. Preserve the dated answer in the report and supply the vGLP correction commit plus exact failing and passing controls. See [stage 81](../../stages/81-pr83-calculus-answer-20261124.json).
