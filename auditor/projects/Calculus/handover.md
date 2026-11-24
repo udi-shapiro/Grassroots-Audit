@@ -1,3 +1,9 @@
+# Organisation Found catalogue correction checked — 24 November 2026
+
+[PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s answer. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) verifies the stricter catalogue guard on public candidate `35dafecb`. Its checked-in adopted Organisation module and both platform files retain the person alternative at the candidate and at GLP main `bb99275f`. Keep #96 open pending public adoption and regeneration, followed by Found controls for a person-only Gov, an organisation without an officer, and an organisation with an officer. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/107#issuecomment-7140496087) · [Stage record](../../stages/93-pr107-108-organisation-found-20261124.json)
+
+The public Calculus candidate also changes Booking, Partners, the derivation checker and Notes. Keep their findings separate and verify each against its published controls.
+
 # Calculus answers and public-source verification — 24 November 2026
 
 [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103) preserves Calculus answers to Findings 18–20, and [PR #104](https://github.com/udi-shapiro/Grassroots-Audit/pull/104) adds the dated correction claim for Finding 1. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) records independent checks at public GLP `5ba668c3`. Finding 18 still reproduces in the public checker; Finding 19's public term still contains `person(Gov)`; Finding 20's public Notes term still lacks an identifier. Keep all four findings open until the cited corrections are public and independently checked. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)

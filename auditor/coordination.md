@@ -1,3 +1,7 @@
+# Stage 93 — Organisation Found guard partially verified — 24 November 2026
+
+[PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s dated answer to contracts Finding 19. Public GLP candidate `35dafecb` requires the organisation and its officer in the catalogue. The checked-in adopted Organisation module and both platforms retain the person alternative and match public GLP main `bb99275f`. The audit compared the guard text and ran the audit status generator. Cascade and Found runtime checks remain pending. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) publishes the comparison and keeps #96 open. [Stage record](./stages/93-pr107-108-organisation-found-20261124.json)
+
 # Stage 92 — Calculus answers preserved and public corrections checked — 24 November 2026
 
 [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103), [PR #104](https://github.com/udi-shapiro/Grassroots-Audit/pull/104) and [PR #105](https://github.com/udi-shapiro/Grassroots-Audit/pull/105) preserve dated Calculus and GSC answers to contracts Findings 1 and 18–20. Their private commit references remain project claims. The audit merged [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) after checking public GLP `5ba668c3`.

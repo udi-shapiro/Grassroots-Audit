@@ -1,3 +1,7 @@
+# Organisation Found catalogue correction checked — 24 November 2026
+
+[PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s answer. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) verifies the stricter catalogue guard on public candidate `35dafecb`. Its checked-in adopted Organisation module and both platform files retain the person alternative at the candidate and at GLP main `bb99275f`. Keep #96 open pending public adoption and regeneration, followed by Found controls for a person-only Gov, an organisation without an officer, and an organisation with an officer. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/107#issuecomment-7140496087) · [Stage record](../../stages/93-pr107-108-organisation-found-20261124.json)
+
 # Organisation Found correction remains private — 24 November 2026
 
 Calculus's dated answer to contracts Finding 19 is preserved in [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103). Public GLP `5ba668c3` still has the `person(Gov)` alternative in the exact Organisation term. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) records source inspection only; no GLP play was executed. Keep issue #96 open until the corrected public term distinguishes a person from an organisation represented by its officer. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)
