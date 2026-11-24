@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+[PR #114](https://github.com/udi-shapiro/Grassroots-Audit/pull/114) preserves the integrated sGLP and CVA evidence. Run the focused harness and compiler controls on an exact public GLP build when Dart is available. Keep full-suite known-red checks in the shared registry. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # Calculus generator integration verified on GLP main — 24 November 2026
 
 GLP main `9dba1f2` contains `4789e80` and `ccd9e35` in its ancestry plus the After-sentence path correction and focused fixture. The audit inspected all three generator paths and independently executed the exact public `deleted-once` case, obtaining exit 0 and zero differences. Commit `9dba1f2` changes only the generator and new fixture files, supporting the no-contract-term-change statement for that step. Dart/CVA runtime verification remains pending. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)

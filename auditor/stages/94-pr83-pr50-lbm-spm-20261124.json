@@ -1,0 +1,657 @@
+{
+  "stage": 94,
+  "title": "LBM findings published and Secure Friendship revision reviewed",
+  "recorded_at": "2026-11-24T19:08:59.684Z",
+  "events": [
+    {
+      "delivery_id": "1073f4ae-e839-11f1-9caf-7083dd768822",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 83,
+      "head_sha": "854c67c21551ccc09f8024ca980150516c037de7",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 8,
+        "comment_ids": [
+          null,
+          null
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {},
+          {}
+        ],
+        "latest_item_at": "2026-11-24T08:27:32Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Reviewed harness revision; superseded by the compound revised head.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "478bf36a-e839-11f1-9b9e-0f40a7670b6c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 83,
+      "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "PRR_kwDOVrts7s8AAAABaFeCtw"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6045532855,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+            "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+            "submitted_at": "2026-11-24T19:03:05Z",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:03:05Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Merged Ohad and LBM’s two revised reports, preserving all five dated project answers. Independent generator verification was already recorded. Dart checks remain pending. Separate publication #114 tracks issues #109–113.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "a61acd52-e839-11f1-94b7-8c400407e2a4",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 9,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515,
+          7118566282,
+          7118566511,
+          7118818729,
+          7141525009
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg",
+          "PRR_kwDOVrts7s8AAAABaFf2jQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5944465842,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlFZsg",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:40:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 5944513543,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlIUBw",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:44:33Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 5971010401,
+            "node_id": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+            "commit_id": "c6386390267fc83ada253af068ef6ea653cdae6a",
+            "submitted_at": "2026-11-19T07:34:25Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6029052947,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ1wMEw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-23T20:33:34Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031662683,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:18:25Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031999658,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:58:39Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032017698,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:00:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032149038,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:15:26Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6045562509,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+            "commit_id": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+            "submitted_at": "2026-11-24T19:05:01Z",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          },
+          {
+            "id": 7118566282,
+            "updated_at": "2026-11-24T00:54:56Z"
+          },
+          {
+            "id": 7118566511,
+            "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
+          },
+          {
+            "id": 7141525009,
+            "updated_at": "2026-11-24T19:03:10Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:05:01Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Reviewed the revised Secure Friendship deadlock note and Ohad’s new comment. Public GLP #144/#145 remain unmerged; current contract still contains Checkpoint and Restore. Findings 3–4 remain open. Retained draft #76 unchanged.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "21299334-e83a-11f1-94bd-d2cd72e29724",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 114,
+      "head_sha": "67626af5cb22f4a44dbf4a9ab3a2c896b0a07524",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication; reviewed latest head without a follow-up reply.",
+      "actor_login": "udi-shapiro"
+    },
+    {
+      "delivery_id": "3b051738-e83a-11f1-93bd-fdfa6112fcf3",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 114,
+      "head_sha": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries.",
+      "actor_login": "udi-shapiro"
+    },
+    {
+      "delivery_id": "51d2ab60-e83a-11f1-8c46-2a6f1c3b1899",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 114,
+      "head_sha": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries.",
+      "actor_login": "udi-shapiro"
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "9c30c04118830849accadc200d52a0a41dc2f603",
+    "audit_main": "6073dfdfa6667e2102d86d70536ba83eb207360c",
+    "glp_main": "bb99275f53ac546975098669fdafc9a1906520ad",
+    "glp_papers": "1947e12613a554aa241b96c4d9b8b231fa48a8cb",
+    "lbm_baseline": "235bab588e903e4975a6da00ea481862f11c345a",
+    "lbm_simulation": "d9190620deb95b0038706ba3e4f60f9a1e68bba6",
+    "generator_verification": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
+    "spm_main_blob": "40a736774bd91d08412d81b862c9e98202777798",
+    "spm_candidate_144": "a2785f50826f47965708460e6a068ed97fd4db2e",
+    "spm_candidate_145": "86307870c6e9be42182004c94d0e7e06b0db6b7d"
+  },
+  "answer_pr": {
+    "number": 83,
+    "head": "39158fc48b343d25893ae16fea2ede780706cccc",
+    "merge": "93a79c79c03d579b5cb5c0de09efad944909bd33",
+    "discussion": {
+      "comments": 19,
+      "reviews": 3,
+      "review_threads": 0,
+      "comment_ids": [
+        7127067874,
+        7127142911,
+        7127785077,
+        7127882865,
+        7128404005,
+        7128486991,
+        7129283416,
+        7129296965,
+        7129400576,
+        7129757859,
+        7129816897,
+        7129923248,
+        7129969089,
+        7131128823,
+        7131147711,
+        7131207153,
+        7131263070,
+        7132635068,
+        7132728634
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABZ8PPaw",
+        "PRR_kwDOVrts7s8AAAABZ8SilQ",
+        "PRR_kwDOVrts7s8AAAABaFeCtw"
+      ],
+      "review_versions": [
+        {
+          "id": 6035853163,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+          "submitted_at": "2026-11-24T08:23:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6035907221,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+          "submitted_at": "2026-11-24T08:27:32Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "id": 6045532855,
+          "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+          "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+          "submitted_at": "2026-11-24T19:03:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7131147711,
+          "updated_at": "2026-11-24T12:13:52Z"
+        },
+        {
+          "id": 7131207153,
+          "updated_at": "2026-11-24T12:16:26Z"
+        },
+        {
+          "id": 7131263070,
+          "updated_at": "2026-11-24T12:18:49Z"
+        },
+        {
+          "id": 7132635068,
+          "updated_at": "2026-11-24T13:18:10Z"
+        },
+        {
+          "id": 7132728634,
+          "updated_at": "2026-11-24T13:22:04Z"
+        }
+      ],
+      "latest_item_at": "2026-11-24T19:03:05Z"
+    },
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/83#pullrequestreview-6045532855"
+  },
+  "publication": {
+    "number": 114,
+    "head": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+    "base": "93a79c79c03d579b5cb5c0de09efad944909bd33",
+    "merge": "6073dfdfa6667e2102d86d70536ba83eb207360c",
+    "files": [
+      [
+        "ISSUES.md",
+        "6cf5f459f1fd425c63e6b011e7adf3b1cd5d83d9"
+      ],
+      [
+        "programs/sglp/cva/harness.glp.in.md",
+        "e05608c055bc360079f29e670f7242d631de5fcc"
+      ],
+      [
+        "programs/vglp/cva/compiler/cvac.glp.md",
+        "e2f8d283eba710932e9c79b1b68dd315c6ef6c5e"
+      ],
+      [
+        "sections/status-table.tex",
+        "84815f083adccf091e9d59c30176eaf7feeeb5e1"
+      ]
+    ],
+    "issues": [
+      {
+        "title": "sGLP: CVA harness environment argument",
+        "path": "programs/sglp/cva/harness.glp.in.md",
+        "id": 1,
+        "number": 109
+      },
+      {
+        "title": "sGLP: CVA harness simulated clock",
+        "path": "programs/sglp/cva/harness.glp.in.md",
+        "id": 2,
+        "number": 110
+      },
+      {
+        "title": "vGLP and Calculus: CVA duplicate required condition",
+        "path": "programs/vglp/cva/compiler/cvac.glp.md",
+        "id": 1,
+        "number": 111
+      },
+      {
+        "title": "vGLP: CVA role-local values derived through equalities",
+        "path": "programs/vglp/cva/compiler/cvac.glp.md",
+        "id": 2,
+        "number": 112
+      },
+      {
+        "title": "vGLP: CVA missing diagnostic for overlapping effects",
+        "path": "programs/vglp/cva/compiler/cvac.glp.md",
+        "id": 3,
+        "number": 113
+      }
+    ],
+    "report_links": {
+      "harness": "https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/sglp/cva/harness.glp.in.md",
+      "compiler": "https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/vglp/cva/compiler/cvac.glp.md",
+      "spm": "https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6045562509"
+    },
+    "discussion": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "latest_item_at": null
+    }
+  },
+  "spm": {
+    "number": 50,
+    "head": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+    "discussion": {
+      "comments": 18,
+      "reviews": 9,
+      "review_threads": 0,
+      "comment_ids": [
+        7053164176,
+        7053633313,
+        7053676773,
+        7053864701,
+        7058086928,
+        7058124083,
+        7058299451,
+        7059738642,
+        7060419941,
+        7060447760,
+        7061251039,
+        7061253978,
+        7113089372,
+        7117804515,
+        7118566282,
+        7118566511,
+        7118818729,
+        7141525009
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYlFZsg",
+        "PRR_kwDOVrts7s8AAAABYlIUBw",
+        "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+        "PRR_kwDOVrts7s8AAAABZ1wMEw",
+        "PRR_kwDOVrts7s8AAAABZ4PeWw",
+        "PRR_kwDOVrts7s8AAAABZ4kCqg",
+        "PRR_kwDOVrts7s8AAAABZ4lJIg",
+        "PRR_kwDOVrts7s8AAAABZ4tKLg",
+        "PRR_kwDOVrts7s8AAAABaFf2jQ"
+      ],
+      "review_versions": [
+        {
+          "id": 5944465842,
+          "node_id": "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+          "submitted_at": "2026-11-17T18:40:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 5944513543,
+          "node_id": "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+          "submitted_at": "2026-11-17T18:44:33Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "id": 5971010401,
+          "node_id": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "commit_id": "c6386390267fc83ada253af068ef6ea653cdae6a",
+          "submitted_at": "2026-11-19T07:34:25Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "id": 6029052947,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+          "submitted_at": "2026-11-23T20:33:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6031662683,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+          "submitted_at": "2026-11-24T00:18:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6031999658,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+          "submitted_at": "2026-11-24T00:58:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6032017698,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+          "submitted_at": "2026-11-24T01:00:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6032149038,
+          "node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+          "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+          "submitted_at": "2026-11-24T01:15:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6045562509,
+          "node_id": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+          "commit_id": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+          "submitted_at": "2026-11-24T19:05:01Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7117804515,
+          "updated_at": "2026-11-24T00:11:36Z"
+        },
+        {
+          "id": 7118566282,
+          "updated_at": "2026-11-24T00:54:56Z"
+        },
+        {
+          "id": 7118566511,
+          "updated_at": "2026-11-24T00:54:57Z"
+        },
+        {
+          "id": 7118818729,
+          "updated_at": "2026-11-24T01:09:43Z"
+        },
+        {
+          "id": 7141525009,
+          "updated_at": "2026-11-24T19:03:10Z"
+        }
+      ],
+      "latest_item_at": "2026-11-24T19:05:01Z"
+    },
+    "contributor_comment": 7141525009,
+    "audit_review": 6045562509,
+    "decision_status": "Contributor records the boundary decision; published contract and older SPM follow-up require reconciliation. Both GLP PRs remain unmerged. Draft #76 left intact.",
+    "draft_76_head": "930da6fbd4692f7a1718e3f6c8b7c4593a8c46ea"
+  },
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py; cmp sections/expected.tex sections/status-table.tex",
+      "target": "9c30c04118830849accadc200d52a0a41dc2f603",
+      "result": "29 reports, 40 findings, 4 unanswered; exact match (exit 0)"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "target": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "result": "31 reports, 45 findings, 4 unanswered, exit 0; both new reports have no unanswered findings"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "target": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "result": "31 reports, 45 findings, 4 unanswered; generated table checked at exact publication head"
+    }
+  ],
+  "retained_project_execution": [
+    "sGLP 108/0, output blob b3456ece7a4429fb3754935652d3750de5250e69",
+    "vGLP CVA 15/0, output blob 2bdcf8ba8adfadf817316d2745e3c61b609b1219"
+  ],
+  "prior_independent_execution": "Stage 90, Python deleted-once fixture and matched deletion-only control at 9dba1f2c. No Dart or simulator run in stage 94.",
+  "next": [
+    "Run independent harness environment and simulated-day controls and CVA once/ranks/deads when Dart is available.",
+    "Follow vGLP paper and compiler work for restart recovery. Reconcile SPM’s dated boundary statements with the published contract and preserve all dated history before revising draft #76.",
+    "Continue the existing core verification queue; all six original findings have attributed project answers."
+  ]
+}

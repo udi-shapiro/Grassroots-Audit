@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+The revised LBM reports and all five answers are on main via [PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83). [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/pull/114) publishes dated verification and maps issues #109–113. The regenerated table has 31 reports, 45 findings and four unanswered. The five additions are answered and open. The generator-only check was previously executed. Independent Dart checks remain pending. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # PR 83 generator-side Finding 1 verified — 24 November 2026
 
 The duplicate required condition is corrected on GLP main `9dba1f2`. The audit independently ran the exact public condition-plus-deletion fixture and matched control; both require one `p(Alice)` and the case passes. The broader compiled-platform behavior still awaits independent Dart execution. PR 83 remains changes-requested and must preserve its original finding, dated answers and separate Verification record when revised. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)

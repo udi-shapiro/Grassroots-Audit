@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+Compiler Finding 1’s original and corrected Calculus answers and the independent deleted-once generator result are preserved in [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/vglp/cva/compiler/cvac.glp.md). Issue #111 remains open for compiled-platform controls. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # Organisation Found catalogue correction checked — 24 November 2026
 
 [PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s answer. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) verifies the stricter catalogue guard on public candidate `35dafecb`. Its checked-in adopted Organisation module and both platform files retain the person alternative at the candidate and at GLP main `bb99275f`. Keep #96 open pending public adoption and regeneration, followed by Found controls for a person-only Gov, an organisation without an officer, and an organisation with an officer. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/107#issuecomment-7140496087) · [Stage record](../../stages/93-pr107-108-organisation-found-20261124.json)

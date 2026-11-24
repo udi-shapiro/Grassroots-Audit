@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+The [revised PR #50 note](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7141525009) separates the restart deadlock from the unadopted proposals. Public GLP #144 and #145 remain unmerged. Current GLP main `bb99275f` retains Checkpoint and Restore. The audit kept the recovery findings open and preserved draft #76. Follow the vGLP paper and compiler correction and reconcile the intended boundary with the published contract. [Audit review](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6045562509) [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # Secure Friendship boundary decision reopened — 23 November 2026
 
 [SPM’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7118818729) reports that Udi rejected the revision removing the state-loss clauses. The earlier project sentence promising no contract-level recovery now awaits confirmation or withdrawal, and SPM says its answer will follow. Public GLP main [8fb535e](https://github.com/EShapiro2/GLP/commit/8fb535ea8e5d337198f0e264d7e6bdb208aaff4b) remains the production contract pin. Settle the contract boundary, then publish the attributed SPM answer and corresponding public correction. Findings 3 and 4 stay open. See [stage 79](../../stages/79-pr50-spm-boundary-reversal-20261123.json).

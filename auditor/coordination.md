@@ -1,3 +1,9 @@
+# Stage 94 — LBM findings published and Secure Friendship reviewed — 24 November 2026
+
+The revised LBM reports and all five answers are on main via [PR #83](https://github.com/udi-shapiro/Grassroots-Audit/pull/83). [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/pull/114) publishes dated verification and maps issues #109–113. The regenerated table has 31 reports, 45 findings and four unanswered. The five additions are answered and open. The generator-only check was previously executed. Independent Dart checks remain pending.
+
+The [revised PR #50 note](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#issuecomment-7141525009) separates the restart deadlock from the unadopted proposals. Public GLP #144 and #145 remain unmerged. Current GLP main `bb99275f` retains Checkpoint and Restore. The audit kept the recovery findings open and preserved draft #76. Follow the vGLP paper and compiler correction and reconcile the intended boundary with the published contract. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/50#pullrequestreview-6045562509) · [Stage record](./stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # Stage 93 — Organisation Found guard partially verified — 24 November 2026
 
 [PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s dated answer to contracts Finding 19. Public GLP candidate `35dafecb` requires the organisation and its officer in the catalogue. The checked-in adopted Organisation module and both platforms retain the person alternative and match public GLP main `bb99275f`. The audit compared the guard text and ran the audit status generator. Cascade and Found runtime checks remain pending. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) publishes the comparison and keeps #96 open. [Stage record](./stages/93-pr107-108-organisation-found-20261124.json)

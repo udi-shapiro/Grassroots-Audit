@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+[PR #114](https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/vglp/cva/compiler/cvac.glp.md) publishes compiler #1–3, issues #111–113, with generator-only verification for #1. Independently run CVA once, ranks and deads. Review the restart-deadlock correction in the paper before checking the compiler changes. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # PR 83 Finding 1 generator side verified — 24 November 2026
 
 Calculus’s correction is integrated on GLP main `9dba1f2` and independently passes the focused public R/S fixture. The generated condition-plus-deletion schema requires one copy, as does its deletion-only control. vGLP’s previously integrated `ms_join` protection and retained CVA output remain separate evidence. Independent Dart execution of the compiled platform is still pending. [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/83#issuecomment-7132728634) · [stage](../../stages/90-pr83-generator-verification-20261124.json)

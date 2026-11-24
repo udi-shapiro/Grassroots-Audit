@@ -1,24 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T19:02:16.213Z",
-  "active_run": {
-    "run_id": "github-pr-watch-20261124-pr83-two-revisions",
-    "acquired_at": "2026-11-24T19:02:16.213Z",
-    "expires_at": "2026-11-24T19:27:16.213Z",
-    "events": [
-      {
-        "delivery_id": "1073f4ae-e839-11f1-9caf-7083dd768822",
-        "pull_request_number": 83,
-        "action": "synchronize"
-      },
-      {
-        "delivery_id": "478bf36a-e839-11f1-9b9e-0f40a7670b6c",
-        "pull_request_number": 83,
-        "action": "synchronize"
-      }
-    ]
-  },
+  "updated_at": "2026-11-24T19:08:59.684Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -48,10 +32,254 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 22,
-  "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
+  "publication_pr": 114,
+  "publication_merge_sha": "6073dfdfa6667e2102d86d70536ba83eb207360c",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 83,
+      "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "state": "closed",
+      "updated_at": "2026-11-24T19:03:30Z",
+      "merged_at": "2026-11-24T19:03:30Z",
+      "merge_commit_sha": "93a79c79c03d579b5cb5c0de09efad944909bd33",
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "PRR_kwDOVrts7s8AAAABaFeCtw"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6045532855,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+            "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+            "submitted_at": "2026-11-24T19:03:05Z",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:03:05Z"
+      },
+      "comment_cursor": 7132728634,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaFeCtw",
+      "notes": "Merged Ohad and LBM’s two revised reports, preserving all five dated project answers. Independent generator verification was already recorded. Dart checks remain pending. Separate publication #114 tracks issues #109–113."
+    },
+    {
+      "number": 114,
+      "head_sha": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "state": "closed",
+      "updated_at": "2026-11-24T19:07:39Z",
+      "merged_at": "2026-11-24T19:07:39Z",
+      "merge_commit_sha": "6073dfdfa6667e2102d86d70536ba83eb207360c",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries."
+    },
+    {
+      "number": 50,
+      "head_sha": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+      "state": "open",
+      "updated_at": "2026-11-24T19:03:10Z",
+      "merged_at": null,
+      "merge_commit_sha": "6f9f90658c71a75dc22c8b91b8daa5d6a50fe054",
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 9,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515,
+          7118566282,
+          7118566511,
+          7118818729,
+          7141525009
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg",
+          "PRR_kwDOVrts7s8AAAABaFf2jQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5944465842,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlFZsg",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:40:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 5944513543,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlIUBw",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:44:33Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 5971010401,
+            "node_id": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+            "commit_id": "c6386390267fc83ada253af068ef6ea653cdae6a",
+            "submitted_at": "2026-11-19T07:34:25Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6029052947,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ1wMEw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-23T20:33:34Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031662683,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:18:25Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031999658,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:58:39Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032017698,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:00:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032149038,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:15:26Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6045562509,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+            "commit_id": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+            "submitted_at": "2026-11-24T19:05:01Z",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          },
+          {
+            "id": 7118566282,
+            "updated_at": "2026-11-24T00:54:56Z"
+          },
+          {
+            "id": 7118566511,
+            "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
+          },
+          {
+            "id": 7141525009,
+            "updated_at": "2026-11-24T19:03:10Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:05:01Z"
+      },
+      "comment_cursor": 7141525009,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+      "notes": "Reviewed the revised Secure Friendship deadlock note and Ohad’s new comment. Public GLP #144/#145 remain unmerged; current contract still contains Checkpoint and Restore. Findings 3–4 remain open. Retained draft #76 unchanged."
+    },
     {
       "number": 108,
       "head_sha": "22dd1c6f9df1be19c56457ec3dc2e61e768c2e15",
@@ -193,86 +421,6 @@
       "comment_cursor": null,
       "review_cursor": null,
       "notes": "Already merged at the observed head. Verified the publication state, open issue mapping #84–91, closure of #80, six-page review artifact, and byte-identical status regeneration. Manuscript is a distinct author-supplied PDF; no new manuscript verification claimed in the watcher."
-    },
-    {
-      "number": 83,
-      "head_sha": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
-      "state": "open",
-      "updated_at": "2026-11-24T13:22:05Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 19,
-        "reviews": 2,
-        "review_threads": 0,
-        "comment_ids": [
-          7127067874,
-          7127142911,
-          7127785077,
-          7127882865,
-          7128404005,
-          7128486991,
-          7129283416,
-          7129296965,
-          7129400576,
-          7129757859,
-          7129816897,
-          7129923248,
-          7129969089,
-          7131128823,
-          7131147711,
-          7131207153,
-          7131263070,
-          7132635068,
-          7132728634
-        ],
-        "review_ids": [
-          "PRR_kwDOVrts7s8AAAABZ8PPaw",
-          "PRR_kwDOVrts7s8AAAABZ8SilQ"
-        ],
-        "review_versions": [
-          {
-            "id": 6035853163,
-            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
-            "submitted_at": "2026-11-24T08:23:10Z",
-            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
-            "state": "COMMENTED"
-          },
-          {
-            "id": 6035907221,
-            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-            "submitted_at": "2026-11-24T08:27:32Z",
-            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
-            "state": "CHANGES_REQUESTED"
-          }
-        ],
-        "latest_comments": [
-          {
-            "id": 7131147711,
-            "updated_at": "2026-11-24T12:13:52Z"
-          },
-          {
-            "id": 7131207153,
-            "updated_at": "2026-11-24T12:16:26Z"
-          },
-          {
-            "id": 7131263070,
-            "updated_at": "2026-11-24T12:18:49Z"
-          },
-          {
-            "id": 7132635068,
-            "updated_at": "2026-11-24T13:18:10Z"
-          },
-          {
-            "id": 7132728634,
-            "updated_at": "2026-11-24T13:22:04Z"
-          }
-        ],
-        "latest_item_at": "2026-11-24T13:22:04Z"
-      },
-      "comment_cursor": 7132728634,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABZ8SilQ",
-      "notes": "Code integrated the Calculus generator fix on GLP main 9dba1f2. Candidate 4789e80 and integration ccd9e35 are ancestors. Current gcsas filters duplicate deleted conditions in the merged, flat-text, and After-sentence paths. The audit reconstructed the exact public deleted-once fixture and ran it: exit 0, one case, zero differences; R and S each require p(Alice) once. Generator-side correction independently verified. Dart compiler/runtime execution remains pending for the broader platform behavior."
     },
     {
       "number": 82,
@@ -459,70 +607,6 @@
       "review_cursor": null,
       "notes": "Own audit publication preserves SPM’s boundary reversal and the audit’s pending-decision disposition. Existing main conflict remains intact.",
       "previous_head_sha": "44c28cf441e89f59f0a9ae544411944cde8a18f2"
-    },
-    {
-      "number": 50,
-      "head_sha": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
-      "state": "open",
-      "updated_at": "2026-11-24T01:15:26Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 17,
-        "reviews": 8,
-        "review_threads": 0,
-        "comment_ids": [
-          7053164176,
-          7053633313,
-          7053676773,
-          7053864701,
-          7058086928,
-          7058124083,
-          7058299451,
-          7059738642,
-          7060419941,
-          7060447760,
-          7061251039,
-          7061253978,
-          7113089372,
-          7117804515,
-          7118566282,
-          7118566511,
-          7118818729
-        ],
-        "review_ids": [
-          "PRR_kwDOVrts7s8AAAABYlFZsg",
-          "PRR_kwDOVrts7s8AAAABYlIUBw",
-          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
-          "PRR_kwDOVrts7s8AAAABZ1wMEw",
-          "PRR_kwDOVrts7s8AAAABZ4PeWw",
-          "PRR_kwDOVrts7s8AAAABZ4kCqg",
-          "PRR_kwDOVrts7s8AAAABZ4lJIg",
-          "PRR_kwDOVrts7s8AAAABZ4tKLg"
-        ],
-        "latest_item_at": "2026-11-24T01:15:26Z",
-        "latest_comments": [
-          {
-            "id": 7117804515,
-            "updated_at": "2026-11-24T00:11:36Z"
-          },
-          {
-            "id": 7118566282,
-            "updated_at": "2026-11-24T00:54:56Z"
-          },
-          {
-            "id": 7118566511,
-            "updated_at": "2026-11-24T00:54:57Z"
-          },
-          {
-            "id": 7118818729,
-            "updated_at": "2026-11-24T01:09:43Z"
-          }
-        ]
-      },
-      "comment_cursor": 7118818729,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABZ4tKLg",
-      "notes": "SPM reports that Udi rejected the revision removing state-loss clauses. The earlier platform-only recovery commitment awaits confirmation or withdrawal. Findings 3 and 4 remain answered/open; no correction verified."
     },
     {
       "number": 30,
@@ -9803,6 +9887,331 @@
       },
       "processed_at": "2026-11-24T18:26:11.919Z",
       "outcome": "Own already-recorded audit reply at the same head and discussion version; skipped without an automated response loop."
+    },
+    {
+      "delivery_id": "1073f4ae-e839-11f1-9caf-7083dd768822",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 83,
+      "head_sha": "854c67c21551ccc09f8024ca980150516c037de7",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 8,
+        "comment_ids": [
+          null,
+          null
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {},
+          {}
+        ],
+        "latest_item_at": "2026-11-24T08:27:32Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Reviewed harness revision; superseded by the compound revised head.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "478bf36a-e839-11f1-9b9e-0f40a7670b6c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 83,
+      "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "PRR_kwDOVrts7s8AAAABaFeCtw"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6045532855,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+            "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+            "submitted_at": "2026-11-24T19:03:05Z",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:03:05Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Merged Ohad and LBM’s two revised reports, preserving all five dated project answers. Independent generator verification was already recorded. Dart checks remain pending. Separate publication #114 tracks issues #109–113.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "a61acd52-e839-11f1-94b7-8c400407e2a4",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 50,
+      "head_sha": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 9,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515,
+          7118566282,
+          7118566511,
+          7118818729,
+          7141525009
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg",
+          "PRR_kwDOVrts7s8AAAABaFf2jQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5944465842,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlFZsg",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:40:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 5944513543,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlIUBw",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "submitted_at": "2026-11-17T18:44:33Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 5971010401,
+            "node_id": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+            "commit_id": "c6386390267fc83ada253af068ef6ea653cdae6a",
+            "submitted_at": "2026-11-19T07:34:25Z",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6029052947,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ1wMEw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-23T20:33:34Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031662683,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:18:25Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031999658,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T00:58:39Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032017698,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:00:59Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032149038,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "submitted_at": "2026-11-24T01:15:26Z",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6045562509,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+            "commit_id": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+            "submitted_at": "2026-11-24T19:05:01Z",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          },
+          {
+            "id": 7118566282,
+            "updated_at": "2026-11-24T00:54:56Z"
+          },
+          {
+            "id": 7118566511,
+            "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
+          },
+          {
+            "id": 7141525009,
+            "updated_at": "2026-11-24T19:03:10Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:05:01Z"
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Reviewed the revised Secure Friendship deadlock note and Ohad’s new comment. Public GLP #144/#145 remain unmerged; current contract still contains Checkpoint and Restore. Findings 3–4 remain open. Retained draft #76 unchanged.",
+      "actor_login": "OhadEitan"
+    },
+    {
+      "delivery_id": "21299334-e83a-11f1-94bd-d2cd72e29724",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 114,
+      "head_sha": "67626af5cb22f4a44dbf4a9ab3a2c896b0a07524",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication; reviewed latest head without a follow-up reply.",
+      "actor_login": "udi-shapiro"
+    },
+    {
+      "delivery_id": "3b051738-e83a-11f1-93bd-fdfa6112fcf3",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 114,
+      "head_sha": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries.",
+      "actor_login": "udi-shapiro"
+    },
+    {
+      "delivery_id": "51d2ab60-e83a-11f1-8c46-2a6f1c3b1899",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 114,
+      "head_sha": "c8f0bc5eae2a4eb7a92d05d9f1849b0d5a99769f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-24T19:08:59.684Z",
+      "outcome": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries.",
+      "actor_login": "udi-shapiro"
     }
   ],
   "source_observed_after_event": {
@@ -9828,10 +10237,10 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-24T18:26:11.919Z",
-    "last_stage": 93,
-    "processed_through_pr": 108,
-    "notes": "PR108 own publication closure and PR107 own audit reply reconciled at unchanged head and discussion versions; no automated reply."
+    "last_reconciled_at": "2026-11-24T19:08:59.684Z",
+    "last_stage": 94,
+    "processed_through_pr": 114,
+    "notes": "PR 83 two revisions and merge, PR 50 correction, and PR 114 own publication deliveries reconciled."
   },
   "latest_source_observed": {
     "audit_main": "9c30c04118830849accadc200d52a0a41dc2f603",

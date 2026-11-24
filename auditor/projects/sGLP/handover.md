@@ -1,3 +1,7 @@
+# PR 83 / PR 50 audit checkpoint — 24 November 2026
+
+[PR #114](https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/sglp/cva/harness.glp.in.md) publishes harness #1–2. The adapter and simulated-clock bridge are in pinned GLP main. The 108/0 output is the project run. Independently run the environment and simulated-day controls for #109–110. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
+
 # Public paper correction verified — 24 November 2026
 
 [PR #93](https://github.com/udi-shapiro/Grassroots-Audit/pull/93) verifies paper Finding 1 at papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5`, blob `8fc1626d3b0e7ea2912632876c58fde80bfeef20`. The observable history omits pending activation times and Proposition 2.6 now assumes non-anticipation. For paper Finding 2, the relay excludes a late answer and keeps discarded writers in the held-variable projection. Issue #36 remains open for the current vGLP paper comparison. The proof check and the earlier PR #83 harness evidence concern separate findings. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)
