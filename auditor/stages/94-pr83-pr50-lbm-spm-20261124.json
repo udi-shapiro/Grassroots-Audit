@@ -1,7 +1,7 @@
 {
   "stage": 94,
   "title": "LBM findings published and Secure Friendship revision reviewed",
-  "recorded_at": "2026-11-24T19:08:59.684Z",
+  "recorded_at": "2026-11-24T19:16:10.304Z",
   "events": [
     {
       "delivery_id": "1073f4ae-e839-11f1-9caf-7083dd768822",
@@ -327,6 +327,316 @@
       "processed_at": "2026-11-24T19:08:59.684Z",
       "outcome": "Own publication: exact-head verification and issue mapping merged. All five findings remain open. No follow-up reply for own deliveries.",
       "actor_login": "udi-shapiro"
+    },
+    {
+      "delivery_id": "aeaab8ba-e839-11f1-9c15-3902f1e3b104",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 83,
+      "actor_login": "udi-shapiro",
+      "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "review_id": 6045532855,
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "PRR_kwDOVrts7s8AAAABaFeCtw"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6045532855,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+            "submitted_at": "2026-11-24T19:03:05Z",
+            "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:03:05Z"
+      },
+      "processed_at": "2026-11-24T19:16:10.304Z",
+      "outcome": "Own exact-head approval already recorded in stage 94 and followed by the recorded merge; skipped without a reply loop."
+    },
+    {
+      "delivery_id": "b186af80-e839-11f1-924d-e8ea8b584e9b",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 50,
+      "actor_login": "OhadEitan",
+      "head_sha": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+      "comment_id": 7141525009,
+      "discussion_version": {
+        "comments": 18,
+        "reviews": 9,
+        "review_threads": 0,
+        "comment_ids": [
+          7053164176,
+          7053633313,
+          7053676773,
+          7053864701,
+          7058086928,
+          7058124083,
+          7058299451,
+          7059738642,
+          7060419941,
+          7060447760,
+          7061251039,
+          7061253978,
+          7113089372,
+          7117804515,
+          7118566282,
+          7118566511,
+          7118818729,
+          7141525009
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYlFZsg",
+          "PRR_kwDOVrts7s8AAAABYlIUBw",
+          "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+          "PRR_kwDOVrts7s8AAAABZ1wMEw",
+          "PRR_kwDOVrts7s8AAAABZ4PeWw",
+          "PRR_kwDOVrts7s8AAAABZ4kCqg",
+          "PRR_kwDOVrts7s8AAAABZ4lJIg",
+          "PRR_kwDOVrts7s8AAAABZ4tKLg",
+          "PRR_kwDOVrts7s8AAAABaFf2jQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5944465842,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlFZsg",
+            "submitted_at": "2026-11-17T18:40:59Z",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 5944513543,
+            "node_id": "PRR_kwDOVrts7s8AAAABYlIUBw",
+            "submitted_at": "2026-11-17T18:44:33Z",
+            "commit_id": "ace65838944396c4a6a777d2b31c8ec17cc0bf72",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 5971010401,
+            "node_id": "PRR_kwDOVrts7s8AAAABY-ZjYQ",
+            "submitted_at": "2026-11-19T07:34:25Z",
+            "commit_id": "c6386390267fc83ada253af068ef6ea653cdae6a",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6029052947,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ1wMEw",
+            "submitted_at": "2026-11-23T20:33:34Z",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031662683,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4PeWw",
+            "submitted_at": "2026-11-24T00:18:25Z",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6031999658,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4kCqg",
+            "submitted_at": "2026-11-24T00:58:39Z",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032017698,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4lJIg",
+            "submitted_at": "2026-11-24T01:00:59Z",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6032149038,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ4tKLg",
+            "submitted_at": "2026-11-24T01:15:26Z",
+            "commit_id": "4be27fda4fffdc8c8dbf1b110f65e8e3fde0d287",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6045562509,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFf2jQ",
+            "submitted_at": "2026-11-24T19:05:01Z",
+            "commit_id": "bb6b36d2f58c75fb307c84eba53c5862444c9fa8",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7117804515,
+            "updated_at": "2026-11-24T00:11:36Z"
+          },
+          {
+            "id": 7118566282,
+            "updated_at": "2026-11-24T00:54:56Z"
+          },
+          {
+            "id": 7118566511,
+            "updated_at": "2026-11-24T00:54:57Z"
+          },
+          {
+            "id": 7118818729,
+            "updated_at": "2026-11-24T01:09:43Z"
+          },
+          {
+            "id": 7141525009,
+            "updated_at": "2026-11-24T19:03:10Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:05:01Z"
+      },
+      "processed_at": "2026-11-24T19:16:10.304Z",
+      "outcome": "Ohad's correction was already inspected and answered by audit review 6045562509 in stage 94; unchanged discussion version, no repeat reply."
+    },
+    {
+      "delivery_id": "bd4af4d4-e839-11f1-8fab-de5ffdeb936d",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 83,
+      "actor_login": "udi-shapiro",
+      "head_sha": "39158fc48b343d25893ae16fea2ede780706cccc",
+      "discussion_version": {
+        "comments": 19,
+        "reviews": 3,
+        "review_threads": 0,
+        "comment_ids": [
+          7127067874,
+          7127142911,
+          7127785077,
+          7127882865,
+          7128404005,
+          7128486991,
+          7129283416,
+          7129296965,
+          7129400576,
+          7129757859,
+          7129816897,
+          7129923248,
+          7129969089,
+          7131128823,
+          7131147711,
+          7131207153,
+          7131263070,
+          7132635068,
+          7132728634
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABZ8PPaw",
+          "PRR_kwDOVrts7s8AAAABZ8SilQ",
+          "PRR_kwDOVrts7s8AAAABaFeCtw"
+        ],
+        "review_versions": [
+          {
+            "id": 6035853163,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8PPaw",
+            "submitted_at": "2026-11-24T08:23:10Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6035907221,
+            "node_id": "PRR_kwDOVrts7s8AAAABZ8SilQ",
+            "submitted_at": "2026-11-24T08:27:32Z",
+            "commit_id": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6045532855,
+            "node_id": "PRR_kwDOVrts7s8AAAABaFeCtw",
+            "submitted_at": "2026-11-24T19:03:05Z",
+            "commit_id": "39158fc48b343d25893ae16fea2ede780706cccc",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7131147711,
+            "updated_at": "2026-11-24T12:13:52Z"
+          },
+          {
+            "id": 7131207153,
+            "updated_at": "2026-11-24T12:16:26Z"
+          },
+          {
+            "id": 7131263070,
+            "updated_at": "2026-11-24T12:18:49Z"
+          },
+          {
+            "id": 7132635068,
+            "updated_at": "2026-11-24T13:18:10Z"
+          },
+          {
+            "id": 7132728634,
+            "updated_at": "2026-11-24T13:22:04Z"
+          }
+        ],
+        "latest_item_at": "2026-11-24T19:03:05Z"
+      },
+      "processed_at": "2026-11-24T19:16:10.304Z",
+      "outcome": "Own exact-head merge 93a79c79c03d579b5cb5c0de09efad944909bd33 already recorded in stage 94; skipped without a publication loop."
     }
   ],
   "source_pins": {
