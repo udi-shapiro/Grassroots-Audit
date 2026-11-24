@@ -1,8 +1,33 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-24T19:08:59.684Z",
-  "active_run": null,
+  "updated_at": "2026-11-24T19:15:17.075Z",
+  "active_run": {
+    "run_id": "github-pr-watch-20261124-reconcile-pr83-pr50-receipts",
+    "acquired_at": "2026-11-24T19:15:17.075Z",
+    "expires_at": "2026-11-24T19:30:17.075Z",
+    "events": [
+      {
+        "delivery_id": "aeaab8ba-e839-11f1-9c15-3902f1e3b104",
+        "pull_request_number": 83,
+        "event_type": "pull_request_review",
+        "action": "submitted"
+      },
+      {
+        "delivery_id": "b186af80-e839-11f1-924d-e8ea8b584e9b",
+        "pull_request_number": 50,
+        "event_type": "issue_comment",
+        "action": "created",
+        "comment_id": 7141525009
+      },
+      {
+        "delivery_id": "bd4af4d4-e839-11f1-8fab-de5ffdeb936d",
+        "pull_request_number": 83,
+        "event_type": "pull_request",
+        "action": "closed"
+      }
+    ]
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
