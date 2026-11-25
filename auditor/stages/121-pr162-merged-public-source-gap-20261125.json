@@ -1,0 +1,56 @@
+{
+  "stage": 121,
+  "title": "PR 162 merged with unresolved public-source gap",
+  "date_utc": "2026-11-25",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "23fc12ea-e91f-11f1-8342-3959d6bbe499",
+      "type": "pull_request",
+      "action": "synchronize",
+      "pr": 162,
+      "head_sha": "fefd1848d5d104d8a0bb5c6118e36ea3c1985ffa"
+    },
+    {
+      "delivery_id": "2d5a0496-e91f-11f1-9b4a-551cd59b4979",
+      "type": "pull_request",
+      "action": "closed",
+      "merged": true,
+      "pr": 162,
+      "merge_commit_sha": "191f6ace5df46e0a9baa7260c06283d6a84c9151"
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+    "audit_main_after": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
+    "audit_pr_162_head": "fefd1848d5d104d8a0bb5c6118e36ea3c1985ffa",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+  },
+  "observed_repository_state": [
+    "PR 162 has no comments or review submissions and merged at 2026-11-25T22:25:53Z.",
+    "The merged manifest identifies Villagers__Village_Life_Grassroots_Contract (2).pdf through a private Library reference.",
+    "papers/Villagers.pdf and papers/Villagers__Village_Life_Grassroots_Contract.pdf both return 404 on EShapiro2/GLP papers.",
+    "Merged main labels #119, #132, #133, #134 and #138 resolved and reports 23 resolved, 38 open and 7 unanswered."
+  ],
+  "assessment": [
+    "The public-source controls in the publication may independently support Website #138 and selected candidate facts after replay review.",
+    "The paper-level resolution statements for #119 and #132-#134 depend on the unavailable six-page manuscript and cannot be reproduced from authorized public GLP material.",
+    "The merge does not supply independent verification of those paper claims under the saved automation’s source boundary."
+  ],
+  "executed_checks": [],
+  "checks_not_run": [
+    "PR 162's submitted replay was not rerun.",
+    "No native GLP execution, live-site verification or private manuscript inspection was performed."
+  ],
+  "outcome": "Recorded the actual merge without rewriting Stage 120. The public-source verification gap remains a blocker requiring a public versioned manuscript or a corrective audit publication.",
+  "next_actions": [
+    "Publish the exact six-page Villagers revision on EShapiro2/GLP papers or another public versioned source.",
+    "After publication, compare its blob and content with the merged report and independently re-evaluate #119 and #132-#134.",
+    "Review the public-source replay separately for Website #138 and candidate statements; correct main if its claimed execution cannot be reproduced."
+  ],
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162",
+    "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/191f6ace5df46e0a9baa7260c06283d6a84c9151"
+  }
+}

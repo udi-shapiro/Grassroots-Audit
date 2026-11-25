@@ -1,31 +1,9 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T22:29:00.877Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr162-merged",
-    "started_at": "2026-11-25T22:29:00.877Z",
-    "expires_at": "2026-11-25T22:59:00.877Z",
-    "base_head_sha": "e1d89d5a8e4bcc939acd34c7e75445dcb504eae3",
-    "event": {
-      "delivery_id": "23fc12ea-e91f-11f1-8342-3959d6bbe499",
-      "event_type": "pull_request",
-      "action": "synchronize",
-      "pull_request_number": 162,
-      "comment_id": null,
-      "actor_login": "udi-shapiro"
-    }
-  },
-  "pending_events": [
-    {
-      "delivery_id": "2d5a0496-e91f-11f1-9b4a-551cd59b4979",
-      "event_type": "pull_request",
-      "action": "closed",
-      "pull_request_number": 162,
-      "merged": true,
-      "actor_login": "udi-shapiro"
-    }
-  ],
+  "updated_at": "2026-11-25T22:30:42.620Z",
+  "active_run": null,
+  "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
     "id": "Automation_a7418293ed34819191eb13c5bdbeb544",
@@ -54,18 +32,18 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 159,
-  "publication_merge_sha": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+  "publication_pr": 162,
+  "publication_merge_sha": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
     {
       "number": 162,
-      "head_sha": "f4ecd18c0b7ab0b8ba3ecf35e874679b6541faf6",
+      "head_sha": "fefd1848d5d104d8a0bb5c6118e36ea3c1985ffa",
       "base_sha": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
-      "state": "open",
-      "updated_at": "2026-11-25T22:23:55Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
+      "state": "closed",
+      "updated_at": "2026-11-25T22:25:53Z",
+      "merged_at": "2026-11-25T22:25:53Z",
+      "merge_commit_sha": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
       "discussion_version": {
         "comments": 0,
         "reviews": 0,
@@ -80,9 +58,11 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "delivery_ids": [
-        "e7196030-e91e-11f1-9bd5-8da5d9c29e33"
+        "e7196030-e91e-11f1-9bd5-8da5d9c29e33",
+        "23fc12ea-e91f-11f1-8342-3959d6bbe499",
+        "2d5a0496-e91f-11f1-9b4a-551cd59b4979"
       ],
-      "notes": "Main-based audit publication is open at f4ecd18c. It relies on Villagers__Village_Life_Grassroots_Contract (2).pdf from a private Library file recorded in its manifest. Both expected Villagers PDF paths return 404 on public EShapiro2/GLP papers. Paper-level resolutions therefore cannot be reviewed under the authorized public-source boundary. The included public-source controls and candidate checks may be reviewed separately. No submitted replay, GLP runtime, native app, or live-site check was rerun in this event run.",
+      "notes": "Merged at 191f6ace without a GitHub review. The synchronized head still identifies its six-page Villagers manuscript only through a private Library reference, while both expected public EShapiro2/GLP papers paths return 404. Main now labels #119, #132, #133, #134 and #138 resolved. The public-source controls may support #138 and selected candidate statements, but the paper-level resolutions cannot be independently reproduced under the authorized public-source boundary until the exact manuscript is public and versioned. No submitted replay, GLP runtime, native app or live-site check was rerun in this event run.",
       "own_publication": true
     },
     {
@@ -13037,6 +13017,68 @@
       "urls": {
         "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162"
       }
+    },
+    {
+      "delivery_id": "23fc12ea-e91f-11f1-8342-3959d6bbe499",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 162,
+      "comment_id": null,
+      "head_sha": "fefd1848d5d104d8a0bb5c6118e36ea3c1985ffa",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T22:30:42.620Z",
+      "source_pins": {
+        "audit_main_before": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+        "audit_main_after": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "Synchronized publication head retained the private-manuscript dependency and the five paper-level resolution claims. No source-app response was posted.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162"
+      }
+    },
+    {
+      "delivery_id": "2d5a0496-e91f-11f1-9b4a-551cd59b4979",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 162,
+      "comment_id": null,
+      "head_sha": "fefd1848d5d104d8a0bb5c6118e36ea3c1985ffa",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T22:30:42.620Z",
+      "source_pins": {
+        "audit_main": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "PR 162 merged without review. The public main now records five resolutions, but the Villagers manuscript supporting four paper-level conclusions is absent from the authorized public source. Verification remains blocked pending publication of the exact versioned PDF or a corrective audit update.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/191f6ace5df46e0a9baa7260c06283d6a84c9151"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -13059,9 +13101,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+    "audit_main": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
     "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
     "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
-    "observed_at": "2026-11-25T22:27:22.619Z"
+    "observed_at": "2026-11-25T22:30:42.620Z"
   }
 }

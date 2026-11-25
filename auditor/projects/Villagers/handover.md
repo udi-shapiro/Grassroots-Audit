@@ -1,3 +1,7 @@
+## Stage 121 — Revision (2) merged before public-source verification — 25 November 2026 UTC
+
+[PR #162](https://github.com/udi-shapiro/Grassroots-Audit/pull/162) merged at `191f6ace` without review. The exact six-page manuscript remains available only through the report's private Library reference and is absent from public `EShapiro2/GLP:papers`. Treat the merged paper-level resolutions for #119 and #132-#134 as pending reproducibility under the audit's public-source boundary. Website #138 and candidate controls can be assessed separately. Publish the exact PDF publicly, compare it to the report, and correct main if necessary. [Stage record](../../stages/121-pr162-merged-public-source-gap-20261125.json)
+
 ## Stage 120 — Revision (2) publication awaits public manuscript — 25 November 2026 UTC
 
 [PR #162](https://github.com/udi-shapiro/Grassroots-Audit/pull/162) proposes five paper-level resolutions and public-source controls. Its manifest identifies the six-page manuscript by a private Library file ID, while both expected Villagers PDF paths return 404 on public `EShapiro2/GLP:papers`. Leave the publication open until the exact manuscript is public and versioned. The included public GLP controls and candidate checks may be reviewed separately; none was rerun in this event run. [Stage record](../../stages/120-pr158-comments-pr162-public-source-blocker-20261125.json)
