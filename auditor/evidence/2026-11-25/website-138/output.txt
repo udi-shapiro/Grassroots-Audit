@@ -1,0 +1,5 @@
+Booking: 24 -> 31 rules, label order preserved, no duplicate rows
+Tennis-Courts: 48 -> 58 rules, label order preserved, no duplicate rows
+Disputes: 24 -> 31 rules, label order preserved, no duplicate rows
+Own/inherited grouping verified. Tennis Courts Book preserves both clause labels and Alice/Carol guards.
+Extracted renderer: Book displays both origins and both consent roles.

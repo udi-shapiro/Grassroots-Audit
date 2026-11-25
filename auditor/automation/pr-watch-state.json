@@ -1,26 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T18:21:24.883Z",
-  "active_run": {
-    "run_id": "pr-watch-142-cd84aaa2",
-    "started_at": "2026-11-25T18:21:24.883Z",
-    "expires_at": "2026-11-25T18:51:24.883Z",
-    "expected_auditor_head": "c2fd28cc11cfff4c962e2ce9710ebf58520668e1",
-    "events": [
-      {
-        "delivery_id": "cd84aaa2-e8fc-11f1-8da0-8c1486204be0",
-        "pull_request_number": 142,
-        "action": "opened"
-      },
-      {
-        "delivery_id": "d459eaf4-e8fc-11f1-8113-1be14eeccc08",
-        "pull_request_number": 142,
-        "action": "synchronize",
-        "head_sha": "1028cd95fd1f2110a4b5ba809520f5192c7a787a"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T18:29:22.260Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -54,6 +36,103 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 144,
+      "head_sha": "06f8801975ed4aa4b649e9d9e78cb6726ba34d97",
+      "base_sha": "b87853071ed6114965870145eb13baf1434b18be",
+      "state": "open",
+      "updated_at": "2026-11-25T18:27:02Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Own verification publication based on audit main. Verified the parser and extracted renderer for three cascade inputs. Await review and deployment verification."
+    },
+    {
+      "number": 143,
+      "head_sha": "9efa57934673971398bbd5e73292308711bd4f10",
+      "base_sha": "a42227ca088764663797ca855e2284f719d4a136",
+      "state": "closed",
+      "updated_at": "2026-11-25T18:25:44Z",
+      "merged_at": "2026-11-25T18:25:44Z",
+      "merge_commit_sha": "b87853071ed6114965870145eb13baf1434b18be",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV-7kw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062848915,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV-7kw",
+            "commit_id": "9efa57934673971398bbd5e73292308711bd4f10",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T18:25:31Z"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T18:25:31Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaV-7kw",
+      "delivery_id": "2349ceae-e8fd-11f1-99b6-78be73c8760d",
+      "delivery_ids": [
+        "2349ceae-e8fd-11f1-99b6-78be73c8760d",
+        "8da10d44-e8fd-11f1-8b58-48e296bf4785"
+      ],
+      "notes": "Seven dated answers preserved. Reconciled with audit main and merged the approved exact head. Private commit references are project claims. #135 and #137 await answers."
+    },
+    {
+      "number": 142,
+      "head_sha": "9a5fca252879056c8fe7873bc2fb30c6de13e615",
+      "base_sha": "e7b472ed2882d943348749cdd7abe406378cbf39",
+      "state": "closed",
+      "updated_at": "2026-11-25T18:23:28Z",
+      "merged_at": "2026-11-25T18:23:28Z",
+      "merge_commit_sha": "a42227ca088764663797ca855e2284f719d4a136",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV9QNQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6062821429,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV9QNQ",
+            "commit_id": "9a5fca252879056c8fe7873bc2fb30c6de13e615",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T18:23:20Z"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T18:23:20Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaV9QNQ",
+      "delivery_id": "cd84aaa2-e8fc-11f1-8da0-8c1486204be0",
+      "delivery_ids": [
+        "cd84aaa2-e8fc-11f1-8da0-8c1486204be0",
+        "d459eaf4-e8fc-11f1-8113-1be14eeccc08"
+      ],
+      "notes": "Website answer preserved. Aligned summary counts and merged the approved exact head. Independent replay is in PR #144. #138 stays open for deployment."
+    },
     {
       "number": 141,
       "head_sha": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",

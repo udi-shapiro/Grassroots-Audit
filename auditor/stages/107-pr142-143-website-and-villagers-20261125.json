@@ -1,0 +1,217 @@
+{
+  "stage": 107,
+  "date": "2026-11-25T18:29:22.260Z",
+  "title": "Website and Villagers answers preserved; Website parser and renderer checked",
+  "events": [
+    {
+      "delivery_id": "cd84aaa2-e8fc-11f1-8da0-8c1486204be0",
+      "pull_request_number": 142,
+      "action": "opened"
+    },
+    {
+      "delivery_id": "d459eaf4-e8fc-11f1-8113-1be14eeccc08",
+      "pull_request_number": 142,
+      "action": "synchronize",
+      "head_sha": "1028cd95fd1f2110a4b5ba809520f5192c7a787a"
+    },
+    {
+      "delivery_id": "2349ceae-e8fd-11f1-99b6-78be73c8760d",
+      "pull_request_number": 143,
+      "action": "opened",
+      "observed_head_sha": "1e1e5d44a7f386f8608106e696d73938cfad771f"
+    },
+    {
+      "delivery_id": "8da10d44-e8fd-11f1-8b58-48e296bf4785",
+      "pull_request_number": 143,
+      "action": "synchronize",
+      "observed_head_sha": "9efa57934673971398bbd5e73292308711bd4f10"
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "c2fd28cc11cfff4c962e2ce9710ebf58520668e1",
+    "lease_commit": "6b51fd62b17d02a8855eb30faa69139b61616f46",
+    "audit_main_before": "e7b472ed2882d943348749cdd7abe406378cbf39",
+    "pr_142_contributor_head": "1028cd95fd1f2110a4b5ba809520f5192c7a787a",
+    "pr_142_reviewed_head": "9a5fca252879056c8fe7873bc2fb30c6de13e615",
+    "pr_142_merge": "a42227ca088764663797ca855e2284f719d4a136",
+    "pr_143_contributor_head": "1e1e5d44a7f386f8608106e696d73938cfad771f",
+    "pr_143_reviewed_head": "9efa57934673971398bbd5e73292308711bd4f10",
+    "pr_143_merge": "b87853071ed6114965870145eb13baf1434b18be",
+    "verification_pr_base": "b87853071ed6114965870145eb13baf1434b18be",
+    "verification_pr_head": "06f8801975ed4aa4b649e9d9e78cb6726ba34d97",
+    "glp_main": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a",
+    "baseline": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+    "glp_162_head": "55f177a31acfcf1205c3c90de529f2b7dbc596f0"
+  },
+  "discussion_versions": {
+    "142": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaV9QNQ"
+      ],
+      "review_versions": [
+        {
+          "id": 6062821429,
+          "node_id": "PRR_kwDOVrts7s8AAAABaV9QNQ",
+          "commit_id": "9a5fca252879056c8fe7873bc2fb30c6de13e615",
+          "state": "APPROVED",
+          "submitted_at": "2026-11-25T18:23:20Z"
+        }
+      ],
+      "latest_comments": [],
+      "latest_item_at": "2026-11-25T18:23:20Z"
+    },
+    "143": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaV-7kw"
+      ],
+      "review_versions": [
+        {
+          "id": 6062848915,
+          "node_id": "PRR_kwDOVrts7s8AAAABaV-7kw",
+          "commit_id": "9efa57934673971398bbd5e73292308711bd4f10",
+          "state": "APPROVED",
+          "submitted_at": "2026-11-25T18:25:31Z"
+        }
+      ],
+      "latest_comments": [],
+      "latest_item_at": "2026-11-25T18:25:31Z"
+    },
+    "144": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "latest_item_at": null
+    }
+  },
+  "links": {
+    "website_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/142",
+    "villagers_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/143",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/144",
+    "fix": "https://github.com/EShapiro2/GLP/pull/162",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/138"
+  },
+  "issues": [
+    {
+      "number": 119,
+      "state": "open"
+    },
+    {
+      "number": 130,
+      "state": "open"
+    },
+    {
+      "number": 131,
+      "state": "open"
+    },
+    {
+      "number": 132,
+      "state": "open"
+    },
+    {
+      "number": 133,
+      "state": "open"
+    },
+    {
+      "number": 134,
+      "state": "open"
+    },
+    {
+      "number": 135,
+      "state": "open"
+    },
+    {
+      "number": 136,
+      "state": "open"
+    },
+    {
+      "number": 137,
+      "state": "open"
+    },
+    {
+      "number": 138,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    "GLP PR #162 merged at the pinned public main. The fixed parser retains each origin label and the renderer names each origin.",
+    "The pinned public GLP main and papers trees lack the revised Villagers artifacts and a Villagers PDF. The published 25 November audit reports the supplied revision dropped the broad recovery claim. This does not verify the cited private revision. Existing public Warnings still records officer-target flags."
+  ],
+  "project_claims": [
+    "Website reports live review and complete counts across the site. The independent replay covered three cascade inputs, grouping and an extracted HTML fragment.",
+    "Villagers cites 3adaa3b for #130–134 and the Warnings proposal #136, pending approval, and 09035ad for #119. Personal emergency forwarding among friends is retained by design."
+  ],
+  "executed_checks": [
+    {
+      "commands": [
+        "python3 verify.py",
+        "node render.cjs"
+      ],
+      "versions": [
+        "Python 3.12.14",
+        "v24.22.3"
+      ],
+      "exit_code": 0,
+      "evidence_dir": "auditor/evidence/2026-11-25/website-138",
+      "inputs": [
+        {
+          "path": "old.py",
+          "ref": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+          "glp_path": "servers/peoplesweb/tools/build.py",
+          "blob": "9965fdca5ef10d7595653be43a03374914a478cf"
+        },
+        {
+          "path": "glp/servers/peoplesweb/tools/build.py",
+          "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+          "glp_path": "servers/peoplesweb/tools/build.py",
+          "blob": "4ef5f991f4c58eb9d64bccddbbf4dbe2ea21d3d9"
+        },
+        {
+          "path": "glp/servers/peoplesweb/web/index.html",
+          "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+          "glp_path": "servers/peoplesweb/web/index.html",
+          "blob": "bc9d29ce176d256d581276a24832a993a9799ca8"
+        },
+        {
+          "path": "glp/cascade/Booking/full-schemas.txt",
+          "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+          "glp_path": "cascade/Booking/full-schemas.txt",
+          "blob": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+        },
+        {
+          "path": "glp/cascade/Tennis-Courts/full-schemas.txt",
+          "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+          "glp_path": "cascade/Tennis-Courts/full-schemas.txt",
+          "blob": "b3b6d2d31f3b56823fe3e9a5978e82f18c6a9586"
+        },
+        {
+          "path": "glp/cascade/Disputes/full-schemas.txt",
+          "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+          "glp_path": "cascade/Disputes/full-schemas.txt",
+          "blob": "4c981b28d73f4acffff5f2c535b80c29e64fc38b"
+        }
+      ],
+      "result": "Booking: 24 -> 31 rules, label order preserved, no duplicate rows\nTennis-Courts: 48 -> 58 rules, label order preserved, no duplicate rows\nDisputes: 24 -> 31 rules, label order preserved, no duplicate rows\nOwn/inherited grouping verified. Tennis Courts Book preserves both clause labels and Alice/Carol guards.\nExtracted renderer: Book displays both origins and both consent roles.\n"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "result": "PR 142: 35 reports, 60 findings, 16 unanswered, byte-identical submitted table. PR 143: 35 reports, 60 findings, nine unanswered, with only the two Villagers rows changed relative to PR 142. Verified the merged table. PR 144 preserves the table because the Answer and finding counts do not change."
+    }
+  ],
+  "next": [
+    "Review and merge #144 when reviewed. Check the deployed #138 page and build revision independently before closing the issue.",
+    "Verify the seven Villagers responses when their artifacts are public. Keep #134 open on forwarding scope, #136 open for GCE adoption and #119 open for public paper comparison. #135 and #137 await Calculus answers."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "inputs": [
+    {
+      "path": "old.py",
+      "ref": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+      "glp_path": "servers/peoplesweb/tools/build.py",
+      "blob": "9965fdca5ef10d7595653be43a03374914a478cf"
+    },
+    {
+      "path": "glp/servers/peoplesweb/tools/build.py",
+      "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+      "glp_path": "servers/peoplesweb/tools/build.py",
+      "blob": "4ef5f991f4c58eb9d64bccddbbf4dbe2ea21d3d9"
+    },
+    {
+      "path": "glp/servers/peoplesweb/web/index.html",
+      "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+      "glp_path": "servers/peoplesweb/web/index.html",
+      "blob": "bc9d29ce176d256d581276a24832a993a9799ca8"
+    },
+    {
+      "path": "glp/cascade/Booking/full-schemas.txt",
+      "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+      "glp_path": "cascade/Booking/full-schemas.txt",
+      "blob": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+    },
+    {
+      "path": "glp/cascade/Tennis-Courts/full-schemas.txt",
+      "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+      "glp_path": "cascade/Tennis-Courts/full-schemas.txt",
+      "blob": "b3b6d2d31f3b56823fe3e9a5978e82f18c6a9586"
+    },
+    {
+      "path": "glp/cascade/Disputes/full-schemas.txt",
+      "ref": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+      "glp_path": "cascade/Disputes/full-schemas.txt",
+      "blob": "4c981b28d73f4acffff5f2c535b80c29e64fc38b"
+    }
+  ],
+  "reproduction": [
+    "Place the pinned blobs at the listed relative paths.",
+    "Run python3 verify.py && node render.cjs."
+  ]
+}

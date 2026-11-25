@@ -1,3 +1,7 @@
+## Stage 107 — Website and Villagers answers merged — 25 November 2026 UTC
+
+[Website’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/142) is on main. The independent replay recovered 31/31 Booking, 58/58 Tennis Courts and 31/31 Disputes rules, retained every origin label and rendered Booking + Tennis Courts with Alice and Carol for Book. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/144) awaits review. Keep [#138](https://github.com/udi-shapiro/Grassroots-Audit/issues/138) open pending an independent deployment check. · [Stage record](../../stages/107-pr142-143-website-and-villagers-20261125.json)
+
 ## Stage 105 — PR #139 publication replayed — 25 November 2026 UTC
 
 Issue #138 remains open. The Website parser returned 24/31 Booking, 48/58 Tennis Courts and 24/31 Disputes rules using inputs identical to the corresponding cascade files. After a public correction, rerun the three schema controls, require 31/31, 58/58 and 31/31 once each, and check multi-origin provenance and Tennis Courts Book rendering. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/servers/peoplesweb/tools/build.py.md) · [Stage record](../../stages/105-pr139-villagers-publication-replay-20261125.json)

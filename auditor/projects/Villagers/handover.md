@@ -1,3 +1,7 @@
+## Stage 107 — Website and Villagers answers merged — 25 November 2026 UTC
+
+[PR #143](https://github.com/udi-shapiro/Grassroots-Audit/pull/143) preserves seven dated Villagers answers for #119, #130–134 and #136. The cited revisions await public-artifact verification. #134 still allows forwarding among friends, #136 is a proposal for GCE, and #135 and #137 await Calculus answers. · [Stage record](../../stages/107-pr142-143-website-and-villagers-20261125.json)
+
 ## Stage 105 — PR #139 publication replayed — 25 November 2026 UTC
 
 Issues #130–137 remain open. The replay confirms the bounded inherited-source checks. Runtime and current Villagers pragmas await public artifacts. Review dated project answers and publicly versioned sources for the revised contracts, pragmas and generated applications. Preserve the earlier manuscript’s finding identifiers. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/Villagers.pdf.md) · [Stage record](../../stages/105-pr139-villagers-publication-replay-20261125.json)

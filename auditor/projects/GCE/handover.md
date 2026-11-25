@@ -1,3 +1,7 @@
+## Stage 107 — Website and Villagers answers merged — 25 November 2026 UTC
+
+[PR #143](https://github.com/udi-shapiro/Grassroots-Audit/pull/143) preserves the Warnings proposal for #136. The pinned public Warnings contract retains officer-target flags. Await GCE adoption that can be checked for incident identity, reply, withdrawal, annulment and expulsion counting. · [Stage record](../../stages/107-pr142-143-website-and-villagers-20261125.json)
+
 ## Stage 106 — Agora Withdraw review — 25 November 2026 UTC
 
 The report needs a narrower claim about the adopted interface, a distinction between binding and active-post filtering, issue and index links, and regenerated status. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6062751245) · [Issue](https://github.com/udi-shapiro/Grassroots-Audit/issues/140) · [Stage record](../../stages/106-pr141-agora-withdraw-review-20261125.json)
