@@ -1,0 +1,142 @@
+{
+  "stage": 125,
+  "title": "Chess answers published with generated-schema disagreement; Villagers answers merged",
+  "date_utc": "2026-11-25",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "54bca10e-e926-11f1-9c50-bbf6eb5d494d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 158,
+      "comment_id": 7177358398,
+      "head_sha": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066,
+          7177358398
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          },
+          {
+            "id": 7177358398,
+            "updated_at": "2026-11-25T23:17:05Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T23:17:05Z"
+      },
+      "processed_at": "2026-11-25T23:48:30.000Z",
+      "outcome": "GCE #2’s answer preserved in PR #175; exact public generated schemas do not contain the claimed fixes.",
+      "urls": {
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7177358398",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175"
+      }
+    },
+    {
+      "delivery_id": "5c4243de-e926-11f1-9335-15ccbd384a75",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 164,
+      "comment_id": null,
+      "head_sha": "1f9c5f932a8148045d5a4462c618aa62dcefc293",
+      "processed_at": "2026-11-25T23:48:30.000Z",
+      "outcome": "Reviewed the answer-only Villagers changes."
+    },
+    {
+      "delivery_id": "c6d89e98-e929-11f1-92e1-2f848c8463d6",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 164,
+      "comment_id": null,
+      "head_sha": "1f9c5f932a8148045d5a4462c618aa62dcefc293",
+      "processed_at": "2026-11-25T23:48:30.000Z",
+      "outcome": "Merged at 23a8c87b with expected-head protection."
+    },
+    {
+      "delivery_id": "7fc38fbc-e92a-11f1-9545-401c1f60329e",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 175,
+      "comment_id": null,
+      "head_sha": "0059fb263ac079ddbf440020745612e103132721",
+      "processed_at": "2026-11-25T23:48:30.000Z",
+      "outcome": "Own publication event recorded; no reply."
+    }
+  ],
+  "skipped_events": [
+    {
+      "delivery_id": "709b9b6e-e926-11f1-85ed-30c5041af9fd",
+      "pull_request_number": 165,
+      "reason": "Exact head and empty discussion already recorded as the auditor’s own publication in Stage 122."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "23a8c87ba262d48f397e1d9699bdffa684980264",
+    "audit_pr_158_head": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+    "audit_pr_164_head": "1f9c5f932a8148045d5a4462c618aa62dcefc293",
+    "audit_pr_175_head": "0059fb263ac079ddbf440020745612e103132721",
+    "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+    "chess_first_answer": "0ec40a31e25e72e672ebf0367f19d1febdb0cea0",
+    "chess_and_warnings_answer": "e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+    "glp_pr_177_head": "f56f3eb5fe773450a244632ad8cf2cc3ee0720cb"
+  },
+  "project_claims": [
+    "GCE #2 says e08383fd corrects Chess automatic, claim-based and agreed draws and prevents reuse of a game identifier.",
+    "GCE #2 says the same source corrects Warnings by retaining warnings after an officer leaves and delaying their Expel effect by seven days."
+  ],
+  "source_inspection": [
+    "Public commit e08383fd resolves and changes Chess.txt, Chess-functions.glp, Warnings.txt and test/run_all_tests.sh.",
+    "Chess.glp at exact commit e08383fd is unchanged: Start checks and records started only for Alice, and no autodraw, plies or two-half-move Draw guard appears.",
+    "Warnings.glp at exact commit e08383fd is unchanged: warning facts have no date and Expel counts two warning issuers immediately.",
+    "Public GLP main and papers remain 6b8c8879 and d5669de3."
+  ],
+  "executed_checks": [
+    "python3 bin/status.py on the current-main report set plus the Chess publication: 37 reports, 69 findings, 12 unanswered; the three answered Chess findings contribute zero unanswered."
+  ],
+  "checks_not_run": [
+    "The project-reported gcsas.py, relations.py, toglp.py, 55 Chess checks, GLP runtime, Dart and app execution were not run in this event run."
+  ],
+  "outcome": "PR #164 merged the dated Villagers answers without verifying their fixes. PR #175 publishes the three Chess findings, both dated GCE answers and the exact-source disagreement. Chess #157, #160 and #161 and Villagers #136 remain open. PR #175 awaits independent exact-head review.",
+  "next_actions": [
+    "Review PR #175 at exact head 0059fb26 and merge only after independent review.",
+    "Regenerate Chess.glp and Warnings.glp from the corrected texts, integrate them on public GLP main, then run focused collision, draw and seven-day-warning controls.",
+    "After PR #175 merges, close or reconcile the superseded contributor PR #158 while preserving its discussion."
+  ],
+  "links": {
+    "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7177358398",
+    "villagers_answer_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/164",
+    "villagers_merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/23a8c87ba262d48f397e1d9699bdffa684980264",
+    "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+    "chess_source": "https://github.com/EShapiro2/GLP/commit/e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/125-chess-and-villagers-answers-20261125.json"
+  }
+}
