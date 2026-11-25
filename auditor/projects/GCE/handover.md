@@ -1,3 +1,7 @@
+## Stage 109 — Warnings follow-up and Agora review — 25 November 2026 UTC
+
+[PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146) preserves GCE’s one-active-warning revision. The bounded source check blocks the earlier undercount witness. Keep #136 open for adopted schemas and runtime. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) now includes the follow-up. [PR #141](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6063078015) now has a narrower report and a reproducible proposed table. Changes requested for the conditional local wall copy after delivery and for the keeper-uniqueness claim across Open and Join. #140 remains open. · [Stage record](../../stages/109-pr146-follow-up-and-pr141-review-20261125.json)
+
 ## Stage 108 — GCE and GM candidates checked — 25 November 2026 UTC
 
 Disputes #135’s candidate adds a persistent organisation/issue key and both ruling records. Warnings #136 still removes the shared officer flag when an officer’s other incident remains active. Keep both findings open. [Answer PR #145](https://github.com/udi-shapiro/Grassroots-Audit/pull/145) is merged. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) awaits review. · [Stage record](../../stages/108-pr145-gce-gm-candidate-verification-20261125.json)

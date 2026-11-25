@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T18:39:19.561Z",
-  "active_run": {
-    "run_id": "pr-watch-146-4dbe0bf8",
-    "started_at": "2026-11-25T18:39:19.561Z",
-    "expires_at": "2026-11-25T19:09:19.561Z",
-    "expected_auditor_head": "5d846f50d2e0b46abb60a422171c5ed80a5b219c",
-    "events": [
-      {
-        "delivery_id": "4dbe0bf8-e8ff-11f1-8c2a-2283734cea83",
-        "pull_request_number": 146,
-        "action": "synchronize",
-        "head_sha": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T18:43:11.382Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,11 +37,46 @@
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
     {
-      "number": 147,
-      "head_sha": "b98d78ff1e4c0809df2703013617427d0d4b69b7",
+      "number": 146,
+      "head_sha": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee",
       "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
+      "state": "closed",
+      "updated_at": "2026-11-25T18:40:30Z",
+      "merged_at": "2026-11-25T18:40:30Z",
+      "merge_commit_sha": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWLGrA"
+        ],
+        "review_versions": [
+          {
+            "id": 6063048364,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWLGrA",
+            "commit_id": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T18:40:22Z"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T18:40:22Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWLGrA",
+      "delivery_ids": [
+        "4dbe0bf8-e8ff-11f1-8c2a-2283734cea83"
+      ],
+      "notes": "Two dated follow-ups merged. The revised Warnings guard passes a source projection. Tennis Courts quota implementation remains pending."
+    },
+    {
+      "number": 147,
+      "head_sha": "0a9bf3aa37f658069e4c38b1cc3fe1b0bc133ed5",
+      "base_sha": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
       "state": "open",
-      "updated_at": "2026-11-25T18:36:00Z",
+      "updated_at": "2026-11-25T18:42:14Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
@@ -70,7 +92,7 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "delivery_ids": [],
-      "notes": "Own verification publication for public Disputes, Warnings and Tennis Courts candidates. Await review."
+      "notes": "Own main-based verification PR updated to retain earlier evidence and record the public Warnings follow-up and Tennis Courts quota limits. Await review."
     },
     {
       "number": 145,
@@ -209,18 +231,19 @@
     },
     {
       "number": 141,
-      "head_sha": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
-      "base_sha": "e7b472ed2882d943348749cdd7abe406378cbf39",
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
+      "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
       "state": "open",
-      "updated_at": "2026-11-25T18:17:46Z",
+      "updated_at": "2026-11-25T18:42:02Z",
       "merged_at": null,
       "discussion_version": {
         "comments": 0,
-        "reviews": 1,
+        "reviews": 2,
         "review_threads": 0,
         "comment_ids": [],
         "review_ids": [
-          "PRR_kwDOVrts7s8AAAABaV4-DQ"
+          "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "PRR_kwDOVrts7s8AAAABaWM6fw"
         ],
         "review_versions": [
           {
@@ -229,15 +252,27 @@
             "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
             "state": "CHANGES_REQUESTED",
             "submitted_at": "2026-11-25T18:17:46Z"
+          },
+          {
+            "id": 6063078015,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:42:02Z"
           }
         ],
         "latest_comments": [],
-        "latest_item_at": "2026-11-25T18:17:46Z"
+        "latest_item_at": "2026-11-25T18:42:02Z"
       },
       "comment_cursor": "none",
-      "review_cursor": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWM6fw",
       "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
-      "notes": "Source supports a scope-limited local binding gap. posted and member are historical candidate bindings and cannot alone filter for active posts. Exact head reviewed with changes requested. Issue #140 remains open and unanswered."
+      "notes": "The revised Agora report and regenerated table were checked. Changes requested to distinguish the conditional local wall copy and avoid assuming keeper uniqueness from Join alone. #140 stays open.",
+      "merge_commit_sha": null,
+      "delivery_ids": [
+        "35126e44-e8fc-11f1-9811-8f4b318fe744",
+        "51cc1870-e8ff-11f1-8752-383e0d5e3890"
+      ]
     },
     {
       "number": 139,

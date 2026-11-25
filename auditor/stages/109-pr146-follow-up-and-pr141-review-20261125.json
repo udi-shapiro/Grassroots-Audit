@@ -1,0 +1,162 @@
+{
+  "stage": 109,
+  "date": "2026-11-25T18:43:11.382Z",
+  "title": "Warnings and Tennis Courts follow-ups merged; Agora revision reviewed",
+  "events": [
+    {
+      "delivery_id": "4dbe0bf8-e8ff-11f1-8c2a-2283734cea83",
+      "pull_request_number": 146,
+      "action": "synchronize",
+      "head_sha": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee"
+    },
+    {
+      "delivery_id": "51cc1870-e8ff-11f1-8752-383e0d5e3890",
+      "pull_request_number": 141,
+      "action": "synchronize",
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71"
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "5d846f50d2e0b46abb60a422171c5ed80a5b219c",
+    "lease_commit": "b9a35df84e166e3b3dfd60fc5fcaf7904a4c2c8e",
+    "audit_main_before": "f96ca01995068aa664300c62e3659c87993a8cc9",
+    "audit_main": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
+    "pr_146_head": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee",
+    "pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+    "verification_old_head": "b98d78ff1e4c0809df2703013617427d0d4b69b7",
+    "verification_head": "0a9bf3aa37f658069e4c38b1cc3fe1b0bc133ed5",
+    "verification_base": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
+    "glp_main": "9d0952c77bca2455f2d4c63b0eb1f00707b368d5",
+    "glp_papers": "e9a702c74311afb971f623493220650b6e90919f",
+    "warnings_candidate": "bbf4f7ec3f3cdcfa3aa2e5b438b9380bcc86bb82",
+    "warnings_previous": "ab9002a0d3d4efd5bc68c18689344f480c4964db"
+  },
+  "discussion_versions": {
+    "141": {
+      "comments": 0,
+      "reviews": 2,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaV4-DQ",
+        "PRR_kwDOVrts7s8AAAABaWM6fw"
+      ],
+      "review_versions": [
+        {
+          "id": 6062751245,
+          "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-25T18:17:46Z"
+        },
+        {
+          "id": 6063078015,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+          "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-25T18:42:02Z"
+        }
+      ],
+      "latest_comments": [],
+      "latest_item_at": "2026-11-25T18:42:02Z"
+    },
+    "146": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWLGrA"
+      ],
+      "review_versions": [
+        {
+          "id": 6063048364,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWLGrA",
+          "commit_id": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee",
+          "state": "APPROVED",
+          "submitted_at": "2026-11-25T18:40:22Z"
+        }
+      ],
+      "latest_comments": [],
+      "latest_item_at": "2026-11-25T18:40:22Z"
+    },
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "latest_item_at": null
+    }
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/146",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "agora_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6063078015",
+    "warning_candidate": "https://github.com/EShapiro2/GLP/commit/bbf4f7ec3f3cdcfa3aa2e5b438b9380bcc86bb82"
+  },
+  "issues": [
+    {
+      "number": 136,
+      "state": "open"
+    },
+    {
+      "number": 137,
+      "state": "open"
+    },
+    {
+      "number": 140,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "blob": "65900d028b35697742e89aeddf66ca03232b559e",
+      "result": "Revised Warn forbids an existing shared officer–target flag. Both withdrawal effects delete the flag and selected incident."
+    },
+    {
+      "path": "calculus/contracts/Booking/full-schemas.txt",
+      "blob": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d",
+      "result": "Booking:0 declares the outstanding-bookings bound as an environment input."
+    },
+    {
+      "path": "calculus/tools/gcsas.py",
+      "blob": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+      "result": "The cited COUNTW production matches persons. No count-grammar execution or full grammar coverage is claimed."
+    },
+    {
+      "path": "calculus/contracts/Agora/term.glp.txt",
+      "blob": "cbb929fb5f1d9c65ad6db7f4dbd978d66eca4e9d",
+      "expanded_schemas_blob": "43ccb8e149a8a4e5ca5ea2988549bd2f4facc43f",
+      "adopted_interface_blob": "f3dd30a60edf951d530ab6ef82e868a62c1f598c",
+      "result": "At GLP 9d0952c, the compiled Withdraw conjunct includes recipient E1 and its local wall copy. Deliver to poster proves E1 can be Carol. This conditional local fact does not cover withdrawal before delivery. Join checks member, Open checks keeper. Join alone does not establish uniqueness across entry paths."
+    }
+  ],
+  "executed_checks": [
+    {
+      "method": "Bounded set projections from the pinned warning effects, with independent source assertions",
+      "result": "The revised-guard set projection refused a second active Alice-to-Bob warning, admitted Carol-to-Bob and Alice-to-Dan, removed the selected warning from its officer count through both Withdraw and Annul, and admitted a fresh warning after removal."
+    },
+    {
+      "method": "Assertions on the pinned Agora term and schemas",
+      "result": "At GLP 9d0952c, the compiled Withdraw conjunct includes recipient E1 and its local wall copy. Deliver to poster proves E1 can be Carol. This conditional local fact does not cover withdrawal before delivery. Join checks member, Open checks keeper. Join alone does not establish uniqueness across entry paths."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "result": "Reproduced each submitted table byte for byte. Merged PR #146: 35 reports, 60 findings, seven unanswered. Proposed PR #141: 36 reports, 61 findings, eight unanswered."
+    }
+  ],
+  "project_claims": [
+    "GCE reports successful full catalogue and relation checks and translation.",
+    "GM cites the Booking declaration and leaves partner-quota implementation pending."
+  ],
+  "coverage": "No independent GLP runtime, full grammar test, compiler or project catalogue rerun.",
+  "next": [
+    "Merge verification PR #147 after review. Check adopted Warnings under concurrent Warn and both removal paths.",
+    "Verify the Tennis Courts quota through adopted and integrated sources or an explicit environment obligation.",
+    "Review revised Agora wording on a new exact head. Preserve #140 and its open state."
+  ]
+}
