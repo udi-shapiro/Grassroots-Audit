@@ -1,3 +1,7 @@
+## Stage 120 — Revision (2) publication awaits public manuscript — 25 November 2026 UTC
+
+[PR #162](https://github.com/udi-shapiro/Grassroots-Audit/pull/162) proposes five paper-level resolutions and public-source controls. Its manifest identifies the six-page manuscript by a private Library file ID, while both expected Villagers PDF paths return 404 on public `EShapiro2/GLP:papers`. Leave the publication open until the exact manuscript is public and versioned. The included public GLP controls and candidate checks may be reviewed separately; none was rerun in this event run. [Stage record](../../stages/120-pr158-comments-pr162-public-source-blocker-20261125.json)
+
 ## Stage 119 — Care follow-up publication merged — 25 November 2026 UTC
 
 [PR #159](https://github.com/udi-shapiro/Grassroots-Audit/pull/159) merged at `a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78`, preserving Villagers Audit #5’s dated Care follow-up. This records the project answer without verifying the absent-leader revision. Finding #130 stays open. Verify the public versioned Care source and the unauthorised, absent-leader, cancellation and missed-visit cases when available. [Stage record](../../stages/119-pr158-chess-revision-20261125.json)

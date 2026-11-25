@@ -1,32 +1,9 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T22:23:57.845Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr158-comments-0ec40a3",
-    "started_at": "2026-11-25T22:23:57.845Z",
-    "expires_at": "2026-11-25T22:53:57.845Z",
-    "base_head_sha": "1319b625203be64e61d9c6d68996b6a28e31fcc1",
-    "event": {
-      "delivery_id": "47f3bf92-e91d-11f1-95f8-15336aaa175e",
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 158,
-      "comment_id": 7176068668,
-      "actor_login": "nimrodtalmon"
-    }
-  },
-  "pending_events": [
-    {
-      "delivery_id": "reconciled-7176104066",
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 158,
-      "comment_id": 7176104066,
-      "actor_login": "EShapiro2",
-      "note": "Omitted recent comment discovered during connector reconciliation."
-    }
-  ],
+  "updated_at": "2026-11-25T22:27:22.619Z",
+  "active_run": null,
+  "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
     "id": "Automation_a7418293ed34819191eb13c5bdbeb544",
@@ -60,6 +37,33 @@
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
     {
+      "number": 162,
+      "head_sha": "f4ecd18c0b7ab0b8ba3ecf35e874679b6541faf6",
+      "base_sha": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+      "state": "open",
+      "updated_at": "2026-11-25T22:23:55Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [
+        "e7196030-e91e-11f1-9bd5-8da5d9c29e33"
+      ],
+      "notes": "Main-based audit publication is open at f4ecd18c. It relies on Villagers__Village_Life_Grassroots_Contract (2).pdf from a private Library file recorded in its manifest. Both expected Villagers PDF paths return 404 on public EShapiro2/GLP papers. Paper-level resolutions therefore cannot be reviewed under the authorized public-source boundary. The included public-source controls and candidate checks may be reviewed separately. No submitted replay, GLP runtime, native app, or live-site check was rerun in this event run.",
+      "own_publication": true
+    },
+    {
       "number": 159,
       "head_sha": "e4aecf46ef29382a638d58e6fea0fdd3090ebe64",
       "base_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
@@ -81,7 +85,8 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "delivery_ids": [
-        "59dc446e-e91c-11f1-9a73-e2544fe26839"
+        "59dc446e-e91c-11f1-9a73-e2544fe26839",
+        "507ab9d6-e91d-11f1-9d99-9af0c58a6f9f"
       ],
       "notes": "Own main-based publication preserving Villagers Audit #5’s Care follow-up, merged manually at a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78. Exact-tree status regeneration was byte-identical at 36 reports, 61 findings and 7 unanswered. The project answer is preserved without verification; #130 remains open.",
       "own_publication": true
@@ -91,14 +96,17 @@
       "head_sha": "d1f7d094086161e4b2f0784b22499ba0766c0688",
       "base_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
       "state": "open",
-      "updated_at": "2026-11-25T22:11:58Z",
+      "updated_at": "2026-11-25T22:14:01Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 1,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7176068668,
+          7176104066
+        ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaYpeFQ"
         ],
@@ -111,18 +119,28 @@
             "submitted_at": "2026-11-25T22:06:08Z"
           }
         ],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-25T22:06:08Z"
+        "latest_item_at": "2026-11-25T22:14:01Z"
       },
-      "comment_cursor": "none",
+      "comment_cursor": 7176104066,
       "review_cursor": "PRR_kwDOVrts7s8AAAABaYpeFQ",
       "delivery_ids": [
         "90c28534-e91b-11f1-8e6a-fc7cfbe5a4dd",
         "6be9e4ea-e91c-11f1-9022-4298baaa7a4d",
-        "3bb25f68-e91d-11f1-9866-3701efe24551"
+        "3bb25f68-e91d-11f1-9866-3701efe24551",
+        "47f3bf92-e91d-11f1-95f8-15336aaa175e"
       ],
-      "notes": "Revised head addresses public-source attribution, date, issue indexing and generated status, and narrows the report to three source-supported findings. Exact-tree status regeneration was byte-identical at 37 reports, 64 findings and 10 unanswered. Official FIDE Laws support the draw classification; the focused two-Start projection supports the collision. The report still treats absence of a clock as a design choice while incorporating the full FIDE Laws, including Article 6. Leave open pending consistent rule scope and a new exact-head review. No GLP, Dart, calculus or cascade execution was performed."
+      "notes": "Head d1f7d094 addresses the original audit review, but remains open for the FIDE clock-rule classification recorded in Stage 119. Comment 7176104066 supplies GCE’s dated answer against the earlier five-finding draft and cites public candidate 0ec40a31. Source inspection shows that commit changes Chess.txt only: Chess.glp at the same commit still has the old Start and Draw schemas, the current compiler still treats Chess functions as beyond it, the accepted Start-collision Finding 3 remains, and the proposed Claim draw still does not encode automatic termination or the agreed-draw move condition. Preserve the project answer later under the current stable findings without treating it as verification."
     },
     {
       "number": 156,
@@ -12826,6 +12844,177 @@
         "source_pr": "https://github.com/EShapiro2/GLP/pull/177",
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/119-pr158-chess-revision-20261125.json"
       }
+    },
+    {
+      "delivery_id": "47f3bf92-e91d-11f1-95f8-15336aaa175e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 158,
+      "comment_id": 7176068668,
+      "head_sha": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:14:01Z"
+      },
+      "processed_at": "2026-11-25T22:27:22.619Z",
+      "source_pins": {
+        "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+        "audit_pr_158": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+        "glp_pr_177": "4b04f5615179437d43da139b11cbfc9657323643"
+      },
+      "outcome": "Contributor explained the d1f7d094 revision already inspected in Stage 119. The comment adds the new discussion version but no further source change.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7176068668"
+      }
+    },
+    {
+      "delivery_id": "507ab9d6-e91d-11f1-9d99-9af0c58a6f9f",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 159,
+      "comment_id": null,
+      "head_sha": "e4aecf46ef29382a638d58e6fea0fdd3090ebe64",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T22:27:22.619Z",
+      "source_pins": {
+        "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "Already reconciled at the same head and merge SHA in Stage 119. Recorded the supplied delivery without another publication or reply.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/159"
+      }
+    },
+    {
+      "delivery_id": "reconciled-7176104066",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 158,
+      "comment_id": 7176104066,
+      "head_sha": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:14:01Z"
+      },
+      "processed_at": "2026-11-25T22:27:22.619Z",
+      "source_pins": {
+        "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+        "candidate": "0ec40a31e25e72e672ebf0367f19d1febdb0cea0"
+      },
+      "outcome": "Omitted recent GCE answer discovered during connector reconciliation. The answer uses the earlier five-finding numbering. Public source inspection found Chess.txt revised but Chess.glp unchanged at the same commit; current Finding 1 remains dependent on compiler support, Finding 2 is incomplete, and current Finding 3 is unaddressed. Preserve the answer without verification after mapping it to the stable findings.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7176104066",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/0ec40a31e25e72e672ebf0367f19d1febdb0cea0"
+      }
+    },
+    {
+      "delivery_id": "e7196030-e91e-11f1-9bd5-8da5d9c29e33",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 162,
+      "comment_id": null,
+      "head_sha": "f4ecd18c0b7ab0b8ba3ecf35e874679b6541faf6",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T22:27:22.619Z",
+      "source_pins": {
+        "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+        "pr_head": "f4ecd18c0b7ab0b8ba3ecf35e874679b6541faf6"
+      },
+      "outcome": "Left open. Five paper-level resolutions rely on a Library-only six-page Villagers PDF absent from the public GLP papers branch. Public-source controls can be reviewed separately; the paper claims require a public versioned artifact.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -12851,6 +13040,6 @@
     "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
     "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
     "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
-    "observed_at": "2026-11-25T22:18:30.763Z"
+    "observed_at": "2026-11-25T22:27:22.619Z"
   }
 }

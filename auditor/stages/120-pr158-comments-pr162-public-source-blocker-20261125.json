@@ -1,0 +1,82 @@
+{
+  "stage": 120,
+  "title": "PR 158 comments, GCE candidate inspection and PR 162 public-source blocker",
+  "date_utc": "2026-11-25",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "47f3bf92-e91d-11f1-95f8-15336aaa175e",
+      "type": "issue_comment",
+      "pr": 158,
+      "comment_id": 7176068668,
+      "outcome": "Recorded contributor explanation of the revised audit head."
+    },
+    {
+      "delivery_id": "507ab9d6-e91d-11f1-9d99-9af0c58a6f9f",
+      "type": "pull_request",
+      "action": "closed",
+      "pr": 159,
+      "outcome": "Same merge already reconciled in Stage 119; delivery recorded without a loop."
+    },
+    {
+      "delivery_id": "reconciled-7176104066",
+      "type": "issue_comment",
+      "pr": 158,
+      "comment_id": 7176104066,
+      "outcome": "Omitted GCE answer discovered and source-inspected."
+    },
+    {
+      "delivery_id": "e7196030-e91e-11f1-9bd5-8da5d9c29e33",
+      "type": "pull_request",
+      "action": "opened",
+      "pr": 162,
+      "outcome": "Publication inspected and left open for a public source artifact."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+    "audit_pr_158_head": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+    "audit_pr_162_head": "f4ecd18c0b7ab0b8ba3ecf35e874679b6541faf6",
+    "chess_candidate": "0ec40a31e25e72e672ebf0367f19d1febdb0cea0"
+  },
+  "source_inspection": {
+    "pr158": [
+      "Comment 7176068668 accurately describes the d1f7d094 audit revision already checked in Stage 119.",
+      "Comment 7176104066 is a dated GCE answer against the earlier five-finding draft. It must be mapped to the current stable three findings before publication.",
+      "At 0ec40a31 Chess.txt adds a date-based correspondence clock, colour choice and Claim draw, but the commit changes only Chess.txt. Chess.glp at the same commit retains the old Start, Move, Win, Resign and joint Draw schemas.",
+      "cvac.glp still recognizes only min, floor and size, so accepted Finding 1 remains open.",
+      "Claim draw treats all draw cases as a player claim, leaves automatic termination and the agreed-draw move condition unencoded, so accepted Finding 2 remains open.",
+      "The current Start-collision Finding 3 is unaddressed. The stale Chess.glp still guards only not started(Alice,Game) and records started only for Alice."
+    ],
+    "pr162": [
+      "The report manifest identifies Villagers__Village_Life_Grassroots_Contract (2).pdf by a private Library file ID.",
+      "papers/Villagers.pdf and papers/Villagers__Village_Life_Grassroots_Contract.pdf both return 404 on public EShapiro2/GLP papers.",
+      "The publication closes five paper-level findings using that unavailable manuscript. Those claims cannot be independently reviewed under the authorized public-source boundary.",
+      "The included source-control script and recorded JSON concern public GLP files and candidate commits and may be reviewed separately from the paper."
+    ]
+  },
+  "executed_checks": [],
+  "checks_not_run": [
+    "The project-reported gcsas.py, relations.py and toglp.py checks for Chess candidate 0ec40a31 were not rerun.",
+    "PR 162's submitted replay, native GLP execution, website deployment and manuscript extraction were not rerun.",
+    "No private project repository or private manuscript was used."
+  ],
+  "outcomes": [
+    "PR 158 stays open. The GCE answer is preserved in continuity but is not verified and is not yet published into the report.",
+    "PR 162 stays open because its paper-level resolutions require a public versioned Villagers manuscript.",
+    "No GitHub discussion message, review or publication was created in this confirmation run."
+  ],
+  "next_actions": [
+    "When discussion output is permitted, preserve the GCE answer under the current stable Chess findings and record the source disagreement without changing its dated wording.",
+    "Require Chess.glp regeneration and a complete correction for automatic, claim-based and agreed draws, plus a repair for the Start collision, before verifying Findings 2 and 3.",
+    "Publish the exact Villagers revision on EShapiro2/GLP papers or another public versioned source, then review PR 162's paper claims. Review its public-source controls separately if useful."
+  ],
+  "links": {
+    "pr158": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+    "gce_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7176104066",
+    "chess_candidate": "https://github.com/EShapiro2/GLP/commit/0ec40a31e25e72e672ebf0367f19d1febdb0cea0",
+    "pr162": "https://github.com/udi-shapiro/Grassroots-Audit/pull/162"
+  }
+}
