@@ -1,8 +1,20 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T23:34:45.563Z",
-  "active_run": null,
+  "updated_at": "2026-11-25T23:38:00.000Z",
+  "active_run": {
+    "run_id": "54bca10e-e926-11f1-9c50-bbf6eb5d494d",
+    "started_at": "2026-11-25T23:38:00.000Z",
+    "acquired_at": "2026-11-25T23:38:00.000Z",
+    "expires_at": "2026-11-26T00:03:00.000Z",
+    "trigger": "batched Chess answer, Villagers answer PR, and own publication",
+    "pull_request_numbers": [
+      158,
+      164,
+      165
+    ],
+    "expected_parent_sha": "9b7b88e7fe5709423f9a3e2d5c29e49bf57338c7"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
