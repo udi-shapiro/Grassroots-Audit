@@ -1,0 +1,117 @@
+{
+  "stage": 111,
+  "date": "2026-11-25T19:08:51.915Z",
+  "title": "GCE answer recorded and Warnings reply lifecycle checked",
+  "events": [
+    {
+      "delivery_id": "152e1f72-e903-11f1-89e9-664e23e48ce5",
+      "pull_request_number": 149,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "438cfa721a129a7bd30b4e83664184c973500e39"
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "f214cb37010e6826b1a1829c826e961f39a87681",
+    "lease_commit": "2ed10fdb6d78598c3e2bd1a5c3fe0aa497bf2627",
+    "audit_main_before": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+    "audit_main_merge": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+    "pr_149_head": "438cfa721a129a7bd30b4e83664184c973500e39",
+    "pr_147_previous_head": "acd7da9ebfea02d0c8f0a66af38fa131f503eb5c",
+    "pr_147_head": "aa40edb6f001b01546c5246bf3f66c0ebbdb405b",
+    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_papers": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
+    "candidate": "a8fbd7c0780db15370ce9fd00d6bf5d2804fca31",
+    "candidate_parent": "bbf4f7ec3f3cdcfa3aa2e5b438b9380bcc86bb82"
+  },
+  "discussion_versions": {
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "149": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWhb1g"
+      ],
+      "review_versions": [
+        {
+          "id": 6063414230,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWhb1g",
+          "commit_id": "438cfa721a129a7bd30b4e83664184c973500e39",
+          "state": "APPROVED",
+          "submitted_at": "2026-11-25T19:07:43Z"
+        }
+      ],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-25T19:07:43Z"
+    }
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/149",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/149#pullrequestreview-6063414230",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "evidence": "../../auditor/evidence/2026-11-25/warnings-149/replay.py"
+  },
+  "issues": [
+    {
+      "number": 136,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "candidate_blob": "3e0ade364e147f6edb5f069663898e99bd9fa983",
+      "main_blob": "531c2bc55576976bb8cdf97025d97c4614a779a6",
+      "result": "Answer adds Orga-owned answered and answer_text records. Both removal effects delete the active flag and incident only. The candidate differs from public main."
+    },
+    {
+      "path": "calculus/contracts/Warnings/full-schemas.txt",
+      "blob": "b588da18d6ad7c933e16d78da84366acc3d748b3",
+      "result": "Checked-in candidate artifact lacks the revised incident and answer predicates."
+    },
+    {
+      "path": "calculus/contracts/Warnings/term.glp.txt",
+      "blob": "f7576ad3ee0d94f11a8486a9225c2204a31bb676",
+      "result": "Checked-in candidate artifact lacks the revised incident and answer predicates."
+    },
+    {
+      "path": "cascade/Warnings/full-schemas.txt",
+      "blob": "b588da18d6ad7c933e16d78da84366acc3d748b3",
+      "result": "Checked-in candidate artifact lacks the revised incident and answer predicates."
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py, then cmp with tracked sections/status-table.tex",
+      "result": "Byte-identical table for answer head and proposed updated verification tree. 35 reports, 60 findings, seven unanswered.",
+      "status_table_sha256": "3e7756a839594bf09ec5b539acabf64e4da42a7b9fc203a7fc11deddd66e343b"
+    },
+    {
+      "command": "Copy pinned Warnings.txt to warnings-candidate.txt beside replay.py, then python3 replay.py",
+      "result": "For Withdraw and Annul, first reply accepted, repeat refused, previous answer retained on reissue with the same case key, distinct case accepted a fresh reply."
+    }
+  ],
+  "project_claims": [
+    "GCE reports that the checker at 52261a6 found Warnings and Disputes syntactically_grassroots_with_wards and that Udi approved integration."
+  ],
+  "coverage": "A projection of explicit source guards and effects. No compiler, checker or runtime was run. No claim about adopted execution.",
+  "next": [
+    "Clarify whether a warning may be reissued for the same case, and whether prior replies are historical or current. Verify the resulting guards and lifecycle in adopted sources and runtime.",
+    "Keep #136 open. Merge the verification publication after independent review of its current head."
+  ]
+}

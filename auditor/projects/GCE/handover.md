@@ -1,3 +1,7 @@
+## Stage 111 — Warnings answer lifecycle — 25 November 2026 UTC
+
+[PR #149](https://github.com/udi-shapiro/Grassroots-Audit/pull/149) preserves GCE’s dated answer. At public candidate `a8fbd7c`, the bounded source replay accepts a first reply and blocks a second. Withdraw and Annul retain the reply, so a same-case reissue cannot be answered. A different case accepts a new reply. #136 remains open for the case-reuse policy, integration and runtime. [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) records the verification and awaits independent review. · [Stage record](../../stages/111-pr149-warnings-answer-lifecycle-20261125.json)
+
 ## Stage 110 — Revised Villagers answers and Warnings adoption check — 25 November 2026 UTC
 
 The Villagers Warnings proposal in [PR #148](https://github.com/udi-shapiro/Grassroots-Audit/pull/148) supersedes its earlier proposal reference. GCE’s two dated answers remain in the report. Public GLP main at `154d500` still has earlier Warnings artifacts. [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) records that source check alongside the candidate evidence and awaits independent review. Check adopted schemas and runtime once integrated. · [Stage record](../../stages/110-pr148-villagers-revised-answers-20261125.json)

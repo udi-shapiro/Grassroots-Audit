@@ -1,24 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T19:00:48.647Z",
-  "active_run": {
-    "run_id": "152e1f72-e903-11f1-89e9-664e23e48ce5",
-    "started_at": "2026-11-25T19:06:29.124Z",
-    "expires_at": "2026-11-25T19:36:29.125Z",
-    "expected_auditor_head": "f214cb37010e6826b1a1829c826e961f39a87681",
-    "events": [
-      {
-        "delivery_id": "152e1f72-e903-11f1-89e9-664e23e48ce5",
-        "pull_request_number": 149,
-        "action": "opened",
-        "event_type": "pull_request",
-        "actor_login": "EShapiro2",
-        "comment_id": null,
-        "head_sha": "438cfa721a129a7bd30b4e83664184c973500e39"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T19:08:51.915Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -52,6 +36,66 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 149,
+      "head_sha": "438cfa721a129a7bd30b4e83664184c973500e39",
+      "base_sha": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+      "state": "closed",
+      "updated_at": "2026-11-25T19:07:52Z",
+      "merged_at": "2026-11-25T19:07:52Z",
+      "merge_commit_sha": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWhb1g"
+        ],
+        "review_versions": [
+          {
+            "id": 6063414230,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWhb1g",
+            "commit_id": "438cfa721a129a7bd30b4e83664184c973500e39",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T19:07:43Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:07:43Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWhb1g",
+      "delivery_ids": [
+        "152e1f72-e903-11f1-89e9-664e23e48ce5"
+      ],
+      "notes": "Merged GCE’s dated answer. Source projection supports the first reply and refuses a repeat. Both removal paths retain answers and a same-case reissue cannot be answered. #136 remains open."
+    },
+    {
+      "number": 147,
+      "head_sha": "aa40edb6f001b01546c5246bf3f66c0ebbdb405b",
+      "base_sha": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+      "state": "open",
+      "updated_at": "2026-11-25T19:08:37Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Warnings Answer lifecycle verification and merged GCE answer reconciled with audit main. Await independent review."
+    },
     {
       "number": 148,
       "head_sha": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
@@ -88,30 +132,6 @@
         "2bcec4b2-e902-11f1-9c6d-3b6e377e21a9"
       ],
       "notes": "Six dated Villagers answers merged. All six findings remain open. Revised Villagers sources and PDF were absent from the public GLP pins."
-    },
-    {
-      "number": 147,
-      "head_sha": "acd7da9ebfea02d0c8f0a66af38fa131f503eb5c",
-      "base_sha": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
-      "state": "open",
-      "updated_at": "2026-11-25T19:00:02Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "review_versions": [],
-        "latest_comments": [],
-        "inline_versions": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": "none",
-      "review_cursor": "none",
-      "delivery_ids": [],
-      "notes": "Reconciled with merged Villagers answers and recorded public main Warnings adoption check. Await independent review of this head."
     },
     {
       "number": 146,
@@ -2004,6 +2024,38 @@
     "observed_at": "2026-11-25T02:42:14.994Z"
   },
   "processed_events": [
+    {
+      "delivery_id": "152e1f72-e903-11f1-89e9-664e23e48ce5",
+      "pull_request_number": 149,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "438cfa721a129a7bd30b4e83664184c973500e39",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWhb1g"
+        ],
+        "review_versions": [
+          {
+            "id": 6063414230,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWhb1g",
+            "commit_id": "438cfa721a129a7bd30b4e83664184c973500e39",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T19:07:43Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:07:43Z"
+      },
+      "processed_at": "2026-11-25T19:08:51.915Z",
+      "outcome": "Merged GCE’s dated answer. Source projection supports the first reply and refuses a repeat. Both removal paths retain answers and a same-case reissue cannot be answered. #136 remains open."
+    },
     {
       "delivery_id": "b8a8a070-e901-11f1-8841-4faa040d3c28",
       "pull_request_number": 148,
@@ -11824,9 +11876,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+    "audit_main": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
     "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
     "glp_papers": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
-    "observed_at": "2026-11-25T19:00:48.647Z"
+    "observed_at": "2026-11-25T19:08:51.915Z"
   }
 }
