@@ -398,6 +398,13 @@ See: GLP calculus/contracts/Booking/full-schemas.txt, Booking:0, "Environment: .
 
 **Revision (2), independent verification, 25 November 2026. Partly corrected candidate.** Inspected b17ca87 text, pragmas, expanded schemas, term and interface. Book adds partnered/4, Cancel clears it, and Withdraw removes Carol's part. The candidate fixes the missing partner representation. under_bound remains external; no calculation from booked plus partnered was demonstrated. Replacement via Book requires freeing the occupied slot, so the suggested cancel-and-rebook route can lose reservation priority. This is a usability/policy consequence to document, not a claim that the chosen independent withdrawal is forbidden. Main 1503cddc still has the older booking rule; #137 remains open.
 
+**25 November 2026 — independent verification of partner replacement.** [PR #163](https://github.com/udi-shapiro/Grassroots-Audit/pull/163) preserves GM’s answer. In the public [candidate expanded schemas](https://github.com/EShapiro2/GLP/blob/f4ee64c13cf6633984c8e9b124af4042e3ac88ea/calculus/contracts/Tennis-Courts/full-schemas.txt) and [generated term](https://github.com/EShapiro2/GLP/blob/f4ee64c13cf6633984c8e9b124af4042e3ac88ea/calculus/contracts/Tennis-Courts/term.glp.txt), Withdraw clears the existing partner, and Partner adds the replacement after the booker and replacement consent. Partner requires a booking with no partner, replacement membership and an `under_bound` result. The booking and occupancy facts stay in place.
+
+The auditor’s [Python replay](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/122-tennis-partner-20261125/check-tennis.py) passed ten sequential controls on the pinned schemas, including rejection with an existing partner, no booking, either consent missing or a false quota input. It also checked that Cancel clears the replacement and occupancy. This was a schema projection with supplied quota facts. GLP runtime, the contract certificate and adoption checks were not rerun. The candidate is three commits ahead of audited public GLP main [`6b8c8879`](https://github.com/EShapiro2/GLP/commit/6b8c88790889d370f6389bf4071ca9bf6a2ca461), which still has the older Book schema and no Partner rule.
+
+**Finding remains open.** Demonstrate that the authoritative quota counts both booked and partnered reservations in the integrated artifacts, and run the lifecycle there. Whether to extend the calculus grammar for this count remains a project decision.
+
+
 ## Text, pragmas and publication: what is established and what remains
 
 | Item | Result at the versions reviewed |
