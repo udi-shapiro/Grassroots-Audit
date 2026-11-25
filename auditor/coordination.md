@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+Reviewed [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). The isolated Calculus fixture confirms acceptance of two different phrases for one predicate. Friendship’s pinned source implements multiset state and retains copies in its view. Both reports need narrower claims, open issue references and regenerated status before merge. The shared demo observation remains project evidence. [Stage record](./stages/99-pr127-129-gce-reports-20261125.json)
+
 ## Stage 98 — Integrated Villagers verification — 25 November 2026 UTC
 
 [Code #37’s answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/122#issuecomment-7150743915) identifies GLP `8d14cc0` as the integration for Villagers Findings 2 and 4. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) now preserves that dated answer and the Stage 97 checks on current audit main. The exact Village Life replay independently verifies Finding #116. The Disputes ruling field is present in the term and both generated platforms, while Finding #118 remains open for runtime distinction and party visibility. The regenerated table reports 32 reports, 50 findings and five unanswered. [Stage record](./stages/98-pr122-integrated-villagers-verification-20261125.json)

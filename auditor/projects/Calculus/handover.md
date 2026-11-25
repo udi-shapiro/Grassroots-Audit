@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+A neutral union with two distinct declarations of one label/2 passes the expansion and relation stages. An identical-declaration control and a separately named predicate also pass. Clarify alias handling and the set model’s relationship to vGLP machine state. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 GLP `4e68cca` rejects both original Library alterations, the mixed-effect vote, and an added Shares vote effect or condition. A Shares vote without the prior-vote exclusion still derives. Verify that exclusion is required. The exact Village Life declaration and its relation check pass on `2b18975d`. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

@@ -1,0 +1,184 @@
+{
+  "stage": 99,
+  "date": "2026-11-25",
+  "title": "GCE reports on union vocabulary and Friendship state",
+  "source_pins": {
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "glp_main": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8",
+    "glp_papers": "a1a30315732b1bc918cca1f825f2555483dddd48",
+    "pr127_contributor_source": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5"
+  },
+  "reports": {
+    "127": {
+      "delivery": "b8158884-e8b7-11f1-9722-10f23b35c54a",
+      "issue": 126,
+      "review": 6055592492,
+      "subject": "Predicate declarations in a union",
+      "result": "Confirmed early-stage acceptance and shared predicate in a neutral fixture. Catalogue coverage and the Groups/Agora translator outcome remain attributed to the contributor. Scope, tracking and status updates requested.",
+      "head_sha": "c3e928600f76702f3f7992534c3c7c221272302b",
+      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaPECLA"
+        ],
+        "review_versions": [
+          {
+            "id": 6055592492,
+            "node_id": "PRR_kwDOVrts7s8AAAABaPECLA",
+            "submitted_at": "2026-11-25T10:10:50Z",
+            "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T10:10:50Z"
+      },
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/126",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055592492"
+      },
+      "followup": "Review exact revised head when submitted. Keep the issue open pending a project answer and verified correction."
+    },
+    "129": {
+      "delivery": "e3fba578-e8b7-11f1-874f-1bbc37cc8088",
+      "issue": 128,
+      "review": 6055593844,
+      "subject": "Friendship view and local-state multiplicity",
+      "result": "Pinned source supports the multiset explanation. Deployment and API observation remain contributor evidence. Requested layer-specific wording, retained evidence, issue tracking and regenerated status.",
+      "head_sha": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaPEHdA"
+        ],
+        "review_versions": [
+          {
+            "id": 6055593844,
+            "node_id": "PRR_kwDOVrts7s8AAAABaPEHdA",
+            "submitted_at": "2026-11-25T10:10:56Z",
+            "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T10:10:56Z"
+      },
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/128",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6055593844"
+      },
+      "followup": "Review exact revised head when submitted. Keep the issue open pending a project answer and verified correction."
+    }
+  },
+  "source_inspection": {
+    "union": "Lex.add keys basic entries by phrase. Groups and Agora publish different templates for member/3. gcsas.py is unchanged between the contribution's pin and current GLP main. The cited Calculus manuscript was not identified on the public papers branch or website registry. papers/GCC.pdf is Grassroots Community Currencies.",
+    "friendship": {
+      "path": "cascade/Friendship/platform.vglp",
+      "blob": "5106a78b4aad1bb925891b797975427aec3afa9a",
+      "lines": {
+        "acquaint_schema": 84,
+        "multiset_state": 484,
+        "view_projection": "896–901",
+        "effect_append": "4496–4557"
+      },
+      "assessment": "Acquaint adds knows without forbidding prior knowledge. State is explicitly a multiset, effects append, and the view projects shown copies. GLP #152 is an open issue about guards. No deployed revision was identified."
+    }
+  },
+  "executed_checks": [
+    {
+      "scope": "Neutral union fixture at pinned GLP main. A preliminary vocabulary-only fixture failed in the names-line check and was replaced with complete minimal clauses. No result about Groups/Agora runtime or the native checker.",
+      "files": [
+        {
+          "path": "calculus/NAMES.txt",
+          "sha": "8ad00b5e07e9c9d60addee402503cc37e36571d1"
+        },
+        {
+          "path": "calculus/tools/gcsas.py",
+          "sha": "1d5c62320b64ce2b1743a18c04912e92542bafef"
+        },
+        {
+          "path": "calculus/tools/names.py",
+          "sha": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+        },
+        {
+          "path": "calculus/tools/nameslines.py",
+          "sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+        },
+        {
+          "path": "calculus/tools/redundant.py",
+          "sha": "235b3ed10e19204a95943cd585c98c6e2ecab2c4"
+        },
+        {
+          "path": "calculus/tools/relations.py",
+          "sha": "262ed805fb56611e18244ff89982aebb77aba38d"
+        }
+      ],
+      "fixture_files": {
+        "gr/Sample-Blue.txt": "Sample Blue\nAlice is a person, Leaf a label.\n1. ■ Mark Blue: Alice may mark Leaf azure.\n\nLogic pragmas.\nVocabulary: x has the azure label l = label(x,l).\nAfter x marks l azure: x has the azure label l.\n",
+        "gr/Sample-Clash.txt": "Sample Clash\nSample Clash unites Sample Red and Sample Blue.\nAlice is a person.\n\nLogic pragmas.\n",
+        "gr/Sample-Distinct.txt": "Sample Distinct\nAlice is a person, Leaf a label.\n1. ■ Mark Distinct: Alice may mark Leaf azure.\n\nLogic pragmas.\nVocabulary: x has the azure label l = other_label(x,l).\nAfter x marks l azure: x has the azure label l.\n",
+        "gr/Sample-Identical.txt": "Sample Identical\nSample Identical unites Sample Red and Sample Same.\nAlice is a person.\n\nLogic pragmas.\n",
+        "gr/Sample-Red.txt": "Sample Red\nAlice is a person, Leaf a label.\n1. ■ Mark Red: Alice may mark Leaf amber.\n\nLogic pragmas.\nVocabulary: x has the amber label l = label(x,l).\nAfter x marks l amber: x has the amber label l.\n",
+        "gr/Sample-Same.txt": "Sample Same\nAlice is a person, Leaf a label.\n1. ■ Mark Same: Alice may mark Leaf amber.\n\nLogic pragmas.\nVocabulary: x has the amber label l = label(x,l).\nAfter x marks l amber: x has the amber label l.\n",
+        "gr/Sample-Separate.txt": "Sample Separate\nSample Separate unites Sample Red and Sample Distinct.\nAlice is a person.\n\nLogic pragmas.\n",
+        "rev/Sample-Blue.txt": "Sample Blue\nAlice is a person, Leaf a label.\n1. ■ Mark Blue: Alice may mark Leaf azure.\n",
+        "rev/Sample-Clash.txt": "Sample Clash\nSample Clash unites Sample Red and Sample Blue.\nAlice is a person.\n",
+        "rev/Sample-Distinct.txt": "Sample Distinct\nAlice is a person, Leaf a label.\n1. ■ Mark Distinct: Alice may mark Leaf azure.\n",
+        "rev/Sample-Identical.txt": "Sample Identical\nSample Identical unites Sample Red and Sample Same.\nAlice is a person.\n",
+        "rev/Sample-Red.txt": "Sample Red\nAlice is a person, Leaf a label.\n1. ■ Mark Red: Alice may mark Leaf amber.\n",
+        "rev/Sample-Same.txt": "Sample Same\nAlice is a person, Leaf a label.\n1. ■ Mark Same: Alice may mark Leaf amber.\n",
+        "rev/Sample-Separate.txt": "Sample Separate\nSample Separate unites Sample Red and Sample Distinct.\nAlice is a person.\n"
+      },
+      "registry_rows": [
+        "Sample Red | Sample Red | Sample-Red | sample_red | sample_red",
+        "Sample Blue | Sample Blue | Sample-Blue | sample_blue | sample_blue",
+        "Sample Same | Sample Same | Sample-Same | sample_same | sample_same",
+        "Sample Distinct | Sample Distinct | Sample-Distinct | sample_distinct | sample_distinct",
+        "Sample Clash | Sample Clash | Sample-Clash | sample_clash | sample_clash",
+        "Sample Identical | Sample Identical | Sample-Identical | sample_identical | sample_identical",
+        "Sample Separate | Sample Separate | Sample-Separate | sample_separate | sample_separate"
+      ],
+      "commands": [
+        "python3 tools/gcsas.py \"Sample Clash\" \"Sample Identical\" \"Sample Separate\"",
+        "python3 tools/relations.py --json \"Sample Clash\" \"Sample Identical\" \"Sample Separate\"",
+        "Inspect sasx/Sample-{Clash,Identical,Separate}.txt and the World lexicon"
+      ],
+      "stdout": "Sample Red commute yes; return yes; recover same\nSample Blue commute yes; return yes; recover same\nSample Clash commute yes; return equivalent; recover equivalent\nSample Same commute yes; return yes; recover same\nSample Identical commute yes; return yes; recover equivalent\nSample Distinct commute yes; return yes; recover same\nSample Separate commute yes; return yes; recover equivalent\nnames: 0 names of two kinds neither of which is under the other\n7 contracts, 0 with a fault\n[\n {\n  \"contract\": \"Sample Clash\",\n  \"relation\": \"extends\",\n  \"base\": [\n   \"Sample Red\",\n   \"Sample Blue\"\n  ],\n  \"line\": \"Sample Clash extends Sample Red and Sample Blue\",\n  \"holds\": true,\n  \"failures\": [],\n  \"base_changed_by\": []\n },\n {\n  \"contract\": \"Sample Identical\",\n  \"relation\": \"extends\",\n  \"base\": [\n   \"Sample Red\",\n   \"Sample Same\"\n  ],\n  \"line\": \"Sample Identical extends Sample Red and Sample Same\",\n  \"holds\": true,\n  \"failures\": [],\n  \"base_changed_by\": []\n },\n {\n  \"contract\": \"Sample Separate\",\n  \"relation\": \"extends\",\n  \"base\": [\n   \"Sample Red\",\n   \"Sample Distinct\"\n  ],\n  \"line\": \"Sample Separate extends Sample Red and Sample Distinct\",\n  \"holds\": true,\n  \"failures\": [],\n  \"base_changed_by\": []\n }\n]\ngcsas=0 relations=0\nsasx/Sample-Separate.txt:3:Sample Red:1 ■ Mark Red: label(Alice,Leaf) <- guarded by Alice.\nsasx/Sample-Separate.txt:4:Sample Distinct:1 ■ Mark Distinct: other_label(Alice,Leaf) <- guarded by Alice.\nsasx/Sample-Identical.txt:3:Sample Red:1 ■ Mark Red: label(Alice,Leaf) <- guarded by Alice.\nsasx/Sample-Identical.txt:4:Sample Same:1 ■ Mark Same: label(Alice,Leaf) <- guarded by Alice.\nsasx/Sample-Clash.txt:3:Sample Red:1 ■ Mark Red: label(Alice,Leaf) <- guarded by Alice.\nsasx/Sample-Clash.txt:4:Sample Blue:1 ■ Mark Blue: label(Alice,Leaf) <- guarded by Alice.\n"
+    },
+    {
+      "scope": "Pinned audit main and each complete proposed report set in scratch",
+      "command": "python3 bin/status.py",
+      "stdout_and_blob_sha": "33 reports, 51 findings, 9 unanswered\na6591abce96d404e29bd80424c8341f405b3678d\n32 reports, 50 findings, 8 unanswered\n45c2cea6d1c9368c644c107e22d8bca055a62ecb\n33 reports, 51 findings, 9 unanswered\nd44452bf8d8802fd9a60b19d1f330b86b932de15\n34 reports, 52 findings, 10 unanswered\n78a32cd5c4b57c47c368e19b60d4bc7e5748df77\n",
+      "order": [
+        "PR 127 only",
+        "Audit main only",
+        "PR 129 only",
+        "Both reports"
+      ]
+    },
+    {
+      "scope": "Paper identification only",
+      "command": "pdftotext -layout <pinned GCC.pdf> GCC.txt",
+      "blob": "115da0f641442959d7de07194b99f19e36b36571",
+      "result": "Grassroots Community Currencies"
+    }
+  ],
+  "project_claims": [
+    "GCE reports the Groups/Agora translator refusal and its catalogue scan.",
+    "GCE reports duplicate atoms from a shared Friendship deployment of unidentified version. The audit did not access or reset the deployment."
+  ],
+  "next": [
+    "Await revised contributor heads. Keep issues #126 and #128 open, regenerate status on the branch to be merged, and preserve the independent checks with a separate audit publication after the reports are accepted.",
+    "Calculus to clarify declaration compatibility. GSC, vGLP and Calculus to distinguish repeat-act guards, state semantics and UI projection, with an isolated execution at a known build."
+  ]
+}

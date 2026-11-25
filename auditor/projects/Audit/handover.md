@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+Both exact GCE heads were reviewed. Keep #126 and #128 open, require the report links and a current regenerated status, and publish verification after acceptance. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
+
 ## Stage 98 — PR 122 reconciled — 25 November 2026 UTC
 
 [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) is current with audit main and preserves Code #37’s integration answer plus the independent Village Life and Disputes checks. Exact head `5f78600766ead6858835265cafac38d12c024c7b` awaits independent review. Do not merge without a real exact-head approval. Finding #116 can close after reviewed publication; #118 remains open. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)

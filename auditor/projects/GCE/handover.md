@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+The neutral union fixture confirms the early-stage collision in #127. The Friendship source in #129 supports duplicate presentation through documented multiset state. Both need the scoped revisions recorded in their reviews. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
+
 # Calculus composition rebuild checked — 20 November 2026
 
 [Calculus’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/75#issuecomment-7058604467) points to public tools. On GLP `7a0e8d91c74e0d8ccdb153a2554da00bad806e00`, both children translated with 56 schemas and all five of their relations passed. Full adoption still stops at differently bound Guardians:5 Retire clauses. [PR #75](https://github.com/udi-shapiro/Grassroots-Audit/pull/75) preserves the distinction and awaits review. Findings 1 and 7 remain open. See [stage 32](../../stages/32-pr75-calculus-composition-rebuild-20261120.json).

@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+Acquaint in the generated Friendship schema adds knows without excluding prior knowledge. GLP issue #152 proposes a guard. Track the guard separately from the local-state and view question in audit PR #129. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 Notes set representation is present in published terms. Coordinate the distinct-note escrow and signature controls for #97. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

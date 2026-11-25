@@ -1,3 +1,7 @@
+## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
+
+Friendship’s generated platform at public GLP c604d5f explicitly uses multiset state, appends effects and projects shown atoms individually. Resolve the relationship between source model and view, then check an isolated pinned build. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
+
 # PR 83 / PR 50 audit checkpoint — 24 November 2026
 
 [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/blob/6073dfdfa6667e2102d86d70536ba83eb207360c/programs/vglp/cva/compiler/cvac.glp.md) publishes compiler #1–3, issues #111–113, with generator-only verification for #1. Independently run CVA once, ranks and deads. Review the restart-deadlock correction in the paper before checking the compiler changes. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)
