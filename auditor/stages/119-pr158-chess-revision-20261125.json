@@ -1,0 +1,88 @@
+{
+  "stage": 119,
+  "title": "PR 158 Chess revision and PR 159 reconciliation",
+  "date_utc": "2026-11-25",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "6be9e4ea-e91c-11f1-9022-4298baaa7a4d",
+      "type": "pull_request_review",
+      "action": "submitted",
+      "pr": 158,
+      "outcome": "Own already-recorded review; no reply loop."
+    },
+    {
+      "delivery_id": "6f5329fc-e91c-11f1-8087-34b1ed8895fb",
+      "type": "issue_comment",
+      "action": "created",
+      "pr": 143,
+      "comment_id": 7175939319,
+      "outcome": "Own already-recorded publication-link comment; no reply loop."
+    },
+    {
+      "delivery_id": "3bb25f68-e91d-11f1-9866-3701efe24551",
+      "type": "pull_request",
+      "action": "synchronize",
+      "pr": 158,
+      "head_sha": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+      "outcome": "Revised head inspected and independently checked."
+    }
+  ],
+  "omitted_activity_reconciled": [
+    {
+      "pr": 159,
+      "state": "merged",
+      "merged_at": "2026-11-25T22:12:33Z",
+      "merge_commit_sha": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+      "outcome": "Villagers Care answer publication merged; Finding #130 remains open and unverified."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78",
+    "audit_main_before": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+    "audit_pr_158_head": "d1f7d094086161e4b2f0784b22499ba0766c0688",
+    "glp_pr_177_head": "4b04f5615179437d43da139b11cbfc9657323643"
+  },
+  "source_inspection": [
+    "The revised Chess report corrects public-source attribution and date, adds issue mappings #157, #160 and #161, updates the generated status table, and narrows its findings.",
+    "Current public cvac.glp supports the uncompiled-function finding because fn_named covers min, floor and size only.",
+    "The official FIDE Laws support the draw mismatch: threefold and 50-move claims, fivefold and 75-move automatic draws, stalemate, dead position and the agreed-draw timing rule.",
+    "The Start schema permits the focused same-game collision reproduced in Stage 118.",
+    "The report classifies absence of a clock as a design choice while declaring the full FIDE Laws to be the rules. Article 6 is part of those Laws, so the report must narrow the adopted rule scope or restore a clock finding."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "tree": "PR #158 head d1f7d094086161e4b2f0784b22499ba0766c0688 reconstructed locally",
+      "result": "37 reports, 64 findings, 10 unanswered; generated sections/status-table.tex was byte-identical to the submitted file."
+    },
+    {
+      "command": "python3 auditor/evidence/pr158-chess-start-collision-20261125.py",
+      "evidence_commit": "48dfd5f3b641811c1f9a35c9a060a9e228774386",
+      "result": "Start(alice,bob,g) and Start(bob,carol,g) were both accepted; Bob acquired two opponents and both colour roles."
+    }
+  ],
+  "checks_not_run": [
+    "No GLP runtime execution.",
+    "No Dart runtime execution.",
+    "No project calculus or cascade checks were rerun."
+  ],
+  "outcomes": [
+    "PR #159 is merged and preserves the Villagers Care answer without verification.",
+    "PR #158 remains open. Its three findings are supported, but the FIDE clock classification needs a consistent revision and a new exact-head review.",
+    "No GitHub discussion reply or review was posted in this confirmation run."
+  ],
+  "next_actions": [
+    "On the next source event, re-review PR #158 at its exact head after the FIDE rule-scope issue is resolved, then merge only the reviewed expected head.",
+    "After GLP PR #177 integration, independently run the project checks and compile or execute the Chess application when the necessary public tools are available.",
+    "Verify the Villagers Care claim against public versioned source when available, including unauthorised, absent-leader, cancellation and missed-visit cases."
+  ],
+  "links": {
+    "chess_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+    "care_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/159",
+    "glp_source_pr": "https://github.com/EShapiro2/GLP/pull/177",
+    "fide_laws": "https://rcc.fide.com/wp-content/uploads/2022/12/20230101Laws-of-Chess_final.pdf"
+  }
+}

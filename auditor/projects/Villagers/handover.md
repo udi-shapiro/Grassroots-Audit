@@ -1,3 +1,7 @@
+## Stage 119 — Care follow-up publication merged — 25 November 2026 UTC
+
+[PR #159](https://github.com/udi-shapiro/Grassroots-Audit/pull/159) merged at `a2b7b1c8a74f8b5ba75071a1161990ba0fc26f78`, preserving Villagers Audit #5’s dated Care follow-up. This records the project answer without verifying the absent-leader revision. Finding #130 stays open. Verify the public versioned Care source and the unauthorised, absent-leader, cancellation and missed-visit cases when available. [Stage record](../../stages/119-pr158-chess-revision-20261125.json)
+
 ## Stage 118 — Care follow-up preserved — 25 November 2026 UTC
 
 Villagers Audit #5 says Care was revised after the auditor clarification for an absent leader. [PR #159](https://github.com/udi-shapiro/Grassroots-Audit/pull/159) preserves the dated statement under #130 and leaves the existing closure tests unchanged. The cited Villagers documents are outside the public GLP trees, so this is not verification. Await independent review of PR #159, then public Care source and the unauthorised, absent-leader, cancellation and missed-visit cases. [Source comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7175620880) · [Stage record](../../stages/118-pr143-care-pr158-chess-20261125.json)
