@@ -1,0 +1,81 @@
+{
+  "stage": 98,
+  "title": "PR 122 integrated Villagers verification",
+  "date": "2026-11-25",
+  "source_pins": {
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "audit_pr122_previous_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
+    "audit_pr122_head": "5f78600766ead6858835265cafac38d12c024c7b",
+    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
+    "glp_reported_integration": "8d14cc0a56a0741f404c4e085753b214f04c6133",
+    "glp_tested_main": "2b18975d9cdbc334907c27d4992555442a85432c",
+    "glp_main_observed": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d"
+  },
+  "events": [
+    {
+      "delivery_id": "bdd0c54e-e877-11f1-9fc7-3e6eaf1e6642",
+      "type": "issue_comment",
+      "action": "created",
+      "pull_request": 122,
+      "comment_id": 7150743915,
+      "actor": "EShapiro2",
+      "updated_at": "2026-11-25T02:27:19Z",
+      "outcome": "Substantive Code #37 integration answer preserved."
+    },
+    {
+      "delivery_id": "c4a3f2ce-e87c-11f1-85f4-38ec2f465653",
+      "type": "pull_request",
+      "action": "synchronize",
+      "pull_request": 122,
+      "actor": "udi-shapiro",
+      "head_sha": "5f78600766ead6858835265cafac38d12c024c7b",
+      "outcome": "Own publication update recorded without a reply loop."
+    }
+  ],
+  "ancestry": [
+    "`5e6186d091e15b0ad6baad8439a2b25b8d55b57d` is an ancestor of `8d14cc0a56a0741f404c4e085753b214f04c6133`.",
+    "`8d14cc0a56a0741f404c4e085753b214f04c6133` is an ancestor of tested main `2b18975d9cdbc334907c27d4992555442a85432c` and observed main `4e68cca5954ab72d9ab7f9f0f53005b05c8113d5`."
+  ],
+  "evidence": {
+    "prior_executed_check": {
+      "stage": 97,
+      "id": "exact-village-life",
+      "source": "2b18975d9cdbc334907c27d4992555442a85432c",
+      "scope": "Exact §2 Village Life declaration and 19 registered inputs. expand.py, gcsas.py and relations.py all exited 0. Both expansions retained Lost and Found and its definition; the relation held. This was not a seven-aggregate replay."
+    },
+    "source_inspection": [
+      {
+        "path": "calculus/contracts/Disputes/term.glp.txt",
+        "blob": "c94167b90963e16b5fe0ab4878166197744f52c4"
+      },
+      {
+        "path": "cascade/Disputes/platform.glp",
+        "blob": "fc20b5513d0acd377ffddfef32c0c90c66b38876"
+      },
+      {
+        "path": "cascade/Disputes/platform.vglp",
+        "blob": "14daa776c8db7cadde8716c57985d23c60f729e4"
+      }
+    ],
+    "source_inspection_result": "All three exact blobs carry Ruling in the Decide input and six-place decision effect at tested main and current main.",
+    "executed_this_run": {
+      "command": "python3 bin/status.py",
+      "source": "current audit main plus proposed PR 122 files",
+      "stdout": "32 reports, 50 findings, 5 unanswered",
+      "table_blob": "174fd4675e7237b253d95ad86d78ce6734e35915"
+    }
+  },
+  "outcomes": [
+    "PR #122 was reconciled with audit main and updated at head 5f78600766ead6858835265cafac38d12c024c7b.",
+    "Code #37’s dated answer is preserved under Findings 2 and 4.",
+    "Finding #116’s integrated correction is independently verified. Publication and issue closure await independent review of PR #122.",
+    "Finding #118’s source integration is verified. Runtime distinction and visibility to both parties remain pending.",
+    "Findings #115 and #117 remain open. Finding #119 remains unanswered."
+  ],
+  "next": [
+    "Obtain independent review of exact PR #122 head 5f78600766ead6858835265cafac38d12c024c7b.",
+    "After reviewed publication, merge with expected-head protection and close issue #116.",
+    "Execute two distinct Disputes rulings and verify that both parties can obtain the chosen outcome for #118."
+  ]
+}

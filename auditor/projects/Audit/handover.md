@@ -1,3 +1,7 @@
+## Stage 98 — PR 122 reconciled — 25 November 2026 UTC
+
+[PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) is current with audit main and preserves Code #37’s integration answer plus the independent Village Life and Disputes checks. Exact head `5f78600766ead6858835265cafac38d12c024c7b` awaits independent review. Do not merge without a real exact-head approval. Finding #116 can close after reviewed publication; #118 remains open. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 Reviewed and merged [Code #37](https://github.com/udi-shapiro/Grassroots-Audit/pull/123) and the [Calculus follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/124). [PR #125](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) publishes the independent checks for review. It records the remaining vote-content gap and the corrected sources for #58, #96 and #97. The focused Village Life and Disputes results are in the stage record pending the overlap with #122. [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

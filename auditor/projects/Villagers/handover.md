@@ -1,3 +1,7 @@
+## Stage 98 — Integrated Lost and Found verified — 25 November 2026 UTC
+
+Code #37’s main-integration answer is preserved in [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122). The exact Village Life replay at GLP `2b18975d` verifies that both expansions retain Lost and Found and its definition and that the relation check holds. Finding #116 is verified pending reviewed publication and issue closure. The Disputes term and both generated platforms carry Ruling, while Finding #118 stays open pending runtime distinction and party visibility. Findings #115 and #117 remain open; #119 remains unanswered. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 The focused candidate check is now independently verified on integrated GLP `2b18975d` for the exact Village Life declaration. Both expansions retain Lost and Found and the relation check holds. The compiled Disputes sources record Ruling. Carry both into the dated report after the open #122 contribution is reconciled and keep #118 open for execution and visibility. [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

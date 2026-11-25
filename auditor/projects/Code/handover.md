@@ -1,3 +1,7 @@
+## Stage 98 — Villagers integration answer preserved — 25 November 2026 UTC
+
+[Code #37](https://github.com/udi-shapiro/Grassroots-Audit/pull/122#issuecomment-7150743915) identifies GLP `8d14cc0` as the main integration for Villagers Findings #116 and #118. Ancestry and exact blobs were independently checked. Finding #116 is verified at tested main; Finding #118 retains runtime and visibility work. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits independent review at `5f786007`. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 Integrated candidates `35dafecb` and `5e6186d` are ancestors of `8d14cc0`; the later checker corrections were tested on `b42a475e` and `4e68cca`. Keep the Shares prior-vote exclusion and GO and Notes runtime controls queued. [Integration answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/123) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

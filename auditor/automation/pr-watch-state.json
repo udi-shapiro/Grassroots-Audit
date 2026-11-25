@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T02:54:38.196Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125T025438196Z-pr122-comment7150743915",
-    "started_at": "2026-11-25T02:54:38.196Z",
-    "expires_at": "2026-11-25T03:14:38.196Z",
-    "event": {
-      "delivery_id": "bdd0c54e-e877-11f1-9fc7-3e6eaf1e6642",
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 122,
-      "comment_id": 7150743915,
-      "actor_login": "EShapiro2"
-    },
-    "expected_auditor_head": "7fd837080fb3450fd462a8c9fbd247850cd1c82b"
-  },
+  "updated_at": "2026-11-25T03:05:13.748Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -1403,24 +1390,32 @@
     },
     {
       "number": 122,
-      "head_sha": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
-      "base_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "head_sha": "5f78600766ead6858835265cafac38d12c024c7b",
+      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
       "state": "open",
-      "updated_at": "2026-11-24T23:31:24Z",
+      "updated_at": "2026-11-25T03:03:40Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 1,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7150743915
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
-        "latest_item_at": null
+        "latest_comments": [
+          {
+            "id": 7150743915,
+            "updated_at": "2026-11-25T02:27:19Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:27:19Z"
       },
-      "comment_cursor": "none",
+      "comment_cursor": 7150743915,
       "review_cursor": "none",
-      "notes": "Own clean audit publication. Exact four-file diff checked. Merge blocked pending independent review; no merge claimed."
+      "notes": "Code #37 integration answer preserved. Own publication reconciled with current main and Stage 97 checks; exact head awaits independent review. Finding #116 is verified pending publication and issue closure; #118 remains open for runtime and visibility.",
+      "merge_commit_sha": null
     },
     {
       "number": 123,
@@ -11025,36 +11020,68 @@
         "latest_item_at": "2026-11-25T02:39:48Z"
       },
       "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "bdd0c54e-e877-11f1-9fc7-3e6eaf1e6642",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 122,
+      "comment_id": 7150743915,
+      "outcome": "Preserved Code #37’s dated main-integration answer and reconciled it with independent integrated checks.",
+      "head_sha": "5f78600766ead6858835265cafac38d12c024c7b",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7150743915
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7150743915,
+            "updated_at": "2026-11-25T02:27:19Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:27:19Z"
+      },
+      "processed_at": "2026-11-25T03:05:13.748Z"
+    },
+    {
+      "delivery_id": "c4a3f2ce-e87c-11f1-85f4-38ec2f465653",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 122,
+      "outcome": "Own recorded publication update. Inspected at the exact final head; no reply loop.",
+      "head_sha": "5f78600766ead6858835265cafac38d12c024c7b",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7150743915
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7150743915,
+            "updated_at": "2026-11-25T02:27:19Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:27:19Z"
+      },
+      "processed_at": "2026-11-25T03:05:13.748Z"
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
-    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "glp_main": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
     "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
-    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
-    "candidate_branch": "claude/project-thread-23okte",
-    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
-    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
-    "observed_at": "2026-11-24T23:34:23.814Z",
-    "executed": [
-      {
-        "command": "python3 -m py_compile tools/*.py",
-        "result": "exit 0"
-      },
-      {
-        "command": "python3 tools/tests.py",
-        "result": "exit 0; unionand same; 1 cases, 0 that differ"
-      },
-      {
-        "command": "names.split_list('Jobs and Lost and Found')",
-        "result": "['Jobs', 'Lost and Found']"
-      },
-      {
-        "command": "python3 bin/status.py",
-        "result": "32 reports, 50 findings, 5 unanswered"
-      }
-    ],
-    "inspection": "Calculus #11 public candidate inspected; audit publication PR #122 remains open pending independent review."
+    "observed_at": "2026-11-25T03:05:13.748Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -11071,121 +11098,8 @@
   },
   "latest_source_observed": {
     "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
-    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "glp_main": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
     "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
-    "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
-    "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-25T02:42:14.994Z",
-    "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
-    "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
-    "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
-    "cascade_regeneration": "1dd9dee8bcd0185679e0ddba66d568b078a96eef",
-    "cascade_coverage": "fe4192d3c308e885f1fa8b09401347f4b827d1cf",
-    "cascade_coverage_release": "769f038f267f284ff451ef011bd2b44c6fdeff79",
-    "spm_below_threshold": "225430f3925d044455f080aa34b1e4f4bd89bee8",
-    "spm_stale_restore": "ba79cda1265b6aa7231fadd67770e3f2bf649795",
-    "secure_friendship_eight_plays": "e6b768b5fb487e2a96d336926f994627d9ae177f",
-    "go_spc_branch": "8a087f6787d24838bf8589f6a78fb5f5719b3265",
-    "spc_catalogue": "1d33e2d5805d9dd11ed95a3b528228e6ab474c7b",
-    "spc_adoption": "1d40e504db128cf0ca90be655bfa2f1498140332",
-    "spc_found_fixture": "a1d69fab1730b7d0fdfefc01737301adceb40dbb",
-    "gsc_public_pdf_blob": "a382e68d047de58c2c1c2fc1e8c4cf328dd05598",
-    "iglp_public_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
-    "secure_friendship_recovery_contract": "a2785f50826f47965708460e6a068ed97fd4db2e",
-    "secure_friendship_recovery_platform": "86307870c6e9be42182004c94d0e7e06b0db6b7d",
-    "gcc_public_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
-    "spm_pdf_blob": "8a872a7a62e1319e34600e3bd875569f26245fa7",
-    "secure_friendship_stamp_helper": "25b4215e66ff7ae0001c7d01bd9c62bea12681b5",
-    "auction_simulation_candidate": "d9190620deb95b0038706ba3e4f60f9a1e68bba6",
-    "sglp_audit4": "ae2a75ca6f18712fa4e16c7cda94732df3488bc3",
-    "sglp_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
-    "vglp_audit4_a5": "a5ea6b25967c8053e5b451c1d2b442a65e288146",
-    "vglp_audit4_f6": "f6cced30f9d9564ba16a728e52c0fe66975e1708",
-    "vglp_integration": "574caf8b722307747fb8375a8e47672cbadfd26f",
-    "vglp_pr83_test_evidence": "196f0ed40f5c7f26d5dd0326a2d929e66068bf1c",
-    "vglp_pr83_test_blob": "2bdcf8ba8adfadf817316d2745e3c61b609b1219",
-    "vglp_regenerated_platforms": "e9ed11f537f75123c85ec86c55770ceeaf96a86d",
-    "sglp_tested_integration": "87eb09abc44c32cce842e9692cc6ef5ea6742764",
-    "sglp_pr83_test_evidence": "f7190dc4a228f569590c0a050d5ede51c1377b28",
-    "sglp_pr83_test_blob": "b3456ece7a4429fb3754935652d3750de5250e69",
-    "sglp_pdf_blob": "8fc1626d3b0e7ea2912632876c58fde80bfeef20",
-    "sglp_pdf_sha256": "ec364eed8dbd2317a6be9755c827fefb49ce5b6dda39ca34d4bfc74a8aa36cda",
-    "vglp_pdf_blob": "0ab9f5a684c21aafa32652269d7914822c9de9a6",
-    "glp_spec_pdf_blob": "6e045f277432debfd278f2f853e40c92bf6c2df7",
-    "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e",
-    "calculus_review_pdf_blob": "cbc52d0e196783e16f34e3722afa366c8dae55ae",
-    "public_gcc_pdf_blob": "846bbb60303bbc184e31f35dda1cf322353690c5",
-    "pr92_head": "9981a7b8970e2a5a6ccedf2b636db786db964b26",
-    "pr93_head": "007e194369dd676ec69df00558cbe6e51d29b543",
-    "calculus_duplicate_condition_candidate": "4789e80e06ffb8b8da6964b0c3364d5691fe9d4a",
-    "vglp_pr83_code_merge": "60f3a57acee4b0063ada51746339e736bc64c11a",
-    "pr83_head": "eceae995aa05422aeb8ef9fe8091fbc54864467c",
-    "pr94_head": "60bfbfdb2a8e88a9618720aa6a888a514de912b5",
-    "pr94_merge": "b6460b3878ad52bb661530cd41dd3de326fc86b4",
-    "calculus_answers_10_17_claimed_private_commit": "6dfa1ed9",
-    "calculus_report_blob": "5fb7c520a8eb322a99ea189918d341f5be2bbe55",
-    "status_table_blob": "1874a5573961cfb690f7ff41eea567d20856e106",
-    "calculus_duplicate_condition_integration": "ccd9e35811f560a600a2b3a0bbd0db71a1664aff",
-    "calculus_deleted_once_test": "9dba1f2c0b092f7464fe7165e8507b76ae4eb538",
-    "calculus_deleted_once_output_blob": "78316f501efdd32ee36d5fc9d54e599dbfa62b55",
-    "calculus_catalogue": "ec66a1595d9325771739142e5437aaada218dffb",
-    "pr102_head": "d2040a1aff384e8c8168f8c2bcc46ec45c4b8e5c",
-    "pr102_merge": "b73f18a2158342bc13d7daf0f4faaa5730a8a322",
-    "pr103_head": "74314e3995e963da4fee38a02498de8715731f02",
-    "pr103_merge": "b5983e532b1a23d98496183c77f5be9ccb6be240",
-    "pr104_head": "af41edd4793a7dfececdfcba4d8a5349e1fb1900",
-    "pr104_merge": "aad17db662d2fde39b7dfc66cf6a4a6ab91db5c7",
-    "pr105_head": "d3fe17e198ce6ba82cb731a8afa9a58bb76311f1",
-    "pr105_merge": "dfa244fb61734a9fb771945074e1d1830fef1ecf",
-    "pr106_head": "f536b828309589aad1737dd23b8b84b39d4c3dcd",
-    "pr106_merge": "94f679a5388395c02154886dcb8e3630d6334a7b",
-    "calculus_derive_public_blob": "00bd9d92950a702e08c30ee4d42f05e0ab621d24",
-    "organisation_term_public_blob": "d1203a815e4e6b6198c3da0897333b55c88959b0",
-    "notes_term_public_blob": "76237320d1d0c7e1a5f120a29fddcb1de7fc3a45",
-    "gsc_set_variables": "0daa1b81b653315d7285d48a9a23558b53fb20a6",
-    "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e",
-    "pr106_close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
-    "audit_main_before": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
-    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
-    "pr107_head": "cb805780a6434254c54e80be8b7ed1e32f09459c",
-    "pr107_merge": "7939da5467b88c05ef72434d84847cdb007ba778",
-    "pr108_head": "22dd1c6f9df1be19c56457ec3dc2e61e768c2e15",
-    "pr108_merge": "9c30c04118830849accadc200d52a0a41dc2f603",
-    "candidate_branch": "claude/project-thread-23okte",
-    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
-    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
-    "executed": [
-      {
-        "command": "python3 -m py_compile tools/*.py",
-        "result": "exit 0"
-      },
-      {
-        "command": "python3 tools/tests.py",
-        "result": "exit 0; unionand same; 1 cases, 0 that differ"
-      },
-      {
-        "command": "names.split_list('Jobs and Lost and Found')",
-        "result": "['Jobs', 'Lost and Found']"
-      },
-      {
-        "command": "python3 bin/status.py",
-        "result": "32 reports, 50 findings, 5 unanswered"
-      }
-    ],
-    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term.",
-    "glp_main_observed": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
-    "glp_reported_main": "8d14cc0a56a0741f404c4e085753b214f04c6133",
-    "glp_inspection_and_first_run": "2b18975d9cdbc334907c27d4992555442a85432c",
-    "glp_derive_rerun": "b42a475eda894bd51c5a2c4744ca2f16ebf63418",
-    "glp_vote_content_rerun": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
-    "candidates": [
-      "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
-      "5e6186d091e15b0ad6baad8439a2b25b8d55b57d"
-    ],
-    "pr123_head": "3432e603555bb89b1346a654af71e7a041b07001",
-    "pr123_merge": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
-    "pr124_head": "779aee534265385c8beacdcc923baf2104146efc",
-    "pr124_merge": "39eff6d7645efd109af97c375eb667e71e335df1",
-    "pr125_head": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef"
+    "observed_at": "2026-11-25T03:05:13.748Z"
   }
 }
