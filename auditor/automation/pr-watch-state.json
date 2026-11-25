@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T21:59:10.273Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr143-comment-7175620880",
-    "started_at": "2026-11-25T21:59:10.273Z",
-    "expires_at": "2026-11-25T22:29:10.273Z",
-    "base_head_sha": "08c163818563a19cf3d83ebc97c7e0608751e524",
-    "event": {
-      "delivery_id": "5380f2f6-e91a-11f1-9bbb-c71acec60eb5",
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 143,
-      "comment_id": 7175620880,
-      "actor_login": "EShapiro2"
-    }
-  },
+  "updated_at": "2026-11-25T22:08:38.225Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,10 +32,73 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 125,
+  "publication_pr": 159,
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 159,
+      "head_sha": "e4aecf46ef29382a638d58e6fea0fdd3090ebe64",
+      "base_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+      "state": "open",
+      "updated_at": "2026-11-25T22:05:39Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [
+        "59dc446e-e91c-11f1-9a73-e2544fe26839"
+      ],
+      "notes": "Own separate main-based publication preserving Villagers Audit #5’s Care follow-up. Exact-tree status regeneration was byte-identical at 36 reports, 61 findings and 7 unanswered. Await independent review.",
+      "own_publication": true
+    },
+    {
+      "number": 158,
+      "head_sha": "55060d9d48e03d158342f7b9286242f6739d5eea",
+      "base_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+      "state": "open",
+      "updated_at": "2026-11-25T22:06:08Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:06:08Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+      "delivery_ids": [
+        "90c28534-e91b-11f1-8e6a-fc7cfbe5a4dd"
+      ],
+      "notes": "Changes requested on the one-file GCE Chess self-audit. Findings 1 and 2 have source support; Findings 3–5 need a violated contract or should be limitations. Focused replay exposes an omitted same-game Start collision. Public-source attribution, date, index and generated status also need correction."
+    },
     {
       "number": 156,
       "head_sha": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
@@ -468,14 +518,18 @@
       "head_sha": "9efa57934673971398bbd5e73292308711bd4f10",
       "base_sha": "a42227ca088764663797ca855e2284f719d4a136",
       "state": "closed",
-      "updated_at": "2026-11-25T18:25:44Z",
+      "updated_at": "2026-11-25T22:06:14Z",
       "merged_at": "2026-11-25T18:25:44Z",
       "merge_commit_sha": "b87853071ed6114965870145eb13baf1434b18be",
       "discussion_version": {
-        "comments": 0,
+        "comments": 3,
         "reviews": 1,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7171130497,
+          7175620880,
+          7175939319
+        ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaV-7kw"
         ],
@@ -488,17 +542,32 @@
             "submitted_at": "2026-11-25T18:25:31Z"
           }
         ],
-        "latest_comments": [],
-        "latest_item_at": "2026-11-25T18:25:31Z"
+        "latest_comments": [
+          {
+            "id": 7171130497,
+            "updated_at": "2026-11-25T18:35:56Z"
+          },
+          {
+            "id": 7175620880,
+            "updated_at": "2026-11-25T21:51:09Z"
+          },
+          {
+            "id": 7175939319,
+            "updated_at": "2026-11-25T22:06:14Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:06:14Z"
       },
-      "comment_cursor": "none",
+      "comment_cursor": 7175939319,
       "review_cursor": "PRR_kwDOVrts7s8AAAABaV-7kw",
       "delivery_id": "2349ceae-e8fd-11f1-99b6-78be73c8760d",
       "delivery_ids": [
         "2349ceae-e8fd-11f1-99b6-78be73c8760d",
-        "8da10d44-e8fd-11f1-8b58-48e296bf4785"
+        "8da10d44-e8fd-11f1-8b58-48e296bf4785",
+        "5380f2f6-e91a-11f1-9bbb-c71acec60eb5"
       ],
-      "notes": "Seven dated answers preserved. Reconciled with audit main and merged the approved exact head. Private commit references are project claims. #135 and #137 await answers."
+      "notes": "Seven original dated answers remain preserved. Audit #5’s 20:02 UTC follow-up says Care was revised after the auditor clarification for an absent leader. Publication PR #159 preserves the claim without verification; #130 remains open because the cited Villagers sources are outside the public GLP trees."
     },
     {
       "number": 142,
@@ -12452,6 +12521,141 @@
           "https://github.com/udi-shapiro/Grassroots-Audit/issues/134"
         ]
       }
+    },
+    {
+      "delivery_id": "5380f2f6-e91a-11f1-9bbb-c71acec60eb5",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 143,
+      "comment_id": 7175620880,
+      "head_sha": "9efa57934673971398bbd5e73292308711bd4f10",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7171130497,
+          7175620880,
+          7175939319
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV-7kw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062848915,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV-7kw",
+            "commit_id": "9efa57934673971398bbd5e73292308711bd4f10",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T18:25:31Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7171130497,
+            "updated_at": "2026-11-25T18:35:56Z"
+          },
+          {
+            "id": 7175620880,
+            "updated_at": "2026-11-25T21:51:09Z"
+          },
+          {
+            "id": 7175939319,
+            "updated_at": "2026-11-25T22:06:14Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:06:14Z"
+      },
+      "processed_at": "2026-11-25T22:08:38.225Z",
+      "source_pins": {
+        "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "Preserved Villagers Audit #5’s dated Care follow-up in main-based PR #159. The cited absent-leader revision remains a project claim; #130 stays open.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/143",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7175620880",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/159",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/130"
+      }
+    },
+    {
+      "delivery_id": "90c28534-e91b-11f1-8e6a-fc7cfbe5a4dd",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 158,
+      "comment_id": null,
+      "head_sha": "55060d9d48e03d158342f7b9286242f6739d5eea",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T22:06:08Z"
+      },
+      "processed_at": "2026-11-25T22:08:38.225Z",
+      "source_pins": {
+        "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+        "glp_candidate_pr": 177,
+        "glp_candidate": "4b04f5615179437d43da139b11cbfc9657323643"
+      },
+      "outcome": "Requested changes. Confirmed the uncompiled-function limitation and FIDE draw mismatch by source inspection, rejected three unsupported fault classifications, and executed a two-Start projection exposing a same-game opponent and colour collision.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#pullrequestreview-6065643029",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/157",
+        "source_pr": "https://github.com/EShapiro2/GLP/pull/177"
+      }
+    },
+    {
+      "delivery_id": "59dc446e-e91c-11f1-9a73-e2544fe26839",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 159,
+      "comment_id": null,
+      "head_sha": "e4aecf46ef29382a638d58e6fea0fdd3090ebe64",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T22:08:38.225Z",
+      "source_pins": {
+        "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "Own publication event generated by this run. Recorded without posting another reply or creating a loop.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/159"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -12475,9 +12679,8 @@
   },
   "latest_source_observed": {
     "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
-    "audit_main_before": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
     "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
     "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
-    "observed_at": "2026-11-25T21:54:29.858Z"
+    "observed_at": "2026-11-25T22:08:38.225Z"
   }
 }

@@ -1,3 +1,7 @@
+## Stage 118 — Villagers Care follow-up and Chess report review — 25 November 2026 UTC
+
+Villagers Audit #5’s dated Care follow-up is preserved in [PR #159](https://github.com/udi-shapiro/Grassroots-Audit/pull/159). It remains an unverified project claim because the cited Villagers documents are outside the public GLP trees. [PR #158](https://github.com/udi-shapiro/Grassroots-Audit/pull/158) received a changes-requested review. Public Chess candidate source supports the missing compiler-function and FIDE draw concerns, while three design-choice findings need a violated contract. A focused two-Start projection exposes a same-game collision giving Bob two opponents and both colours. Neither PR is merged. [Stage record](auditor/stages/118-pr143-care-pr158-chess-20261125.json)
+
 ## Stage 117 — Villagers answers published — 25 November 2026 UTC
 
 Merged the dated Villagers answers for Works #132, Notices #133, Emergencies #134 and the opening paper assessment. All three numbered findings stay open for public source verification. The regenerated table is byte-identical with 36 reports, 61 findings and seven unanswered. The papers tip changed while the four core PDF blobs stayed identical. [PR #156](https://github.com/udi-shapiro/Grassroots-Audit/pull/156) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/117-pr156-villagers-works-notices-emergencies-20261125.json)

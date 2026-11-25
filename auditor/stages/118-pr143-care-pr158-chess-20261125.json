@@ -1,0 +1,77 @@
+{
+  "stage": 118,
+  "title": "Villagers Care follow-up and Chess report review",
+  "date_utc": "2026-11-25",
+  "events": [
+    {
+      "delivery_id": "5380f2f6-e91a-11f1-9bbb-c71acec60eb5",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 143,
+      "comment_id": 7175620880
+    },
+    {
+      "delivery_id": "90c28534-e91b-11f1-8e6a-fc7cfbe5a4dd",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 158,
+      "comment_id": null
+    },
+    {
+      "delivery_id": "59dc446e-e91c-11f1-9a73-e2544fe26839",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 159,
+      "comment_id": null,
+      "own_publication": true
+    }
+  ],
+  "sources": {
+    "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+    "glp_chess_candidate": "4b04f5615179437d43da139b11cbfc9657323643",
+    "glp_chess_pr": 177,
+    "audit_pr158_head": "55060d9d48e03d158342f7b9286242f6739d5eea",
+    "publication_pr159_head": "e4aecf46ef29382a638d58e6fea0fdd3090ebe64"
+  },
+  "project_claims": {
+    "villagers": "Audit #5 says Care was revised after the auditor clarification for a leader who is away, citing Villagers decisions items 25–27 and a private project document.",
+    "chess": "The contributor reports GCE calculus checks and cascade.sh chess --check at candidate 4b04f561. Those runs were not independently rerun."
+  },
+  "source_inspection": [
+    "The Villagers documents cited in comment 7175620880 are outside the complete public EShapiro2/GLP main and papers trees. The follow-up is preserved as an attributed answer without verification.",
+    "EShapiro2/GLP PR #177 publicly exposes candidate Chess.txt and Chess.glp at head 4b04f561. The candidate is absent from current GLP main.",
+    "Current cvac.glp fn_named accepts min, floor and size and rejects other functions. This supports the no-compiled-app limitation.",
+    "Chess expressly incorporates FIDE Laws but provides only a jointly agreed Draw, supporting a mismatch for automatic and claim-based draw cases.",
+    "No stated requirement establishes a clock, selectable colours, or an in-contract remedy for the fair-play undertaking. Those three proposed findings need a concrete violated contract or should be limitations."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py on the exact PR #159 proposed report tree, followed by cmp against main",
+      "result": "36 reports, 61 findings, 7 unanswered; regenerated sections/status-table.tex was byte-identical."
+    },
+    {
+      "command": "python3 auditor/evidence/pr158-chess-start-collision-20261125.py",
+      "result": "Accepted Start(alice,bob,g) then Start(bob,carol,g); Bob retained opponents Alice and Carol and colours 1 and 2."
+    }
+  ],
+  "runtime_execution": "No GLP, Dart, calculus or cascade execution. The Chess check is a focused Python projection of the published Start schema.",
+  "outcome": "Opened PR #159 to preserve Villagers’ Care follow-up without verification. Requested changes on PR #158 and supplied a reproducible omitted Start collision. Neither PR was merged.",
+  "links": {
+    "villager_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7175620880",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/159",
+    "chess_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+    "chess_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#pullrequestreview-6065643029",
+    "chess_source": "https://github.com/EShapiro2/GLP/pull/177",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/118-pr143-care-pr158-chess-20261125.json"
+  },
+  "next": [
+    "Merge PR #159 only after an independent review of its exact head. Finding #130 remains open until public Care source can be inspected and the unauthorised, absent-leader, cancellation and missed-visit cases are demonstrated.",
+    "Re-review PR #158 after a new head. Require public-source attribution, the correct date, issue index rows and regenerated status; retain supported findings, reclassify unsupported design choices, and add or answer the same-game Start collision.",
+    "If Chess source is integrated into GLP main, independently run its calculus/cascade checks and compile/runtime path when available."
+  ]
+}

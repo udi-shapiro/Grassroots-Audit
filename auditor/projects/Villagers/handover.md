@@ -1,3 +1,7 @@
+## Stage 118 — Care follow-up preserved — 25 November 2026 UTC
+
+Villagers Audit #5 says Care was revised after the auditor clarification for an absent leader. [PR #159](https://github.com/udi-shapiro/Grassroots-Audit/pull/159) preserves the dated statement under #130 and leaves the existing closure tests unchanged. The cited Villagers documents are outside the public GLP trees, so this is not verification. Await independent review of PR #159, then public Care source and the unauthorised, absent-leader, cancellation and missed-visit cases. [Source comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7175620880) · [Stage record](../../stages/118-pr143-care-pr158-chess-20261125.json)
+
 ## Stage 117 — Villagers answers published — 25 November 2026 UTC
 
 PR #156 preserves the new Works consent and arbitration claim, the Notices and Emergencies scope and forwarding-pragmas clarification, and the revised paper opening claim. The cited source and Villagers PDF are unavailable at public GLP main 1503cdd and papers 9fbb0bd. Keep #132–#134 open. Check settlement and arbiter liveness, audience and forwarding permissions, resolution and reissue once the versioned artifacts are public. Assess platform delivery separately. [PR #156](https://github.com/udi-shapiro/Grassroots-Audit/pull/156) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/117-pr156-villagers-works-notices-emergencies-20261125.json)
