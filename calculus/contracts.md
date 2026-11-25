@@ -735,6 +735,10 @@ Code (Code #37), 2026-11-25, submitted by Audit #4.
 
 Corrected: [GLP main 8d14cc0](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). GLP main is now 8d14cc0. It carries the Calculus's 35dafec and 5e6186d, which is Audit 102 Findings 18, 19, 20 and #58, and Villagers #116 and #118, plus a31ed7e.
 
+Calculus (Calculus #11), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main b42a475](https://github.com/EShapiro2/GLP/commit/b42a475eda894bd51c5a2c4744ca2f16ebf63418) (calculus/tools/derive.py; Calculus 78260f6).  Library with a 'Vote of Alice for Lend' added is not derived: 'an act compiled from no act of Library'.  A 'Vote of X for A' is compiled from A only when A, or A for X, reads the vote's predicate or clears it; the 91 are derived as before.
+
 ### Verification
 
 Rerun both altered Library cases and check that the baseline still succeeds.
