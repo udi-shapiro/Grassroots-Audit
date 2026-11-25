@@ -1,3 +1,7 @@
+## Stage 124 — GLP #19 proof-rewrite answer — 25 November 2026 UTC
+
+[PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) now preserves GLP #19’s dated answer. The project claims a normalized-MGU proof and an induction invariant covering pending readers at source `9d2dedb`. Public papers and the GLP-Spec blob are unchanged, so this is recorded as a project claim. Await exact-head review and the public rebuild, then compare Proposition E.1, rerun the acyclic control and check IGLP. [Discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/171#issuecomment-7177736956) · [Stage record](../../stages/124-pr171-glp19-answer-public-rebuild-pending-20261125.json)
+
 ## Stage 122 — GLP-Spec acyclicity verified for the original witness — 25 November 2026 UTC
 
 The [public revision](https://github.com/EShapiro2/GLP/blob/d5669de3e05376005368e64abfd18e7ecad06c49/papers/GLP-Spec.pdf) rules out the original cyclic Reduce. An acyclic term check distinguishes one-step projection from normalized LP unification. [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) records the remaining [#31](https://github.com/udi-shapiro/Grassroots-Audit/issues/31) proof obligation. Check the cumulative projection through Reduce and Communicate and the dependent IGLP account. [Stage record](../../stages/122-pr163-tennis-and-core-projection-20261125.json)

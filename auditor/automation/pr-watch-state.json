@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T23:29:02.287Z",
-  "active_run": {
-    "run_id": "afc2640c-e927-11f1-8ee1-6544937c9742",
-    "started_at": "2026-11-25T23:31:12.587Z",
-    "acquired_at": "2026-11-25T23:31:12.587Z",
-    "expires_at": "2026-11-25T23:56:12.587Z",
-    "trigger": "batched issue_comment and own publication",
-    "pull_request_numbers": [
-      171,
-      174
-    ],
-    "expected_parent_sha": "4e4b582d1e2ebe97c8345f846806dfb8ccc17862"
-  },
+  "updated_at": "2026-11-25T23:34:45.563Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -2435,39 +2424,52 @@
     },
     {
       "number": 171,
-      "head_sha": "f6f8bdf9e1be41210e9a85a1fe473d7a8595898c",
-      "base_sha": "dc11cca0f117c0d30a1384094859f1bbf4958a38",
+      "head_sha": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
       "state": "open",
-      "updated_at": "2026-11-25T23:20:16Z",
+      "updated_at": "2026-11-25T23:33:50Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7177570166,
+          7177736956
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7177570166,
+            "updated_at": "2026-11-25T23:26:47Z"
+          },
+          {
+            "id": 7177736956,
+            "updated_at": "2026-11-25T23:33:50Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-25T23:33:50Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7177736956,
       "review_cursor": null,
       "delivery_ids": [
-        "c69a637e-e926-11f1-8581-911359fd3e65"
+        "c69a637e-e926-11f1-8581-911359fd3e65",
+        "afc2640c-e927-11f1-8ee1-6544937c9742",
+        "92b95edc-e928-11f1-8035-e31d5a043faf"
       ],
-      "notes": "Own publication. Exact head awaits independent review. The opening webhook added no new discussion.",
+      "notes": "GLP #19's dated proof-rewrite answer is preserved at the rebased exact head. Public papers is unchanged and the cited source is not available in public GLP. Finding #31 remains open; exact-head review and public rebuild verification are pending.",
       "source_pins": {
-        "audit_main_before": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
-        "audit_main": "dc11cca0f117c0d30a1384094859f1bbf4958a38",
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "audit_pr_171_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
         "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
         "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-        "tennis_candidate": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
         "glp_spec_pdf_blob": "a984213fc2cd8c1ca58dcc5f1ae94ab9d843faf0",
-        "previous_glp_spec_pdf_blob": "6e045f277432debfd278f2f853e40c92bf6c2df7"
+        "claimed_private_source": "9d2dedb"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/122-tennis-partner-20261125"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/124-pr171-glp19-answer-public-rebuild-pending-20261125.json"
     },
     {
       "number": 172,
@@ -13549,6 +13551,97 @@
         "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
       }
+    },
+    {
+      "delivery_id": "afc2640c-e927-11f1-8ee1-6544937c9742",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 171,
+      "comment_id": 7177570166,
+      "head_sha": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7177570166,
+          7177736956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7177570166,
+            "updated_at": "2026-11-25T23:26:47Z"
+          },
+          {
+            "id": 7177736956,
+            "updated_at": "2026-11-25T23:33:50Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T23:33:50Z"
+      },
+      "processed_at": "2026-11-25T23:34:45.563Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "audit_pr_171_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "glp_spec_pdf_blob": "a984213fc2cd8c1ca58dcc5f1ae94ab9d843faf0",
+        "claimed_private_source": "9d2dedb"
+      },
+      "outcome": "Preserved GLP #19's dated answer in the report. The claimed source is outside public GLP and the public PDF is unchanged, so verification remains pending.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171#issuecomment-7177570166"
+      }
+    },
+    {
+      "delivery_id": "92b95edc-e928-11f1-8035-e31d5a043faf",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 171,
+      "comment_id": null,
+      "head_sha": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7177570166,
+          7177736956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7177570166,
+            "updated_at": "2026-11-25T23:26:47Z"
+          },
+          {
+            "id": 7177736956,
+            "updated_at": "2026-11-25T23:33:50Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T23:33:50Z"
+      },
+      "processed_at": "2026-11-25T23:34:45.563Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "audit_pr_171_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "glp_spec_pdf_blob": "a984213fc2cd8c1ca58dcc5f1ae94ab9d843faf0",
+        "claimed_private_source": "9d2dedb"
+      },
+      "outcome": "Own expected-SHA publication update rebased PR #171 on current main and preserved GLP #19's answer. No additional source-app reply.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -13574,6 +13667,6 @@
     "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
     "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
     "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-    "observed_at": "2026-11-25T23:29:02.287Z"
+    "observed_at": "2026-11-25T23:34:45.563Z"
   }
 }
