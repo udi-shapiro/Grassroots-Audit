@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T10:24:16.610Z",
-  "active_run": {
-    "run_id": "pr-watch-127-comment-2026-11-25T10:24:16.610Z",
-    "started_at": "2026-11-25T10:24:16.610Z",
-    "expires_at": "2026-11-25T10:44:16.610Z",
-    "expected_auditor_head": "c84bdd73adf04d5189918b8cb798822cd0db8936",
-    "events": [
-      {
-        "delivery_id": "d7893880-e8b9-11f1-90d7-9519c7f6eb5c",
-        "pull_request_number": 127,
-        "comment_id": 7159561408
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T10:26:37.270Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -1547,15 +1535,18 @@
       "head_sha": "c3e928600f76702f3f7992534c3c7c221272302b",
       "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
       "state": "open",
-      "updated_at": "2026-11-25T10:10:50Z",
+      "updated_at": "2026-11-25T10:24:56Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 0,
-        "reviews": 1,
+        "comments": 1,
+        "reviews": 2,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7159561408
+        ],
         "review_ids": [
-          "PRR_kwDOVrts7s8AAAABaPECLA"
+          "PRR_kwDOVrts7s8AAAABaPECLA",
+          "PRR_kwDOVrts7s8AAAABaPQm3A"
         ],
         "review_versions": [
           {
@@ -1564,14 +1555,26 @@
             "submitted_at": "2026-11-25T10:10:50Z",
             "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
             "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6055798492,
+            "node_id": "PRR_kwDOVrts7s8AAAABaPQm3A",
+            "submitted_at": "2026-11-25T10:24:56Z",
+            "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+            "state": "COMMENTED"
           }
         ],
-        "latest_comments": [],
-        "latest_item_at": "2026-11-25T10:10:50Z"
+        "latest_comments": [
+          {
+            "id": 7159561408,
+            "updated_at": "2026-11-25T10:20:30Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T10:24:56Z"
       },
-      "review_cursor": 6055592492,
-      "comment_cursor": "none",
-      "notes": "Confirmed early-stage acceptance and shared predicate in a neutral fixture. Catalogue coverage and the Groups/Agora translator outcome remain attributed to the contributor. Scope, tracking and status updates requested."
+      "review_cursor": 6055798492,
+      "comment_cursor": 7159561408,
+      "notes": "Calculus supplied public candidate c13e54e. Exact focused fixture independently passes at the candidate and fails at its parent; identical-declaration and distinct-predicate controls pass. Public GLP main remains c604d5f. Report revision and Code integration remain pending."
     },
     {
       "number": 129,
@@ -11229,6 +11232,65 @@
         "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/128",
         "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6055593844"
       }
+    },
+    {
+      "delivery_id": "d7893880-e8b9-11f1-90d7-9519c7f6eb5c",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 127,
+      "comment_id": 7159561408,
+      "head_sha": "c3e928600f76702f3f7992534c3c7c221272302b",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7159561408
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaPECLA",
+          "PRR_kwDOVrts7s8AAAABaPQm3A"
+        ],
+        "review_versions": [
+          {
+            "id": 6055592492,
+            "node_id": "PRR_kwDOVrts7s8AAAABaPECLA",
+            "submitted_at": "2026-11-25T10:10:50Z",
+            "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6055798492,
+            "node_id": "PRR_kwDOVrts7s8AAAABaPQm3A",
+            "submitted_at": "2026-11-25T10:24:56Z",
+            "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7159561408,
+            "updated_at": "2026-11-25T10:20:30Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T10:24:56Z"
+      },
+      "processed_at": "2026-11-25T10:26:37.270Z",
+      "source_pins": {
+        "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+        "glp_main": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8",
+        "glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
+        "candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+        "candidate_parent": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8"
+      },
+      "outcome": "Preserved Calculus's dated correction claim in PR discussion. Independently reconstructed and ran the exact union-declarations fixture at public candidate c13e54e and its parent, plus two controls. Focused candidate behavior verified; Code integration, catalogue-wide regression claim and contributor report revisions remain pending.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#issuecomment-7159561408",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055798492",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c13e54e21a63df7510742b29f0eba4c51b38d9cb"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -11253,7 +11315,7 @@
   "latest_source_observed": {
     "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
     "glp_main": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8",
-    "glp_papers": "a1a30315732b1bc918cca1f825f2555483dddd48",
-    "observed_at": "2026-11-25T10:12:00.608Z"
+    "glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
+    "observed_at": "2026-11-25T10:26:37.270Z"
   }
 }

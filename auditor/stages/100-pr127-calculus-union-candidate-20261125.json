@@ -1,0 +1,84 @@
+{
+  "stage": 100,
+  "date": "2026-11-25T10:26:37.270Z",
+  "title": "PR 127 Calculus union-declaration correction candidate",
+  "source_pins": {
+    "gpt_auditor_before_lease": "c84bdd73adf04d5189918b8cb798822cd0db8936",
+    "lease_commit": "6d817e6d37c2f4e335cbd0c5eb8dc61b72221a98",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr_127_head": "c3e928600f76702f3f7992534c3c7c221272302b",
+    "pr_127_comment": 7159561408,
+    "glp_main": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8",
+    "glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
+    "calculus_candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+    "candidate_parent": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8"
+  },
+  "reports": [
+    {
+      "path": "calculus/tools/gcsas.py.md",
+      "pull_request": 127,
+      "finding": 1,
+      "issue": 126,
+      "status": "answered and open",
+      "report_head_status": "unchanged; requested revisions pending"
+    }
+  ],
+  "source_inspection": [
+    {
+      "scope": "Public candidate commit",
+      "result": "c13e54e is a verified direct child of current GLP main c604d5f. It adds 28 lines to calculus/tools/gcsas.py and adds calculus/tests/union-declarations. No other production file changes."
+    },
+    {
+      "scope": "Correction logic",
+      "result": "The candidate tracks predicate declaration origins through inheritance and refuses a union when distinct origins declare the same name/arity with different phrase sets. Its diagnostic names the predicate, contracts and phrases."
+    },
+    {
+      "scope": "Integration",
+      "result": "GLP main remained c604d5f at the final source refresh. The candidate is not integrated."
+    }
+  ],
+  "executed_checks": [
+    {
+      "environment": "Python 3.12.14",
+      "reconstruction": {
+        "candidate_gcsas_blob": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "parent_gcsas_blob": "1d5c62320b64ce2b1743a18c04912e92542bafef",
+        "tests_runner_blob": "180eb6becfb335e2b93704bc07d4e088fec09dc3",
+        "expected_output_blob": "0f006d3e93844c88edc52b77c34b1995ce1c19bb"
+      },
+      "command": "Import calculus/tools/tests.py from exact reconstructed blobs and compare tests.run('union-declarations') with the committed expect.txt at candidate and parent.",
+      "result": [
+        "candidate_match True",
+        "Union U ERROR: the union is undefined: member/2 is declared by Clubs and Markets with their two phrases; rename one first",
+        "4 contracts, 1 with a fault",
+        "parent_match False",
+        "Parent accepted Union U: commute yes; return equivalent; recover same",
+        "4 contracts, 0 with a fault"
+      ]
+    },
+    {
+      "environment": "Python 3.12.14",
+      "command": "Run the same exact candidate tools on two audit controls derived from the focused fixture.",
+      "result": [
+        "Identical member/2 phrase and declaration in both parents: Union U commute yes; return yes; recover same; 0 faults",
+        "Distinct predicate names member/2 and market_member/2: Union U commute yes; return yes; recover same; 0 faults"
+      ]
+    }
+  ],
+  "project_claims": [
+    "Calculus attributes the correction to private Calculus commit c91abda and public candidate c13e54e, sent to Code for integration.",
+    "Calculus reports that the candidate refuses the Groups/Agora probe and that all 91 catalogue outputs are unchanged.",
+    "The audit did not access the private Calculus repository and did not run the 91-contract catalogue regression."
+  ],
+  "discussion": {
+    "incoming_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#issuecomment-7159561408",
+    "audit_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055798492",
+    "review_id": 6055798492,
+    "pr_head": "c3e928600f76702f3f7992534c3c7c221272302b"
+  },
+  "next": [
+    "Code should integrate the public candidate, after which the focused test must be rerun at the exact GLP main commit.",
+    "The contributor should preserve the dated Calculus answer in calculus/tools/gcsas.py.md, narrow the original report as requested, use Refs #126, update the index, regenerate status and keep Finding 1 open.",
+    "After the contributor report is accepted, publish the independent candidate and eventual integration verification through a separate main-based audit PR."
+  ]
+}

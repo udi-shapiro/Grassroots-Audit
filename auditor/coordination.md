@@ -1,3 +1,7 @@
+## Stage 100 — Calculus union-declaration candidate — 25 November 2026 UTC
+
+[Calculus's answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#issuecomment-7159561408) supplies public candidate [c13e54e](https://github.com/EShapiro2/GLP/commit/c13e54e21a63df7510742b29f0eba4c51b38d9cb). The exact focused fixture passes at the candidate and is accepted by its parent, while identical-declaration and distinct-predicate controls pass. Current GLP main remains c604d5f. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) stays open for report revisions, issue tracking, status regeneration and Code integration. [Verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055798492) · [Stage record](./stages/100-pr127-calculus-union-candidate-20261125.json)
+
 ## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
 
 Reviewed [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). The isolated Calculus fixture confirms acceptance of two different phrases for one predicate. Friendship’s pinned source implements multiset state and retains copies in its view. Both reports need narrower claims, open issue references and regenerated status before merge. The shared demo observation remains project evidence. [Stage record](./stages/99-pr127-129-gce-reports-20261125.json)

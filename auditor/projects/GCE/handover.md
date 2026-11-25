@@ -1,3 +1,7 @@
+## Stage 100 — Calculus union-declaration candidate — 25 November 2026 UTC
+
+Calculus answered GCE's `calculus/tools/gcsas.py.md` Finding 1 with public candidate c13e54e. The exact focused fixture and two controls were independently executed. The candidate correction is verified, while Code integration and the report revisions remain pending. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) · [Stage record](../../stages/100-pr127-calculus-union-candidate-20261125.json)
+
 ## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
 
 The neutral union fixture confirms the early-stage collision in #127. The Friendship source in #129 supports duplicate presentation through documented multiset state. Both need the scoped revisions recorded in their reviews. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)

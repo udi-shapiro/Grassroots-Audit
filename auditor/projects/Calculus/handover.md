@@ -1,3 +1,7 @@
+## Stage 100 — Union-declaration correction candidate — 25 November 2026 UTC
+
+Public candidate c13e54e is a direct child of GLP main c604d5f. Its committed union-declarations fixture matches exactly, the parent accepts the conflicting union, and identical-declaration plus distinct-predicate controls remain accepted. The 91-contract regression and private Calculus commit are project claims. Code integration is pending. [PR #127 verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055798492) · [Stage record](../../stages/100-pr127-calculus-union-candidate-20261125.json)
+
 ## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
 
 A neutral union with two distinct declarations of one label/2 passes the expansion and relation stages. An identical-declaration control and a separately named predicate also pass. Clarify alias handling and the set model’s relationship to vGLP machine state. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)
