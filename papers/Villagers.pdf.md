@@ -1,3 +1,91 @@
+# Villagers: review of revision (2), 25 November 2026
+
+Project: Villagers, with GCE, GM, GO, Calculus and Website  
+Auditor: ChatGPT / Codex, Grassroots Review  
+Date: 2026-11-25  
+GLP commit: 1503cddc1a9b6feff952344d7d9f186e6f5c492f  
+Paper: *Villagers: A Grassroots Contract for Village Digital Life*, `Villagers__Village_Life_Grassroots_Contract (2).pdf`, six pages, 355,651 bytes, supplied 25 November at 22:06 UTC. [Exact source manifest](villagers-revision-sources-2026-11-25.json).
+
+**Assessment: substantially improved, and a credible village-contract proposal; several important life-cycle and institutional choices remain open.** The new Care, Tools and Works texts now describe commitments and fulfilment, rather than merely finding or reserving a resource. The more modest opening accurately describes a design that can be revised. It no longer claims demonstrated completeness. The grouping and catalogue are useful; adding many more contract names is not the immediate priority.
+
+This review reads the extracted text of all six pages, both tables, all thirteen printed declarations, and the readable texts of all **56 master-world contracts** inherited by the village. Their first-line dependencies close without a missing parent. With the six village-specific components, this is 62 component/supporting contracts, plus the seven aggregate declarations. Logic/schema/interface inspection and execution are narrower, identified below. A complete dependency list is not a proof that the aggregate's rules coexist correctly. Page layout and typography were not visually assessed.
+
+The separate Villagers repository still returns 404 through the available connection; it is absent from the local project checkouts. Its six new components' **own pragmas and generated expansions were not available**. The PDF nevertheless supports a complete review of their printed social rules. Available GLP main and the precisely cited Disputes, Warnings and Tennis candidate commits were inspected and tested independently. The live website remains blocked; website results concern the accessible build and rendering source, not a live deployment or a resident usability trial.
+
+[Reproduction script](villagers-revision-controls-2026-11-25.py) · [Recorded results](villagers-revision-controls-2026-11-25.json) · [Website verification](../servers/peoplesweb/tools/build.py.md) · [Earlier manuscript findings](Villagers__Village_Life_Grassroots_Contract.pdf.md).
+
+## What changed, and the present disposition
+
+Stable finding numbers and all project responses are preserved below. This assessment supersedes the earlier factual descriptions where the new PDF changes the contract.
+
+| Finding | Independently established in this revision | Current disposition |
+| --- | --- | --- |
+| 1 / #130 — Care | Groups replaces Booking; Open attests the patient's request; Take is a commitment; Release reposts; Made and Missed are different attestations | **Partly corrected.** Patient control and the unavailable-leader case remain; see the concrete case below |
+| 2 / #131 — Tools | Joint handover, sole custody, return undertaking, officer take-back, withdrawal/restoration and restricted booking are now explicit | **Partly corrected.** Existing borrowers and subsequent bookings need a stated response to unavailability; pragmas remain unverified |
+| 3 / #132 — Works | Contractor consent, locked price, completion, reasoned rejection, consensual cancellation/settlement, supervisor replacement and arbitration | **Original textual finding resolved.** No claim of verified escrow implementation; the no-arbiter/stalled-arbiter boundary is stated below |
+| 4 / #133 — Broadcast reach | Official notices and village emergencies now have participant-to-participant forwarding independent of friendship | **Original contract-level finding resolved with scope correction.** Transport deadlines and actual reach are platform obligations, not requirements to put phones into this social contract |
+| 5 / #134 — Personal emergencies | Resolve, an answer describing promised help, and a help undertaking are now printed | **Resolved for the intended public-call design.** Public disclosure is deliberate; see the explicit audience and response clarification below |
+| 6 / #135 — Disputes | Candidate ab9002a prevents a second assignment of the same Issue and records the ruling for both parties | **Candidate correction verified at schema level; not adopted in the audited main** |
+| 7 / #136 — Warnings | Candidate e4aacb8 supplies incident, answer, withdrawal/annulment and safe per-participant answer retention | **Candidate life-cycle correction verified; main still old.** Current-officer counting and an opportunity to answer need clarification |
+| 8 / #137 — Tennis | Candidate b17ca87 records the partner, removes that record on cancellation, and permits partner withdrawal | **Partly corrected candidate; not in audited main.** Quota calculation remains external and unverified |
+| Website #1 / #138 | Parser returns 31/31 Booking, 58/58 Tennis and 31/31 Disputes rules; isolated renderer displays both Book origins and both consents | **Source defect resolved.** Live deployment not independently checked |
+| Earlier manuscript #5 / #119 | Friendship replaces Secure Friendship; the whole-phone recovery claim is absent | **Resolved by correcting the manuscript's scope.** This does not supply general recovery |
+
+## Does it address village life?
+
+It addresses a broad and plausible set of activities. The strength of the design is local association: people can form a care circle, share a tool, commission common work and agree how their organisation acts. Its remaining weaknesses appear when people are unavailable, disagree, lose authority or need a service without belonging to its governing institution. Those are ordinary village situations, not exotic edge cases.
+
+**Care.** The new choice of a care circle is better than treating a person as a bookable resource. An attestation that Carol asked Alice to organise care can be an acceptable prior authorisation; Carol need not guard every visit. However, the authority's scope and revocation are unstated. Under inherited Groups:3 the leader chooses whom to admit, subject to the new member's consent, and can remove members. When Alice opened Carol's circle, the patient is not expressly guaranteed membership or control over the audience. Specify who may see and change the arrangement and how the patient can end or change that authorisation.
+
+The absent-leader response is only partial. Bob can release his own visit without the leader, which is useful. But Groups:4 Post records a message at the leader; Deliver requires that leader's act. If the leader is unavailable and the assigned visitor also fails to act, another member cannot perform Care:4 Release or Care:5 Missed. The PDF has no substitute leader or takeover procedure. A second coordinator, an agreed substitute, or a separate reassignment arrangement would suffice; a large medical workflow is unnecessary. Also distinguish a visit **never taken** from a taken visit subsequently missed: Missed covers only the latter. No person undertakes to deal with an unfilled request. Agree how the circle notices and responds to it. These statements concern people's authority and undertakings, independently of phones.
+
+**Tools.** The reservation-only objection is obsolete. Any officer can take the tool back, avoiding dependence on one named keeper. The remaining ordinary case is: Alice returns the mower damaged while Bob has tomorrow's reservation. Withdraw blocks new bookings and handover, but the printed contract does not say what happens to Bob's existing reservation or who tells him. Nor does it explain how cancelling a booking after collection interacts with continuing custody and the original return deadline. Specify that custody/return obligations survive cancellation or leaving the organisation, and make an affected reservation visibly cancelled, postponed or awaiting repair. Availability and the appropriate handover time should be explicit in the scheduling/pragma interpretation. A borrower should be able to report a problem even when no officer is immediately available. These are refinements to the new life cycle, not a repeat of the old claim that no custody exists.
+
+**Works.** The original unfairness has been repaired: the village cannot now cancel unilaterally and take the locked price back after the contractor has worked. Work can be settled by agreement or arbitration, and an absent supervisor can be replaced. Bids are an optional later feature, as Udi decided; they are not necessary for validity. The remaining availability assumption is the arbiter: Works:7 permits one referral and supplies neither reassignment nor a deadline when the arbiter cannot act. The project already lists an unavailable arbiter and a village without one as outside the case. Before real use, adopt a bylaw/fallback for those cases, and decide whether the supervisor or contractor may be the arbiter. The contract need not invent separate acts for every failure. Its pragmas must demonstrate one funded work, one terminal settlement, and a defined relationship between Accept, Cancel and pending Arbitration; these are still unverified, not alleged double-payment bugs.
+
+**Public information and emergencies.** The earlier disconnected-friendship counterexample no longer applies to official broadcasts: any participant holding one can forward it to another participant. That is a meaningful social-rule correction. It is also right to keep the network implementation out of the contract. The remaining product evidence must distinguish permission to forward, successful delivery, understanding a notice and somebody accepting responsibility to respond. None is automatically the next. A village may choose human follow-up, but it need not be imposed as an extra clause in every broadcast contract.
+
+A personal emergency is deliberately public through friends and their friends. I withdraw recipient-by-recipient consent as a requirement for that service, consistently with the [earlier auditor clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7171130497). A short sentence should state that this audience may extend beyond village membership. Resolve followed by a new call supplies a correction route; Answer and Help separate a response promise from merely receiving the call. Still clarify what a responder does when help becomes impossible, and whether resolution ends or changes an existing help undertaking. A separate restricted assistance request can use Care or Help; it is not a mandatory redesign of public Emergencies. Include the ordinary case of seeking help for somebody who cannot issue their own call. A message's expiry ends its live status, not human memory or confidentiality obligations.
+
+**Governance and belonging.** A village's residents, assembly voters, care-circle members, club members, service customers and credit-society members need not be identical. Name the relevant institution in each instance. The single abstract Villagers union does not settle those identities. On the current inherited text, Community Network customers and providers are members of the backing community. Lodging's “traveller” therefore does not automatically mean any visiting relative, and an outside roofer need not be a community member merely because Works names a contractor. Choose and explain the guest/outsider route rather than silently conflating residence, friendship, membership and access to help.
+
+Disputes' candidate final ruling fixes the duplicate-arbiter case **for one Issue identifier**. It also makes an explicit policy choice of no appeal. A dead arbiter, recusal and how two differently named cases are recognised as the same underlying dispute remain governance questions; a uniqueness key alone cannot decide them. Warnings' new Answer act is useful, but two officers can still warn and the authorised expellers can act before Bob answers: a permitted reply is not an assured opportunity to reply. Decide whether an answer or a reasonable response period is required before a sanction. Keep the policy proportionate; the contract need not promise an entire judicial system.
+
+## Missing, redundant, and misplaced elements
+
+Keep **Jobs, Help and Gigs** separate as discovery, voluntary help and paid engagement. Keep **Carpool/Rides**, **Lending/Library/Tools**, and **Home Exchange/Lodging**: matching, ownership, custody, payment and risk differ. Matching and Booking should share implementation where appropriate; the resident-facing social agreements need not be merged. Care's move from Commons to Life and its move away from Booking are sensible. Works shares payment/dispute machinery with Gigs, but collective authorisation and supervision justify its separate contract. Broadcast, Notices and Emergencies likewise have distinct transport, authority and commitment roles.
+
+The most useful additions are cross-cutting: narrowly authorised assistance; continuity when a leader, officer or arbiter cannot act; service access for guests and nonmembers; and preservation of loans, debts and earned payment when membership ends. Guardians is substitute decision-making for a ward, not automatically the right answer to a competent person who wants help. Friend discovery is not admission, and joining a village should not automatically enrol someone in Dating, paid Ads or mutual credit.
+
+Waste, water, common land, recurring maintenance, childcare, schooling, informal shopping and transport assistance may matter more than tennis or dating in a particular village. The catalogue can be extended locally; no evidence here establishes a universal ordering of those needs. Distinguish recurring stewardship and allocation of scarce common resources from booking a slot. A short resident walk-through of these situations is a useful next design test, without presenting it as a condition for publishing the paper.
+
+Table 1's **“A village coin that keeps its value” remains too strong**. The inherited text promises Dollar redemption, initially from an account and otherwise from a treasurer; it does not establish stable real purchasing power or eliminate default. Prefer “A village coin backed by assets and a Dollar-redemption undertaking,” with the undertaking's terms. Likewise, label Jobs and Help as finding/matching services; a match does not establish employment or fulfilment. These are wording corrections, not reasons to remove those contracts.
+
+## Contract text, pragmas, and website
+
+| Check | Result and significance |
+| --- | --- |
+| Tables and names | 56 inherited master texts read; no missing first-line parent in that set. Six new components and seven aggregates read from the PDF. Social/Governance renaming and Care's new position are consistent within it |
+| Printed `inherits from` | Current GLP expander rejects `Care inherits from Groups.`. That is acceptable as publication shorthand only with an explicit mapping to generation operations. No private adapter was inspected; its absence is not asserted |
+| Aggregate permissions | Earlier #115 still requires actual new expansions: solo hall/appointment booking, jointly authorised tennis, Tools' availability restriction, and combined expulsion safeguards. Sharing Booking/Organisation state across all specialisations can change rights. Distinct instances or typed rules must make the intended interpretation explicit |
+| GCE candidate generation | Current unchanged gcsas plus the four main parent texts regenerate candidate Disputes and Warnings: six contracts, zero faults; both candidates commute/return and recover their input text. This is not a native GLP execution |
+| Disputes ab9002a | Declarative controls refuse a second arbiter, reversed-party duplicate, reopening after decision and a second ruling; both parties obtain the chosen ruling |
+| Warnings e4aacb8 | Controls verify one active warning per issuer/recipient, one answer, withdrawal/annulment removing the counted flag, refusal to reissue an answered incident, and preservation of another participant's answer |
+| Warnings text versus pragmas | Ordinary clause 4 says **two officers** hold warnings; pragma clause 4 and generated Expel count **two persons' warning facts**. Officer leave does not remove them. Decide whether former officers' valid warnings count. Either policy is possible, but the two texts must say the same thing. An answer opportunity is also a policy gap, distinct from record keeping |
+| Tennis b17ca87 | Schema and term have partnered/4; cancellation clears it; Carol may withdraw while Alice keeps the reservation. Replacing Carol through Book first needs a free slot, so the published route requires cancelling/rebooking. Explain that consequence or supply partner replacement. under_bound remains an environment predicate, with no checked implementation counting both forms of participation |
+| Booking/appointments | slot and under_bound remain environment predicates. State the authority for provider availability, overlapping slots, current time and quotas; a grammar/checker certificate does not verify those facts |
+| Constitution | The general egalitarian-rule prose and the strict-majority pragma policy must be presented as an explicit chosen policy instance. Do not quietly treat every egalitarian constitution as that instance |
+| New component pragmas | Not read: the available GLP main tree has no own Care, Tools, Works, Broadcast, Notices or Emergencies declarations. Their published source responses are acknowledged, not treated as code evidence |
+| Modalities | Make machine changes, real-world attestations and human undertakings clear to the reader, particularly Take/Return/Help versus Made/Take back/Complete. The source modalities and the interface should preserve that distinction; page-image typography was not checked |
+| Website source | Multi-origin parser and renderer correction verified. Build source reads Villagers prose/full text from its separate checkout, but schemas and executable layers from GLP cascade paths. Missing layers should remain visibly unavailable; fresh prose is not evidence of a rebuilt app |
+| Website for residents | Retain the graph and terse/full contract views for explanation. Add plain task entry points such as “arrange a visit,” “borrow a tool,” “report a broken tool” and “request help,” showing the institution, required membership, responsible person and current status. This is a source/design recommendation, not a claimed observed usability failure |
+
+**Readiness boundary.** This is now a much better social design, with five old findings resolved at their stated scope, including the website defect and recovery overstatement. Before describing an operational village service, verify the six new components' actual pragmas/expansions and the institutional instances, integrate the candidate inherited fixes, and exercise the concrete failure cases above. The evidence here supports the paper review and the precisely delimited source checks; it does not certify a deployed app.
+
+## Earlier review and response record
+
+The following is the earlier five-page review, preserved with its attributed answers. Its descriptions of that manuscript are historical. Dated revision verifications under each finding give the current position.
+
 # Villagers: village life, contract text and pragmas — 25 November 2026
 
 Project: Villagers, with GO, GSC, GNA and Website for inherited contracts and presentation  
@@ -81,6 +169,8 @@ See: Villagers docs/decisions.md, item 25. Udi brought the auditor's answer to V
 
 25 November 2026: confirmed by reading the printed Care definition and the pinned Booking text, logic pragmas and schemas. No new Care pragmas were accessible. Closure: demonstrate an unauthorised visitor being refused, an authorised arrangement being accepted, and a late cancellation/missed visit reaching the responsible person without being marked completed.
 
+**Revision (2), independent verification, 25 November 2026. Partly corrected.** PDF p. 4 now supplies a Groups-based circle, attested prior authorisation, Take's undertaking, Release and separate Made/Missed attestations. The former reservation-only description no longer applies. The 20:02 response was preserved by merging PR #159. The remaining unavailable-leader witness follows from current GLP Groups:4 (Post is recorded at the leader and Deliver requires the leader), plus Care:4–5 permitting only the taker/leader to release and only the leader to mark missed. There is no substitute-leader rule or response to a never-taken visit in the PDF. Patient control of an on-behalf circle's membership/audience is unstated. These are the remaining scope of #130; the new own pragmas are not verified.
+
 ## Finding 2. Tools has reservations but no custody, return or unavailability protocol
 
 Severity: high · [Issue 131](https://github.com/udi-shapiro/Grassroots-Audit/issues/131)
@@ -104,6 +194,8 @@ Corrected: Villagers f48983d (Villagers #1; docs/decisions.md item 28; the case 
 ### Verification
 
 25 November 2026: the printed Tools definition introduces no such acts; Booking's pragmas contain reservation and cancellation effects. New Tools pragmas remain unexamined. Closure: reserve, collect, report damage, block or flag the next collection, repair and restore availability, with custody always attributable.
+
+**Revision (2), independent verification, 25 November 2026. Partly corrected.** PDF p. 5 now has handover, custody, a return undertaking, officer take-back, withdrawal/restoration and no new booking of a withdrawn tool. The original claim of no custody is superseded. The outstanding case is an existing future borrower when the tool becomes unavailable; the text gives neither a notification undertaking nor a reservation outcome. Also demonstrate that cancellation/exit does not erase a collected tool's custody or original return deadline. Own pragmas remain unavailable. No physical-return truth claim or runtime exploit is inferred.
 
 ## Finding 3. Works approval is not an agreement with the contractor, and cancellation can erase protection for completed work
 
@@ -132,6 +224,8 @@ Corrected: Villagers a4deef0. A cancellation takes the contractor's consent, and
 ### Verification
 
 25 November 2026: textual counterexample against the complete printed Works contract. No claim is made that the missing implementation double-pays or loses funds. Closure: unwilling contractor, cancellation before work, cancellation after partial/completed work, absent supervisor, insufficient funds and repeated acceptance must have explicit, tested outcomes.
+
+**Revision (2), independent verification, 25 November 2026. Resolved for the contract text.** PDF p. 5 Works:1 requires Bob's consent and locks the price. Works:5 requires his consent and an agreed split on cancellation; Works:6 replaces a supervisor; Works:7 supplies an arbitrated split. Thus the original unwilling-contractor and unilateral-cancellation counterexamples are no longer admitted by the printed text. Closing #132 does not certify funds conservation or once-only payment in unseen pragmas. The remaining arbiter-availability assumption and terminal-settlement implementation controls are stated in the current assessment.
 
 ## Finding 4. Broadcast does not establish village-wide or dependable emergency delivery
 
@@ -163,6 +257,8 @@ See: Villagers docs/decisions.md, item 34, at 8593677 (Villagers main). Udi, 202
 
 25 November 2026: a disconnected-graph counterexample follows directly from the only forwarding rule. New Broadcast pragmas and deployed networking were unavailable. Closure: test disconnected household contacts, temporarily offline recipients and expiry before delivery; accurately label which delivery and response guarantees the design provides.
 
+**Revision (2), independent verification, 25 November 2026. Resolved with scope correction.** Emergencies:3 and Notices:2 permit forwarding between participants without friendship. The original disconnected-friendship counterexample for official broadcasts is removed. I accept the project's contract/platform distinction: a phone delivery protocol is not a required social-contract clause. A bounded-delivery claim still needs connectivity/availability/timing assumptions at the platform layer; the revised paper does not make such a guarantee. The complete social meaning of an intended audience and any human follow-up remains a deployment choice, not the old contract defect. Personal emergency response undertakings are now in clauses 5–6.
+
 ## Finding 5. Personal emergency broadcasts have unrestricted onward disclosure and no resolution/update mechanism
 
 Severity: high · [Issue 134](https://github.com/udi-shapiro/Grassroots-Audit/issues/134)
@@ -193,6 +289,8 @@ See: Villagers docs/decisions.md, item 34, at 8593677 (Villagers main). Udi, 202
 
 25 November 2026: a permitted multi-hop forwarding trace discloses the unchanged personal payload; no audience or resolution rule appears in the complete printed contracts. New pragmas remain inaccessible. Closure: authorised and unauthorised recipients, multi-hop forwarding, corrected location, resolved emergency and a new incident while an older message remains live.
 
+**Revision (2), independent verification, 25 November 2026. Resolved for the intended public-call design.** Emergencies:4 resolves the maker's call and permits a corrected new call once it is no longer live; clauses 5–6 record promised help and the undertaking to give it. Public friend-of-friend dissemination is Udi's explicit choice, as already accepted in the auditor clarification on PR #143; it is not intrinsically unauthorised disclosure. I therefore withdraw mandatory recipient-by-recipient selection. State that audience plainly. Responder withdrawal and how a resolution affects commitments remain recommendations; no new own pragma or delivery guarantee was verified.
+
 ## Finding 6. One dispute can acquire two incompatible rulings, each covered by the undertaking to abide
 
 Severity: high · [Issue 135](https://github.com/udi-shapiro/Grassroots-Audit/issues/135)
@@ -214,6 +312,8 @@ Checked with GLP 9d0952c's calculus/tools: gcsas.py commute yes, return yes, rec
 ### Verification
 
 25 November 2026: source inspection and a four-step declarative replay (Raise Carol, Raise Dave, Decide Carol, Decide Dave) produce two contrary decision records. Closure: the second independent assignment must be refused or explicitly treated as an appeal with a defined precedence, while both parties can obtain the applicable ruling.
+
+**Revision (2), independent verification, 25 November 2026. Candidate correction verified; adoption pending.** Retrieved programs/gce/disputes/Disputes.txt at ab9002a and regenerated its schemas with unchanged main generator/parents. Controls reject the second Raise, reversed-party duplicate, reopening after decision and a second ruling; both parties receive ruling facts. The retained dispute(Orga,Issue) supplies the intended uniqueness for that identifier. Audited main 1503cddc still has the earlier catalogue and programs/gce text, so #135 stays open for adoption and generated-artifact agreement. This is schema projection, not native GLP/runtime execution. The no-appeal choice and an unavailable arbiter are separate policy questions.
 
 ## Finding 7. Warnings are permanent officer-target flags, not correctable records of an incident
 
@@ -261,6 +361,8 @@ Corrected: e4aacb8, programs/gce/warnings/Warnings.txt. The reset is gone: Withd
 
 25 November 2026: inspected the pinned warning vocabulary, creation effect and interface prompts. Closure: issue, answer and withdraw/correct a warning; show that a corrected or invalid warning no longer satisfies the sanction prerequisite under the chosen policy.
 
+**Revision (2), independent verification, 25 November 2026. Candidate life-cycle correction verified; partly open.** Regenerated e4aacb8 and independently checked issue/answer/withdraw/annul, the single-active-warning restriction, no reissue of an answered incident and preservation of another participant's answer. The earlier reset bug is absent. Main 1503cddc still carries the old contract. Moreover the candidate's readable clause 4 says two officers, while its logic clause and generated Expel count warning(Orga,>=2,Bob); current officer status is not tested there, and Officer leave leaves warning facts. Align the intended former-officer policy. A fair opportunity to answer before expulsion is also not implied by the mere existence of Answer. The candidate has improved record keeping; it has not yet established the entire sanction procedure.
+
 ## Finding 8. A joint tennis booking records only one player's reservation
 
 Severity: medium · [Issue 137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137)
@@ -286,6 +388,9 @@ See: GLP calculus/contracts/Booking/full-schemas.txt, Booking:0, "Environment: .
 ### Verification
 
 25 November 2026: the replay extracts the unchanged Book and Cancel schema lines and confirms that both parties guard Book while only Alice appears in its effects. This is a state/meaning discrepancy, not a claimed runtime exploit of an unknown bound implementation. Closure: demonstrate accounting for both players under the chosen meaning, withdrawal and replacement.
+
+
+**Revision (2), independent verification, 25 November 2026. Partly corrected candidate.** Inspected b17ca87 text, pragmas, expanded schemas, term and interface. Book adds partnered/4, Cancel clears it, and Withdraw removes Carol's part. The candidate fixes the missing partner representation. under_bound remains external; no calculation from booked plus partnered was demonstrated. Replacement via Book requires freeing the occupied slot, so the suggested cancel-and-rebook route can lose reservation priority. This is a usability/policy consequence to document, not a claim that the chosen independent withdrawal is forbidden. Main 1503cddc still has the older booking rule; #137 remains open.
 
 ## Text, pragmas and publication: what is established and what remains
 

@@ -1,0 +1,370 @@
+{
+  "glp_commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+  "source_blobs_verified": 104,
+  "coverage": "source generation, isolated website rendering and declarative schema projection; no GLP runtime or deployed-site execution",
+  "website_parser": [
+    {
+      "contract": "Booking",
+      "rules": 31,
+      "parsed": 31,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Tennis-Courts",
+      "rules": 58,
+      "parsed": 58,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Disputes",
+      "rules": 31,
+      "parsed": 31,
+      "all_origins_preserved": true
+    }
+  ],
+  "website_render": {
+    "own_group": "Tennis-Courts",
+    "html": "<details class=\"schema\" open><summary><span>Book</span><span class=\"fr\">Booking + Tennis Courts</span></summary>\n      <div class=\"say\">needs the will of Alice and Carol</div>\n      <div class=\"rule\"><b>Adds</b><span class=\"atom a-add\">booking(Alice,Orga,Res,Slot)</span><span class=\"atom a-add\">booked(Orga,Res,Slot,Alice)</span></div>\n      \n      <div class=\"rule\"><b>Needs</b><span class=\"atom a-need\">participant(Alice,Orga)</span><span class=\"atom a-need\">has_participant(Orga,Alice)</span><span class=\"atom a-need\">under_bound(Alice,Orga)</span><span class=\"atom a-need\">slot(Orga,Res,Slot)</span><span class=\"atom a-need\">not booked(Orga,Res,Slot,_)</span><span class=\"atom a-need\">participant(Carol,Orga)</span><span class=\"atom a-need\">has_participant(Orga,Carol)</span><span class=\"atom a-need\">under_bound(Carol,Orga)</span></div></details>",
+    "both_origins_and_guards": true
+  },
+  "table_parent_closure": {
+    "master_contracts": 56,
+    "missing_master_parents": [],
+    "dependencies": {
+      "Matching": [
+        "Gossip"
+      ],
+      "Ads": [
+        "Community Network",
+        "Overlay"
+      ],
+      "Community Network": [
+        "Backed Community Bank"
+      ],
+      "Carpool": [
+        "Free Matching"
+      ],
+      "Community Market": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Tennis Courts": [
+        "Booking",
+        "Partners"
+      ],
+      "Labelled Overlay": [
+        "Overlay"
+      ],
+      "Auction": [
+        "Local Overlay"
+      ],
+      "Rides": [
+        "Community Network",
+        "Second-Score Auction"
+      ],
+      "Community Bank": [
+        "Bank"
+      ],
+      "Rendezvous": [
+        "Services"
+      ],
+      "Bonds": [
+        "Coins"
+      ],
+      "Appointments": [
+        "Booking"
+      ],
+      "Free Matching": [
+        "Anonymous Matching"
+      ],
+      "Booking": [
+        "Organisation"
+      ],
+      "Bank": [
+        "Organisation",
+        "Denominated Currencies"
+      ],
+      "Lost and Found": [
+        "Free Matching"
+      ],
+      "Disputes": [
+        "Organisation"
+      ],
+      "Rehearsal Rooms": [
+        "Booking",
+        "Partners"
+      ],
+      "Gossip": [
+        "Friendship"
+      ],
+      "Library": [
+        "Knowledge"
+      ],
+      "Coins": [
+        "Notes"
+      ],
+      "Groups": [
+        "Friendship"
+      ],
+      "Gigs": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Denominated Currencies": [
+        "Bonds",
+        "Denominated Coins"
+      ],
+      "Denominated Coins": [
+        "Coins"
+      ],
+      "Recommendations": [
+        "Knowledge"
+      ],
+      "Feeds": [
+        "Labelled Overlay"
+      ],
+      "Constitution": [
+        "Organisation"
+      ],
+      "Democratic Community": [
+        "Community Bank",
+        "Constitution"
+      ],
+      "Lending": [
+        "Free Matching"
+      ],
+      "Anonymous Matching": [
+        "Matching",
+        "Anonymous Rendezvous"
+      ],
+      "Notes": [
+        "Knowledge"
+      ],
+      "Guardians": [
+        "Friendship"
+      ],
+      "Knowledge": [],
+      "Partners": [
+        "Free Matching"
+      ],
+      "Meeting Rooms": [
+        "Booking"
+      ],
+      "Warded Groups": [
+        "Groups",
+        "Guardians"
+      ],
+      "Organisation": [
+        "Guardians"
+      ],
+      "Second-Score Auction": [
+        "Auction"
+      ],
+      "Encounters": [
+        "Knowledge"
+      ],
+      "Home Exchange": [
+        "Free Matching"
+      ],
+      "Jobs": [
+        "Free Matching"
+      ],
+      "Local Overlay": [
+        "Overlay"
+      ],
+      "Dating": [
+        "Free Matching"
+      ],
+      "Children": [
+        "Warded Groups"
+      ],
+      "Overlay": [
+        "Friendship"
+      ],
+      "Joint Accounts": [
+        "Coins"
+      ],
+      "Friendship": [
+        "Knowledge"
+      ],
+      "Backed Community Bank": [
+        "Community Bank"
+      ],
+      "Services": [
+        "Guardians"
+      ],
+      "Help": [
+        "Free Matching"
+      ],
+      "Warnings": [
+        "Organisation"
+      ],
+      "Lodging": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Mutual Credit": [
+        "Bank"
+      ],
+      "Anonymous Rendezvous": [
+        "Rendezvous"
+      ]
+    }
+  },
+  "paper_first_line": "'inherits from Groups' opens with no relation",
+  "candidate_generation": "Knowledge  commute yes; return yes; recover same\nFriendship commute yes; return yes; recover same\nGuardians  commute yes; return yes; recover equivalent\nOrganisation commute yes; return yes; recover equivalent\nDisputes   commute yes; return yes; recover same\nWarnings   commute yes; return yes; recover same\nnames: 0 names of two kinds neither of which is under the other\n6 contracts, 0 with a fault\n",
+  "candidate_disputes": {
+    "second_arbiter_refused": true,
+    "swapped_parties_refused": true,
+    "reopen_refused": true,
+    "second_ruling_refused": true,
+    "both_parties_receive": true,
+    "final_facts": [
+      "decision(village,carol,fence,alice,bob,alice_repairs)",
+      "dispute(village,fence)",
+      "has_participant(village,alice)",
+      "has_participant(village,bob)",
+      "has_role(village,carol,Arbiter)",
+      "has_role(village,dave,Arbiter)",
+      "ruling(alice,village,fence,alice_repairs)",
+      "ruling(bob,village,fence,alice_repairs)"
+    ]
+  },
+  "candidate_warnings": {
+    "one_active_warning_per_officer_recipient": true,
+    "one_answer": true,
+    "withdraw_and_annul_remove_counted_flag": true,
+    "answered_case_cannot_be_reissued": true,
+    "other_participants_answer_preserved": true,
+    "expel_rule": {
+      "name": "Expel",
+      "head": "Expel: ~participant(Bob,Orga), ~has_participant(Orga,Bob)",
+      "form": "rule",
+      "origin": "Organisation",
+      "clause": 3,
+      "labels": [
+        "Organisation:3",
+        "Warnings:4"
+      ],
+      "by": [
+        "Organisation",
+        "Warnings"
+      ],
+      "adds": [],
+      "removes": [
+        "participant(Bob,Orga)",
+        "has_participant(Orga,Bob)"
+      ],
+      "body": "~officer(Bob,Orga), participant(Bob,Orga), has_participant(Orga,Bob), warning(Orga,>=2,Bob)",
+      "needs": [
+        "not officer(Bob,Orga)",
+        "participant(Bob,Orga)",
+        "has_participant(Orga,Bob)",
+        "warning(Orga,>=2,Bob)"
+      ],
+      "guarded": [
+        "expellers(Orga)"
+      ]
+    }
+  },
+  "candidate_tennis": {
+    "partner_record_present": true,
+    "cancel_clears_partner": true,
+    "partner_can_withdraw": true,
+    "bound_remains_environment_predicate": true,
+    "rules": {
+      "Book": {
+        "name": "Book",
+        "head": "Book: booking(Alice,Orga,Court,Slot), booked(Orga,Court,Slot,Alice), partnered(Orga,Court,Slot,Carol)",
+        "form": "rule",
+        "origin": "Booking",
+        "clause": 1,
+        "labels": [
+          "Booking:1",
+          "Tennis Courts:1"
+        ],
+        "by": [
+          "Booking",
+          "Tennis-Courts"
+        ],
+        "adds": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)",
+          "partnered(Orga,Court,Slot,Carol)"
+        ],
+        "removes": [],
+        "body": "participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Court,Slot), ~booked(Orga,Court,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga)",
+        "needs": [
+          "participant(Alice,Orga)",
+          "has_participant(Orga,Alice)",
+          "under_bound(Alice,Orga)",
+          "slot(Orga,Court,Slot)",
+          "not booked(Orga,Court,Slot,_)",
+          "participant(Carol,Orga)",
+          "has_participant(Orga,Carol)",
+          "under_bound(Carol,Orga)"
+        ],
+        "guarded": [
+          "Alice",
+          "Carol"
+        ]
+      },
+      "Cancel": {
+        "name": "Cancel",
+        "head": "Cancel: ~booking(Alice,Orga,Court,Slot), ~booked(Orga,Court,Slot,Alice), ~partnered(Orga,Court,Slot,_)",
+        "form": "rule",
+        "origin": "Booking",
+        "clause": 2,
+        "labels": [
+          "Booking:2",
+          "Tennis Courts:3"
+        ],
+        "by": [
+          "Booking",
+          "Tennis-Courts"
+        ],
+        "adds": [],
+        "removes": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)",
+          "partnered(Orga,Court,Slot,_)"
+        ],
+        "body": "booking(Alice,Orga,Court,Slot), booked(Orga,Court,Slot,Alice)",
+        "needs": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)"
+        ],
+        "guarded": [
+          "Alice"
+        ]
+      },
+      "Withdraw": {
+        "name": "Withdraw",
+        "head": "Withdraw: ~partnered(Club,Court,Slot,Carol)",
+        "form": "rule",
+        "origin": "Tennis-Courts",
+        "clause": 4,
+        "labels": [
+          "Tennis Courts:4"
+        ],
+        "by": [
+          "Tennis-Courts"
+        ],
+        "adds": [],
+        "removes": [
+          "partnered(Club,Court,Slot,Carol)"
+        ],
+        "body": "partnered(Club,Court,Slot,Carol)",
+        "needs": [
+          "partnered(Club,Court,Slot,Carol)"
+        ],
+        "guarded": [
+          "Carol"
+        ]
+      }
+    }
+  }
+}

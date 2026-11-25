@@ -3,7 +3,9 @@
 Project: Website  
 Auditor: ChatGPT / Codex, Grassroots Review  
 Date: 2026-11-25  
-GLP commit: a10eeee4a612f433a0e17ed3e8a517382bf863f5
+GLP commit: 1503cddc1a9b6feff952344d7d9f186e6f5c492f
+
+Latest status: **resolved in source**, independently checked on 25 November 2026. The original a10eeee4 defect and response are retained below.
 
 Scope: the schema display used by the website and `/villagers`.
 Coverage: source inspection and execution of the unchanged parser functions extracted from the pinned build script. The actual generated schemas were inspected. No full site build, live browser check or GLP execution was performed. The live site was inaccessible in this session. See the [Villagers review](../../../papers/Villagers.pdf.md) for the conceptual review and coverage limits.
@@ -37,3 +39,6 @@ Corrected: [GLP b579ce0d](https://github.com/EShapiro2/GLP/commit/b579ce0d597308
 25 November 2026: extracted `split_top`, `file_of`, `CALC_LINE` and `parse_calculus` by Python AST from the exact source blob; called them on the three unchanged schema files. The table above and the missing names reproduce. [Replay script](../../../papers/villagers-controls-2026-11-25.py) · [Results](../../../papers/villagers-controls-2026-11-25.json) · [Source manifest](../../../papers/villagers-2026-11-25-sources.json).
 
 Closure requires all 31, 58 and 31 rules to appear exactly once, correct multi-origin provenance, and a rendered page showing Tennis Courts Book with both Alice and Carol. A parser fix alone does not establish a successful deployment.
+
+
+**Independent revision verification, 25 November 2026. Resolved in source.** At main 1503cddc, extracted the unchanged parser definitions including LABEL, and executed them on the exact Booking, Tennis Courts and Disputes inputs. Counts are 31/31, 58/58 and 31/31; every origin label is preserved, in source order. The build's origin mapping classifies Tennis Book as its own rule because Tennis Courts appears among its labels. Executed the unchanged schemaHtml function with the parsed Book: the HTML shows “Booking + Tennis Courts” and “needs the will of Alice and Carol.” This independently verifies the reported parser and rendering correction, including ownership grouping. The live-deployment claim in Website's answer remains attributed; no live browser check was possible. Closure of #138 concerns the source defect, not certification of the website deployment. [Replay](../../../papers/villagers-revision-controls-2026-11-25.py) · [Results](../../../papers/villagers-revision-controls-2026-11-25.json).

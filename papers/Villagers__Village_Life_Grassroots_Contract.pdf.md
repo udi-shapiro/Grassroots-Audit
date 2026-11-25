@@ -29,173 +29,486 @@ The village can introduce two people, let them trade, lend a neighbour’s posse
 
 ### Which contracts are redundant?
 
-Eight entries use Free Matching: **Jobs, Help, Lending, Lost and Found, Carpool, Home Exchange, Partners and Dating**. Their published checker terms are byte-for-byte identical to one another and to Free Matching. Their English definitions are usefully different. A vacancy matches a candidacy, a loss matches a find of the same thing, and a commute needs compatible routes, times and roles. The schema delegates compatibility to the external `match` condition. Identical terms establish shared machinery. They do not establish which domain-specific matches a deployed app accepts. Publish the matching rule, visibility and consent for each kind of post, and test a pair that should match and one that should not. A dating profile, in particular, needs its own opt-in audience. [Jobs][jobs] · [Lost and Found][lost] · [Matching schema][matching]
-
-Keep **Jobs / Help / Gigs** distinct at the point of commitment. The first two introduce people for employment or a task. Gigs adds a priced engagement and settlement. **Lending / Library** form a natural sequence from finding an item to someone taking custody. **Carpool / Rides** separate a recurring commute introduction from a paid ride auction. **Home Exchange / Lodging** separate finding compatible homes from booking paid nights. These distinctions justify separate names and views. They justify a new protocol when the agreement, obligations or remedy changes.
-
-**Meeting Rooms and Appointments** also have exactly the Booking checker term. They can use the same reservation implementation. **Tennis Courts** needs a genuine additional consent. **Rehearsal Rooms** combines musician matching and room booking, and has no requirement that a resulting ensemble authorise the reservation. The paper should say whether those are two independent conveniences or one group commitment. **Community Bank** already underlies Democratic Community and Backed Community Bank. Present it once as a dependency if the same treasury is intended. Identify the instance and its membership wherever a distinct bank or society is intended. [Booking][booking] · [Tennis Courts][tennis] · [Rehearsal Rooms][rehearsal]
-
-## What is missing from village life?
-
-| Priority and proposed contract | Existing clauses to reuse | Smallest new agreement worth writing |
-| --- | --- | --- |
-| **1. Neighbour Care** | Help for introductions, Groups for a chosen circle, Appointments or Carpool for scheduling or travel. | A resident or a person they authorise requests a visit. A named volunteer accepts a particular shift. Cancellation reopens the shift for an agreed substitute. The coordinator can see an unfilled or missed visit and arrange follow-up. Limit who sees the request or completion. |
-| **2. Shared Equipment** | Booking reserves a resource for a slot. Library records a loan of a thing its owner has shelved, a due day and a return. | A village custodian hands over a particular tool or vehicle, records condition and accepts its return. Mark a missing or damaged item unavailable, notify the next borrower, and route repair or a contested handover. Village rules can set qualifications for a vehicle. |
-| **3. Village Works** | Organisation and Constitution support proposal, vote and action. Funded DAO elsewhere in the 91 accepts contributions and pays a proposer. Gigs can engage a worker, and the bank can pay. | Associate one approved work order with its spending ceiling, payee, responsible person and completion decision. Authorise payment once against that order and record the expenditure for members. Define cancellation and the release of unused funds. |
-| **4. Village Notices** | Feeds distributes through follower pointers. Groups serves its members. Directory elsewhere in the 91 can help a resident find a contact. | A designated village role issues a notice for a specified area or audience, with effective time, expiry and corrections. Provide a way to reach affected households that do not follow the author. For urgent notices the village can arrange acknowledgements or a human contact route. |
-
-### Care, equipment and collective works in practice
-
-The paper identifies the first two needs. §3 should describe the exact missing steps. Residents can already reserve a generic resource, and the owner of a mower can already lend it. The unresolved case is **a village-owned mower returned damaged when a second resident has reserved it tomorrow**. In care, a positive match also says nothing about who has taken responsibility if the first volunteer cancels. [Booking][booking] · [Library][library] · [Help][help]
-
-For collective works, use a leaking hall roof as the test. The villagers approve a ceiling, an officer engages the roofer, someone accepts the work and the treasurer pays the named contractor. In Funded DAO the grant goes to the **proposer** of a passed proposal, once. The proposer may be a resident who reported the leak. A works contract needs to associate the approved amount, contractor, acceptance and payment even when four different people fill those roles. For notices, a water shutoff affecting one lane should reach its households even if none follows the author. Neither ordinary post delivery nor a directory lookup establishes that result. [Organisation][organisation] · [Funded DAO][funded] · [Feeds][feeds] · [Directory][directory]
-
-These priorities have practical counterparts. Norfolk Good Neighbours describes a coordinator matching residents’ requests to volunteers, the Library of Things describes reserving, collecting and returning borrowed equipment, Pinxton’s finance committee records proposed budgets and maintenance, and Grendon’s community emergency plan provides for communication with residents. They illustrate different jobs a village may choose to organise. Agricultural water allocation or grazing rights would merit a local extension where residents actually govern those resources. [Volunteer care][norfolk] · [Shared items][things] · [Village finance][pinxton] · [Resident communication][grendon]
-
-## Who belongs to which institution?
-
-A resident, an assembly voter, a club member, a child, a guest and a credit-society member need not be the same person. Give each village institution an explicit identity and state which actions depend on residence, membership, office, guardianship or personal consent. This matters on entry and exit. A newcomer may want a hall appointment before admission to the village assembly. A departing resident may still hold a borrowed tool. Specify who can receive that return after membership ends. Community Network §4 places an undertaking on its decision makers to end participation after loss of community membership. The clause does not settle an outstanding loan. [Community Network][network] · [Library][library]
-
-Table 1 calls the lodging customer a traveller. The published Book schema requires that person to be a participant of the governing community. If a visiting relative is an intended user, specify a guest route. The separate Stays contract already allows a guest who knows the host to book with the host’s consent and pay in the host’s coins. The village could also explicitly keep Lodging members-only. The analogous choice for carers is a resident-authorised helper who can arrange a visit for someone without a phone. [Lodging booking][lodging] · [Stays][stays]
-
-Two Table 1 edits would make ordinary cases clearer. Backed Community Bank §4 promises redemption from the account **while it holds dollars**, and from a treasurer if empty. Name that fallback. For Market, Gigs, Rides and Lodging, mark the stated releases as their successful paths and point to cancellation, no-show or arbitration where applicable. Keep general village arbitration and commercial escrow distinct. The former concerns conduct or undertakings, the latter can divide locked coins. Say where a resident brings a dispute touching both. [Bank][backed] · [Gigs][gigs] · [Community Network][network]
-
-## Replaying the seven declarations
-
-I transcribed §2, added only its seven names and first lines in a fresh working directory, and ran the unmodified GLP tools. Every one of the **114** own and expanded schema files for the 57 existing contracts reproduced byte-for-byte. GLP’s status file marks 21 of the 30 village-facing entries as compiled and nine as parametric. All 30 have archived positive grassroots-checker verdicts. Those are properties of the individual published entries. I ran generation, derivation, relation checks and term translation for the proposed groups. App installation, a native checker run on the new terms, and handset behaviour were outside this replay. [Status file][state] · [Reproduction script](villagers-replay-2026-11-24.py)
-
-| §2 contract | Text/schema commute and return | Derived declaration equals §2 | Normalised relation check | Term translation |
-| --- | --- | --- | --- | --- |
-| Village Communication | yes / yes | no | holds | refuses Retire |
-| Village Government | yes / yes | no | holds | 131 schemas |
-| Village Money | yes / yes | no | 2 differences | 129 schemas |
-| Village Services | yes / equivalent | no | holds | 199 schemas |
-| Village Life | yes / yes | yes | cannot read Lost.txt | 34 schemas |
-| Village Commons | no / no | no | holds | 58 schemas |
-| Villagers | no / no | no | 31 differences | refuses Retire |
-
-“Commute” compares schemas obtained by expanding text first with schemas obtained by expanding schemas first. “Return” checks reconstruction of the expanded text. The relation checker uses its own normalised relation. Village Money reports differences in the ordinary and officer Leave acts. All seven derivations succeed **when the derivation tool is allowed to infer operations**. In six it proposes changes beyond the paper’s pure union, including adjustments to parent acts. Passing one column therefore does not prove the claim in §2. [Schema generator][generator] · [Deriver][derive] · [Relation checker][relations]
-
-## Finding 1. The unions change booking rights and expulsion safeguards
-
-Severity: high · [Issue 115][i115]
-
-Booking §1 permits an eligible Alice acting alone to reserve a free hall slot. Tennis Courts §1 requires two eligible members acting jointly for a court. The staged Village Commons has just one Booking-family Book. It requires both Alice and Carol for every resource, without a court condition. The overall Villagers schema has the same rule. Conversely, taking an ordinary set union of the parent acts on one shared club instance leaves the one-person parent act available on a court. The choice of interpretation changes who can book. [Booking §1][booking] · [Tennis Courts §1][tennis]
-
-The same ambiguity matters for expulsion. The Expel inherited through Disputes requires the authorised expellers. Warnings adds two officers’ warnings, and Democratic Community adds a member decision by strict majority. On the same organisation, an ordinary union retains the Disputes route for an otherwise eligible unwarned non-officer. The generated Village Government instead conjoins the democratic decision, warnings and backing. The no-warning route is a consequence of the literal-union interpretation. The generated rule requires the warnings. Specify the governing rule and its institution. [Disputes schema][dispschema] · [Warnings schema][warn] · [Democratic Community schema][dem]
-
-### Answer
-
-Awaiting a project response.
-
-### Verification
-
-24 November 2026. Rebuilt both aggregates. Village Commons expanded-schema line 58 and Villagers line 493 require two guards. Village Government line 48 includes all three safeguards. Closure requires solo hall and appointment bookings, a court reservation requiring both players, and expulsion cases that distinguish the chosen rules.
-
-## Finding 2. The readable expansion splits Lost and Found
-
-Severity: medium · [Issue 116][i116]
-
-Lost and Found is one registered contract in Table 1. The readable expander reports two missing parents of Village Life, Lost and Found as separate names, and omits the definition of a loss matching a find. The schema expander preserves the definition. The normalised relation checker also tries to open `Lost.txt`. [Registered names][names] · [Contract][lost] · [Readable expander][expand]
-
-### Answer
-
-Awaiting a project response.
-
-### Verification
-
-24 November 2026. Reproduced both missing-name diagnostics and compared the two expansions. Closure requires the exact §2 declaration to preserve the named parent and its definition in both forms and the relation check to complete.
-
-## Finding 3. Two village contracts stop at term translation
-
-Severity: high · [Issue 117][i117]
-
-The translator refuses Village Communication and Villagers at Retire. Its diagnostic says it cannot determine the participants for deletion of `friend(_,Wendy)` from the acts that establish friendship. Individual parents’ archived verdicts cannot supply the missing aggregate term. [Term translator][translator] · [Guardians][guardians]
-
-### Answer
-
-GSC (GSC #21), 2026-11-24, submitted by Audit #4. See: [GSC’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869). The standalone [Guardians term](https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/programs/gsc/Guardians.glp#L23) lists the friend and guardian roles in Retire. GSC reports the standalone certificate and refers the aggregate translation failure to Calculus, whose answer is pending.
-
-### Verification
-
-24 November 2026. Fresh, separate translations for the two contracts emitted the same error. Five other group terms translated. Closure requires terms for both contracts and a retirement case with two distinct incoming friendship records and explicit participants.
-
-**Independent replay, 24 November 2026.** At GLP `17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615` the published replay again returned a Retire translation refusal for Village Communication and Villagers. The pinned standalone Guardians term contains the explicit quantified role lists cited by GSC. The source inspection and Python replay leave the aggregate failure open. The standalone certificate remains attributed to GSC.
-
-## Finding 4. A decided dispute has no recorded ruling
-
-Severity: high · [Issue 118][i118]
-
-Alice and Bob disagree over a broken fence. Carol, their arbiter, may rule that Alice must repair it or that Bob must repair it. In either case Decide removes the pending case and records exactly `decision(Orga,Carol,Issue,Alice,Bob)`. The parties, arbiter and issue were all fixed when Alice filed. Nothing records which ruling Carol chose or communicates that ruling to the parties who undertake to abide by it. Record the outcome or a reference both parties can read. Compliance can remain a personal undertaking. [Disputes clauses][disp] · [Raise and Decide schemas][dispschema]
-
-### Answer
-
-Awaiting a project response.
-
-### Verification
-
-24 November 2026. Compared the filing inputs, decision guard, deleted case and sole new decision fact. The two opposite dispositions yield the same state. Closure requires distinguishable rulings and a way for both parties to obtain the applicable one.
-
-## Finding 5. Table 1 overstates recovery after losing a phone
-
-Severity: medium · [Issue 119][i119]
-
-Table 1 says a villager recovers the state of their phone from friends. Secure Friendship checkpoints friendships and the identity record, and replays friendship updates. Alice’s existing hall reservation, an outstanding loan or a coin balance is outside those records. Narrow the Table 1 description to its promised social records. If wider recovery is intended, identify the authority for each state class and demonstrate restoration. [Secure Friendship §§2–5][secure]
-
-### Answer
-
-Villagers (Villagers #2), 2026-11-25, submitted by Audit #4. Villagers is in its own repository, EShapiro2/Villagers.
-
-Corrected: Villagers 09035ad. Friendship takes the place of Secure Friendship in Village Communication and Table 1 (docs/decisions.md item 16).
-
-### Verification
-
-24 November 2026. Traced the data that Tell, Send record, Checkpoint and Restore send and keep. The scope discrepancy follows from the cited contract and the submitted Table 1. A revised claim limited to those records would resolve it.
-
-## Source and publication record
-
-The supplied PDF is identified by SHA-256 `36fb3a2d31e251626b9705b113baf63b493fce9240083ff99dc4853904dd02ef`. GLP’s project register names Villagers and its paper source. The examined public papers branch had no Villagers PDF and the website’s paper registry had no Villagers publication key. This report uses the submitted filename so a subsequent public version can be identified unambiguously. [Public papers snapshot][papers] · [Website paper registry][website] · [Project register][project]
-
-[jobs]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Jobs/contract.txt
-[lost]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Lost-and-Found/contract.txt
-[booking]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Booking/contract.txt
-[tennis]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Tennis-Courts/contract.txt
-[rehearsal]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Rehearsal-Rooms/contract.txt
-[library]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Library/contract.txt
-[help]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Help/contract.txt
-[organisation]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Organisation/contract.txt
-[funded]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Funded-DAO/contract.txt
-[feeds]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Feeds/contract.txt
-[directory]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Directory/contract.txt
-[network]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Community-Network/contract.txt
-[stays]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Stays/contract.txt
-[backed]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Backed-Community-Bank/contract.txt
-[gigs]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Gigs/contract.txt
-[guardians]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Guardians/contract.txt
-[disp]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Disputes/contract.txt
-[secure]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Secure-Friendship/contract.txt
-[state]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/STATE.txt
-[matching]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Jobs/full-schemas.txt#L19-L24
-[dispschema]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Disputes/full-schemas.txt#L46-L60
-[warn]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Warnings/full-schemas.txt#L46-L49
-[dem]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Democratic-Community/full-schemas.txt#L45-L49
-[lodging]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts/Lodging/full-schemas.txt#L215
-[generator]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/tools/gcsas.py
-[derive]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/tools/derive.py
-[relations]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/tools/relations.py
-[translator]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/tools/toglp.py
-[expand]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/tools/expand.py
-[project]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/organisation/projects.md
-[names]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/NAMES.txt
-[website]: https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/servers/peoplesweb/tools/papers.py
-[catalogue]: https://github.com/EShapiro2/GLP/tree/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/calculus/contracts
-[papers]: https://github.com/EShapiro2/GLP/tree/1947e12613a554aa241b96c4d9b8b231fa48a8cb/papers
-[norfolk]: https://norfolkgoodneighbours.org.uk/becoming/
-[things]: https://libraryofthingshelp.zendesk.com/hc/en-gb/articles/9932052780177-How-does-it-work
-[pinxton]: https://www.pinxtonparishcouncil.co.uk/uploads/4/4/9/3/4493465/ppcfinancedec24minutes.pdf
-[grendon]: https://www.grendonparishcouncil.gov.uk/uploads/gpc-community-emergency-plan-january-2023.pdf?v=1681905412
-[i115]: https://github.com/udi-shapiro/Grassroots-Audit/issues/115
-[i116]: https://github.com/udi-shapiro/Grassroots-Audit/issues/116
-[i117]: https://github.com/udi-shapiro/Grassroots-Audit/issues/117
-[i118]: https://github.com/udi-shapiro/Grassroots-Audit/issues/118
-[i119]: https://github.com/udi-shapiro/Grassroots-Audit/issues/119
+Eight entries use Free Matching: **Jobs, Help, Lending, Lost and Found, Carpool, Home Exchange, Partners and Dating**. Their published checker terms are byte-for-byte identical to one a…13513 tokens truncated…   },
+    {
+      "path": "calculus/contracts/Groups/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "abd18285d433fa5194ed6650cd7ad2a500cd6f32"
+    },
+    {
+      "path": "calculus/contracts/Groups/interface.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "284ab4645c58c76b03887fc2a30c255de84ddf60"
+    },
+    {
+      "path": "calculus/contracts/Organisation/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "8c771c89e451cc75f2b27b3e43973e05fed0cb2f"
+    },
+    {
+      "path": "calculus/contracts/Organisation/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "69db7b4399876e8d6b894313cd846b628e046c83"
+    },
+    {
+      "path": "calculus/contracts/Organisation/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "f53730cf2ed11669871d705cc7fe4172ce55f944"
+    },
+    {
+      "path": "calculus/contracts/Organisation/interface.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "6ee2d4d3e40007e366502482d45e9db04a8534f6"
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "2ace00f73e8649f96839d9569d042ed5ba36caea"
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "15ef2a45b1a5ab39f9e717fa6d7094f7491708cb"
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "7c13b791d192596f27c8aeef01f0f8c7d617c277"
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/interface.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "06471908db8295534d5e078df65150c805fe7e75"
+    },
+    {
+      "path": "calculus/contracts/Constitution/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "458abed67e9becc69eb800f3213de88b443048ea"
+    },
+    {
+      "path": "calculus/contracts/Constitution/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "f6599ff2d73b4e1f2bf57e92f646c86b2c3431e0"
+    },
+    {
+      "path": "calculus/contracts/Constitution/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "700e20a96181d487271d7855f704e17104b38526"
+    },
+    {
+      "path": "calculus/contracts/Constitution/interface.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "942bf3d61e51695c270d46beba4a86ff3d10c94a"
+    },
+    {
+      "path": "calculus/contracts/Backed-Community-Bank/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "6c73daabd7817a7318daf642f0c699aa3bf69439"
+    },
+    {
+      "path": "calculus/contracts/Backed-Community-Bank/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "8169337da6b6158c76ffc3de89a506df6a6e735f"
+    },
+    {
+      "path": "calculus/contracts/Backed-Community-Bank/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "795dccf756e1139e889c45a1baf30014d5b84321"
+    },
+    {
+      "path": "programs/gce/disputes/Disputes.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "1ee43dd7b977af44617df04501d6e62f97a4cba9"
+    },
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "531c2bc55576976bb8cdf97025d97c4614a779a6"
+    },
+    {
+      "path": "programs/gce/disputes/Disputes.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "ab9002a",
+      "sha": "b54a8f64daf8b0b75f8861f2b7db266762fda149"
+    },
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "e4aacb8",
+      "sha": "6c6fbc879e8a879605161bfde68185706ba84628"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "b17ca87",
+      "sha": "050041bfcbff308ed56f3308fa75deb51b00b48e"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "b17ca87",
+      "sha": "18fd24663005b669f366804d02188cbf4773d21f"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/full-schemas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "b17ca87",
+      "sha": "6ef17630ade29a765c6e1557a4ed403380583171"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "b17ca87",
+      "sha": "19577472727ed78b529e73f1012e4bd1833b66e1"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/interface.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "b17ca87",
+      "sha": "ffcb9b46879c7309399bd3981668018ad1b88ac7"
+    },
+    {
+      "path": "calculus/tools/gcsas.py",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288"
+    },
+    {
+      "path": "calculus/tools/names.py",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+    },
+    {
+      "path": "calculus/tools/nameslines.py",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+    },
+    {
+      "path": "calculus/contracts/Guardians/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "f7c888bde3d67bf7e946a2fd2077af76006eaa48"
+    },
+    {
+      "path": "calculus/contracts/Friendship/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "6fd5ed66abc9f321370d9492fdf2901d17c374d2"
+    },
+    {
+      "path": "calculus/contracts/Knowledge/logic-pragmas.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "11e458acd0dac49e8ee6bd1c19571e2a4857e31a"
+    },
+    {
+      "path": "calculus/contracts/Friendship/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "b98c7be4d30f79e299eddc96b00a922af60319c6"
+    },
+    {
+      "path": "calculus/contracts/Encounters/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "be5722a4ac67ac3a125716f8bc9c6b55311a76f9"
+    },
+    {
+      "path": "calculus/contracts/Feeds/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "006952d8f955d15aa5d3916ab7a2b74fed19be5d"
+    },
+    {
+      "path": "calculus/contracts/Children/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "88ef90ccf56e9249e3594ba9046e79b0395926c6"
+    },
+    {
+      "path": "calculus/contracts/Democratic-Community/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "ad7605c904ad22ed52889a35b27da5e64dc13b48"
+    },
+    {
+      "path": "calculus/contracts/Community-Bank/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "cfb4a75990f78b51f85e008934779a1ac93b1ada"
+    },
+    {
+      "path": "calculus/contracts/Mutual-Credit/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "c9b56b2addbe64198c89433c410035e763ff8b50"
+    },
+    {
+      "path": "calculus/contracts/Joint-Accounts/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "00cc7d151a9fb8ecdd8a1a8a209311434ec84211"
+    },
+    {
+      "path": "calculus/contracts/Community-Market/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "b5f1fe43ecb52f28ccd593ba5a82d5135b4ca7e6"
+    },
+    {
+      "path": "calculus/contracts/Gigs/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "4136a3457dba69787706138365ee7413ac5091ca"
+    },
+    {
+      "path": "calculus/contracts/Rides/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "900d8e9b419fc0f9d298e14bde350bd4b185d1f0"
+    },
+    {
+      "path": "calculus/contracts/Lodging/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "c42025f1c4b51419d42b26ae6896a8bcd9e33077"
+    },
+    {
+      "path": "calculus/contracts/Ads/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "9d91abb310311818dfa8b6daa2404c52666a8168"
+    },
+    {
+      "path": "calculus/contracts/Jobs/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "03e534402c5d6d5c6e1a12c5f52f51cfe5623673"
+    },
+    {
+      "path": "calculus/contracts/Help/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "20c989a28d0120ff68aab508bd303befc5dc8ace"
+    },
+    {
+      "path": "calculus/contracts/Lending/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "f1fe9dcdd51451fdb60f22d4907f4866a19f3dc1"
+    },
+    {
+      "path": "calculus/contracts/Library/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "e44d723d61eb3091c37115448a35108088bdae28"
+    },
+    {
+      "path": "calculus/contracts/Lost-and-Found/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "876c3a1288004188e747cc182a631ef27e9ad5fa"
+    },
+    {
+      "path": "calculus/contracts/Carpool/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "c7d7202e5b96c48d86d5730b934f69159a63664d"
+    },
+    {
+      "path": "calculus/contracts/Home-Exchange/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "9d4a9ff0b554bd852cab372fa31ef9644ed44997"
+    },
+    {
+      "path": "calculus/contracts/Partners/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "7d66fe644c81c982617dbc0f6f6e70e825cba6bb"
+    },
+    {
+      "path": "calculus/contracts/Dating/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "7f9a64c2ba56fccea6be89d924415298d7bb6967"
+    },
+    {
+      "path": "calculus/contracts/Meeting-Rooms/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "bb9790d3083acf8e715bb03d7cd48469c8fed29f"
+    },
+    {
+      "path": "calculus/contracts/Appointments/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "228f36cf3211f5e7e089f8790524d2b74c8cb84d"
+    },
+    {
+      "path": "calculus/contracts/Knowledge/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "2984251a76d49a4edd58f9873dc539c2f51cb550"
+    },
+    {
+      "path": "calculus/contracts/Guardians/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "706e0c9d021e643012cd3baef527af3c347425df"
+    },
+    {
+      "path": "calculus/contracts/Warded-Groups/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "5a2cc3355620387758d3b36c2618caa19e11a814"
+    },
+    {
+      "path": "calculus/contracts/Services/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "a67ea9ade422d59ac4ab5faf1a614a91f1f619f4"
+    },
+    {
+      "path": "calculus/contracts/Rendezvous/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "92f89b2aafa1f0eb313a01c87b8785172dae32ff"
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Rendezvous/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "248c65ea2ef61d0d2bfb69bb8e7b75e13d7924fb"
+    },
+    {
+      "path": "calculus/contracts/Notes/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "5aee18c8f58326b4fa3a1dcbda645e3c64633ad6"
+    },
+    {
+      "path": "calculus/contracts/Coins/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "fcfcbd377f5b6b8377a5bdd843b7cf07466385de"
+    },
+    {
+      "path": "calculus/contracts/Bonds/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "da2c2c93e09fac218e324b48fe42709b58239108"
+    },
+    {
+      "path": "calculus/contracts/Denominated-Coins/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "027a35b2639d02b1fb45b1cf80fdba7bd75d3900"
+    },
+    {
+      "path": "calculus/contracts/Denominated-Currencies/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "3ec67af85e4f2f8646c8cc484c1b5c259007d023"
+    },
+    {
+      "path": "calculus/contracts/Bank/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "1719f98983ac18dfb84e765bd966aced68c5bd49"
+    },
+    {
+      "path": "calculus/contracts/Community-Network/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "0f7fa4c1d61c25531f0c361a4336fa695aac1c45"
+    },
+    {
+      "path": "calculus/contracts/Recommendations/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "0694eb5282a3b6bde4ec43b319c11e3f35b5b787"
+    },
+    {
+      "path": "calculus/contracts/Overlay/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "ad6568295ec907b25c66ebd751eaeae5af623b9e"
+    },
+    {
+      "path": "calculus/contracts/Labelled-Overlay/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "13ebf441a6141752697e5296af2a4f67debeb44c"
+    },
+    {
+      "path": "calculus/contracts/Local-Overlay/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "c074a672660ab8f1211c5ab5273998276e47c218"
+    },
+    {
+      "path": "calculus/contracts/Auction/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "496275f834450de552cdb87ff23c63b60d2983e9"
+    },
+    {
+      "path": "calculus/contracts/Second-Score-Auction/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "532c3bbe358f6d7fa99cd72b0ad1a20624dba2be"
+    },
+    {
+      "path": "calculus/contracts/Gossip/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "84c5a365edc8037fabad27c1a0dcddbb6b02cfff"
+    },
+    {
+      "path": "calculus/contracts/Matching/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "83175626e9bb9df7daba1328629ccbeed2ddf579"
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Matching/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "477c83ef9f89b2fd5808b274b02c995b851ad0bf"
+    },
+    {
+      "path": "calculus/contracts/Free-Matching/contract.txt",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "57dc797acbb070121ce3cd8360a3d039d8c9f24d"
+    },
+    {
+      "path": "calculus/tools/revtex.py",
+      "repo": "EShapiro2/GLP",
+      "commit": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+      "sha": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+    }
+  ]
+}
