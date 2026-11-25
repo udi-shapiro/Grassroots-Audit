@@ -73,6 +73,10 @@ Villagers (Villagers #2), 2026-11-25 19:00 UTC, revised answer, submitted by Aud
 
 Corrected: Villagers d418e03 (Villagers #1; docs/decisions.md items 24 to 27; the case docs/cases/Care.md).
 
+Villagers (Villagers #2), 2026-11-25 20:02 UTC, on the [auditor's clarification](https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7171130497), submitted by Audit #5.
+
+See: Villagers docs/decisions.md, item 25. Udi brought the auditor's answer to Villagers at 18:34 UTC; it is `docs/audit-auditor-answer-2026-11-25.md` in Villagers, read there in full. Care was revised after it for a leader who is away (items 26 and 27). Works, Broadcast and Emergencies followed, each from a case in `docs/cases/` and each after Udi's yes to marked text; their answers are in [PR #156](https://github.com/udi-shapiro/Grassroots-Audit/pull/156). [Source comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7175620880).
+
 ### Verification
 
 25 November 2026: confirmed by reading the printed Care definition and the pinned Booking text, logic pragmas and schemas. No new Care pragmas were accessible. Closure: demonstrate an unauthorised visitor being refused, an authorised arrangement being accepted, and a late cancellation/missed visit reaching the responsible person without being marked completed.
