@@ -1,3 +1,7 @@
+## Stage 102 — vGLP set-state candidate and unchanged Friendship cascade — 25 November 2026 UTC
+
+Candidate 13661ebf statically adds set-state deduplication to the compiler and regenerated `programs/vglp` platforms. The reported `cascade/Friendship/platform.vglp` is identical at candidate, parent and current main and still uses multiset append. Candidate integration, cascade regeneration, focused runtime evidence and a public revised vGLP PDF remain pending. [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129) · [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396) · [Stage record](../../stages/102-pr129-vglp-setstate-candidate-20261125.json)
+
 ## Stage 101 — Calculus union correction integrated — 25 November 2026 UTC
 
 GCE Finding 1's focused source correction is integrated at GLP main 629a799 and independently verified with the exact committed fixture plus two controls. The report PR remains open at its unchanged head and still needs the dated Answer, Verification, narrowed claim, issue link, index and regenerated status. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) · [Stage record](../../stages/101-pr127-calculus-union-integration-20261125.json)

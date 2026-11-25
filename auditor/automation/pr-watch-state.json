@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T13:10:33Z",
-  "active_run": {
-    "run_id": "pr-watch-129-7163393624-20261125T131033Z",
-    "started_at": "2026-11-25T13:10:33Z",
-    "expires_at": "2026-11-25T13:40:33Z",
-    "expected_auditor_head": "f0ba7ac27f720f9ef8fec4808c0e28f1007f5282",
-    "events": [
-      {
-        "delivery_id": "92928732-e8d1-11f1-992a-85067a946e45",
-        "pull_request_number": 129,
-        "comment_id": 7163393624
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T13:18:52.032Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -46,7 +34,7 @@
   },
   "publication_pr": 125,
   "publication_merge_sha": null,
-  "source_verified": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
+  "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
     {
       "number": 120,
@@ -1606,15 +1594,19 @@
       "head_sha": "f841053ae05dd9a52296c2c4357591ca579e5f02",
       "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
       "state": "open",
-      "updated_at": "2026-11-25T10:10:56Z",
+      "updated_at": "2026-11-25T13:17:48Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 0,
-        "reviews": 1,
+        "comments": 2,
+        "reviews": 2,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7163393624,
+          7163571936
+        ],
         "review_ids": [
-          "PRR_kwDOVrts7s8AAAABaPEHdA"
+          "PRR_kwDOVrts7s8AAAABaPEHdA",
+          "PRR_kwDOVrts7s8AAAABaRpzLA"
         ],
         "review_versions": [
           {
@@ -1623,14 +1615,30 @@
             "submitted_at": "2026-11-25T10:10:56Z",
             "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
             "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6058308396,
+            "node_id": "PRR_kwDOVrts7s8AAAABaRpzLA",
+            "submitted_at": "2026-11-25T13:16:55Z",
+            "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+            "state": "COMMENTED"
           }
         ],
-        "latest_comments": [],
-        "latest_item_at": "2026-11-25T10:10:56Z"
+        "latest_comments": [
+          {
+            "id": 7163393624,
+            "updated_at": "2026-11-25T13:10:22Z"
+          },
+          {
+            "id": 7163571936,
+            "updated_at": "2026-11-25T13:17:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T13:17:48Z"
       },
-      "review_cursor": 6055593844,
-      "comment_cursor": "none",
-      "notes": "Pinned source supports the multiset explanation. Deployment and API observation remain contributor evidence. Requested layer-specific wording, retained evidence, issue tracking and regenerated status."
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaRpzLA",
+      "comment_cursor": 7163571936,
+      "notes": "Processed vGLP answer 7163393624. Candidate 13661ebf adds compiler/program-platform deduplication, while the exact cascade/Friendship artifact remains unchanged at candidate, parent and main. Public vGLP PDF blob is unchanged and private paper commit is unavailable. Review 6058308396 keeps integration, regeneration, runtime and public paper verification pending. Own correction comment 7163571936 records the 53-file count."
     }
   ],
   "source_observed_after_tests": {

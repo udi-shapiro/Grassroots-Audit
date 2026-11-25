@@ -1,3 +1,7 @@
+## Stage 102 — vGLP set-state candidate and unchanged Friendship cascade — 25 November 2026 UTC
+
+Candidate 13661ebf statically adds set-state deduplication to the compiler and regenerated `programs/vglp` platforms. The reported `cascade/Friendship/platform.vglp` is identical at candidate, parent and current main and still uses multiset append. Candidate integration, cascade regeneration, focused runtime evidence and a public revised vGLP PDF remain pending. [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129) · [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396) · [Stage record](../../stages/102-pr129-vglp-setstate-candidate-20261125.json)
+
 ## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
 
 Friendship’s generated platform at public GLP c604d5f explicitly uses multiset state, appends effects and projects shown atoms individually. Resolve the relationship between source model and view, then check an isolated pinned build. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)

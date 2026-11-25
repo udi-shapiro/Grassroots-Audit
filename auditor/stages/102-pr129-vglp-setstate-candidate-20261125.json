@@ -1,0 +1,81 @@
+{
+  "stage": 102,
+  "date": "2026-11-25T13:18:52.032Z",
+  "title": "PR 129 vGLP set-state candidate leaves audited cascade artifact unchanged",
+  "source_pins": {
+    "gpt_auditor_before_lease": "f0ba7ac27f720f9ef8fec4808c0e28f1007f5282",
+    "lease_commit": "ebb4e307b8bef18d70b8090bd45ccab19d2bb199",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr_129_head": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+    "pr_129_comment": 7163393624,
+    "glp_main": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a",
+    "prior_glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
+    "vglp_pdf_blob": "7630d187e8996d5d484483c1ac897c20a244c288",
+    "set_state_candidate": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47",
+    "candidate_parent": "958a8ed7f82c5d1572dea83d1205d38563509c68",
+    "claimed_private_paper_commit": "a888327"
+  },
+  "reports": [
+    {
+      "path": "cascade/Friendship/platform.vglp.md",
+      "pull_request": 129,
+      "finding": 1,
+      "issue": 128,
+      "status": "answered in PR discussion; candidate compiler correction inspected; exact audited artifact, main integration, runtime evidence and public paper revision pending",
+      "report_head_status": "unchanged; Answer still says Awaiting a project response and requested publication revisions remain absent"
+    }
+  ],
+  "project_claims": [
+    "vGLP reports that candidate 13661ebf makes local state a set, reprints every platform, revises multiplicity-based contracts and tests, and was sent to Code for integration.",
+    "vGLP reports a paper revision at VEUI commit a888327 pending Udi's retrospective approval.",
+    "vGLP reports that the public site will reflect the change after Code integration and cascade/world regeneration."
+  ],
+  "source_inspection": [
+    {
+      "scope": "Public candidate",
+      "result": "13661ebf is one commit ahead of parent 958a8ed and changes 53 files with 671 additions and 541 deletions. compiler/text.glp adds dedup after both apply_with addition paths. The regenerated programs/vglp and application platforms carry the set wording and dedup logic. Affected contracts and expected checks are revised."
+    },
+    {
+      "scope": "Exact audited cascade artifact",
+      "result": "cascade/Friendship/platform.vglp is byte-for-byte identical at candidate 13661ebf, parent 958a8ed and current GLP main e874d7a. It still declares a multiset and appends additions without deduplication. The candidate diff contains no cascade path."
+    },
+    {
+      "scope": "Integration",
+      "result": "Candidate 13661ebf and current GLP main e874d7a have diverged. The candidate is not integrated at the observed main pin."
+    },
+    {
+      "scope": "Public paper evidence",
+      "result": "Commit a888327 does not resolve in public EShapiro2/GLP. Public papers snapshots 0cad18e and 231bdd6 contain the same vGLP PDF blob 7630d18, so no public paper revision is observable at these pins."
+    },
+    {
+      "scope": "Audit report",
+      "result": "PR #129 remains at f841053. The report still says Awaiting a project response, omits the new dated answer and verification distinctions, and has not added the requested issue/index/status updates."
+    }
+  ],
+  "executed_checks": [
+    {
+      "environment": "Source inspection only",
+      "scope": "Candidate and immutable artifact comparison",
+      "result": "Compared commit ancestry, changed-file inventory, exact file contents and public PDF blob identities through the authorized GitHub connection."
+    },
+    {
+      "environment": "No Dart or Flutter executable; no candidate workflow runs or commit statuses",
+      "scope": "Runtime and regression execution",
+      "result": "No GLP runtime or revised test suite was executed. No execution success is claimed."
+    }
+  ],
+  "discussion": {
+    "incoming_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#issuecomment-7163393624",
+    "audit_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396",
+    "correction_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#issuecomment-7163571936",
+    "review_id": 6058308396,
+    "pr_head": "f841053ae05dd9a52296c2c4357591ca579e5f02"
+  },
+  "next": [
+    "Preserve the dated vGLP answer in Finding 1 and distinguish the candidate compiler correction from the unchanged cascade artifact.",
+    "Integrate on current GLP main, regenerate cascade/Friendship/platform.vglp, and provide a focused repeat-Acquaint execution or retained isolated output.",
+    "Publish the approved vGLP paper revision on the public papers branch, then verify the public PDF independently.",
+    "Use Refs #128, link the report and issue index, regenerate status, and review the revised exact PR head before merge."
+  ]
+}
