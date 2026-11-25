@@ -1,9 +1,32 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T22:18:30.763Z",
-  "active_run": null,
-  "pending_events": [],
+  "updated_at": "2026-11-25T22:23:57.845Z",
+  "active_run": {
+    "run_id": "pr-watch-20261125-pr158-comments-0ec40a3",
+    "started_at": "2026-11-25T22:23:57.845Z",
+    "expires_at": "2026-11-25T22:53:57.845Z",
+    "base_head_sha": "1319b625203be64e61d9c6d68996b6a28e31fcc1",
+    "event": {
+      "delivery_id": "47f3bf92-e91d-11f1-95f8-15336aaa175e",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 158,
+      "comment_id": 7176068668,
+      "actor_login": "nimrodtalmon"
+    }
+  },
+  "pending_events": [
+    {
+      "delivery_id": "reconciled-7176104066",
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 158,
+      "comment_id": 7176104066,
+      "actor_login": "EShapiro2",
+      "note": "Omitted recent comment discovered during connector reconciliation."
+    }
+  ],
   "automation": {
     "status": "enabled; event-triggered run observed",
     "id": "Automation_a7418293ed34819191eb13c5bdbeb544",
