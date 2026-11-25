@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T18:16:54.537Z",
-  "active_run": {
-    "run_id": "pr-watch-141-35126e44",
-    "started_at": "2026-11-25T18:16:54.537Z",
-    "expires_at": "2026-11-25T18:46:54.537Z",
-    "expected_auditor_head": "bdae25116a34ce71994b2f0edae58f0b89c7f164",
-    "events": [
-      {
-        "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
-        "pull_request_number": 141,
-        "head_sha": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
-        "action": "opened"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T18:18:16.640Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,6 +36,38 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 141,
+      "head_sha": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+      "base_sha": "e7b472ed2882d943348749cdd7abe406378cbf39",
+      "state": "open",
+      "updated_at": "2026-11-25T18:17:46Z",
+      "merged_at": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV4-DQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6062751245,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:17:46Z"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T18:17:46Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+      "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
+      "notes": "Source supports a scope-limited local binding gap. posted and member are historical candidate bindings and cannot alone filter for active posts. Exact head reviewed with changes requested. Issue #140 remains open and unanswered."
+    },
     {
       "number": 139,
       "head_sha": "c44c40dc95451cbd694699a38d967533b6c6d42c",

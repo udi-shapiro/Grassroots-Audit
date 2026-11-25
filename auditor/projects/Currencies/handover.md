@@ -1,3 +1,7 @@
+## Stage 106 — Agora Withdraw review — 25 November 2026 UTC
+
+The pinned contract identifies Currencies as owner. Ordinary Withdraw requires the keeper’s wall record. The poster’s historical `posted` fact is retained after withdrawal, so it cannot alone identify active posts. Verify before-delivery, after-withdrawal and keeper-own cases when a public answer is available. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6062751245) · [Issue](https://github.com/udi-shapiro/Grassroots-Audit/issues/140) · [Stage record](../../stages/106-pr141-agora-withdraw-review-20261125.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 Notes now preserves the note set through Issue, Pay, Deposit, Release and Return. Run the two-identifier transfer and escrow controls and check issuer signatures for #97. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)

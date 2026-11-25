@@ -1,0 +1,107 @@
+{
+  "stage": 106,
+  "date": "2026-11-25T18:18:16.640Z",
+  "title": "Agora Withdraw submission reviewed, changes requested",
+  "event": {
+    "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
+    "pull_request_number": 141,
+    "head_sha": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+    "action": "opened"
+  },
+  "source_pins": {
+    "gpt_auditor_before_lease": "bdae25116a34ce71994b2f0edae58f0b89c7f164",
+    "lease_commit": "9c75e2dea10cae3edb931f67aa9fb508d3bb7ca0",
+    "audit_main": "e7b472ed2882d943348749cdd7abe406378cbf39",
+    "pr_head": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+    "report_glp": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+    "glp_main": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a"
+  },
+  "glp_blobs": [
+    {
+      "path": "programs/currencies/agora/Agora.txt",
+      "blob": "bfd93c2f6e8352675b2450acbfd253572f19271d",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "calculus/contracts/Agora/full-schemas.txt",
+      "blob": "43ccb8e149a8a4e5ca5ea2988549bd2f4facc43f",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "calculus/contracts/Agora/interface.txt",
+      "blob": "5622af2426f7c33b84073a4d5a579fd0960eafa7",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "calculus/contracts/Agora/interface-adopted.txt",
+      "blob": "f3dd30a60edf951d530ab6ef82e868a62c1f598c",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "calculus/contracts/Agora/logic-pragmas.txt",
+      "blob": "9f8f5397afb1baf84d62ff6d5ac0bcb7dd15933a",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "calculus/contracts/Agora/term.glp.txt",
+      "blob": "cbb929fb5f1d9c65ad6db7f4dbd978d66eca4e9d",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "cascade/Agora/interface.glp",
+      "blob": "274edf867133dbd1050f187b17b9e1e6f467d4d0",
+      "also_at_report_pin": true
+    },
+    {
+      "path": "cascade/Agora/manifest.md",
+      "blob": "3369ab87444195b7261234d53c1c914e96de2503",
+      "also_at_report_pin": true
+    }
+  ],
+  "report": {
+    "path": "programs/currencies/agora/Agora.txt.md",
+    "finding": 1,
+    "issue": 140,
+    "source_owner": "Currencies",
+    "finding_attribution": "GCE",
+    "status": "unanswered, report revision requested"
+  },
+  "discussion_version": {
+    "comments": 0,
+    "reviews": 1,
+    "review_threads": 0,
+    "comment_ids": [],
+    "review_ids": [
+      "PRR_kwDOVrts7s8AAAABaV4-DQ"
+    ],
+    "review_versions": [
+      {
+        "id": 6062751245,
+        "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+        "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+        "state": "CHANGES_REQUESTED",
+        "submitted_at": "2026-11-25T18:17:46Z"
+      }
+    ],
+    "latest_comments": [],
+    "latest_item_at": "2026-11-25T18:17:46Z"
+  },
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6062751245",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/140"
+  },
+  "source_inspection": "Pinned source checks matched ordinary Withdraw’s keeper-side precondition, Withdraw own’s initiator-side precondition, Carol’s identity in the compiled term and the three open fields in the adopted interface. Offer and Want record posted, Join records member and Withdraw removes neither. The proposed pair could bind historical posts after withdrawal.",
+  "executed_checks": [
+    {
+      "method": "JavaScript assertions on the pinned expanded schemas, compiled term and adopted interface retrieved through GitHub",
+      "result": "Pinned source checks matched ordinary Withdraw’s keeper-side precondition, Withdraw own’s initiator-side precondition, Carol’s identity in the compiled term and the three open fields in the adopted interface. Offer and Want record posted, Join records member and Withdraw removes neither. The proposed pair could bind historical posts after withdrawal."
+    }
+  ],
+  "coverage_limits": "GLP, the printer and the UI were not run. No project answer or fix was supplied. Audit main and the published status table were not changed.",
+  "next": [
+    "Review a revised exact PR head. Preserve the finding identifier and GCE attribution, identify Currencies as contract owner, link #140 without closing it, and regenerate the table and status summary.",
+    "When Currencies answers, check before delivery, after withdrawal, and the keeper’s own case against public source and compiled artifacts. Preserve the no-repost history and the keeper-side active-post requirement. Run focused GLP/interface checks when available."
+  ]
+}

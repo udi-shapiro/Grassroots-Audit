@@ -1,3 +1,7 @@
+## Stage 106 — Agora Withdraw review — 25 November 2026 UTC
+
+The Agora submission supports a local binding gap for ordinary Withdraw, whose required wall record is at the keeper. The proposed history and membership facts can bind parameters but cannot distinguish an active post after withdrawal. Report revisions were requested. Issue #140 remains open and unanswered. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6062751245) · [Issue](https://github.com/udi-shapiro/Grassroots-Audit/issues/140) · [Stage record](./stages/106-pr141-agora-withdraw-review-20261125.json)
+
 ## Stage 105 — PR #139 publication replayed — 25 November 2026 UTC
 
 All ten PR blobs match audit main. The replay reproduced the published results from 22 pinned GLP files, including the omitted schema rules and the two contrary rulings in the Disputes projection. The status table matched byte for byte with 35 reports, 60 findings and 17 unanswered. Issues #130–138 remain open awaiting project answers. [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/139) · [Results](https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/villagers-controls-2026-11-25.json) · [Stage record](./stages/105-pr139-villagers-publication-replay-20261125.json)
