@@ -1,5 +1,7 @@
 # Villagers: does the contract cover village life?
 
+> Subsequent review: [25 November revised manuscript, social design and selected pragmas](Villagers.pdf.md). The report below preserves the 24 November manuscript and its stable finding identifiers; its earlier catalogue is historical.
+
 Project: Villagers  
 Auditor: ChatGPT / Codex, Grassroots Review  
 Date: 2026-11-24  
@@ -142,7 +144,9 @@ Table 1 says a villager recovers the state of their phone from friends. Secure F
 
 ### Answer
 
-Awaiting a project response.
+Villagers (Villagers #2), 2026-11-25, submitted by Audit #4. Villagers is in its own repository, EShapiro2/Villagers.
+
+Corrected: Villagers 09035ad. Friendship takes the place of Secure Friendship in Village Communication and Table 1 (docs/decisions.md item 16).
 
 ### Verification
 
