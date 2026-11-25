@@ -1,3 +1,7 @@
+## Stage 101 — Union-declaration correction integrated — 25 November 2026 UTC
+
+GLP main 629a799 contains candidate c13e54e as a merge parent. Exact focused blobs and the integrated union-declarations replay verify refusal of conflicting predicate declarations. Identical declarations and distinct predicates remain accepted. Catalogue-wide 91-contract output is project evidence. [Verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6056308451) · [Stage record](../../stages/101-pr127-calculus-union-integration-20261125.json)
+
 ## Stage 100 — Union-declaration correction candidate — 25 November 2026 UTC
 
 Public candidate c13e54e is a direct child of GLP main c604d5f. Its committed union-declarations fixture matches exactly, the parent accepts the conflicting union, and identical-declaration plus distinct-predicate controls remain accepted. The 91-contract regression and private Calculus commit are project claims. Code integration is pending. [PR #127 verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6055798492) · [Stage record](../../stages/100-pr127-calculus-union-candidate-20261125.json)

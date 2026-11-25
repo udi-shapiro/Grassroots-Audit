@@ -1,0 +1,88 @@
+{
+  "stage": 101,
+  "date": "2026-11-25T10:59:11.779Z",
+  "title": "PR 127 Calculus union-declaration correction integrated",
+  "source_pins": {
+    "gpt_auditor_before_lease": "2193bf53ee4f486f123b270b0d951c2eabe0f5eb",
+    "lease_commit": "236ed7adcc896e84bae91ce9f34c5a3891d900de",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr_127_head": "c3e928600f76702f3f7992534c3c7c221272302b",
+    "pr_127_comment": 7160368034,
+    "glp_main": "629a79983fa597189988808445a0a19b0e3fb330",
+    "glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
+    "calculus_candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+    "integration": "629a79983fa597189988808445a0a19b0e3fb330"
+  },
+  "reports": [
+    {
+      "path": "calculus/tools/gcsas.py.md",
+      "pull_request": 127,
+      "finding": 1,
+      "issue": 126,
+      "status": "answered, source correction integrated and independently verified; report publication pending",
+      "report_head_status": "unchanged; requested revisions pending"
+    }
+  ],
+  "source_inspection": [
+    {
+      "scope": "Main ref and ancestry",
+      "result": "EShapiro2/GLP main is exactly 629a799. The integration is a merge with c13e54e as one parent. Comparing integration to main is identical; candidate to integration has behind_by 0."
+    },
+    {
+      "scope": "Focused source and test blobs",
+      "result": "At 629a799, gcsas.py, tests.py, NAMES.txt and all union-declarations fixture blobs match the reconstructed files byte for byte."
+    },
+    {
+      "scope": "Audit report head",
+      "result": "PR #127 remains at c3e9286 and still says Awaiting a project response. Its body still says Closes #126, and the requested scope, index and generated-status revisions are absent."
+    }
+  ],
+  "executed_checks": [
+    {
+      "environment": "Python 3.12.14",
+      "scope": "Exact focused integration replay",
+      "command": "Hash the reconstructed files against the 629a799 tree, then import the exact calculus/tools/tests.py and compare tests.run('union-declarations') with the committed expectation.",
+      "blobs": {
+        "gcsas": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "tests": "180eb6becfb335e2b93704bc07d4e088fec09dc3",
+        "registry": "8ad00b5e07e9c9d60addee402503cc37e36571d1",
+        "case_names": "b5a374a8f8b7bcd5e7e7b26830d7e5ccae2f2251",
+        "expect": "0f006d3e93844c88edc52b77c34b1995ce1c19bb",
+        "clubs": "6417411d43845594d4420cae59516386de03608d",
+        "knowledge": "fd65730b5136214c53561655384d6736859c9357",
+        "markets": "8dc4a042d193543a3a208cbb6b2665e70698059e",
+        "union": "1faf444694c9a59be853093b93497621892b6588"
+      },
+      "result": [
+        "integrated_exact_match True",
+        "Union U ERROR: member/2 is declared by Clubs and Markets with different phrases; rename one first",
+        "4 contracts, 1 with a fault"
+      ]
+    },
+    {
+      "environment": "Python 3.12.14",
+      "scope": "Integrated controls",
+      "command": "Run the candidate-identical integrated tools on the same two audit controls from Stage 100.",
+      "result": [
+        "Identical member/2 declarations: Union U commute yes; return yes; recover same; 0 faults",
+        "Distinct predicates member/2 and market_member/2: Union U commute yes; return yes; recover same; 0 faults"
+      ]
+    }
+  ],
+  "project_claims": [
+    "Calculus reports that GLP main 629a799 integrates candidate c13e54e.",
+    "Calculus reports that all 91 catalogue outputs are unchanged.",
+    "The audit independently verified the main ref, ancestry, focused blobs and focused executions. It did not run the 91-contract catalogue regression."
+  ],
+  "discussion": {
+    "incoming_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#issuecomment-7160368034",
+    "audit_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6056308451",
+    "review_id": 6056308451,
+    "pr_head": "c3e928600f76702f3f7992534c3c7c221272302b"
+  },
+  "next": [
+    "Contributor should revise calculus/tools/gcsas.py.md to preserve the dated Calculus answer and independent Verification, narrow the original finding, use Refs #126, update the index and regenerate the status table and summary.",
+    "Review the revised exact PR head before merge. Keep issue #126 open until the accepted audit publication records the verification.",
+    "Publish the independent verification through a separate main-based audit PR after the contributor report is accepted."
+  ]
+}

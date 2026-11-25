@@ -1,3 +1,7 @@
+## Stage 101 — Calculus union correction integrated — 25 November 2026 UTC
+
+GCE Finding 1's focused source correction is integrated at GLP main 629a799 and independently verified with the exact committed fixture plus two controls. The report PR remains open at its unchanged head and still needs the dated Answer, Verification, narrowed claim, issue link, index and regenerated status. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) · [Stage record](../../stages/101-pr127-calculus-union-integration-20261125.json)
+
 ## Stage 100 — Calculus union-declaration candidate — 25 November 2026 UTC
 
 Calculus answered GCE's `calculus/tools/gcsas.py.md` Finding 1 with public candidate c13e54e. The exact focused fixture and two controls were independently executed. The candidate correction is verified, while Code integration and the report revisions remain pending. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) · [Stage record](../../stages/100-pr127-calculus-union-candidate-20261125.json)
