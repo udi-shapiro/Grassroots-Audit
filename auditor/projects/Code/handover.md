@@ -1,3 +1,7 @@
+## Stage 116 — Request argument report published — 25 November 2026 UTC
+
+PR #154 published Finding 1 as answered and open. PR #155 independently checks numeric position 5 for Warnings and DAO and set-valued position 3 for GC and Notes. After public integration, check the compiler/form path and regenerate and exercise the affected platforms. Disputes is the complete-request control. [Report PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/154) · [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/155) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json)
+
 ## Stage 115 — calc compiler candidate awaits request-form integration — 25 November 2026 UTC
 
 Public candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809) adds compiler `calc(P,E)` output and a focused textual regression. It does not modify `canonical.dart`, `named_widgets.dart` or generated platforms and is not integrated in public main `1503cdd`. Implement and expose the Dart calculation path, regenerate affected platforms, and provide a focused executable Warnings check before Finding 1 can be verified. · [Audit response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) · [Stage record](../../stages/115-pr152-vglp-calc-candidate-20261125.json)

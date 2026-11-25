@@ -1,0 +1,278 @@
+{
+  "stage": 116,
+  "title": "Request argument report and independent source verification",
+  "date_utc": "2026-11-25",
+  "events": [
+    {
+      "delivery_id": "a905c6da-e914-11f1-9d67-a611432c6101",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 154,
+      "comment_id": null
+    },
+    {
+      "delivery_id": "8a148440-e915-11f1-97bc-c254455f39a4",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 152,
+      "comment_id": null,
+      "outcome": "Own closure of superseded PR #152; no duplicate action."
+    }
+  ],
+  "sources": {
+    "audit_main": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+    "audit_main_before": "47abf4d7454882006870b55006943cf8284a29c2",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+    "report_glp": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809"
+  },
+  "pull_requests": [
+    {
+      "number": 152,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+      "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:16:54Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7172127199,
+          7173962668,
+          7174093146,
+          7174855865
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7172127199,
+            "updated_at": "2026-11-25T19:18:58Z"
+          },
+          {
+            "id": 7173962668,
+            "updated_at": "2026-11-25T20:38:11Z"
+          },
+          {
+            "id": 7174093146,
+            "updated_at": "2026-11-25T20:43:16Z"
+          },
+          {
+            "id": 7174855865,
+            "updated_at": "2026-11-25T21:16:40Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:16:40Z"
+      },
+      "comment_cursor": 7174855865,
+      "review_cursor": "none",
+      "notes": "Superseded by reviewed #154. Original report text and dated project responses preserved with the Disputes correction. Closed without merge after confirming no new discussion; the closing delivery is our own already-recorded action."
+    },
+    {
+      "number": 154,
+      "head_sha": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+      "base_sha": "47abf4d7454882006870b55006943cf8284a29c2",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:14:55Z",
+      "merged_at": "2026-11-25T21:14:55Z",
+      "merge_commit_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYG5yA"
+        ],
+        "review_versions": [
+          {
+            "id": 6065076680,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYG5yA",
+            "state": "APPROVED",
+            "commit_id": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+            "submitted_at": "2026-11-25T21:14:38Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:14:38Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaYG5yA",
+      "notes": "Reviewed and merged the exact head. Published Finding 1 with attributed GCE and vGLP answers and the issue index and generated table. Finding remains open."
+    },
+    {
+      "number": 155,
+      "head_sha": "13045648ab393944b508b5218390f3f83a21a8f4",
+      "base_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "state": "open",
+      "updated_at": "2026-11-25T21:16:20Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own separate main-based verification publication for the pinned source examples. Await independent review of this head and public integration/runtime evidence for #151."
+    }
+  ],
+  "project_claims": [
+    "GCE identifies Warnings Act and Amend as inherited Organisation acts. Its later dated correction withdraws Disputes from this finding.",
+    "vGLP cites public compiler candidate 33f81f6 and private paper commit 224558d. Private paper contents remain unverified.",
+    "The contributor reports Flutter runs and a 44-platform survey. Those runs were not reproduced in this run."
+  ],
+  "source_inspection": [
+    "Pinned widget combines way and form values and returns null on a missing argument.",
+    "Public candidate diverges from pinned GLP main (candidate 6 ahead and 22 behind). Dart form support and regenerated artifacts are pending."
+  ],
+  "executed_checks": [
+    {
+      "check": "Proposal arity versus union of proposer, declared bindings and fields at the original GLP pin",
+      "result": [
+        {
+          "platform": "warnings",
+          "name": "act",
+          "arity": 5,
+          "supplied": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing": [
+            5
+          ]
+        },
+        {
+          "platform": "warnings",
+          "name": "amend",
+          "arity": 5,
+          "supplied": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing": [
+            5
+          ]
+        },
+        {
+          "platform": "disputes",
+          "name": "act",
+          "arity": 3,
+          "supplied": [
+            1,
+            2,
+            3
+          ],
+          "missing": []
+        },
+        {
+          "platform": "disputes",
+          "name": "amend",
+          "arity": 3,
+          "supplied": [
+            1,
+            2,
+            3
+          ],
+          "missing": []
+        },
+        {
+          "platform": "dao",
+          "name": "pass",
+          "arity": 5,
+          "supplied": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing": [
+            5
+          ]
+        },
+        {
+          "platform": "dao",
+          "name": "reject",
+          "arity": 5,
+          "supplied": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing": [
+            5
+          ]
+        },
+        {
+          "platform": "notes",
+          "name": "issue",
+          "arity": 4,
+          "supplied": [
+            1,
+            2,
+            4
+          ],
+          "missing": [
+            3
+          ]
+        },
+        {
+          "platform": "gc",
+          "name": "issue",
+          "arity": 4,
+          "supplied": [
+            1,
+            2,
+            4
+          ],
+          "missing": [
+            3
+          ]
+        }
+      ],
+      "limits": "Parsed source assertions; no Flutter, GLP compiler or on-device execution."
+    },
+    {
+      "check": "python3 bin/status.py on exact response head and on the verification addendum",
+      "result": "Both reproduced the submitted table byte for byte. 36 reports, 61 findings, 7 unanswered.",
+      "table_blob": "9beebbed9e2a20297f3af50edb923ee4ceccc2d9"
+    },
+    {
+      "check": "Read back three published file blob SHAs on audit main",
+      "result": "All three match the approved #154 head."
+    }
+  ],
+  "links": {
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/154#pullrequestreview-6065076680",
+    "closure": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174855865",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/155",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4/glp_multiagent/lib/ui_runtime/named_widgets.dart.md",
+    "candidate": "https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809"
+  },
+  "next": [
+    "Review #155 at its recorded head before merging its audit addendum.",
+    "Keep #151 open. After public integration, rerun the focused Warnings and DAO numeric form checks and GC and Notes set-valued Issue checks. Use Disputes as a control, and verify published paper evidence independently.",
+    "All six core findings have answers in audit main. Continue outstanding core verifications from the existing queue after the application work."
+  ]
+}

@@ -1,23 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T20:45:03.510Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr154-opened",
-    "started_at": "2026-11-25T21:12:53.449Z",
-    "expires_at": "2026-11-25T21:42:53.449Z",
-    "expected_auditor_head": "dd4ab7159013a063700b01702b830496122a041b",
-    "events": [
-      {
-        "delivery_id": "a905c6da-e914-11f1-9d67-a611432c6101",
-        "event_type": "pull_request",
-        "action": "opened",
-        "actor_login": "EShapiro2",
-        "pull_request_number": 154,
-        "comment_id": null
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T21:17:50.125Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -51,6 +36,67 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 155,
+      "head_sha": "13045648ab393944b508b5218390f3f83a21a8f4",
+      "base_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "state": "open",
+      "updated_at": "2026-11-25T21:16:20Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "Own separate main-based verification publication for the pinned source examples. Await independent review of this head and public integration/runtime evidence for #151.",
+      "delivery_ids": [],
+      "own_publication": true
+    },
+    {
+      "number": 154,
+      "head_sha": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+      "base_sha": "47abf4d7454882006870b55006943cf8284a29c2",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:14:55Z",
+      "merged_at": "2026-11-25T21:14:55Z",
+      "merge_commit_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYG5yA"
+        ],
+        "review_versions": [
+          {
+            "id": 6065076680,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYG5yA",
+            "state": "APPROVED",
+            "commit_id": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+            "submitted_at": "2026-11-25T21:14:38Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:14:38Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaYG5yA",
+      "notes": "Reviewed and merged the exact head. Published Finding 1 with attributed GCE and vGLP answers and the issue index and generated table. Finding remains open.",
+      "delivery_ids": [
+        "a905c6da-e914-11f1-9d67-a611432c6101"
+      ]
+    },
     {
       "number": 153,
       "head_sha": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
@@ -91,18 +137,19 @@
       "number": 152,
       "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
       "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
-      "state": "open",
-      "updated_at": "2026-11-25T20:43:16Z",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:16:54Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 3,
+        "comments": 4,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7172127199,
           7173962668,
-          7174093146
+          7174093146,
+          7174855865
         ],
         "review_ids": [],
         "review_versions": [],
@@ -118,19 +165,25 @@
           {
             "id": 7174093146,
             "updated_at": "2026-11-25T20:43:16Z"
+          },
+          {
+            "id": 7174855865,
+            "updated_at": "2026-11-25T21:16:40Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-25T20:43:16Z"
+        "latest_item_at": "2026-11-25T21:16:40Z"
       },
-      "comment_cursor": 7174093146,
+      "comment_cursor": 7174855865,
       "review_cursor": "none",
       "delivery_ids": [
         "861b956a-e904-11f1-8e97-10bac2ea6ed6",
         "108319ee-e905-11f1-8809-6f509dee0b84",
-        "2200c6de-e910-11f1-83b8-746167f40287"
+        "2200c6de-e910-11f1-83b8-746167f40287",
+        "8a148440-e915-11f1-97bc-c254455f39a4"
       ],
-      "notes": "vGLP supplied public compiler candidate 33f81f6. Source inspection confirms calc(P,E) generation and a focused textual regression. The candidate leaves Dart form support and generated Warnings unchanged, is divergent from public main 1503cdd, and was not executed. The cited paper commit is outside the authorized public sources. Finding 1 and PR #152 remain open for integration, runtime, attributed answers, #151, status and Disputes clarification."
+      "notes": "Superseded by reviewed #154. Original report text and dated project responses preserved with the Disputes correction. Closed without merge after confirming no new discussion; the closing delivery is our own already-recorded action.",
+      "superseded_by": 154
     },
     {
       "number": 147,
@@ -12197,6 +12250,110 @@
         "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151",
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/115-pr152-vglp-calc-candidate-20261125.json"
       }
+    },
+    {
+      "delivery_id": "a905c6da-e914-11f1-9d67-a611432c6101",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 154,
+      "comment_id": null,
+      "head_sha": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYG5yA"
+        ],
+        "review_versions": [
+          {
+            "id": 6065076680,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYG5yA",
+            "state": "APPROVED",
+            "commit_id": "91677ab00dc6d95204a9dc10078aecdd9a9aec15",
+            "submitted_at": "2026-11-25T21:14:38Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:14:38Z"
+      },
+      "processed_at": "2026-11-25T21:17:50.125Z",
+      "source_pins": {
+        "audit_main": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+        "audit_main_before": "47abf4d7454882006870b55006943cf8284a29c2",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+        "report_glp": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809"
+      },
+      "outcome": "Reviewed and merged the exact head. Published Finding 1 with attributed GCE and vGLP answers and the issue index and generated table. Finding remains open.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/154",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/155"
+      }
+    },
+    {
+      "delivery_id": "8a148440-e915-11f1-97bc-c254455f39a4",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 152,
+      "comment_id": null,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7172127199,
+          7173962668,
+          7174093146,
+          7174855865
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7172127199,
+            "updated_at": "2026-11-25T19:18:58Z"
+          },
+          {
+            "id": 7173962668,
+            "updated_at": "2026-11-25T20:38:11Z"
+          },
+          {
+            "id": 7174093146,
+            "updated_at": "2026-11-25T20:43:16Z"
+          },
+          {
+            "id": 7174855865,
+            "updated_at": "2026-11-25T21:16:40Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:16:40Z"
+      },
+      "processed_at": "2026-11-25T21:17:50.125Z",
+      "source_pins": {
+        "audit_main": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+        "audit_main_before": "47abf4d7454882006870b55006943cf8284a29c2",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+        "report_glp": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809"
+      },
+      "outcome": "Superseded by reviewed #154. Original report text and dated project responses preserved with the Disputes correction. Closed without merge after confirming no new discussion; the closing delivery is our own already-recorded action.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/155"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -12219,9 +12376,12 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "47abf4d7454882006870b55006943cf8284a29c2",
+    "audit_main": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+    "audit_main_before": "47abf4d7454882006870b55006943cf8284a29c2",
     "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
     "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
-    "observed_at": "2026-11-25T20:45:03.510Z"
+    "report_glp": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809",
+    "observed_at": "2026-11-25T21:17:50.125Z"
   }
 }

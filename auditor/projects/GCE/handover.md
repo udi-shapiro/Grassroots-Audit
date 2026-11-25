@@ -1,3 +1,7 @@
+## Stage 116 — Request argument report published — 25 November 2026 UTC
+
+PR #154 preserves the dated Warnings answer and the correction excluding Disputes. At the original GLP pin both Disputes requests supply every argument and both Warnings requests lack argument 5. #151 stays open for the request-form fix and runtime. PR #152 was superseded. [Report PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/154) · [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/155) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json)
+
 ## Stage 115 — vGLP candidate answers the compiler part of Warnings request assembly — 25 November 2026 UTC
 
 [vGLP’s response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668) supplies public compiler candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809). It represents constraint-derived request arguments with `calc(P,E)`, but Dart form support, generated platforms, main integration and runtime remain pending. Preserve both dated project responses in PR #152. Keep Finding 1 open and retain the earlier Disputes scope distinction. · [Audit response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) · [Stage record](../../stages/115-pr152-vglp-calc-candidate-20261125.json)

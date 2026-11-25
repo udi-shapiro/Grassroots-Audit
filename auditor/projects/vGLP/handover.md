@@ -1,3 +1,7 @@
+## Stage 116 — Request argument report published — 25 November 2026 UTC
+
+PR #154 preserved the dated compiler and paper claims. Public candidate 33f81f6 still diverges from GLP main at 1503cdd. #151 stays open for compiler/form integration, regeneration and runtime; the paper revision awaits public evidence. [Report PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/154) · [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/155) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json)
+
 ## Stage 115 — calc compiler candidate inspected — 25 November 2026 UTC
 
 [vGLP’s dated response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668) identifies public candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809). The compiler adds `calc(P,E)` generation and a focused textual regression. The candidate leaves the Dart request-form files and generated Warnings platform unchanged and is not integrated in public main `1503cdd`. The cited paper commit is outside the authorized public GLP and papers sources. No runtime was available. Finding 1 stays open pending public paper/source integration and an executable Warnings form check. · [Audit response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) · [Stage record](../../stages/115-pr152-vglp-calc-candidate-20261125.json)
