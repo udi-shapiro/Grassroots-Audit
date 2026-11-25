@@ -92,6 +92,13 @@ Awaiting a project response.
 
 24 November 2026. Rebuilt both aggregates. Village Commons expanded-schema line 58 and Villagers line 493 require two guards. Village Government line 48 includes all three safeguards. Closure requires solo hall and appointment bookings, a court reservation requiring both players, and expulsion cases that distinguish the chosen rules.
 
+**25 November 2026 — independent public baseline check.** A focused replay at [GLP `17f0c0d3`](https://github.com/EShapiro2/GLP/commit/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615) regenerated the original Village Commons and Village Government wrappers. Standalone Meeting Rooms and Appointments each had one Book guarded by Alice. The staged Commons had one Book with both Alice and Carol and a resource, court and room kind conflict. The staged Government had one ordinary Expel requiring the vote and decision, continued backing and two warnings. The schema tool wrote both outputs and exited 1 after reporting the Commons commutation and return failures. See the [replay record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json).
+
+[Calculus’s dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/173) cites a different expansion, at `1d377ba`. The public GLP commit endpoint could not resolve that revision. The inspected [GLP main tree](https://github.com/EShapiro2/GLP/tree/6b8c88790889d370f6389bf4071ca9bf6a2ca461/calculus/contracts) contains the standalone controls but no Tools, Village Commons or Village Governance artifact at the expected catalogue paths. This check reproduces the earlier baseline. Verification of the newer two-Book expansion and separate governing rule remains open.
+
+**Finding remains open.** Verify that halls, appointments and tools can be booked under their own conditions, that a court requires both players, and that the intended governing expulsion rule cannot be bypassed through another inherited route. Use the public, versioned declarations and expanded schemas for those checks.
+
+
 ## Finding 2. The readable expansion splits Lost and Found
 
 Severity: medium · [Issue 116][i116]
