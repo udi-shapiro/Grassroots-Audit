@@ -1,0 +1,136 @@
+{
+  "stage": 104,
+  "date": "2026-11-25T15:20:38.991Z",
+  "title": "PR 129 merged with Friendship Finding 1 answered and open",
+  "event": {
+    "delivery_id": "35c6d492-e8e3-11f1-9c90-ebc146c324ea",
+    "pull_request_number": 129,
+    "head_sha": "f16e12c5a0cbbf750386f0adc80138039692924c"
+  },
+  "source_pins": {
+    "gpt_auditor_before_lease": "79cce6fec91d535416d4eec431d72cc90f794001",
+    "lease_commit": "8701e6fd966c1b930b1d1b76436ae7c49cb5940a",
+    "audit_main_before": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "audit_merge": "11a331d3358c87f3c85716339f9a1c79bbbd57b1",
+    "pr_head": "f16e12c5a0cbbf750386f0adc80138039692924c",
+    "glp_main": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a",
+    "set_state_candidate": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47",
+    "focused_evidence_commit": "7d8b2dbb1db6000a2480ed5ea17f8334b07e0193",
+    "friendship_blobs": [
+      {
+        "ref": "c604d5f66458fac1fb18ce15ad1a4b2afb0377d8",
+        "blob": "5106a78b4aad1bb925891b797975427aec3afa9a"
+      },
+      {
+        "ref": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47",
+        "blob": "5106a78b4aad1bb925891b797975427aec3afa9a"
+      },
+      {
+        "ref": "7d8b2dbb1db6000a2480ed5ea17f8334b07e0193",
+        "blob": "5106a78b4aad1bb925891b797975427aec3afa9a"
+      },
+      {
+        "ref": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
+        "blob": "5106a78b4aad1bb925891b797975427aec3afa9a"
+      }
+    ],
+    "public_vglp_pdf_blob": "7630d187e8996d5d484483c1ac897c20a244c288"
+  },
+  "reports": [
+    {
+      "path": "cascade/Friendship/platform.vglp.md",
+      "finding": 1,
+      "issue": 128,
+      "status": "answered and open"
+    }
+  ],
+  "discussion_version": {
+    "comments": 3,
+    "reviews": 4,
+    "review_threads": 0,
+    "comment_ids": [
+      7163393624,
+      7163571936,
+      7164942407
+    ],
+    "review_ids": [
+      "PRR_kwDOVrts7s8AAAABaPEHdA",
+      "PRR_kwDOVrts7s8AAAABaRpzLA",
+      "PRR_kwDOVrts7s8AAAABaSkb7w",
+      "PRR_kwDOVrts7s8AAAABaTm-nQ"
+    ],
+    "review_versions": [
+      {
+        "id": 6055593844,
+        "node_id": "PRR_kwDOVrts7s8AAAABaPEHdA",
+        "submitted_at": "2026-11-25T10:10:56Z",
+        "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+        "state": "CHANGES_REQUESTED"
+      },
+      {
+        "id": 6058308396,
+        "node_id": "PRR_kwDOVrts7s8AAAABaRpzLA",
+        "submitted_at": "2026-11-25T13:16:55Z",
+        "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+        "state": "COMMENTED"
+      },
+      {
+        "id": 6059269103,
+        "node_id": "PRR_kwDOVrts7s8AAAABaSkb7w",
+        "submitted_at": "2026-11-25T14:16:09Z",
+        "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+        "state": "COMMENTED"
+      },
+      {
+        "id": 6060359325,
+        "node_id": "PRR_kwDOVrts7s8AAAABaTm-nQ",
+        "submitted_at": "2026-11-25T15:19:39Z",
+        "commit_id": "f16e12c5a0cbbf750386f0adc80138039692924c",
+        "state": "APPROVED"
+      }
+    ],
+    "latest_comments": [
+      {
+        "id": 7163393624,
+        "updated_at": "2026-11-25T13:10:22Z"
+      },
+      {
+        "id": 7163571936,
+        "updated_at": "2026-11-25T13:17:48Z"
+      },
+      {
+        "id": 7164942407,
+        "updated_at": "2026-11-25T14:13:18Z"
+      }
+    ],
+    "latest_item_at": "2026-11-25T15:19:39Z"
+  },
+  "links": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/commit/11a331d3358c87f3c85716339f9a1c79bbbd57b1",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6060359325",
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#issuecomment-7163393624",
+    "project_run": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#issuecomment-7164942407",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/128",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/11a331d3358c87f3c85716339f9a1c79bbbd57b1/cascade/Friendship/platform.vglp.md"
+  },
+  "source_inspection": [
+    "The four pinned Friendship platform blobs are identical and declare multiset state. GLP main and papers remained at the Stage 103 pins.",
+    "The reviewed fork head preserves GCE’s original wording, its dated clarification and the two dated vGLP contributions. The published report and table equal the reviewed files."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "result": "33 reports, 51 findings, 8 unanswered. Generated sections/status-table.tex matched the PR’s table byte for byte."
+    }
+  ],
+  "project_claims": [
+    "Stages 102–103 retain the vGLP candidate, contributor-run transcript and paper revision claim. No GLP runtime check or paper proof check ran in Stage 104."
+  ],
+  "next": [
+    "Check integration and regenerate the exact Friendship cascade artifact on a public GLP main pin.",
+    "Independently run the repeat-Acquaint case against the regenerated artifact when a GLP runtime is available.",
+    "Verify the revised vGLP paper after it appears on the public papers branch. The project reports that approval is pending.",
+    "Publish new independent verification in a separate main-based audit PR."
+  ]
+}

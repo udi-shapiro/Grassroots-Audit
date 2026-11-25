@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T15:18:43.107Z",
-  "active_run": {
-    "run_id": "pr-watch-129-f16e12c5-35c6d492",
-    "started_at": "2026-11-25T15:18:43.107Z",
-    "expires_at": "2026-11-25T15:48:43.107Z",
-    "expected_auditor_head": "79cce6fec91d535416d4eec431d72cc90f794001",
-    "events": [
-      {
-        "delivery_id": "35c6d492-e8e3-11f1-9c90-ebc146c324ea",
-        "pull_request_number": 129,
-        "head_sha": "f16e12c5a0cbbf750386f0adc80138039692924c"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T15:20:38.991Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -1603,14 +1591,14 @@
     },
     {
       "number": 129,
-      "head_sha": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+      "head_sha": "f16e12c5a0cbbf750386f0adc80138039692924c",
       "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
-      "state": "open",
-      "updated_at": "2026-11-25T14:16:09Z",
-      "merged_at": null,
+      "state": "closed",
+      "updated_at": "2026-11-25T15:19:53Z",
+      "merged_at": "2026-11-25T15:19:52Z",
       "discussion_version": {
         "comments": 3,
-        "reviews": 3,
+        "reviews": 4,
         "review_threads": 0,
         "comment_ids": [
           7163393624,
@@ -1620,7 +1608,8 @@
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaPEHdA",
           "PRR_kwDOVrts7s8AAAABaRpzLA",
-          "PRR_kwDOVrts7s8AAAABaSkb7w"
+          "PRR_kwDOVrts7s8AAAABaSkb7w",
+          "PRR_kwDOVrts7s8AAAABaTm-nQ"
         ],
         "review_versions": [
           {
@@ -1643,6 +1632,13 @@
             "submitted_at": "2026-11-25T14:16:09Z",
             "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
             "state": "COMMENTED"
+          },
+          {
+            "id": 6060359325,
+            "node_id": "PRR_kwDOVrts7s8AAAABaTm-nQ",
+            "submitted_at": "2026-11-25T15:19:39Z",
+            "commit_id": "f16e12c5a0cbbf750386f0adc80138039692924c",
+            "state": "APPROVED"
           }
         ],
         "latest_comments": [
@@ -1659,11 +1655,13 @@
             "updated_at": "2026-11-25T14:13:18Z"
           }
         ],
-        "latest_item_at": "2026-11-25T14:16:09Z"
+        "latest_item_at": "2026-11-25T15:19:39Z"
       },
-      "review_cursor": "PRR_kwDOVrts7s8AAAABaSkb7w",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaTm-nQ",
       "comment_cursor": 7164942407,
-      "notes": "Processed vGLP focused-run reply 7164942407. Public 7d8b2db adds play_reacquaint and four checks. Audit replay over the retained transcript matched all three positive assertions and found no duplicate-knows state. This is internally checked project execution, not an independent GLP run. Main integration, cascade regeneration, public paper approval/publication and report revisions remain pending. Review 6059269103."
+      "notes": "Reviewed and merged the revised GCE report preserving both dated vGLP contributions. Refs #128 replaced Closes #128 before merge; issue verified open. Exact-head status generation matched the published table. GLP integration, cascade regeneration, independent runtime and public paper verification remain pending.",
+      "merge_commit_sha": "11a331d3358c87f3c85716339f9a1c79bbbd57b1",
+      "delivery_id": "35c6d492-e8e3-11f1-9c90-ebc146c324ea"
     }
   ],
   "source_observed_after_tests": {
