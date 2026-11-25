@@ -1,0 +1,177 @@
+{
+  "stage": 113,
+  "date": "2026-11-25T19:21:41.115Z",
+  "title": "Request-widget source check and Warnings participant scope",
+  "events": [
+    {
+      "delivery_id": "861b956a-e904-11f1-8e97-10bac2ea6ed6",
+      "pull_request_number": 152,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "nimrodtalmon",
+      "comment_id": null,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b"
+    },
+    {
+      "delivery_id": "ef9052a6-e904-11f1-9cc5-ab884d9209f7",
+      "pull_request_number": 153,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d"
+    }
+  ],
+  "skipped_deliveries": [
+    {
+      "delivery_id": "7c27f9b8-e904-11f1-893f-707018276326",
+      "pull_request_number": 150,
+      "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+      "reason": "Recorded merge and review version."
+    },
+    {
+      "delivery_id": "9c6471fc-e904-11f1-95c9-e9b014bfe507",
+      "pull_request_number": 147,
+      "head_sha": "3ef836c342625af7b61d602d1463ee51aa2cd12e",
+      "reason": "Recorded own update with no new discussion."
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "14a93454c532d0aed14072d8c7b2632934905dff",
+    "lease_commit": "607ec84f7d9236186c0ed7044ae15ef483bf5c0f",
+    "audit_main_before": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+    "audit_main_merge": "47abf4d7454882006870b55006943cf8284a29c2",
+    "pr_152_head": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+    "pr_153_head": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+    "pr_147_previous_head": "3ef836c342625af7b61d602d1463ee51aa2cd12e",
+    "pr_147_head": "7796b46d9485394fd364c351cc5890943cca2c19",
+    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+    "warnings_candidate": "e4aacb83cbdb287cfcab5d0e9ceb56c3ba80ee7a",
+    "warnings_parent": "5f3de226a74bd942771647c8d893ee8150d3ea26",
+    "widget_report_source": "b579ce0d5973082f26e759529202c9c5931fb8bf"
+  },
+  "discussion_versions": {
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "152": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "153": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWtBwg"
+      ],
+      "review_versions": [
+        {
+          "id": 6063604162,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWtBwg",
+          "state": "APPROVED",
+          "commit_id": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+          "submitted_at": "2026-11-25T19:20:18Z"
+        }
+      ],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-25T19:20:18Z"
+    }
+  },
+  "links": {
+    "pr152": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152",
+    "pr153": "https://github.com/udi-shapiro/Grassroots-Audit/pull/153",
+    "review153": "https://github.com/udi-shapiro/Grassroots-Audit/pull/153#pullrequestreview-6063604162",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "widget_replay": "../evidence/2026-11-25/widget-152/replay.py",
+    "warnings_replay": "../evidence/2026-11-25/warnings-153/replay.py",
+    "upstream_widget_issue": "https://github.com/EShapiro2/GLP/issues/167"
+  },
+  "issues": [
+    {
+      "number": 136,
+      "state": "open"
+    },
+    {
+      "number": 151,
+      "state": "open"
+    }
+  ],
+  "outcomes": {
+    "152": "Independently checked generated declarations and widget argument assembly for GC Issue, Notes Issue and DAO Pass and Reject with Establish controls. Regenerated table has one new unanswered finding. Await generated table row, issue-index entry and review. No Flutter execution.",
+    "153": "Merged GCE’s dated response. The pinned parser and state replay confirm participant isolation and reissue only for unanswered cases under the new policy. Adoption and runtime remain pending. #136 remains open."
+  },
+  "source_inspection": [
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "candidate_blob": "6c6fbc879e8a879605161bfde68185706ba84628",
+      "main_blob": "531c2bc55576976bb8cdf97025d97c4614a779a6",
+      "result": "Both removals retain reply markers. Warn rejects previously answered organisation–officer–participant–case keys. Checked-in candidate full-schemas and term still lack the revised predicates."
+    },
+    {
+      "path": "glp_multiagent/lib/ui_runtime/named_widgets.dart",
+      "blob": "7858187b13bfdc1c6cc00ca6b7c4f9045f53c444",
+      "main_blob": "7858187b13bfdc1c6cc00ca6b7c4f9045f53c444",
+      "result": "The argument list is built from declared arity, way and supplied values. Request construction stops on a null slot. The three checked declarations omit the relevant slot. Compiler interface ownership remains for Code and the language specification owners to resolve."
+    }
+  ],
+  "executed_checks": [
+    {
+      "pr": 153,
+      "command": "python3 replay153.py with pinned gcsas.py, names.py, nameslines.py and NAMES.txt in the layout of stage 112",
+      "result": "Withdraw and Annul retain other participant’s reply, refuse same-case Warn after answer, allow it after unanswered removal, and allow a new case.",
+      "inputs": {
+        "Warnings": "6c6fbc879e8a879605161bfde68185706ba84628",
+        "gcsas": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288"
+      }
+    },
+    {
+      "pr": 152,
+      "command": "python3 replay.py using named_widgets.dart and the pinned full platform.vglp files for GC, Notes and DAO saved as gc-platform.vglp, Notes-platform.vglp and DAO-platform.vglp",
+      "result": "GC and Notes Issue/4 miss place 3; DAO Pass/5 and Reject/5 miss place 5; GC and Notes Establish/1 have all positions covered.",
+      "inputs": {
+        "programs/apps/gc/platform.vglp": "dd68bf8e442d85c26bdb07f6b87fb229abf3fa67",
+        "cascade/Notes/platform.vglp": "2310b91bc8dc8e1f176ec0ca656289f864b0984a",
+        "cascade/DAO/platform.vglp": "c6862cfd0e9d623b596888f655697bc4d11decdc"
+      }
+    },
+    {
+      "pr": 152,
+      "command": "python3 bin/status.py on PR #152 head",
+      "result": "36 reports, 61 findings, eight unanswered. A single row is missing from the publication tree.",
+      "sha256": "c0681747ec022b64e74381b032cc65e53667ccde89e435ff79495a7162b0c505"
+    },
+    {
+      "pr": 153,
+      "command": "python3 bin/status.py and cmp with pinned published table",
+      "result": "35 reports, 60 findings, seven unanswered, byte-identical on the reviewed and prepared verification trees."
+    }
+  ],
+  "project_claims": [
+    "GCE reports the catalogue, relations and Dart checker results for Warnings.",
+    "The widget report provides the project’s GC widget reproduction and 44-platform walk. The independent check did not rerun the Flutter walk or certify its 11/44 count."
+  ],
+  "coverage": "Pinned parser and bounded projections only. Flutter and Dart were unavailable in this run. No full catalogue or app execution.",
+  "next": [
+    "Keep #136 open until the adopted Warnings schemas, term and runtime verify the revised policy. Merge #147 after independent review of its current head.",
+    "Complete #152’s status table and #151 issue-index entry before publication. Preserve the contributor’s report and distinguish project Flutter evidence from source checks. Recheck exact head and route declaration-versus-widget responsibility through GCE and Code."
+  ]
+}

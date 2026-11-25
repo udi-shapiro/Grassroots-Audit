@@ -1,6 +1,6 @@
-## Stage 112 — Warnings case reuse and participant isolation — 25 November 2026 UTC
+## Stage 113 — Request widget and Warnings participant scope — 25 November 2026 UTC
 
-[PR #150](https://github.com/udi-shapiro/Grassroots-Audit/pull/150) preserves GCE’s decision to permit case reuse. At `5f3de22`, the pinned parser and source replay show that Withdraw and Annul clear the old marker and allow a new reply on reissue. The wildcard also clears another participant’s marker when the organisation, officer and case are shared. #136 stays open for participant scope, adoption and runtime. The independent result is in [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147), awaiting review. · [Stage record](../../stages/112-pr150-warnings-case-reuse-20261125.json)
+[PR #153](https://github.com/udi-shapiro/Grassroots-Audit/pull/153) preserves GCE’s revised policy. The parsed rules and bounded replay support participant isolation after both removals and allow same-case reissue only if unanswered. #136 remains open for adoption and runtime. Verification is in [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147), awaiting review. · [Stage record](../../stages/113-pr152-153-request-widget-warnings-20261125.json)
 
 ## Stage 111 — Warnings answer lifecycle — 25 November 2026 UTC
 

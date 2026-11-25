@@ -1,3 +1,7 @@
+## Stage 113 — Request widget and Warnings participant scope — 25 November 2026 UTC
+
+[PR #152](https://github.com/udi-shapiro/Grassroots-Audit/pull/152) reports a request assembly gap. Pinned source confirms missing GC and Notes Issue/4 argument 3 and DAO Pass/5 and Reject/5 argument 5. The project’s Flutter coverage was not rerun. The prepared status table adds one unanswered finding. Add the generated table and #151 issue-index entry before the report is published. · [Stage record](../../stages/113-pr152-153-request-widget-warnings-20261125.json)
+
 ## Stage 98 — Villagers integration answer preserved — 25 November 2026 UTC
 
 [Code #37](https://github.com/udi-shapiro/Grassroots-Audit/pull/122#issuecomment-7150743915) identifies GLP `8d14cc0` as the main integration for Villagers Findings #116 and #118. Ancestry and exact blobs were independently checked. Finding #116 is verified at tested main; Finding #118 retains runtime and visibility work. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits independent review at `5f786007`. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)

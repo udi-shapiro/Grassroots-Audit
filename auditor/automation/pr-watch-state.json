@@ -1,33 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T19:15:59.167Z",
-  "active_run": {
-    "run_id": "ef9052a6-e904-11f1-9cc5-ab884d9209f7",
-    "started_at": "2026-11-25T19:18:39.157Z",
-    "expires_at": "2026-11-25T19:48:39.157Z",
-    "expected_auditor_head": "14a93454c532d0aed14072d8c7b2632934905dff",
-    "events": [
-      {
-        "delivery_id": "861b956a-e904-11f1-8e97-10bac2ea6ed6",
-        "pull_request_number": 152,
-        "action": "opened",
-        "event_type": "pull_request",
-        "actor_login": "nimrodtalmon",
-        "comment_id": null,
-        "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b"
-      },
-      {
-        "delivery_id": "ef9052a6-e904-11f1-9cc5-ab884d9209f7",
-        "pull_request_number": 153,
-        "action": "opened",
-        "event_type": "pull_request",
-        "actor_login": "EShapiro2",
-        "comment_id": null,
-        "head_sha": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T19:21:41.115Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -61,6 +36,92 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 153,
+      "head_sha": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+      "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+      "state": "closed",
+      "updated_at": "2026-11-25T19:20:26Z",
+      "merged_at": "2026-11-25T19:20:26Z",
+      "merge_commit_sha": "47abf4d7454882006870b55006943cf8284a29c2",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWtBwg"
+        ],
+        "review_versions": [
+          {
+            "id": 6063604162,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWtBwg",
+            "state": "APPROVED",
+            "commit_id": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+            "submitted_at": "2026-11-25T19:20:18Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:20:18Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWtBwg",
+      "delivery_ids": [
+        "ef9052a6-e904-11f1-9cc5-ab884d9209f7"
+      ],
+      "notes": "Merged GCE’s dated response. The pinned parser and state replay confirm participant isolation and reissue only for unanswered cases under the new policy. Adoption and runtime remain pending. #136 remains open."
+    },
+    {
+      "number": 152,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+      "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+      "state": "open",
+      "updated_at": "2026-11-25T19:15:05Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [
+        "861b956a-e904-11f1-8e97-10bac2ea6ed6"
+      ],
+      "notes": "Independently checked generated declarations and widget argument assembly for GC Issue, Notes Issue and DAO Pass and Reject with Establish controls. Regenerated table has one new unanswered finding. Await generated table row, issue-index entry and review. No Flutter execution."
+    },
+    {
+      "number": 147,
+      "head_sha": "7796b46d9485394fd364c351cc5890943cca2c19",
+      "base_sha": "47abf4d7454882006870b55006943cf8284a29c2",
+      "state": "open",
+      "updated_at": "2026-11-25T19:21:15Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Reconciled audited Warnings candidate e4aacb8 and contributor history. Await current-head independent review."
+    },
     {
       "number": 150,
       "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
@@ -96,30 +157,6 @@
         "036a116e-e904-11f1-8852-397800fafcce"
       ],
       "notes": "Merged GCE’s dated response. The pinned parser and bounded replay confirm that both removal paths allow a new reply after same-case reissue. Their shared-case wildcard also clears a different participant’s answer while that warning remains active. #136 remains open."
-    },
-    {
-      "number": 147,
-      "head_sha": "3ef836c342625af7b61d602d1463ee51aa2cd12e",
-      "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
-      "state": "open",
-      "updated_at": "2026-11-25T19:15:43Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "review_versions": [],
-        "latest_comments": [],
-        "inline_versions": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": "none",
-      "review_cursor": "none",
-      "delivery_ids": [],
-      "notes": "Warnings verification preserves case reuse and documents wildcard scope at candidate 5f3de22. Await current-head independent review."
     },
     {
       "number": 149,
@@ -2085,6 +2122,60 @@
     "observed_at": "2026-11-25T02:42:14.994Z"
   },
   "processed_events": [
+    {
+      "delivery_id": "861b956a-e904-11f1-8e97-10bac2ea6ed6",
+      "pull_request_number": 152,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "nimrodtalmon",
+      "comment_id": null,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T19:21:41.115Z",
+      "outcome": "Independently checked generated declarations and widget argument assembly for GC Issue, Notes Issue and DAO Pass and Reject with Establish controls. Regenerated table has one new unanswered finding. Await generated table row, issue-index entry and review. No Flutter execution."
+    },
+    {
+      "delivery_id": "ef9052a6-e904-11f1-9cc5-ab884d9209f7",
+      "pull_request_number": 153,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWtBwg"
+        ],
+        "review_versions": [
+          {
+            "id": 6063604162,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWtBwg",
+            "state": "APPROVED",
+            "commit_id": "a0ee07afd82e8167cdf9dcfc6387bb73182df70d",
+            "submitted_at": "2026-11-25T19:20:18Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:20:18Z"
+      },
+      "processed_at": "2026-11-25T19:21:41.115Z",
+      "outcome": "Merged GCE’s dated response. The pinned parser and state replay confirm participant isolation and reissue only for unanswered cases under the new policy. Adoption and runtime remain pending. #136 remains open."
+    },
     {
       "delivery_id": "036a116e-e904-11f1-8852-397800fafcce",
       "pull_request_number": 150,
@@ -11969,9 +12060,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+    "audit_main": "47abf4d7454882006870b55006943cf8284a29c2",
     "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
     "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
-    "observed_at": "2026-11-25T19:15:59.167Z"
+    "observed_at": "2026-11-25T19:21:41.115Z"
   }
 }
