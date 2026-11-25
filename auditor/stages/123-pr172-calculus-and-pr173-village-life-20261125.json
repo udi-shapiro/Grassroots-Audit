@@ -1,0 +1,329 @@
+{
+  "stage": 123,
+  "title": "Calculus/GSC merge and Village Life #115 public baseline",
+  "date_utc": "2026-11-25",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "events": [
+    {
+      "delivery_id": "d10eeeb0-e926-11f1-93ab-d60e085dc998",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 172,
+      "comment_id": null,
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "External audit publication observed. Its finite mathematical controls were rerun.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/172",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/174170e59562c925a193525dcf5edd437ed25f2e"
+      }
+    },
+    {
+      "delivery_id": "d6894700-e926-11f1-81f6-30c4837b889b",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 172,
+      "comment_id": null,
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Already merged at the reviewed repository pin with no GitHub review submission. The exact supplied manuscripts differ from the public blob metadata.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/172",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/174170e59562c925a193525dcf5edd437ed25f2e"
+      }
+    },
+    {
+      "delivery_id": "e983afc6-e926-11f1-99d8-098567c9ecb9",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 173,
+      "comment_id": null,
+      "head_sha": "3c88048d17f66e29fffd55d8171b5c8d0c6f8dee",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Reviewed the attributed answer and regenerated the table. The newer Calculus source could not be verified from GLP.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+      }
+    },
+    {
+      "delivery_id": "a4bc3c0e-e927-11f1-96b0-c389c35197ab",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 173,
+      "comment_id": null,
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Own status-only synchronization. The answer blobs stayed intact. The exact-head merge attempt was rejected by automatic review because the PR has no submitted reviews.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+    "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+    "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+    "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+  },
+  "snapshots": [
+    {
+      "number": 172,
+      "state": "closed",
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "base_sha": "dc11cca0f117c0d30a1384094859f1bbf4958a38",
+      "merged_at": "2026-11-25T23:20:43Z",
+      "merge_commit_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
+    },
+    {
+      "number": 173,
+      "state": "open",
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
+    },
+    {
+      "number": 174,
+      "state": "open",
+      "head_sha": "1cfb1d92e594bfd7c25f88da7fe41f7de779f380",
+      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
+    }
+  ],
+  "project_claims": [
+    "Calculus #13 reports two Book acts, one jointly guarded for tennis and one solo Tools variant, and one combined Expel at its separately hosted commit 1d377ba. It proposes disjoint resource renamings and a governing Expel clause."
+  ],
+  "source_inspection": [
+    "Public GLP cannot resolve 1d377ba (422), and the inspected public main tree lacks the expected Tools, Village Commons, Village Governance and Village Government contract paths. Public parent schemas supply solo Booking, two-consent Tennis Courts and the distinct Expel parent controls.",
+    "PR #172 states it used supplied Calculus (11) and GSC (19) PDFs of 547213 and 2133059 bytes respectively. The public papers tree has GCC.pdf and GSC.pdf at the recorded blobs, with 221163 and 2129418 bytes. The supplied versions do not match the public files. The audit cannot independently verify the cited paper passages from those public blobs.",
+    "PR #122 contains overlapping prior attribution and verification. Its independent open head was left intact."
+  ],
+  "executed_checks": {
+    "status": [
+      "36 reports, 66 findings, 12 unanswered",
+      "main compare exit 0",
+      "36 reports, 66 findings, 11 unanswered"
+    ],
+    "status_publication": "36 reports, 66 findings, 12 unanswered",
+    "pr172_math": [
+      "ROUND_TRIP: different full texts translate to the same clause; explicit deletion precondition disappears.",
+      "AUGMENTATION: the simultaneous result is valid; neither order of one-literal augmentations is valid.",
+      "ADT_SUPPORT: bag({B} minus {B}) equals bag(empty); its syntactic graph edge supplies no stored record.",
+      "CROSS_ENABLEDNESS: the unguarded two-agent act is enabled after independent unary preparation.",
+      "COLLECTION_CONDITIONAL: pre-expansion unary checking permits two different participant sets with the same closure transition.",
+      "WITNESSING: adding an already-held record creates a new multiset occurrence but no new set record.",
+      "All six controls passed. No GLP/catalogue/cascade tests were run."
+    ],
+    "historical_public_replay": {
+      "commands": [
+        "python3 tools/expand.py --out expanded.tex",
+        "python3 tools/gcsas.py 'Village Commons' 'Village Government'"
+      ],
+      "scope": {
+        "groups": {
+          "Village Commons": [
+            "Meeting Rooms",
+            "Appointments",
+            "Tennis Courts",
+            "Rehearsal Rooms"
+          ],
+          "Village Government": [
+            "Democratic Community",
+            "Backed Community Bank",
+            "Disputes",
+            "Warnings"
+          ]
+        },
+        "parents": [
+          "Meeting Rooms",
+          "Appointments",
+          "Tennis Courts",
+          "Rehearsal Rooms",
+          "Democratic Community",
+          "Backed Community Bank",
+          "Disputes",
+          "Warnings",
+          "Booking",
+          "Partners",
+          "Community Bank",
+          "Constitution",
+          "Organisation",
+          "Free Matching",
+          "Bank",
+          "Guardians",
+          "Anonymous Matching",
+          "Denominated Currencies",
+          "Friendship",
+          "Matching",
+          "Anonymous Rendezvous",
+          "Bonds",
+          "Denominated Coins",
+          "Knowledge",
+          "Gossip",
+          "Rendezvous",
+          "Coins",
+          "Services",
+          "Notes"
+        ],
+        "pin": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615"
+      },
+      "results": [
+        "expand exit 0",
+        "gcsas exit 1",
+        "18:Village Commons commute NO; return NO; recover same",
+        "31:Village Government commute yes; return yes; recover same",
+        "38:kinds: Village Commons: Res is resource ('Alice is a person, Orga an organisation, Res a resource, Slot a slot.') and court ('Alice is a person, Orga an organisation, Res a court, Slot a slot.') and room ('Alice is a person, Orga an organisation, Res a room, Slot a slot.')",
+        "39:kinds: Village Commons: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')",
+        "40:31 contracts, 1 with a fault",
+        "sasx/Village-Commons.txt:48:Organisation:3 ■ Expel: ~participant(Bob,Orga), ~has_participant(Orga,Bob) <- ~officer(Bob,Orga), participant(Bob,Orga), has_participant(Orga,Bob) guarded by expellers(Orga).",
+        "sasx/Village-Commons.txt:58:Booking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol."
+      ],
+      "standalone_book_controls": [
+        "sasx/Appointments.txt:58:Booking:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_) guarded by Alice.",
+        "sasx/Village-Commons.txt:58:Booking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.",
+        "sasx/Meeting-Rooms.txt:58:Booking:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_) guarded by Alice.",
+        "sasx/Tennis-Courts.txt:58:Booking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.",
+        "sasx/Booking.txt:58:Booking:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_) guarded by Alice."
+      ],
+      "government_expel": "48:Organisation:3+Constitution:2+Backed Community Bank:1+Warnings:2 ○ Expel: ~participant(Bob,Orga), ~has_participant(Orga,Bob), ~vote_expel_orga(Orga,_,Orga,Bob) <- ~officer(Bob,Orga), vote_expel_orga(Orga,>=Votes,Orga,Bob), product(Double,Votes,2), has_participant(Orga,<Double), decided_expel_orga(Orga,Orga,Bob), all_stay_backed(Orga,Orga), warning(Orga,>=2,Bob), participant(Bob,Orga), has_participant(Orga,Bob) guarded by expellers(Orga)."
+    }
+  },
+  "checks_not_run": [
+    "Native GLP, Dart, Flutter, live application and private source checks.",
+    "The exact supplied PDFs cited by PR #172 and the newer Calculus expansions cited by PR #173 were outside verified public-source coverage."
+  ],
+  "next_actions": [
+    "Get independent exact-head review before merging #173 or #174. The status-only correction on #173 changes the count to 11 unanswered without closing #115.",
+    "Publish versioned declarations, Tools and expanded schemas for the newer Villagers variant and check solo halls/appointments/tools, two-party court booking, and all expulsion entry points.",
+    "Obtain public exact editions for the paper-level assertions in #172. Its rerun confirms the finite models under their encoded assumptions, not their correspondence with the cited paper definitions.",
+    "Preserve and reconcile #122 separately without overwriting its findings or answers."
+  ],
+  "links": {
+    "pr172": "https://github.com/udi-shapiro/Grassroots-Audit/pull/172",
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/174",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+    "prior": "https://github.com/udi-shapiro/Grassroots-Audit/pull/122",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+  }
+}

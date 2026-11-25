@@ -1,3 +1,7 @@
+## Stage 123 — Village Life Booking and Expel baseline — 25 November 2026 UTC
+
+[PR #173](https://github.com/udi-shapiro/Grassroots-Audit/pull/173) contains Calculus #13’s dated answer for [#115](https://github.com/udi-shapiro/Grassroots-Audit/issues/115) and regenerated status. Await exact-head review. The historical public replay reproduced the two-consent Commons Book and the combined Government Expel safeguards, while the named newer expansions remain outside public GLP. [Verification PR #174](https://github.com/udi-shapiro/Grassroots-Audit/pull/174) · [Stage record](../../stages/123-pr172-calculus-and-pr173-village-life-20261125.json)
+
 ## Stage 122 — Tennis Courts partner replacement — 25 November 2026 UTC
 
 [PR #163](https://github.com/udi-shapiro/Grassroots-Audit/pull/163) preserves GM’s answer. At `f4ee64c1` the schema replay supports partner withdrawal and replacement while the court stays booked. The booker and the replacement both consent. The authoritative quota computation remains an environment input. [#137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137) stays open for both-player accounting and integrated execution. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/165) · [Stage record](../../stages/122-pr163-tennis-and-core-projection-20261125.json)

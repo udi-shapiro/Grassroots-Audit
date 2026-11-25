@@ -1,3 +1,11 @@
+## Stage 123 — Village Life Booking and Expel baseline — 25 November 2026 UTC
+
+[PR #173](https://github.com/udi-shapiro/Grassroots-Audit/pull/173) contains Calculus #13’s dated answer for [#115](https://github.com/udi-shapiro/Grassroots-Audit/issues/115) and regenerated status. Await exact-head review. The historical public replay reproduced the two-consent Commons Book and the combined Government Expel safeguards, while the named newer expansions remain outside public GLP. [Verification PR #174](https://github.com/udi-shapiro/Grassroots-Audit/pull/174) · [Stage record](../../stages/123-pr172-calculus-and-pr173-village-life-20261125.json)
+
+## Stage 123 — Calculus/GSC review provenance — 25 November 2026 UTC
+
+[PR #172](https://github.com/udi-shapiro/Grassroots-Audit/pull/172) was already merged. Six finite controls ran successfully at its exact head. The supplied Calculus (11) and GSC (19) byte counts differ from the public PDFs observed on GLP papers. Independent paper-level verification requires the exact public versions. [Stage record](../../stages/123-pr172-calculus-and-pr173-village-life-20261125.json)
+
 ## Stage 101 — Union-declaration correction integrated — 25 November 2026 UTC
 
 GLP main 629a799 contains candidate c13e54e as a merge parent. Exact focused blobs and the integrated union-declarations replay verify refusal of conflicting predicate declarations. Identical declarations and distinct predicates remain accepted. Catalogue-wide 91-contract output is project evidence. [Verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6056308451) · [Stage record](../../stages/101-pr127-calculus-union-integration-20261125.json)

@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T23:21:25.045Z",
-  "active_run": {
-    "run_id": "e983afc6-e926-11f1-99d8-098567c9ecb9",
-    "started_at": "2026-11-25T23:25:39.519Z",
-    "acquired_at": "2026-11-25T23:25:39.519Z",
-    "expires_at": "2026-11-25T23:50:39.519Z",
-    "trigger": "batched pull_request",
-    "pull_request_numbers": [
-      172,
-      173
-    ],
-    "expected_parent_sha": "7093840cf829d83747d8c7280d7a130648e8dffd"
-  },
+  "updated_at": "2026-11-25T23:29:02.287Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -2468,6 +2457,111 @@
         "previous_glp_spec_pdf_blob": "6e045f277432debfd278f2f853e40c92bf6c2df7"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/122-tennis-partner-20261125"
+    },
+    {
+      "number": 172,
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "base_sha": "dc11cca0f117c0d30a1384094859f1bbf4958a38",
+      "state": "closed",
+      "updated_at": "2026-11-25T23:20:43Z",
+      "merged_at": "2026-11-25T23:20:43Z",
+      "merge_commit_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "d10eeeb0-e926-11f1-93ab-d60e085dc998",
+        "d6894700-e926-11f1-81f6-30c4837b889b"
+      ],
+      "notes": "Already merged before the run without submitted GitHub review. Six finite math controls pass on rerun. Exact paper editions not reproducible against the observed public tree.",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+    },
+    {
+      "number": 173,
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "state": "open",
+      "updated_at": "2026-11-25T23:26:30Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "e983afc6-e926-11f1-99d8-098567c9ecb9",
+        "a4bc3c0e-e927-11f1-96b0-c389c35197ab"
+      ],
+      "notes": "Attributed #115 answer and regenerated status are intact at b1c57a394800d0e8086d7b90da5631dcba7984f4. Automatic review blocked an unreviewed merge; exact-head independent review needed. Only the historical public baseline was reproduced.",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+    },
+    {
+      "number": 174,
+      "head_sha": "1cfb1d92e594bfd7c25f88da7fe41f7de779f380",
+      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "state": "open",
+      "updated_at": "2026-11-25T23:28:08Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [],
+      "notes": "Own independent verification publication based on main. Exact head awaits review. No project-answer text was copied into this PR.",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
     }
   ],
   "source_observed_after_tests": {
@@ -13306,6 +13400,144 @@
         "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171",
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/122-pr163-tennis-and-core-projection-20261125.json"
       }
+    },
+    {
+      "delivery_id": "d10eeeb0-e926-11f1-93ab-d60e085dc998",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 172,
+      "comment_id": null,
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "External audit publication observed. Its finite mathematical controls were rerun.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/172",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/174170e59562c925a193525dcf5edd437ed25f2e"
+      }
+    },
+    {
+      "delivery_id": "d6894700-e926-11f1-81f6-30c4837b889b",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 172,
+      "comment_id": null,
+      "head_sha": "17dbaf606cbc9a7993f0834dae2247c6be681353",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Already merged at the reviewed repository pin with no GitHub review submission. The exact supplied manuscripts differ from the public blob metadata.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/172",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/174170e59562c925a193525dcf5edd437ed25f2e"
+      }
+    },
+    {
+      "delivery_id": "e983afc6-e926-11f1-99d8-098567c9ecb9",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 173,
+      "comment_id": null,
+      "head_sha": "3c88048d17f66e29fffd55d8171b5c8d0c6f8dee",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Reviewed the attributed answer and regenerated the table. The newer Calculus source could not be verified from GLP.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+      }
+    },
+    {
+      "delivery_id": "a4bc3c0e-e927-11f1-96b0-c389c35197ab",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 173,
+      "comment_id": null,
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-25T23:29:02.287Z",
+      "source_pins": {
+        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
+        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+      },
+      "outcome": "Own status-only synchronization. The answer blobs stayed intact. The exact-head merge attempt was rejected by automatic review because the PR has no submitted reviews.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -13328,9 +13560,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "dc11cca0f117c0d30a1384094859f1bbf4958a38",
+    "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
     "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
     "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-    "observed_at": "2026-11-25T23:21:25.045Z"
+    "observed_at": "2026-11-25T23:29:02.287Z"
   }
 }
