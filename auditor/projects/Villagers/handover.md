@@ -1,3 +1,7 @@
+## Stage 122 — Tennis Courts partner replacement — 25 November 2026 UTC
+
+[PR #163](https://github.com/udi-shapiro/Grassroots-Audit/pull/163) preserves GM’s answer. At `f4ee64c1` the schema replay supports partner withdrawal and replacement while the court stays booked. The booker and the replacement both consent. The authoritative quota computation remains an environment input. [#137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137) stays open for both-player accounting and integrated execution. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/165) · [Stage record](../../stages/122-pr163-tennis-and-core-projection-20261125.json)
+
 ## Stage 121 — Revision (2) merged before public-source verification — 25 November 2026 UTC
 
 [PR #162](https://github.com/udi-shapiro/Grassroots-Audit/pull/162) merged at `191f6ace` without review. The exact six-page manuscript remains available only through the report's private Library reference and is absent from public `EShapiro2/GLP:papers`. Treat the merged paper-level resolutions for #119 and #132-#134 as pending reproducibility under the audit's public-source boundary. Website #138 and candidate controls can be assessed separately. Publish the exact PDF publicly, compare it to the report, and correct main if necessary. [Stage record](../../stages/121-pr162-merged-public-source-gap-20261125.json)

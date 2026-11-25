@@ -1,3 +1,7 @@
+## Stage 122 — GLP-Spec acyclicity verified for the original witness — 25 November 2026 UTC
+
+The [public revision](https://github.com/EShapiro2/GLP/blob/d5669de3e05376005368e64abfd18e7ecad06c49/papers/GLP-Spec.pdf) rules out the original cyclic Reduce. An acyclic term check distinguishes one-step projection from normalized LP unification. [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) records the remaining [#31](https://github.com/udi-shapiro/Grassroots-Audit/issues/31) proof obligation. Check the cumulative projection through Reduce and Communicate and the dependent IGLP account. [Stage record](../../stages/122-pr163-tennis-and-core-projection-20261125.json)
+
 # Updated public GLP-Spec and TGLP PDFs pinned — 24 November 2026
 
 At papers commit `95cd323ac213aed0203e09279b4dab3cdc0ee6b5`, the audit hash-checked and read GLP-Spec blob `6e045f277432debfd278f2f853e40c92bf6c2df7` and TGLP blob `605ddff24122c85fa6ea9ec9344d9ee16a7f087e`. Their acyclicity restrictions exclude the original cyclic witness. Finish the cumulative substitution and LP projection argument in GLP-Spec Proposition E.1 and check the dependent IGLP account before disposition. IGLP PR #78 remains open for review. [Stage record](../../stages/87-pr92-calculus-and-sglp-paper-20261124.json)
