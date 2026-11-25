@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+Notes now preserves the note set through Issue, Pay, Deposit, Release and Return. Run the two-identifier transfer and escrow controls and check issuer signatures for #97. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Notes identifier answer checked against public source — 24 November 2026
 
 Calculus and GSC answers to contracts Finding 20 are preserved in [PR #103](https://github.com/udi-shapiro/Grassroots-Audit/pull/103) and [PR #105](https://github.com/udi-shapiro/Grassroots-Audit/pull/105). The public set/runtime prerequisites are integrated, but public GLP `5ba668c3` still stores Notes by holder, issuer, type and multiplicity without the claimed identifier. [PR #106](https://github.com/udi-shapiro/Grassroots-Audit/pull/106) publishes the independent source check. Keep #97 open until an identifier-preserving term is public or the abstraction boundary is documented. [Stage record](../../stages/92-pr103-106-calculus-public-verification-20261124.json)

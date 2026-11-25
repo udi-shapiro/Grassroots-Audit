@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+The focused candidate check is now independently verified on integrated GLP `2b18975d` for the exact Village Life declaration. Both expansions retain Lost and Found and the relation check holds. The compiled Disputes sources record Ruling. Carry both into the dated report after the open #122 contribution is reconciled and keep #118 open for execution and visibility. [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Stage 96 — Findings 1–4 answered; Finding 5 pending — 24 November 2026
 
 Calculus #11 answers Findings 1–4. All remain open. The parser correction passes its focused candidate test, the aggregate retirement refusal is supported by the asymmetric Secure Friendship schemas, and Disputes carries Ruling on the candidate branch. Finding 5 still awaits Villagers' recovery-scope answer. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)

@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+Reviewed and merged [Code #37](https://github.com/udi-shapiro/Grassroots-Audit/pull/123) and the [Calculus follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/124). [PR #125](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) publishes the independent checks for review. It records the remaining vote-content gap and the corrected sources for #58, #96 and #97. The focused Village Life and Disputes results are in the stage record pending the overlap with #122. [Stage record](./stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Stage 96 — Calculus answers Villagers Findings 1–4 — 24 November 2026
 
 [Calculus #11](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664) answers Villagers Findings 1–4. The focused union-name regression and exact name probe pass at public candidate `5e6186d`. Source inspection confirms the asymmetric Secure Friendship composition and the new Disputes ruling field. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) preserves the answers and checks. It remains open pending independent review. Finding 5 still awaits Villagers. [Stage record](./stages/96-pr120-122-villagers-calculus-20261124.json)

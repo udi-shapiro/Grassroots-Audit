@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+Notes set representation is present in published terms. Coordinate the distinct-note escrow and signature controls for #97. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Stage 96 — Guardians attribution retained — 24 November 2026
 
 GSC #21 remains the standalone Guardians answer. Calculus #11 agrees that Guardians is not the aggregate fault and identifies the asymmetric Secure Friendship Restore composition. The audit confirmed the relevant public schemas. Both aggregate translations remain open. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)

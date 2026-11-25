@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+Integrated candidates `35dafecb` and `5e6186d` are ancestors of `8d14cc0`; the later checker corrections were tested on `b42a475e` and `4e68cca`. Keep the Shares prior-vote exclusion and GO and Notes runtime controls queued. [Integration answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/123) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # PR 83 / PR 50 audit checkpoint — 24 November 2026
 
 [PR #114](https://github.com/udi-shapiro/Grassroots-Audit/pull/114) preserves the integrated sGLP and CVA evidence. Run the focused harness and compiler controls on an exact public GLP build when Dart is available. Keep full-suite known-red checks in the shared registry. [Stage record](../../stages/94-pr83-pr50-lbm-spm-20261124.json)

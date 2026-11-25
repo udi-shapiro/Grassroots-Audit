@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+The organisation route now requires an organisation with a listed officer in the catalogue, adopted module and both emitted platforms. Run person-only, officerless, and represented Gov controls for #96. Run ward and organisation creation and retirement plays for #58. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Organisation Found catalogue correction checked — 24 November 2026
 
 [PR #107](https://github.com/udi-shapiro/Grassroots-Audit/pull/107) preserves GO’s answer. [PR #108](https://github.com/udi-shapiro/Grassroots-Audit/pull/108) verifies the stricter catalogue guard on public candidate `35dafecb`. Its checked-in adopted Organisation module and both platform files retain the person alternative at the candidate and at GLP main `bb99275f`. Keep #96 open pending public adoption and regeneration, followed by Found controls for a person-only Gov, an organisation without an officer, and an organisation with an officer. [Audit discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/107#issuecomment-7140496087) · [Stage record](../../stages/93-pr107-108-organisation-found-20261124.json)

@@ -1,18 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T02:29:30.944Z",
-  "active_run": {
-    "run_id": "pr-watch-bcbfc362-e877-11f1-8a10-74235eddcb19",
-    "acquired_at": "2026-11-25T02:29:30.944Z",
-    "expires_at": "2026-11-25T02:44:30.944Z",
-    "delivery_ids": [
-      "bcbfc362-e877-11f1-8a10-74235eddcb19"
-    ],
-    "pull_requests": [
-      123
-    ]
-  },
+  "updated_at": "2026-11-25T02:42:14.994Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -42,7 +32,7 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 122,
+  "publication_pr": 125,
   "publication_merge_sha": null,
   "source_verified": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
   "processed_prs": [
@@ -1418,36 +1408,140 @@
       "comment_cursor": "none",
       "review_cursor": "none",
       "notes": "Own clean audit publication. Exact four-file diff checked. Merge blocked pending independent review; no merge claimed."
+    },
+    {
+      "number": 123,
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "base_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "state": "closed",
+      "updated_at": "2026-11-25T02:34:14Z",
+      "merged_at": "2026-11-25T02:34:11Z",
+      "merge_commit_sha": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "comment_cursor": 7150892970,
+      "review_cursor": 6050906345,
+      "notes": "Code #37 answer merged at the corrected, approved head. Calculus’s late follow-up is preserved in PR #124."
+    },
+    {
+      "number": 124,
+      "head_sha": "779aee534265385c8beacdcc923baf2104146efc",
+      "base_sha": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+      "state": "closed",
+      "updated_at": "2026-11-25T02:37:55Z",
+      "merged_at": "2026-11-25T02:37:55Z",
+      "merge_commit_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKo9IA"
+        ],
+        "review_versions": [
+          {
+            "id": 6050954528,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKo9IA",
+            "submitted_at": "2026-11-25T02:37:34Z",
+            "commit_id": "779aee534265385c8beacdcc923baf2104146efc",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T02:37:34Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": 6050954528,
+      "notes": "Calculus #11 generated-vote follow-up merged at its approved head. Fixture results in PR #125."
+    },
+    {
+      "number": 125,
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "state": "open",
+      "updated_at": "2026-11-25T02:41:58Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "comment_cursor": 7151015763,
+      "review_cursor": "none",
+      "notes": "Own separate verification publication. Exact head awaits independent review."
     }
   ],
   "source_observed_after_tests": {
-    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
-    "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
+    "audit_main_before": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "glp_main_observed": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
     "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
-    "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
-    "candidate_branch": "claude/project-thread-23okte",
-    "pr120_head": "348c3ff69acc3a410f6871065390876fb68bc6c0",
-    "pr122_head": "db41f37a2ef4d42b737ed1adc36a06a7fcb918e1",
-    "observed_at": "2026-11-24T23:34:23.814Z",
-    "executed": [
-      {
-        "command": "python3 -m py_compile tools/*.py",
-        "result": "exit 0"
-      },
-      {
-        "command": "python3 tools/tests.py",
-        "result": "exit 0; unionand same; 1 cases, 0 that differ"
-      },
-      {
-        "command": "names.split_list('Jobs and Lost and Found')",
-        "result": "['Jobs', 'Lost and Found']"
-      },
-      {
-        "command": "python3 bin/status.py",
-        "result": "32 reports, 50 findings, 5 unanswered"
-      }
+    "glp_reported_main": "8d14cc0a56a0741f404c4e085753b214f04c6133",
+    "glp_inspection_and_first_run": "2b18975d9cdbc334907c27d4992555442a85432c",
+    "glp_derive_rerun": "b42a475eda894bd51c5a2c4744ca2f16ebf63418",
+    "glp_vote_content_rerun": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "candidates": [
+      "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
+      "5e6186d091e15b0ad6baad8439a2b25b8d55b57d"
     ],
-    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term."
+    "pr123_head": "3432e603555bb89b1346a654af71e7a041b07001",
+    "pr123_merge": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+    "pr124_head": "779aee534265385c8beacdcc923baf2104146efc",
+    "pr124_merge": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr125_head": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+    "observed_at": "2026-11-25T02:42:14.994Z"
   },
   "processed_events": [
     {
@@ -10762,6 +10856,162 @@
       },
       "processed_at": "2026-11-24T23:34:23.814Z",
       "outcome": "Own publication created during this run. Exact diff clean; left open because no independent review is recorded."
+    },
+    {
+      "delivery_id": "bcbfc362-e877-11f1-8a10-74235eddcb19",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 123,
+      "trigger_head_sha": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+      "outcome": "Reviewed the original diff and a revised head, then merged the attributed Code answer.",
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "b2d98b34-e878-11f1-9f5d-deea3310aaf6",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 123,
+      "outcome": "Own exact-head reviewed answer merge reconciled. External Calculus follow-up preserved separately in #124.",
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "1527de26-e879-11f1-976c-65ef185b7713",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 125,
+      "trigger_head_sha": "e3f1588bc364c7f6864291a32f6a5ac386980706",
+      "outcome": "Own separate verification PR. Synchronized with merged Calculus answer while preserving the original verification commit.",
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "bcac2f44-e879-11f1-9939-61f0c0c3eb8d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 125,
+      "outcome": "Own publication update inspected at its final head. External Calculus reply was separately assessed with pinned Library and Shares checks.",
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
     }
   ],
   "source_observed_after_event": {
@@ -10801,18 +11051,18 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-24T23:34:23.814Z",
-    "last_stage": 96,
-    "processed_through_pr": 122,
-    "notes": "PR 120 comment 7147328664 and own PR 122 open event recorded. Publication remains unmerged pending independent review."
+    "last_reconciled_at": "2026-11-25T02:42:14.994Z",
+    "last_stage": 97,
+    "processed_through_pr": 125,
+    "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
     "glp_main": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
     "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
     "restore_friend_catalogue": "65796c8f9495e71948b52a4335c801deb63448a9",
     "compiler_main": "411150bedadcff6827abb7624bc027757d891f9e",
-    "observed_at": "2026-11-24T23:34:23.814Z",
+    "observed_at": "2026-11-25T02:42:14.994Z",
     "spm_fixture": "ceb43d73724b8b8ca9eae5c0c6749163f69382af",
     "vglp_fix": "2e88bbc62aedc65c3d16fef1b9dd8089ced9b09a",
     "cascade_release": "dd7f57027e3206c417aa382c8d99015631804f3d",
@@ -10882,7 +11132,7 @@
     "gsc_set_variables": "0daa1b81b653315d7285d48a9a23558b53fb20a6",
     "glp_set_runtime": "03bc123ff8a9c4cca1c614bb33c6c720b337a72e",
     "pr106_close_delivery": "fcb756c4-e813-11f1-81c9-5eeb63a56178",
-    "audit_main_before": "94f679a5388395c02154886dcb8e3630d6334a7b",
+    "audit_main_before": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
     "glp_candidate": "5e6186d091e15b0ad6baad8439a2b25b8d55b57d",
     "pr107_head": "cb805780a6434254c54e80be8b7ed1e32f09459c",
     "pr107_merge": "7939da5467b88c05ef72434d84847cdb007ba778",
@@ -10909,6 +11159,20 @@
         "result": "32 reports, 50 findings, 5 unanswered"
       }
     ],
-    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term."
+    "inspection": "Secure Friendship restore schemas are byte-identical at main and candidate and add one-directional friend edges. Candidate Disputes carries Ruling in contract, schema and term.",
+    "glp_main_observed": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "glp_reported_main": "8d14cc0a56a0741f404c4e085753b214f04c6133",
+    "glp_inspection_and_first_run": "2b18975d9cdbc334907c27d4992555442a85432c",
+    "glp_derive_rerun": "b42a475eda894bd51c5a2c4744ca2f16ebf63418",
+    "glp_vote_content_rerun": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "candidates": [
+      "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
+      "5e6186d091e15b0ad6baad8439a2b25b8d55b57d"
+    ],
+    "pr123_head": "3432e603555bb89b1346a654af71e7a041b07001",
+    "pr123_merge": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+    "pr124_head": "779aee534265385c8beacdcc923baf2104146efc",
+    "pr124_merge": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr125_head": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef"
   }
 }

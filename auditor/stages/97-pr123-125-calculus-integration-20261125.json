@@ -1,0 +1,469 @@
+{
+  "stage": 97,
+  "deferred_discussion": [],
+  "title": "Code and Calculus integration answers and focused verification",
+  "recorded_at": "2026-11-25T02:42:14.994Z",
+  "events": [
+    {
+      "delivery_id": "bcbfc362-e877-11f1-8a10-74235eddcb19",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 123,
+      "trigger_head_sha": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+      "outcome": "Reviewed the original diff and a revised head, then merged the attributed Code answer.",
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "b2d98b34-e878-11f1-9f5d-deea3310aaf6",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 123,
+      "outcome": "Own exact-head reviewed answer merge reconciled. External Calculus follow-up preserved separately in #124.",
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "1527de26-e879-11f1-976c-65ef185b7713",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 125,
+      "trigger_head_sha": "e3f1588bc364c7f6864291a32f6a5ac386980706",
+      "outcome": "Own separate verification PR. Synchronized with merged Calculus answer while preserving the original verification commit.",
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    },
+    {
+      "delivery_id": "bcac2f44-e879-11f1-9939-61f0c0c3eb8d",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 125,
+      "outcome": "Own publication update inspected at its final head. External Calculus reply was separately assessed with pinned Library and Shares checks.",
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "processed_at": "2026-11-25T02:42:14.994Z"
+    }
+  ],
+  "prs": [
+    {
+      "number": 123,
+      "head_sha": "3432e603555bb89b1346a654af71e7a041b07001",
+      "base_sha": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+      "state": "closed",
+      "updated_at": "2026-11-25T02:34:14Z",
+      "merged_at": "2026-11-25T02:34:11Z",
+      "merge_commit_sha": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7150856036,
+          7150892970
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKkzaA",
+          "PRR_kwDOVrts7s8AAAABaKmA6Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6050886504,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKkzaA",
+            "submitted_at": "2026-11-25T02:32:05Z",
+            "commit_id": "110b9c239aaff8f4d71d7621b3792dd7b0a6b1d1",
+            "state": "CHANGES_REQUESTED"
+          },
+          {
+            "id": 6050906345,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKmA6Q",
+            "submitted_at": "2026-11-25T02:33:45Z",
+            "commit_id": "3432e603555bb89b1346a654af71e7a041b07001",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7150856036,
+            "updated_at": "2026-11-25T02:32:29Z"
+          },
+          {
+            "id": 7150892970,
+            "updated_at": "2026-11-25T02:34:14Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:34:14Z"
+      },
+      "comment_cursor": 7150892970,
+      "review_cursor": 6050906345,
+      "notes": "Code #37 answer merged at the corrected, approved head. Calculus’s late follow-up is preserved in PR #124."
+    },
+    {
+      "number": 124,
+      "head_sha": "779aee534265385c8beacdcc923baf2104146efc",
+      "base_sha": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+      "state": "closed",
+      "updated_at": "2026-11-25T02:37:55Z",
+      "merged_at": "2026-11-25T02:37:55Z",
+      "merge_commit_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaKo9IA"
+        ],
+        "review_versions": [
+          {
+            "id": 6050954528,
+            "node_id": "PRR_kwDOVrts7s8AAAABaKo9IA",
+            "submitted_at": "2026-11-25T02:37:34Z",
+            "commit_id": "779aee534265385c8beacdcc923baf2104146efc",
+            "state": "APPROVED"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T02:37:34Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": 6050954528,
+      "notes": "Calculus #11 generated-vote follow-up merged at its approved head. Fixture results in PR #125."
+    },
+    {
+      "number": 125,
+      "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
+      "state": "open",
+      "updated_at": "2026-11-25T02:41:58Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7151015763
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7151015763,
+            "updated_at": "2026-11-25T02:39:48Z"
+          }
+        ],
+        "latest_item_at": "2026-11-25T02:39:48Z"
+      },
+      "comment_cursor": 7151015763,
+      "review_cursor": "none",
+      "notes": "Own separate verification publication. Exact head awaits independent review."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "77d55c973c0b7c0674597b2f39084bd26bd34d5e",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "glp_main_observed": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
+    "glp_reported_main": "8d14cc0a56a0741f404c4e085753b214f04c6133",
+    "glp_inspection_and_first_run": "2b18975d9cdbc334907c27d4992555442a85432c",
+    "glp_derive_rerun": "b42a475eda894bd51c5a2c4744ca2f16ebf63418",
+    "glp_vote_content_rerun": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+    "candidates": [
+      "35dafecb7877ca4fc56b4cb5916da45fbb5c743d",
+      "5e6186d091e15b0ad6baad8439a2b25b8d55b57d"
+    ],
+    "pr123_head": "3432e603555bb89b1346a654af71e7a041b07001",
+    "pr123_merge": "f412469a6e19e6f72f907131ad11af98f48ce9e2",
+    "pr124_head": "779aee534265385c8beacdcc923baf2104146efc",
+    "pr124_merge": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr125_head": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef"
+  },
+  "evidence": {
+    "code_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/123",
+    "format_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/123#pullrequestreview-6050886504",
+    "format_revision": "https://github.com/udi-shapiro/Grassroots-Audit/pull/123#issuecomment-7150856036",
+    "calculus_followup": "https://github.com/udi-shapiro/Grassroots-Audit/pull/123#issuecomment-7150892970",
+    "calculus_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/124",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/125",
+    "calculus_later_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/125#issuecomment-7151015763",
+    "baseline_checker": "https://github.com/EShapiro2/GLP/blob/2b18975d9cdbc334907c27d4992555442a85432c/calculus/tools/derive.py",
+    "corrected_checker": "https://github.com/EShapiro2/GLP/blob/b42a475eda894bd51c5a2c4744ca2f16ebf63418/calculus/tools/derive.py",
+    "original_replay": "https://github.com/udi-shapiro/Grassroots-Audit/blob/77d55c973c0b7c0674597b2f39084bd26bd34d5e/papers/villagers-replay-2026-11-24.py",
+    "critical_blobs": [
+      {
+        "path": "calculus/contracts/Disputes/term.glp.txt",
+        "sha": "c94167b90963e16b5fe0ab4878166197744f52c4"
+      },
+      {
+        "path": "calculus/contracts/Notes/term.glp.txt",
+        "sha": "fccacc469efb4601f4535b590a86f98e7e0ab624"
+      },
+      {
+        "path": "calculus/contracts/Organisation/term.glp.txt",
+        "sha": "aeb0378d4f6cd80099565677dd6e75bebffcb58b"
+      },
+      {
+        "path": "calculus/contracts/Partners/term.glp.txt",
+        "sha": "73d2d44b2a6e3316987914f9233bf98d380ea110"
+      },
+      {
+        "path": "calculus/contracts/Rehearsal-Rooms/term.glp.txt",
+        "sha": "d15cabea7875fda9940bf1a61cfa87e604176d53"
+      },
+      {
+        "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+        "sha": "e76a8742e5ef82bd9d6917645b7566d417de547d"
+      },
+      {
+        "path": "cascade/Organisation/platform.glp",
+        "sha": "745635a348920a8b19f150073281f963376572b5"
+      },
+      {
+        "path": "cascade/Organisation/platform.vglp",
+        "sha": "b8ffe0bd12fa7533aa7db90aaa4b71c05b6c928a"
+      },
+      {
+        "path": "programs/go/Organisation.glp",
+        "sha": "5ee6d4984ccb27a55b23650c480840d04b15466b"
+      }
+    ],
+    "updated_checker_blob": "663dc7fbb8612384d1f31081d23e296c2aa3f926",
+    "latest_checked_blob": "a52c437605538bb75f8a1a81c07f33ea33e55f29"
+  },
+  "executed_checks": [
+    {
+      "id": "library-original-main",
+      "source": "2b18975d9cdbc334907c27d4992555442a85432c",
+      "command": "python3 - <<'PY'\nfrom pathlib import Path\nfrom tempfile import TemporaryDirectory\nimport shutil, subprocess, sys\nfor case in ('baseline','return-without-shelf','extra-vote','missing-introduce'):\n    with TemporaryDirectory() as d:\n        root=Path(d)\n        for name in ('Library','Knowledge'):\n            (root/name).mkdir()\n            for part in ('contract.txt','schemas.txt','full-schemas.txt'):\n                shutil.copyfile(Path('contracts')/name/part,root/name/part)\n        expanded=root/'Library'/'full-schemas.txt'\n        before=expanded.read_text()\n        lines=before.splitlines(keepends=True)\n        if case=='return-without-shelf':\n            lines=[x.replace(', shelf(Alice,Tome) <-',' <-') if '■ Return:' in x else x for x in lines]\n        if case=='extra-vote':\n            lines.append('Library:2 ■ Vote of Alice for Lend: unrelated(Alice,Tome) <- guarded by Alice.\\n')\n        if case=='missing-introduce':\n            lines=[x for x in lines if '■ Introduce:' not in x]\n        assert (''.join(lines)==before)==(case=='baseline')\n        expanded.write_text(''.join(lines))\n        run=subprocess.run([sys.executable,'tools/derive.py','Library','--root',d],capture_output=True,text=True)\n        print(case,run.returncode)\n        print(run.stdout,end='')\n        print(run.stderr,end='')\nPY",
+      "stdout": "baseline 0\nLibrary: derived\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n\n1 contracts, 1 derived\nreturn-without-shelf 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Library that is not as its own clause writes it\n        source: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day), shelf(Alice,Tome) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n        Library: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nextra-vote 0\nLibrary: derived\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n\n1 contracts, 1 derived\nmissing-introduce 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Knowledge that is not in Library\n        source: Knowledge:3 ■ Introduce: knows(Bob,Carol) <- person(Alice), person(Bob), person(Carol), knows(Alice,Bob), knows(Bob,Alice), knows(Alice,Carol) guarded by Alice, Bob.\n        Library: none\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\n"
+    },
+    {
+      "id": "library-vote-follow-up",
+      "source": "b42a475eda894bd51c5a2c4744ca2f16ebf63418",
+      "command": "python3 - <<'PY'\nfrom pathlib import Path\nfrom tempfile import TemporaryDirectory\nimport shutil, subprocess, sys\nfor case in ('baseline','return-without-shelf','extra-vote','missing-introduce','mixed-vote'):\n    with TemporaryDirectory() as d:\n        root=Path(d)\n        for name in ('Library','Knowledge'):\n            (root/name).mkdir()\n            for part in ('contract.txt','schemas.txt','full-schemas.txt'):\n                shutil.copyfile(Path('contracts')/name/part,root/name/part)\n        expanded=root/'Library'/'full-schemas.txt'\n        before=expanded.read_text()\n        lines=before.splitlines(keepends=True)\n        if case=='return-without-shelf':\n            lines=[x.replace(', shelf(Alice,Tome) <-',' <-') if '■ Return:' in x else x for x in lines]\n        if case=='extra-vote':\n            lines.append('Library:2 ■ Vote of Alice for Lend: unrelated(Alice,Tome) <- guarded by Alice.\\n')\n        if case=='mixed-vote':\n            lines.append('Library:2 ■ Vote of Alice for Lend: shelf(Alice,Tome), unrelated(Alice,Tome) <- guarded by Alice.\\n')\n        if case=='missing-introduce':\n            lines=[x for x in lines if '■ Introduce:' not in x]\n        assert (''.join(lines)==before)==(case=='baseline')\n        expanded.write_text(''.join(lines))\n        run=subprocess.run([sys.executable,'tools/derive.py','Library','--root',d],capture_output=True,text=True)\n        print(case,run.returncode)\n        print(run.stdout,end='')\n        print(run.stderr,end='')\nPY",
+      "stdout": "baseline 0\nLibrary: derived\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n\n1 contracts, 1 derived\nreturn-without-shelf 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Library that is not as its own clause writes it\n        source: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day), shelf(Alice,Tome) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n        Library: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nextra-vote 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: an act compiled from no act of Library\n        source: none\n        Library: Library:2 ■ Vote of Alice for Lend: unrelated(Alice,Tome) <- guarded by Alice.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nmissing-introduce 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Knowledge that is not in Library\n        source: Knowledge:3 ■ Introduce: knows(Bob,Carol) <- person(Alice), person(Bob), person(Carol), knows(Alice,Bob), knows(Bob,Alice), knows(Alice,Carol) guarded by Alice, Bob.\n        Library: none\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nmixed-vote 0\nLibrary: derived\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n\n1 contracts, 1 derived\n"
+    },
+    {
+      "id": "library-latest",
+      "source": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+      "command": "python3 - <<'PY'\nfrom pathlib import Path\nfrom tempfile import TemporaryDirectory\nimport shutil, subprocess, sys\nfor case in ('baseline','return-without-shelf','extra-vote','missing-introduce','mixed-vote'):\n    with TemporaryDirectory() as d:\n        root=Path(d)\n        for name in ('Library','Knowledge'):\n            (root/name).mkdir()\n            for part in ('contract.txt','schemas.txt','full-schemas.txt'):\n                shutil.copyfile(Path('contracts')/name/part,root/name/part)\n        expanded=root/'Library'/'full-schemas.txt'\n        before=expanded.read_text()\n        lines=before.splitlines(keepends=True)\n        if case=='return-without-shelf':\n            lines=[x.replace(', shelf(Alice,Tome) <-',' <-') if '■ Return:' in x else x for x in lines]\n        if case=='extra-vote':\n            lines.append('Library:2 ■ Vote of Alice for Lend: unrelated(Alice,Tome) <- guarded by Alice.\\n')\n        if case=='mixed-vote':\n            lines.append('Library:2 ■ Vote of Alice for Lend: shelf(Alice,Tome), unrelated(Alice,Tome) <- guarded by Alice.\\n')\n        if case=='missing-introduce':\n            lines=[x for x in lines if '■ Introduce:' not in x]\n        assert (''.join(lines)==before)==(case=='baseline')\n        expanded.write_text(''.join(lines))\n        run=subprocess.run([sys.executable,'tools/derive.py','Library','--root',d],capture_output=True,text=True)\n        print(case,run.returncode)\n        print(run.stdout,end='')\n        print(run.stderr,end='')\nPY",
+      "stdout": "baseline 0\nLibrary: derived\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n\n1 contracts, 1 derived\nreturn-without-shelf 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Library that is not as its own clause writes it\n        source: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day), shelf(Alice,Tome) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n        Library: Library:3 ■ Return: ~borrowed(Bob,Tome,Alice,Day) <- borrowed(Bob,Tome,Alice,Day) guarded by Bob.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nextra-vote 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: an act compiled from no act of Library\n        source: none\n        Library: Library:2 ■ Vote of Alice for Lend: unrelated(Alice,Tome) <- guarded by Alice.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nmissing-introduce 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: a clause of Knowledge that is not in Library\n        source: Knowledge:3 ■ Introduce: knows(Bob,Carol) <- person(Alice), person(Bob), person(Carol), knows(Alice,Bob), knows(Bob,Alice), knows(Alice,Carol) guarded by Alice, Bob.\n        Library: none\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\nmixed-vote 0\nLibrary: 1 clauses differ\n    first line: Library extends Knowledge.\n    proposed:   Library extends Knowledge.\n    differs: an act compiled from no act of Library\n        source: none\n        Library: Library:2 ■ Vote of Alice for Lend: shelf(Alice,Tome), unrelated(Alice,Tome) <- guarded by Alice.\n\n1 contracts, 0 derived\nnot derived: Library, 1 clauses differ\n"
+    },
+    {
+      "id": "shares-latest",
+      "source": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
+      "command": "python3 - <<'PY'\nfrom pathlib import Path\nfrom tempfile import TemporaryDirectory\nimport shutil, subprocess, re, sys\nfor case in ('baseline','extra-effect','extra-condition','missing-not-cast'):\n    with TemporaryDirectory() as d:\n        root=Path(d)\n        for name in ('Shares','Organisation','Notes','Guardians','Friendship','Knowledge'):\n            shutil.copytree(Path('contracts')/name,root/name)\n        p=root/'Shares'/'full-schemas.txt'\n        before=p.read_text()\n        pattern=r'^.*■ Vote of Alice for Issue:.*$'\n        def edit(m):\n            s=m.group(0)\n            if case=='extra-effect': return s.replace(' <-', ', shelf(Alice,Voter) <-')\n            if case=='extra-condition': return s.replace(' guarded by', ', shelf(Alice,Voter) guarded by')\n            if case=='missing-not-cast': return re.sub(r', ~vote_issue_alice\\([^)]*\\)', '', s)\n            return s\n        adjusted,n=re.subn(pattern,edit,before,flags=re.M)\n        assert n==1 and (adjusted==before)==(case=='baseline')\n        p.write_text(adjusted)\n        run=subprocess.run([sys.executable,'tools/derive.py','Shares','--root',d],capture_output=True,text=True)\n        print(case,run.returncode)\n        print(run.stdout,end='')\n        print(run.stderr,end='')\n\nPY",
+      "stdout": "baseline 0\nShares: derived\n    first line: Shares unites Organisation and Notes, and extends the union.\n    proposed:   Shares unites Organisation and Notes, and extends the union.\n\n1 contracts, 1 derived\nextra-effect 0\nShares: 1 clauses differ\n    first line: Shares unites Organisation and Notes, and extends the union.\n    proposed:   Shares unites Organisation and Notes, and extends the union.\n    differs: an act compiled from no act of Shares\n        source: none\n        Shares: Notes:1 ■ Vote of Alice for Issue: vote_issue_alice(Alice,Voter,Sum,Type), shelf(Alice,Voter) <- voter_issue_alice(Voter,Alice,Sum,Type), ~vote_issue_alice(Alice,Voter,Sum,Type) guarded by Voter.\n\n1 contracts, 0 derived\nnot derived: Shares, 1 clauses differ\nextra-condition 0\nShares: 1 clauses differ\n    first line: Shares unites Organisation and Notes, and extends the union.\n    proposed:   Shares unites Organisation and Notes, and extends the union.\n    differs: an act compiled from no act of Shares\n        source: none\n        Shares: Notes:1 ■ Vote of Alice for Issue: vote_issue_alice(Alice,Voter,Sum,Type) <- voter_issue_alice(Voter,Alice,Sum,Type), ~vote_issue_alice(Alice,Voter,Sum,Type), shelf(Alice,Voter) guarded by Voter.\n\n1 contracts, 0 derived\nnot derived: Shares, 1 clauses differ\nmissing-not-cast 0\nShares: derived\n    first line: Shares unites Organisation and Notes, and extends the union.\n    proposed:   Shares unites Organisation and Notes, and extends the union.\n\n1 contracts, 1 derived\n"
+    },
+    {
+      "id": "unionand",
+      "source": "2b18975d9cdbc334907c27d4992555442a85432c",
+      "command": "python3 tools/tests.py (isolated tree with only unionand)",
+      "result": "unionand same; 1 cases, 0 that differ; exit 0"
+    },
+    {
+      "id": "exact-village-life",
+      "source": "2b18975d9cdbc334907c27d4992555442a85432c",
+      "command": "python3 -I tools/expand.py --out expanded.tex; python3 -I tools/gcsas.py; python3 -I tools/relations.py --json 'Village Life' (isolated exact Section 2 Village Life declaration)",
+      "fixture_parents": [
+        "Jobs",
+        "Help",
+        "Lending",
+        "Library",
+        "Lost and Found",
+        "Carpool",
+        "Home Exchange",
+        "Partners",
+        "Dating",
+        "Free Matching",
+        "Knowledge",
+        "Anonymous Matching",
+        "Matching",
+        "Anonymous Rendezvous",
+        "Gossip",
+        "Rendezvous",
+        "Friendship",
+        "Services",
+        "Guardians"
+      ],
+      "stdout": "Village Life unites Jobs, Help, Lending, Library, Lost and Found, Carpool, Home Exchange, Partners and Dating.\nexpand 0\nVillage Life Jobs Help Lending Library Lost and Found Carpool Home Exchange Partners Dating        24        0    0     24\nkinds: Village Life: Dave is service ('Alice, Bob and Carol are persons, Dave a service.') and rendezvous server ('Alice and Bob are persons, Dave a rendezvous server.')\ngcsas 0\nVillage Life commute yes; return yes; recover same\nkinds: Village Life: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\n20 contracts, 0 with a fault\nrelations 0\n[\n {\n  \"contract\": \"Village Life\",\n  \"relation\": \"extends\",\n  \"base\": [\n   \"Jobs\",\n   \"Help\",\n   \"Lending\",\n   \"Library\",\n   \"Lost and Found\",\n   \"Carpool\",\n   \"Home Exchange\",\n   \"Partners\",\n   \"Dating\"\n  ],\n  \"line\": \"Village Life extends Jobs and Help and Lending and Library and Lost and Found and Carpool and Home Exchange and Partners and Dating\",\n  \"holds\": true,\n  \"failures\": [],\n  \"base_changed_by\": []\n }\n]\n\nexp/Village-Life.txt ['A post is a *loss*, stating a thing its maker lost, or a *find*, stating a thing its maker found. A loss and a find match when they are of the same thing.']\nsasx/Village-Life.txt ['Lost and Found:0 - | A post is a *loss*, stating a thing its maker lost, or a *find*, stating a thing its maker found. A loss and a find match when they are of the same thing.']\nflat/Village-Life.txt ['Lost and Found:0 - | A post is a *loss*, stating a thing its maker lost, or a *find*, stating a thing its maker found. A loss and a find match when they are of the same thing.']\n",
+      "scope": "Only Village Life and its 19 registered inputs, not the seven-aggregate replay."
+    },
+    {
+      "id": "published-table",
+      "source": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+      "command": "python3 bin/status.py",
+      "result": "32 reports, 50 findings, 8 unanswered\n45c2cea6d1c9368c644c107e22d8bca055a62ecb\n"
+    }
+  ],
+  "source_inspection": [
+    "Both candidate commits are ancestors of the reported integration, which is an ancestor of the first tested main pin.",
+    "Tennis Courts and Rehearsal Rooms use has_guardian in Make guardian and ward Retire; the separate organisation Retire uses has_officer.",
+    "Organisation’s catalogue and adopted module have a distinct organisation founding act requiring organisation and has_officer; both checked-in platforms match. The separate Found in Alice’s own capacity has no Gov.",
+    "Notes carries the same note set through issue, pay and escrow. Distinct identifiers and signatures were not tested at runtime.",
+    "Current Disputes term and both generated platforms record Ruling as an input and effect. Visibility to the two parties was not exercised."
+  ],
+  "project_claims": [
+    "Calculus reports all 91 contracts derive after both vote corrections. The audit ran focused Library and Shares controls."
+  ],
+  "findings": [
+    {
+      "issue": 58,
+      "status": "Role-selection correction verified in terms; open",
+      "next": "Run independent creation and retirement plays."
+    },
+    {
+      "issue": 95,
+      "status": "Original altered cases rejected; additional unrelated effect still accepted when one conclusion overlaps",
+      "next": "Validate generated-vote effects, then rerun baseline and all altered controls."
+    },
+    {
+      "issue": 96,
+      "status": "Organisation-only guard verified in catalogue, adopted module and both platforms; open",
+      "next": "Run person-only, officerless, and duly represented Gov controls."
+    },
+    {
+      "issue": 97,
+      "status": "Identifier-carrying set representation verified by inspection; open",
+      "next": "Run distinct-note transfer and escrow and check issuer signatures."
+    },
+    {
+      "issue": 116,
+      "status": "Integrated exact Village Life reproduces both expansions and passes relation check",
+      "next": "Publish dated verification after resolving overlap with open #122, then close #116 if coverage is unchanged."
+    },
+    {
+      "issue": 118,
+      "status": "Integrated Ruling field verified in term and both built sources; open",
+      "next": "Record public integration after #122 and exercise distinct rulings visible to both parties."
+    }
+  ],
+  "core": {
+    "initial_six_answered": true,
+    "next": "Continue recorded core verification queue after prioritised application follow-up."
+  },
+  "publication": {
+    "pr": 125,
+    "head_sha": "ca0caa817931b7b72d10f9a4bccc47e7a3f9c9ef",
+    "state": "open",
+    "review": "Awaiting independent review",
+    "existing_villagers_pr": 122
+  }
+}

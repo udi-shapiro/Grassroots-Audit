@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+Reviewed and merged [Code #37](https://github.com/udi-shapiro/Grassroots-Audit/pull/123) and the [Calculus follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/124). [PR #125](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) publishes the independent checks for review. It records the remaining vote-content gap and the corrected sources for #58, #96 and #97. The focused Village Life and Disputes results are in the stage record pending the overlap with #122. [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Stage 96 — Villagers Calculus answers published for review — 24 November 2026
 
 [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) preserves Calculus #11 and the focused public checks. The exact four-file diff is clean and the status table reads 32 reports, 50 findings and five unanswered. Merge awaits independent review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)

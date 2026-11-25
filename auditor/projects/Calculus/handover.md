@@ -1,3 +1,7 @@
+## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
+
+GLP `4e68cca` rejects both original Library alterations, the mixed-effect vote, and an added Shares vote effect or condition. A Shares vote without the prior-vote exclusion still derives. Verify that exclusion is required. The exact Village Life declaration and its relation check pass on `2b18975d`. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
+
 # Stage 96 — Calculus #11 on Villagers Findings 1–4 — 24 November 2026
 
 Public candidate `5e6186d` passes `py_compile`, the focused `unionand` case and the exact `Jobs and Lost and Found` name probe. Disputes records Ruling in the contract, schema and term. GLP main remains `17f0c0d3`. Integrate the parser and ruling changes, supply the paper's union rule, and rerun the full Villagers declarations. [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122) awaits review. [Stage record](../../stages/96-pr120-122-villagers-calculus-20261124.json)
