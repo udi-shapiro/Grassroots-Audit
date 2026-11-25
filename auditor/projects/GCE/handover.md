@@ -1,3 +1,7 @@
+## Stage 108 — GCE and GM candidates checked — 25 November 2026 UTC
+
+Disputes #135’s candidate adds a persistent organisation/issue key and both ruling records. Warnings #136 still removes the shared officer flag when an officer’s other incident remains active. Keep both findings open. [Answer PR #145](https://github.com/udi-shapiro/Grassroots-Audit/pull/145) is merged. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) awaits review. · [Stage record](../../stages/108-pr145-gce-gm-candidate-verification-20261125.json)
+
 ## Stage 107 — Website and Villagers answers merged — 25 November 2026 UTC
 
 [PR #143](https://github.com/udi-shapiro/Grassroots-Audit/pull/143) preserves the Warnings proposal for #136. The pinned public Warnings contract retains officer-target flags. Await GCE adoption that can be checked for incident identity, reply, withdrawal, annulment and expulsion counting. · [Stage record](../../stages/107-pr142-143-website-and-villagers-20261125.json)

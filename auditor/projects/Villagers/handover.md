@@ -1,3 +1,7 @@
+## Stage 108 — GCE and GM candidates checked — 25 November 2026 UTC
+
+Disputes #135’s candidate adds a persistent organisation/issue key and both ruling records. Warnings #136 still removes the shared officer flag when an officer’s other incident remains active. Keep both findings open. [Answer PR #145](https://github.com/udi-shapiro/Grassroots-Audit/pull/145) is merged. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) awaits review. Tennis Courts #137’s public term now records the partner, includes both consent roles, and distinguishes cancellation from partner withdrawal. Partner quota accounting is an environment input and awaits an integrated check. [Answer PR #145](https://github.com/udi-shapiro/Grassroots-Audit/pull/145) is merged. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) awaits review. The regenerated table is 35 reports, 60 findings and seven unanswered. · [Stage record](../../stages/108-pr145-gce-gm-candidate-verification-20261125.json)
+
 ## Stage 107 — Website and Villagers answers merged — 25 November 2026 UTC
 
 [PR #143](https://github.com/udi-shapiro/Grassroots-Audit/pull/143) preserves seven dated Villagers answers for #119, #130–134 and #136. The cited revisions await public-artifact verification. #134 still allows forwarding among friends, #136 is a proposal for GCE, and #135 and #137 await Calculus answers. · [Stage record](../../stages/107-pr142-143-website-and-villagers-20261125.json)

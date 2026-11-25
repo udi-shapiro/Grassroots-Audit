@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T18:31:05.514Z",
-  "active_run": {
-    "run_id": "pr-watch-145-2ab088a8",
-    "started_at": "2026-11-25T18:31:05.514Z",
-    "expires_at": "2026-11-25T19:01:05.514Z",
-    "expected_auditor_head": "b7fec324d24adf6e31399a590d6af7401d809e18",
-    "events": [
-      {
-        "delivery_id": "2ab088a8-e8fe-11f1-9c70-f7555133d75e",
-        "pull_request_number": 145,
-        "action": "opened",
-        "head_sha": "bdf7fbf0b541380a338f02950527f3e894aa99d4"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T18:36:55.212Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -49,6 +36,67 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 147,
+      "head_sha": "b98d78ff1e4c0809df2703013617427d0d4b69b7",
+      "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
+      "state": "open",
+      "updated_at": "2026-11-25T18:36:00Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Own verification publication for public Disputes, Warnings and Tennis Courts candidates. Await review."
+    },
+    {
+      "number": 145,
+      "head_sha": "3183b177d9d698478a5b6fb1167dd2bc96d79631",
+      "base_sha": "b87853071ed6114965870145eb13baf1434b18be",
+      "state": "closed",
+      "updated_at": "2026-11-25T18:34:35Z",
+      "merged_at": "2026-11-25T18:34:35Z",
+      "merge_commit_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWF45Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6062962917,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWF45Q",
+            "commit_id": "3183b177d9d698478a5b6fb1167dd2bc96d79631",
+            "state": "APPROVED",
+            "submitted_at": "2026-11-25T18:34:20Z"
+          }
+        ],
+        "latest_comments": [],
+        "latest_item_at": "2026-11-25T18:34:20Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWF45Q",
+      "delivery_id": "2ab088a8-e8fe-11f1-9c70-f7555133d75e",
+      "delivery_ids": [
+        "2ab088a8-e8fe-11f1-9c70-f7555133d75e",
+        "8448ce2a-e8fe-11f1-8da6-fc9fb8da5ff7",
+        "c87968ca-e8fe-11f1-800a-127418e6118a"
+      ],
+      "notes": "Preserved and merged the dated GCE and GM answers. #135–137 stay open. Exact-head review flagged the Warnings multi-incident defect and Tennis Courts environment-accounting gap."
+    },
     {
       "number": 144,
       "head_sha": "06f8801975ed4aa4b649e9d9e78cb6726ba34d97",

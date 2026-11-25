@@ -1,0 +1,147 @@
+{
+  "stage": 108,
+  "date": "2026-11-25T18:36:55.212Z",
+  "title": "GCE and GM answers merged; three public candidates checked",
+  "events": [
+    {
+      "delivery_id": "2ab088a8-e8fe-11f1-9c70-f7555133d75e",
+      "pull_request_number": 145,
+      "action": "opened",
+      "head_sha": "bdf7fbf0b541380a338f02950527f3e894aa99d4"
+    },
+    {
+      "delivery_id": "8448ce2a-e8fe-11f1-8da6-fc9fb8da5ff7",
+      "pull_request_number": 145,
+      "action": "synchronize",
+      "observed_head_sha": "e59e4f97ee9ffcd45f11f33c15ea82d95b59219d"
+    },
+    {
+      "delivery_id": "c87968ca-e8fe-11f1-800a-127418e6118a",
+      "pull_request_number": 145,
+      "action": "synchronize",
+      "observed_head_sha": "3183b177d9d698478a5b6fb1167dd2bc96d79631",
+      "own_status_commit": true
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "b7fec324d24adf6e31399a590d6af7401d809e18",
+    "lease_commit": "7209cb8fea9ed40aef77e27c2ce30be1fb2d9924",
+    "audit_main_before": "b87853071ed6114965870145eb13baf1434b18be",
+    "audit_main": "f96ca01995068aa664300c62e3659c87993a8cc9",
+    "pr_145_initial_head": "bdf7fbf0b541380a338f02950527f3e894aa99d4",
+    "pr_145_with_gm": "e59e4f97ee9ffcd45f11f33c15ea82d95b59219d",
+    "pr_145_reviewed_head": "3183b177d9d698478a5b6fb1167dd2bc96d79631",
+    "publication_base": "f96ca01995068aa664300c62e3659c87993a8cc9",
+    "publication_head": "b98d78ff1e4c0809df2703013617427d0d4b69b7",
+    "glp_main": "9d0952c77bca2455f2d4c63b0eb1f00707b368d5",
+    "glp_papers": "e9a702c74311afb971f623493220650b6e90919f",
+    "gce_candidate": "ab9002a0d3d4efd5bc68c18689344f480c4964db",
+    "gm_candidate": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c"
+  },
+  "discussion_versions": {
+    "145": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWF45Q"
+      ],
+      "review_versions": [
+        {
+          "id": 6062962917,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWF45Q",
+          "commit_id": "3183b177d9d698478a5b6fb1167dd2bc96d79631",
+          "state": "APPROVED",
+          "submitted_at": "2026-11-25T18:34:20Z"
+        }
+      ],
+      "latest_comments": [],
+      "latest_item_at": "2026-11-25T18:34:20Z"
+    },
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "latest_item_at": null
+    }
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/145",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/145#pullrequestreview-6062962917",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "gce_candidate": "https://github.com/EShapiro2/GLP/commit/ab9002a0d3d4efd5bc68c18689344f480c4964db",
+    "gm_candidate": "https://github.com/EShapiro2/GLP/commit/b17ca87adbbd83fd940dd5fee29990cc184f6d4c"
+  },
+  "issues": [
+    {
+      "number": 135,
+      "state": "open"
+    },
+    {
+      "number": 136,
+      "state": "open"
+    },
+    {
+      "number": 137,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    {
+      "path": "programs/gce/disputes/Disputes.txt",
+      "blob": "b54a8f64daf8b0b75f8861f2b7db266762fda149",
+      "provenance": "GCE public branch; its main parent is the pinned GLP main",
+      "observations": [
+        "After x raises d with y in z to w, which requires z does not have a case of d: z has a case of d, z has d between x and y raised to w and w has d between x and y to arbitrate in z.",
+        "After w decides d between x and y in z with the ruling r: no longer z has d between x and y raised to w, no longer w has d between x and y to arbitrate in z, z has w's decision on d between x and y with the ruling r, x has the ruling r on d in z and y has the ruling r on d in z."
+      ]
+    },
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "blob": "51b64ad2abeb684afb01740db4023b7cf2ee0c5c",
+      "observations": [
+        "After x warns y in z of k, which requires z does not hold x's warning to y of k: z holds x's warning to y and z holds x's warning to y of k.",
+        "After x withdraws x's warning to y in z of k: no longer z holds x's warning to y and no longer z holds x's warning to y of k.",
+        "After g annuls x's warning to y in z of k: no longer z holds x's warning to y and no longer z holds x's warning to y of k.",
+        "4. ■ Expel: Organisation:3 Expel, only if Orga holds the warnings of at least 2 persons to Bob. Officer expel: Organisation:3 Officer expel, only if Orga holds the warnings of at least 2 persons to Bob."
+      ]
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+      "blob": "19577472727ed78b529e73f1012e4bd1833b66e1",
+      "observations": "Executed string assertions against the published compiled term: Book adds partnered and has both consent roles; Cancel removes booking, occupancy and partnership; Withdraw removes partnership only. Book requires the slot to be unoccupied. under_bound is an environment predicate; partner quota behavior remains unverified."
+    }
+  ],
+  "project_claims": [
+    "GCE reports catalogue, relation and translation checks. GM reports relation, adoption, certification and paper work. The audit did not rerun these claims or read the private paper revision."
+  ],
+  "executed_checks": [
+    {
+      "method": "Assertion-checked set projection of pinned Disputes and Warnings source effects",
+      "result": [
+        "Disputes source projection: initial Raise admitted; a second arbiter and reversed parties use the same organisation/issue key and are refused. The marker is retained by Decide, so the same key remains refused after decision. Distinct issue and distinct organisation remain admissible in this projection. This tests only the marker, not commit atomicity.",
+        "Under set state, issue two warnings for Alice to Bob in distinct incidents and one for Carol to Bob. Withdraw or annul one of Alice’s incidents. The selected incident and Alice’s aggregate warning flag disappear, while Alice’s other active incident survives. The recorded officer count falls from two to one."
+      ],
+      "limit": "No GLP runtime, scheduling, compilation or deployed app checks."
+    },
+    {
+      "method": "Assertions on public Tennis Courts term",
+      "result": "Executed string assertions against the published compiled term: Book adds partnered and has both consent roles; Cancel removes booking, occupancy and partnership; Withdraw removes partnership only. Book requires the slot to be unoccupied. under_bound is an environment predicate; partner quota behavior remains unverified."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "result": "35 reports, 60 findings, seven unanswered. Generated output matched the PR table byte for byte and merged main preserves it."
+    }
+  ],
+  "next": [
+    "#135: Verify concurrent same-key and distinct-key Raise, one Decide and both parties’ ruling visibility on adopted output.",
+    "#136: Remove the discrepancy between active incidents and the aggregate officer count. Check both removal paths, single and multiple incidents, and the two-officer threshold.",
+    "#137: Verify partner quota accounting across Book, Withdraw and Cancel. Check any intended replacement before original slot release against the free-slot guard.",
+    "Review and merge the verification publication after review. Keep all three findings open."
+  ]
+}
