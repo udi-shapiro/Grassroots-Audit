@@ -1,5 +1,7 @@
 # Villagers: does the contract cover village life?
 
+> Subsequent review: [25 November revised manuscript, social design and selected pragmas](Villagers.pdf.md). The report below preserves the 24 November manuscript and its stable finding identifiers; its earlier catalogue is historical.
+
 Project: Villagers  
 Auditor: ChatGPT / Codex, Grassroots Review  
 Date: 2026-11-24  

@@ -1,0 +1,123 @@
+{
+  "glp_commit": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+  "verified_source_blobs": 22,
+  "coverage": "source parser execution; declarative schema projection; no native GLP execution",
+  "website_parser": [
+    {
+      "contract": "Booking",
+      "source_rules": 31,
+      "parsed_rules": 24,
+      "omitted_rules": [
+        "Friendship:2+Guardians:3 ■ Person unfriend: ~friend(Alice,Bob), ~friend(Bob,Alice) <- person(Alice), person(Bob), friend(Alice,Bob), friend(Bob,Alice) guarded by Alice.",
+        "Guardians:1+Organisation:1 ■ Found: identity(Orga), organisation(Orga), has_officer(Orga,Alice), creator(Alice,Orga), officer(Alice,Orga), knows(Alice,Orga), knows(Orga,Alice), friend(Alice,Orga), friend(Orga,Alice), first_officer(Orga,Alice), role(Alice,Orga,Role), has_role(Orga,Alice,Role), participant(Alice,Orga), has_participant(Orga,Alice), founder(Alice,Orga) <- person(Alice), ~identity(Orga) guarded by Alice, Orga must Orga.",
+        "Guardians:2+Organisation:4 ■ Appoint: officer(Bob,Orga), has_officer(Orga,Bob), knows(Bob,Orga), knows(Orga,Bob), friend(Bob,Orga), friend(Orga,Bob), role(Bob,Orga,Role), has_role(Orga,Bob,Role) <- organisation(Orga), ~retired(Orga), person(Bob), has_officer(Orga,Alice), friend(Bob,Alice), ~officer(Bob,Orga), ~has_officer(Orga,Bob), participant(Bob,Orga) guarded by deciders(Orga), Bob.",
+        "Guardians:2+Organisation:4 ■ Resign: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:2+Organisation:4 ■ End officer: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by deciders(Orga,-Bob).",
+        "Guardians:2+Organisation:4 ■ Officer unfriend: ~friend(Bob,Orga), ~friend(Orga,Bob), ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- friend(Bob,Orga), friend(Orga,Bob), officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:5+Organisation:4 ■ Retire: retired(Orga), ~officer(_,Orga), ~has_officer(Orga,_), ~friend(Orga,_), ~friend(_,Orga), ~role(_,Orga,_), ~has_role(Orga,_,_) <- ~retired(Orga) guarded by deciders(Orga)."
+      ]
+    },
+    {
+      "contract": "Tennis-Courts",
+      "source_rules": 58,
+      "parsed_rules": 48,
+      "omitted_rules": [
+        "Friendship:2+Guardians:3 ■ Person unfriend: ~friend(Alice,Bob), ~friend(Bob,Alice) <- person(Alice), person(Bob), friend(Alice,Bob), friend(Bob,Alice) guarded by Alice.",
+        "Guardians:1+Organisation:1 ■ Found: identity(Orga), organisation(Orga), has_officer(Orga,Alice), creator(Alice,Orga), officer(Alice,Orga), knows(Alice,Orga), knows(Orga,Alice), friend(Alice,Orga), friend(Orga,Alice), first_officer(Orga,Alice), role(Alice,Orga,Role), has_role(Orga,Alice,Role), participant(Alice,Orga), has_participant(Orga,Alice), founder(Alice,Orga) <- person(Alice), ~identity(Orga) guarded by Alice, Orga must Orga.",
+        "Guardians:2+Organisation:4 ■ Appoint: officer(Bob,Orga), has_officer(Orga,Bob), knows(Bob,Orga), knows(Orga,Bob), friend(Bob,Orga), friend(Orga,Bob), role(Bob,Orga,Role), has_role(Orga,Bob,Role) <- organisation(Orga), ~retired(Orga), person(Bob), has_officer(Orga,Alice), friend(Bob,Alice), ~officer(Bob,Orga), ~has_officer(Orga,Bob), participant(Bob,Orga) guarded by deciders(Orga), Bob.",
+        "Guardians:2+Organisation:4 ■ Resign: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:2+Organisation:4 ■ End officer: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by deciders(Orga,-Bob).",
+        "Guardians:2+Organisation:4 ■ Officer unfriend: ~friend(Bob,Orga), ~friend(Orga,Bob), ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- friend(Bob,Orga), friend(Orga,Bob), officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:5+Organisation:4 ■ Retire: retired(Orga), ~officer(_,Orga), ~has_officer(Orga,_), ~friend(Orga,_), ~friend(_,Orga), ~role(_,Orga,_), ~has_role(Orga,_,_) <- ~retired(Orga) guarded by deciders(Orga).",
+        "Booking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.",
+        "Matching:2+Anonymous Matching:1 ■ Meet: knows(Alice,Carol), knows(Carol,Alice) <- made(Alice,Post), made(Carol,Other), post(Alice,Other), post(Carol,Post), match(Alice,Post,Other), address(Alice,Carol), address(Carol,Alice) guarded by Alice, Carol.",
+        "Anonymous Rendezvous:1+Anonymous Matching:1 ■ Present: presented_keys(Dave,Key,Other,Alice) <- one_time_key(Alice,Key), knows_key(Alice,Other), knows(Alice,Dave), rendezvous_server(Dave), ~presented_keys(Dave,Key,Other,Alice), made(Alice,Post), post(Alice,Reply), post_key(Alice,Post,Key), post_key(Alice,Reply,Other), pair_server(Alice,Post,Reply,Dave) guarded by Alice."
+      ]
+    },
+    {
+      "contract": "Disputes",
+      "source_rules": 31,
+      "parsed_rules": 24,
+      "omitted_rules": [
+        "Friendship:2+Guardians:3 ■ Person unfriend: ~friend(Alice,Bob), ~friend(Bob,Alice) <- person(Alice), person(Bob), friend(Alice,Bob), friend(Bob,Alice) guarded by Alice.",
+        "Guardians:1+Organisation:1 ■ Found: identity(Orga), organisation(Orga), has_officer(Orga,Alice), creator(Alice,Orga), officer(Alice,Orga), knows(Alice,Orga), knows(Orga,Alice), friend(Alice,Orga), friend(Orga,Alice), first_officer(Orga,Alice), role(Alice,Orga,Role), has_role(Orga,Alice,Role), participant(Alice,Orga), has_participant(Orga,Alice), founder(Alice,Orga) <- person(Alice), ~identity(Orga) guarded by Alice, Orga must Orga.",
+        "Guardians:2+Organisation:4 ■ Appoint: officer(Bob,Orga), has_officer(Orga,Bob), knows(Bob,Orga), knows(Orga,Bob), friend(Bob,Orga), friend(Orga,Bob), role(Bob,Orga,Role), has_role(Orga,Bob,Role) <- organisation(Orga), ~retired(Orga), person(Bob), has_officer(Orga,Alice), friend(Bob,Alice), ~officer(Bob,Orga), ~has_officer(Orga,Bob), participant(Bob,Orga) guarded by deciders(Orga), Bob.",
+        "Guardians:2+Organisation:4 ■ Resign: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:2+Organisation:4 ■ End officer: ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- officer(Bob,Orga), has_officer(Orga,Bob) guarded by deciders(Orga,-Bob).",
+        "Guardians:2+Organisation:4 ■ Officer unfriend: ~friend(Bob,Orga), ~friend(Orga,Bob), ~officer(Bob,Orga), ~has_officer(Orga,Bob), ~role(Bob,Orga,_), ~has_role(Orga,Bob,_) <- friend(Bob,Orga), friend(Orga,Bob), officer(Bob,Orga), has_officer(Orga,Bob) guarded by Bob.",
+        "Guardians:5+Organisation:4 ■ Retire: retired(Orga), ~officer(_,Orga), ~has_officer(Orga,_), ~friend(Orga,_), ~friend(_,Orga), ~role(_,Orga,_), ~has_role(Orga,_,_) <- ~retired(Orga) guarded by deciders(Orga)."
+      ]
+    }
+  ],
+  "inheritance_spelling": [
+    {
+      "line": "Care inherits from Booking.",
+      "refused": "'inherits from Booking' opens with no relation"
+    },
+    {
+      "line": "Care extends Booking.",
+      "dependencies": [
+        "Booking"
+      ]
+    },
+    {
+      "line": "Village Commons inherits from Meeting Rooms, Appointments, Tennis Courts, Rehearsal Rooms, Care and Tools.",
+      "refused": "'inherits from Meeting Rooms, Appointments, Tennis Courts, Rehearsal Rooms, Care and Tools' opens with no relation"
+    }
+  ],
+  "dispute_projection": {
+    "rules": [
+      "Disputes:1 ■ Raise: raised(Orga,Issue,Alice,Bob,Carol), case(Carol,Orga,Issue,Alice,Bob) <- has_participant(Orga,Alice), has_participant(Orga,Bob), has_role(Orga,Carol,Arbiter), ~raised(Orga,Issue,Alice,Bob,Carol) guarded by Alice.",
+      "Disputes:2 ■ Decide: ~raised(Orga,Issue,Alice,Bob,Carol), ~case(Carol,Orga,Issue,Alice,Bob), decision(Orga,Carol,Issue,Alice,Bob,Ruling) <- raised(Orga,Issue,Alice,Bob,Carol), case(Carol,Orga,Issue,Alice,Bob) guarded by Carol."
+    ],
+    "trace": [
+      {
+        "action": "Raise",
+        "arbiter": "carol",
+        "willing_actor": "alice",
+        "effects": [
+          "raised(village,fence,alice,bob,carol)",
+          "case(carol,village,fence,alice,bob)"
+        ]
+      },
+      {
+        "action": "Raise",
+        "arbiter": "dave",
+        "willing_actor": "alice",
+        "effects": [
+          "raised(village,fence,alice,bob,dave)",
+          "case(dave,village,fence,alice,bob)"
+        ]
+      },
+      {
+        "action": "Decide",
+        "arbiter": "carol",
+        "willing_actor": "carol",
+        "effects": [
+          "~raised(village,fence,alice,bob,carol)",
+          "~case(carol,village,fence,alice,bob)",
+          "decision(village,carol,fence,alice,bob,alice_repairs)"
+        ]
+      },
+      {
+        "action": "Decide",
+        "arbiter": "dave",
+        "willing_actor": "dave",
+        "effects": [
+          "~raised(village,fence,alice,bob,dave)",
+          "~case(dave,village,fence,alice,bob)",
+          "decision(village,dave,fence,alice,bob,bob_repairs)"
+        ]
+      }
+    ],
+    "final_decisions": [
+      "decision(village,carol,fence,alice,bob,alice_repairs)",
+      "decision(village,dave,fence,alice,bob,bob_repairs)"
+    ]
+  },
+  "tennis_reservation": {
+    "book": "Booking:1+Tennis Courts:1 ■ Book: booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) <- participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Res,Slot), ~booked(Orga,Res,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga) guarded by Alice, Carol.",
+    "cancel": "Booking:2 ■ Cancel: ~booking(Alice,Orga,Res,Slot), ~booked(Orga,Res,Slot,Alice) <- booking(Alice,Orga,Res,Slot), booked(Orga,Res,Slot,Alice) guarded by Alice.",
+    "observation": "Carol participates in Book guards/conditions but not its reservation effects; external bound implementation not executed"
+  }
+}

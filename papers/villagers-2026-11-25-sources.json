@@ -1,0 +1,93 @@
+{
+  "glp_commit": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+  "files": [
+    {
+      "path": "servers/peoplesweb/tools/build.py",
+      "git_blob_sha": "9965fdca5ef10d7595653be43a03374914a478cf"
+    },
+    {
+      "path": "calculus/tools/expand.py",
+      "git_blob_sha": "f0612f535c6c842c1cb49aebab9a0196e59091b7"
+    },
+    {
+      "path": "calculus/tools/names.py",
+      "git_blob_sha": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+    },
+    {
+      "path": "calculus/tools/revtex.py",
+      "git_blob_sha": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+    },
+    {
+      "path": "calculus/contracts/Booking/logic-pragmas.txt",
+      "git_blob_sha": "8b7d3a279b1ca9adb487a55837b184ba2308ecd1"
+    },
+    {
+      "path": "calculus/contracts/Booking/full-pragmas.txt",
+      "git_blob_sha": "eaa845aeab0e2b8a9cd9153fabccb3d58899da82"
+    },
+    {
+      "path": "calculus/contracts/Booking/interface.txt",
+      "git_blob_sha": "c5d90fb57f7f5b84cd63bb071059ba6bdf95f12b"
+    },
+    {
+      "path": "calculus/contracts/Booking/full-schemas.txt",
+      "git_blob_sha": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+    },
+    {
+      "path": "calculus/contracts/Disputes/contract.txt",
+      "git_blob_sha": "4394fad9c095cfc68d3ae5c2c9c3c87bd1b9751a"
+    },
+    {
+      "path": "calculus/contracts/Disputes/logic-pragmas.txt",
+      "git_blob_sha": "e4dd3e38f9a9cec699882cc1dc7227125302e82c"
+    },
+    {
+      "path": "calculus/contracts/Disputes/full-schemas.txt",
+      "git_blob_sha": "4c981b28d73f4acffff5f2c535b80c29e64fc38b"
+    },
+    {
+      "path": "calculus/contracts/Warnings/logic-pragmas.txt",
+      "git_blob_sha": "211519fe3b6d005e0d00235055e7dadbfa22b93a"
+    },
+    {
+      "path": "calculus/contracts/Constitution/logic-pragmas.txt",
+      "git_blob_sha": "f6599ff2d73b4e1f2bf57e92f646c86b2c3431e0"
+    },
+    {
+      "path": "calculus/contracts/Community-Bank/logic-pragmas.txt",
+      "git_blob_sha": "5ab60dcbf8b79f7670a03bd7eab091594927d847"
+    },
+    {
+      "path": "calculus/contracts/Mutual-Credit/logic-pragmas.txt",
+      "git_blob_sha": "8f3dfa7f3b5581144d6262a2f4daf46c9ce5d6a7"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/full-schemas.txt",
+      "git_blob_sha": "b3b6d2d31f3b56823fe3e9a5978e82f18c6a9586"
+    },
+    {
+      "path": "calculus/contracts/Organisation/logic-pragmas.txt",
+      "git_blob_sha": "69db7b4399876e8d6b894313cd846b628e046c83"
+    },
+    {
+      "path": "calculus/contracts/Library/logic-pragmas.txt",
+      "git_blob_sha": "2aed2bd6f9b1524091890748b6f2f0c23825f046"
+    },
+    {
+      "path": "servers/peoplesweb/web/index.html",
+      "git_blob_sha": "34f53971576737b3b9f3394273a0a66570c2378d"
+    },
+    {
+      "path": "servers/peoplesweb/web/nav.js",
+      "git_blob_sha": "a7cec24d888915ce78c6d1b1fc77e661a2e6654b"
+    },
+    {
+      "path": "calculus/NAMES.txt",
+      "git_blob_sha": "8ad00b5e07e9c9d60addee402503cc37e36571d1"
+    },
+    {
+      "path": "calculus/tools/nameslines.py",
+      "git_blob_sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+    }
+  ]
+}
