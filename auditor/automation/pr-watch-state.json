@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T18:43:11.382Z",
-  "active_run": {
-    "run_id": "b8a8a070-e901-11f1-8841-4faa040d3c28",
-    "started_at": "2026-11-25T18:57:09.832Z",
-    "expires_at": "2026-11-25T19:27:09.832Z",
-    "expected_auditor_head": "4dbd4e01f49b01c892192f6894eaf34a948615f8",
-    "events": [
-      {
-        "delivery_id": "b8a8a070-e901-11f1-8841-4faa040d3c28",
-        "pull_request_number": 148,
-        "action": "opened",
-        "head_sha": "24a0dda3bbbf4ebbfb8e02b4dc2dcdd5cf5b106d"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T19:00:48.647Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,6 +37,67 @@
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
     {
+      "number": 148,
+      "head_sha": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+      "base_sha": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
+      "state": "closed",
+      "updated_at": "2026-11-25T18:58:45Z",
+      "merged_at": "2026-11-25T18:58:45Z",
+      "merge_commit_sha": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWaF0w"
+        ],
+        "review_versions": [
+          {
+            "id": 6063293907,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWaF0w",
+            "state": "APPROVED",
+            "commit_id": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+            "submitted_at": "2026-11-25T18:58:21Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T18:58:21Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWaF0w",
+      "delivery_ids": [
+        "b8a8a070-e901-11f1-8841-4faa040d3c28",
+        "2bcec4b2-e902-11f1-9c6d-3b6e377e21a9"
+      ],
+      "notes": "Six dated Villagers answers merged. All six findings remain open. Revised Villagers sources and PDF were absent from the public GLP pins."
+    },
+    {
+      "number": 147,
+      "head_sha": "acd7da9ebfea02d0c8f0a66af38fa131f503eb5c",
+      "base_sha": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+      "state": "open",
+      "updated_at": "2026-11-25T19:00:02Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Reconciled with merged Villagers answers and recorded public main Warnings adoption check. Await independent review of this head."
+    },
+    {
       "number": 146,
       "head_sha": "0ab7be954da3a9de9a0f73d20353b982ef7d79ee",
       "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
@@ -83,29 +131,6 @@
         "4dbe0bf8-e8ff-11f1-8c2a-2283734cea83"
       ],
       "notes": "Two dated follow-ups merged. The revised Warnings guard passes a source projection. Tennis Courts quota implementation remains pending."
-    },
-    {
-      "number": 147,
-      "head_sha": "0a9bf3aa37f658069e4c38b1cc3fe1b0bc133ed5",
-      "base_sha": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
-      "state": "open",
-      "updated_at": "2026-11-25T18:42:14Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "review_versions": [],
-        "latest_comments": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": "none",
-      "review_cursor": "none",
-      "delivery_ids": [],
-      "notes": "Own main-based verification PR updated to retain earlier evidence and record the public Warnings follow-up and Tennis Courts quota limits. Await review."
     },
     {
       "number": 145,
@@ -1963,6 +1988,70 @@
     "observed_at": "2026-11-25T02:42:14.994Z"
   },
   "processed_events": [
+    {
+      "delivery_id": "b8a8a070-e901-11f1-8841-4faa040d3c28",
+      "pull_request_number": 148,
+      "action": "opened",
+      "head_sha": "24a0dda3bbbf4ebbfb8e02b4dc2dcdd5cf5b106d",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "outcome": "Reviewed submitted answers; clarified the Warnings attribution in a follow-up commit and merged the approved exact head.",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWaF0w"
+        ],
+        "review_versions": [
+          {
+            "id": 6063293907,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWaF0w",
+            "state": "APPROVED",
+            "commit_id": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+            "submitted_at": "2026-11-25T18:58:21Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T18:58:21Z"
+      },
+      "processed_at": "2026-11-25T19:00:48.647Z"
+    },
+    {
+      "delivery_id": "2bcec4b2-e902-11f1-9c6d-3b6e377e21a9",
+      "pull_request_number": 148,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "head_sha": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+      "outcome": "Own Warnings attribution edit, folded into the exact-head review and merge.",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWaF0w"
+        ],
+        "review_versions": [
+          {
+            "id": 6063293907,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWaF0w",
+            "state": "APPROVED",
+            "commit_id": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+            "submitted_at": "2026-11-25T18:58:21Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T18:58:21Z"
+      },
+      "processed_at": "2026-11-25T19:00:48.647Z"
+    },
     {
       "delivery_id": "fdb43cac-e810-11f1-836f-83e89161d788",
       "event_type": "pull_request",
@@ -11719,9 +11808,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
-    "glp_main": "629a79983fa597189988808445a0a19b0e3fb330",
-    "glp_papers": "0cad18e52c44ab4c85266a02f70edf1363beb86a",
-    "observed_at": "2026-11-25T10:59:11.779Z"
+    "audit_main": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_papers": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
+    "observed_at": "2026-11-25T19:00:48.647Z"
   }
 }

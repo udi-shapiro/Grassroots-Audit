@@ -1,3 +1,7 @@
+## Stage 110 — Revised Villagers answers and Warnings adoption check — 25 November 2026 UTC
+
+[PR #148](https://github.com/udi-shapiro/Grassroots-Audit/pull/148) preserves six revised Villagers answers for #130–134 and #136. All six findings remain open. The exact-head review reproduced the table with 35 reports, 60 findings and seven unanswered. The revised contracts and paper were absent from the pinned public GLP trees. Recheck the consent, custody, settlement and emergency journeys when versioned public artifacts are available. · [Stage record](../../stages/110-pr148-villagers-revised-answers-20261125.json)
+
 ## Stage 109 — Warnings follow-up and Agora review — 25 November 2026 UTC
 
 [PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146) preserves GCE’s one-active-warning revision. The bounded source check blocks the earlier undercount witness. Keep #136 open for adopted schemas and runtime. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) now includes the follow-up. [PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146) preserves GM’s confirmation that Booking:0 delegates the bound to the environment. Partner quota implementation and integrated verification remain pending under #137. · [Stage record](../../stages/109-pr146-follow-up-and-pr141-review-20261125.json)

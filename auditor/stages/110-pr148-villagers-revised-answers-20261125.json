@@ -1,0 +1,154 @@
+{
+  "stage": 110,
+  "date": "2026-11-25T19:00:48.647Z",
+  "title": "Revised Villagers answers and Warnings adoption check",
+  "events": [
+    {
+      "delivery_id": "b8a8a070-e901-11f1-8841-4faa040d3c28",
+      "pull_request_number": 148,
+      "action": "opened",
+      "head_sha": "24a0dda3bbbf4ebbfb8e02b4dc2dcdd5cf5b106d",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "outcome": "Reviewed submitted answers; clarified the Warnings attribution in a follow-up commit and merged the approved exact head."
+    },
+    {
+      "delivery_id": "2bcec4b2-e902-11f1-9c6d-3b6e377e21a9",
+      "pull_request_number": 148,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "head_sha": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+      "outcome": "Own Warnings attribution edit, folded into the exact-head review and merge."
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "4dbd4e01f49b01c892192f6894eaf34a948615f8",
+    "lease_commit": "96f7b0d07031de460a72e82b1191746427857c79",
+    "audit_main_before": "a8533c7620e59fe4b509d8a6ba1dccd2ea6e20fc",
+    "audit_main": "d2578890720269035b0ba16ef55e3c6bd50ef81f",
+    "pr_148_submitted_head": "24a0dda3bbbf4ebbfb8e02b4dc2dcdd5cf5b106d",
+    "pr_148_reviewed_head": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+    "pr_147_previous_head": "0a9bf3aa37f658069e4c38b1cc3fe1b0bc133ed5",
+    "pr_147_head": "acd7da9ebfea02d0c8f0a66af38fa131f503eb5c",
+    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_papers": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
+    "warnings_candidate": "bbf4f7ec3f3cdcfa3aa2e5b438b9380bcc86bb82"
+  },
+  "discussion_versions": {
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "148": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWaF0w"
+      ],
+      "review_versions": [
+        {
+          "id": 6063293907,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWaF0w",
+          "state": "APPROVED",
+          "commit_id": "cc4fd0c9c6439e531dc0bd9cc6a149bed197d6f8",
+          "submitted_at": "2026-11-25T18:58:21Z"
+        }
+      ],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-25T18:58:21Z"
+    }
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/148",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/148#pullrequestreview-6063293907",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "clarification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/143#issuecomment-7171130497"
+  },
+  "issues": [
+    {
+      "number": 130,
+      "state": "open"
+    },
+    {
+      "number": 131,
+      "state": "open"
+    },
+    {
+      "number": 132,
+      "state": "open"
+    },
+    {
+      "number": 133,
+      "state": "open"
+    },
+    {
+      "number": 134,
+      "state": "open"
+    },
+    {
+      "number": 136,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    {
+      "ref": "154d5006ebe577715ead3cb6803f767471bc3052",
+      "result": "A complete public GLP tree has no Care, Tools, Works, Broadcast or Emergencies contract directories. Villagers deploy files and the registry entry point to a separate source."
+    },
+    {
+      "ref": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
+      "result": "The complete public papers tree has no Villagers PDF."
+    },
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "glp_main_blob": "531c2bc55576976bb8cdf97025d97c4614a779a6",
+      "candidate_blob": "65900d028b35697742e89aeddf66ca03232b559e",
+      "result": "Public main and the candidate differ."
+    },
+    {
+      "path": "calculus/contracts/Warnings/contract.txt",
+      "blob": "5d06d58ae62f71baa522207674f11647bcc4cc94",
+      "result": "The checked-in artifact lacks warning_of and the Withdraw and Annul acts."
+    },
+    {
+      "path": "calculus/contracts/Warnings/full-schemas.txt",
+      "blob": "b588da18d6ad7c933e16d78da84366acc3d748b3",
+      "result": "The checked-in artifact lacks warning_of and the Withdraw and Annul acts."
+    },
+    {
+      "path": "calculus/contracts/Warnings/term.glp.txt",
+      "blob": "f7576ad3ee0d94f11a8486a9225c2204a31bb676",
+      "result": "The checked-in artifact lacks warning_of and the Withdraw and Annul acts."
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py, then cmp with the tracked sections/status-table.tex",
+      "result": "Reproduced the published table byte for byte on the reviewed answer tree and reconciled verification tree. 35 reports, 60 findings, seven unanswered.",
+      "status_table_sha256": "3e7756a839594bf09ec5b539acabf64e4da42a7b9fc203a7fc11deddd66e343b"
+    }
+  ],
+  "project_claims": [
+    "Villagers reports approval and integration at 20d8b67, citing d418e03 for Care and f48983d for Tools. Those references are not independent evidence.",
+    "The revised Warnings answer is a Villagers proposal supplied to GCE. It does not supersede GCE’s implementation responses."
+  ],
+  "coverage": "No independent Villagers build, runtime or revised paper execution or verification. No independent Warnings runtime check in this stage.",
+  "next": [
+    "Verify #130–#134 against publicly versioned Villagers contract text, pragmas, generated expansions and the approved paper when available. Exercise consent and missed-care escalation, the custody lifecycle, cancellation settlement and continuation of works, emergency delivery and correction.",
+    "Keep #136 with GCE for implementation. Check adopted Warnings schemas, term and cascade after integration, including concurrent Warn and both removal paths.",
+    "Merge #147 after independent review of the current head. Continue the recorded core verification queue; the answer gate is satisfied."
+  ]
+}

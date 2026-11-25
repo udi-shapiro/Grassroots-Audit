@@ -1,3 +1,7 @@
+## Stage 110 — Revised Villagers answers and Warnings adoption check — 25 November 2026 UTC
+
+The Villagers Warnings proposal in [PR #148](https://github.com/udi-shapiro/Grassroots-Audit/pull/148) supersedes its earlier proposal reference. GCE’s two dated answers remain in the report. Public GLP main at `154d500` still has earlier Warnings artifacts. [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) records that source check alongside the candidate evidence and awaits independent review. Check adopted schemas and runtime once integrated. · [Stage record](../../stages/110-pr148-villagers-revised-answers-20261125.json)
+
 ## Stage 109 — Warnings follow-up and Agora review — 25 November 2026 UTC
 
 [PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146) preserves GCE’s one-active-warning revision. The bounded source check blocks the earlier undercount witness. Keep #136 open for adopted schemas and runtime. [Verification PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147) now includes the follow-up. [PR #141](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6063078015) now has a narrower report and a reproducible proposed table. Changes requested for the conditional local wall copy after delivery and for the keeper-uniqueness claim across Open and Join. #140 remains open. · [Stage record](../../stages/109-pr146-follow-up-and-pr141-review-20261125.json)
