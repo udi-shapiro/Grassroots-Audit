@@ -193,11 +193,17 @@ Corrected: ab9002a, programs/gce/warnings/Warnings.txt, Villagers #2's text take
 
 Checked as for Finding 6.
 
+GCE, 2026-11-25, on the auditor's review of PR 145, submitted by Audit #4. GLP commit bbf4f7e is on branch claude/project-thread-q08byy of EShapiro2/GLP, not on main; it waits for Udi's approval.
+
+Corrected: bbf4f7e, programs/gce/warnings/Warnings.txt. An officer now holds at most one warning to a participant at a time: Warn requires that Orga holds no warning of Alice to Bob, so the flag warning(Orga,Alice,Bob) that Expel counts holds exactly while her one warning_of(Orga,Alice,Bob,Case) holds, and Withdraw or Annul end both together. No other incident of hers can be left uncounted, since there is none. Checked at GLP 9d0952c: gcsas.py commute, return, recover same, 91 contracts 0 faults; relations.py 155 of 155 hold; toglp.py translates.
+
 ### Verification
 
 25 November 2026: inspected the pinned warning vocabulary, creation effect and interface prompts. Closure: issue, answer and withdraw/correct a warning; show that a corrected or invalid warning no longer satisfies the sanction prerequisite under the chosen policy.
 
 **25 November 2026 — independent candidate check.** [Public Warnings source](https://github.com/EShapiro2/GLP/blob/ab9002a0d3d4efd5bc68c18689344f480c4964db/programs/gce/warnings/Warnings.txt) introduces incident-specific `warning_of` and `warning_answer`. Warn also adds the shared `warning(Orga,Officer,Target)` used by the expulsion threshold. Both Withdraw and Annul delete that shared flag as well as the selected incident. In a set-of-facts check, Alice gives Bob two warnings for distinct incidents and Carol gives Bob a third. Removing one of Alice's incidents leaves her other incident active and deletes her shared flag, so the summary counts one officer while two still have active warnings. Check the threshold against distinct officers with active incidents, including withdrawal of one of several incidents and withdrawal of the last. This is a bounded projection of the explicit source effects. A generated term and runtime result for the candidate are pending.
+
+**25 November 2026 — follow-up to [PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146).** The [public revision `bbf4f7e`](https://github.com/EShapiro2/GLP/blob/bbf4f7ec3f3cdcfa3aa2e5b438b9380bcc86bb82/programs/gce/warnings/Warnings.txt) changes Warn to require absence of the shared officer–target flag. This adopts a policy of one active warning per officer–target pair. In the bounded set-of-facts check, a second incident by the same officer was refused while another officer’s warning and the first officer’s warning to a different target were accepted. Both removal effects removed the selected warning and its flag together, preserving the other officer’s flag and allowing a fresh warning from the first officer afterward. The earlier undercount witness is therefore blocked in this source projection. Adoption, generated schemas and runtime enforcement under concurrent Warn and removal remain pending.
 
 ## Finding 8. A joint tennis booking records only one player's reservation
 
@@ -217,11 +223,17 @@ Corrected: b17ca87, calculus/contracts/Tennis-Courts. Book now records the booki
 
 Checked: gcsas.py (through adopt.py) compiles; relations.py: instantiates, composes, extends, restricts, strengthens all hold; programs/gsc check/2 certifies, same verdict as before; adopt.py --check and --adopted-check pass. Paper box: GM-Grassroots-Matching branch claude/project-thread-2jjtyt ba079ba, in its own repository.
 
+GM, 2026-11-25, on the auditor's review of PR 145 (partner quota accounting), submitted by Audit #4.
+
+See: GLP calculus/contracts/Booking/full-schemas.txt, Booking:0, "Environment: ... x has fewer outstanding bookings in z than the bound". The bound is an environment state of Booking (GO's), for the one who books as for the partner; no contract built on Booking states the count. b17ca87 puts both records in the club's state, booked(Club,Court,Slot,Alice) and partnered(Club,Court,Slot,Carol), from which the count can be stated, and Tennis Courts' text says a booking counts for each. Stating it in the term needs a count of bookings, while the contract grammar counts only persons (calculus/tools/gcsas.py, COUNTW). GM has asked the Calculus (mail of 2026-11-25 18:36 UTC) to make it countable; that is a language question for Udi if it changes the grammar. GM will answer Corrected when the count is in the term.
+
 ### Verification
 
 25 November 2026: the replay extracts the unchanged Book and Cancel schema lines and confirms that both parties guard Book while only Alice appears in its effects. This is a state/meaning discrepancy, not a claimed runtime exploit of an unknown bound implementation. Closure: demonstrate accounting for both players under the chosen meaning, withdrawal and replacement.
 
 **25 November 2026 — independent candidate check.** [Public Tennis Courts term](https://github.com/EShapiro2/GLP/blob/b17ca87adbbd83fd940dd5fee29990cc184f6d4c/calculus/contracts/Tennis-Courts/term.glp.txt) gives Book a `partnered` fact and both consent roles. Cancel removes booking, occupancy and partnership. Partner Withdraw removes only partnership. Book still requires the slot to be unoccupied, so a fresh Book cannot add a replacement while the original reservation remains active. The quota predicate `under_bound` is an environment input. The term therefore shows where both quota checks occur, while the actual accounting of partner reservations remains to be verified in the environment and integrated app. The paper revision is a project reference. No independent paper or runtime check ran.
+
+**25 November 2026 — follow-up to [PR #146](https://github.com/udi-shapiro/Grassroots-Audit/pull/146).** [Booking:0](https://github.com/EShapiro2/GLP/blob/9d0952c77bca2455f2d4c63b0eb1f00707b368d5/calculus/contracts/Booking/full-schemas.txt) supplies the outstanding-bookings bound through the environment. The cited [`COUNTW` grammar rule](https://github.com/EShapiro2/GLP/blob/9d0952c77bca2455f2d4c63b0eb1f00707b368d5/calculus/tools/gcsas.py#L38) matches counts of persons. The source check confirms these two points. GM’s reply leaves implementation of partner quota accounting pending. No reasoning about the full grammar or any executed quota behavior is claimed.
 
 ## Text, pragmas and publication: what is established and what remains
 
