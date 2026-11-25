@@ -92,7 +92,7 @@ See: [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/p
 
 24 November 2026. Rebuilt both aggregates. Village Commons expanded-schema line 58 and Villagers line 493 require two guards. Village Government line 48 includes all three safeguards. Closure requires solo hall and appointment bookings, a court reservation requiring both players, and expulsion cases that distinguish the chosen rules.
 
-**Candidate source inspection, 24 November 2026.** Public GLP candidate [\`5e6186d\`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) retains the generator's common-base join. The cited Calculus paper commit is in its separate repository and was not accessed, and neither the paper wording nor the Villagers declarations are changed in the public candidate. Finding 1 remains open pending the semantic decision, the paper correction and declarations that exercise the intended resource and expulsion routes.
+**Candidate source inspection, 24 November 2026.** Public GLP candidate [`5e6186d`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) retains the generator's common-base join. The cited Calculus paper commit is in its separate repository and was not accessed, and neither the paper wording nor the Villagers declarations are changed in the public candidate. Finding 1 remains open pending the semantic decision, the paper correction and declarations that exercise the intended resource and expulsion routes.
 
 
 ## Finding 2. The readable expansion splits Lost and Found
@@ -105,13 +105,19 @@ Lost and Found is one registered contract in Table 1. The readable expander repo
 
 Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
 
-Corrected: Calculus \`b8cc434\` in \`tools/names.py\`, \`tools/expand.py\` and \`tools/relations.py\`, copied to public GLP candidate [\`5e6186d\`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) on \`claude/project-thread-23okte\`. The parser now reads registered names longest first, including a name that itself contains “and”. [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664)
+Corrected: Calculus `b8cc434` in `tools/names.py`, `tools/expand.py` and `tools/relations.py`, copied to public GLP candidate [`5e6186d`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) on `claude/project-thread-23okte`. The parser now reads registered names longest first, including a name that itself contains “and”. [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664)
+
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main `8d14cc0`](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). Code identifies `8d14cc0` as the main integration of the `5e6186d` set-term and Disputes changes. [Code's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/122#issuecomment-7150743915)
 
 ### Verification
 
 24 November 2026. Reproduced both missing-name diagnostics and compared the two expansions. Closure requires the exact §2 declaration to preserve the named parent and its definition in both forms and the relation check to complete.
 
-**Independent candidate check, 24 November 2026.** Reconstructed the exact public blobs for \`calculus/tools\`, \`calculus/NAMES.txt\` and \`calculus/tests/unionand\` at \`5e6186d091e15b0ad6baad8439a2b25b8d55b57d\`. \`python3 -m py_compile tools/*.py\` exited 0. \`python3 tools/tests.py\` exited 0 with \`unionand same\` and \`1 cases, 0 that differ\`. A direct call returned \`['Jobs', 'Lost and Found']\` for the exact ambiguous list. This verifies the focused parser correction on the candidate. The candidate is not on GLP main, and the full seven-declaration replay was not rerun at it, so Finding 2 remains open pending integration and the exact Villagers expansion and relation check.
+**Independent candidate check, 24 November 2026.** Reconstructed the exact public blobs for `calculus/tools`, `calculus/NAMES.txt` and `calculus/tests/unionand` at `5e6186d091e15b0ad6baad8439a2b25b8d55b57d`. `python3 -m py_compile tools/*.py` exited 0. `python3 tools/tests.py` exited 0 with `unionand same` and `1 cases, 0 that differ`. A direct call returned `['Jobs', 'Lost and Found']` for the exact ambiguous list. This verifies the focused parser correction on the candidate. The candidate is not on GLP main, and the full seven-declaration replay was not rerun at it, so Finding 2 remains open pending integration and the exact Villagers expansion and relation check.
+
+**Independent integrated check, 25 November 2026.** Confirmed that candidate `5e6186d091e15b0ad6baad8439a2b25b8d55b57d` is an ancestor of Code integration `8d14cc0a56a0741f404c4e085753b214f04c6133`, which is an ancestor of tested GLP main `2b18975d9cdbc334907c27d4992555442a85432c` and current main `4e68cca5954ab72d9ab7f9f0f53005b05c8113d5`. In an isolated tree containing the exact §2 Village Life declaration and its 19 registered inputs, `expand.py`, `gcsas.py` and `relations.py --json 'Village Life'` all exited 0. The expanded and flat forms retained `Lost and Found` and its loss/find definition, and the relation result held with no failures. This independently verifies Finding 2 at the pinned integrated source. The replay covered Village Life, not all seven aggregate declarations. Issue closure awaits publication of this verification.
 
 
 ## Finding 3. Two village contracts stop at term translation
@@ -124,15 +130,15 @@ The translator refuses Village Communication and Villagers at Retire. Its diagno
 
 GSC (GSC #21), 2026-11-24, submitted by Audit #4. See: [GSC's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147132869). The standalone [Guardians term](https://github.com/EShapiro2/GLP/blob/17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615/programs/gsc/Guardians.glp#L23) lists the friend and guardian roles in Retire. GSC reports the standalone certificate and refers the aggregate translation failure to Calculus.
 
-Calculus (Calculus #11), 2026-11-24, submitted by Audit #4. See: [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664). Calculus accepts the translator's refusal. Secure Friendship's Restore acts add \`friend(Alice, Carol)\` or \`friend(Alice, Dave)\` without adding the converse edge that Guardians Retire requires for deleting every incoming friendship. Calculus proposes using Friendship in the union or changing Secure Friendship through SPM. It reports that Guardians and Children translate independently.
+Calculus (Calculus #11), 2026-11-24, submitted by Audit #4. See: [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664). Calculus accepts the translator's refusal. Secure Friendship's Restore acts add `friend(Alice, Carol)` or `friend(Alice, Dave)` without adding the converse edge that Guardians Retire requires for deleting every incoming friendship. Calculus proposes using Friendship in the union or changing Secure Friendship through SPM. It reports that Guardians and Children translate independently.
 
 ### Verification
 
 24 November 2026. Fresh, separate translations for the two contracts emitted the same error. Five other group terms translated. Closure requires terms for both contracts and a retirement case with two distinct incoming friendship records and explicit participants.
 
-**Independent replay, 24 November 2026.** At GLP \`17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615\` the published replay again returned a Retire translation refusal for Village Communication and Villagers. The pinned standalone Guardians term contains the explicit quantified role lists cited by GSC. The source inspection and Python replay leave the aggregate failure open. The standalone certificate remains attributed to GSC.
+**Independent replay, 24 November 2026.** At GLP `17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615` the published replay again returned a Retire translation refusal for Village Communication and Villagers. The pinned standalone Guardians term contains the explicit quantified role lists cited by GSC. The source inspection and Python replay leave the aggregate failure open. The standalone certificate remains attributed to GSC.
 
-**Independent composition check, 24 November 2026.** The public source at both \`17f0c0d3\` and candidate \`5e6186d\` has byte-identical Secure Friendship schemas. Restore, Restore friend and Restore replaced friend each add the outgoing edge from Alice while requiring an existing incoming edge, and none adds the converse. Guardians Retire deletes both directions. This supports Calculus's explanation that the aggregate refusal identifies a real composition problem. No corrected aggregate or retirement execution was supplied, so Finding 3 remains open.
+**Independent composition check, 24 November 2026.** The public source at both `17f0c0d3` and candidate `5e6186d` has byte-identical Secure Friendship schemas. Restore, Restore friend and Restore replaced friend each add the outgoing edge from Alice while requiring an existing incoming edge, and none adds the converse. Guardians Retire deletes both directions. This supports Calculus's explanation that the aggregate refusal identifies a real composition problem. No corrected aggregate or retirement execution was supplied, so Finding 3 remains open.
 
 
 ## Finding 4. A decided dispute has no recorded ruling
@@ -145,13 +151,19 @@ Alice and Bob disagree over a broken fence. Carol, their arbiter, may rule that 
 
 Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
 
-Corrected: Calculus \`2f1943a\`, copied to public GLP candidate [\`5e6186d\`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) on \`claude/project-thread-23okte\`. Disputes now defines a ruling, makes it an input to Decide and records \`decision(Orga,Carol,Issue,Alice,Bob,Ruling)\`. Calculus reports the contract certified and the platform compiled, with retrospective approval pending. [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664)
+Corrected: Calculus `2f1943a`, copied to public GLP candidate [`5e6186d`](https://github.com/EShapiro2/GLP/commit/5e6186d091e15b0ad6baad8439a2b25b8d55b57d) on `claude/project-thread-23okte`. Disputes now defines a ruling, makes it an input to Decide and records `decision(Orga,Carol,Issue,Alice,Bob,Ruling)`. Calculus reports the contract certified and the platform compiled, with retrospective approval pending. [Calculus's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/120#issuecomment-7147328664)
+
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main `8d14cc0`](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). Code identifies `8d14cc0` as the main integration of the candidate Disputes ruling field. [Code's dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/122#issuecomment-7150743915)
 
 ### Verification
 
 24 November 2026. Compared the filing inputs, decision guard, deleted case and sole new decision fact. The two opposite dispositions yield the same state. Closure requires distinguishable rulings and a way for both parties to obtain the applicable one.
 
-**Independent candidate inspection, 24 November 2026.** At public candidate \`5e6186d091e15b0ad6baad8439a2b25b8d55b57d\`, the readable contract defines \`Ruling\`, Decide accepts it, the schema records a six-place \`decision\` atom, and the generated term carries \`Ruling\` in Decide's values and effect. The retained verdict hash and \`STATUS.txt\` are project-produced artifacts. No native checker or compiled platform was executed by the audit. The candidate is not on GLP main, so Finding 4 remains open pending integration and an execution that distinguishes two rulings and makes the chosen one observable to both parties.
+**Independent candidate inspection, 24 November 2026.** At public candidate `5e6186d091e15b0ad6baad8439a2b25b8d55b57d`, the readable contract defines `Ruling`, Decide accepts it, the schema records a six-place `decision` atom, and the generated term carries `Ruling` in Decide's values and effect. The retained verdict hash and `STATUS.txt` are project-produced artifacts. No native checker or compiled platform was executed by the audit. The candidate is not on GLP main, so Finding 4 remains open pending integration and an execution that distinguishes two rulings and makes the chosen one observable to both parties.
+
+**Independent integrated source inspection, 25 November 2026.** Confirmed the candidate-to-integration ancestry above. At tested main `2b18975d9cdbc334907c27d4992555442a85432c`, the generated term (`c94167b9`), GLP platform (`fc20b551`) and vGLP platform (`14daa776`) all carry `Ruling` as Decide input and in the six-place decision effect. Current main `4e68cca5954ab72d9ab7f9f0f53005b05c8113d5` retains those exact blobs. This verifies source integration, while no runtime decision or party-visibility control was executed. Finding 4 remains open pending two distinct rulings and evidence that both parties can obtain the chosen outcome.
 
 
 ## Finding 5. Table 1 overstates recovery after losing a phone

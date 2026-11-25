@@ -168,6 +168,10 @@ Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
 
 Corrected: Calculus abd32d0 (branch calc11-no-parameters). The role "those who decide for z" is listed by guardians in Guardians and by officers in Organisation, which renames Guardians; in a union of both the role took the first listing. Now each act lists it by the contract that has the kind of its name: a ward by its guardians, an organisation by its officers. This also mends Promoted Matching, whose Appoint listed an organisation's deciders by guardians. Only these three terms change; their verdicts follow, and they reach GLP with the next copy. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main 8d14cc0](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). GLP main is now 8d14cc0. It carries the Calculus's 35dafec and 5e6186d, which is Audit 102 Findings 18, 19, 20 and #58, and Villagers #116 and #118, plus a31ed7e.
+
 ### Verification
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
@@ -725,6 +729,14 @@ Calculus (Calculus #11), 2026-11-24, submitted by Audit #4.
 
 Corrected: Calculus calc11-no-parameters 8f93d00, tools/derive.py: a clause a contract adds is held to what its own clause writes, predicate by predicate in conclusion and condition. Library's Return without its shelf conclusion, and Lend with a vote added, are now "not derived"; the baseline is 91 of 91 derived. The GLP commit follows with the verdicts. The Calculus is in its own repository, EShapiro2/GCC-Grassroots-Contracts-Calculus.
 
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main 8d14cc0](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). GLP main is now 8d14cc0. It carries the Calculus's 35dafec and 5e6186d, which is Audit 102 Findings 18, 19, 20 and #58, and Villagers #116 and #118, plus a31ed7e.
+
+Calculus (Calculus #11), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main b42a475](https://github.com/EShapiro2/GLP/commit/b42a475eda894bd51c5a2c4744ca2f16ebf63418) (calculus/tools/derive.py; Calculus 78260f6).  Library with a 'Vote of Alice for Lend' added is not derived: 'an act compiled from no act of Library'.  A 'Vote of X for A' is compiled from A only when A, or A for X, reads the vote's predicate or clears it; the 91 are derived as before.
+
 ### Verification
 
 Rerun both altered Library cases and check that the baseline still succeeds.
@@ -754,6 +766,10 @@ Corrected: Calculus f172daf, tools/toglp.py: a guard declared an organisation or
 GO (GO #15), 2026-11-24, submitted by Audit #4.
 
 Corrected: [GLP 35dafecb](https://github.com/EShapiro2/GLP/commit/35dafecb7877ca4fc56b4cb5916da45fbb5c743d) on branch claude/project-thread-23okte (from Calculus calc11-no-parameters bc93dba, toglp.py). I checked it: in Organisation.glp printed by adopt.py, Found's Gov guard is organisation(Gov) and has_officer(Gov, G1), with no person(Gov) disjunct. The compiled platform (cascade.sh organisation, exit 0) has the same guard at Gov's role, so a Gov that is a person is refused and an organisation acting through its officer is accepted. Organisation end lost its person disjunct the same way. Code #37 holds the merge to main until vGLP's pragmas.sh reads the new set variables.
+
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main 8d14cc0](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). GLP main is now 8d14cc0. It carries the Calculus's 35dafec and 5e6186d, which is Audit 102 Findings 18, 19, 20 and #58, and Villagers #116 and #118, plus a31ed7e.
 
 ### Verification
 
@@ -786,6 +802,10 @@ See: Calculus branch calc11-sets 5394650. With Udi's sets (record items 49 to 58
 GSC (GSC #21), agreed with Calculus #11 and Currencies #23, 2026-11-24, submitted by Audit #4.
 
 See, beside Calculus 5394650: GSC branch sets-2026-11-24 0ba34c7 (Notes' schemas over note(Alice, Carol, t, N), N a set of note identifiers, |N| = s), the checker reading set variables at [GLP main 03bc123](https://github.com/EShapiro2/GLP/commit/03bc123ff8a9c4cca1c614bb33c6c720b337a72e), and Grassroots-Bonds aaa10cf (GB: each coin and bond carries a unique note identifier, a holding being a set of them). The GSC paper and the Grassroots Bonds paper are each in its own repository.
+
+Code (Code #37), 2026-11-25, submitted by Audit #4.
+
+Corrected: [GLP main 8d14cc0](https://github.com/EShapiro2/GLP/commit/8d14cc0a56a0741f404c4e085753b214f04c6133). GLP main is now 8d14cc0. It carries the Calculus's 35dafec and 5e6186d, which is Audit 102 Findings 18, 19, 20 and #58, and Villagers #116 and #118, plus a31ed7e.
 
 ### Verification
 
