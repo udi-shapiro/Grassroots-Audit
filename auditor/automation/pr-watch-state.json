@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T17:42:36.429Z",
-  "active_run": {
-    "run_id": "pr-watch-139-4b466012",
-    "started_at": "2026-11-25T17:42:36.429Z",
-    "expires_at": "2026-11-25T18:12:36.429Z",
-    "expected_auditor_head": "0d5150a292c8a6267f8ca2989a285b3d3a452aea",
-    "events": [
-      {
-        "delivery_id": "4b466012-e8f7-11f1-842e-3876533b9e8e",
-        "pull_request_number": 139,
-        "head_sha": "c44c40dc95451cbd694699a38d967533b6c6d42c"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T17:44:32.305Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -48,6 +36,33 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 139,
+      "head_sha": "c44c40dc95451cbd694699a38d967533b6c6d42c",
+      "base_sha": "11a331d3358c87f3c85716339f9a1c79bbbd57b1",
+      "state": "closed",
+      "updated_at": "2026-11-25T17:40:40Z",
+      "merged_at": "2026-11-25T17:40:39Z",
+      "merge_commit_sha": "e7b472ed2882d943348749cdd7abe406378cbf39",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_id": "4b466012-e8f7-11f1-842e-3876533b9e8e",
+      "delivery_ids": [
+        "4b466012-e8f7-11f1-842e-3876533b9e8e",
+        "5505fc52-e8f7-11f1-992b-789f5baf467a"
+      ],
+      "notes": "Opening and merge deliveries reconciled at the same published head. All ten blobs match audit main. Independently replayed the published checks and status table, both byte-identical. Issues #130–138 are open and await answers. No duplicate publication or PR reply."
+    },
     {
       "number": 120,
       "head_sha": "348c3ff69acc3a410f6871065390876fb68bc6c0",

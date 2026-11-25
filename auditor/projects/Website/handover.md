@@ -1,3 +1,7 @@
+## Stage 105 — PR #139 publication replayed — 25 November 2026 UTC
+
+Issue #138 remains open. The Website parser returned 24/31 Booking, 48/58 Tennis Courts and 24/31 Disputes rules using inputs identical to the corresponding cascade files. After a public correction, rerun the three schema controls, require 31/31, 58/58 and 31/31 once each, and check multi-origin provenance and Tennis Courts Book rendering. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/servers/peoplesweb/tools/build.py.md) · [Stage record](../../stages/105-pr139-villagers-publication-replay-20261125.json)
+
 # Website publication status updated — 20 November 2026
 
 [PR #56](https://github.com/udi-shapiro/Grassroots-Audit/pull/56) now includes main `e7f8d9949ce38360aaa77f13b2dd921b7a6e0076` at head `0491df9bdae1bb067cddb6a7bebd0721aa40e243`. Its report is unchanged and it is awaiting review. Proposed status: 30 reports, 24 findings, zero unanswered.

@@ -1,3 +1,7 @@
+## Stage 105 — PR #139 publication replayed — 25 November 2026 UTC
+
+Issues #130–137 remain open. The replay confirms the bounded inherited-source checks. Runtime and current Villagers pragmas await public artifacts. Review dated project answers and publicly versioned sources for the revised contracts, pragmas and generated applications. Preserve the earlier manuscript’s finding identifiers. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/Villagers.pdf.md) · [Stage record](../../stages/105-pr139-villagers-publication-replay-20261125.json)
+
 ## Stage 98 — Integrated Lost and Found verified — 25 November 2026 UTC
 
 Code #37’s main-integration answer is preserved in [PR #122](https://github.com/udi-shapiro/Grassroots-Audit/pull/122). The exact Village Life replay at GLP `2b18975d` verifies that both expansions retain Lost and Found and its definition and that the relation check holds. Finding #116 is verified pending reviewed publication and issue closure. The Disputes term and both generated platforms carry Ruling, while Finding #118 stays open pending runtime distinction and party visibility. Findings #115 and #117 remain open; #119 remains unanswered. [Stage record](../../stages/98-pr122-integrated-villagers-verification-20261125.json)

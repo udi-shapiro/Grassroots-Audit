@@ -1,0 +1,173 @@
+{
+  "stage": 105,
+  "date": "2026-11-25T17:44:32.305Z",
+  "title": "PR 139 Villagers and Website publication independently replayed",
+  "events": [
+    {
+      "delivery_id": "4b466012-e8f7-11f1-842e-3876533b9e8e",
+      "pull_request_number": 139,
+      "head_sha": "c44c40dc95451cbd694699a38d967533b6c6d42c",
+      "action": "opened"
+    },
+    {
+      "delivery_id": "5505fc52-e8f7-11f1-992b-789f5baf467a",
+      "pull_request_number": 139,
+      "head_sha": "c44c40dc95451cbd694699a38d967533b6c6d42c",
+      "action": "closed",
+      "merged": true
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "0d5150a292c8a6267f8ca2989a285b3d3a452aea",
+    "lease_commit": "2d8f5a6cccf59d11898e716d1925481f9e465dcc",
+    "audit_pr_head": "c44c40dc95451cbd694699a38d967533b6c6d42c",
+    "audit_pr_base": "11a331d3358c87f3c85716339f9a1c79bbbd57b1",
+    "audit_main": "e7b472ed2882d943348749cdd7abe406378cbf39",
+    "glp_main": "a10eeee4a612f433a0e17ed3e8a517382bf863f5",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a"
+  },
+  "discussion_version": {
+    "comments": 0,
+    "reviews": 0,
+    "review_threads": 0,
+    "comment_ids": [],
+    "review_ids": [],
+    "review_versions": [],
+    "latest_comments": [],
+    "latest_item_at": null
+  },
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/139",
+    "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/e7b472ed2882d943348749cdd7abe406378cbf39",
+    "villagers": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/Villagers.pdf.md",
+    "website": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/servers/peoplesweb/tools/build.py.md",
+    "replay": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/villagers-controls-2026-11-25.py",
+    "results": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/villagers-controls-2026-11-25.json",
+    "manifest": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e7b472ed2882d943348749cdd7abe406378cbf39/papers/villagers-2026-11-25-sources.json"
+  },
+  "issues": [
+    {
+      "number": 130,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/130"
+    },
+    {
+      "number": 131,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/131"
+    },
+    {
+      "number": 132,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/132"
+    },
+    {
+      "number": 133,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/133"
+    },
+    {
+      "number": 134,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/134"
+    },
+    {
+      "number": 135,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/135"
+    },
+    {
+      "number": 136,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/136"
+    },
+    {
+      "number": 137,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/137"
+    },
+    {
+      "number": 138,
+      "state": "open",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/138"
+    }
+  ],
+  "source_inspection": {
+    "published_blobs": [
+      {
+        "path": "ISSUES.md",
+        "sha": "91fb77cd90a4e923edf9ea0d23966d31f66ab992"
+      },
+      {
+        "path": "README.md",
+        "sha": "a7d39e3bf0c5de53f5461f73072fd432ac068338"
+      },
+      {
+        "path": "papers/Villagers.pdf.md",
+        "sha": "7d94b252d030caa6e3d4b8652baed419f0005344"
+      },
+      {
+        "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+        "sha": "4a9b7062dd102db499919863e6a51e56e836683a"
+      },
+      {
+        "path": "papers/villagers-2026-11-25-sources.json",
+        "sha": "41059819dd70af74fb31292f88937d9605bd795f"
+      },
+      {
+        "path": "papers/villagers-controls-2026-11-25.json",
+        "sha": "baca98dee0e263b0f5823d14345100c732ceb0c6"
+      },
+      {
+        "path": "papers/villagers-controls-2026-11-25.py",
+        "sha": "d9898559ea9973a04c757febd1971234bc16cb0f"
+      },
+      {
+        "path": "sections/04-status.tex",
+        "sha": "5e7592b77f412015ffc4243c4f00249cdb95de97"
+      },
+      {
+        "path": "sections/status-table.tex",
+        "sha": "dce764b1f54673867c19f570c5173a638ac68e44"
+      },
+      {
+        "path": "servers/peoplesweb/tools/build.py.md",
+        "sha": "67c512a06c08f2528b7d79ad81574b7821b96b93"
+      }
+    ],
+    "cascade_schema_blobs": [
+      {
+        "name": "Booking",
+        "sha": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+      },
+      {
+        "name": "Tennis-Courts",
+        "sha": "b3b6d2d31f3b56823fe3e9a5978e82f18c6a9586"
+      },
+      {
+        "name": "Disputes",
+        "sha": "4c981b28d73f4acffff5f2c535b80c29e64fc38b"
+      }
+    ],
+    "prior_manuscript": "Only a cross-link was added to the 24 November report. Its finding identifiers and history are preserved.",
+    "paper": "The pinned public papers tree has no Villagers PDF. The supplied 25 November manuscript was read in the prior review."
+  },
+  "executed_checks": [
+    {
+      "command": "python3 audit/papers/villagers-controls-2026-11-25.py glp > replay.json && cmp published.json replay.json",
+      "result": "Exit 0. Verified 22 Git blob hashes and reproduced JSON byte for byte. Website parser returned 24/31 Booking, 48/58 Tennis Courts and 24/31 Disputes. The bounded projection retained both contrary rulings. Care extends Booking parsed and both inherits-from controls were refused. The joint-booking guard/effect assertion passed."
+    },
+    {
+      "command": "python3 audit/bin/status.py && diff -u published.tex audit/sections/status-table.tex",
+      "result": "Exit 0. Byte-identical status table. 35 reports, 60 findings, 17 unanswered."
+    }
+  ],
+  "coverage_limits": [
+    "This run did not reread the supplied manuscript or execute GLP, a site build or a live deployment check. Verification of the revised Villagers pragmas and generated applications awaits public artifacts.",
+    "Issues #130–138 await project answers. The earlier six core-paper answers remain recorded and core verification continues."
+  ],
+  "next": {
+    "villagers": "Review dated project answers and publicly versioned sources for the revised contracts, pragmas and generated applications. Preserve the earlier manuscript’s finding identifiers.",
+    "website": "After a public correction, rerun the three schema controls, require 31/31, 58/58 and 31/31 once each, and check multi-origin provenance and Tennis Courts Book rendering."
+  }
+}
