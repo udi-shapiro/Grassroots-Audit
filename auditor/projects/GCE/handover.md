@@ -1,3 +1,7 @@
+## Stage 103 — repeat-Acquaint project evidence checked — 25 November 2026 UTC
+
+Evidence commit 7d8b2db adds the focused social-graph play and four checks. The audit replayed their patterns against the retained transcript. All positive assertions match and the duplicate-state assertion is absent. Treat this as internally checked project execution. Independent GLP execution, main integration, `cascade/Friendship/platform.vglp` regeneration and public vGLP paper verification remain pending. [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129) · [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6059269103) · [Stage record](../../stages/103-pr129-vglp-reacquaint-evidence-20261125.json)
+
 ## Stage 102 — vGLP set-state candidate and unchanged Friendship cascade — 25 November 2026 UTC
 
 Candidate 13661ebf statically adds set-state deduplication to the compiler and regenerated `programs/vglp` platforms. The reported `cascade/Friendship/platform.vglp` is identical at candidate, parent and current main and still uses multiset append. Candidate integration, cascade regeneration, focused runtime evidence and a public revised vGLP PDF remain pending. [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129) · [Assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396) · [Stage record](../../stages/102-pr129-vglp-setstate-candidate-20261125.json)

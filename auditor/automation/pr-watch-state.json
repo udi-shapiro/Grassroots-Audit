@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T14:15:13.300Z",
-  "active_run": {
-    "run_id": "pr-watch-129-7164942407-20261125T141330Z",
-    "started_at": "2026-11-25T14:15:13.300Z",
-    "expires_at": "2026-11-25T14:45:13.301Z",
-    "expected_auditor_head": "4c972cbfab0a70f0a0ae0ec7577d474cd51ed355",
-    "events": [
-      {
-        "delivery_id": "5db54d02-e8da-11f1-8462-e725089ba355",
-        "pull_request_number": 129,
-        "comment_id": 7164942407
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T14:17:07.135Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -1606,19 +1594,21 @@
       "head_sha": "f841053ae05dd9a52296c2c4357591ca579e5f02",
       "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
       "state": "open",
-      "updated_at": "2026-11-25T13:17:48Z",
+      "updated_at": "2026-11-25T14:16:09Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 2,
-        "reviews": 2,
+        "comments": 3,
+        "reviews": 3,
         "review_threads": 0,
         "comment_ids": [
           7163393624,
-          7163571936
+          7163571936,
+          7164942407
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaPEHdA",
-          "PRR_kwDOVrts7s8AAAABaRpzLA"
+          "PRR_kwDOVrts7s8AAAABaRpzLA",
+          "PRR_kwDOVrts7s8AAAABaSkb7w"
         ],
         "review_versions": [
           {
@@ -1634,6 +1624,13 @@
             "submitted_at": "2026-11-25T13:16:55Z",
             "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
             "state": "COMMENTED"
+          },
+          {
+            "id": 6059269103,
+            "node_id": "PRR_kwDOVrts7s8AAAABaSkb7w",
+            "submitted_at": "2026-11-25T14:16:09Z",
+            "commit_id": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+            "state": "COMMENTED"
           }
         ],
         "latest_comments": [
@@ -1644,13 +1641,17 @@
           {
             "id": 7163571936,
             "updated_at": "2026-11-25T13:17:48Z"
+          },
+          {
+            "id": 7164942407,
+            "updated_at": "2026-11-25T14:13:18Z"
           }
         ],
-        "latest_item_at": "2026-11-25T13:17:48Z"
+        "latest_item_at": "2026-11-25T14:16:09Z"
       },
-      "review_cursor": "PRR_kwDOVrts7s8AAAABaRpzLA",
-      "comment_cursor": 7163571936,
-      "notes": "Processed vGLP answer 7163393624. Candidate 13661ebf adds compiler/program-platform deduplication, while the exact cascade/Friendship artifact remains unchanged at candidate, parent and main. Public vGLP PDF blob is unchanged and private paper commit is unavailable. Review 6058308396 keeps integration, regeneration, runtime and public paper verification pending. Own correction comment 7163571936 records the 53-file count."
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaSkb7w",
+      "comment_cursor": 7164942407,
+      "notes": "Processed vGLP focused-run reply 7164942407. Public 7d8b2db adds play_reacquaint and four checks. Audit replay over the retained transcript matched all three positive assertions and found no duplicate-knows state. This is internally checked project execution, not an independent GLP run. Main integration, cascade regeneration, public paper approval/publication and report revisions remain pending. Review 6059269103."
     }
   ],
   "source_observed_after_tests": {

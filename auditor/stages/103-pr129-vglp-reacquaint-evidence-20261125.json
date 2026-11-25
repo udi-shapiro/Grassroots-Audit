@@ -1,0 +1,85 @@
+{
+  "stage": 103,
+  "date": "2026-11-25T14:17:07.135Z",
+  "title": "PR 129 focused repeat-Acquaint project run checked",
+  "source_pins": {
+    "gpt_auditor_before_lease": "4c972cbfab0a70f0a0ae0ec7577d474cd51ed355",
+    "lease_commit": "3ba0df3bbe474bd79b87844dff3fa3ee046dd026",
+    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
+    "pr_129_head": "f841053ae05dd9a52296c2c4357591ca579e5f02",
+    "pr_129_comment": 7164942407,
+    "glp_main": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
+    "glp_papers": "231bdd63fabff1d7b656897562c57f429ecb7c3a",
+    "set_state_candidate": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47",
+    "focused_evidence_commit": "7d8b2dbb1db6000a2480ed5ea17f8334b07e0193"
+  },
+  "reports": [
+    {
+      "path": "cascade/Friendship/platform.vglp.md",
+      "pull_request": 129,
+      "finding": 1,
+      "issue": 128,
+      "status": "answered in PR discussion; focused retained project run internally checked; integration, cascade regeneration, public paper and independent runtime verification pending",
+      "report_head_status": "unchanged; Answer still says Awaiting a project response and requested publication revisions remain absent"
+    }
+  ],
+  "project_claims": [
+    "vGLP reports that play_reacquaint executed on build 13661ebfa, committed the repeated Acquaint at attempt 6, and left one knows atom in each participant state.",
+    "vGLP reports that all four new Section VG checks pass.",
+    "vGLP says main integration and cascade regeneration are with Code #37, and public paper publication awaits Udi's approval."
+  ],
+  "source_inspection": [
+    {
+      "scope": "Focused evidence commit",
+      "result": "7d8b2db is a direct child of 13661ebf and adds 27 lines across programs/vglp/cva/social_graph/self.glp and test/run_all_tests.sh. It changes no compiler or cascade artifact."
+    },
+    {
+      "scope": "Play definition",
+      "result": "play_reacquaint establishes both participants, commits Acquaint, requests it a second time, obtains a second approval, then befriends them."
+    },
+    {
+      "scope": "Focused checks",
+      "result": "The committed checks require the attempt-6 commit, Alice's one knows(bob) atom across later views, Bob's one knows(alice) atom after two approvals, and absence of any state containing the same knows atom twice."
+    },
+    {
+      "scope": "Integration and publication",
+      "result": "7d8b2db and GLP main e874d7a remain diverged. No cascade artifact or public paper update is supplied by this commit. The audit retains the Stage 102 observations for those items."
+    }
+  ],
+  "executed_checks": [
+    {
+      "environment": "Pattern replay over the exact PR comment transcript",
+      "scope": "Four focused assertions from test/run_all_tests.sh",
+      "result": [
+        "attempt-6 commit pattern matched",
+        "Alice one-knows progression pattern matched",
+        "Bob two-approval and one-knows final-view pattern matched",
+        "duplicate-knows state pattern absent"
+      ],
+      "counts": {
+        "transcript_characters": 3755,
+        "alice_views_containing_knows_bob": 5,
+        "bob_views_containing_knows_alice": 5,
+        "duplicated_knows_bob_states": 0,
+        "duplicated_knows_alice_states": 0
+      }
+    },
+    {
+      "environment": "No Dart or Flutter executable; no GitHub workflow runs or commit statuses",
+      "scope": "Independent GLP runtime execution",
+      "result": "Not executed. The retained transcript and reported four-pass result remain project-run evidence."
+    }
+  ],
+  "discussion": {
+    "incoming_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#issuecomment-7164942407",
+    "audit_review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6059269103",
+    "review_id": 6059269103,
+    "pr_head": "f841053ae05dd9a52296c2c4357591ca579e5f02"
+  },
+  "next": [
+    "Preserve both dated vGLP answers under Finding 1 and record the focused transcript as project execution with the audit's pattern replay separately.",
+    "Wait for public main integration and regeneration of cascade/Friendship/platform.vglp, then compare exact blobs and repeat the focused run independently when a GLP runtime is available.",
+    "After Udi's approval, verify the revised vGLP PDF on the public papers branch.",
+    "Use Refs #128, update the report and issue index, regenerate status, and review the revised exact PR head before merge."
+  ]
+}
