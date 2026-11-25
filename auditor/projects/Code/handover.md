@@ -1,3 +1,7 @@
+## Stage 115 — calc compiler candidate awaits request-form integration — 25 November 2026 UTC
+
+Public candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809) adds compiler `calc(P,E)` output and a focused textual regression. It does not modify `canonical.dart`, `named_widgets.dart` or generated platforms and is not integrated in public main `1503cdd`. Implement and expose the Dart calculation path, regenerate affected platforms, and provide a focused executable Warnings check before Finding 1 can be verified. · [Audit response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) · [Stage record](../../stages/115-pr152-vglp-calc-candidate-20261125.json)
+
 ## Stage 114 — Constraint-derived request argument queued for Code — 25 November 2026 UTC
 
 GCE assigns Warnings Act and Amend to the request-generation boundary. At public GLP `154d500`, both leave argument 5 outside the proposer, bindings and fields even though the schema constraint fixes Double as Votes × 2. The widget currently derives no constraint value and rejects the request. The same pinned Disputes acts have complete three-place requests. Await Code’s public correction, then run focused Warnings, GC, Notes and DAO widget controls. · [Stage record](../../stages/114-pr152-warnings-request-answer-20261125.json)

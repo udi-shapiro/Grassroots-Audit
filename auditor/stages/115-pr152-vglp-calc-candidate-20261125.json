@@ -1,0 +1,111 @@
+{
+  "stage": 115,
+  "title": "PR #152 vGLP calc candidate and integration boundary",
+  "date_utc": "2026-11-25",
+  "event": {
+    "delivery_id": "2200c6de-e910-11f1-83b8-746167f40287",
+    "event_type": "issue_comment",
+    "action": "created",
+    "actor_login": "EShapiro2",
+    "pull_request_number": 152,
+    "comment_id": 7173962668
+  },
+  "audit_repository": {
+    "main": "47abf4d7454882006870b55006943cf8284a29c2",
+    "pr": 152,
+    "pr_head": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+    "pr_base": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+    "state": "open",
+    "discussion_version": {
+      "comments": 3,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7172127199,
+        7173962668,
+        7174093146
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7172127199,
+          "updated_at": "2026-11-25T19:18:58Z"
+        },
+        {
+          "id": 7173962668,
+          "updated_at": "2026-11-25T20:38:11Z"
+        },
+        {
+          "id": 7174093146,
+          "updated_at": "2026-11-25T20:43:16Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-25T20:43:16Z"
+    }
+  },
+  "source_pins": {
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+    "vglp_calc_candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809",
+    "candidate_parent": "976c32bb00010a5fcc25bc554f83e33522c66fea",
+    "private_paper_reference": "224558d (project claim; outside the authorized public source boundary)"
+  },
+  "project_response": {
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668",
+    "attribution": "vGLP (vGLP #33), 2026-11-25 20:38 UTC, submitted by Audit #5",
+    "claims": [
+      "The compiler prints calc(P,E) for request places determined by constraints.",
+      "For Warnings Double = Votes * 2, the expected form is calc(5, mul(at(4), lit(2))).",
+      "Code will implement the request form in canonical.dart and named_widgets.dart and merge the GLP candidate.",
+      "A revised vGLP paper exists at a separately cited repository commit."
+    ]
+  },
+  "source_inspection": {
+    "candidate_changed_paths": [
+      "programs/vglp/cva/compiler/README.md",
+      "programs/vglp/cva/compiler/cvac.glp",
+      "programs/vglp/cva/compiler/local.glp",
+      "programs/vglp/cva/compiler/pragmas.sh",
+      "programs/vglp/cva/compiler/self.glp",
+      "test/run_all_tests.sh"
+    ],
+    "observations": [
+      "cvac.glp adds calc(P,E), menu-expression support and request-declaration calculation lists.",
+      "The focused CVA calcs regression expects calc(3, mul(at(2), lit(2))) and related request output.",
+      "The candidate commit does not modify canonical.dart, named_widgets.dart or generated platform files.",
+      "At the candidate pin, named_widgets.dart and cascade/Warnings/platform.vglp contain no calc term.",
+      "The candidate is divergent from public main, six commits ahead and 22 behind at inspection, and is not integrated in the pinned public main."
+    ],
+    "current_code_handover": "Public Code handover still queues candidate merge, form support, regeneration and testing."
+  },
+  "executed_checks": [
+    {
+      "kind": "connector source assertions",
+      "result": "passed",
+      "details": "Confirmed candidate and parent pins, changed-file boundary, compiler calc source, focused test source, absence of calc in the pinned widget and generated Warnings platform, and non-ancestry from current main."
+    },
+    {
+      "kind": "tool availability",
+      "result": "blocked",
+      "details": "No GLP REPL, Dart, Flutter or SWI-Prolog executable was available. The candidate regression and request-form path were not executed."
+    }
+  ],
+  "outcome": {
+    "finding_status": "open",
+    "verification": "Compiler-side source support observed; integrated form behavior and paper correction not verified.",
+    "publication": "PR #152 remains open and was not merged.",
+    "audit_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146",
+    "pending": [
+      "Integrate compiler and Dart request-form support into a public GLP main commit.",
+      "Regenerate affected platforms and execute a focused Warnings request-form check.",
+      "Expose the cited paper correction through the authorized public GLP papers branch.",
+      "Insert both dated project responses in the report, add issue #151 to ISSUES.md, regenerate status and clarify the Disputes scope."
+    ]
+  },
+  "notification": {
+    "required": true,
+    "reason": "Substantive project correction claim and audit disagreement about current verification state."
+  }
+}

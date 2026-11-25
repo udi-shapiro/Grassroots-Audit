@@ -1,3 +1,7 @@
+## Stage 115 — vGLP candidate answers the compiler part of Warnings request assembly — 25 November 2026 UTC
+
+[vGLP’s response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668) supplies public compiler candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809). It represents constraint-derived request arguments with `calc(P,E)`, but Dart form support, generated platforms, main integration and runtime remain pending. Preserve both dated project responses in PR #152. Keep Finding 1 open and retain the earlier Disputes scope distinction. · [Audit response](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) · [Stage record](../../stages/115-pr152-vglp-calc-candidate-20261125.json)
+
 ## Stage 114 — Warnings request answer and Disputes scope — 25 November 2026 UTC
 
 [GCE’s comment](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7172127199) answers the Warnings Act and Amend part of Finding 1. Public Warnings confirms the missing fifth request argument and its Double = Votes × 2 constraint. Public Disputes instead binds all three request places for both acts. Preserve the dated answer, keep the finding open, and await Code’s promised public correction. PR #152 still needs the #151 index row, regenerated status and the Disputes clarification. · [Stage record](../../stages/114-pr152-warnings-request-answer-20261125.json)

@@ -1,23 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T20:39:38.432Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr152-comment-7173962668",
-    "started_at": "2026-11-25T20:39:38.432Z",
-    "expires_at": "2026-11-25T21:09:38.432Z",
-    "expected_auditor_head": "1f5683a02af93ba53f5cba1a6421f2bf709d2fed",
-    "events": [
-      {
-        "delivery_id": "2200c6de-e910-11f1-83b8-746167f40287",
-        "event_type": "issue_comment",
-        "action": "created",
-        "pull_request_number": 152,
-        "actor_login": "EShapiro2",
-        "comment_id": 7173962668
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T20:45:03.510Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -92,15 +77,17 @@
       "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
       "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
       "state": "open",
-      "updated_at": "2026-11-25T19:18:58Z",
+      "updated_at": "2026-11-25T20:43:16Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 1,
+        "comments": 3,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
-          7172127199
+          7172127199,
+          7173962668,
+          7174093146
         ],
         "review_ids": [],
         "review_versions": [],
@@ -108,18 +95,27 @@
           {
             "id": 7172127199,
             "updated_at": "2026-11-25T19:18:58Z"
+          },
+          {
+            "id": 7173962668,
+            "updated_at": "2026-11-25T20:38:11Z"
+          },
+          {
+            "id": 7174093146,
+            "updated_at": "2026-11-25T20:43:16Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-25T19:18:58Z"
+        "latest_item_at": "2026-11-25T20:43:16Z"
       },
-      "comment_cursor": 7172127199,
+      "comment_cursor": 7174093146,
       "review_cursor": "none",
       "delivery_ids": [
         "861b956a-e904-11f1-8e97-10bac2ea6ed6",
-        "108319ee-e905-11f1-8809-6f509dee0b84"
+        "108319ee-e905-11f1-8809-6f509dee0b84",
+        "2200c6de-e910-11f1-83b8-746167f40287"
       ],
-      "notes": "GCE’s partial answer assigns Warnings Act and Amend to constraint-derived request assembly. Pinned source confirms missing argument 5 and its Double = Votes × 2 equation. Pinned Disputes has complete three-place requests. Await report Answer, #151 index, regenerated status, scope clarification and Code’s public correction. No Flutter execution."
+      "notes": "vGLP supplied public compiler candidate 33f81f6. Source inspection confirms calc(P,E) generation and a focused textual regression. The candidate leaves Dart form support and generated Warnings unchanged, is divergent from public main 1503cdd, and was not executed. The cited paper commit is outside the authorized public sources. Finding 1 and PR #152 remain open for integration, runtime, attributed answers, #151, status and Disputes clarification."
     },
     {
       "number": 147,
@@ -12132,6 +12128,60 @@
         "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7172127199",
         "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151"
       }
+    },
+    {
+      "delivery_id": "2200c6de-e910-11f1-83b8-746167f40287",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 152,
+      "comment_id": 7173962668,
+      "head_sha": "41c8e0512ac005fdccac8bd7d21b3e246cacd59b",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7172127199,
+          7173962668,
+          7174093146
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7172127199,
+            "updated_at": "2026-11-25T19:18:58Z"
+          },
+          {
+            "id": 7173962668,
+            "updated_at": "2026-11-25T20:38:11Z"
+          },
+          {
+            "id": 7174093146,
+            "updated_at": "2026-11-25T20:43:16Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T20:43:16Z"
+      },
+      "processed_at": "2026-11-25T20:45:03.510Z",
+      "source_pins": {
+        "audit_main": "47abf4d7454882006870b55006943cf8284a29c2",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+        "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809",
+        "candidate_parent": "976c32bb00010a5fcc25bc554f83e33522c66fea"
+      },
+      "outcome": "Recorded vGLP’s compiler-side correction claim. Static inspection confirms calc(P,E) source and focused test source, but no Dart form support or generated platform changes at the candidate. Candidate is not on public main, no runtime executed, and private paper reference is unverified. Posted audit assessment and kept Finding 1 open.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668",
+        "audit_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/151",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/115-pr152-vglp-calc-candidate-20261125.json"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -12155,8 +12205,8 @@
   },
   "latest_source_observed": {
     "audit_main": "47abf4d7454882006870b55006943cf8284a29c2",
-    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
     "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
-    "observed_at": "2026-11-25T19:30:56.886Z"
+    "observed_at": "2026-11-25T20:45:03.510Z"
   }
 }
