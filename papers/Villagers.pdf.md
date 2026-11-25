@@ -169,6 +169,8 @@ Checked with GLP 9d0952c's calculus/tools: gcsas.py commute yes, return yes, rec
 
 25 November 2026: source inspection and a four-step declarative replay (Raise Carol, Raise Dave, Decide Carol, Decide Dave) produce two contrary decision records. Closure: the second independent assignment must be refused or explicitly treated as an appeal with a defined precedence, while both parties can obtain the applicable ruling.
 
+**25 November 2026 — independent candidate check.** [Public Disputes source](https://github.com/EShapiro2/GLP/blob/ab9002a0d3d4efd5bc68c18689344f480c4964db/programs/gce/disputes/Disputes.txt) requires the absence of `dispute(Orga,Issue)` and inserts that marker on Raise. Decide leaves the marker and adds a ruling fact for each party. A bounded set-of-facts projection admitted the first Raise, refused a second arbiter, reversed party order and a repeat after decision for the same organisation and issue, and admitted distinct issue and organisation controls. This checks the declared key and effects. The candidate has not landed on the pinned public main. Check the generated term and runtime for concurrent Raise, one authorised Decide and visibility to both parties.
+
 ## Finding 7. Warnings are permanent officer-target flags, not correctable records of an incident
 
 Severity: medium · [Issue 136](https://github.com/udi-shapiro/Grassroots-Audit/issues/136)
@@ -195,6 +197,8 @@ Checked as for Finding 6.
 
 25 November 2026: inspected the pinned warning vocabulary, creation effect and interface prompts. Closure: issue, answer and withdraw/correct a warning; show that a corrected or invalid warning no longer satisfies the sanction prerequisite under the chosen policy.
 
+**25 November 2026 — independent candidate check.** [Public Warnings source](https://github.com/EShapiro2/GLP/blob/ab9002a0d3d4efd5bc68c18689344f480c4964db/programs/gce/warnings/Warnings.txt) introduces incident-specific `warning_of` and `warning_answer`. Warn also adds the shared `warning(Orga,Officer,Target)` used by the expulsion threshold. Both Withdraw and Annul delete that shared flag as well as the selected incident. In a set-of-facts check, Alice gives Bob two warnings for distinct incidents and Carol gives Bob a third. Removing one of Alice's incidents leaves her other incident active and deletes her shared flag, so the summary counts one officer while two still have active warnings. Check the threshold against distinct officers with active incidents, including withdrawal of one of several incidents and withdrawal of the last. This is a bounded projection of the explicit source effects. A generated term and runtime result for the candidate are pending.
+
 ## Finding 8. A joint tennis booking records only one player's reservation
 
 Severity: medium · [Issue 137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137)
@@ -216,6 +220,8 @@ Checked: gcsas.py (through adopt.py) compiles; relations.py: instantiates, compo
 ### Verification
 
 25 November 2026: the replay extracts the unchanged Book and Cancel schema lines and confirms that both parties guard Book while only Alice appears in its effects. This is a state/meaning discrepancy, not a claimed runtime exploit of an unknown bound implementation. Closure: demonstrate accounting for both players under the chosen meaning, withdrawal and replacement.
+
+**25 November 2026 — independent candidate check.** [Public Tennis Courts term](https://github.com/EShapiro2/GLP/blob/b17ca87adbbd83fd940dd5fee29990cc184f6d4c/calculus/contracts/Tennis-Courts/term.glp.txt) gives Book a `partnered` fact and both consent roles. Cancel removes booking, occupancy and partnership. Partner Withdraw removes only partnership. Book still requires the slot to be unoccupied, so a fresh Book cannot add a replacement while the original reservation remains active. The quota predicate `under_bound` is an environment input. The term therefore shows where both quota checks occur, while the actual accounting of partner reservations remains to be verified in the environment and integrated app. The paper revision is a project reference. No independent paper or runtime check ran.
 
 ## Text, pragmas and publication: what is established and what remains
 
