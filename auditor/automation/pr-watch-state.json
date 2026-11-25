@@ -1,24 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T19:08:51.915Z",
-  "active_run": {
-    "run_id": "036a116e-e904-11f1-8852-397800fafcce",
-    "started_at": "2026-11-25T19:13:27.286Z",
-    "expires_at": "2026-11-25T19:43:27.286Z",
-    "expected_auditor_head": "45757dcc330bac99b12399c7645d913cbec5eeac",
-    "events": [
-      {
-        "delivery_id": "036a116e-e904-11f1-8852-397800fafcce",
-        "pull_request_number": 150,
-        "action": "opened",
-        "event_type": "pull_request",
-        "actor_login": "EShapiro2",
-        "comment_id": null,
-        "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e"
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T19:15:59.167Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -52,6 +36,66 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 150,
+      "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+      "base_sha": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+      "state": "closed",
+      "updated_at": "2026-11-25T19:14:49Z",
+      "merged_at": "2026-11-25T19:14:49Z",
+      "merge_commit_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWn8PA"
+        ],
+        "review_versions": [
+          {
+            "id": 6063520828,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWn8PA",
+            "state": "APPROVED",
+            "commit_id": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+            "submitted_at": "2026-11-25T19:14:40Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:14:40Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaWn8PA",
+      "delivery_ids": [
+        "036a116e-e904-11f1-8852-397800fafcce"
+      ],
+      "notes": "Merged GCE’s dated response. The pinned parser and bounded replay confirm that both removal paths allow a new reply after same-case reissue. Their shared-case wildcard also clears a different participant’s answer while that warning remains active. #136 remains open."
+    },
+    {
+      "number": 147,
+      "head_sha": "3ef836c342625af7b61d602d1463ee51aa2cd12e",
+      "base_sha": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+      "state": "open",
+      "updated_at": "2026-11-25T19:15:43Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "delivery_ids": [],
+      "notes": "Warnings verification preserves case reuse and documents wildcard scope at candidate 5f3de22. Await current-head independent review."
+    },
     {
       "number": 149,
       "head_sha": "438cfa721a129a7bd30b4e83664184c973500e39",
@@ -87,30 +131,6 @@
         "152e1f72-e903-11f1-89e9-664e23e48ce5"
       ],
       "notes": "Merged GCE’s dated answer. Source projection supports the first reply and refuses a repeat. Both removal paths retain answers and a same-case reissue cannot be answered. #136 remains open."
-    },
-    {
-      "number": 147,
-      "head_sha": "aa40edb6f001b01546c5246bf3f66c0ebbdb405b",
-      "base_sha": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
-      "state": "open",
-      "updated_at": "2026-11-25T19:08:37Z",
-      "merged_at": null,
-      "merge_commit_sha": null,
-      "discussion_version": {
-        "comments": 0,
-        "reviews": 0,
-        "review_threads": 0,
-        "comment_ids": [],
-        "review_ids": [],
-        "review_versions": [],
-        "latest_comments": [],
-        "inline_versions": [],
-        "latest_item_at": null
-      },
-      "comment_cursor": "none",
-      "review_cursor": "none",
-      "delivery_ids": [],
-      "notes": "Warnings Answer lifecycle verification and merged GCE answer reconciled with audit main. Await independent review."
     },
     {
       "number": 148,
@@ -2040,6 +2060,38 @@
     "observed_at": "2026-11-25T02:42:14.994Z"
   },
   "processed_events": [
+    {
+      "delivery_id": "036a116e-e904-11f1-8852-397800fafcce",
+      "pull_request_number": 150,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaWn8PA"
+        ],
+        "review_versions": [
+          {
+            "id": 6063520828,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWn8PA",
+            "state": "APPROVED",
+            "commit_id": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+            "submitted_at": "2026-11-25T19:14:40Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T19:14:40Z"
+      },
+      "processed_at": "2026-11-25T19:15:59.167Z",
+      "outcome": "Merged GCE’s dated response. The pinned parser and bounded replay confirm that both removal paths allow a new reply after same-case reissue. Their shared-case wildcard also clears a different participant’s answer while that warning remains active. #136 remains open."
+    },
     {
       "delivery_id": "152e1f72-e903-11f1-89e9-664e23e48ce5",
       "pull_request_number": 149,
@@ -11892,9 +11944,9 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+    "audit_main": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
     "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
-    "glp_papers": "cb842bcc357aa3d1c3d6fa2fb4736ccd7aadd9f0",
-    "observed_at": "2026-11-25T19:08:51.915Z"
+    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+    "observed_at": "2026-11-25T19:15:59.167Z"
   }
 }

@@ -1,0 +1,120 @@
+{
+  "stage": 112,
+  "date": "2026-11-25T19:15:59.167Z",
+  "title": "Warnings case reuse and participant isolation",
+  "events": [
+    {
+      "delivery_id": "036a116e-e904-11f1-8852-397800fafcce",
+      "pull_request_number": 150,
+      "action": "opened",
+      "event_type": "pull_request",
+      "actor_login": "EShapiro2",
+      "comment_id": null,
+      "head_sha": "5d79c8ea9f9149874a0ecda85213b475ba54538e"
+    }
+  ],
+  "source_pins": {
+    "gpt_auditor_before_lease": "45757dcc330bac99b12399c7645d913cbec5eeac",
+    "lease_commit": "23b3261e86a8fdc25bc6109e2b885b70a0e4b596",
+    "audit_main_before": "c99c5051df73d2e0c9c0403cb4a61c676e71dc10",
+    "audit_main_merge": "e379c8efbe29ee7777df60ca5b4d64c3e7cf5f0e",
+    "pr_150_head": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+    "pr_147_previous_head": "aa40edb6f001b01546c5246bf3f66c0ebbdb405b",
+    "pr_147_head": "3ef836c342625af7b61d602d1463ee51aa2cd12e",
+    "glp_main": "154d5006ebe577715ead3cb6803f767471bc3052",
+    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
+    "warnings_candidate": "5f3de226a74bd942771647c8d893ee8150d3ea26",
+    "warnings_parent": "a8fbd7c0780db15370ce9fd00d6bf5d2804fca31"
+  },
+  "discussion_versions": {
+    "147": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "150": {
+      "comments": 0,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaWn8PA"
+      ],
+      "review_versions": [
+        {
+          "id": 6063520828,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWn8PA",
+          "state": "APPROVED",
+          "commit_id": "5d79c8ea9f9149874a0ecda85213b475ba54538e",
+          "submitted_at": "2026-11-25T19:14:40Z"
+        }
+      ],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-25T19:14:40Z"
+    }
+  },
+  "links": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/150",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/150#pullrequestreview-6063520828",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/147",
+    "evidence": "../evidence/2026-11-25/warnings-150/replay.py"
+  },
+  "issues": [
+    {
+      "number": 136,
+      "state": "open"
+    }
+  ],
+  "source_inspection": [
+    {
+      "path": "programs/gce/warnings/Warnings.txt",
+      "candidate_blob": "46b1bcb67936f767d2446227983b722427b74a12",
+      "parent_blob": "3e0ade364e147f6edb5f069663898e99bd9fa983",
+      "main_blob": "531c2bc55576976bb8cdf97025d97c4614a779a6",
+      "result": "Both removals add a wildcard for the participant in answered. Warn requires no active warning for this officer and participant, with no case-key exclusion across participants. The public-main blob still differs."
+    },
+    {
+      "path": "calculus/contracts/Warnings/full-schemas.txt",
+      "blob": "b588da18d6ad7c933e16d78da84366acc3d748b3",
+      "result": "Checked-in candidate artifact lacks the revised incident and answer predicates."
+    },
+    {
+      "path": "calculus/contracts/Warnings/term.glp.txt",
+      "blob": "f7576ad3ee0d94f11a8486a9225c2204a31bb676",
+      "result": "Checked-in candidate artifact lacks the revised incident and answer predicates."
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py, then cmp with tracked sections/status-table.tex",
+      "result": "Byte-identical status table on the answer head and prepared verification tree. 35 reports, 60 findings, seven unanswered.",
+      "status_table_sha256": "3e7756a839594bf09ec5b539acabf64e4da42a7b9fc203a7fc11deddd66e343b"
+    },
+    {
+      "command": "python3 replay.py",
+      "inputs": {
+        "warnings-candidate.txt": "46b1bcb67936f767d2446227983b722427b74a12",
+        "tools/gcsas.py": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "tools/names.py": "e393bd6a576b0a37b04e7004d250e04330882e4f",
+        "tools/nameslines.py": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c",
+        "NAMES.txt": "8ad00b5e07e9c9d60addee402503cc37e36571d1"
+      },
+      "result": "For both Withdraw and Annul, parsed target-only warning removal and wildcard answer-marker deletion. Confirmed that same-case reissue accepts a new reply and retains the earlier text. A second participant’s same-case active warning survives but loses its marker, so it accepts a second reply in the model."
+    }
+  ],
+  "project_claims": [
+    "GCE says same-case reuse is intentional and reports a clean catalogue, 155 relations and a Dart checker result at 52261a6. These runs were not replayed."
+  ],
+  "coverage": "Executed pinned phrase parser and bounded set-of-facts projection. No full compiler, catalogue, Dart or runtime replay.",
+  "next": [
+    "Ask GCE to scope the reset to the participant or provide a source invariant excluding shared case keys. Verify the resulting answer lifecycle in the adopted schema and runtime, including both removals and concurrent Warn.",
+    "Integrated runtime verification of #136 is pending adoption. Merge verification PR #147 after independent review of its current head."
+  ]
+}
