@@ -1,23 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-25T21:17:50.125Z",
-  "active_run": {
-    "run_id": "pr-watch-20261125-pr156-opened",
-    "started_at": "2026-11-25T21:52:17.424Z",
-    "expires_at": "2026-11-25T22:22:17.424Z",
-    "expected_auditor_head": "90fa4775b21f4e51cd23fd5ffaf2a42f952b4f55",
-    "events": [
-      {
-        "delivery_id": "4ff1b6d4-e91a-11f1-84ad-21bcf05eeb81",
-        "event_type": "pull_request",
-        "action": "opened",
-        "actor_login": "EShapiro2",
-        "pull_request_number": 156,
-        "comment_id": null
-      }
-    ]
-  },
+  "updated_at": "2026-11-25T21:54:29.858Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -51,6 +36,42 @@
   "publication_merge_sha": null,
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
+    {
+      "number": 156,
+      "head_sha": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+      "base_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:53:44Z",
+      "merged_at": "2026-11-25T21:53:44Z",
+      "merge_commit_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYgjhQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065496965,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYgjhQ",
+            "state": "APPROVED",
+            "commit_id": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+            "submitted_at": "2026-11-25T21:53:29Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:53:29Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaYgjhQ",
+      "delivery_ids": [
+        "4ff1b6d4-e91a-11f1-84ad-21bcf05eeb81"
+      ],
+      "notes": "Merged dated Villagers answers for #132–#134 and the opening assessment. Findings stay open. Exact-head status regeneration was byte-identical. Cited Villagers revisions and PDF unavailable at public GLP pins."
+    },
     {
       "number": 155,
       "head_sha": "13045648ab393944b508b5218390f3f83a21a8f4",
@@ -12369,6 +12390,55 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json",
         "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/155"
       }
+    },
+    {
+      "delivery_id": "4ff1b6d4-e91a-11f1-84ad-21bcf05eeb81",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 156,
+      "comment_id": null,
+      "head_sha": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYgjhQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065496965,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYgjhQ",
+            "state": "APPROVED",
+            "commit_id": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+            "submitted_at": "2026-11-25T21:53:29Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:53:29Z"
+      },
+      "processed_at": "2026-11-25T21:54:29.858Z",
+      "source_pins": {
+        "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+        "audit_main_before": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+        "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+      },
+      "outcome": "Merged dated Villagers answers for #132–#134 and the opening assessment. Findings stay open. Exact-head status regeneration was byte-identical. Cited Villagers revisions and PDF unavailable at public GLP pins.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/156",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/156#pullrequestreview-6065496965",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7/papers/Villagers.pdf.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/117-pr156-villagers-works-notices-emergencies-20261125.json",
+        "issues": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/132",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/133",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/134"
+        ]
+      }
     }
   ],
   "source_observed_after_event": {
@@ -12391,12 +12461,10 @@
     "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
   },
   "latest_source_observed": {
-    "audit_main": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
-    "audit_main_before": "47abf4d7454882006870b55006943cf8284a29c2",
+    "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+    "audit_main_before": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
     "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
-    "glp_papers": "377c9f5e3f4cc07fdf475264863cc5e80c381eb6",
-    "report_glp": "b579ce0d5973082f26e759529202c9c5931fb8bf",
-    "candidate": "33f81f680b8e3500e3c9ad74dbef8f70538c6809",
-    "observed_at": "2026-11-25T21:17:50.125Z"
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829",
+    "observed_at": "2026-11-25T21:54:29.858Z"
   }
 }

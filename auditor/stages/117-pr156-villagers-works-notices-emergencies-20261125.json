@@ -1,0 +1,103 @@
+{
+  "stage": 117,
+  "title": "Villagers Works, Notices and Emergencies answers published",
+  "date_utc": "2026-11-25",
+  "events": [
+    {
+      "delivery_id": "4ff1b6d4-e91a-11f1-84ad-21bcf05eeb81",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 156,
+      "comment_id": null
+    }
+  ],
+  "sources": {
+    "audit_main": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+    "audit_main_before": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+    "glp_main": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_papers": "9fbb0bda111dc4e5772fde2bd87f30b2b44dd829"
+  },
+  "pull_requests": [
+    {
+      "number": 156,
+      "head_sha": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+      "base_sha": "cbf0030c5290fd848e8aeac0fe6cf7c98d37dae4",
+      "state": "closed",
+      "updated_at": "2026-11-25T21:53:44Z",
+      "merged_at": "2026-11-25T21:53:44Z",
+      "merge_commit_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYgjhQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065496965,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYgjhQ",
+            "state": "APPROVED",
+            "commit_id": "d8a6a9724e6d731ff2e31ffac61001c1c5c4f809",
+            "submitted_at": "2026-11-25T21:53:29Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-25T21:53:29Z"
+      },
+      "comment_cursor": "none",
+      "review_cursor": "PRR_kwDOVrts7s8AAAABaYgjhQ",
+      "delivery_ids": [
+        "4ff1b6d4-e91a-11f1-84ad-21bcf05eeb81"
+      ],
+      "notes": "Merged dated Villagers answers for #132–#134 and the opening assessment. Findings stay open. Exact-head status regeneration was byte-identical. Cited Villagers revisions and PDF unavailable at public GLP pins."
+    }
+  ],
+  "project_claims": {
+    "132": "a4deef0 adds contractor consent to Works:5 and settlement arbitration in Works:7. The project lists no-decision and no-arbiter cases as outside the current contract.",
+    "133": "8593677 decision 34 assigns transport delivery to the platform and retains the prior contract answer. The project reports updated forwarding pragmas.",
+    "134": "8593677 retains the prior emergency resolution and correction clauses and changes forwarding pragmas.",
+    "assessment": "a3056a4 revises the paper opening and identifies bids as a future extension."
+  },
+  "source_inspection": [
+    "Neither the revised Villagers contract sources nor Villagers.pdf were found in the complete pinned public GLP trees. GLP’s paper registry names the expected Villagers.pdf and marks it build-by-name. Short citations do not resolve in GLP; no private repository was accessed.",
+    "The papers tip changed, but blob SHAs for GLP-Spec, IGLP, vGLP and sGLP match the prior papers pin. All six original numbered core findings have attributed responses in audit main; the existing core verification queue remains eligible."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py then cmp against the submitted table on the exact PR tree",
+      "result": "36 reports, 61 findings, 7 unanswered. Byte-identical table."
+    },
+    {
+      "check": "Read back merged report, index and status table by immutable audit main SHA",
+      "result": {
+        "report": true,
+        "index": true,
+        "status": true,
+        "merged": true,
+        "main": true
+      }
+    }
+  ],
+  "runtime_execution": "None. Public versions of the revised Villagers sources were unavailable.",
+  "outcome": "Merged dated Villagers answers for #132–#134 and the opening assessment. Findings stay open. Exact-head status regeneration was byte-identical. Cited Villagers revisions and PDF unavailable at public GLP pins.",
+  "links": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/156",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/156#pullrequestreview-6065496965",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7/papers/Villagers.pdf.md",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/117-pr156-villagers-works-notices-emergencies-20261125.json",
+    "issues": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/132",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/133",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/134"
+    ]
+  },
+  "next": [
+    "Keep #132 open. When the revised Works source is public, check mutual cancellation, partial performance and settlement conservation, plus no-arbiter and silent-arbiter cases.",
+    "Keep #133 and #134 open. Obtain public Notices and Emergencies and regenerated pragmas; verify audience, permitted forwarding (including originator), resolution and reissue. Verify platform reachability and delivery independently.",
+    "Check the revised opening when Villagers.pdf is available through the public papers branch. Continue remaining core verification from the existing queue."
+  ]
+}

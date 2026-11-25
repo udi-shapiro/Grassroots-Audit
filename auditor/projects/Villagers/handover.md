@@ -1,3 +1,7 @@
+## Stage 117 — Villagers answers published — 25 November 2026 UTC
+
+PR #156 preserves the new Works consent and arbitration claim, the Notices and Emergencies scope and forwarding-pragmas clarification, and the revised paper opening claim. The cited source and Villagers PDF are unavailable at public GLP main 1503cdd and papers 9fbb0bd. Keep #132–#134 open. Check settlement and arbiter liveness, audience and forwarding permissions, resolution and reissue once the versioned artifacts are public. Assess platform delivery separately. [PR #156](https://github.com/udi-shapiro/Grassroots-Audit/pull/156) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/117-pr156-villagers-works-notices-emergencies-20261125.json)
+
 ## Stage 113 — Request widget and Warnings participant scope — 25 November 2026 UTC
 
 [PR #153](https://github.com/udi-shapiro/Grassroots-Audit/pull/153) preserves GCE’s revised policy. The parsed rules and bounded replay support participant isolation after both removals and allow same-case reissue only if unanswered. #136 remains open for adoption and runtime. Verification is in [PR #147](https://github.com/udi-shapiro/Grassroots-Audit/pull/147), awaiting review. · [Stage record](../../stages/113-pr152-153-request-widget-warnings-20261125.json)
