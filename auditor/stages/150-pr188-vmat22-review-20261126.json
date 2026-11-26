@@ -1,0 +1,168 @@
+{
+  "stage": 150,
+  "title": "VMAT (22) review reconciled on main",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "f0cacf1a-e9e1-11f1-8b39-78bb0af4a1ea",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 188,
+      "comment_id": null,
+      "head_sha": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T21:43:00Z",
+      "source_pins": {
+        "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+        "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+        "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
+        "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
+        "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
+        "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
+        "public_vmat_pdf_bytes": 573644
+      },
+      "outcome": "Reconciled the three-file VMAT revision (22) review publication from its exact head and confirmed its two open findings.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188",
+        "exact_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188/commits/11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5/papers/VMAT.pdf.md",
+        "issue_186": "https://github.com/udi-shapiro/Grassroots-Audit/issues/186",
+        "issue_187": "https://github.com/udi-shapiro/Grassroots-Audit/issues/187",
+        "paper": "https://github.com/EShapiro2/GLP/blob/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers/VMAT.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/150-pr188-vmat22-review-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "fea0833c-e9e1-11f1-9d93-6b92b9ca28c7",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 188,
+      "comment_id": null,
+      "head_sha": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T21:43:00Z",
+      "merged": true,
+      "merge_commit_sha": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+      "source_pins": {
+        "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+        "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+        "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
+        "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
+        "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
+        "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
+        "public_vmat_pdf_bytes": 573644
+      },
+      "outcome": "Observed the completed merge of the same head and discussion version. Recorded the supplied close delivery without a duplicate response.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188",
+        "exact_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188/commits/11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5/papers/VMAT.pdf.md",
+        "issue_186": "https://github.com/udi-shapiro/Grassroots-Audit/issues/186",
+        "issue_187": "https://github.com/udi-shapiro/Grassroots-Audit/issues/187",
+        "paper": "https://github.com/EShapiro2/GLP/blob/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers/VMAT.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/150-pr188-vmat22-review-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
+      }
+    }
+  ],
+  "discussion_version": {
+    "comments": 0,
+    "reviews": 0,
+    "review_threads": 0,
+    "comment_ids": [],
+    "review_ids": [],
+    "review_versions": [],
+    "latest_comments": [],
+    "inline_versions": [],
+    "latest_item_at": null
+  },
+  "source_pins": {
+    "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+    "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
+    "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
+    "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
+    "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
+    "public_vmat_pdf_bytes": 573644
+  },
+  "source_inspection": [
+    "PR #188 was already merged into main. The merge commit has the exact PR head and previous main as parents, and the three changed file blobs match the PR head.",
+    "The PR has no comments, reviews or review threads. Issues #186 and #187 are open with no issue comments in the observed record.",
+    "The public VMAT PDF is 573,644 bytes, while the published review states that the supplied revision (22) was 615,513 bytes. The artifacts are therefore different byte versions. No paper-text comparison was performed."
+  ],
+  "executed_checks": [
+    {
+      "name": "Status regeneration on 43 blob-checked inputs",
+      "command": "python3 vmat188-audit/bin/status.py",
+      "result": "pass",
+      "output": "43 input blob hashes matched\n37 reports, 69 findings, 14 unanswered",
+      "generated_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5"
+    },
+    {
+      "name": "Finite VMAT model and participant-typing controls",
+      "command": "python3 vmat188-check/controls.py",
+      "result": "pass",
+      "output": "The branch model gives {A}, {A,B}, {B}; class-keyed closure rejects the overlap.\nThe singleton typing fails for binary Befriend; ambient classes admit the local change only for participants."
+    },
+    {
+      "name": "Report history and findings index assertions",
+      "result": "pass",
+      "observed": "The historical report body is identical to the base. Both existing issue links point to the two numbered findings."
+    }
+  ],
+  "prior_review_evidence": "The 29-page manuscript reading and thirteen-comment comparison are attributed to the published review. This run independently checked the modeled claims, not their transcription from the supplied manuscript.",
+  "outcome": "Publication already merged. Finite controls reproduce both reported mechanisms under their stated assumptions. Both findings remain open. The exact supplied manuscript was outside public-source coverage.",
+  "next_work": [
+    "Check any project answer to #186 for a single class per effect and disjoint closures across distinct classes. Replay the stationary-participant overlap under the actual revised rules.",
+    "Check any answer to #187 for a local update over admissible ambient classes. Replay the binary Befriend singleton and a nonparticipant control.",
+    "Verify revised prose independently when a matching public paper is available. Continue tracking the separate related-work proposal in PR #183."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188",
+    "exact_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188/commits/11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+    "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5/papers/VMAT.pdf.md",
+    "issue_186": "https://github.com/udi-shapiro/Grassroots-Audit/issues/186",
+    "issue_187": "https://github.com/udi-shapiro/Grassroots-Audit/issues/187",
+    "paper": "https://github.com/EShapiro2/GLP/blob/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers/VMAT.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/150-pr188-vmat22-review-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
+  }
+}

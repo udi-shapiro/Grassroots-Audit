@@ -1,0 +1,55 @@
+{
+  "stage": 150,
+  "collected_at": "2026-11-26T21:43:00Z",
+  "source_pins": {
+    "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+    "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
+    "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
+    "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
+    "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
+    "public_vmat_pdf_bytes": 573644
+  },
+  "source_inspection": [
+    "PR #188 was already merged into main. The merge commit has the exact PR head and previous main as parents, and the three changed file blobs match the PR head.",
+    "The PR has no comments, reviews or review threads. Issues #186 and #187 are open with no issue comments in the observed record.",
+    "The public VMAT PDF is 573,644 bytes, while the published review states that the supplied revision (22) was 615,513 bytes. The artifacts are therefore different byte versions. No paper-text comparison was performed."
+  ],
+  "executed_checks": [
+    {
+      "name": "Status regeneration on 43 blob-checked inputs",
+      "command": "python3 vmat188-audit/bin/status.py",
+      "result": "pass",
+      "output": "43 input blob hashes matched\n37 reports, 69 findings, 14 unanswered",
+      "generated_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5"
+    },
+    {
+      "name": "Finite VMAT model and participant-typing controls",
+      "command": "python3 vmat188-check/controls.py",
+      "result": "pass",
+      "output": "The branch model gives {A}, {A,B}, {B}; class-keyed closure rejects the overlap.\nThe singleton typing fails for binary Befriend; ambient classes admit the local change only for participants."
+    },
+    {
+      "name": "Report history and findings index assertions",
+      "result": "pass",
+      "observed": "The historical report body is identical to the base. Both existing issue links point to the two numbered findings."
+    }
+  ],
+  "finite_control_python": "from dataclasses import dataclass\nfrom itertools import product\n\n@dataclass(frozen=True)\nclass Effect:\n    participants: frozenset\n    before: tuple\n    after: tuple\n\n    def closure(self, machine_states):\n        for state in machine_states:\n            if all(state[i] == value for i, value in self.before):\n                update = dict(self.after)\n                yield state, tuple(update.get(i, value) for i, value in enumerate(state))\n\nA = Effect(frozenset({0}), ((0, 0),), ((0, 1),))\nelse_A = Effect(frozenset({0}), ((0, 0),), ((0, 2),))\nB = Effect(frozenset({0, 1}), ((0, 0), (1, 0)), ((0, 2), (1, 0)))\nstates = list(product(range(3), repeat=2))\nclosed = {effect: set(effect.closure(states)) for effect in (A, else_A, B)}\nassert else_A not in {A, B}\nassert closed[else_A] & closed[B] == {((0, 0), (2, 0))}\n\ndef classes(machine_step, p_wills_A, post_wills_A):\n    found = set()\n    if p_wills_A and not post_wills_A and machine_step in closed[A]:\n        found.add(\"A\")\n    if not p_wills_A and not post_wills_A and machine_step in closed[else_A]:\n        found.add(\"A\")\n    if p_wills_A == post_wills_A and machine_step in closed[B]:\n        found.add(\"B\")\n    return found\n\nfirst = classes(((0, 0), (1, 0)), True, False)\nmiddle = classes(((0, 0), (2, 0)), False, False)\nlast = classes(((0, 0), (2, 0)), True, True)\nassert (first, middle, last) == ({\"A\"}, {\"A\", \"B\"}, {\"B\"})\nassert first & middle and middle & last and not first & last\nkeys = {A: \"A\", else_A: \"A\", B: \"B\"}\nassert keys[else_A] != keys[B] and closed[else_A] & closed[B]\nprint(\"The branch model gives {A}, {A,B}, {B}; class-keyed closure rejects the overlap.\")\n\nP, singleton = frozenset({0, 1}), frozenset({0})\nambient_classes = {\"Befriend\": P}\nassert all(q <= P for q in ambient_classes.values())\nassert not all(q <= singleton for q in ambient_classes.values())\nassert not {k for k,q in ambient_classes.items() if q <= singleton}\neligible = {k for k,q in ambient_classes.items() if 0 in q}\nbefore, after = set(), {\"Befriend\"}\nassert before != after and before <= eligible and after <= eligible\nassert not {k for k,q in ambient_classes.items() if 2 in q}\nprint(\"The singleton typing fails for binary Befriend; ambient classes admit the local change only for participants.\")\n",
+  "coverage": "The closures use two agents and three machine values per agent, with the second agent stationary in the binary rule. The local-volition control compares singleton-filtered transaction classes with the ambient participant-indexed classes. No VMAT implementation, paper extraction or broader proof check ran.",
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188",
+    "exact_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/188/commits/11125c93087ebda6948711f7e04a09cd1bb9e6bc",
+    "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/c13eea1fbc9d37ef6c325296877b7d11f9e3eac5/papers/VMAT.pdf.md",
+    "issue_186": "https://github.com/udi-shapiro/Grassroots-Audit/issues/186",
+    "issue_187": "https://github.com/udi-shapiro/Grassroots-Audit/issues/187",
+    "paper": "https://github.com/EShapiro2/GLP/blob/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers/VMAT.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/150-pr188-vmat22-review-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
+  }
+}
