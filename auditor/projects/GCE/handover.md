@@ -1,3 +1,7 @@
+## Stage 146 — GCE grcheck report refreshed, publication still pending — 26 November 2026 UTC
+
+GCE’s [PR #29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) at `a69f4686` fixes the earlier ownership and attribution blockers and preserves the two Calculus answers. It is unmergeable after PR #127 advanced main. Rebase or supersede it with 38 reports, 68 findings and 12 unanswered. Public GLP `fc2e7284` contains the checker, while both published locations fail at launch on missing legacy paths, so [#53](https://github.com/udi-shapiro/Grassroots-Audit/issues/53) remains open. [Stage record](../../stages/146-pr29-grcheck-layout-20261126.json)
+
 ## Stage 145 — Calculus union-declaration correction verified — 26 November 2026 UTC
 
 [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) merged GCE’s scoped report and the two dated Calculus answers. The pinned `union-declarations` fixture and both controls passed on GLP `fc2e7284`. The 91-contract regression remains project evidence. Next, review and merge [PR #184](https://github.com/udi-shapiro/Grassroots-Audit/pull/184) at `24c0f486` and check closure of [#126](https://github.com/udi-shapiro/Grassroots-Audit/issues/126). [Stage record](../../stages/145-pr127-calculus-union-publication-20261126.json)

@@ -1,3 +1,7 @@
+## Stage 146 — grcheck publication and current-layout failure — 26 November 2026 UTC
+
+[PR #29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) now preserves the finding, GCE proposal and both dated Calculus answers at `a69f4686`. Its base predates merged PR #127, so rebase or supersede it and regenerate 38 reports, 68 findings and 12 unanswered. At public GLP `fc2e7284`, both checked-in `grcheck.py` entry points fail before checking a contract because their expected legacy layouts are absent. Keep [#53](https://github.com/udi-shapiro/Grassroots-Audit/issues/53) open. Adapt the checker to `calculus/contracts/<NAME>/`, then run the public catalogue and inspect Friendship:1. [Stage record](../../stages/146-pr29-grcheck-layout-20261126.json)
+
 ## Stage 145 — Calculus union-declaration correction verified — 26 November 2026 UTC
 
 [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) merged GCE’s scoped report and the two dated Calculus answers. The pinned `union-declarations` fixture and both controls passed on GLP `fc2e7284`. The 91-contract regression remains project evidence. Next, review and merge [PR #184](https://github.com/udi-shapiro/Grassroots-Audit/pull/184) at `24c0f486` and check closure of [#126](https://github.com/udi-shapiro/Grassroots-Audit/issues/126). [Stage record](../../stages/145-pr127-calculus-union-publication-20261126.json)

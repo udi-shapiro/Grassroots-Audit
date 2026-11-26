@@ -1,0 +1,89 @@
+{
+  "stage": 146,
+  "collected_at": "2026-11-26T14:32:00.000Z",
+  "source_pins": {
+    "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_main_current": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_29": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c",
+    "audit_report_blob": "8da9b737038ff522ee27e96575769713bb65be56",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "grcheck_blob": "cc07d316745ca9498d8394309c2134eb61f57515",
+    "names_blob": "e393bd6a576b0a37b04e7004d250e04330882e4f",
+    "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+    "claimed_private_calculus_commit": "8e512067"
+  },
+  "audit_observations": {
+    "pr_29_base": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "current_main": "708768960724842725766e59c3f2909042918ba1",
+    "mergeable": false,
+    "pr_status_claim": {
+      "reports": 37,
+      "findings": 67,
+      "unanswered": 12
+    },
+    "current_main_status": {
+      "reports": 37,
+      "findings": 67,
+      "unanswered": 12
+    },
+    "required_rebased_status": {
+      "reports": 38,
+      "findings": 68,
+      "unanswered": 12,
+      "resolved": 26,
+      "open": 42,
+      "open_answered": 33,
+      "open_unanswered": 9,
+      "resolved_unanswered": 3
+    }
+  },
+  "tree_absences": [
+    "calculus/rev",
+    "calculus/gr",
+    "calculus/flat",
+    "calculus/contracts/NAMES.txt",
+    "calculus/contracts/rev",
+    "calculus/contracts/gr",
+    "calculus/contracts/flat"
+  ],
+  "exact_blobs": {
+    "calculus/tools/grcheck.py": "cc07d316745ca9498d8394309c2134eb61f57515",
+    "calculus/tools/names.py": "e393bd6a576b0a37b04e7004d250e04330882e4f",
+    "calculus/contracts/tools/grcheck.py": "cc07d316745ca9498d8394309c2134eb61f57515",
+    "calculus/contracts/tools/names.py": "e393bd6a576b0a37b04e7004d250e04330882e4f",
+    "calculus/NAMES.txt": "3af992856bef66f82f9672c1681859fcb691376c"
+  },
+  "executed_checks": [
+    {
+      "name": "Root grcheck current-layout launch",
+      "environment": "Python 3.12.14",
+      "command": "python3 tools/grcheck.py from a minimal exact-tree reconstruction of the current calculus root",
+      "result": "Exit 1 before checking a contract. names.py raises FileNotFoundError for calculus/rev."
+    },
+    {
+      "name": "Contracts-copy current-layout launch",
+      "environment": "Python 3.12.14",
+      "command": "python3 tools/grcheck.py from a minimal exact-tree reconstruction of calculus/contracts",
+      "result": "Exit 1 during import. names.py raises FileNotFoundError for calculus/contracts/NAMES.txt."
+    }
+  ],
+  "transcripts": {
+    "root": "Python 3.12.14\nFileNotFoundError: .../calculus/rev\nThe exception originates in names.py names_in(os.listdir(d)) before a contract is checked.",
+    "contracts": "Python 3.12.14\nFileNotFoundError: .../calculus/contracts/NAMES.txt\nThe exception originates while names.py imports its table before a contract is checked."
+  },
+  "limitations": [
+    "The run reconstructed the exact relevant blobs and their current relative locations rather than downloading the entire GLP tree. Both failures occur before any other source file can affect execution.",
+    "The private Calculus commit 8e512067 was not used or treated as verification. No contract comparison completed, and the project-reported 88-contract counts were not reproduced.",
+    "No source-app comment, review, publication PR or notification was created because this run was explicitly confirmation-only."
+  ],
+  "urls": {
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/146-pr29-grcheck-layout-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/146-pr29-grcheck-layout-20261126.json",
+    "pull_request": "https://github.com/udi-shapiro/Grassroots-Audit/pull/29",
+    "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/29#issuecomment-7194556361",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/53",
+    "source_root": "https://github.com/EShapiro2/GLP/blob/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7/calculus/tools/grcheck.py",
+    "source_contracts": "https://github.com/EShapiro2/GLP/blob/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7/calculus/contracts/tools/grcheck.py"
+  }
+}

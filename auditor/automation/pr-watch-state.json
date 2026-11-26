@@ -1,36 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T14:25:29.000Z",
-  "active_run": {
-    "run_id": "webhook-0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
-    "acquired_at": "2026-11-26T14:25:29.000Z",
-    "expires_at": "2026-11-26T14:55:29.000Z",
-    "expected_gpt_auditor_head": "af32575c996f652d347785163a240d1230d504ed",
-    "events": [
-      {
-        "delivery_id": "df13dff2-e9a3-11f1-8349-a07d3ea5ae7d",
-        "pull_request_number": 127,
-        "event_type": "issue_comment",
-        "action": "created",
-        "comment_id": 7194519702
-      },
-      {
-        "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
-        "pull_request_number": 29,
-        "event_type": "pull_request",
-        "action": "synchronize",
-        "head_sha": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c"
-      },
-      {
-        "delivery_id": "0a4b0394-e9a4-11f1-999d-4e7cbfebb418",
-        "pull_request_number": 29,
-        "event_type": "issue_comment",
-        "action": "created",
-        "comment_id": 7194556361
-      }
-    ]
-  },
+  "updated_at": "2026-11-26T14:32:00.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -50,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
-      "event": "PR 127 synchronize with own merge and publication deliveries reconciled",
-      "pull_request_number": 127,
-      "observed_at": "2026-11-26T14:22:06.749Z",
-      "outcome": "Merged PR #127 at its verified head after the requested revisions. Independently replayed the focused GLP regression and both controls, then opened PR #184 for the verification. Issue #126 remains open pending review and merge of PR #184."
+      "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
+      "event": "PR 29 synchronize and comment, with duplicate PR 127 comment reconciled",
+      "pull_request_number": 29,
+      "observed_at": "2026-11-26T14:32:00.000Z",
+      "outcome": "Recorded PR #29 head a69f4686 and comment 7194556361. The head fixes attribution and answer preservation but predates merged PR #127 and is unmergeable. Public GLP contains grcheck.py, while both published locations fail on missing legacy layout before checking a contract. No source-app reply was sent."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -2165,28 +2137,77 @@
     },
     {
       "number": 29,
-      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "head_sha": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c",
       "state": "open",
-      "updated_at": "2026-11-20T23:26:30Z",
+      "updated_at": "2026-11-26T14:16:57Z",
       "merged_at": null,
-      "comment_cursor": 7053138240,
+      "comment_cursor": 7194556361,
       "review_cursor": "PRR_kwDOVrts7s8AAAABYgd3sQ",
-      "notes": "Calculus acknowledged the gap and attributed grcheck to project commit 8e512067. Tool unavailable at pinned public GLP main, no execution. Unpublished report needs rebasing, named ownership and status updates.",
+      "notes": "The rebuilt head fixes attribution and ownership and preserves both dated Calculus answers. It is based on audit main 411e39c9 and is unmergeable after PR #127 advanced main to 70876896. Rebase or supersede it, regenerate to 38 reports / 68 findings / 12 unanswered, and retain #53 as open. Public GLP main fc2e7284 contains grcheck.py, but both published copies fail before checking a contract because their expected layouts are absent.",
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 3,
+        "comments": 4,
         "reviews": 1,
         "review_threads": 0,
         "comment_ids": [
           5939623857,
           7053098592,
-          7053138240
+          7053138240,
+          7194556361
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYgd3sQ"
         ],
-        "latest_item_at": "2026-11-20T23:26:30Z"
-      }
+        "review_versions": [
+          {
+            "id": 5939623857,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgd3sQ",
+            "submitted_at": "2026-11-17T13:48:22Z",
+            "commit_id": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+            "state": "CHANGES_REQUESTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 5939623857,
+            "updated_at": "2026-11-17T13:48:22Z"
+          },
+          {
+            "id": 7053098592,
+            "updated_at": "2026-11-20T23:23:59Z"
+          },
+          {
+            "id": 7053138240,
+            "updated_at": "2026-11-20T23:26:30Z"
+          },
+          {
+            "id": 7194556361,
+            "updated_at": "2026-11-26T14:16:57Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T14:16:57Z"
+      },
+      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "delivery_ids": [
+        "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
+        "0a4b0394-e9a4-11f1-999d-4e7cbfebb418"
+      ],
+      "source_pins": {
+        "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_main_current": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_29": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c",
+        "audit_report_blob": "8da9b737038ff522ee27e96575769713bb65be56",
+        "audit_status_table_pr_blob": "2e1a32f",
+        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "grcheck_blob": "cc07d316745ca9498d8394309c2134eb61f57515",
+        "names_blob": "e393bd6a576b0a37b04e7004d250e04330882e4f",
+        "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "claimed_private_calculus_commit": "8e512067"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/146-pr29-grcheck-layout-20261126.json",
+      "mergeable": false
     },
     {
       "number": 56,
@@ -2879,7 +2900,8 @@
       ],
       "delivery_ids": [
         "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
-        "51effe02-e9a4-11f1-8378-019eb24cecb5"
+        "51effe02-e9a4-11f1-8378-019eb24cecb5",
+        "df13dff2-e9a3-11f1-8349-a07d3ea5ae7d"
       ],
       "source_pins": {
         "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
