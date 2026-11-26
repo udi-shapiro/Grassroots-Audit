@@ -1,8 +1,36 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T14:22:06.749Z",
-  "active_run": null,
+  "updated_at": "2026-11-26T14:25:29.000Z",
+  "active_run": {
+    "run_id": "webhook-0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
+    "acquired_at": "2026-11-26T14:25:29.000Z",
+    "expires_at": "2026-11-26T14:55:29.000Z",
+    "expected_gpt_auditor_head": "af32575c996f652d347785163a240d1230d504ed",
+    "events": [
+      {
+        "delivery_id": "df13dff2-e9a3-11f1-8349-a07d3ea5ae7d",
+        "pull_request_number": 127,
+        "event_type": "issue_comment",
+        "action": "created",
+        "comment_id": 7194519702
+      },
+      {
+        "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
+        "pull_request_number": 29,
+        "event_type": "pull_request",
+        "action": "synchronize",
+        "head_sha": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c"
+      },
+      {
+        "delivery_id": "0a4b0394-e9a4-11f1-999d-4e7cbfebb418",
+        "pull_request_number": 29,
+        "event_type": "issue_comment",
+        "action": "created",
+        "comment_id": 7194556361
+      }
+    ]
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
