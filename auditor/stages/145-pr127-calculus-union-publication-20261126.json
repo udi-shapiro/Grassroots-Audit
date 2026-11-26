@@ -1,0 +1,173 @@
+{
+  "stage": 145,
+  "title": "Calculus union-declaration report merge and independent verification",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "pull_request_number": 127,
+      "head_sha": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+      "outcome": "Reviewed the revised report, approved the exact head, and merged the attributed report and answers."
+    },
+    {
+      "delivery_id": "51effe02-e9a4-11f1-8378-019eb24cecb5",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 127,
+      "head_sha": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+      "merge_commit_sha": "708768960724842725766e59c3f2909042918ba1",
+      "outcome": "Skipped self-generated merge delivery."
+    },
+    {
+      "delivery_id": "86adfab8-e9a4-11f1-8f72-6da93dcc62b0",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 184,
+      "head_sha": "24c0f4860d337570a68a01ebd1e11e3b54e95b82",
+      "outcome": "Skipped the auditor's own publication opening; zero comments and reviews at observation."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_127": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+    "audit_main_after": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_184": "24c0f4860d337570a68a01ebd1e11e3b54e95b82",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "calculus_candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+    "calculus_integration": "629a79983fa597189988808445a0a19b0e3fb330",
+    "published_status_table_blob": "b78a3c9101989a413467b0e06098cf87103fe411"
+  },
+  "discussion_versions": {
+    "127": {
+      "comments": 3,
+      "reviews": 4,
+      "review_threads": 0,
+      "comment_ids": [
+        7159561408,
+        7160368034,
+        7194519702
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaPECLA",
+        "PRR_kwDOVrts7s8AAAABaPQm3A",
+        "PRR_kwDOVrts7s8AAAABaPvu4w",
+        "PRR_kwDOVrts7s8AAAABaiN8Sg"
+      ],
+      "review_versions": [
+        {
+          "id": 6055592492,
+          "node_id": "PRR_kwDOVrts7s8AAAABaPECLA",
+          "submitted_at": "2026-11-25T10:10:50Z",
+          "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "id": 6055798492,
+          "node_id": "PRR_kwDOVrts7s8AAAABaPQm3A",
+          "submitted_at": "2026-11-25T10:24:56Z",
+          "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6056308451,
+          "node_id": "PRR_kwDOVrts7s8AAAABaPvu4w",
+          "submitted_at": "2026-11-25T10:57:57Z",
+          "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
+          "state": "COMMENTED"
+        },
+        {
+          "id": 6075677770,
+          "node_id": "PRR_kwDOVrts7s8AAAABaiN8Sg",
+          "submitted_at": "2026-11-26T14:18:40Z",
+          "commit_id": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+          "state": "APPROVED"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7159561408,
+          "updated_at": "2026-11-25T10:20:30Z"
+        },
+        {
+          "id": 7160368034,
+          "updated_at": "2026-11-25T10:56:06Z"
+        },
+        {
+          "id": 7194519702,
+          "updated_at": "2026-11-26T14:15:45Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-26T14:18:40Z"
+    },
+    "184": {
+      "comments": 0,
+      "reviews": 0
+    }
+  },
+  "project_contributions": [
+    {
+      "project": "GCE",
+      "comment_id": 7194519702,
+      "scope": "Rebase and report revisions"
+    },
+    {
+      "project": "Calculus",
+      "comment_ids": [
+        7159561408,
+        7160368034
+      ],
+      "scope": "Candidate and integration answers"
+    }
+  ],
+  "source_inspection": [
+    "Pinned GLP main contains 629a799. Compiler and root registry have changed since integration; focused fixture and expected output blobs are unchanged.",
+    "Exact-head audit diff changes the report plus the issue index, status narrative and generated status table."
+  ],
+  "executed_checks": [
+    {
+      "name": "Pinned report and status inputs",
+      "result": "44 audit text blobs matched the PR #127 Git tree; the observed merge tree is identical to that PR tree."
+    },
+    {
+      "name": "Status generation",
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR #127 snapshot and the proposed PR #184 report, index and summary",
+      "result": "37 reports, 67 findings, 12 unanswered in both runs; same table blob",
+      "blob": "b78a3c9101989a413467b0e06098cf87103fe411"
+    },
+    {
+      "name": "Focused GLP Python replay",
+      "environment": "Python 3.12.14",
+      "command": "From calculus/, load tools/tests.py with importlib and call run('union-declarations'). Compare returned lines exactly with tests/union-declarations/expect.txt.",
+      "result": "Matches expected output; the diagnostic names member/2, both source contracts, their phrases and the rename."
+    },
+    {
+      "name": "Identical-declaration and distinct-predicate controls",
+      "command": "Run the same harness on two scratch copies of the case. In gr/Markets.txt, replace 'member of the market' with 'member of the club' for the first. Replace '= member(x,y)' with '= market_member(x,y)' for the second. Check both union outcomes and the zero-fault aggregate.",
+      "result": "Both unions accepted with zero faults."
+    }
+  ],
+  "limitations": [
+    "The Groups/Agora translator run and 91-contract regression remain contributor evidence. The semantics of aliases were outside the verified finding.",
+    "No paper build, full catalogue replay or GLP runtime ran during this event."
+  ],
+  "outcome": "Merged PR #127 at its verified head after the requested revisions. Independently replayed the focused GLP regression and both controls, then opened PR #184 for the verification. Issue #126 remains open pending review and merge of PR #184.",
+  "next": [
+    "Obtain independent review of PR #184 at the recorded head and merge with the expected SHA. Check issue #126 closes when #184 merges.",
+    "Resume the ongoing application and core verification queue. All six core findings have answers; remaining proof or execution checks retain their existing dispositions."
+  ],
+  "urls": {
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/145-pr127-calculus-union-publication-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/145-pr127-calculus-union-publication-20261126.json",
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/184",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/127#pullrequestreview-6075677770",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/126",
+    "source": "https://github.com/EShapiro2/GLP/tree/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7/calculus/tests/union-declarations",
+    "prior": "https://github.com/udi-shapiro/Grassroots-Audit/blob/4e3c64ab8a9e50eed800b40b55c9be12a9a620d7/auditor/stages/101-pr127-calculus-union-integration-20261125.json"
+  }
+}

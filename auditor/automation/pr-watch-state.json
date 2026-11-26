@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T14:17:42.217Z",
-  "active_run": {
-    "run_id": "pr127-sync-d7b9d34c",
-    "event": {
-      "delivery_id": "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
-      "event_type": "pull_request",
-      "action": "synchronize",
-      "pull_request_number": 127,
-      "actor_login": "nimrodtalmon"
-    },
-    "acquired_at": "2026-11-26T14:17:42.217Z",
-    "expires_at": "2026-11-26T14:47:42.217Z",
-    "expected_head_sha": "4e3c64ab8a9e50eed800b40b55c9be12a9a620d7"
-  },
+  "updated_at": "2026-11-26T14:22:06.749Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -34,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "63ffe426-e98c-11f1-9d35-6043118dbff4",
-      "event": "PR 183 VMAT adoption response and auditor publication synchronization",
-      "pull_request_number": 183,
-      "observed_at": "2026-11-26T11:29:54.526Z",
-      "outcome": "Preserved VMAT's selective adoption, published the attributed response and limitation note on PR #183, and left the PR open. The published paper is unchanged and the draft was not verified."
+      "delivery_id": "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
+      "event": "PR 127 synchronize with own merge and publication deliveries reconciled",
+      "pull_request_number": 127,
+      "observed_at": "2026-11-26T14:22:06.749Z",
+      "outcome": "Merged PR #127 at its verified head after the requested revisions. Independently replayed the focused GLP regression and both controls, then opened PR #184 for the verification. Issue #126 remains open pending review and merge of PR #184."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -48,6 +36,46 @@
   "publication_merge_sha": null,
   "source_verified": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
   "processed_prs": [
+    {
+      "number": 184,
+      "head_sha": "24c0f4860d337570a68a01ebd1e11e3b54e95b82",
+      "base_sha": "708768960724842725766e59c3f2909042918ba1",
+      "state": "open",
+      "updated_at": "2026-11-26T14:20:25Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "86adfab8-e9a4-11f1-8f72-6da93dcc62b0"
+      ],
+      "own_publication": true,
+      "own_comment_ids": [],
+      "notes": "Independent verification publication awaits an exact-head review. #126 remains open.",
+      "source_pins": {
+        "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_127": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+        "audit_main_after": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_184": "24c0f4860d337570a68a01ebd1e11e3b54e95b82",
+        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "calculus_candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+        "calculus_integration": "629a79983fa597189988808445a0a19b0e3fb330",
+        "published_status_table_blob": "b78a3c9101989a413467b0e06098cf87103fe411"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/145-pr127-calculus-union-publication-20261126.json"
+    },
     {
       "number": 183,
       "head_sha": "0027562407102380f1a861de9e98e8470b3634b3",
@@ -2743,23 +2771,25 @@
     },
     {
       "number": 127,
-      "head_sha": "c3e928600f76702f3f7992534c3c7c221272302b",
-      "base_sha": "39eff6d7645efd109af97c375eb667e71e335df1",
-      "state": "open",
-      "updated_at": "2026-11-25T10:57:57Z",
-      "merged_at": null,
+      "head_sha": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "state": "closed",
+      "updated_at": "2026-11-26T14:18:57Z",
+      "merged_at": "2026-11-26T14:18:57Z",
       "discussion_version": {
-        "comments": 2,
-        "reviews": 3,
+        "comments": 3,
+        "reviews": 4,
         "review_threads": 0,
         "comment_ids": [
           7159561408,
-          7160368034
+          7160368034,
+          7194519702
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaPECLA",
           "PRR_kwDOVrts7s8AAAABaPQm3A",
-          "PRR_kwDOVrts7s8AAAABaPvu4w"
+          "PRR_kwDOVrts7s8AAAABaPvu4w",
+          "PRR_kwDOVrts7s8AAAABaiN8Sg"
         ],
         "review_versions": [
           {
@@ -2782,6 +2812,13 @@
             "submitted_at": "2026-11-25T10:57:57Z",
             "commit_id": "c3e928600f76702f3f7992534c3c7c221272302b",
             "state": "COMMENTED"
+          },
+          {
+            "id": 6075677770,
+            "node_id": "PRR_kwDOVrts7s8AAAABaiN8Sg",
+            "submitted_at": "2026-11-26T14:18:40Z",
+            "commit_id": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+            "state": "APPROVED"
           }
         ],
         "latest_comments": [
@@ -2792,13 +2829,42 @@
           {
             "id": 7160368034,
             "updated_at": "2026-11-25T10:56:06Z"
+          },
+          {
+            "id": 7194519702,
+            "updated_at": "2026-11-26T14:15:45Z"
           }
         ],
-        "latest_item_at": "2026-11-25T10:57:57Z"
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T14:18:40Z"
       },
-      "review_cursor": 6056308451,
-      "comment_cursor": 7160368034,
-      "notes": "Calculus correction candidate c13e54e is integrated at exact GLP main 629a799. Exact integrated focused fixture and two controls independently pass. Catalogue-wide 91-contract result remains project evidence. PR report head is unchanged and still needs answer, verification, scope, issue-index and status revisions."
+      "review_cursor": 6075677770,
+      "comment_cursor": 7194519702,
+      "notes": "Merged PR #127 at its verified head after the requested revisions. Independently replayed the focused GLP regression and both controls, then opened PR #184 for the verification. Issue #126 remains open pending review and merge of PR #184.",
+      "merge_commit_sha": "708768960724842725766e59c3f2909042918ba1",
+      "own_merge_sha": "708768960724842725766e59c3f2909042918ba1",
+      "own_review_ids": [
+        6055592492,
+        6055798492,
+        6056308451,
+        6075677770
+      ],
+      "delivery_ids": [
+        "d7b9d34c-e9a3-11f1-8d91-18884af5a84b",
+        "51effe02-e9a4-11f1-8378-019eb24cecb5"
+      ],
+      "source_pins": {
+        "audit_main_before": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_127": "c3898e88672b05ca3ddd36116b6210af018c5c8d",
+        "audit_main_after": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_184": "24c0f4860d337570a68a01ebd1e11e3b54e95b82",
+        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "calculus_candidate": "c13e54e21a63df7510742b29f0eba4c51b38d9cb",
+        "calculus_integration": "629a79983fa597189988808445a0a19b0e3fb330",
+        "published_status_table_blob": "b78a3c9101989a413467b0e06098cf87103fe411"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/145-pr127-calculus-union-publication-20261126.json"
     },
     {
       "number": 129,
