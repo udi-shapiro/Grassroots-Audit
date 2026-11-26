@@ -1,0 +1,59 @@
+{
+  "stage": 140,
+  "collected_at": "2026-11-26T10:51:46.060Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_182": "eb26d0fb11f95df1ff2d2fcc5a8c0c24d47f448f",
+    "audit_report_blob": "07158bfb5c91608c4fe3ec2f9f874495cf34166b",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "booking_full_schemas_blob": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d",
+    "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "executed_checks": [
+    {
+      "kind": "finite semantic model",
+      "scope": "Synthetic labelled transitions, no GLP runtime",
+      "checks": {
+        "consumedPrecondition": true,
+        "failedPoststate": true,
+        "otherLabelOutOfScope": true,
+        "falsePreVacuous": true,
+        "emptyLabelVacuous": true,
+        "postconditionAlonePermitsFrameChange": true
+      }
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "36 reports and the generator transcribed byte-for-byte from the exact PR tree with each blob hash checked",
+      "result": "36 reports, 66 findings, 12 unanswered",
+      "output_blob": "be3769555199851961813c2eff8eea75379b48eb",
+      "byte_identical": true
+    }
+  ],
+  "independent_source_inspection": [
+    "The PR adds only an unnumbered 26-line proposal in calculus/contracts.md and leaves the existing report intact.",
+    "Public Booking:2 Cancel requires the two booking atoms before the act and deletes the same grounded atoms on execution.",
+    "A wait edge with pending(r) true and accepted(r) false is outside Accept’s edge quantifier. The unlabelled linear formula fails on that edge.",
+    "A universal edge postcondition is vacuous when the act edge is absent or the premise is false. It also allows unrelated state changes unless separate frame conditions apply.",
+    "Von Wright’s §6 uses the inner immediate-succession conditional inside a causal necessity operator. The act labelling and quantification belong to the Calculus proposal."
+  ],
+  "finite_model_examples": [
+    "Accept consumes pending(r) and adds accepted(r)",
+    "Accept erroneously adds accepted(s)",
+    "Wait retains pending(r)",
+    "Accept labelled edge with false pending(r)",
+    "Graph with no Accept edge",
+    "Accept removes unrelated state and still meets the postcondition"
+  ],
+  "urls": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/182",
+    "exact_diff": "https://github.com/udi-shapiro/Grassroots-Audit/pull/182/commits/eb26d0fb11f95df1ff2d2fcc5a8c0c24d47f448f",
+    "booking": "https://github.com/EShapiro2/GLP/blob/a9d40778a7587dd45ea25aacb42f51146a8ab0d9/calculus/contracts/Booking/full-schemas.txt",
+    "von_wright_1973": "https://doi.org/10.1016/S0049-237X%2809%2970366-0",
+    "von_wright_reprint": "https://www.scribd.com/document/327849221/Sosa-Ernest-Causation-pdf",
+    "von_wright_1965": "https://filosofia.fi/sv/arkisto/and-next",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/140-pr182-next-state-implication-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/140-pr182-next-state-implication-20261126.json"
+  }
+}
