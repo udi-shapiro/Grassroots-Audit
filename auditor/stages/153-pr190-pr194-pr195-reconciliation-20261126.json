@@ -1,0 +1,115 @@
+{
+  "stage": 153,
+  "date": "2026-11-26",
+  "title": "PR #190 merge and PR #194/#195 verification publications",
+  "events": [
+    {
+      "delivery_id": "e92fe316-e9e7-11f1-8d8c-42337ee2f5be",
+      "pull_request_number": 190,
+      "event_type": "pull_request",
+      "action": "closed",
+      "merged": true
+    },
+    {
+      "delivery_id": "26aac44a-e9e8-11f1-999c-7b7c2f481bcb",
+      "pull_request_number": 194,
+      "event_type": "pull_request",
+      "action": "opened",
+      "merged": false
+    },
+    {
+      "delivery_id": "4e72db2a-e9e8-11f1-8f4c-87a88c9f9c4f",
+      "pull_request_number": 194,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "merged": false
+    },
+    {
+      "delivery_id": "5b76eea6-e9e8-11f1-9248-10a7d1f8ff6c",
+      "pull_request_number": 194,
+      "event_type": "pull_request",
+      "action": "closed",
+      "merged": true
+    },
+    {
+      "delivery_id": "bafc5410-e9e8-11f1-8290-c86c5f16d01e",
+      "pull_request_number": 195,
+      "event_type": "pull_request",
+      "action": "opened",
+      "merged": false
+    },
+    {
+      "delivery_id": "c3420b10-e9e8-11f1-86da-d4cc1fb2dfe1",
+      "pull_request_number": 195,
+      "event_type": "pull_request",
+      "action": "closed",
+      "merged": true
+    }
+  ],
+  "source_pins": {
+    "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_pr_190": "d3c2339212cc5e9774cdc21b26b040d21003396f",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_190_merge": "08da5e540a4f618232533349edb9b456bc8a5f60",
+    "audit_pr_194": "6bfbf27020929d270b7d25d67be643fa0e3019c9",
+    "audit_pr_194_base": "08da5e540a4f618232533349edb9b456bc8a5f60",
+    "audit_pr_194_merge": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
+    "audit_pr_195": "4f20c4a9c834a0cf48766b251dff3ba1769ae0f7",
+    "audit_pr_195_base": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
+    "audit_pr_195_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_issues_blob": "990f075507fe3ccecfce2c781596b2c57ea2c7aa",
+    "audit_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
+    "audit_vmat_report_blob": "ea3df4fce08759f40e5a86a9cb563c85ab495052",
+    "audit_calculus_report_blob": "aa7f72a3d88511f9d98f940c923398b504c561ec",
+    "audit_calculus_review_blob": "098e074ae5d1e64352127ac73cc94c180ed236a4",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+    "public_vmat_pdf_blob": "aef5b00a4be4e3a5371f1469768feb2df45f1166",
+    "public_vmat_pdf_sha256": "1298d8ed047aab96d7c099cb86319282b737dacbdadac8d78320f85186e1bc09",
+    "cited_compiler_blob": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+    "current_compiler_blob": "86d0f70f275641971aeec6d017449eb2aadb879d",
+    "coins_vocabulary_blob": "b2eb34a1b329d00a671487207b662b6674803a67",
+    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+  },
+  "outcomes": [
+    "PR #190 merged its dated Calculus project follow-up. The merge preserves answers and does not verify the claimed fixes.",
+    "PR #194 merged verification of VMAT findings #186 and #187 and added open findings #191 and #192. The exact public PDF independently supports both closures and both new findings.",
+    "PR #195 merged verification of Calculus findings #88 and #166. This run corroborated the public compiler identity key, the overlapping Coins vocabulary, the unchanged Knowledge clauses, and the generated status. Manuscript-only comparisons and the recorded 91-contract execution were not rerun in this run.",
+    "Published status regenerates to 37 reports, 71 findings, and 8 unanswered. The issue index records 30 resolved and 41 open findings."
+  ],
+  "review_state": {
+    "pr190": {
+      "reviews": 0,
+      "threads": 0
+    },
+    "pr194": {
+      "reviews": 0,
+      "threads": 0
+    },
+    "pr195": {
+      "reviews": 0,
+      "threads": 0
+    }
+  },
+  "next_work": [
+    "Obtain project answers for VMAT #191 and #192 and verify any revision against a pinned public PDF.",
+    "Continue Calculus #84 and #99 and the outstanding GSC scope items #167 through #170.",
+    "Retain the core-paper verification queue because all six original findings have answers."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/153-pr190-pr194-pr195-reconciliation-20261126.json",
+  "urls": {
+    "pr190": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+    "pr194": "https://github.com/udi-shapiro/Grassroots-Audit/pull/194",
+    "pr195": "https://github.com/udi-shapiro/Grassroots-Audit/pull/195",
+    "main": "https://github.com/udi-shapiro/Grassroots-Audit/commit/e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "vmat_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d/papers/VMAT.pdf.md",
+    "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d/calculus/contracts.md",
+    "calculus_review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d/calculus/.review-files/Calculus_15_GSC_19_Review.md",
+    "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/3b85cbe12919c5411cfeecf3c3a157e6135e4efc/papers/VMAT.pdf",
+    "compiler": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/tools/gcsas.py",
+    "coins": "https://github.com/EShapiro2/GLP/blob/1503cddc1a9b6feff952344d7d9f186e6f5c492f/calculus/contracts/Coins/logic-pragmas.txt",
+    "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/153-pr190-pr194-pr195-reconciliation-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/153-pr190-pr194-pr195-reconciliation-20261126.json"
+  }
+}
