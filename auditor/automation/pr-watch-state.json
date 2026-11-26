@@ -1,8 +1,27 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T11:18:27.806Z",
-  "active_run": null,
+  "updated_at": "2026-11-26T11:22:50.531Z",
+  "active_run": {
+    "run_id": "pr183-vmat-adoption-comment-7190541795",
+    "event": {
+      "delivery_ids": [
+        "01971ada-e98b-11f1-8d6a-ab367316a01b"
+      ],
+      "event_type": "issue_comment",
+      "action": "created",
+      "pull_request_number": 183,
+      "comment_ids": [
+        7190541795
+      ],
+      "actor_logins": [
+        "EShapiro2"
+      ]
+    },
+    "acquired_at": "2026-11-26T11:22:50.531Z",
+    "expires_at": "2026-11-26T11:52:50.531Z",
+    "expected_head_sha": "6857a031cb7b1a6d9775a30a2785e812d53f6df0"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
