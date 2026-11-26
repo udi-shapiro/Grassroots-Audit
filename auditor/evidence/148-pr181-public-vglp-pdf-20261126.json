@@ -1,0 +1,102 @@
+{
+  "stage": 148,
+  "collected_at": "2026-11-26T18:36:00.000Z",
+  "boundary": "Public EShapiro2/GLP main and papers branch plus the public audit repository. No private project repository was required.",
+  "source_pins": {
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_pr_181": "2f621f6f83a864edbbc02e834bce950ee6842403",
+    "audit_report_blob": "972fdea7032119dfbe92b2795698ab08b55c6098",
+    "audit_issues_blob": "10e7f7dc40045922526f4b37a992a9de06384352",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "glp_papers_tree": "0de8039b2adfbf83b85a0eacdd61ca39ae58ff42",
+    "vglp_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "vglp_pdf_size": 2694999,
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+  },
+  "inspected": {
+    "papers_ref": {
+      "branch": "papers",
+      "sha": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+      "commit_time": "2026-11-26T18:11:41Z",
+      "parents": []
+    },
+    "pdf_entry": {
+      "path": "papers/vGLP.pdf",
+      "blob_sha": "b081debf38dd97fa8de4509f3006937116770fd4",
+      "size": 2694999
+    },
+    "publication": {
+      "pr": 181,
+      "head": "2f621f6f83a864edbbc02e834bce950ee6842403",
+      "base": "708768960724842725766e59c3f2909042918ba1",
+      "mergeable": true,
+      "comments": 9,
+      "reviews": 0,
+      "review_threads": 0
+    }
+  },
+  "project_evidence": {
+    "comment_id": 7200481803,
+    "author": "EShapiro2",
+    "submitted_at": "2026-11-26T18:27:18Z",
+    "claim": "Audit #6 ran pdftotext at a5badfc7 and quoted corrected Section 6.2 language.",
+    "verification_status": "attributed project evidence; PDF text not independently extracted"
+  },
+  "executed_checks": [
+    {
+      "name": "Public papers ref and commit pin",
+      "result": "pass",
+      "observed": "papers resolves exactly to a5badfc7226dd56a4bd070a3c3cd53e335b393b0; commit time 2026-11-26T18:11:41Z."
+    },
+    {
+      "name": "Public PDF tree entry",
+      "result": "pass",
+      "observed": "papers/vGLP.pdf resolves to blob b081debf38dd97fa8de4509f3006937116770fd4, size 2,694,999 bytes."
+    },
+    {
+      "name": "Status regeneration",
+      "result": "pass",
+      "command": "python3 bin/status.py",
+      "observed": "37 reports, 68 findings, 12 unanswered; generated status-table blob remained 475d25c1c32b78dfaef31015c477124171f0af6a."
+    },
+    {
+      "name": "Publication assertions",
+      "result": "pass",
+      "observed": "5/5 checks passed for answer uniqueness and order, verification placement, issue row and vGLP status row."
+    },
+    {
+      "name": "Independent PDF text extraction",
+      "result": "not run",
+      "observed": "Binary content was unavailable through the connector."
+    },
+    {
+      "name": "Focused Dart/Flutter execution",
+      "result": "not run",
+      "observed": "Dart and Flutter execution tools were unavailable in this run."
+    }
+  ],
+  "limitations": [
+    "The GitHub connector returned metadata for the binary PDF but did not decode or download its bytes.",
+    "The raw GitHub browser path was forbidden by the execution environment.",
+    "Dart and Flutter were unavailable, so the focused execution was not repeated."
+  ],
+  "conclusion": "Public publication and binary identity are independently verified. The paper text and focused Flutter behavior remain pending independent verification. Finding #179 stays open.",
+  "urls": {
+    "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7200481803",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7200599077",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/2f621f6f83a864edbbc02e834bce950ee6842403",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+    "glp_papers": "https://github.com/EShapiro2/GLP/commit/a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "paper": "https://github.com/EShapiro2/GLP/blob/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers/vGLP.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/148-pr181-public-vglp-pdf-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/148-pr181-public-vglp-pdf-20261126.json"
+  }
+}
