@@ -1,0 +1,249 @@
+{
+  "stage": 127,
+  "recorded_at": "2026-11-26T00:52:49Z",
+  "title": "PR 176 attributed answers and public integration verification",
+  "source_pins": {
+    "audit_main_before": "23a8c87ba262d48f397e1d9699bdffa684980264",
+    "audit_main_after": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_176_head": "9c15e01e0eb9d936c289482939393a0895484030",
+    "audit_pr_177_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
+    "glp_main": "80da4331d13ff601fb120a64e74f3c781eef23c7",
+    "glp_papers": "6cf1eaafac293e7ed01098c7486e5f5c10cd3943"
+  },
+  "events": [
+    {
+      "delivery_id": "aca5068e-e932-11f1-91ba-54ea8e6d579a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 176,
+      "outcome": "Review merged five attributed answers at the exact head. Separate source verification opened as #177.",
+      "comment_id": null,
+      "processed_at": "2026-11-26T00:52:49Z",
+      "source_pins": {
+        "audit_main_before": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_main_after": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_176_head": "9c15e01e0eb9d936c289482939393a0895484030",
+        "audit_pr_177_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
+        "glp_main": "80da4331d13ff601fb120a64e74f3c781eef23c7",
+        "glp_papers": "6cf1eaafac293e7ed01098c7486e5f5c10cd3943"
+      },
+      "head_sha": "9c15e01e0eb9d936c289482939393a0895484030",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7179202825
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7179202825,
+            "updated_at": "2026-11-26T00:52:38Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T00:52:38Z"
+      },
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176",
+        "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176#issuecomment-7179202825",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/127-pr176-glp-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "3a53a922-e933-11f1-9606-21511250f2a6",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 176,
+      "outcome": "Own expected-head merge. Skipped as a second work item.",
+      "comment_id": null,
+      "processed_at": "2026-11-26T00:52:49Z",
+      "source_pins": {
+        "audit_main_before": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_main_after": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_176_head": "9c15e01e0eb9d936c289482939393a0895484030",
+        "audit_pr_177_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
+        "glp_main": "80da4331d13ff601fb120a64e74f3c781eef23c7",
+        "glp_papers": "6cf1eaafac293e7ed01098c7486e5f5c10cd3943"
+      },
+      "head_sha": "9c15e01e0eb9d936c289482939393a0895484030",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7179202825
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7179202825,
+            "updated_at": "2026-11-26T00:52:38Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T00:52:38Z"
+      },
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176",
+        "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176#issuecomment-7179202825",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/127-pr176-glp-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "9ca3db1a-e933-11f1-92fb-a58a3697fe66",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 177,
+      "outcome": "Own verification publication at exact head. Await independent review.",
+      "comment_id": null,
+      "processed_at": "2026-11-26T00:52:49Z",
+      "source_pins": {
+        "audit_main_before": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_main_after": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_176_head": "9c15e01e0eb9d936c289482939393a0895484030",
+        "audit_pr_177_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
+        "glp_main": "80da4331d13ff601fb120a64e74f3c781eef23c7",
+        "glp_papers": "6cf1eaafac293e7ed01098c7486e5f5c10cd3943"
+      },
+      "head_sha": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176",
+        "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176#issuecomment-7179202825",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/127-pr176-glp-main-integration-20261126.json"
+      }
+    }
+  ],
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176",
+    "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/176#issuecomment-7179202825",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/127-pr176-glp-main-integration-20261126.json"
+  },
+  "ancestry": {
+    "ab9002a": {
+      "sha": "ab9002a0d3d4efd5bc68c18689344f480c4964db",
+      "status_of_main": "ahead",
+      "merge_base": "ab9002a0d3d4efd5bc68c18689344f480c4964db"
+    },
+    "e4aacb8": {
+      "sha": "e4aacb83cbdb287cfcab5d0e9ceb56c3ba80ee7a",
+      "status_of_main": "ahead",
+      "merge_base": "e4aacb83cbdb287cfcab5d0e9ceb56c3ba80ee7a"
+    },
+    "fddffe822": {
+      "sha": "fddffe822fa28164e0f8f14e07d00350dadcd446",
+      "status_of_main": "ahead",
+      "merge_base": "fddffe822fa28164e0f8f14e07d00350dadcd446"
+    },
+    "e08383fdd": {
+      "sha": "e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+      "status_of_main": "diverged",
+      "merge_base": "feb3043f3719edf9a62ecdc4b870b299173c55cc"
+    },
+    "b17ca87": {
+      "sha": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
+      "status_of_main": "ahead",
+      "merge_base": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c"
+    },
+    "a4d4a20fd": {
+      "sha": "a4d4a20fd4a17c4611c93e2caaf6d4c97549a1e3",
+      "status_of_main": "ahead",
+      "merge_base": "a4d4a20fd4a17c4611c93e2caaf6d4c97549a1e3"
+    },
+    "f4ee64c": {
+      "sha": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
+      "status_of_main": "diverged",
+      "merge_base": "6b8c88790889d370f6389bf4071ca9bf6a2ca461"
+    },
+    "adb3cb4b8": {
+      "sha": "adb3cb4b8e0544766312b35a4c405e3713b86753",
+      "status_of_main": "ahead",
+      "merge_base": "adb3cb4b8e0544766312b35a4c405e3713b86753"
+    },
+    "13661ebfa": {
+      "sha": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47",
+      "status_of_main": "ahead",
+      "merge_base": "13661ebfa72b215c308d5b2c1f2a54541fc4ec47"
+    },
+    "7d8b2dbb1": {
+      "sha": "7d8b2dbb1db6000a2480ed5ea17f8334b07e0193",
+      "status_of_main": "ahead",
+      "merge_base": "7d8b2dbb1db6000a2480ed5ea17f8334b07e0193"
+    },
+    "4c1663ec": {
+      "sha": "4c1663ec15c44f12e7e950d265046206deb96091",
+      "status_of_main": "ahead",
+      "merge_base": "4c1663ec15c44f12e7e950d265046206deb96091"
+    }
+  },
+  "project_claims": "Code #39 and vGLP #35 claimed integration, except the deferred Warnings and Tennis changes and the other work identified in PR #176.",
+  "source_inspection": [
+    "Disputes public generated and expanded artifacts enforce the organisation/issue key, consume the case on Decide and record both parties' ruling.",
+    "Warnings remains undated; Tennis quota is an environment predicate and Partner is absent.",
+    "Friendship platform was regenerated with dedup in both apply_with clauses.",
+    "DAO Pass/Reject emit calc(5,mul(at(4),lit(2))); Dart decodes and computes it before assembling the request. Warnings Act and Amend are three-place."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 check.py",
+      "scope": "Prior published projection functions and assertions run against current full schemas with the current website parser; declarative replay, not a GLP execution",
+      "inputs": {
+        "Disputes.txt": [
+          "calculus/contracts/Disputes/full-schemas.txt",
+          "98fe296ee789cbee7794d5c02d4c6be9bc98c767"
+        ],
+        "Warnings.txt": [
+          "calculus/contracts/Warnings/full-schemas.txt",
+          "726b9a49d3117a7be127ecbe63221a69e35f714f"
+        ],
+        "Tennis-Courts.txt": [
+          "calculus/contracts/Tennis-Courts/full-schemas.txt",
+          "6ef17630ade29a765c6e1557a4ed403380583171"
+        ],
+        "build.py": [
+          "servers/peoplesweb/tools/build.py",
+          "72fbc965f281393738d306d7711ca7a4a42f52a4"
+        ]
+      },
+      "script": "auditor/evidence/127-pr176-glp-main-integration/check.py",
+      "results": "auditor/evidence/127-pr176-glp-main-integration/results.json"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Merged answer and separate verification report sets, each built from the complete pinned main Markdown inputs with its relevant four changes",
+      "output": "36 reports, 66 findings, 12 unanswered",
+      "published_blob": "be3769555199851961813c2eff8eea75379b48eb"
+    }
+  ],
+  "unexecuted": [
+    "No Dart, Flutter, live deployment or matching paper text check. No new native GLP runtime result."
+  ],
+  "next": {
+    "128": "Run repeat-Acquaint independently, compare deployed Friendship, and inspect matching public vGLP PDF.",
+    "135": "After independent review of #177, merge at the reviewed head and update issue #135.",
+    "136": "Rerun dated warning maturity and former-officer controls against matching regenerated schemas after integration.",
+    "137": "Verify replacement without rebooking and authoritative per-player quota from both booking records.",
+    "151": "Execute the focused DAO Pass Flutter widget test at the pinned integration version."
+  }
+}

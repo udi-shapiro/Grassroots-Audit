@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+The integrated Tennis term records both roles and supports withdrawal. #137 remains open for replacement and authoritative quota accounting from both players' records. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 122 — Tennis Courts partner replacement — 25 November 2026 UTC
 
 [PR #163](https://github.com/udi-shapiro/Grassroots-Audit/pull/163) preserves GM’s answer. At `f4ee64c1` the schema replay supports partner withdrawal and replacement while the court stays booked. The booker and the replacement both consent. The authoritative quota computation remains an environment input. [#137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137) stays open for both-player accounting and integrated execution. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/165) · [Stage record](../../stages/122-pr163-tennis-and-core-projection-20261125.json)

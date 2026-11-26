@@ -1,0 +1,157 @@
+{
+  "candidate_disputes": {
+    "second_arbiter_refused": true,
+    "swapped_parties_refused": true,
+    "reopen_refused": true,
+    "second_ruling_refused": true,
+    "both_parties_receive": true,
+    "final_facts": [
+      "decision(village,carol,fence,alice,bob,alice_repairs)",
+      "dispute(village,fence)",
+      "has_participant(village,alice)",
+      "has_participant(village,bob)",
+      "has_role(village,carol,Arbiter)",
+      "has_role(village,dave,Arbiter)",
+      "ruling(alice,village,fence,alice_repairs)",
+      "ruling(bob,village,fence,alice_repairs)"
+    ]
+  },
+  "candidate_warnings": {
+    "one_active_warning_per_officer_recipient": true,
+    "one_answer": true,
+    "withdraw_and_annul_remove_counted_flag": true,
+    "answered_case_cannot_be_reissued": true,
+    "other_participants_answer_preserved": true,
+    "expel_rule": {
+      "name": "Expel",
+      "head": "Expel: ~participant(Bob,Orga), ~has_participant(Orga,Bob)",
+      "form": "rule",
+      "origin": "Organisation",
+      "clause": 3,
+      "labels": [
+        "Organisation:3",
+        "Warnings:4"
+      ],
+      "by": [
+        "Organisation",
+        "Warnings"
+      ],
+      "adds": [],
+      "removes": [
+        "participant(Bob,Orga)",
+        "has_participant(Orga,Bob)"
+      ],
+      "body": "~officer(Bob,Orga), participant(Bob,Orga), has_participant(Orga,Bob), warning(Orga,>=2,Bob)",
+      "needs": [
+        "not officer(Bob,Orga)",
+        "participant(Bob,Orga)",
+        "has_participant(Orga,Bob)",
+        "warning(Orga,>=2,Bob)"
+      ],
+      "guarded": [
+        "expellers(Orga)"
+      ],
+      "guard": "expellers(Orga)"
+    }
+  },
+  "candidate_tennis": {
+    "partner_record_present": true,
+    "cancel_clears_partner": true,
+    "partner_can_withdraw": true,
+    "bound_remains_environment_predicate": true,
+    "rules": {
+      "Book": {
+        "name": "Book",
+        "head": "Book: booking(Alice,Orga,Court,Slot), booked(Orga,Court,Slot,Alice), partnered(Orga,Court,Slot,Carol)",
+        "form": "rule",
+        "origin": "Booking",
+        "clause": 1,
+        "labels": [
+          "Booking:1",
+          "Tennis Courts:1"
+        ],
+        "by": [
+          "Booking",
+          "Tennis-Courts"
+        ],
+        "adds": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)",
+          "partnered(Orga,Court,Slot,Carol)"
+        ],
+        "removes": [],
+        "body": "participant(Alice,Orga), has_participant(Orga,Alice), under_bound(Alice,Orga), slot(Orga,Court,Slot), ~booked(Orga,Court,Slot,_), participant(Carol,Orga), has_participant(Orga,Carol), under_bound(Carol,Orga)",
+        "needs": [
+          "participant(Alice,Orga)",
+          "has_participant(Orga,Alice)",
+          "under_bound(Alice,Orga)",
+          "slot(Orga,Court,Slot)",
+          "not booked(Orga,Court,Slot,_)",
+          "participant(Carol,Orga)",
+          "has_participant(Orga,Carol)",
+          "under_bound(Carol,Orga)"
+        ],
+        "guarded": [
+          "Alice",
+          "Carol"
+        ],
+        "guard": "Alice, Carol"
+      },
+      "Cancel": {
+        "name": "Cancel",
+        "head": "Cancel: ~booking(Alice,Orga,Court,Slot), ~booked(Orga,Court,Slot,Alice), ~partnered(Orga,Court,Slot,_)",
+        "form": "rule",
+        "origin": "Booking",
+        "clause": 2,
+        "labels": [
+          "Booking:2",
+          "Tennis Courts:3"
+        ],
+        "by": [
+          "Booking",
+          "Tennis-Courts"
+        ],
+        "adds": [],
+        "removes": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)",
+          "partnered(Orga,Court,Slot,_)"
+        ],
+        "body": "booking(Alice,Orga,Court,Slot), booked(Orga,Court,Slot,Alice)",
+        "needs": [
+          "booking(Alice,Orga,Court,Slot)",
+          "booked(Orga,Court,Slot,Alice)"
+        ],
+        "guarded": [
+          "Alice"
+        ],
+        "guard": "Alice"
+      },
+      "Withdraw": {
+        "name": "Withdraw",
+        "head": "Withdraw: ~partnered(Club,Court,Slot,Carol)",
+        "form": "rule",
+        "origin": "Tennis-Courts",
+        "clause": 4,
+        "labels": [
+          "Tennis Courts:4"
+        ],
+        "by": [
+          "Tennis-Courts"
+        ],
+        "adds": [],
+        "removes": [
+          "partnered(Club,Court,Slot,Carol)"
+        ],
+        "body": "partnered(Club,Court,Slot,Carol)",
+        "needs": [
+          "partnered(Club,Court,Slot,Carol)"
+        ],
+        "guarded": [
+          "Carol"
+        ],
+        "guard": "Carol"
+      }
+    }
+  }
+}

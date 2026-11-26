@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+Public GLP `80da4331d` integrates the calculated-slot support. The DAO platform emits the numeric descriptor and the form evaluates it. Execute the checked-in DAO Pass Flutter test independently for #151. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 116 — Request argument report published — 25 November 2026 UTC
 
 PR #154 published Finding 1 as answered and open. PR #155 independently checks numeric position 5 for Warnings and DAO and set-valued position 3 for GC and Notes. After public integration, check the compiler/form path and regenerate and exercise the affected platforms. Disputes is the complete-request control. [Report PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/154) · [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/155) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json)

@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+Disputes Raise and Decide passed the bounded replay; #177 proposes resolving #135. The Warnings life cycle is verified on the integrated schemas. Dated sanctions and the former-officer policy remain open under #136. For Friendship #128, independently verify the public deployment against the regenerated platform. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 125 — Chess answers preserved; generated schemas still old — 25 November 2026 UTC
 
 [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) preserves GCE #1 and GCE #2’s dated answers for Chess [#157](https://github.com/udi-shapiro/Grassroots-Audit/issues/157), [#160](https://github.com/udi-shapiro/Grassroots-Audit/issues/160) and [#161](https://github.com/udi-shapiro/Grassroots-Audit/issues/161). At public `e08383fd`, the text and function library contain the claimed corrections, while the committed `Chess.glp` still admits the two-Start collision and lacks the new draw guards. Await exact-head review, regenerated schemas, public integration and focused execution. [Stage record](../../stages/125-chess-and-villagers-answers-20261125.json)

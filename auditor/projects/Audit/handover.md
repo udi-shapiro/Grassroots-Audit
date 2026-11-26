@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+PR #176’s five attributed answers are merged; source verification is in #177, exact head `ca2ed1cfde33debc9e07675fe31d629c5367e7f6`. Review that head before merging and updating issue #135. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 99 — GCE union and Friendship reports — 25 November 2026 UTC
 
 Both exact GCE heads were reviewed. Keep #126 and #128 open, require the report links and a current regenerated status, and publish verification after acceptance. [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) and [PR #129](https://github.com/udi-shapiro/Grassroots-Audit/pull/129). [Stage record](../../stages/99-pr127-129-gce-reports-20261125.json)

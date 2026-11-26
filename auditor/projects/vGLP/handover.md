@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+The audited Friendship platform now deduplicates in both effect clauses. #128 awaits an independent repeat-Acquaint run, the deployed platform check and the matching public paper. DAO's generated numeric descriptor is present for #151. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 116 — Request argument report published — 25 November 2026 UTC
 
 PR #154 preserved the dated compiler and paper claims. Public candidate 33f81f6 still diverges from GLP main at 1503cdd. #151 stays open for compiler/form integration, regeneration and runtime; the paper revision awaits public evidence. [Report PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/154) · [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/155) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/116-pr154-request-report-and-verification-20261125.json)

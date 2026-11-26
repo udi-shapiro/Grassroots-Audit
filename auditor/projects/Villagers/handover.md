@@ -1,3 +1,7 @@
+## Stage 127 — Public GLP integration — 26 November 2026 UTC
+
+The integrated Disputes schema passed the single-assignment and ruling controls. #177 proposes resolving #135. Warnings timing and Tennis quota and replacement remain open. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)
+
 ## Stage 125 — GCE Villagers answers merged; Warnings schema lags text — 25 November 2026 UTC
 
 [PR #164](https://github.com/udi-shapiro/Grassroots-Audit/pull/164) merged GCE #2’s dated answers for Disputes [#135](https://github.com/udi-shapiro/Grassroots-Audit/issues/135) and Warnings [#136](https://github.com/udi-shapiro/Grassroots-Audit/issues/136) at merge `23a8c87b`. This records the answers without verifying them. Public `Warnings.txt` at `e08383fd` states the seven-day delay and retained warning policy, but `Warnings.glp` at the exact commit remains the old undated, immediately counted schema. Keep #136 open pending regeneration, integration and focused controls. [Stage record](../../stages/125-chess-and-villagers-answers-20261125.json)
