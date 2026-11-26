@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T00:13:30.000Z",
-  "active_run": {
-    "run_id": "github-pr171-comment-7178510848",
-    "delivery_id": "0e4dc8bc-e92e-11f1-818a-ce9b58326252",
-    "acquired_at": "2026-11-26T00:13:30.000Z",
-    "expires_at": "2026-11-26T00:43:30.000Z",
-    "event": {
-      "pull_request_number": 171,
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "comment_id": 7178510848
-    }
-  },
+  "updated_at": "2026-11-26T00:22:00.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -44,7 +32,7 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 162,
+  "publication_pr": 171,
   "publication_merge_sha": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
   "source_verified": "e874d7a95d7cd6e6abd076463aeda8042f164e56",
   "processed_prs": [
@@ -2518,19 +2506,21 @@
     },
     {
       "number": 171,
-      "head_sha": "c219177daffb833f14500f0ab9b0ee331640ccfb",
-      "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
+      "head_sha": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+      "base_sha": "23a8c87ba262d48f397e1d9699bdffa684980264",
       "state": "open",
-      "updated_at": "2026-11-25T23:33:50Z",
+      "updated_at": "2026-11-26T00:20:30Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 2,
+        "comments": 4,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7177570166,
-          7177736956
+          7177736956,
+          7178510848,
+          7178648712
         ],
         "review_ids": [],
         "review_versions": [],
@@ -2542,28 +2532,41 @@
           {
             "id": 7177736956,
             "updated_at": "2026-11-25T23:33:50Z"
+          },
+          {
+            "id": 7178510848,
+            "updated_at": "2026-11-26T00:12:31Z"
+          },
+          {
+            "id": 7178648712,
+            "updated_at": "2026-11-26T00:20:20Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-25T23:33:50Z"
+        "latest_item_at": "2026-11-26T00:20:20Z"
       },
-      "comment_cursor": 7177736956,
+      "comment_cursor": 7178648712,
       "review_cursor": null,
       "delivery_ids": [
         "c69a637e-e926-11f1-8581-911359fd3e65",
         "afc2640c-e927-11f1-8ee1-6544937c9742",
-        "92b95edc-e928-11f1-8035-e31d5a043faf"
+        "92b95edc-e928-11f1-8035-e31d5a043faf",
+        "0e4dc8bc-e92e-11f1-818a-ce9b58326252",
+        "12054466-e92f-11f1-80fc-1ecb47ccbe48"
       ],
-      "notes": "GLP #19's dated proof-rewrite answer is preserved at the rebased exact head. Public papers is unchanged and the cited source is not available in public GLP. Finding #31 remains open; exact-head review and public rebuild verification are pending.",
+      "notes": "Public GLP-Spec proof repair verified at papers commit 039efdae and PDF blob 8182a24e. Proposition E.1 now normalizes the projected mgu and proves the run invariant through Reduce and Communicate. Finding #31 remains open for unchanged TGLP type/soundness and typed-runtime reconciliation. PR #171 rebased onto current main at exact head 3ce39f61; status regeneration is byte-identical.",
       "source_pins": {
-        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
-        "audit_pr_171_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "audit_main": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_pr_171_previous_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "audit_pr_171_head": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
         "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
-        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-        "glp_spec_pdf_blob": "a984213fc2cd8c1ca58dcc5f1ae94ab9d843faf0",
-        "claimed_private_source": "9d2dedb"
+        "glp_papers": "039efdae8576cfe876276364a9876ccb30fb04ea",
+        "glp_spec_pdf_blob": "8182a24e967a0e4b9f056038d627d59d35fb0c5d",
+        "iglp_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
+        "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/124-pr171-glp19-answer-public-rebuild-pending-20261125.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/126-pr171-public-glp-spec-proof-verification-20261126.json",
+      "own_publication": true
     },
     {
       "number": 172,
@@ -13911,6 +13914,122 @@
       "urls": {
         "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175"
       }
+    },
+    {
+      "processed_at": "2026-11-26T00:22:00.000Z",
+      "source_pins": {
+        "audit_main": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_pr_171_previous_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "audit_pr_171_head": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "039efdae8576cfe876276364a9876ccb30fb04ea",
+        "glp_spec_pdf_blob": "8182a24e967a0e4b9f056038d627d59d35fb0c5d",
+        "iglp_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
+        "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e"
+      },
+      "delivery_id": "0e4dc8bc-e92e-11f1-818a-ce9b58326252",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 171,
+      "comment_id": 7178510848,
+      "head_sha": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7177570166,
+          7177736956,
+          7178510848,
+          7178648712
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7177570166,
+            "updated_at": "2026-11-25T23:26:47Z"
+          },
+          {
+            "id": 7177736956,
+            "updated_at": "2026-11-25T23:33:50Z"
+          },
+          {
+            "id": 7178510848,
+            "updated_at": "2026-11-26T00:12:31Z"
+          },
+          {
+            "id": 7178648712,
+            "updated_at": "2026-11-26T00:20:20Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T00:20:20Z"
+      },
+      "outcome": "Verified the public GLP-Spec proof repair and published the exact-source result. Dependent TGLP/runtime reconciliation remains open.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171#issuecomment-7178510848",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171/commits/3ce39f61caf8f8983be8e2012813cf2ceed412f9"
+      }
+    },
+    {
+      "processed_at": "2026-11-26T00:22:00.000Z",
+      "source_pins": {
+        "audit_main": "23a8c87ba262d48f397e1d9699bdffa684980264",
+        "audit_pr_171_previous_head": "c219177daffb833f14500f0ab9b0ee331640ccfb",
+        "audit_pr_171_head": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_papers": "039efdae8576cfe876276364a9876ccb30fb04ea",
+        "glp_spec_pdf_blob": "8182a24e967a0e4b9f056038d627d59d35fb0c5d",
+        "iglp_pdf_blob": "7051ab6c64c9b67eaecc4aef95595ba43026567c",
+        "tglp_pdf_blob": "605ddff24122c85fa6ea9ec9344d9ee16a7f087e"
+      },
+      "delivery_id": "12054466-e92f-11f1-80fc-1ecb47ccbe48",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 171,
+      "comment_id": null,
+      "head_sha": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7177570166,
+          7177736956,
+          7178510848,
+          7178648712
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7177570166,
+            "updated_at": "2026-11-25T23:26:47Z"
+          },
+          {
+            "id": 7177736956,
+            "updated_at": "2026-11-25T23:33:50Z"
+          },
+          {
+            "id": 7178510848,
+            "updated_at": "2026-11-26T00:12:31Z"
+          },
+          {
+            "id": 7178648712,
+            "updated_at": "2026-11-26T00:20:20Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T00:20:20Z"
+      },
+      "outcome": "Own expected-SHA publication update already recorded in this run; no reply loop.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -13935,7 +14054,7 @@
   "latest_source_observed": {
     "audit_main": "23a8c87ba262d48f397e1d9699bdffa684980264",
     "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
-    "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-    "observed_at": "2026-11-25T23:48:30.000Z"
+    "glp_papers": "039efdae8576cfe876276364a9876ccb30fb04ea",
+    "observed_at": "2026-11-26T00:22:00.000Z"
   }
 }
