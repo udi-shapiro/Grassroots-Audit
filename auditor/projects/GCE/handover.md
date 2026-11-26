@@ -1,3 +1,7 @@
+## Stage 131 — Chess schemas and identifier scope — 26 November 2026 UTC
+
+Public candidate `c63b27ed9618f112d18db06b3329c94f5c7b70b6` regenerates two-party Start and the three draw paths. The static schema check and bounded Start projection pass. Disjoint pairs may reuse a raw game identifier under the project’s clarified identity rule. Keep #157, #160 and #161 open for public-main integration and executable controls. [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) preserves the dated follow-up. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)
+
 ## Stage 130 — Chess Start candidate checked — 26 November 2026 UTC
 
 Public GLP candidate `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` blocks the original shared-player Start cases in a bounded projection. Confirm game identifier scope across disjoint pairs and rerun on the integrated app. The candidate still lacks regenerated draw rules. [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) preserves both GCE answers. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)

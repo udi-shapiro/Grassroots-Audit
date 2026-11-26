@@ -1,3 +1,7 @@
+## Stage 131 — Chess generated schemas await executable integration — 26 November 2026 UTC
+
+Candidate `c63b27ed9618f112d18db06b3329c94f5c7b70b6` contains the regenerated Start and draw schemas and a Chess function library. The exact-source static check passes. GLP main remains `37d31ca95c6a599113dcf6eb0b8341f8202c3a47`. For #157, add public compiler support, build the platform and run legal, refused and mate controls. For #160 and #161, run the recorded draw and Start cases after integration. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)
+
 ## Stage 130 — Chess integration pending — 26 November 2026 UTC
 
 GLP PR #177 head `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` contains the updated generated Start but lacks the draw changes. GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` has no Chess. For #157, compile the platform when the function support arrives and run legal, refused and mate cases. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)

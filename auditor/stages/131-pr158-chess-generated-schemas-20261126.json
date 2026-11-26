@@ -1,0 +1,205 @@
+{
+  "stage": 131,
+  "recorded_at": "2026-11-26T05:27:34.226Z",
+  "title": "Chess generated schemas and identifier scope verified at the public candidate",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+    "audit_pr_175_previous_head": "bb21caa0ec008d2c1a4763e89f699e29b18f40c2",
+    "audit_pr_175_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "gce_source_candidate": "e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+    "calculus_adoption_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "generated_chess_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "chess_text_blob": "7c03af9068fad91832e32249869c6ad5d9c82975",
+    "test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a"
+  },
+  "events": [
+    {
+      "delivery_id": "9bc382f8-e957-11f1-8231-2e3e8ccbd091",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 158,
+      "comment_id": 7183237135,
+      "head_sha": "540ae62d4d659b19bc57d583b68385853d55cec1",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066,
+          7177358398,
+          7182998624,
+          7183237135,
+          7183465245
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          },
+          {
+            "id": 7177358398,
+            "updated_at": "2026-11-25T23:17:05Z"
+          },
+          {
+            "id": 7182998624,
+            "updated_at": "2026-11-26T04:53:53Z"
+          },
+          {
+            "id": 7183237135,
+            "updated_at": "2026-11-26T05:09:50Z"
+          },
+          {
+            "id": 7183465245,
+            "updated_at": "2026-11-26T05:24:58Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T05:24:58Z"
+      },
+      "processed_at": "2026-11-26T05:27:34.226Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+        "audit_pr_175_previous_head": "bb21caa0ec008d2c1a4763e89f699e29b18f40c2",
+        "audit_pr_175_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "gce_source_candidate": "e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+        "calculus_adoption_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "generated_chess_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "7c03af9068fad91832e32249869c6ad5d9c82975",
+        "test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a"
+      },
+      "outcome": "Preserved GCE’s identifier-scope and generated-draw follow-up in PR #175. Exact public source c63b27ed now contains the regenerated Start and draw schemas; a standalone static check and bounded Start projection pass. GLP function tests, compiler, cascade and app were not executed. Findings #157, #160 and #161 remain open for their recorded integration or execution work.",
+      "urls": {
+        "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183237135",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183465245",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "exact_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/131-pr158-chess-generated-schemas-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/131-chess-generated-schemas-20261126"
+      }
+    },
+    {
+      "delivery_id": "956b9312-e959-11f1-908c-1663da33539c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 175,
+      "comment_id": null,
+      "head_sha": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T05:27:34.226Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+        "audit_pr_175_previous_head": "bb21caa0ec008d2c1a4763e89f699e29b18f40c2",
+        "audit_pr_175_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "gce_source_candidate": "e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7",
+        "calculus_adoption_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "generated_chess_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "7c03af9068fad91832e32249869c6ad5d9c82975",
+        "test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a"
+      },
+      "outcome": "Own publication synchronization caused by preserving the new GCE reply and source verification. Exact head awaits independent review.",
+      "urls": {
+        "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183237135",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183465245",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "exact_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/131-pr158-chess-generated-schemas-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/131-chess-generated-schemas-20261126"
+      }
+    }
+  ],
+  "urls": {
+    "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183237135",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7183465245",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+    "exact_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
+    "candidate": "https://github.com/EShapiro2/GLP/commit/c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/131-pr158-chess-generated-schemas-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/131-chess-generated-schemas-20261126"
+  },
+  "project_claims": [
+    "GCE #2 clarifies that a Chess game identity consists of the raw identifier and the two players, so disjoint pairs may reuse the raw identifier.",
+    "GCE #2 cites e08383fdd for the source repair and c63b27ed for the Calculus adoption that regenerates Chess.glp.",
+    "GCE #1 remains open because the vGLP compiler does not yet accept the Chess function library. The project-reported checks were not independently rerun."
+  ],
+  "source_inspection": [
+    "Public branch claude/project-thread-otalyn is pinned at c63b27ed9618f112d18db06b3329c94f5c7b70b6. Its Chess.glp blob ab426a52 contains two-party Start guards and effects plus agreed, claimed and automatic draw schemas.",
+    "Chess-functions.glp blob aa061381 exports draw, autodraw and plies and parses the board inputs through string_to_term.",
+    "The test script blob 25a3d6c contains a GCE section with 53 named check or check_not calls. This is source inspection rather than execution.",
+    "GLP main remains 37d31ca95c6a599113dcf6eb0b8341f8202c3a47 and does not contain the candidate.",
+    "PR #158 remains on contributor head 540ae62d and conflicted with audit main. PR #175 is the separate main-based publication at exact head 6697b9de.",
+    "All six original core-paper findings have answers. The recorded core verification queue remains available."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 verify_chess_schema.py .",
+      "scope": "Exact pinned Chess text, functions and generated schema at c63b27ed, plus a bounded projection of the generated Start state.",
+      "result": {
+        "schema_checks": "10 of 10 passed",
+        "start_projection": "shared-player and reversed-pair starts blocked; a fresh identifier and a disjoint pair reusing the raw identifier are allowed",
+        "evidence": "auditor/evidence/131-chess-generated-schemas-20261126/verification.json"
+      }
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete proposed PR #175 tree",
+      "result": "37 reports, 69 findings, 12 unanswered; sections/status-table.tex is byte-identical to the prior PR head"
+    }
+  ],
+  "unexecuted": [
+    "No GLP runtime, Dart compiler, cascade or app check ran. Dart and Flutter were unavailable.",
+    "Function semantics and the project-reported GCE test results were not independently executed."
+  ],
+  "outcome": "PR #175 preserves the dated project follow-up and publishes the independent static verification. Finding #161 is verified at the generated-schema scope. Findings #157, #160 and #161 remain open for public-main integration and their recorded executable checks. The #175 synchronization was this run’s own publication echo.",
+  "next": {
+    "157": "Add public compiler support for the Chess function library, build the platform and execute legal, refused and mate controls.",
+    "160": "Integrate c63b27ed or a descendant into public main and independently execute agreed, claimed and automatic draw controls.",
+    "161": "Integrate the generated Start repair into public main and independently execute shared-player, reversed-pair, fresh-identifier and disjoint-pair controls.",
+    "175": "Obtain an independent exact-head review before merge."
+  }
+}

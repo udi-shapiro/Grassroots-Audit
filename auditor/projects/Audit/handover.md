@@ -1,3 +1,7 @@
+## Stage 131 — Chess follow-up publication refreshed — 26 November 2026 UTC
+
+[PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at exact head `6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5` preserves GCE’s identifier-scope clarification and the generated-schema verification. It is based on audit main and awaits independent exact-head review. Status regenerates at 37 reports, 69 findings and 12 unanswered. PR #158 remains open with its contributor head intact. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)
+
 ## Stage 130 — Chess publication refreshed — 26 November 2026 UTC
 
 [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at `bb21caa0ec008d2c1a4763e89f699e29b18f40c2` includes current audit main and awaits independent exact-head review. It preserves the GCE answers and keeps all three findings open. Status regenerates at 37 reports, 69 findings and 12 unanswered. PR #158 remains open with its contributor head intact. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)

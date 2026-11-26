@@ -1,0 +1,45 @@
+{
+  "source_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+  "source_blobs": {
+    "programs/gce/chess/Chess.glp": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "programs/gce/chess/Chess-functions.glp": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "programs/gce/chess/Chess.txt": "7c03af9068fad91832e32249869c6ad5d9c82975",
+    "test/run_all_tests.sh": "25a3d6c430b653c7361ae13a5913fb18808b708a"
+  },
+  "sha256": {
+    "Chess.glp": "10fbc4962c1b71b4cf5eb579c4555175cddbab169ff9c5990a96dfeda16afc14",
+    "Chess-functions.glp": "cff49f5f94480ff7020ac08f3b26afa254f285276154b6199f135d62a021facb",
+    "Chess.txt": "0b76a513ba2d4654e3a42653d19254d1731cbc5e33d37762b6b45dadd8ef4c0e"
+  },
+  "schema_checks": {
+    "start_checks_both": true,
+    "start_records_both": true,
+    "start_black_checks_both": true,
+    "start_black_records_both": true,
+    "agreed_draw_plies_guard": true,
+    "claim_draw_turn_and_claim": true,
+    "drawing_move_automatic": true,
+    "draw_functions_exported": true,
+    "function_inputs_parsed": true,
+    "text_declares_scope": true
+  },
+  "start_projection": {
+    "shared_first_role_blocked": true,
+    "shared_second_role_blocked": true,
+    "reversed_pair_blocked": true,
+    "fresh_id_allowed": true,
+    "disjoint_pair_same_raw_id_allowed": true
+  },
+  "test_observation": {
+    "c63b27ed_run_all_tests_blob_has_gce_section": true,
+    "c63b27ed_gce_named_check_calls": 53,
+    "c63b27ed_test_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a",
+    "e08383fdd_test_patch_inspected": true,
+    "e08383fdd_test_blob": "37f9d6db74cfb502cc41d6092a42646a2f6620c1"
+  },
+  "limits": [
+    "Static generated-schema and bounded state check only.",
+    "No GLP, Dart, compiler, cascade, or app execution.",
+    "Function semantics and project-reported GCE test results were not independently executed."
+  ]
+}

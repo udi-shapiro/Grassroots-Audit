@@ -1,3 +1,7 @@
+## Stage 131 — Chess function compilation remains open — 26 November 2026 UTC
+
+The public candidate exports draw, autodraw and plies and regenerates Chess.glp, while GLP main remains unchanged. The source-level schema checks pass. Finding #157 stays open until the vGLP compiler accepts the Chess function library and the compiled acts run. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)
+
 ## Stage 130 — Chess function support pending — 26 November 2026 UTC
 
 The compiler on public GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` and Chess candidate `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` still recognizes only min, floor and size in fn_named. Keep Chess #157 open for compiler support and executable checks. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)
