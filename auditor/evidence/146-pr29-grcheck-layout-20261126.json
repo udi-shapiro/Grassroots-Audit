@@ -11,7 +11,10 @@
     "grcheck_blob": "cc07d316745ca9498d8394309c2134eb61f57515",
     "names_blob": "e393bd6a576b0a37b04e7004d250e04330882e4f",
     "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
-    "claimed_private_calculus_commit": "8e512067"
+    "claimed_private_calculus_commit": "8e512067",
+    "audit_status_table_pr_blob": "2e1a32f507ca489037c3663a7a94c4106d5476c4",
+    "audit_issues_pr_blob": "d3731864e40f7dec6d5c95812b05199714092d32",
+    "audit_status_narrative_pr_blob": "c2cd94cdaafc649a1c2831b472b7bce4de34d4b4"
   },
   "audit_observations": {
     "pr_29_base": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",

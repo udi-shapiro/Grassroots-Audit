@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T14:34:00.000Z",
-  "active_run": {
-    "run_id": "webhook-0564fb14-e9a4-pin-correction",
-    "acquired_at": "2026-11-26T14:34:00.000Z",
-    "expires_at": "2026-11-26T14:44:00.000Z",
-    "expected_gpt_auditor_head": "cf135a3098d3e2d238a0954fcb9a5689a48cd66a",
-    "events": [
-      {
-        "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
-        "pull_request_number": 29,
-        "event_type": "pull_request",
-        "action": "ledger-pin-correction"
-      }
-    ]
-  },
+  "updated_at": "2026-11-26T14:35:00.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -2211,13 +2198,15 @@
         "audit_main_current": "708768960724842725766e59c3f2909042918ba1",
         "audit_pr_29": "a69f4686202a1a28fd45ff0afd3cccbbdbee3c6c",
         "audit_report_blob": "8da9b737038ff522ee27e96575769713bb65be56",
-        "audit_status_table_pr_blob": "2e1a32f",
+        "audit_status_table_pr_blob": "2e1a32f507ca489037c3663a7a94c4106d5476c4",
         "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
         "grcheck_blob": "cc07d316745ca9498d8394309c2134eb61f57515",
         "names_blob": "e393bd6a576b0a37b04e7004d250e04330882e4f",
         "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
-        "claimed_private_calculus_commit": "8e512067"
+        "claimed_private_calculus_commit": "8e512067",
+        "audit_issues_pr_blob": "d3731864e40f7dec6d5c95812b05199714092d32",
+        "audit_status_narrative_pr_blob": "c2cd94cdaafc649a1c2831b472b7bce4de34d4b4"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/146-pr29-grcheck-layout-20261126.json",
       "mergeable": false
