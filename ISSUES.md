@@ -1,6 +1,6 @@
 # Audit issues
 
-Updated 26 November 2026. The 37 published reports contain **67 numbered findings**. **26 are resolved and 41 remain open.** Of the 41 open findings, 32 have project answers and 9 await a first answer. Three resolved findings also have no recorded project answer. Verified resolutions include withdrawn claims. Each report retains its attributed answers and verification history.
+Updated 26 November 2026. The 37 published reports contain **67 numbered findings**. **27 are resolved and 40 remain open.** Of the 40 open findings, 31 have project answers and 9 await a first answer. Three resolved findings also have no recorded project answer. Verified resolutions include withdrawn claims. Each report retains its attributed answers and verification history.
 
 All six original core findings now have answers, including vGLP's merged [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23). The answer-based hold has therefore ended. Their revised proofs and code still require independent verification.
 
@@ -50,16 +50,16 @@ All six original core findings now have answers, including vGLP's merged [PR #23
 | vGLP and Calculus, with Code | [#111](https://github.com/udi-shapiro/Grassroots-Audit/issues/111) | [Compiler #1 · Duplicate condition in the single-copy case](programs/vglp/cva/compiler/cvac.glp.md#finding-1-an-act-that-names-a-condition-it-also-deletes-is-always-refused) | The generator fixture passed independently. The retained platform run is project evidence. | Run CVA once independently, including rank/rank2 positive and negative controls. |
 | vGLP | [#112](https://github.com/udi-shapiro/Grassroots-Audit/issues/112) | [Compiler #2 · Role-local equality chain](programs/vglp/cva/compiler/cvac.glp.md#finding-2-an-act-with-a-number-in-no-atom-not-defined-by-an-equation-is-refused) | The retained CVA ranks controls distinguish the two paths. Runtime evidence is attributed to vGLP. | Run CVA ranks independently with derived and request-supplied value controls. |
 | vGLP | [#113](https://github.com/udi-shapiro/Grassroots-Audit/issues/113) | [Compiler #3 · Missing diagnostic for ineligible act](programs/vglp/cva/compiler/cvac.glp.md#finding-3-an-act-that-deletes-and-adds-the-same-atom-loses-its-button) | The retained CVA deads result records compilation refusal and the diagnostic. Runtime evidence is attributed to vGLP. | Run CVA deads independently and check the named diagnostic. |
-| Calculus, with GCE | [#126](https://github.com/udi-shapiro/Grassroots-Audit/issues/126) | [gcsas.py #1 · A union declaring one predicate differently is accepted](calculus/tools/gcsas.py.md#finding-1-a-union-of-two-contracts-that-declare-one-predicate-differently-is-accepted) | The Calculus answers with the candidate `c13e54e` and `Corrected: 629a799` (GLP main) in [PR #127](https://github.com/udi-shapiro/Grassroots-Audit/pull/127). The auditor reran the focused fixture and controls at both; the catalogue-wide claim is project evidence. | Auditor's closing verification. |
 
 The pending status above does not assert that a claimed correction is wrong. It identifies the verification still needed. The latest checks and their limits are in each linked report; no new runtime or proof validation is claimed by this index.
 
 ## Verified corrections
 
-These are the 26 resolved numbered findings. They remain visible for history and regression tracking, with their original identifiers.
+These are the 27 resolved numbered findings. They remain visible for history and regression tracking, with their original identifiers.
 
 | Project | GitHub issue | Finding and report | Recorded verification |
 | --- | --- | --- | --- |
+| Calculus, with GCE | [#126](https://github.com/udi-shapiro/Grassroots-Audit/issues/126) | [gcsas.py #1 · A union declaring one predicate differently is accepted](calculus/tools/gcsas.py.md#finding-1-a-union-of-two-contracts-that-declare-one-predicate-differently-is-accepted) | The committed union-declarations fixture matched its expectation on GLP `fc2e7284`. It rejects the conflicting union and accepts both controls. [Report and answers](https://github.com/udi-shapiro/Grassroots-Audit/pull/127) |
 | Calculus | [#98](https://github.com/udi-shapiro/Grassroots-Audit/issues/98) | [Calculus paper #21 · Definition 3 excludes agent identifications used by the catalogue](calculus/contracts.md#finding-21-definition-3-excludes-agent-identifications-used-by-the-catalogue) | Definition 3 allows declared coincident agents and Definition 4 checks their combined effects. |
 | Calculus | [#100](https://github.com/udi-shapiro/Grassroots-Audit/issues/100) | [Calculus paper #23 · The allowed local constraints can exclude the designated initial state](calculus/contracts.md#finding-23-the-allowed-local-constraints-can-exclude-the-designated-initial-state) | Calculus (11), p. 5, expressly requires constraints to hold in the empty state. |
 | Calculus | [#101](https://github.com/udi-shapiro/Grassroots-Audit/issues/101) | [Calculus paper #24 · Section 4 needs to specify which runs weakening preserves](calculus/contracts.md#finding-24-section-4-needs-to-specify-which-runs-weakening-preserves) | The general claim of correct-run inclusion was withdrawn. No such theorem remains in Section 4. |

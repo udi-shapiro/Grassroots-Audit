@@ -75,3 +75,9 @@ What they record:
 3. **The integration 629a799.** GLP main was exactly 629a799, a merge holding c13e54e, with the focused `gcsas.py`, test runner, registry and fixture blobs byte-identical to the candidate's. The auditor reran the fixture there: it matched its expectation and refused the union; the controls still passed.
 
 The claim that all 91 catalogue outputs are unchanged remains project evidence: the auditor ran only the focused fixture and controls.
+
+#### Auditor verification, 26 November 2026
+
+**Verified corrected for the reported union-declaration collision.** In Python 3.12.14, the committed `union-declarations` fixture on [public GLP main `fc2e7284`](https://github.com/EShapiro2/GLP/commit/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7) matched `expect.txt` line for line. The diagnostic names `member/2`, Clubs and Markets, the two phrases, and the required rename. Two scratch controls changed only the Markets fixture. Identical declarations remained accepted, and renaming the market predicate to `market_member/2` also kept the union accepted. Both controls reported zero faults. The source and fixture files used for the replay matched their pinned Git blobs.
+
+GLP main contains the earlier integration `629a79983fa597189988808445a0a19b0e3fb330`. The compiler has changed since that integration, so this check reran the fixture against the current code. This disposition supersedes the pending status above. The contributor’s Groups/Agora run describes the original submission’s source pin. The 91-contract regression remains project evidence, and the semantic question about aliases remains outside this finding’s disposition. [Accepted report and dated responses](https://github.com/udi-shapiro/Grassroots-Audit/pull/127)
