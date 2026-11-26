@@ -1,3 +1,9 @@
+## Stage 135 — vGLP refusal reason candidate — 26 November 2026 UTC
+
+Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249) · [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/181) · [Stage](../../stages/135-pr180-vglp-unmet-answer-20261126.json)
+
+Next: await independent review of PR #181. Keep #179 open until the atomless fallback is neutral, the paper and code are public and integrated, and all four refusal paths have focused runtime evidence.
+
 ## Stage 134 — Warnings publication refreshed — 26 November 2026 UTC
 
 [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) now has exact head `71486af79a44db4b0a35657a21a02f46237c5229`. It preserves GCE’s answer and publishes the independent 14/14 candidate control result with its execution boundary. Status regenerates at 36 reports, 66 findings and 12 unanswered. Await independent exact-head review. Finding #136 remains open. [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)

@@ -1,0 +1,193 @@
+{
+  "stage": 135,
+  "recorded_at": "2026-11-26T08:35:00.000Z",
+  "title": "vGLP unmet-constraint answer and candidate verification",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+    "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+    "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "numbers_platform_blob": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
+    "numbers_play_blob": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
+    "glp_test_script_blob": "b639400b844c5f94232d453a763fb0928aff0dbf",
+    "compiler_readme_blob": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc",
+    "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
+    "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
+    "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+  },
+  "events": [
+    {
+      "delivery_id": "b97b568a-e971-11f1-8531-ccb69cff1d5f",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 180,
+      "comment_id": 7186402428,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7186402428,
+          7186657249
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7186402428,
+            "updated_at": "2026-11-26T08:16:46Z"
+          },
+          {
+            "id": 7186657249,
+            "updated_at": "2026-11-26T08:29:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:29:28Z"
+      },
+      "processed_at": "2026-11-26T08:35:00.000Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+        "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
+        "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+        "numbers_platform_blob": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
+        "numbers_play_blob": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
+        "glp_test_script_blob": "b639400b844c5f94232d453a763fb0928aff0dbf",
+        "compiler_readme_blob": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc",
+        "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
+        "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
+        "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+      },
+      "outcome": "Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review.",
+      "urls": {
+        "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/135-pr180-vglp-unmet-answer-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/135-vglp-unmet-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "3ecfd580-e973-11f1-91af-ea76f9db40ce",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 181,
+      "comment_id": null,
+      "head_sha": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T08:35:00.000Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+        "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
+        "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+        "numbers_platform_blob": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
+        "numbers_play_blob": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
+        "glp_test_script_blob": "b639400b844c5f94232d453a763fb0928aff0dbf",
+        "compiler_readme_blob": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc",
+        "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
+        "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
+        "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+      },
+      "outcome": "Recorded the own main-based publication at exact head f1d211fc. No discussion reply or merge was produced from its webhook event. Independent review is pending.",
+      "urls": {
+        "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/135-pr180-vglp-unmet-answer-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/135-vglp-unmet-20261126.json"
+      }
+    }
+  ],
+  "urls": {
+    "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+    "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "candidate": "https://github.com/EShapiro2/GLP/commit/35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/135-pr180-vglp-unmet-answer-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/135-vglp-unmet-20261126.json"
+  },
+  "project_claims": [
+    "vGLP reports paper commit 3ae9b56 on a separate vGLP repository branch and GLP candidate 35454a65 on vglp36-unmet.",
+    "vGLP reports that unable(Lacks, Has, Unmet) names failed local constraint conjuncts, 38 platforms were regenerated, and the Numbers control reports le(num(d), num(t)).",
+    "vGLP reports 1463 of 1464 Section VG checks passing, with the remaining failure outside vGLP."
+  ],
+  "source_inspection": [
+    "Public candidate 35454a65 is based on 10f3fc71, remains outside public GLP main 37d31ca9, and changes exactly 38 programs/vglp/cva/*/platform.vglp files.",
+    "Compiler blob 9a4848ae extends the reason to unable(Lacks, Has, Unmet), computes Unmet only when required atoms are present, and retains the original failed conjunct text.",
+    "Numbers platform 08d73b84 and play 18a9205c contain the le(num(d), num(t)) constraint and expected explicit Unmet reason.",
+    "The candidate still emits unable([], [], []) for an ended named request and bare unable for joined-condition failure and dropped requests.",
+    "Paper commit 3ae9b56 is absent from the observed public GLP papers branch 3f3d5033."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 candidate-35454a65/check_unmet.py",
+      "scope": "Exact compiler blob 9a4848ae, Numbers platform blob 08d73b84, and Numbers play blob 18a9205c from candidate 35454a65",
+      "result": "Exit 0. All 10 focused source assertions passed, including explicit Unmet construction and the three remaining atomless or bare-reason paths."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete exact main-based publication tree at PR #181 head f1d211fc",
+      "result": "36 reports, 67 findings, 12 unanswered. The generated table is blob 6ea84058."
+    }
+  ],
+  "unexecuted": [
+    "The GLP runtime, project Section VG suite, Dart, Flutter, an app walk, and a paper build were not executed.",
+    "The separate paper repository and private project repositories were not used."
+  ],
+  "outcome": "Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review.",
+  "next": "Await independent exact-head review of PR #181. Keep #179 open. Require neutral wording for atomless reasons, public paper and code integration, and focused runtime controls for an ended request, a joined-condition failure, a dropped request, and a genuine failed constraint."
+}

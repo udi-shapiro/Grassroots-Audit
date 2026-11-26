@@ -1,0 +1,157 @@
+{
+  "recorded_at": "2026-11-26T08:35:00.000Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+    "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+    "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "numbers_platform_blob": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
+    "numbers_play_blob": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
+    "glp_test_script_blob": "b639400b844c5f94232d453a763fb0928aff0dbf",
+    "compiler_readme_blob": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc",
+    "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
+    "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
+    "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+  },
+  "repository_observations": {
+    "candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+    "candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
+    "candidate_changed_files": 47,
+    "candidate_changes": {
+      "additions": 1517,
+      "deletions": 579,
+      "total_lines": 2096
+    },
+    "regenerated_platforms": 38,
+    "publication": {
+      "number": 181,
+      "base": "main",
+      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "head": "gpt-publish-vglp-unmet-35454a65",
+      "head_sha": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+      "state": "open",
+      "changed_files": 4,
+      "discussion": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
+    },
+    "source_pr": {
+      "number": 180,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "state": "open",
+      "discussion": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7186402428,
+          7186657249
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7186402428,
+            "updated_at": "2026-11-26T08:16:46Z"
+          },
+          {
+            "id": 7186657249,
+            "updated_at": "2026-11-26T08:29:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:29:28Z"
+      }
+    }
+  },
+  "exact_artifacts": {
+    "candidate": {
+      "programs/vglp/cva/compiler/text.glp": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+      "programs/vglp/cva/numbers/platform.vglp": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
+      "programs/vglp/cva/numbers/self/play.vglp": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
+      "test/run_all_tests.sh": "b639400b844c5f94232d453a763fb0928aff0dbf",
+      "programs/vglp/cva/compiler/README.md": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc"
+    },
+    "publication": {
+      "papers/vGLP.pdf.md": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
+      "ISSUES.md": "67619a6e54f4fe575279a67640ca52c5f89ab843",
+      "sections/04-status.tex": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+      "sections/status-table.tex": "6ea8405886c4fb08c7611a6da8868774da70e239"
+    }
+  },
+  "executed": {
+    "focused_source_assertions": {
+      "command": "python3 candidate-35454a65/check_unmet.py",
+      "interpreter": "Python 3",
+      "exit_code": 0,
+      "passed": 10,
+      "failed": 0,
+      "assertions": [
+        "reason_has_unmet",
+        "domain_reason_builds_unmet",
+        "unmet_only_after_no_missing_atoms",
+        "missing_atoms_suppress_unmet",
+        "failed_conjunct_keeps_contract_text",
+        "ended_request_still_empty_reason",
+        "joined_failure_still_bare_unable",
+        "request_drop_still_bare_unable",
+        "numbers_constraint_present",
+        "numbers_play_expects_unmet"
+      ],
+      "limitation": "This check inspects exact source text and generated artifacts. It does not execute GLP."
+    },
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+    }
+  },
+  "verified_by_source": [
+    "Explicit Unmet entries identify genuine local constraint failures.",
+    "Missing required atoms suppress Unmet.",
+    "The failed conjunct retains contract vocabulary.",
+    "The Numbers example expects le(num(d), num(t))."
+  ],
+  "remaining_disagreement": [
+    "Ended named requests can still carry unable([], [], []).",
+    "Joined-condition and dropped-request paths can still carry bare unable.",
+    "Describing every atomless reason as a failed value condition remains inaccurate."
+  ],
+  "unexecuted": [
+    "GLP runtime",
+    "Section VG suite",
+    "Dart",
+    "Flutter",
+    "app walk",
+    "paper build"
+  ],
+  "finding_status": {
+    "issue": 179,
+    "status": "open",
+    "next": "Use a neutral fallback for unknown atomless reasons, integrate public paper and code, and run focused controls for all four refusal paths."
+  }
+}

@@ -1,3 +1,9 @@
+## Stage 135 — vGLP refusal reason candidate — 26 November 2026 UTC
+
+Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249) · [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/181) · [Stage](../../stages/135-pr180-vglp-unmet-answer-20261126.json)
+
+Next: await independent review of PR #181. Keep #179 open until the atomless fallback is neutral, the paper and code are public and integrated, and all four refusal paths have focused runtime evidence.
+
 ## Stage 134 — Warnings candidate awaiting integration — 26 November 2026 UTC
 
 Code’s next public GLP merge should carry exact Warnings candidate `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3`. Preserve the regenerated blobs recorded in Stage 134, then exercise the integrated generated request and sanction path. The focused Python deadline control passed 14/14. The GLP runtime and full cascade/GCE checks remain pending. [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)
