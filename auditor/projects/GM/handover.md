@@ -1,3 +1,9 @@
+## Stage 139 — Tennis Interface pragmas candidate — 26 November 2026 UTC
+
+Preserved GM’s Tennis answer and load addendum in [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) at exact head `05729b16`. Public candidates `ec7fd250` and `99368551` add Tennis and Rehearsal Interface pragmas in matching owner/cascade source copies. Their committed cascade records still carry the earlier no-pragmas placeholders. The reported cascades and `glpc` loads were not rerun. Finding #137 remains open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824) · [Addendum](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600) · [Stage](../../stages/139-pr177-tennis-pragmas-20261126.json)
+
+Next: integrate the sources and filename-space fix on main, check in the generated owner records, execute the focused cascade and load path, and resolve both-player quota accounting.
+
 ## Stage 136 — Warnings and Tennis public-main integration — 26 November 2026 UTC
 
 Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work. [Project answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7186960355) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7187114893) · [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage](../../stages/136-pr177-warnings-tennis-main-integration-20261126.json)

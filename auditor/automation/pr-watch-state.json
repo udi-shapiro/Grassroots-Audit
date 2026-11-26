@@ -1,22 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:35:11.287Z",
-  "active_run": {
-    "run_id": "stage139-pr177-tennis-pragmas",
-    "event": {
-      "delivery_id": "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "pull_request_number": 177,
-      "comment_id": 7188066824
-    },
-    "additional_events": [],
-    "acquired_at": "2026-11-26T09:35:11.287Z",
-    "expires_at": "2026-11-26T10:05:11.287Z",
-    "expected_head_sha": "b1cbca12cbd083b51b5ff5c0f9e36a2198e667a4"
-  },
+  "updated_at": "2026-11-26T09:43:56.913Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -36,17 +22,17 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "6b259768-e979-11f1-8740-d320ef34e7aa",
-      "event": "PR181 vGLP neutral fallback answer and candidate",
-      "pull_request_number": 181,
-      "observed_at": "2026-11-26T09:30:27.740Z",
-      "outcome": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open."
+      "delivery_id": "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
+      "event": "PR177 Tennis Interface pragmas answer and load addendum",
+      "pull_request_number": 177,
+      "observed_at": "2026-11-26T09:43:56.913Z",
+      "outcome": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics."
     },
     "environment_selection": "inherited",
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 181,
+  "publication_pr": 177,
   "publication_merge_sha": null,
   "source_verified": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
   "processed_prs": [
@@ -113,21 +99,23 @@
     },
     {
       "number": 177,
-      "head_sha": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+      "head_sha": "05729b16ef3dd4769a4995d681b70b3d15deba09",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T08:52:41Z",
+      "updated_at": "2026-11-26T09:41:42Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 4,
+        "comments": 6,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7185222173,
           7185368317,
           7186960355,
-          7187114893
+          7187114893,
+          7188066824,
+          7188256600
         ],
         "review_ids": [],
         "review_versions": [],
@@ -147,12 +135,20 @@
           {
             "id": 7187114893,
             "updated_at": "2026-11-26T08:51:55Z"
+          },
+          {
+            "id": 7188066824,
+            "updated_at": "2026-11-26T09:29:44Z"
+          },
+          {
+            "id": 7188256600,
+            "updated_at": "2026-11-26T09:38:01Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T08:51:55Z"
+        "latest_item_at": "2026-11-26T09:38:01Z"
       },
-      "comment_cursor": 7187114893,
+      "comment_cursor": 7188256600,
       "review_cursor": null,
       "delivery_ids": [
         "9ca3db1a-e933-11f1-92fb-a58a3697fe66",
@@ -160,43 +156,41 @@
         "de9667e4-e961-11f1-9bcd-2558dd50b12e",
         "d9425fc6-e968-11f1-86a2-b04c4ca8b172",
         "db7ea802-e969-11f1-8401-7413d1fde4f2",
-        "96e403ca-e975-11f1-9be1-29b25f0ef7ff"
+        "96e403ca-e975-11f1-9be1-29b25f0ef7ff",
+        "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
+        "4dac6032-e97d-11f1-9b82-f749f89fceb0",
+        "963b2b3a-e97d-11f1-832b-8728a1fd8381"
       ],
       "own_publication": true,
-      "notes": "Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work.",
+      "notes": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
-        "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+        "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
         "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
-        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
-        "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-        "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
-        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
-        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
-        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
-        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
-        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
-        "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
-        "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
-        "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-        "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
-        "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
-        "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
-        "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
-        "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
-        "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
-        "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
+        "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+        "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+        "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+        "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+        "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+        "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+        "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+        "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+        "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+        "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+        "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
         "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/136-warnings-tennis-integration-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json",
       "own_comment_ids": [
         7185368317,
         7187114893
-      ]
+      ],
+      "mergeable": true
     },
     {
       "number": 176,
@@ -16231,24 +16225,288 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
       }
+    },
+    {
+      "delivery_id": "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7188066824,
+      "head_sha": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317,
+          7186960355,
+          7187114893,
+          7188066824,
+          7188256600
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          },
+          {
+            "id": 7186960355,
+            "updated_at": "2026-11-26T08:44:27Z"
+          },
+          {
+            "id": 7187114893,
+            "updated_at": "2026-11-26T08:51:55Z"
+          },
+          {
+            "id": 7188066824,
+            "updated_at": "2026-11-26T09:29:44Z"
+          },
+          {
+            "id": 7188256600,
+            "updated_at": "2026-11-26T09:38:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:38:01Z"
+      },
+      "processed_at": "2026-11-26T09:43:56.913Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+        "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+        "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+        "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+        "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+        "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+        "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+        "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+        "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+        "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+        "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+        "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "tennis_candidate": "https://github.com/EShapiro2/GLP/commit/ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "rehearsal_candidate": "https://github.com/EShapiro2/GLP/commit/99368551f5e4185236e6cf3519601c9aad2a251c",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "4dac6032-e97d-11f1-9b82-f749f89fceb0",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 177,
+      "comment_id": null,
+      "head_sha": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317,
+          7186960355,
+          7187114893,
+          7188066824,
+          7188256600
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          },
+          {
+            "id": 7186960355,
+            "updated_at": "2026-11-26T08:44:27Z"
+          },
+          {
+            "id": 7187114893,
+            "updated_at": "2026-11-26T08:51:55Z"
+          },
+          {
+            "id": 7188066824,
+            "updated_at": "2026-11-26T09:29:44Z"
+          },
+          {
+            "id": 7188256600,
+            "updated_at": "2026-11-26T09:38:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:38:01Z"
+      },
+      "processed_at": "2026-11-26T09:43:56.913Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+        "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+        "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+        "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+        "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+        "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+        "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+        "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+        "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+        "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+        "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+        "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Own publication synchronization at intermediate head 6a8e1a47. Recorded without a reply loop.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "tennis_candidate": "https://github.com/EShapiro2/GLP/commit/ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "rehearsal_candidate": "https://github.com/EShapiro2/GLP/commit/99368551f5e4185236e6cf3519601c9aad2a251c",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "963b2b3a-e97d-11f1-832b-8728a1fd8381",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 177,
+      "comment_id": null,
+      "head_sha": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317,
+          7186960355,
+          7187114893,
+          7188066824,
+          7188256600
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          },
+          {
+            "id": 7186960355,
+            "updated_at": "2026-11-26T08:44:27Z"
+          },
+          {
+            "id": 7187114893,
+            "updated_at": "2026-11-26T08:51:55Z"
+          },
+          {
+            "id": 7188066824,
+            "updated_at": "2026-11-26T09:29:44Z"
+          },
+          {
+            "id": 7188256600,
+            "updated_at": "2026-11-26T09:38:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:38:01Z"
+      },
+      "processed_at": "2026-11-26T09:43:56.913Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+        "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+        "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+        "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+        "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+        "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+        "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+        "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+        "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+        "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+        "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+        "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Own publication synchronization at final head 05729b16. Recorded without a reply loop.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "tennis_candidate": "https://github.com/EShapiro2/GLP/commit/ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "rehearsal_candidate": "https://github.com/EShapiro2/GLP/commit/99368551f5e4185236e6cf3519601c9aad2a251c",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
-    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+    "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
-    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
-    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
-    "code_form_ahead_of_vglp": 21,
-    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
-    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
-    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
-    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
-    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
-    "observed_at": "2026-11-26T09:30:27.740Z"
+    "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+    "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+    "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+    "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+    "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+    "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+    "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+    "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+    "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+    "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+    "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+    "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+    "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
+    "observed_at": "2026-11-26T09:43:56.913Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -16258,26 +16516,32 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T09:30:27.740Z",
-    "last_stage": 138,
+    "last_reconciled_at": "2026-11-26T09:43:56.913Z",
+    "last_stage": 139,
     "processed_through_pr": 181,
-    "notes": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open."
+    "notes": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
-    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+    "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
-    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
-    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
-    "code_form_ahead_of_vglp": 21,
-    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
-    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
-    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
-    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
-    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
-    "observed_at": "2026-11-26T09:30:27.740Z"
+    "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+    "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+    "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+    "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+    "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+    "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+    "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+    "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+    "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+    "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+    "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+    "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+    "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
+    "observed_at": "2026-11-26T09:43:56.913Z"
   }
 }

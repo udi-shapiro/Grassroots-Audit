@@ -1,0 +1,77 @@
+{
+  "stage": 139,
+  "collected_at": "2026-11-26T09:43:56.913Z",
+  "boundary": "Public EShapiro2/GLP source only.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+    "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+    "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+    "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+    "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+    "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+    "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+    "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+    "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+    "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+    "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+    "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+    "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+    "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "source_inspection": {
+    "tennis": {
+      "commit": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+      "changed_files": [
+        "programs/gm/Tennis-Courts.txt",
+        "cascade/Tennis-Courts/Tennis-Courts.txt"
+      ],
+      "source_copies_equal": true,
+      "assertions_passed": 9,
+      "checked_in_generated_state": "Earlier no-pragmas placeholder; no platform.glp or interface.glp."
+    },
+    "rehearsal": {
+      "commit": "99368551f5e4185236e6cf3519601c9aad2a251c",
+      "relation_to_tennis": "one commit ahead",
+      "changed_files": [
+        "programs/gm/Rehearsal-Rooms.txt",
+        "cascade/Rehearsal-Rooms/Rehearsal-Rooms.txt"
+      ],
+      "source_copies_equal": true,
+      "checked_in_generated_state": "Earlier no-pragmas placeholder; no platform.glp or interface.glp."
+    }
+  },
+  "project_claims": [
+    {
+      "claim": "Tennis cascade certified, generated 9553-line platform.vglp, 5994-line loading platform.glp and 1417 interface items.",
+      "verification": "not rerun; generated artifacts absent from candidate tree"
+    },
+    {
+      "claim": "Rehearsal cascade generated 9455-line platform.vglp, 5959-line loading platform.glp and 1417 interface items.",
+      "verification": "not rerun; generated artifacts absent from candidate tree"
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "result": "36 reports, 66 findings, 12 unanswered",
+      "git_blob": "be3769555199851961813c2eff8eea75379b48eb"
+    }
+  ],
+  "conclusion": "Interface pragma source corrections are present. Executable integration and quota closure remain pending.",
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824",
+    "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/05729b16ef3dd4769a4995d681b70b3d15deba09",
+    "tennis_candidate": "https://github.com/EShapiro2/GLP/commit/ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+    "rehearsal_candidate": "https://github.com/EShapiro2/GLP/commit/99368551f5e4185236e6cf3519601c9aad2a251c",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json"
+  }
+}
