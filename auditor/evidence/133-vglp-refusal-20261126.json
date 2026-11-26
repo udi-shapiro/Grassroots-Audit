@@ -1,0 +1,127 @@
+{
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "papers_vglp_blob": "022267290c33bd04d4e953eaedc8effbaff5edeb",
+    "reported_code": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "compiler_at_reported_code": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+    "compiler_at_glp_main": "644c276ae807b6557dfe43ee471604e3600e81f5",
+    "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+    "walk_test_blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+    "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+    "notice_widget_blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b"
+  },
+  "checks": {
+    "historic": {
+      "blob": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+      "positive_domain_line": 2841,
+      "named_request_line": 2845,
+      "empty_vote_line": 2876,
+      "request_drop_line": 1101,
+      "joined_condition_line": 2998,
+      "atoms_only_line": 4188,
+      "caller_lines": [
+        "    '    ended_notice(En?, P?, Id?, D?, Ns),',",
+        "    '    ended_notice(En?, C2?, Id?, D?, Ns).',",
+        "    '    start_app(I?, At?, Id?, Cl?, Mi?, En?, Ap?, Ss, Cr, Ns, Ap1),',",
+        "    '    start_app1(Cl?, I?, At?, Id?, Mi?, En?, app(S?, K1?, L?, R?), Ss, Cr, Ns, Ap1).',",
+        "    '    start_app2(Rd?, I?, At?, Id?, Mi?, En?, Ap?, Ss, Cr, Ns, Ap1).',",
+        "    '    start_app3(Mn?, En?, I?, At?, Id?, Ap?, Ss, Cr, Ns, Ap1).',",
+        "    '    ended_notice(En?, C2?, F?, D?, Ns),',",
+        "    '    ended_notice(En?, C?, Q?, D?, Ns).',"
+      ]
+    },
+    "main": {
+      "blob": "644c276ae807b6557dfe43ee471604e3600e81f5",
+      "positive_domain_line": 2841,
+      "named_request_line": 2845,
+      "empty_vote_line": 2876,
+      "request_drop_line": 1101,
+      "joined_condition_line": 2998,
+      "atoms_only_line": 4188,
+      "caller_lines": [
+        "    '    ended_notice(En?, P?, Id?, D?, Ns),',",
+        "    '    ended_notice(En?, C2?, Id?, D?, Ns).',",
+        "    '    start_app(I?, At?, Id?, Cl?, Mi?, En?, Ap?, Ss, Cr, Ns, Ap1),',",
+        "    '    start_app1(Cl?, I?, At?, Id?, Mi?, En?, app(S?, K1?, L?, R?), Ss, Cr, Ns, Ap1).',",
+        "    '    start_app2(Rd?, I?, At?, Id?, Mi?, En?, Ap?, Ss, Cr, Ns, Ap1).',",
+        "    '    start_app3(Mn?, En?, I?, At?, Id?, Ap?, Ss, Cr, Ns, Ap1).',",
+        "    '    ended_notice(En?, C2?, F?, D?, Ns),',",
+        "    '    ended_notice(En?, C?, Q?, D?, Ns).',"
+      ]
+    },
+    "widget": {
+      "blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b",
+      "bare_parser": 669,
+      "pair_parser": 673,
+      "full_sentence": 730,
+      "one_line": 1462,
+      "test_calls_sentence_only": true
+    },
+    "walk": {
+      "blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+      "logger": 259,
+      "logs_original_reason_term": false
+    },
+    "status": "36 reports, 67 findings, 13 unanswered\nSubmitted table matches regeneration\n"
+  },
+  "static_source_excerpts": {
+    "generator": [
+      [
+        1101,
+        "    guarded_only('    next_n(Th?, no, Ap0?, [refused(N?, Id?, unable)], Ls?, In?, Ans, Thr, Out, Ow, Approvals?, H?, St?).'),"
+      ],
+      [
+        2816,
+        "    '    st_req(At?, St?, Mi, En),',"
+      ],
+      [
+        2834,
+        "    '    start_app2(Rd?, I?, At?, Id?, Mi?, En?, Ap?, Ss, Cr, Ns, Ap1).',"
+      ],
+      [
+        2841,
+        "    'start_app2(yes, I, At, Id, Mi, En, Ap, Ss?, Cr?, Ns?, Ap1?) :- ground(At?) |',"
+      ],
+      [
+        2842,
+        "    '    names_mine(At?, Mi?, Mn),',"
+      ],
+      [
+        2845,
+        "    'start_app3(mine(_, _), En, I, At, Id, Ap, Ss?, noapproval, Ns?, Ap1?) :-',"
+      ],
+      [
+        2846,
+        "    '    start_named(En?, I?, At?, Id?, Ap?, Ss, Ns, Ap1).',"
+      ],
+      [
+        2876,
+        "    'start_named(yes, I, At, Id, Ap, Ss?, Ns?, Ap1?) :- vote_no(I?, At?, Id?, unable([], []), Ap?, Ss, Ns, Ap1).',"
+      ],
+      [
+        2998,
+        "    '    tally_no(I?, At?, Id?, unable, St1?, Ss, Ns, St2).',"
+      ],
+      [
+        3900,
+        "    'procedure st_req(Attempt?, St?, YesNo, YesNo).',"
+      ],
+      [
+        3914,
+        "    'req_scan([ended(R1, K1)|Rs], Rr, K, B, _, B1?, E1?) :- R1? =?= Rr?, K1? =:= K? |',"
+      ],
+      [
+        3915,
+        "    '    req_scan(Rs?, Rr?, K?, B?, yes, B1, E1).',"
+      ],
+      [
+        4188,
+        "    'unable_reason(P, Id, S, unable(L?, H?)) :- ground(P?), ground(S?) |',"
+      ]
+    ]
+  },
+  "finding": "The end-of-request flag reaches the empty-pair refusal even on the successful domain branch. The last-vote condition and request-drop paths can both send bare unable. The app candidate groups both reason shapes into its constraint-failure fallback."
+}

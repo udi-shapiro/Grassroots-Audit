@@ -1,3 +1,7 @@
+## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
+
+Requested changes on [PR #180](https://github.com/udi-shapiro/Grassroots-Audit/pull/180) at `c022c6646f74942fbc1d3e2ebf84539a571a13fb`. Keep the contributor branch and finding identifier intact. Regenerated status is 36 reports, 67 findings and 13 unanswered. Recheck revised text, evidence pins and summary totals before merge. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)
+
 ## Stage 132 — Chess and Warnings publications refreshed — 26 November 2026 UTC
 
 [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at `ab060b698d0db3cc59d98053a4816b276e5d7ff4` preserves GCE’s check-count correction. [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) at `a971fa8695568e109d99666ef325752cd80d3d36` preserves the Warnings #136 answer and exact-source limitation. Both are mergeable with no reviews and must await independent exact-head review. Status regenerates at 37 reports, 69 findings and 12 unanswered for #175 and 36 reports, 66 findings and 12 unanswered for #177. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)

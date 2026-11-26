@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T06:50:33.174Z",
-  "active_run": {
-    "run_id": "pr180-open-7c9b849e",
-    "event": {
-      "delivery_id": "7c9b849e-e965-11f1-8665-44c3741b92d4",
-      "event_type": "pull_request",
-      "action": "opened",
-      "actor_login": "nimrodtalmon",
-      "pull_request_number": 180,
-      "comment_id": null
-    },
-    "acquired_at": "2026-11-26T06:50:33.174Z",
-    "expires_at": "2026-11-26T07:20:33.174Z",
-    "expected_head_sha": "3d63f847353f01e22f1699cec40e4bd3726f3dbf"
-  },
+  "updated_at": "2026-11-26T06:53:29.615Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -2932,6 +2919,61 @@
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json",
       "own_publication": true
+    },
+    {
+      "number": 180,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "state": "open",
+      "updated_at": "2026-11-26T06:52:35Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T06:52:35Z"
+      },
+      "comment_cursor": null,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABachrjQ",
+      "own_review_ids": [
+        6069709709,
+        "PRR_kwDOVrts7s8AAAABachrjQ"
+      ],
+      "delivery_ids": [
+        "7c9b849e-e965-11f1-8665-44c3741b92d4"
+      ],
+      "notes": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating.",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "papers_vglp_blob": "022267290c33bd04d4e953eaedc8effbaff5edeb",
+        "reported_code": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "compiler_at_reported_code": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+        "compiler_at_glp_main": "644c276ae807b6557dfe43ee471604e3600e81f5",
+        "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+        "walk_test_blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+        "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+        "notice_widget_blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/133-vglp-refusal-20261126.json"
     }
   ],
   "source_observed_after_tests": {
@@ -15182,6 +15224,61 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/132-pr158-chess-count-warnings-interface-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/132-warnings-interface-20261126"
       }
+    },
+    {
+      "delivery_id": "7c9b849e-e965-11f1-8665-44c3741b92d4",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 180,
+      "comment_id": null,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T06:52:35Z"
+      },
+      "processed_at": "2026-11-26T06:53:29.615Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "papers_vglp_blob": "022267290c33bd04d4e953eaedc8effbaff5edeb",
+        "reported_code": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "compiler_at_reported_code": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+        "compiler_at_glp_main": "644c276ae807b6557dfe43ee471604e3600e81f5",
+        "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+        "walk_test_blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+        "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+        "notice_widget_blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b"
+      },
+      "outcome": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+        "candidate": "https://github.com/EShapiro2/GLP/pull/180",
+        "walk": "https://github.com/EShapiro2/GLP/pull/170",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/133-vglp-refusal-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -15199,16 +15296,17 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T06:25:50.991Z",
-    "last_stage": 132,
-    "processed_through_pr": 178,
-    "notes": "Processed GCE’s Chess count correction and Warnings #136 follow-up. Recorded the own PR #175 and #177 synchronizations without creating a reply loop."
+    "last_reconciled_at": "2026-11-26T06:53:29.615Z",
+    "last_stage": 133,
+    "processed_through_pr": 180,
+    "notes": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
     "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "warnings_candidate": "73bdea71bb189e2f2488e06385e788e78d3c6840",
-    "observed_at": "2026-11-26T06:25:50.991Z"
+    "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+    "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+    "observed_at": "2026-11-26T06:53:29.615Z"
   }
 }

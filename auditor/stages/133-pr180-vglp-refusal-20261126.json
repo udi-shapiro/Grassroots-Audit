@@ -1,0 +1,111 @@
+{
+  "stage": 133,
+  "recorded_at": "2026-11-26T06:53:29.615Z",
+  "title": "vGLP refusal diagnostics and app wording review",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "papers_vglp_blob": "022267290c33bd04d4e953eaedc8effbaff5edeb",
+    "reported_code": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "compiler_at_reported_code": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+    "compiler_at_glp_main": "644c276ae807b6557dfe43ee471604e3600e81f5",
+    "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+    "walk_test_blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+    "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+    "notice_widget_blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b"
+  },
+  "events": [
+    {
+      "delivery_id": "7c9b849e-e965-11f1-8665-44c3741b92d4",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 180,
+      "comment_id": null,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T06:52:35Z"
+      },
+      "processed_at": "2026-11-26T06:53:29.615Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "papers_vglp_blob": "022267290c33bd04d4e953eaedc8effbaff5edeb",
+        "reported_code": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "compiler_at_reported_code": "ba352c238cc508c3d1f7924cc0dd108bd1f39e14",
+        "compiler_at_glp_main": "644c276ae807b6557dfe43ee471604e3600e81f5",
+        "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
+        "walk_test_blob": "e6639de6a56fbd0ada6f7775b46bfa368aa42506",
+        "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
+        "notice_widget_blob": "0d2a0a5ebc240a70de075185a9198634888cfd1b"
+      },
+      "outcome": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+        "candidate": "https://github.com/EShapiro2/GLP/pull/180",
+        "walk": "https://github.com/EShapiro2/GLP/pull/170",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/133-vglp-refusal-20261126.json"
+      }
+    }
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+    "candidate": "https://github.com/EShapiro2/GLP/pull/180",
+    "walk": "https://github.com/EShapiro2/GLP/pull/170",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/133-vglp-refusal-20261126.json"
+  },
+  "project_claims": [
+    "GCE reports 44 app walks with five persons and 17/18 Library Lend refusals. GLP PR #180 reports two passing notice unit tests."
+  ],
+  "source_inspection": [
+    "Compiler retains atoms-only unable reasons, an independent ended-request empty-pair path, and bare unable on joined-condition failure and on a dropped request.",
+    "App candidate renders the same value-condition message for bare unable and an empty pair. Supplied fixtures exercise SocialNotice.sentence directly.",
+    "The cited walk harness flattens the reason to atom lists. The specific reported counts and their causes were not independently established.",
+    "Latest published vGLP PDF blob was identified. Binary retrieval through the GitHub connector did not yield the PDF bytes, so the current section wording was not independently checked."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete set of Markdown inputs from exact #180 tree, verified against Git blob IDs",
+      "result": "36 reports, 67 findings, 13 unanswered\nSubmitted table matches regeneration"
+    },
+    {
+      "command": "Source-text checks in JavaScript",
+      "scope": "Exact generator, widget, and harness files",
+      "result": "Matched diagnostic branches and renderers. See pinned line evidence."
+    }
+  ],
+  "unexecuted": [
+    "Dart and Flutter unavailable. No app walk, unit test or runtime reproduction ran."
+  ],
+  "outcome": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating.",
+  "next": "Await revised PR #180 with pinned paper and walk evidence, cause-specific wording or a neutral unknown-reason fallback, and consistent status totals. Recheck the exact revised head before merge. Publish independent verification separately once the numbered report is accepted and keep #179 open pending vGLP’s answer, public PDF and focused execution."
+}

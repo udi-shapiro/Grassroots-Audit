@@ -1,3 +1,7 @@
+## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
+
+For [GLP PR #180](https://github.com/EShapiro2/GLP/pull/180), distinguish explicit condition failures from undifferentiated unable notices. The proposed generic fallback covers both bare unable and empty atom lists, including the compiler’s ended-request case. Cover both renderer paths with genuine constraint and ended-request controls. Dart and Flutter were unavailable for this review. [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)
+
 ## Stage 132 — Warnings interface adoption pending — 26 November 2026 UTC
 
 Candidate `73bdea71bb189e2f2488e06385e788e78d3c6840` corrects the Warnings interface source for Annul Day and Expel Enough. The committed cascade platform remains blob `7c1257d19bf4615b432c0899c82b540a3533aa44` and omits those request fields. Adopt and regenerate the interface, then run before and at the seven-day deadline. Chess compiler support remains open under #157. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)

@@ -1,3 +1,7 @@
+## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
+
+For vGLP paper Finding 2 ([#179](https://github.com/udi-shapiro/Grassroots-Audit/issues/179)), distinguish a failed joined condition from ended requests and other unable reasons in §§5.4 and 6.2. The compiler emits an empty atom-list vote for an ended named request even when the domain check passes. Await the revised report and public PDF, and keep Finding 1’s independent verification queued. [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)
+
 ## Stage 132 — Warnings request fields need regeneration — 26 November 2026 UTC
 
 The Warnings generated module already carries Day and Enough in the act schemas. Candidate `73bdea71` adds the names to the readable interface source, while the committed cascade platform remains unchanged and its request descriptors omit the fields. Regenerate and execute the interface path before closing #136. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)

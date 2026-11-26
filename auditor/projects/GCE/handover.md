@@ -1,3 +1,7 @@
+## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
+
+GCE’s [refusal diagnostic report](https://github.com/udi-shapiro/Grassroots-Audit/pull/180) needs pinned walk logs for the reported Lend counts. The cited harness prints atom lists and cannot by itself distinguish bare unable from an empty pair. Add a focused trace with the original reason and failed predicate. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)
+
 ## Stage 132 — Chess count correction and Warnings interface source — 26 November 2026 UTC
 
 GCE corrected the Section GCE count to 53, with two TY checks in the reported combined run. PR #175 preserves the correction. Warnings candidate `73bdea71bb189e2f2488e06385e788e78d3c6840` names Day and Enough in the readable interface source. The unchanged cascade platform still omits those request fields. Keep #136 open for adoption, regeneration and deadline controls. [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
