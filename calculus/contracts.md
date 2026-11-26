@@ -2,6 +2,32 @@
 
 Date: 2026-11-25
 
+## Proposal for the Calculus paper, 26 November 2026
+
+### Next-state implication
+
+We propose reading a grounded contract implication $H\leftarrow B$ as “if $B$ holds before this act, then $H$ holds immediately after it.” Write $B\Rightarrow_X H$ to make the order explicit. For state predicates $P,Q$, a single grounding $\theta$ shared by both sides, and consecutive configurations $c,c'$, define
+
+$$
+(c,c')\models_\theta P\Rightarrow_X Q
+\quad\Longleftrightarrow\quad
+(c\models_\theta P)\ \Longrightarrow\ (c'\models_\theta Q).
+$$
+
+The only violating pair has $P$ true in $c$ and $Q$ false in $c'$. For example, an act accepting a pending request $r$ may satisfy $\mathit{pending}(r)\Rightarrow_X(\neg\mathit{pending}(r)\land\mathit{accepted}(r))$. The pending request is tested in the configuration where it still exists.
+
+On a run with a next configuration, the formula is $P\to XQ$. For a particular grounded act $a$ in a branching protocol, impose the condition on every transition $c\xrightarrow{a}c'$. Other acts can have different effects from the same configuration. The universal condition holds vacuously if there is no such transition. Enabledness, participation, consent, updates and persistence are supplied by the operational semantics. Any obligation to take an enabled act is specified by the run conditions. When a head describes an update, $Q$ expresses its postcondition.
+
+### Historical source
+
+Von Wright [1, §6] explicitly writes $N(p\to tTq)$ and reads it as “necessarily, whenever $p$ is the case, $q$ immediately follows.” His $t$ is a tautology and $T$ means “and next,” so $tTq$ means that $q$ holds on the next occasion. The inner $p\to tTq$ gives exactly the proposed conditional. The outer $N$ adds causal necessity. In the same passage he distinguishes immediate succession from simultaneity and from an effect at an unspecified later time. The arrow $\Rightarrow_X$ is our proposed notation. Von Wright develops the underlying connective in [2], following his earlier logic of change [3].
+
+### References
+
+1. G. H. von Wright (1973). “On the Logic and Epistemology of the Causal Relation.” In P. Suppes, L. Henkin, A. Joja and G. C. Moisil (eds.), *Logic, Methodology and Philosophy of Science IV*, proceedings of the Fourth International Congress, Bucharest, 1971. *Studies in Logic and the Foundations of Mathematics* 74, 293–312. Amsterdam, North-Holland. See §6, p. 113 of the reprint. [Original publication](https://doi.org/10.1016/S0049-237X%2809%2970366-0) · [Reprint](https://eclass.uoa.gr/modules/document/file.php/PHS688/Metaphysics_Bibliography/Sosa%20and%20Tooley%20%28eds%29%20Causation.pdf)
+2. G. H. von Wright (1965). “‘And Next’.” *Acta Philosophica Fennica* 18, 293–304. See §§2 and 9. [Full text](https://filosofia.fi/sv/arkisto/and-next)
+3. G. H. von Wright (1963). *Norm and Action: A Logical Enquiry*. London, Routledge & Kegan Paul. See ch. II, §§7–10, pp. 28–34. [Chapter II](https://giffordarchives.org/books/norm-and-action/ii-preliminaries-logic-logic-change)
+
 ## Review of the fifteen-page Calculus and GSC subsumption, 25 November 2026
 
 Project: Calculus, with GSC  
