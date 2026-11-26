@@ -1,8 +1,21 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T14:32:00.000Z",
-  "active_run": null,
+  "updated_at": "2026-11-26T14:34:00.000Z",
+  "active_run": {
+    "run_id": "webhook-0564fb14-e9a4-pin-correction",
+    "acquired_at": "2026-11-26T14:34:00.000Z",
+    "expires_at": "2026-11-26T14:44:00.000Z",
+    "expected_gpt_auditor_head": "cf135a3098d3e2d238a0954fcb9a5689a48cd66a",
+    "events": [
+      {
+        "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
+        "pull_request_number": 29,
+        "event_type": "pull_request",
+        "action": "ledger-pin-correction"
+      }
+    ]
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
