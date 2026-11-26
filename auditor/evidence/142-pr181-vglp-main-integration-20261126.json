@@ -1,0 +1,111 @@
+{
+  "stage": 142,
+  "collected_at": "2026-11-26T11:11:20.564Z",
+  "boundary": "Public EShapiro2/GLP main and papers plus the public audit repository only. No private paper or project repository was required.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "audit_pr_181_intermediate": "c6ac5a339068db3dff7429ea20e1a8be401447a9",
+    "audit_pr_181": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "audit_report_blob": "d8a22372fae80d77631183f7d3c92944a2fd9449",
+    "audit_issues_blob": "0216cc1c35cf34747a9bff5468f5a0abd1fab1ac",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_main_tree": "a55f99a523466ab38ee6d66ce63ab0eea7683409",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "readme_blob": "8ff173b7cc978799d2b8b0aa9004cd0c767bfe2d",
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+  },
+  "inspected": {
+    "ancestry": {
+      "vglp_unmet": {
+        "base": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "head": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "status": "ahead",
+        "ahead_by": 29
+      },
+      "vglp_readme": {
+        "base": "278ff108b31584752cd63f5aae476daf7841a616",
+        "head": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "status": "ahead",
+        "ahead_by": 27
+      },
+      "code_form": {
+        "base": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "head": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "status": "ahead",
+        "ahead_by": 6
+      }
+    },
+    "exact_blobs": {
+      "compiler": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+      "readme": "8ff173b7cc978799d2b8b0aa9004cd0c767bfe2d",
+      "named_widgets": "42fb101db6773da81c22a127333960f458285837",
+      "notice_reason_test": "b229565dd9dd7b866cb881578f2ae67955c21937"
+    },
+    "notice_paths": [
+      "bare unable is accepted as an atomless reason",
+      "unable([], []) is accepted as the older atom-list form",
+      "unable([], [], []) is accepted as the current empty-Unmet form",
+      "a value-condition explanation is emitted only for nonempty Unmet",
+      "the Reason-line path applies the same nonempty-Unmet gate"
+    ],
+    "focused_test_source": [
+      "three atomless neutral cases",
+      "atom reason",
+      "unmet conjunct wording",
+      "conjunct vocabulary"
+    ]
+  },
+  "project_claims": [
+    {
+      "claim": "notice_reason_test passes 6/6",
+      "source_comment_id": 7187576232,
+      "verification": "not rerun"
+    },
+    {
+      "claim": "the cited correction commits and test are on GLP main",
+      "source_comment_id": 7190086665,
+      "verification": "verified by ancestry and exact blob identity"
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "18 deterministic GitHub ancestry, tree-identity and source assertions",
+      "result": "18/18 passed",
+      "scope": "Public GLP main fc2e7284 and exact cited candidate trees"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR #181 publication tree after preserving the answer and verification",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "output_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+      "byte_identical": true
+    }
+  ],
+  "environment": {
+    "flutter": "unavailable",
+    "dart": "unavailable",
+    "github_workflow_runs_for_fc2e7284": 0
+  },
+  "limitations": [
+    "The six Flutter test cases were inspected but not executed.",
+    "Paper revision 42f53d1 is not present in public GLP papers at 3f3d5033 and was not independently inspected.",
+    "No GLP runtime, Section VG, app walk or paper build ran."
+  ],
+  "conclusion": "The code-side correction is integrated and source-verified on public GLP main. Finding #179 remains open for public paper verification and independent focused execution.",
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190086665",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190313253",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/142-pr181-vglp-main-integration-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/142-pr181-vglp-main-integration-20261126.json"
+  }
+}

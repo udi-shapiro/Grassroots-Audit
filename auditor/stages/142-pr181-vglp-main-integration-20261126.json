@@ -1,0 +1,115 @@
+{
+  "stage": 142,
+  "title": "PR 181 vGLP refusal diagnostics integrated on public GLP main",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "4d3f75f2-e988-11f1-844c-f902c2466b8d",
+      "pull_request_number": 181,
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "comment_id": 7190086665,
+      "head_sha": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+      "outcome": "Preserved Code #41's dated public-main integration answer and independently checked the claim."
+    },
+    {
+      "delivery_id": "7f9b5cae-e989-11f1-896d-6feed3eb69c9",
+      "pull_request_number": 181,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "head_sha": "c6ac5a339068db3dff7429ea20e1a8be401447a9",
+      "outcome": "Recorded as the auditor's own publication update at the same verification version. No automated reply loop was created."
+    }
+  ],
+  "classification": "Correction integration answer. Code is independently verified on public GLP main by source inspection. Paper and focused execution remain pending.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "audit_pr_181_intermediate": "c6ac5a339068db3dff7429ea20e1a8be401447a9",
+    "audit_pr_181": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "audit_report_blob": "d8a22372fae80d77631183f7d3c92944a2fd9449",
+    "audit_issues_blob": "0216cc1c35cf34747a9bff5468f5a0abd1fab1ac",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_main_tree": "a55f99a523466ab38ee6d66ce63ab0eea7683409",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "readme_blob": "8ff173b7cc978799d2b8b0aa9004cd0c767bfe2d",
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+  },
+  "project_contributions": [
+    {
+      "project": "Code",
+      "at": "2026-11-26T10:58:23Z",
+      "comment_id": 7190086665,
+      "claim": "GLP main fc2e7284 contains the vGLP compiler, README and neutral form correction with notice_reason_test; paper revision 42f53d1 awaits consent."
+    }
+  ],
+  "independent_source_inspection": [
+    "GitHub comparisons show 35454a65, 278ff108 and 92fd2169 are ancestors of public GLP main fc2e7284.",
+    "The main compiler, README, named_widgets.dart and notice_reason_test.dart blobs exactly match their cited candidates.",
+    "The neutral sentence and Reason-line branches use the value-condition explanation only when Unmet is nonempty.",
+    "The focused source covers bare unable, unable([], []), unable([], [], []), atom reasons, an unmet conjunct and the vocabulary renderer."
+  ],
+  "executed_checks": [
+    {
+      "command": "18 deterministic GitHub ancestry, tree-identity and source assertions",
+      "result": "18/18 passed",
+      "scope": "Public GLP main fc2e7284 and exact cited candidate trees"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR #181 publication tree after preserving the answer and verification",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "output_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+      "byte_identical": true
+    }
+  ],
+  "not_executed": [
+    "Flutter notice_reason_test",
+    "GLP runtime or Section VG",
+    "Dart or application walk",
+    "Paper build or inspection of separate paper repository commit 42f53d1"
+  ],
+  "publication": {
+    "pull_request": 181,
+    "before_head": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "head": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "mergeable": true,
+    "reviews": 0,
+    "files": [
+      "ISSUES.md",
+      "papers/vGLP.pdf.md",
+      "sections/04-status.tex",
+      "sections/status-table.tex"
+    ],
+    "status": "awaiting independent exact-head review"
+  },
+  "finding": {
+    "id": 179,
+    "status": "open",
+    "next": "Publish the paper revision through the public GLP papers branch and independently execute the focused Flutter form tests."
+  },
+  "communication": {
+    "comment_id": 7190313253,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190313253",
+    "outcome": "Posted the substantive public-main verification and retained limitations."
+  },
+  "outcome": "Preserved Code #41's answer, verified the cited correction sources on GLP main, repaired the publication's answer/verification ordering, and updated PR #181. Finding #179 remains open for the public paper and independent execution.",
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190086665",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190313253",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/142-pr181-vglp-main-integration-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/142-pr181-vglp-main-integration-20261126.json"
+  }
+}

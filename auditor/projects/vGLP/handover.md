@@ -1,3 +1,9 @@
+## Stage 142 — vGLP refusal diagnostics integrated on public main — 26 November 2026 UTC
+
+Public GLP main `fc2e7284` contains exact candidates `35454a65`, `278ff108` and `92fd2169`. Eighteen ancestry, blob and source assertions passed for the compiler, neutral form and six-case focused test source. [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181), exact head `1404b4a7`, preserves the Code answer and audit verification. The project’s 6/6 Flutter result was not rerun because Dart and Flutter are unavailable. Paper revision `42f53d1` is absent from public GLP papers `3f3d5033`. Finding #179 stays open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190086665) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190313253) · [Stage](../../stages/142-pr181-vglp-main-integration-20261126.json)
+
+Next: publish the paper revision through the public GLP papers branch and independently execute `glp_multiagent/test/notice_reason_test.dart`.
+
 ## Stage 139 — Tennis Interface pragmas candidate — 26 November 2026 UTC
 
 Preserved GM’s Tennis answer and load addendum in [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) at exact head `05729b16`. Public candidates `ec7fd250` and `99368551` add Tennis and Rehearsal Interface pragmas in matching owner/cascade source copies. Their committed cascade records still carry the earlier no-pragmas placeholders. The reported cascades and `glpc` loads were not rerun. Finding #137 remains open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188066824) · [Addendum](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600) · [Stage](../../stages/139-pr177-tennis-pragmas-20261126.json)
