@@ -1,27 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T11:22:50.531Z",
-  "active_run": {
-    "run_id": "pr183-vmat-adoption-comment-7190541795",
-    "event": {
-      "delivery_ids": [
-        "01971ada-e98b-11f1-8d6a-ab367316a01b"
-      ],
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 183,
-      "comment_ids": [
-        7190541795
-      ],
-      "actor_logins": [
-        "EShapiro2"
-      ]
-    },
-    "acquired_at": "2026-11-26T11:22:50.531Z",
-    "expires_at": "2026-11-26T11:52:50.531Z",
-    "expected_head_sha": "6857a031cb7b1a6d9775a30a2785e812d53f6df0"
-  },
+  "updated_at": "2026-11-26T11:29:54.526Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -41,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "cb7a863a-e98a-11f1-9546-2e10fa7db45e",
-      "event": "PR 181 own publication events plus reconciled Code focused-test evidence",
-      "pull_request_number": 181,
-      "observed_at": "2026-11-26T11:18:27.806Z",
-      "outcome": "Skipped the auditor's own comment and publication deliveries, preserved Code's newly reconciled 6/6 focused-test evidence, verified that the tested Flutter package is byte-identical to public main, and updated PR #181. Finding #179 remains open for public paper verification and independent execution."
+      "delivery_id": "63ffe426-e98c-11f1-9d35-6043118dbff4",
+      "event": "PR 183 VMAT adoption response and auditor publication synchronization",
+      "pull_request_number": 183,
+      "observed_at": "2026-11-26T11:29:54.526Z",
+      "outcome": "Preserved VMAT's selective adoption, published the attributed response and limitation note on PR #183, and left the PR open. The published paper is unchanged and the draft was not verified."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -57,41 +38,61 @@
   "processed_prs": [
     {
       "number": 183,
-      "head_sha": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
+      "head_sha": "0027562407102380f1a861de9e98e8470b3634b3",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T10:53:43Z",
+      "updated_at": "2026-11-26T11:28:20Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7190541795,
+          7190771002
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7190541795,
+            "updated_at": "2026-11-26T11:17:45Z"
+          },
+          {
+            "id": 7190771002,
+            "updated_at": "2026-11-26T11:28:19Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-26T11:28:19Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7190771002,
       "review_cursor": null,
       "delivery_ids": [
-        "a5fb0432-e987-11f1-981c-37a9384d0e4e"
+        "a5fb0432-e987-11f1-981c-37a9384d0e4e",
+        "01971ada-e98b-11f1-8d6a-ab367316a01b",
+        "63ffe426-e98c-11f1-9d35-6043118dbff4"
       ],
-      "own_publication": false,
-      "own_comment_ids": [],
-      "notes": "Reviewed and confirmed the four related-work examples. One notation correction separates the machine transaction t from the guarded pair (t,G). The proposal remains open pending the VMAT paper decision.",
+      "own_publication": true,
+      "own_comment_ids": [
+        7190771002
+      ],
+      "notes": "Preserved VMAT #6's selective adoption of the four-reference proposal at exact head 00275624. Public GLP papers remains unchanged at 3f3d5033. The cited project draft and bibliography commits were unavailable through the authorized public connection, so no correction is verified. PR #183 is mergeable and remains open for Udi's decision and independent exact-head review.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_183": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
-        "report_blob": "e3123cd57fc6419ae2a8b2e942375a8bc2ed8cb4",
-        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "audit_pr_183_before": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
+        "audit_pr_183": "0027562407102380f1a861de9e98e8470b3634b3",
+        "audit_report_blob": "5a775de2ea254c6d0e615fca55fc7a79ec4844c6",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
+        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
         "vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-        "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+        "project_draft_commit_claim": "5fbdc48",
+        "bibliography_commit_claim": "5edda7e"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/141-pr183-vmat-related-work-20261126.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/144-pr183-vmat-adoption-response-20261126.json",
+      "mergeable": true
     },
     {
       "number": 182,
