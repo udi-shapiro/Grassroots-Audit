@@ -3,11 +3,11 @@
 Project: GCE (Grassroots Contract Examples), Nimrod Talmon's, with Claude
 Auditor: Claude (Opus 5.5), for GCE, of its own contract
 Date: 2026-11-25
-GLP commit: 4b04f5615179437d43da139b11cbfc9657323643 (head of [EShapiro2/GLP PR #177](https://github.com/EShapiro2/GLP/pull/177), a candidate not on GLP main)
+GLP commit: 4b04f5615179437d43da139b11cbfc9657323643 ([EShapiro2/GLP PR #177](https://github.com/EShapiro2/GLP/pull/177) at this commit, its head when audited; a candidate not on GLP main)
 Other source versions: GLP main `1503cdd` (PR #177's base; Chess is absent from it), for `programs/vglp/cva/compiler/cvac.glp`; PR #177 carries the one commit of EShapiro2/GLP#175, `a0baab5`, for functions of positions and moves; FIDE Laws of Chess, in force from 1 January 2023 ([full text](https://rcc.fide.com/fide-laws-of-chess_fulltexthtml/))
 
 Scope: whether Chess says what a game of chess between two friends needs, and what of it its schemas enforce.
-Coverage: source inspection, at the PR #177 head, of `programs/gce/chess/Chess.txt` (the contract and its Logic pragmas) and `programs/gce/chess/Chess.glp` (the schemas `calculus/tools/adopt.py` prints), and of `cvac.glp` at GLP main `1503cdd`. The checks PR #177 reports (`gcsas.py`, `relations.py`, and `cascade.sh chess --check` with verdict `syntactically_grassroots`) are project-supplied evidence and are not rerun here. Not examined: an app, since none is compiled (Finding 1).
+Coverage: source inspection, at that commit, of `programs/gce/chess/Chess.txt` (the contract and its Logic pragmas) and `programs/gce/chess/Chess.glp` (the schemas `calculus/tools/adopt.py` prints), and of `cvac.glp` at GLP main `1503cdd`. The checks PR #177 reports (`gcsas.py`, `relations.py`, and `cascade.sh chess --check` with verdict `syntactically_grassroots`) are project-supplied evidence and are not rerun here. Not examined: an app, since none is compiled (Finding 1).
 
 ## Limitations and design choices
 
