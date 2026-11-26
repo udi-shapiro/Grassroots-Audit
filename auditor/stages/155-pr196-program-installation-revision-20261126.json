@@ -1,0 +1,100 @@
+{
+  "stage": 155,
+  "date": "2026-11-26",
+  "title": "PR #196 revised program-installation proposal",
+  "event": {
+    "delivery_id": "b953026c-e9ed-11f1-9fde-6b74e124d86f",
+    "event_type": "pull_request",
+    "action": "synchronize",
+    "actor_login": "nimrodtalmon",
+    "pull_request_number": 196,
+    "comment_id": null,
+    "head_sha": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+    "discussion_version": {
+      "comments": 1,
+      "reviews": 2,
+      "review_threads": 0,
+      "comment_ids": [
+        7205232119
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABandVTw",
+        "PRR_kwDOVrts7s8AAAABanoCpQ"
+      ],
+      "review_versions": [
+        {
+          "id": "PRR_kwDOVrts7s8AAAABandVTw",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-26T22:36:24Z",
+          "author": "udi-shapiro"
+        },
+        {
+          "id": "PRR_kwDOVrts7s8AAAABanoCpQ",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-26T23:06:48Z",
+          "author": "udi-shapiro"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7205232119,
+          "updated_at": "2026-11-26T23:04:33Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-26T23:06:48Z"
+    },
+    "processed_at": "2026-11-26T23:07:32.876Z",
+    "source_pins": {
+      "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+      "audit_pr_196": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+      "previous_head": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+      "audit_report_blob": "4d826fd626585ab9aad6fce7224550be514eb92c",
+      "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+      "published_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
+      "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+      "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+      "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+      "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+      "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+      "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+      "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+      "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+      "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+      "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+    },
+    "outcome": "Revised proposal preserves GCE/UI credit under GSA ownership and removes the numbered finding. Exact-head changes requested because status regeneration adds a zero-finding Programs row missing from the diff. Independent public source inspection confirms empty contract state on Friendship mini-app activation with the existing person's key. The public Chess cascade is marked uncompiled, so the claimed Chess runtime outcome remains pending. PR open, no merge.",
+    "urls": {
+      "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+      "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081348261",
+      "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7205232119",
+      "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/155-pr196-program-installation-revision-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/155-pr196-program-installation-revision-20261126.json"
+    }
+  },
+  "source_pins": {
+    "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_pr_196": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+    "previous_head": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_report_blob": "4d826fd626585ab9aad6fce7224550be514eb92c",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "published_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
+    "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+    "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+    "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+    "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+  },
+  "outcome": "Revised proposal preserves GCE/UI credit under GSA ownership and removes the numbered finding. Exact-head changes requested because status regeneration adds a zero-finding Programs row missing from the diff. Independent public source inspection confirms empty contract state on Friendship mini-app activation with the existing person's key. The public Chess cascade is marked uncompiled, so the claimed Chess runtime outcome remains pending. PR open, no merge.",
+  "next_work": [
+    "Review the next exact head with the zero-finding Programs row and corrected PR description. Publish the proposal only after checking the revised diff and discussion.",
+    "Follow Nimrod's pending migration invariant and GSA's disposition on #193. Specify shared predicate identity, retention on Leave, and rejection behavior.",
+    "Keep App-to-Chess runtime behavior pending a public executable artifact or reproducible run. The Friendship startup trace does not cover all apps."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/155-pr196-program-installation-revision-20261126.json"
+}

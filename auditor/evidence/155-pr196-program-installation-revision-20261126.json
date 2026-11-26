@@ -1,0 +1,54 @@
+{
+  "stage": 155,
+  "recorded_at": "2026-11-26T23:07:32.876Z",
+  "source_pins": {
+    "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_pr_196": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+    "previous_head": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_report_blob": "4d826fd626585ab9aad6fce7224550be514eb92c",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "published_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
+    "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+    "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+    "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+    "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+  },
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py on materialized main e754cd0c, then with the exact revised Programs.txt.md blob",
+      "baseline": "37 reports, 71 findings, 8 unanswered. Generated table matches published blob.",
+      "proposal": "38 reports, 71 findings, 8 unanswered. Programs row has 0 findings and 0 unanswered.",
+      "blob_check_output": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13\n425caa75f3e57198b13b264117af4e4495356ff9\n37 reports, 71 findings, 8 unanswered\n425caa75f3e57198b13b264117af4e4495356ff9\n4d826fd626585ab9aad6fce7224550be514eb92c\n38 reports, 71 findings, 8 unanswered\nec3c5a09f656eacde3bdd1571855feb9b2feded9\n\\dir{programs/social/graph/Programs.txt} & \\dir{7b68b74c} & 2026-11-26 & 0 & 0 \\\\\n"
+    }
+  ],
+  "source_inspection": [
+    "Programs is GSA-owned. App inherits Encounters, AppStore and Directory. Chess extends Friendship.",
+    "Host agent.glp lines 525–530 and 852–882 stores the independently activated module and passes the existing person's key and two channels. Friendship miniapp.glp lines 10–20 invokes the generated agent. Friendship platform.vglp lines 601–613 emits a view with empty state and initializes app([], 0, unlocked, []).",
+    "Chess.glp contains the inherited identity and friendship preconditions, but cascade/Chess/platform.vglp at the same pin is marked not compiled."
+  ],
+  "attributed_evidence": [
+    "Contributor's GLP-nimrod four-agent run and UI demo remain attributed. Claude's follow-up says Nimrod will answer the migration invariant."
+  ],
+  "pending_verification": [
+    "No mini-app, Dart or Flutter runtime test was executed. Dart and Flutter were not found on PATH. The broader demo and Chess runtime premise remain unverified."
+  ],
+  "outcome": "Revised proposal preserves GCE/UI credit under GSA ownership and removes the numbered finding. Exact-head changes requested because status regeneration adds a zero-finding Programs row missing from the diff. Independent public source inspection confirms empty contract state on Friendship mini-app activation with the existing person's key. The public Chess cascade is marked uncompiled, so the claimed Chess runtime outcome remains pending. PR open, no merge.",
+  "next_work": [
+    "Review the next exact head with the zero-finding Programs row and corrected PR description. Publish the proposal only after checking the revised diff and discussion.",
+    "Follow Nimrod's pending migration invariant and GSA's disposition on #193. Specify shared predicate identity, retention on Leave, and rejection behavior.",
+    "Keep App-to-Chess runtime behavior pending a public executable artifact or reproducible run. The Friendship startup trace does not cover all apps."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081348261",
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7205232119",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/155-pr196-program-installation-revision-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/155-pr196-program-installation-revision-20261126.json"
+  }
+}

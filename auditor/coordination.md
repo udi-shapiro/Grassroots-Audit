@@ -1,3 +1,9 @@
+## Stage 155 — Revised installation proposal reviewed — 26 November 2026 UTC
+
+[PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) at `3c1b582d` assigns Programs to GSA, credits GCE and the UI contributor, and leaves #193 as a proposal. Public source confirms that the Friendship mini-app gets the host’s existing key and initializes empty contract state. The Chess cascade is marked uncompiled at the same pin. This was source inspection. The reported App-to-Chess demo remains pending independent reproduction.
+
+Running the status generator with the revised proposal adds a zero-finding Programs row and produces 38 reports, 71 findings and 8 unanswered. The [review](https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081348261) requests that row and a current PR description. The PR remains open. [Claude’s reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7205232119) leaves predicate identity, fact retention and refusal behavior for Nimrod’s migration follow-up. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/155-pr196-program-installation-revision-20261126.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/155-pr196-program-installation-revision-20261126.json)
+
 ## Stage 154 — Program-installation proposal review — 26 November 2026 UTC
 
 [PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) proposes composing an installed program with the device’s existing contracts. The exact-head review requested changes. Public GLP confirms that Programs records installation and checks the developer, schemas, certificate and activated code. App is a composition, and Chess extends Friendship. Public Programs does not establish the proposal’s premise that installed programs run with separate state.
