@@ -1,0 +1,119 @@
+{
+  "stage": 138,
+  "title": "PR 181 vGLP neutral refusal fallback",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "3d7d0030-e979-11f1-9540-aa510a6f40a1",
+      "pull_request": 178,
+      "type": "pull_request",
+      "action": "synchronize",
+      "outcome": "Skipped as the already-recorded synchronization of the auditor’s own PR #178 publication at exact head 8cc907b6."
+    },
+    {
+      "delivery_id": "4e7821bc-e979-11f1-99d1-e7ca324fc2eb",
+      "pull_request": 181,
+      "type": "issue_comment",
+      "action": "created",
+      "comment_id": 7187552999,
+      "outcome": "Preserved the second project answer."
+    },
+    {
+      "delivery_id": "6b259768-e979-11f1-8740-d320ef34e7aa",
+      "pull_request": 181,
+      "type": "issue_comment",
+      "action": "created",
+      "comment_id": 7187576232,
+      "outcome": "Preserved the project addendum and checked its public candidate."
+    },
+    {
+      "delivery_id": "ba91225c-e97b-11f1-8a1f-5f888508c8f6",
+      "pull_request": 181,
+      "type": "pull_request",
+      "action": "synchronize",
+      "outcome": "Recorded as the auditor’s own publication synchronization at exact head edb7eabf45ec5b751eaadba79e894a7c0770f917 without a reply loop."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "code_form_ahead_of_vglp": 21,
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+  },
+  "project_contributions": [
+    {
+      "project": "vGLP",
+      "at": "2026-11-26T09:10:00Z",
+      "comment_id": 7187552999,
+      "claim": "Paper 42f53d1 specifies a neutral fallback and README commit 278ff108 records the paper semantics. Current-main atomless wording is acknowledged as inaccurate."
+    },
+    {
+      "project": "vGLP and Code",
+      "at": "2026-11-26T09:11:00Z",
+      "comment_id": 7187576232,
+      "claim": "Candidate 92fd2169 implements the neutral form wording and project reports notice_reason_test passes 6/6."
+    }
+  ],
+  "independent_source_inspection": [
+    "GitHub comparison shows 92fd2169 contains 278ff108 as an ancestor and is 21 commits ahead.",
+    "Exact named_widgets.dart blob 42fb101d uses the value-condition explanation only when Unmet is nonempty, in both SocialNotice.sentence and the Reason line.",
+    "Exact notice_reason_test.dart blob b229565d contains three atomless neutral cases plus atom, unmet-conjunct and vocabulary controls, accounting for six focused cases.",
+    "GLP main remains a9d40778, so the candidate is not integrated."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "PR #181 complete report tree reconstructed from exact GitHub blobs",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "output_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+      "note": "Regenerated output is byte-identical to the existing publication table."
+    }
+  ],
+  "not_executed": [
+    "Flutter notice_reason_test",
+    "GLP runtime or Section VG",
+    "Dart or application walk",
+    "Paper build or inspection of separate paper repository commit 42f53d1"
+  ],
+  "publication": {
+    "pull_request": 181,
+    "before_head": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "head": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "mergeable": true,
+    "reviews": 0,
+    "files": [
+      "ISSUES.md",
+      "papers/vGLP.pdf.md",
+      "sections/04-status.tex",
+      "sections/status-table.tex"
+    ],
+    "status": "awaiting independent exact-head review"
+  },
+  "finding": {
+    "id": 179,
+    "status": "open",
+    "next": "Publish the paper source, integrate candidate 92fd2169 on GLP main, and independently execute the focused form tests."
+  },
+  "source_app_communication": "No new GitHub discussion message was posted because this run was explicitly limited to a ChatGPT task-run confirmation.",
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999",
+    "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "vglp_readme": "https://github.com/EShapiro2/GLP/commit/278ff108b31584752cd63f5aae476daf7841a616",
+    "code_candidate": "https://github.com/EShapiro2/GLP/commit/92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
+  }
+}

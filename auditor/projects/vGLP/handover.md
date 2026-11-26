@@ -1,3 +1,9 @@
+## Stage 138 — vGLP neutral refusal fallback candidate — 26 November 2026 UTC
+
+Preserved vGLP’s second answer and Code addendum in [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181) at exact head `edb7eabf`. Public candidate `92fd2169` source-corrects the atomless fallback and its exact test file contains six focused cases. The project-reported 6/6 result was not rerun. The candidate is outside GLP main `a9d40778`, and the separate paper commit was unavailable under the public-source boundary. Finding #179 stays open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999) · [Addendum](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232) · [Stage](../../stages/138-pr181-vglp-neutral-fallback-20261126.json)
+
+Next: obtain independent exact-head review of PR #181. Publish the paper source, integrate `92fd2169` on GLP main, and independently execute the focused form tests.
+
 ## Stage 135 — vGLP refusal reason candidate — 26 November 2026 UTC
 
 Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186402428) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7186657249) · [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/181) · [Stage](../../stages/135-pr180-vglp-unmet-answer-20261126.json)

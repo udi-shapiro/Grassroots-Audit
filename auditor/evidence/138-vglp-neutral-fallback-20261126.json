@@ -1,0 +1,79 @@
+{
+  "stage": 138,
+  "collected_at": "2026-11-26T09:30:27.740Z",
+  "boundary": "Public EShapiro2/GLP and its public refs only. The separate vGLP paper repository was not required or accessed.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "code_form_ahead_of_vglp": 21,
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+  },
+  "inspected": {
+    "compare_278ff108_to_92fd2169": {
+      "status": "ahead",
+      "ahead_by": 21,
+      "merge_base": "278ff108b31584752cd63f5aae476daf7841a616"
+    },
+    "named_widgets": {
+      "blob": "42fb101db6773da81c22a127333960f458285837",
+      "observations": [
+        "sentence fallback is neutral when reasons and Unmet are empty",
+        "condition wording is emitted only when Unmet is nonempty",
+        "Reason line follows the same distinction"
+      ]
+    },
+    "notice_reason_test": {
+      "blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+      "static_case_count": 6,
+      "cases": [
+        "bare unable",
+        "unable([], [])",
+        "unable([], [], [])",
+        "atom reason",
+        "Unmet conjunct",
+        "conjunct vocabulary"
+      ]
+    }
+  },
+  "project_claims": [
+    {
+      "claim": "notice_reason_test passes 6/6",
+      "source_comment_id": 7187576232,
+      "verification": "not rerun"
+    }
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "git_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+    }
+  ],
+  "limitations": [
+    "No Flutter execution environment or complete GLP checkout was supplied by the audit repository.",
+    "Paper commit 42f53d1 is in a separate repository outside the authorized public-source boundary.",
+    "Candidate 92fd2169 is not on GLP main a9d40778."
+  ],
+  "conclusion": "The source-level fallback defect is corrected in candidate 92fd2169. Finding #179 remains open pending public paper access, main integration and independent execution.",
+  "urls": {
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999",
+    "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/edb7eabf45ec5b751eaadba79e894a7c0770f917",
+    "vglp_readme": "https://github.com/EShapiro2/GLP/commit/278ff108b31584752cd63f5aae476daf7841a616",
+    "code_candidate": "https://github.com/EShapiro2/GLP/commit/92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
+  }
+}

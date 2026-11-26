@@ -1,39 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:22:34.781Z",
-  "active_run": {
-    "run_id": "stage138-pr181-second-answer",
-    "event": {
-      "delivery_id": "4e7821bc-e979-11f1-99d1-e7ca324fc2eb",
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "pull_request_number": 181,
-      "comment_id": 7187552999
-    },
-    "additional_events": [
-      {
-        "delivery_id": "3d7d0030-e979-11f1-9540-aa510a6f40a1",
-        "event_type": "pull_request",
-        "action": "synchronize",
-        "actor_login": "udi-shapiro",
-        "pull_request_number": 178,
-        "comment_id": null
-      },
-      {
-        "delivery_id": "6b259768-e979-11f1-8740-d320ef34e7aa",
-        "event_type": "issue_comment",
-        "action": "created",
-        "actor_login": "EShapiro2",
-        "pull_request_number": 181,
-        "comment_id": 7187576232
-      }
-    ],
-    "acquired_at": "2026-11-26T09:22:34.781Z",
-    "expires_at": "2026-11-26T09:52:34.781Z",
-    "expected_head_sha": "c69872da04b42053630ea5ccf3746a764f743336"
-  },
+  "updated_at": "2026-11-26T09:30:27.740Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -53,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "96e403ca-e975-11f1-9be1-29b25f0ef7ff",
-      "event": "PR177 Warnings and Tennis public-main integration reply",
-      "pull_request_number": 177,
-      "observed_at": "2026-11-26T08:56:00.000Z",
-      "outcome": "Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work."
+      "delivery_id": "6b259768-e979-11f1-8740-d320ef34e7aa",
+      "event": "PR181 vGLP neutral fallback answer and candidate",
+      "pull_request_number": 181,
+      "observed_at": "2026-11-26T09:30:27.740Z",
+      "outcome": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -69,51 +38,64 @@
   "processed_prs": [
     {
       "number": 181,
-      "head_sha": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+      "head_sha": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T08:27:39Z",
+      "updated_at": "2026-11-26T09:28:24Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7187552999,
+          7187576232
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-26T09:11:51Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7187576232,
       "review_cursor": null,
       "delivery_ids": [
-        "3ecfd580-e973-11f1-91af-ea76f9db40ce"
+        "3ecfd580-e973-11f1-91af-ea76f9db40ce",
+        "4e7821bc-e979-11f1-99d1-e7ca324fc2eb",
+        "6b259768-e979-11f1-8740-d320ef34e7aa",
+        "ba91225c-e97b-11f1-8a1f-5f888508c8f6"
       ],
       "own_publication": true,
-      "notes": "Own main-based publication preserves vGLP’s dated answer and the candidate verification. Exact head f1d211fc and all four file blobs were confirmed. Await independent review before merge.",
+      "notes": "Own main-based publication now preserves vGLP’s second answer and addendum. Source inspection verifies candidate 92fd2169’s neutral fallback and six focused test cases. The reported 6/6 run was not rerun. Exact head edb7eabf is mergeable and awaits independent review; #179 remains open.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
-        "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
-        "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
-        "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
-        "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
-        "numbers_platform_blob": "08d73b84c61af90617e76ebde798e6e3aafbca3c",
-        "numbers_play_blob": "18a9205c8c4c8cba54a606fb74a5f1cd7ffae262",
-        "glp_test_script_blob": "b639400b844c5f94232d453a763fb0928aff0dbf",
-        "compiler_readme_blob": "f0e1b47d6bfc8e1e1733607df08e32795af84fbc",
-        "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
-        "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
-        "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
+        "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+        "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "code_form_ahead_of_vglp": 21,
+        "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+        "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
         "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/135-vglp-unmet-20261126.json",
-      "own_comment_ids": []
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json",
+      "own_comment_ids": [],
+      "mergeable": true
     },
     {
       "number": 177,
@@ -3019,7 +3001,7 @@
       "head_sha": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T09:13:31.009Z",
+      "updated_at": "2026-11-26T09:10:35Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
@@ -3044,7 +3026,8 @@
       "review_cursor": null,
       "delivery_ids": [
         "3a907132-e946-11f1-8053-07aefcd5d20d",
-        "98598716-e975-11f1-8258-56c307187b9a"
+        "98598716-e975-11f1-8258-56c307187b9a",
+        "3d7d0030-e979-11f1-9540-aa510a6f40a1"
       ],
       "notes": "Own main-based publication now preserves Currencies’ public-main integration answer and exact-main verification. Exact head 8cc907b6 is mergeable and awaits independent review. Finding #140 remains open.",
       "source_pins": {
@@ -15995,32 +15978,263 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
       }
+    },
+    {
+      "delivery_id": "3d7d0030-e979-11f1-9540-aa510a6f40a1",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 178,
+      "comment_id": null,
+      "head_sha": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960980
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960980,
+            "updated_at": "2026-11-26T08:44:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:29Z"
+      },
+      "processed_at": "2026-11-26T09:30:27.740Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Skipped as the already-recorded synchronization of the auditor’s own PR #178 publication at exact head 8cc907b6. No discussion reply posted.",
+      "urls": {
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178"
+      }
+    },
+    {
+      "delivery_id": "4e7821bc-e979-11f1-99d1-e7ca324fc2eb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 181,
+      "comment_id": 7187552999,
+      "head_sha": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7187552999,
+          7187576232
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:11:51Z"
+      },
+      "processed_at": "2026-11-26T09:30:27.740Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+        "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "code_form_ahead_of_vglp": 21,
+        "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+        "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+      },
+      "outcome": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "vglp_readme": "https://github.com/EShapiro2/GLP/commit/278ff108b31584752cd63f5aae476daf7841a616",
+        "code_candidate": "https://github.com/EShapiro2/GLP/commit/92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "6b259768-e979-11f1-8740-d320ef34e7aa",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 181,
+      "comment_id": 7187576232,
+      "head_sha": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7187552999,
+          7187576232
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:11:51Z"
+      },
+      "processed_at": "2026-11-26T09:30:27.740Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+        "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "code_form_ahead_of_vglp": 21,
+        "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+        "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+      },
+      "outcome": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "vglp_readme": "https://github.com/EShapiro2/GLP/commit/278ff108b31584752cd63f5aae476daf7841a616",
+        "code_candidate": "https://github.com/EShapiro2/GLP/commit/92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "ba91225c-e97b-11f1-8a1f-5f888508c8f6",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 181,
+      "comment_id": null,
+      "head_sha": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7187552999,
+          7187576232
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:11:51Z"
+      },
+      "processed_at": "2026-11-26T09:30:27.740Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+        "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+        "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+        "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "code_form_ahead_of_vglp": 21,
+        "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+        "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+      },
+      "outcome": "Own publication synchronization at exact head edb7eabf. Recorded without a discussion reply loop.",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999",
+        "addendum": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181/commits/edb7eabf45ec5b751eaadba79e894a7c0770f917",
+        "vglp_readme": "https://github.com/EShapiro2/GLP/commit/278ff108b31584752cd63f5aae476daf7841a616",
+        "code_candidate": "https://github.com/EShapiro2/GLP/commit/92fd2169465fad516e1c01304bca8f8a2574ac82",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/138-pr181-vglp-neutral-fallback-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/138-vglp-neutral-fallback-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
-    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
-    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
-    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
-    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
-    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
-    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
-    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
-    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
-    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
-    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
-    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
-    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
-    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
-    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
-    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f",
-    "observed_at": "2026-11-26T09:13:31.009Z"
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "code_form_ahead_of_vglp": 21,
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "observed_at": "2026-11-26T09:30:27.740Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -16030,34 +16244,26 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T08:56:00.000Z",
-    "last_stage": 136,
+    "last_reconciled_at": "2026-11-26T09:30:27.740Z",
+    "last_stage": 138,
     "processed_through_pr": 181,
-    "notes": "Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work."
+    "notes": "Preserved vGLP’s second dated answer and addendum in PR #181. Source inspection verifies the neutral fallback in public candidate 92fd2169 and its six focused test cases. The 6/6 execution claim was not rerun, the candidate is outside GLP main, and paper commit 42f53d1 remains outside the authorized public-source boundary. Finding #179 stays open."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
-    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
-    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
-    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "audit_pr_181_before": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
+    "audit_pr_181": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
-    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
-    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
-    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
-    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
-    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
-    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
-    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
-    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
-    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
-    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
-    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
-    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f",
-    "observed_at": "2026-11-26T09:13:31.009Z"
+    "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
+    "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
+    "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
+    "code_form_ahead_of_vglp": 21,
+    "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "audit_report_blob": "392ea36e9180e60a6642f2100c35c80a05ac8399",
+    "audit_issues_blob": "05be217be71940ae8c2713efbf10bfc93995205c",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "observed_at": "2026-11-26T09:30:27.740Z"
   }
 }

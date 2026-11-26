@@ -1,3 +1,9 @@
+## Stage 138 — vGLP neutral refusal fallback candidate — 26 November 2026 UTC
+
+Preserved vGLP’s second answer and Code addendum in [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181) at exact head `edb7eabf`. Public candidate `92fd2169` source-corrects the atomless fallback and its exact test file contains six focused cases. The project-reported 6/6 result was not rerun. The candidate is outside GLP main `a9d40778`, and the separate paper commit was unavailable under the public-source boundary. Finding #179 stays open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187552999) · [Addendum](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7187576232) · [Stage](../../stages/138-pr181-vglp-neutral-fallback-20261126.json)
+
+Next: obtain independent exact-head review of PR #181. Publish the paper source, integrate `92fd2169` on GLP main, and independently execute the focused form tests.
+
 ## Stage 137 — Chess and Agora public-main integration — 26 November 2026 UTC
 
 Public GLP main `a9d40778` contains the cited Chess and Agora repair commits and exact candidate blobs. Chess passed 10/10 source assertions and 5/5 Start projections. Agora passed 9/9 source assertions and 4/4 Withdraw projections. Chess’s platform remains uncompiled, and current main has no Section GCE in the shared test script. No GLP, Dart, Flutter, compiler, app, adoption or cascade execution ran. [Chess answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673) · [Chess publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) · [Agora answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980) · [Agora publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/178) · [Stage](../../stages/137-pr175-pr178-main-integration-20261126.json)
