@@ -1,0 +1,380 @@
+{
+  "stage": 151,
+  "collected_at": "2026-11-26T22:04:17Z",
+  "source_pins": {
+    "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+    "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+    "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+    "published_blobs": [
+      {
+        "path": "calculus/contracts.md",
+        "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+      },
+      {
+        "path": "ISSUES.md",
+        "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+      },
+      {
+        "path": "sections/status-table.tex",
+        "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+      }
+    ],
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+    "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+    "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+    "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+  },
+  "source_inspection": [
+    "The merged PR #189 has the exact source head and previous main as parents. All three changed blobs match head. PR #189 had no comments, review submissions or review threads.",
+    "The paper's cited calculus tree is identical to the tree at the previously reported 91-contract run. This run did not rerun the full catalogue or reread the supplied manuscript.",
+    "The public Knowledge source still has reciprocal knows only in Acquaint and uses knows in Introduce.",
+    "Three attributed Calculus issue replies supplied dated evidence. The private corrections, ward-subtyping candidate, ward-check failure and ongoing 106-contract run remain project evidence."
+  ],
+  "executed_checks": [
+    {
+      "name": "Four focused compiler runs (two fixtures at two public pins)",
+      "result": "pass",
+      "statement": "Both parent orders give one shared-root conjunction and two independent-root alternatives. Each compiler reports 5 and 6 contracts respectively, all Commute, Return and Recover, zero faults."
+    },
+    {
+      "command": "python3 audit189-base/bin/status.py",
+      "result": "pass",
+      "statement": "43 inputs were matched against Git blob IDs. The existing table reproduced byte for byte at 37 reports, 69 findings, 14 unanswered."
+    },
+    {
+      "command": "python3 audit189/bin/status.py",
+      "result": "pass",
+      "statement": "37 reports, 69 findings, 10 unanswered. Only the Calculus row changed from 9 to 5 unanswered."
+    },
+    {
+      "name": "Report structure and source comparisons",
+      "result": "pass",
+      "statement": "PR #189 preserved the earlier report exactly outside the new insertion. PR #190 preserved all headings and touched only Findings 10, 14, 22, 26, 27 and 28. The two Knowledge source files are byte-identical."
+    }
+  ],
+  "compiler_replay_python": "import hashlib,json,pathlib,shutil,subprocess,sys\nfor root,manifest in zip((\"pr189-cited\",\"pr189-latest\"),json.loads(sys.argv[1])):\n p=pathlib.Path(root)\n for name,sha in manifest:\n  data=(p/name).read_bytes()\n  assert hashlib.sha1(f\"blob {len(data)}\\0\".encode()+data).hexdigest()==sha,name\n gr=p/\"gr\"\n gr.mkdir()\n for path in (p/\"tests/merge/gr\").glob(\"*.txt\"):\n  shutil.copyfile(path,gr/path.name)\n for variant in (\"shared\",\"independent\"):\n  if variant==\"independent\":\n   (gr/\"V.txt\").write_text((gr/\"C.txt\").read_text().replace(\"C: Base\",\"V: Twin base\",1))\n   Q=gr/\"Q.txt\"\n   Q.write_text(Q.read_text().replace(\"restricts C.\",\"restricts V.\").replace(\"C:1\",\"V:1\"))\n  run=subprocess.run([sys.executable,\"tools/gcsas.py\"],cwd=p,text=True,capture_output=True)\n  print(root,variant,run.returncode)\n  if run.returncode: print(run.stderr); raise SystemExit(1)\n  print(run.stdout)\n  for name in (\"D\",\"E\"):\n   print(name,(p/\"sasx\"/(name+\".txt\")).read_text())\n",
+  "compiler_replay_input_sha_maps": [
+    [
+      [
+        "NAMES.txt",
+        "8ad00b5e07e9c9d60addee402503cc37e36571d1"
+      ],
+      [
+        "contracts/Knowledge/full-schemas.txt",
+        "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      ],
+      [
+        "tests/merge/gr/C.txt",
+        "b77f516e3b370035492eef772da812fcece9e1f7"
+      ],
+      [
+        "tests/merge/gr/D.txt",
+        "cbbeaf826a5632ad2b1aa1eab963f0dff4d97582"
+      ],
+      [
+        "tests/merge/gr/E.txt",
+        "155addddb7228573034a1efbc14f742dc6e7ecf5"
+      ],
+      [
+        "tests/merge/gr/P.txt",
+        "3eb054d06b2f879911e7cf9de67b6dacc034da05"
+      ],
+      [
+        "tests/merge/gr/Q.txt",
+        "38b677d87a02fa94f876d73969bdc88f8c486a4b"
+      ],
+      [
+        "tools/adopt.py",
+        "a1b3a71720b84dd69e7b73b376cf7bababfcc592"
+      ],
+      [
+        "tools/assemble.py",
+        "3fbb9e6a33b51a30b62a2b1ac8d9082097a4c714"
+      ],
+      [
+        "tools/cascade.py",
+        "bcf4949300ebd7a847fe4eb392177a716bb0ed26"
+      ],
+      [
+        "tools/changes.py",
+        "cd48c59e51ea4129ee5bc0be43b858b56213c995"
+      ],
+      [
+        "tools/derive.py",
+        "a52c437605538bb75f8a1a81c07f33ea33e55f29"
+      ],
+      [
+        "tools/expand.py",
+        "f0612f535c6c842c1cb49aebab9a0196e59091b7"
+      ],
+      [
+        "tools/gcsas.py",
+        "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288"
+      ],
+      [
+        "tools/grcheck.py",
+        "cc07d316745ca9498d8394309c2134eb61f57515"
+      ],
+      [
+        "tools/ifadopt.py",
+        "0359df977ee0db19b84209a3530bac67c3e11516"
+      ],
+      [
+        "tools/names.py",
+        "e393bd6a576b0a37b04e7004d250e04330882e4f"
+      ],
+      [
+        "tools/nameslines.py",
+        "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+      ],
+      [
+        "tools/owners.py",
+        "f25354f1232c6beeace4bac343b2d2f7abde2d2a"
+      ],
+      [
+        "tools/possibly.py",
+        "6dea10a82240a478620f74af83ef963255c4a95f"
+      ],
+      [
+        "tools/pragtex.py",
+        "251dfd230f539751193e97aeb75aa188c55e20cf"
+      ],
+      [
+        "tools/publish.py",
+        "77ac21c0a5024afe97986e7078b164c91b0639a2"
+      ],
+      [
+        "tools/redundant.py",
+        "235b3ed10e19204a95943cd585c98c6e2ecab2c4"
+      ],
+      [
+        "tools/relations.py",
+        "262ed805fb56611e18244ff89982aebb77aba38d"
+      ],
+      [
+        "tools/revtex.py",
+        "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+      ],
+      [
+        "tools/supplied.py",
+        "692b27d975c20351eb82a22d329d1232bf50c917"
+      ],
+      [
+        "tools/table.py",
+        "9c0c6b76fe16f6c01af6546974b75d626651d885"
+      ],
+      [
+        "tools/tests.py",
+        "180eb6becfb335e2b93704bc07d4e088fec09dc3"
+      ],
+      [
+        "tools/toglp.py",
+        "db038d4012154bd3e0ca6d98f97f0b9a9e9d4d62"
+      ],
+      [
+        "tools/typecheck_places.py",
+        "439cfc89e87882bc29447fd05b4cbb4236fffb7d"
+      ],
+      [
+        "tools/wildcards.py",
+        "b085688f3b004527108090fddac1d7d1eab6fb5f"
+      ]
+    ],
+    [
+      [
+        "NAMES.txt",
+        "3af992856bef66f82f9672c1681859fcb691376c"
+      ],
+      [
+        "contracts/Knowledge/full-schemas.txt",
+        "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      ],
+      [
+        "tests/merge/gr/C.txt",
+        "b77f516e3b370035492eef772da812fcece9e1f7"
+      ],
+      [
+        "tests/merge/gr/D.txt",
+        "cbbeaf826a5632ad2b1aa1eab963f0dff4d97582"
+      ],
+      [
+        "tests/merge/gr/E.txt",
+        "155addddb7228573034a1efbc14f742dc6e7ecf5"
+      ],
+      [
+        "tests/merge/gr/P.txt",
+        "3eb054d06b2f879911e7cf9de67b6dacc034da05"
+      ],
+      [
+        "tests/merge/gr/Q.txt",
+        "38b677d87a02fa94f876d73969bdc88f8c486a4b"
+      ],
+      [
+        "tools/adopt.py",
+        "bf05117ab537239a75d6676ea53727c99bf1eed8"
+      ],
+      [
+        "tools/assemble.py",
+        "3fbb9e6a33b51a30b62a2b1ac8d9082097a4c714"
+      ],
+      [
+        "tools/cascade.py",
+        "bcf4949300ebd7a847fe4eb392177a716bb0ed26"
+      ],
+      [
+        "tools/changes.py",
+        "cd48c59e51ea4129ee5bc0be43b858b56213c995"
+      ],
+      [
+        "tools/derive.py",
+        "39397209d29986dfa94be6deb65e3e8a66998af4"
+      ],
+      [
+        "tools/expand.py",
+        "8e211c1c3a7f4bda632a5bbe9eb217d1095ded83"
+      ],
+      [
+        "tools/gcsas.py",
+        "86d0f70f275641971aeec6d017449eb2aadb879d"
+      ],
+      [
+        "tools/grcheck.py",
+        "cc07d316745ca9498d8394309c2134eb61f57515"
+      ],
+      [
+        "tools/ifadopt.py",
+        "0359df977ee0db19b84209a3530bac67c3e11516"
+      ],
+      [
+        "tools/inherits.py",
+        "e7203ca5876e55573126a6188f7edd2dccb4420a"
+      ],
+      [
+        "tools/names.py",
+        "e393bd6a576b0a37b04e7004d250e04330882e4f"
+      ],
+      [
+        "tools/nameslines.py",
+        "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+      ],
+      [
+        "tools/owners.py",
+        "f25354f1232c6beeace4bac343b2d2f7abde2d2a"
+      ],
+      [
+        "tools/possibly.py",
+        "6dea10a82240a478620f74af83ef963255c4a95f"
+      ],
+      [
+        "tools/pragtex.py",
+        "251dfd230f539751193e97aeb75aa188c55e20cf"
+      ],
+      [
+        "tools/publish.py",
+        "4e84dce73d34f8abb3bc8cf8ce5f389f0705d77b"
+      ],
+      [
+        "tools/redundant.py",
+        "235b3ed10e19204a95943cd585c98c6e2ecab2c4"
+      ],
+      [
+        "tools/relations.py",
+        "262ed805fb56611e18244ff89982aebb77aba38d"
+      ],
+      [
+        "tools/revtex.py",
+        "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+      ],
+      [
+        "tools/signed.py",
+        "6e425233a3bb81f3c468cb97042a641b38c09078"
+      ],
+      [
+        "tools/supplied.py",
+        "692b27d975c20351eb82a22d329d1232bf50c917"
+      ],
+      [
+        "tools/table.py",
+        "05478a2dd4d5ff5dd121d4d792f06315b0f78737"
+      ],
+      [
+        "tools/tests.py",
+        "180eb6becfb335e2b93704bc07d4e088fec09dc3"
+      ],
+      [
+        "tools/toglp.py",
+        "a40649d03747b96171ec7d2dd9743333c9a62c57"
+      ],
+      [
+        "tools/typecheck_places.py",
+        "439cfc89e87882bc29447fd05b4cbb4236fffb7d"
+      ],
+      [
+        "tools/wildcards.py",
+        "b085688f3b004527108090fddac1d7d1eab6fb5f"
+      ]
+    ]
+  ],
+  "compiler_replay_stdout": "pr189-cited shared 0\nC          commute yes; return yes; recover same\nP          commute yes; return yes; recover same\nQ          commute yes; return yes; recover same\nD          commute yes; return yes; recover same\nE          commute yes; return yes; recover same\nnames: 0 names of two kinds neither of which is under the other\n5 contracts, 0 with a fault\n\nD D: Both (expanded schemas)\nD:0 - | Alice is a person.\nC:1+P:1+Q:1 ■ Signal: s(Alice) <- w(Alice), q(Alice) guarded by Alice.\n\nE E: Both, the other order (expanded schemas)\nE:0 - | Alice is a person.\nC:1+Q:1+P:1 ■ Signal: s(Alice) <- q(Alice), w(Alice) guarded by Alice.\n\npr189-cited independent 0\nC          commute yes; return yes; recover same\nP          commute yes; return yes; recover same\nV          commute yes; return yes; recover same\nQ          commute yes; return yes; recover same\nD          commute yes; return yes; recover same\nE          commute yes; return yes; recover same\nnames: 0 names of two kinds neither of which is under the other\n6 contracts, 0 with a fault\n\nD D: Both (expanded schemas)\nD:0 - | Alice is a person.\nC:1+P:1 ■ Signal: s(Alice) <- w(Alice) guarded by Alice.\nV:1+Q:1 ■ Signal: s(Alice) <- q(Alice) guarded by Alice.\n\nE E: Both, the other order (expanded schemas)\nE:0 - | Alice is a person.\nV:1+Q:1 ■ Signal: s(Alice) <- q(Alice) guarded by Alice.\nC:1+P:1 ■ Signal: s(Alice) <- w(Alice) guarded by Alice.\n\npr189-latest shared 0\nC          commute yes; return yes; recover same\nP          commute yes; return yes; recover same\nQ          commute yes; return yes; recover same\nD          commute yes; return yes; recover same\nE          commute yes; return yes; recover same\nnames: 0 names of two kinds neither of which is under the other\n5 contracts, 0 with a fault\n\nD D: Both (expanded schemas)\nD:0 - | Alice is a person.\nC:1+P:1+Q:1 ■ Signal: s(Alice) <- w(Alice), q(Alice) guarded by Alice.\n\nE E: Both, the other order (expanded schemas)\nE:0 - | Alice is a person.\nC:1+Q:1+P:1 ■ Signal: s(Alice) <- q(Alice), w(Alice) guarded by Alice.\n\npr189-latest independent 0\nC          commute yes; return yes; recover same\nP          commute yes; return yes; recover same\nV          commute yes; return yes; recover same\nQ          commute yes; return yes; recover same\nD          commute yes; return yes; recover same\nE          commute yes; return yes; recover same\nnames: 0 names of two kinds neither of which is under the other\n6 contracts, 0 with a fault\n\nD D: Both (expanded schemas)\nD:0 - | Alice is a person.\nC:1+P:1 ■ Signal: s(Alice) <- w(Alice) guarded by Alice.\nV:1+Q:1 ■ Signal: s(Alice) <- q(Alice) guarded by Alice.\n\nE E: Both, the other order (expanded schemas)\nE:0 - | Alice is a person.\nV:1+Q:1 ■ Signal: s(Alice) <- q(Alice) guarded by Alice.\nC:1+P:1 ■ Signal: s(Alice) <- w(Alice) guarded by Alice.\n\n",
+  "status_regeneration_output": "43 merged base blob hashes agree\n37 reports, 69 findings, 14 unanswered\n37 reports, 69 findings, 10 unanswered\n--- audit189-base/sections/status-table.tex\t2026-11-26 22:01:36.751518941 +0000\n+++ audit189/sections/status-table.tex\t2026-11-26 22:01:36.771796984 +0000\n@@ -3,7 +3,7 @@\n \\toprule\n \\textbf{Audited} & \\textbf{GLP commit} & \\textbf{Date} & \\textbf{Findings} & \\textbf{Unanswered} \\\\\n \\midrule\n-\\dir{calculus/contracts} & \\dir{ec66a159} & 2026-11-25 & 29 & 9 \\\\\n+\\dir{calculus/contracts} & \\dir{ec66a159} & 2026-11-25 & 29 & 5 \\\\\n \\dir{calculus/tools/gcsas.py} & \\dir{4e68cca5} & 2026-11-25 & 1 & 0 \\\\\n \\dir{cascade/GAS} & \\dir{c40e6d3a} & 2026-11-12 & 0 & 0 \\\\\n \\dir{cascade/GB} & \\dir{c40e6d3a} & 2026-11-12 & 0 & 0 \\\\\n",
+  "report_checks": {
+    "same": true,
+    "stable": true,
+    "edits": [
+      "10",
+      "14",
+      "22",
+      "26",
+      "27",
+      "28"
+    ]
+  },
+  "issue_comment_versions": [
+    {
+      "issue": 167,
+      "id": 7203617940,
+      "updated_at": "2026-11-26T21:19:40Z",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/167#issuecomment-7203617940",
+      "login": "EShapiro2",
+      "attribution": "Calculus, submitted by Audit #6"
+    },
+    {
+      "issue": 168,
+      "id": 7203619958,
+      "updated_at": "2026-11-26T21:19:48Z",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/168#issuecomment-7203619958",
+      "login": "EShapiro2",
+      "attribution": "Calculus, submitted by Audit #6"
+    },
+    {
+      "issue": 169,
+      "id": 7203620195,
+      "updated_at": "2026-11-26T21:19:49Z",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/169#issuecomment-7203620195",
+      "login": "EShapiro2",
+      "attribution": "Calculus, submitted by Audit #6"
+    }
+  ],
+  "urls": {
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/189",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+    "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190/commits/62829f66a411ba074d5508a58607e456018e9001",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/151-pr189-calculus14-answers-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+    "cited_fixture": "https://github.com/EShapiro2/GLP/tree/1503cddc1a9b6feff952344d7d9f186e6f5c492f/calculus/tests/merge",
+    "gsc_scope": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/168",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/169"
+    ]
+  }
+}

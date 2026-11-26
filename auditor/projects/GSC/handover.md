@@ -1,3 +1,7 @@
+## Stage 151 — Calculus (14) and inherited act answers — 26 November 2026 UTC
+
+[PR #190](https://github.com/udi-shapiro/Grassroots-Audit/pull/190) records Calculus’s responses on [#168](https://github.com/udi-shapiro/Grassroots-Audit/issues/168) and [#169](https://github.com/udi-shapiro/Grassroots-Audit/issues/169). The project leaves scope to Udi. The nonempty scalar-argument rule reported for revision (14) excludes the old empty-argument witness under the stated assumptions. Role extents, clearing, multiset witnessing and active-ward results remain open. [Stage](../../stages/151-pr189-calculus14-answers-20261126.json)
+
 ## Stage 149 — Calculus (12) and (13) reviews reconciled on main — 26 November 2026 UTC
 
 The [Calculus (12) and (13) reviews](https://github.com/udi-shapiro/Grassroots-Audit/blob/0175491e11dd191a4a4bf0156610f69ebcda1a9e/calculus/contracts.md#calculus-12-and-13-against-gsc-19-november-2026) against GSC (19) are on main through [PR #185](https://github.com/udi-shapiro/Grassroots-Audit/pull/185). The public GSC PDF at papers commit `a5badfc7` differs in byte size from the supplied GSC (19) used in those reviews. Preserve the open obligations for multiset and witnessing semantics, active wards, and the scope of the grassroots results. Compare them against a public build of the matching edition when available. [Stage record](../../stages/149-pr185-calculus-reviews-20261126.json)

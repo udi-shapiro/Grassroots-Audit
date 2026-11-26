@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T22:00:04Z",
-  "active_run": {
-    "run_id": "pr189-calculus-14-20261126",
-    "delivery_ids": [
-      "7fb78af4-e9e4-11f1-805b-e450026381d5"
-    ],
-    "acquired_at": "2026-11-26T22:00:04Z",
-    "lease_expires_at": "2026-11-26T22:30:04.000Z",
-    "pull_requests": [
-      189
-    ],
-    "event_types": [
-      "pull_request"
-    ]
-  },
+  "updated_at": "2026-11-26T22:04:17Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -35,17 +22,17 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "fea0833c-e9e1-11f1-9d93-6b92b9ca28c7",
-      "event": "PR 188 opened and merged",
-      "pull_request_number": 188,
-      "observed_at": "2026-11-26T21:43:00Z",
-      "outcome": "Publication already merged. Finite controls reproduce both reported mechanisms under their stated assumptions. Both findings remain open. The exact supplied manuscript was outside public-source coverage."
+      "delivery_id": "86459dca-e9e4-11f1-90b5-680de088f54b",
+      "event": "PR 189 opened and merged; own PR 190 opening",
+      "pull_request_number": 189,
+      "observed_at": "2026-11-26T22:04:17Z",
+      "outcome": "Reconciled merged revision (14) review, captured three attributed project replies, and opened PR #190 with independent inherited-act replay and a regenerated status table. Existing findings remain open."
     },
     "environment_selection": "inherited",
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 181,
+  "publication_pr": 190,
   "publication_merge_sha": null,
   "source_verified": "82524f1f6f67067e8d1edb0603475302f9e375b9",
   "processed_prs": [
@@ -3519,21 +3506,192 @@
         "public_vmat_pdf_bytes": 573644
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
+    },
+    {
+      "number": 189,
+      "head_sha": "7a42d1178ec33842f7c4a327301fef330e174761",
+      "base_sha": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+      "state": "closed",
+      "updated_at": "2026-11-26T21:58:33Z",
+      "merged_at": "2026-11-26T21:58:33Z",
+      "merge_commit_sha": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+      "mergeable": false,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "7fb78af4-e9e4-11f1-805b-e450026381d5",
+        "86459dca-e9e4-11f1-90b5-680de088f54b"
+      ],
+      "source_pins": {
+        "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+        "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+        "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+        "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+        "published_blobs": [
+          {
+            "path": "calculus/contracts.md",
+            "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+          },
+          {
+            "path": "ISSUES.md",
+            "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+          },
+          {
+            "path": "sections/status-table.tex",
+            "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+          }
+        ],
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+        "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+        "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+        "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      "notes": "Reconciled merged revision (14) review, captured three attributed project replies, and opened PR #190 with independent inherited-act replay and a regenerated status table. Existing findings remain open.",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+      "own_publication": false,
+      "related_issue_comment_versions": [
+        {
+          "issue": 167,
+          "id": 7203617940,
+          "updated_at": "2026-11-26T21:19:40Z",
+          "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/167#issuecomment-7203617940",
+          "login": "EShapiro2",
+          "attribution": "Calculus, submitted by Audit #6"
+        },
+        {
+          "issue": 168,
+          "id": 7203619958,
+          "updated_at": "2026-11-26T21:19:48Z",
+          "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/168#issuecomment-7203619958",
+          "login": "EShapiro2",
+          "attribution": "Calculus, submitted by Audit #6"
+        },
+        {
+          "issue": 169,
+          "id": 7203620195,
+          "updated_at": "2026-11-26T21:19:49Z",
+          "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/169#issuecomment-7203620195",
+          "login": "EShapiro2",
+          "attribution": "Calculus, submitted by Audit #6"
+        }
+      ]
+    },
+    {
+      "number": 190,
+      "head_sha": "62829f66a411ba074d5508a58607e456018e9001",
+      "base_sha": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+      "state": "open",
+      "updated_at": "2026-11-26T22:03:06Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": true,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "2963e7d2-e9e5-11f1-990c-c412cf111ad6"
+      ],
+      "source_pins": {
+        "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+        "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+        "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+        "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+        "published_blobs": [
+          {
+            "path": "calculus/contracts.md",
+            "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+          },
+          {
+            "path": "ISSUES.md",
+            "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+          },
+          {
+            "path": "sections/status-table.tex",
+            "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+          }
+        ],
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+        "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+        "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+        "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      "notes": "Own publication awaits exact-head review.",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+      "own_publication": true
     }
   ],
   "source_observed_after_tests": {
-    "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
-    "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
-    "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
-    "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
-    "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
-    "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
-    "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+    "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+    "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+    "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+    "published_blobs": [
+      {
+        "path": "calculus/contracts.md",
+        "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+      },
+      {
+        "path": "ISSUES.md",
+        "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+      },
+      {
+        "path": "sections/status-table.tex",
+        "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+      }
+    ],
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
     "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
-    "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-    "public_vmat_pdf_bytes": 573644,
-    "observed_at": "2026-11-26T21:43:00Z"
+    "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+    "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+    "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+    "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "observed_at": "2026-11-26T22:04:17Z"
   },
   "processed_events": [
     {
@@ -17567,21 +17725,244 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/150-pr188-vmat22-review-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/150-pr188-vmat22-review-20261126.json"
       }
+    },
+    {
+      "delivery_id": "7fb78af4-e9e4-11f1-805b-e450026381d5",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 189,
+      "comment_id": null,
+      "head_sha": "7a42d1178ec33842f7c4a327301fef330e174761",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T22:04:17Z",
+      "source_pins": {
+        "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+        "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+        "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+        "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+        "published_blobs": [
+          {
+            "path": "calculus/contracts.md",
+            "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+          },
+          {
+            "path": "ISSUES.md",
+            "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+          },
+          {
+            "path": "sections/status-table.tex",
+            "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+          }
+        ],
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+        "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+        "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+        "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      "outcome": "Reconciled merged revision (14) review, captured three attributed project replies, and opened PR #190 with independent inherited-act replay and a regenerated status table. Existing findings remain open.",
+      "urls": {
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/189",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+        "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190/commits/62829f66a411ba074d5508a58607e456018e9001",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/151-pr189-calculus14-answers-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+        "cited_fixture": "https://github.com/EShapiro2/GLP/tree/1503cddc1a9b6feff952344d7d9f186e6f5c492f/calculus/tests/merge",
+        "gsc_scope": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/168",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/169"
+        ]
+      }
+    },
+    {
+      "delivery_id": "86459dca-e9e4-11f1-90b5-680de088f54b",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 189,
+      "comment_id": null,
+      "head_sha": "7a42d1178ec33842f7c4a327301fef330e174761",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T22:04:17Z",
+      "source_pins": {
+        "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+        "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+        "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+        "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+        "published_blobs": [
+          {
+            "path": "calculus/contracts.md",
+            "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+          },
+          {
+            "path": "ISSUES.md",
+            "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+          },
+          {
+            "path": "sections/status-table.tex",
+            "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+          }
+        ],
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+        "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+        "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+        "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      "merged": true,
+      "merge_commit_sha": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+      "outcome": "Observed the same exact head merged into main.",
+      "urls": {
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/189",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+        "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190/commits/62829f66a411ba074d5508a58607e456018e9001",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/151-pr189-calculus14-answers-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+        "cited_fixture": "https://github.com/EShapiro2/GLP/tree/1503cddc1a9b6feff952344d7d9f186e6f5c492f/calculus/tests/merge",
+        "gsc_scope": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/168",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/169"
+        ]
+      }
+    },
+    {
+      "delivery_id": "2963e7d2-e9e5-11f1-990c-c412cf111ad6",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 190,
+      "comment_id": null,
+      "head_sha": "62829f66a411ba074d5508a58607e456018e9001",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T22:04:17Z",
+      "source_pins": {
+        "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+        "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+        "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+        "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+        "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+        "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+        "published_blobs": [
+          {
+            "path": "calculus/contracts.md",
+            "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+          },
+          {
+            "path": "ISSUES.md",
+            "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+          },
+          {
+            "path": "sections/status-table.tex",
+            "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+          }
+        ],
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+        "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+        "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+        "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+        "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+        "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+        "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+        "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      "outcome": "Own publication event recorded once without a reply. Exact-head review pending.",
+      "urls": {
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/189",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+        "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190/commits/62829f66a411ba074d5508a58607e456018e9001",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/151-pr189-calculus14-answers-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/151-pr189-calculus14-answers-20261126.json",
+        "cited_fixture": "https://github.com/EShapiro2/GLP/tree/1503cddc1a9b6feff952344d7d9f186e6f5c492f/calculus/tests/merge",
+        "gsc_scope": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/168",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/169"
+        ]
+      }
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
-    "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
-    "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
-    "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
-    "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
-    "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
-    "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+    "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+    "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+    "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+    "published_blobs": [
+      {
+        "path": "calculus/contracts.md",
+        "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+      },
+      {
+        "path": "ISSUES.md",
+        "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+      },
+      {
+        "path": "sections/status-table.tex",
+        "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+      }
+    ],
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
     "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
-    "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-    "public_vmat_pdf_bytes": 573644,
-    "observed_at": "2026-11-26T21:43:00Z"
+    "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+    "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+    "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+    "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "observed_at": "2026-11-26T22:04:17Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -17589,25 +17970,45 @@
       50,
       68
     ],
-    "stage_record": "auditor/stages/150-pr188-vmat22-review-20261126.json",
+    "stage_record": "auditor/stages/151-pr189-calculus14-answers-20261126.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T21:43:00Z",
-    "last_stage": 150,
-    "processed_through_pr": 188,
-    "notes": "Publication already merged. Finite controls reproduce both reported mechanisms under their stated assumptions. Both findings remain open. The exact supplied manuscript was outside public-source coverage."
+    "last_reconciled_at": "2026-11-26T22:04:17Z",
+    "last_stage": 151,
+    "processed_through_pr": 190,
+    "notes": "Reconciled merged revision (14) review, captured three attributed project replies, and opened PR #190 with independent inherited-act replay and a regenerated status table. Existing findings remain open."
   },
   "latest_source_observed": {
-    "audit_main": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
-    "audit_pr_188": "11125c93087ebda6948711f7e04a09cd1bb9e6bc",
-    "audit_pr_188_base": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
-    "audit_report_blob": "1da16e5578b7ed3c4b4e7f3d162f697bfc301e82",
-    "audit_previous_report_blob": "f40521bcf9b2ab0741d3919772388448d4a6df4b",
-    "audit_issues_blob": "c4a3aa253f5e9cf08b59515bb27c80fa6865031a",
-    "audit_status_table_blob": "113a2efd66a85d20c05fe9aa4728c5f8b69fc1d5",
+    "audit_main_review": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_main_observed": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_189": "7a42d1178ec33842f7c4a327301fef330e174761",
+    "audit_pr_189_base": "c13eea1fbc9d37ef6c325296877b7d11f9e3eac5",
+    "audit_pr_190": "62829f66a411ba074d5508a58607e456018e9001",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_review_14_blob": "65bd2ab24f350135d4a3d09dbce203d3c0013607",
+    "audit_report_base_blob": "1e75cc040b71fce46ce591a509218006ae0f72f1",
+    "published_blobs": [
+      {
+        "path": "calculus/contracts.md",
+        "sha": "8efc1161ea5d32fdfbd0bf03b57fbdc84e4a414f"
+      },
+      {
+        "path": "ISSUES.md",
+        "sha": "8e7a9b8787d983f35af11eee1e3a94f81c49bb0e"
+      },
+      {
+        "path": "sections/status-table.tex",
+        "sha": "693ce57e9bf211224c0bd2d689833d63c264dc5f"
+      }
+    ],
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
     "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
-    "public_vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-    "public_vmat_pdf_bytes": 573644,
-    "observed_at": "2026-11-26T21:43:00Z"
+    "glp_paper_cites": "1503cddc1a9b6feff952344d7d9f186e6f5c492f",
+    "glp_previously_tested": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_cited_calculus_tree": "8aca09cb7a3123ef9763c489217c3d74fa35d67d",
+    "glp_current_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "cited_compiler": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
+    "glp_main_compiler": "86d0f70f275641971aeec6d017449eb2aadb879d",
+    "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "observed_at": "2026-11-26T22:04:17Z"
   }
 }
