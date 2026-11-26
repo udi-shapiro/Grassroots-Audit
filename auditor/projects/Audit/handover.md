@@ -1,3 +1,7 @@
+## Stage 128 — PR #171 reconciliation publication — 26 November 2026 UTC
+
+[PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) is rebased on current main at exact head `afcd9046c9e551acd8635d17343e2b4ed8788007`. It preserves the new GLP answer, publishes the TGLP/runtime reconciliation verification and proposes resolving #31. The full status regeneration is byte-identical. Await a real exact-head review before merge and issue closure. [Stage record](../../stages/128-pr171-tglp-runtime-reconciliation-20261126.json)
+
 ## Stage 127 — Public GLP integration — 26 November 2026 UTC
 
 PR #176’s five attributed answers are merged; source verification is in #177, exact head `ca2ed1cfde33debc9e07675fe31d629c5367e7f6`. Review that head before merging and updating issue #135. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)

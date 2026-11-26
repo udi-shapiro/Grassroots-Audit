@@ -1,3 +1,7 @@
+## Stage 128 — TGLP/runtime reconciliation verified — 26 November 2026 UTC
+
+Public TGLP `e525981d` / blob `decffb8c` now explicitly admits the typed cyclic writer mgu, treats the corresponding cGLP state as a terminal deadlock allowed by soundness, and documents the implementation's circular-term step. GLP main `37d31ca9` adds the focused A44 source regression. [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171), head `afcd9046`, preserves GLP #19’s dated answer and the independent paper/source verification. No Dart executable was available, so the new A44 and aggregate suite were not rerun. After independent review, merge the exact head and close [#31](https://github.com/udi-shapiro/Grassroots-Audit/issues/31). [Stage record](../../stages/128-pr171-tglp-runtime-reconciliation-20261126.json)
+
 ## Stage 126 — Public GLP-Spec proof repair verified — 26 November 2026 UTC
 
 The rebuilt [public GLP-Spec PDF](https://github.com/EShapiro2/GLP/blob/039efdae8576cfe876276364a9876ccb30fb04ea/papers/GLP-Spec.pdf), blob `8182a24e967a0e4b9f056038d627d59d35fb0c5d`, now contains Proposition E.1’s normalized projected-mgu argument and the run invariant through Reduce and Communicate. The cyclic/acyclic Python control passes again. [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) records the verification at head `3ce39f61caf8f8983be8e2012813cf2ceed412f9`.

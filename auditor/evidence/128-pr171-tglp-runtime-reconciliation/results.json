@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-11-26T01:28:21.171Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_171_previous_head": "3ce39f61caf8f8983be8e2012813cf2ceed412f9",
+    "audit_pr_171_head": "afcd9046c9e551acd8635d17343e2b4ed8788007",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_main_parent": "80da4331d13ff601fb120a64e74f3c781eef23c7",
+    "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+    "glp_spec_pdf_blob": "8182a24e967a0e4b9f056038d627d59d35fb0c5d",
+    "tglp_pdf_blob": "decffb8c9d1ac55e690e6ae3108b0046e93a4f17",
+    "typed_fixture_blob": "de98194a88a3766a58456d72149ad0efcdaeefd2",
+    "harness_blob": "4b2788f95c1a56479277120aca20b2bf435a20ff"
+  },
+  "pdf": {
+    "path": "papers/TGLP.pdf",
+    "blob": "decffb8c9d1ac55e690e6ae3108b0046e93a4f17",
+    "sha256": "ad61883099e0b8d663223622be2bd0d3f903644bf09de732450f252d7abc7ccf",
+    "observed_text": [
+      "Reduce requires the accumulated substitution acyclic.",
+      "Well-typing does not exclude a cyclic writer mgu.",
+      "The cGLP run ends in a terminal configuration, a deadlock, which soundness does not exclude.",
+      "An implementation makes no occurs check and builds a circular term."
+    ]
+  },
+  "runtime_source": {
+    "fixture": {
+      "path": "programs/tests/typed/cyclic_mgu_test.glp",
+      "blob": "de98194a88a3766a58456d72149ad0efcdaeefd2"
+    },
+    "harness": {
+      "path": "test/run_all_tests.sh",
+      "blob": "4b2788f95c1a56479277120aca20b2bf435a20ff"
+    },
+    "assertions": [
+      "fixture loads",
+      "p(Y,a) = f(a)",
+      "p(Y,Z?) has an acyclic f binding",
+      "p(Y,Y?) prints f(f(<circular>))"
+    ]
+  },
+  "execution": {
+    "dart_available": false,
+    "a44_executed": false,
+    "aggregate_suite_executed": false,
+    "project_claim": "Section A: 379 passed, 0 failed",
+    "prior_independent_run": "https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43304380799"
+  },
+  "status": {
+    "reports": 36,
+    "findings": 66,
+    "unanswered": 12,
+    "table_sha256_before": "22adf477e41afe7f150de9e56104e1f2cc5d68714adfbc2537e6f71567222c64",
+    "table_sha256_after": "22adf477e41afe7f150de9e56104e1f2cc5d68714adfbc2537e6f71567222c64"
+  }
+}
