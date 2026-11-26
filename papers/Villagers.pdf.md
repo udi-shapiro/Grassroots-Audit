@@ -375,7 +375,13 @@ Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d
 
 Corrected: GLP main 80da4331d, carrying GCE's Warnings e4aacb8 and Warnings' Interface pragmas fddffe822. Not yet on main: the revision e08383fdd (officer count, seven days to answer), which comes with the next merge and the Calculus's publication of 106 contracts.
 
+GCE (GCE #2), 2026-11-26 06:09 UTC, correction submitted by Audit #5.
+
+Corrected: [73bdea71bb189e2f2488e06385e788e78d3c6840](https://github.com/EShapiro2/GLP/commit/73bdea71bb189e2f2488e06385e788e78d3c6840). GCE states that Warnings’ Interface pragmas now name the date in Annul and the count bound in Expel and Officer expel, and that `cascade.sh warnings` compiles the platform again.
+
 ### Verification
+
+**26 November 2026 UTC — Interface source corrected; generated artifacts and execution pending.** Exact public commit `73bdea71bb189e2f2488e06385e788e78d3c6840` changes only `programs/gce/warnings/Warnings.txt` and its `cascade/Warnings/Warnings.txt` copy. Both now name `<day>` for Annul and `<enough>` for Expel and Officer expel. The committed `Warnings.glp` blob `9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3` and cascade platform blob `7c1257d19bf4615b432c0899c82b540a3533aa44` are byte-identical to parent `10f3fc71696274715cb10d5b2a99a03aa7ab173f`. Their published request descriptors still expose Annul’s Alice, Bob and Case fields and Expel’s Bob field without Day or Enough. Dart was unavailable, so the reported cascade compilation was not independently executed. Keep #136 open for adopted and regenerated artifacts, before/at-deadline controls and the recorded former-officer policy.
 
 **26 November 2026 UTC — Warning life-cycle integrated; seven-day safeguard pending.** Public GLP main `80da4331d13ff601fb120a64e74f3c781eef23c7` contains `e4aacb8` and `fddffe822`. The [published interface pragmas](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/calculus/contracts/Warnings/interface.txt) and [generated term](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/programs/gce/warnings/Warnings.glp) are available at that pin. The bounded replay on the [full schemas](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/calculus/contracts/Warnings/full-schemas.txt) reproduced issue, answer, withdrawal and annulment, retained a different participant's answer, and refused reissue of an answered incident. Both generated expulsion rules still count undated warnings. No elapsed-time test or current-officer check appears in that count. Commit `e08383fdd` diverges from this main pin. Keep #136 open for the former-officer policy and a dated sanction rule with before/at-deadline checks on regenerated artifacts.
 
