@@ -1,3 +1,7 @@
+## Stage 132 — Warnings request fields need regeneration — 26 November 2026 UTC
+
+The Warnings generated module already carries Day and Enough in the act schemas. Candidate `73bdea71` adds the names to the readable interface source, while the committed cascade platform remains unchanged and its request descriptors omit the fields. Regenerate and execute the interface path before closing #136. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
+
 ## Stage 131 — Chess function compilation remains open — 26 November 2026 UTC
 
 The public candidate exports draw, autodraw and plies and regenerates Chess.glp, while GLP main remains unchanged. The source-level schema checks pass. Finding #157 stays open until the vGLP compiler accepts the Chess function library and the compiled acts run. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)

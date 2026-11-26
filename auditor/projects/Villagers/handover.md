@@ -1,3 +1,7 @@
+## Stage 132 — Warnings #136 interface-source follow-up — 26 November 2026 UTC
+
+GCE’s dated answer at public `73bdea71` is preserved in PR #177. The source now names Day and Enough, while the committed cascade platform is unchanged and omits those request fields. Keep #136 open for adoption, regenerated artifacts, before/at-deadline controls and the former-officer policy. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
+
 ## Stage 127 — Public GLP integration — 26 November 2026 UTC
 
 The integrated Disputes schema passed the single-assignment and ruling controls. #177 proposes resolving #135. Warnings timing and Tennis quota and replacement remain open. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)

@@ -1,3 +1,7 @@
+## Stage 132 — Chess and Warnings publications refreshed — 26 November 2026 UTC
+
+[PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at `ab060b698d0db3cc59d98053a4816b276e5d7ff4` preserves GCE’s check-count correction. [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) at `a971fa8695568e109d99666ef325752cd80d3d36` preserves the Warnings #136 answer and exact-source limitation. Both are mergeable with no reviews and must await independent exact-head review. Status regenerates at 37 reports, 69 findings and 12 unanswered for #175 and 36 reports, 66 findings and 12 unanswered for #177. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
+
 ## Stage 131 — Chess follow-up publication refreshed — 26 November 2026 UTC
 
 [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at exact head `6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5` preserves GCE’s identifier-scope clarification and the generated-schema verification. It is based on audit main and awaits independent exact-head review. Status regenerates at 37 reports, 69 findings and 12 unanswered. PR #158 remains open with its contributor head intact. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)

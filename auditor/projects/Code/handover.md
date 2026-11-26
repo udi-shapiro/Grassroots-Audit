@@ -1,3 +1,7 @@
+## Stage 132 — Warnings interface adoption pending — 26 November 2026 UTC
+
+Candidate `73bdea71bb189e2f2488e06385e788e78d3c6840` corrects the Warnings interface source for Annul Day and Expel Enough. The committed cascade platform remains blob `7c1257d19bf4615b432c0899c82b540a3533aa44` and omits those request fields. Adopt and regenerate the interface, then run before and at the seven-day deadline. Chess compiler support remains open under #157. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
+
 ## Stage 131 — Chess generated schemas await executable integration — 26 November 2026 UTC
 
 Candidate `c63b27ed9618f112d18db06b3329c94f5c7b70b6` contains the regenerated Start and draw schemas and a Chess function library. The exact-source static check passes. GLP main remains `37d31ca95c6a599113dcf6eb0b8341f8202c3a47`. For #157, add public compiler support, build the platform and run legal, refused and mate controls. For #160 and #161, run the recorded draw and Start cases after integration. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)

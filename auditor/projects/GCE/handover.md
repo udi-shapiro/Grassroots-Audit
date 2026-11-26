@@ -1,3 +1,7 @@
+## Stage 132 — Chess count correction and Warnings interface source — 26 November 2026 UTC
+
+GCE corrected the Section GCE count to 53, with two TY checks in the reported combined run. PR #175 preserves the correction. Warnings candidate `73bdea71bb189e2f2488e06385e788e78d3c6840` names Day and Enough in the readable interface source. The unchanged cascade platform still omits those request fields. Keep #136 open for adoption, regeneration and deadline controls. [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
+
 ## Stage 131 — Chess schemas and identifier scope — 26 November 2026 UTC
 
 Public candidate `c63b27ed9618f112d18db06b3329c94f5c7b70b6` regenerates two-party Start and the three draw paths. The static schema check and bounded Start projection pass. Disjoint pairs may reuse a raw game identifier under the project’s clarified identity rule. Keep #157, #160 and #161 open for public-main integration and executable controls. [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) preserves the dated follow-up. [Stage record](../../stages/131-pr158-chess-generated-schemas-20261126.json)

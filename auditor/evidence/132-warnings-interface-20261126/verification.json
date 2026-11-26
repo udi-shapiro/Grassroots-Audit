@@ -1,0 +1,30 @@
+{
+  "source_commit": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+  "parent_commit": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
+  "source_blobs": {
+    "programs/gce/warnings/Warnings.txt": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+    "programs/gce/warnings/Warnings.glp": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "cascade/Warnings/platform.vglp": "7c1257d19bf4615b432c0899c82b540a3533aa44",
+    "parent/programs/gce/warnings/Warnings.txt": "b34ba5587e9733d1fc284386fe8cb57c73fc9590",
+    "parent/programs/gce/warnings/Warnings.glp": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "parent/cascade/Warnings/platform.vglp": "7c1257d19bf4615b432c0899c82b540a3533aa44"
+  },
+  "checks": {
+    "annul_source_names_day": true,
+    "expel_source_names_enough": true,
+    "officer_expel_source_names_enough": true,
+    "source_changed_from_parent": true,
+    "generated_module_unchanged": true,
+    "cascade_platform_unchanged": true,
+    "generated_annul_schema_has_day": true,
+    "generated_expel_schema_has_enough": true,
+    "generated_officer_expel_schema_has_enough": true,
+    "platform_annul_fields_lack_day": true,
+    "platform_expel_fields_lack_enough": true
+  },
+  "limits": [
+    "Static source and committed-artifact comparison only.",
+    "No Dart, adoption, cascade, compiler, or app execution.",
+    "The project-reported cascade.sh warnings result was not independently executed."
+  ]
+}
