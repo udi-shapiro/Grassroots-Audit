@@ -1,0 +1,243 @@
+{
+  "stage": 149,
+  "collected_at": "2026-11-26T20:31:49Z",
+  "source_pins": {
+    "audit_main": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "audit_pr_185": "001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+    "audit_pr_185_base": "708768960724842725766e59c3f2909042918ba1",
+    "audit_report_blob": "40300ec5ded888554bc8d17fdec72d0a8d2781ef",
+    "audit_report_previous_blob": "48a645510fffd780731475d789ccdbfdfe7193ea",
+    "audit_review_12_blob": "dde25cad5eddc1a1a35cac656b5074321fbe6e9a",
+    "audit_review_13_blob": "14457abb87ee22b0760c2ae0ebd3ae751689009d",
+    "audit_status_table_blob": "b78a3c9101989a413467b0e06098cf87103fe411",
+    "audit_index_blob": "eff72f344d847d24b96167362dad192b092b2770",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_review_13_sources": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_review_12_sources": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "glp_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+  },
+  "source_inspection": [
+    "The merge commit has the previous main and the exact PR head as parents. All three changed files have identical blobs between head and merged main.",
+    "The published Calculus tree is identical between GLP main and the revision (13) compiler pin. Knowledge's Acquaint and Introduce heads share knows and add no met atom. The Rehearsal Rooms schema contains separate Orga and Wendy Retire clauses from Guardians:5.",
+    "The public papers tree has no Calculus PDF under its expected name. Its GSC PDF is 2,129,418 bytes, while the preceding review lists the supplied GSC (19) at 2,133,059 bytes. The supplied-edition proofs were not independently reread on this run.",
+    "The PR has no discussion or formal submitted reviews. There are no issue comments on #166–170 in the retrieved GitHub record. The pre-existing numbered findings and answers survived byte for byte in the report."
+  ],
+  "execution": {
+    "checks": [
+      {
+        "command": "python3 audit/bin/status.py",
+        "snapshot": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+        "result": "passed",
+        "output": "37 reports, 67 findings, 12 unanswered\nb78a3c9101989a413467b0e06098cf87103fe411"
+      },
+      {
+        "command": "python3 tools/tests.py",
+        "cwd": "scratch calculus snapshot containing tests/merge only",
+        "snapshot": "7b68b74c6388135736632957b321ae63503feaf7",
+        "result": "passed",
+        "output": "merge      same\n1 cases, 0 that differ"
+      },
+      {
+        "name": "Report insertion, attachment link and published schema assertions",
+        "result": "passed",
+        "output": "Report insertion and both links verified. Both Knowledge heads and the two Rehearsal Retire clauses match the published review."
+      }
+    ],
+    "fixture_inputs": [
+      {
+        "path": "calculus/NAMES.txt",
+        "blob": "3af992856bef66f82f9672c1681859fcb691376c"
+      },
+      {
+        "path": "calculus/contracts/Knowledge/full-schemas.txt",
+        "blob": "fe7eac08573965414e69843ee9a1c17a12f852fd"
+      },
+      {
+        "path": "calculus/contracts/Rehearsal-Rooms/full-schemas.txt",
+        "blob": "4e35e393f532fd9925ad51e86cdb564499b0abf1"
+      },
+      {
+        "path": "calculus/tests/merge/exp/C.txt",
+        "blob": "c1d349eb572fccbb2e7e35ef7e92a2fb30aaac7f"
+      },
+      {
+        "path": "calculus/tests/merge/exp/D.txt",
+        "blob": "918fe114a52e02432d4e3f9a6a2bb2fbeae6bb20"
+      },
+      {
+        "path": "calculus/tests/merge/exp/E.txt",
+        "blob": "61102560f7a873a8d7b2e432d65c58608541acc4"
+      },
+      {
+        "path": "calculus/tests/merge/exp/P.txt",
+        "blob": "b2d643c4b1b44386f05b0dd21882c64de09592ca"
+      },
+      {
+        "path": "calculus/tests/merge/exp/Q.txt",
+        "blob": "f067245ed08e34752e7f52335870992b43ad5666"
+      },
+      {
+        "path": "calculus/tests/merge/expect.txt",
+        "blob": "443748b737c3ac3c8bfdb45f5fcbecdd2ad43203"
+      },
+      {
+        "path": "calculus/tests/merge/gr/C.txt",
+        "blob": "b77f516e3b370035492eef772da812fcece9e1f7"
+      },
+      {
+        "path": "calculus/tests/merge/gr/D.txt",
+        "blob": "cbbeaf826a5632ad2b1aa1eab963f0dff4d97582"
+      },
+      {
+        "path": "calculus/tests/merge/gr/E.txt",
+        "blob": "155addddb7228573034a1efbc14f742dc6e7ecf5"
+      },
+      {
+        "path": "calculus/tests/merge/gr/P.txt",
+        "blob": "3eb054d06b2f879911e7cf9de67b6dacc034da05"
+      },
+      {
+        "path": "calculus/tests/merge/gr/Q.txt",
+        "blob": "38b677d87a02fa94f876d73969bdc88f8c486a4b"
+      },
+      {
+        "path": "calculus/tests/merge/rev/C.txt",
+        "blob": "7dfd4cd0a00e4b4ee319d1d2cc8f71e580f39839"
+      },
+      {
+        "path": "calculus/tests/merge/rev/D.txt",
+        "blob": "cbbeaf826a5632ad2b1aa1eab963f0dff4d97582"
+      },
+      {
+        "path": "calculus/tests/merge/rev/E.txt",
+        "blob": "155addddb7228573034a1efbc14f742dc6e7ecf5"
+      },
+      {
+        "path": "calculus/tests/merge/rev/P.txt",
+        "blob": "85e08bd07eb6f61e31f6e473ca7bb97667ac2dfc"
+      },
+      {
+        "path": "calculus/tests/merge/rev/Q.txt",
+        "blob": "b538f316a185c0cf08318032e315bdbeda9d9514"
+      },
+      {
+        "path": "calculus/tools/adopt.py",
+        "blob": "bf05117ab537239a75d6676ea53727c99bf1eed8"
+      },
+      {
+        "path": "calculus/tools/assemble.py",
+        "blob": "3fbb9e6a33b51a30b62a2b1ac8d9082097a4c714"
+      },
+      {
+        "path": "calculus/tools/cascade.py",
+        "blob": "bcf4949300ebd7a847fe4eb392177a716bb0ed26"
+      },
+      {
+        "path": "calculus/tools/changes.py",
+        "blob": "cd48c59e51ea4129ee5bc0be43b858b56213c995"
+      },
+      {
+        "path": "calculus/tools/derive.py",
+        "blob": "39397209d29986dfa94be6deb65e3e8a66998af4"
+      },
+      {
+        "path": "calculus/tools/expand.py",
+        "blob": "8e211c1c3a7f4bda632a5bbe9eb217d1095ded83"
+      },
+      {
+        "path": "calculus/tools/gcsas.py",
+        "blob": "86d0f70f275641971aeec6d017449eb2aadb879d"
+      },
+      {
+        "path": "calculus/tools/grcheck.py",
+        "blob": "cc07d316745ca9498d8394309c2134eb61f57515"
+      },
+      {
+        "path": "calculus/tools/ifadopt.py",
+        "blob": "0359df977ee0db19b84209a3530bac67c3e11516"
+      },
+      {
+        "path": "calculus/tools/inherits.py",
+        "blob": "e7203ca5876e55573126a6188f7edd2dccb4420a"
+      },
+      {
+        "path": "calculus/tools/names.py",
+        "blob": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+      },
+      {
+        "path": "calculus/tools/nameslines.py",
+        "blob": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+      },
+      {
+        "path": "calculus/tools/owners.py",
+        "blob": "f25354f1232c6beeace4bac343b2d2f7abde2d2a"
+      },
+      {
+        "path": "calculus/tools/possibly.py",
+        "blob": "6dea10a82240a478620f74af83ef963255c4a95f"
+      },
+      {
+        "path": "calculus/tools/pragtex.py",
+        "blob": "251dfd230f539751193e97aeb75aa188c55e20cf"
+      },
+      {
+        "path": "calculus/tools/publish.py",
+        "blob": "4e84dce73d34f8abb3bc8cf8ce5f389f0705d77b"
+      },
+      {
+        "path": "calculus/tools/redundant.py",
+        "blob": "235b3ed10e19204a95943cd585c98c6e2ecab2c4"
+      },
+      {
+        "path": "calculus/tools/relations.py",
+        "blob": "262ed805fb56611e18244ff89982aebb77aba38d"
+      },
+      {
+        "path": "calculus/tools/revtex.py",
+        "blob": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+      },
+      {
+        "path": "calculus/tools/signed.py",
+        "blob": "6e425233a3bb81f3c468cb97042a641b38c09078"
+      },
+      {
+        "path": "calculus/tools/supplied.py",
+        "blob": "692b27d975c20351eb82a22d329d1232bf50c917"
+      },
+      {
+        "path": "calculus/tools/table.py",
+        "blob": "05478a2dd4d5ff5dd121d4d792f06315b0f78737"
+      },
+      {
+        "path": "calculus/tools/tests.py",
+        "blob": "180eb6becfb335e2b93704bc07d4e088fec09dc3"
+      },
+      {
+        "path": "calculus/tools/toglp.py",
+        "blob": "a40649d03747b96171ec7d2dd9743333c9a62c57"
+      },
+      {
+        "path": "calculus/tools/typecheck_places.py",
+        "blob": "439cfc89e87882bc29447fd05b4cbb4236fffb7d"
+      },
+      {
+        "path": "calculus/tools/wildcards.py",
+        "blob": "b085688f3b004527108090fddac1d7d1eab6fb5f"
+      }
+    ],
+    "publication_assertions_python": "from pathlib import Path\nimport re, sys\nafter = Path(\"audit/calculus/contracts.md\").read_text()\nstart = after.index(\"## Calculus (12) and (13) against GSC (19), November 2026\")\nend = after.index(\"## Findings and responses\", start)\nassert after[:start] + after[end:] == sys.stdin.read()\nfor path in re.findall(r'\\]\\((\\.review-files/[^)]+)\\)', after[start:end]):\n    assert (Path(\"audit/calculus\") / path).is_file(), path\nassert len(re.findall(r'\\]\\((\\.review-files/[^)]+)\\)', after[start:end])) == 2\nknowledge = Path(\"calculus/contracts/Knowledge/full-schemas.txt\").read_text()\nacts = {n: re.search(rf'^Knowledge:{n} .*?:(.*?)<-', knowledge, re.M)[1] for n in (2, 3)}\nassert all('knows(' in head and 'met(' not in head for head in acts.values())\nrehearsal = Path(\"calculus/contracts/Rehearsal-Rooms/full-schemas.txt\").read_text()\nretire = [line for line in rehearsal.splitlines() if line.startswith('Guardians:5') and 'Retire:' in line]\nassert len(retire) == 2\nassert any('retired(Orga)' in x and '~officer(' in x and 'deciders(Orga)' in x for x in retire)\nassert any('retired(Wendy)' in x and '~guardian(' in x and 'deciders(Wendy)' in x for x in retire)\nprint(\"Report insertion and both links verified. Both Knowledge heads and the two Rehearsal Retire clauses match the published review.\")",
+    "notes": "Every local input used for the checks was compared with its Git blob ID. Only the merge fixture was installed under tests/ for the targeted run. The report comparison takes the merged report as a local file and the base report on stdin."
+  },
+  "urls": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/185",
+    "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/185/commits/001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+    "merged_main": "https://github.com/udi-shapiro/Grassroots-Audit/commit/0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/0175491e11dd191a4a4bf0156610f69ebcda1a9e/calculus/contracts.md#calculus-12-and-13-against-gsc-19-november-2026",
+    "fixture": "https://github.com/EShapiro2/GLP/tree/7b68b74c6388135736632957b321ae63503feaf7/calculus/tests/merge",
+    "paper_tree": "https://github.com/EShapiro2/GLP/tree/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/149-pr185-calculus-reviews-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/149-pr185-calculus-reviews-20261126.json"
+  }
+}

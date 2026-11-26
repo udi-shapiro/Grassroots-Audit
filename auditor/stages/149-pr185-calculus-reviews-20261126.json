@@ -1,0 +1,95 @@
+{
+  "stage": 149,
+  "title": "Calculus (12) and (13) reviews reconciled on main",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "bea6b2ce-e9d7-11f1-8140-e366921a0d68",
+      "action": "opened",
+      "pull_request_number": 185,
+      "head_sha": "001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+      "outcome": "Reviewed the actual three-file publication at the merged head. Both dated review attachments and their index links are on main."
+    },
+    {
+      "delivery_id": "ce189808-e9d7-11f1-90e2-a9e0c99a3249",
+      "action": "closed",
+      "pull_request_number": 185,
+      "head_sha": "001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+      "outcome": "Observed the already-completed merge. No review submissions or comment threads were present. Reconciled the same head and discussion once for both deliveries."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "audit_pr_185": "001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+    "audit_pr_185_base": "708768960724842725766e59c3f2909042918ba1",
+    "audit_report_blob": "40300ec5ded888554bc8d17fdec72d0a8d2781ef",
+    "audit_report_previous_blob": "48a645510fffd780731475d789ccdbfdfe7193ea",
+    "audit_review_12_blob": "dde25cad5eddc1a1a35cac656b5074321fbe6e9a",
+    "audit_review_13_blob": "14457abb87ee22b0760c2ae0ebd3ae751689009d",
+    "audit_status_table_blob": "b78a3c9101989a413467b0e06098cf87103fe411",
+    "audit_index_blob": "eff72f344d847d24b96167362dad192b092b2770",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_review_13_sources": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_review_12_sources": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
+    "glp_calculus_tree": "a7d3bdb8d6dc28775f11f809165d2b07456ee2c4",
+    "glp_papers": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "glp_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+  },
+  "discussion_version": {
+    "comments": 0,
+    "reviews": 0,
+    "review_threads": 0,
+    "comment_ids": [],
+    "review_ids": [],
+    "review_versions": [],
+    "latest_comments": [],
+    "inline_versions": [],
+    "latest_item_at": null
+  },
+  "source_inspection": [
+    "The merge commit has the previous main and the exact PR head as parents. All three changed files have identical blobs between head and merged main.",
+    "The published Calculus tree is identical between GLP main and the revision (13) compiler pin. Knowledge's Acquaint and Introduce heads share knows and add no met atom. The Rehearsal Rooms schema contains separate Orga and Wendy Retire clauses from Guardians:5.",
+    "The public papers tree has no Calculus PDF under its expected name. Its GSC PDF is 2,129,418 bytes, while the preceding review lists the supplied GSC (19) at 2,133,059 bytes. The supplied-edition proofs were not independently reread on this run.",
+    "The PR has no discussion or formal submitted reviews. There are no issue comments on #166–170 in the retrieved GitHub record. The pre-existing numbered findings and answers survived byte for byte in the report."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 audit/bin/status.py",
+      "snapshot": "0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+      "result": "passed",
+      "output": "37 reports, 67 findings, 12 unanswered\nb78a3c9101989a413467b0e06098cf87103fe411"
+    },
+    {
+      "command": "python3 tools/tests.py",
+      "cwd": "scratch calculus snapshot containing tests/merge only",
+      "snapshot": "7b68b74c6388135736632957b321ae63503feaf7",
+      "result": "passed",
+      "output": "merge      same\n1 cases, 0 that differ"
+    },
+    {
+      "name": "Report insertion, attachment link and published schema assertions",
+      "result": "passed",
+      "output": "Report insertion and both links verified. Both Knowledge heads and the two Rehearsal Retire clauses match the published review."
+    }
+  ],
+  "prior_review_evidence": {
+    "reference": "The two PR #185 attachments",
+    "scope": "The supplied-edition analysis and 91/93-contract catalogue runs are the original review's evidence. This run independently repeated only the public merge fixture and the audit publication checks."
+  },
+  "outcome": "Publication already on main. Existing finding dispositions are preserved. Focused public inheritance fixture and regenerated status table corroborate the published record.",
+  "next_work": [
+    "Keep the existing Calculus/GSC findings open at their recorded scope. Check whether the next Calculus response or public edition defines compatibility of shared act descendants and supplies ground witnesses under empty expansion.",
+    "Reconcile exact manuscript editions with the public papers tree when a matching build appears. The catalogue-wide numbers in the attachments retain their original attribution.",
+    "Continue the existing #53 checker-layout queue and the independent review of #184 for #126."
+  ],
+  "urls": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/185",
+    "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/185/commits/001a0f9e0b581a9cb7450224b8fcfa66be38e0b5",
+    "merged_main": "https://github.com/udi-shapiro/Grassroots-Audit/commit/0175491e11dd191a4a4bf0156610f69ebcda1a9e",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/0175491e11dd191a4a4bf0156610f69ebcda1a9e/calculus/contracts.md#calculus-12-and-13-against-gsc-19-november-2026",
+    "fixture": "https://github.com/EShapiro2/GLP/tree/7b68b74c6388135736632957b321ae63503feaf7/calculus/tests/merge",
+    "paper_tree": "https://github.com/EShapiro2/GLP/tree/a5badfc7226dd56a4bd070a3c3cd53e335b393b0/papers",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/149-pr185-calculus-reviews-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/149-pr185-calculus-reviews-20261126.json"
+  }
+}

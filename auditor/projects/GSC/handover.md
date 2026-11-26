@@ -1,3 +1,7 @@
+## Stage 149 — Calculus (12) and (13) reviews reconciled on main — 26 November 2026 UTC
+
+The [Calculus (12) and (13) reviews](https://github.com/udi-shapiro/Grassroots-Audit/blob/0175491e11dd191a4a4bf0156610f69ebcda1a9e/calculus/contracts.md#calculus-12-and-13-against-gsc-19-november-2026) against GSC (19) are on main through [PR #185](https://github.com/udi-shapiro/Grassroots-Audit/pull/185). The public GSC PDF at papers commit `a5badfc7` differs in byte size from the supplied GSC (19) used in those reviews. Preserve the open obligations for multiset and witnessing semantics, active wards, and the scope of the grassroots results. Compare them against a public build of the matching edition when available. [Stage record](../../stages/149-pr185-calculus-reviews-20261126.json)
+
 ## Stage 123 — Calculus/GSC review provenance — 25 November 2026 UTC
 
 [PR #172](https://github.com/udi-shapiro/Grassroots-Audit/pull/172) was already merged. Six finite controls ran successfully at its exact head. The supplied Calculus (11) and GSC (19) byte counts differ from the public PDFs observed on GLP papers. Independent paper-level verification requires the exact public versions. [Stage record](../../stages/123-pr172-calculus-and-pr173-village-life-20261125.json)
