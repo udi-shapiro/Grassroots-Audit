@@ -1,3 +1,7 @@
+## Stage 134 — Warnings regeneration verified — 26 November 2026 UTC
+
+Candidate `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3` regenerates the Warnings cascade. Exact candidate source and the 14 focused deadline controls were checked independently. The broader cascade and 69-check claims remain project evidence. Finding #136 stays open for integration, generated-path execution and the former-officer policy decision. [PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)
+
 ## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
 
 GCE’s [refusal diagnostic report](https://github.com/udi-shapiro/Grassroots-Audit/pull/180) needs pinned walk logs for the reported Lend counts. The cited harness prints atom lists and cannot by itself distinguish bare unable from an empty pair. Add a focused trace with the original reason and failed predicate. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)

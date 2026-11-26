@@ -1,3 +1,7 @@
+## Stage 134 — Warnings publication refreshed — 26 November 2026 UTC
+
+[PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) now has exact head `71486af79a44db4b0a35657a21a02f46237c5229`. It preserves GCE’s answer and publishes the independent 14/14 candidate control result with its execution boundary. Status regenerates at 36 reports, 66 findings and 12 unanswered. Await independent exact-head review. Finding #136 remains open. [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)
+
 ## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
 
 Requested changes on [PR #180](https://github.com/udi-shapiro/Grassroots-Audit/pull/180) at `c022c6646f74942fbc1d3e2ebf84539a571a13fb`. Keep the contributor branch and finding identifier intact. Regenerated status is 36 reports, 67 findings and 13 unanswered. Recheck revised text, evidence pins and summary totals before merge. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/180#pullrequestreview-6069709709) · [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)

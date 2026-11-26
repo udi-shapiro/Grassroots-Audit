@@ -1,0 +1,197 @@
+{
+  "stage": 134,
+  "recorded_at": "2026-11-26T07:27:06.092Z",
+  "title": "Warnings regeneration and deadline-control verification",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+    "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+    "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+    "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+    "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+    "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+    "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+    "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "events": [
+    {
+      "delivery_id": "d9425fc6-e968-11f1-86a2-b04c4ca8b172",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7185222173,
+      "head_sha": "a971fa8695568e109d99666ef325752cd80d3d36",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T07:21:27Z"
+      },
+      "processed_at": "2026-11-26T07:27:06.092Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+        "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+        "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Preserved GCE’s dated Warnings correction and independently checked exact candidate c1408847. The program and cascade copies match, the regenerated interface and platforms carry Day and Enough, and only Withdraw and Annul delete warning_on. The exact candidate deadline control passed all 14 cases. Finding #136 remains open because the candidate has not reached public GLP main, the generated request and sanction path has not been exercised independently, and the former-officer retention policy still awaits recorded retrospective approval.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185222173",
+        "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/71486af79a44db4b0a35657a21a02f46237c5229",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/134-pr177-warnings-regeneration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "db7ea802-e969-11f1-8401-7413d1fde4f2",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 177,
+      "comment_id": null,
+      "head_sha": "71486af79a44db4b0a35657a21a02f46237c5229",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T07:21:27Z"
+      },
+      "processed_at": "2026-11-26T07:27:06.092Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+        "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+        "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Own publication synchronization at exact head 71486af7. Recorded without an additional discussion response.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185222173",
+        "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/71486af79a44db4b0a35657a21a02f46237c5229",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/134-pr177-warnings-regeneration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json"
+      }
+    }
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+    "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185222173",
+    "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/71486af79a44db4b0a35657a21a02f46237c5229",
+    "candidate": "https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/134-pr177-warnings-regeneration-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json"
+  },
+  "project_claims": [
+    "GCE reports that cascade.sh warnings regenerated the Warnings cascade at candidate c1408847 and that cascade.sh warnings --check passed.",
+    "GCE reports 69 Section GCE checks, including the 14 deadline controls.",
+    "GCE defines former-officer warning retention until withdrawal or annulment and records that policy as awaiting Udi’s retrospective approval."
+  ],
+  "source_inspection": [
+    "Candidate c1408847 is a direct descendant of 73bdea71 and remains outside public GLP main 37d31ca9.",
+    "Program and cascade Warnings.txt copies share blob cda73679, and the Warnings.glp copies share blob 9b4ebf5c.",
+    "Regenerated interface and platform artifacts carry Day for Annul and Enough for both expulsion acts.",
+    "The full schemas contain exactly two warning_on deletions, in Withdraw and Annul.",
+    "The printed expulsion conditions require at least two distinct warning persons whose warning date is more than seven days before Today."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 warnings-c14088475/programs/gce/warnings/deadline_control.py",
+      "scope": "Exact deadline_control.py blob b14ab887 and exact Warnings.glp blob 9b4ebf5 extracted from candidate c1408847",
+      "result": "Exit 0. All 14 named controls printed ok for Expel and Officer expel."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete exact PR #177 publication tree after preserving the answer and verification",
+      "result": "36 reports, 66 findings, 12 unanswered. sections/status-table.tex remained blob be376955."
+    }
+  ],
+  "unexecuted": [
+    "The GLP runtime, cascade.sh warnings --check, the full 69-check Section GCE run, Dart, Flutter and an app walk were not executed."
+  ],
+  "outcome": "Preserved GCE’s dated Warnings correction and independently checked exact candidate c1408847. The program and cascade copies match, the regenerated interface and platforms carry Day and Enough, and only Withdraw and Annul delete warning_on. The exact candidate deadline control passed all 14 cases. Finding #136 remains open because the candidate has not reached public GLP main, the generated request and sanction path has not been exercised independently, and the former-officer retention policy still awaits recorded retrospective approval.",
+  "next": "Await independent exact-head review of PR #177. After Code integrates c1408847 on public GLP main, verify the integrated blobs and exercise the generated request and sanction path. Keep #136 open until that execution and the recorded former-officer policy approval."
+}

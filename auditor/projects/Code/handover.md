@@ -1,3 +1,7 @@
+## Stage 134 — Warnings candidate awaiting integration — 26 November 2026 UTC
+
+Code’s next public GLP merge should carry exact Warnings candidate `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3`. Preserve the regenerated blobs recorded in Stage 134, then exercise the integrated generated request and sanction path. The focused Python deadline control passed 14/14. The GLP runtime and full cascade/GCE checks remain pending. [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)
+
 ## Stage 133 — vGLP refusal diagnostics — 26 November 2026 UTC
 
 For [GLP PR #180](https://github.com/EShapiro2/GLP/pull/180), distinguish explicit condition failures from undifferentiated unable notices. The proposed generic fallback covers both bare unable and empty atom lists, including the compiler’s ended-request case. Cover both renderer paths with genuine constraint and ended-request controls. Dart and Flutter were unavailable for this review. [Stage record](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json)

@@ -1,0 +1,121 @@
+{
+  "recorded_at": "2026-11-26T07:27:06.092Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+    "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+    "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+    "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+    "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+    "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+    "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+    "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "repository_observations": {
+    "candidate_relation": "c1408847 is 73 commits ahead of public GLP main 37d31ca9 and 0 behind at inspection time.",
+    "candidate_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+    "publication_head": "71486af79a44db4b0a35657a21a02f46237c5229",
+    "discussion": {
+      "comments": 2,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7185222173,
+        7185368317
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7185222173,
+          "updated_at": "2026-11-26T07:13:14Z"
+        },
+        {
+          "id": 7185368317,
+          "updated_at": "2026-11-26T07:21:27Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-26T07:21:27Z"
+    }
+  },
+  "exact_artifacts": {
+    "matching_program_and_cascade": {
+      "Warnings.txt": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+      "Warnings.glp": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3"
+    },
+    "regenerated": {
+      "cascade/Warnings/interface.glp": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+      "cascade/Warnings/manifest": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+      "cascade/Warnings/platform.glp": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+      "cascade/Warnings/platform.vglp": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+      "cascade/Warnings/vmat.tex": "b5c24b985a82602d884108ee203f7e099d018969"
+    },
+    "controls": {
+      "programs/gce/warnings/deadline_control.py": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+      "test/run_all_tests.sh": "6538298315cc13e4d9a64f3f5f4b7512f070def6"
+    },
+    "schemas": {
+      "calculus/contracts/Warnings/full-schemas.txt": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+      "warning_on_deletions": 2,
+      "deletion_acts": [
+        "Withdraw",
+        "Annul"
+      ]
+    }
+  },
+  "executed": {
+    "deadline_control": {
+      "command": "python3 warnings-c14088475/programs/gce/warnings/deadline_control.py",
+      "interpreter": "Python 3",
+      "exit_code": 0,
+      "passed": 14,
+      "failed": 0,
+      "output": [
+        "expel: two warnings, one at its deadline ok",
+        "expel: two warnings, both past their deadline ok",
+        "expel: two warnings, both at their deadline ok",
+        "expel: two warnings, both a day past it ok",
+        "expel: one warning, long past ok",
+        "expel: two warnings of one person cannot be held ok",
+        "expel: a former officer's warning still held counts ok",
+        "officer_expel: two warnings, one at its deadline ok",
+        "officer_expel: two warnings, both past their deadline ok",
+        "officer_expel: two warnings, both at their deadline ok",
+        "officer_expel: two warnings, both a day past it ok",
+        "officer_expel: one warning, long past ok",
+        "officer_expel: two warnings of one person cannot be held ok",
+        "officer_expel: a former officer's warning still held counts ok"
+      ],
+      "limitation": "The script parses the printed schema condition and evaluates a focused Python model. It does not execute the GLP runtime or app."
+    },
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "36 reports, 66 findings, 12 unanswered",
+      "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+    }
+  },
+  "unexecuted": [
+    "cascade.sh warnings --check",
+    "Full 69-check Section GCE run",
+    "GLP runtime request and sanction path",
+    "Dart and Flutter",
+    "Warnings app walk"
+  ],
+  "finding_status": {
+    "issue": 136,
+    "status": "open",
+    "next": "Integrate c1408847 on public GLP main, exercise the generated request and sanction path, and record retrospective approval of the former-officer retention policy."
+  }
+}

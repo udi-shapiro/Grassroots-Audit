@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T07:17:35.483Z",
-  "active_run": {
-    "run_id": "pr177-comment-7185222173",
-    "event": {
-      "delivery_id": "d9425fc6-e968-11f1-86a2-b04c4ca8b172",
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "pull_request_number": 177,
-      "comment_id": 7185222173
-    },
-    "acquired_at": "2026-11-26T07:17:35.483Z",
-    "expires_at": "2026-11-26T07:47:35.483Z",
-    "expected_head_sha": "419948af34e0e3f368ee65030aa311cccdc0378b"
-  },
+  "updated_at": "2026-11-26T07:27:06.092Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -51,52 +38,72 @@
   "processed_prs": [
     {
       "number": 177,
-      "head_sha": "a971fa8695568e109d99666ef325752cd80d3d36",
+      "head_sha": "71486af79a44db4b0a35657a21a02f46237c5229",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T06:23:26Z",
+      "updated_at": "2026-11-26T07:21:27Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7185222173,
+          7185368317
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-26T07:21:27Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7185368317,
       "review_cursor": null,
       "delivery_ids": [
         "9ca3db1a-e933-11f1-92fb-a58a3697fe66",
         "5200876a-e961-11f1-8c44-19e9b53d676b",
-        "de9667e4-e961-11f1-9bcd-2558dd50b12e"
+        "de9667e4-e961-11f1-9bcd-2558dd50b12e",
+        "d9425fc6-e968-11f1-86a2-b04c4ca8b172",
+        "db7ea802-e969-11f1-8401-7413d1fde4f2"
       ],
       "own_publication": true,
-      "notes": "Own main-based verification publication now preserves the Warnings #136 answer and exact-source limitation. Candidate source fields are corrected; the committed cascade platform remains old. Exact head awaits independent review.",
+      "notes": "Own main-based verification publication preserves GCE’s Warnings answer and exact candidate verification. The focused deadline control passed 14/14. Candidate c1408847 remains outside public GLP main, the generated request/sanction path remains unexecuted, and former-officer policy approval remains pending. Exact head awaits independent review.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
-        "audit_pr_175_previous_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
-        "audit_pr_175_head": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
-        "audit_pr_177_previous_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
-        "audit_pr_177_intermediate_head": "5f91deffc9faa473c09c60118d0351cac2637a5c",
-        "audit_pr_177_head": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
         "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "chess_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-        "chess_test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a",
-        "warnings_candidate": "73bdea71bb189e2f2488e06385e788e78d3c6840",
-        "warnings_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
-        "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-        "warnings_parent_text_blob": "b34ba5587e9733d1fc284386fe8cb57c73fc9590",
-        "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-        "warnings_platform_blob": "7c1257d19bf4615b432c0899c82b540a3533aa44"
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+        "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+        "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/132-warnings-interface-20261126"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json",
+      "own_comment_ids": [
+        7185368317
+      ]
     },
     {
       "number": 176,
@@ -15292,14 +15299,146 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/133-pr180-vglp-refusal-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/133-vglp-refusal-20261126.json"
       }
+    },
+    {
+      "delivery_id": "d9425fc6-e968-11f1-86a2-b04c4ca8b172",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7185222173,
+      "head_sha": "a971fa8695568e109d99666ef325752cd80d3d36",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T07:21:27Z"
+      },
+      "processed_at": "2026-11-26T07:27:06.092Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+        "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+        "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Preserved GCE’s dated Warnings correction and independently checked exact candidate c1408847. The program and cascade copies match, the regenerated interface and platforms carry Day and Enough, and only Withdraw and Annul delete warning_on. The exact candidate deadline control passed all 14 cases. Finding #136 remains open because the candidate has not reached public GLP main, the generated request and sanction path has not been exercised independently, and the former-officer retention policy still awaits recorded retrospective approval.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185222173",
+        "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/71486af79a44db4b0a35657a21a02f46237c5229",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/134-pr177-warnings-regeneration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "db7ea802-e969-11f1-8401-7413d1fde4f2",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 177,
+      "comment_id": null,
+      "head_sha": "71486af79a44db4b0a35657a21a02f46237c5229",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T07:21:27Z"
+      },
+      "processed_at": "2026-11-26T07:27:06.092Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "a971fa8695568e109d99666ef325752cd80d3d36",
+        "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_manifest_blob": "183bf5effd9b0fd28d2ad40232fee7c06425e9f4",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "warnings_test_harness_blob": "6538298315cc13e4d9a64f3f5f4b7512f070def6",
+        "warnings_program_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_program_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "audit_report_blob": "1e5819a4ae143a71b7d6fff507bafae908fa69a5",
+        "audit_issues_blob": "31513c96907e553654e4ad5c8bbf82a9623be64c",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Own publication synchronization at exact head 71486af7. Recorded without an additional discussion response.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185222173",
+        "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/71486af79a44db4b0a35657a21a02f46237c5229",
+        "candidate": "https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/134-pr177-warnings-regeneration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/134-warnings-regeneration-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
     "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "warnings_candidate": "73bdea71bb189e2f2488e06385e788e78d3c6840",
-    "observed_at": "2026-11-26T06:25:50.991Z"
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+    "observed_at": "2026-11-26T07:27:06.092Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -15309,17 +15448,18 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T06:53:29.615Z",
-    "last_stage": 133,
+    "last_reconciled_at": "2026-11-26T07:27:06.092Z",
+    "last_stage": 134,
     "processed_through_pr": 180,
-    "notes": "Requested changes on exact Audit PR #180 before accepting vGLP #2. The diagnostic gap is supported by compiler inspection. An ended named request can produce unable([], []) after a successful local domain check; the joined-condition and request-drop paths can both produce bare unable. The proposed widget fallback maps the empty-list and bare encodings to the same constraint-failure explanation. Exact-tree status table regenerated at 36 reports, 67 findings and 13 unanswered, while the summary counts need updating."
+    "notes": "Preserved GCE’s dated Warnings correction and independently checked exact candidate c1408847. The program and cascade copies match, the regenerated interface and platforms carry Day and Enough, and only Withdraw and Annul delete warning_on. The exact candidate deadline control passed all 14 cases. Finding #136 remains open because the candidate has not reached public GLP main, the generated request and sanction path has not been exercised independently, and the former-officer retention policy still awaits recorded retrospective approval."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177": "71486af79a44db4b0a35657a21a02f46237c5229",
     "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "glp_pr_170": "d85bdd8a12f6baf0b90485c45d8a6779abef0872",
-    "glp_pr_180": "38b1313cb6ee3d0bfa9127eac286a6dd6cd1895d",
-    "observed_at": "2026-11-26T06:53:29.615Z"
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_parent": "73bdea71bb189e2f2488e06385e788e78d3c6840",
+    "observed_at": "2026-11-26T07:27:06.092Z"
   }
 }

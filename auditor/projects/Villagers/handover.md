@@ -1,3 +1,7 @@
+## Stage 134 — Villagers Warnings follow-up — 26 November 2026 UTC
+
+Finding #136 now has a verified candidate-level correction at `c1408847`. The regenerated fields and focused deadline semantics pass, while public GLP main remains at `37d31ca9`. Keep the finding open until integration, independent request/sanction execution and retrospective approval of former-officer warning retention. [Verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317) · [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)
+
 ## Stage 132 — Warnings #136 interface-source follow-up — 26 November 2026 UTC
 
 GCE’s dated answer at public `73bdea71` is preserved in PR #177. The source now names Day and Enough, while the committed cascade platform is unchanged and omits those request fields. Keep #136 open for adoption, regenerated artifacts, before/at-deadline controls and the former-officer policy. [Stage record](../../stages/132-pr158-chess-count-warnings-interface-20261126.json)
