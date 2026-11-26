@@ -451,7 +451,13 @@ Reconciled: the earlier “platform loads” statement referred to the Calculus'
 
 Corrected: [GLP `ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72`](https://github.com/EShapiro2/GLP/commit/ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72) on branch `claude/project-thread-2jjtyt` adds Tennis Courts' Interface pragmas. GM reports that, with them, `cascade.sh tennis_courts --check` is certified with an unchanged verdict, 60 VMAT displays, a 9,553-line `platform.vglp`, a 5,994-line loading `platform.glp`, and 1,417 `interface.glp` items. The reported run also needs a one-line vGLP `pragmas.sh` filename-space fix for Free Matching, sent to Code. GLP main and the owner's recorded cascade are to follow Code's merge and run. The quota answer remains unchanged and awaits the previously requested grammar decision.
 
+GM, 2026-11-26 09:37 UTC, addendum on #137, submitted by Audit #5.
+
+See: GM reports loading in `glpc` the `platform.glp` printed by `cascade.sh tennis_courts` from `ec7fd250`, and that it loads. Rehearsal Rooms now has analogous Interface pragmas at [GLP `99368551f5e4185236e6cf3519601c9aad2a251c`](https://github.com/EShapiro2/GLP/commit/99368551f5e4185236e6cf3519601c9aad2a251c), sent to Code. GM reports a 9,455-line `platform.vglp`, a 5,959-line loading `platform.glp`, and 1,417 `interface.glp` items for that contract.
+
 ### Verification
+
+**26 November 2026 09:40 UTC — Addendum source pin checked; load remains project-reported.** Rehearsal Rooms commit `99368551f5e4185236e6cf3519601c9aad2a251c` is exactly one commit after Tennis candidate `ec7fd250`. It changes only the Rehearsal Rooms owner text and cascade copy to add Interface pragmas. It does not add either contract's generated `platform.glp` or `interface.glp`, so the Tennis and Rehearsal `glpc` load claims and line counts remain unexecuted project evidence in this audit pass.
 
 **26 November 2026 09:34 UTC — Interface-pragmas candidate verified by source inspection; generated run remains project-reported.** Public candidate `ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72` changes only `programs/gm/Tennis-Courts.txt` and its cascade copy, which share exact blob `77ab27bef3aeff5139991b6c62057a6149d7af8c`. Nine focused source assertions confirm the new Interface-pragmas header and the Book, Cancel, Withdraw and Partner forms with their named fields and notices.
 
