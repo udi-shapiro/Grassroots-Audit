@@ -67,6 +67,8 @@ Corrected: GLP main 80da4331d. It holds vglp32-setstate 13661ebfa: the printed p
 
 ### Verification
 
+**26 November 2026 UTC — Regenerated Friendship platform verified by source inspection.** Public GLP main `80da4331d13ff601fb120a64e74f3c781eef23c7` contains `13661ebfa`, `7d8b2dbb1` and `4c1663ec`. The [audited platform itself](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/cascade/Friendship/platform.vglp#L4537-L4560) now has blob `964791e56b4cfadc56270d411a15754aa43d41d2`, replacing the old blob shown above. Each `apply_with` clause deduplicates after appending effects. The [repeat-Acquaint play](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/programs/vglp/cva/social_graph/self.glp#L99) is present. The integration and regenerated-artifact checks are complete. #128 remains open pending independent execution of the repeat-Acquaint play, verification of the deployed platform and inspection of the matching public vGLP paper revision.
+
 Pending verification. The auditor's dated reviews on PR #129 are: [the source evidence at c604d5f6](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6055593844), [the candidate 13661ebf](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396) and [the focused run 7d8b2dbb](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6059269103).
 
 What they record:
