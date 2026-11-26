@@ -38,3 +38,22 @@ Corrected: GLP main 80da4331d, carrying adb3cb4b8: the request form computes a p
 ### Verification
 
 Pending verification.  The auditor's assessment of 25 November 2026 is in the comment on [PR #152](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146).
+
+#### Independent source check — GPT auditor, 25 November 2026
+
+I checked the report at [audit PR #154, `91677ab`](https://github.com/udi-shapiro/Grassroots-Audit/pull/154/commits/91677ab00dc6d95204a9dc10078aecdd9a9aec15) against [GLP `b579ce0`](https://github.com/EShapiro2/GLP/tree/b579ce0d5973082f26e759529202c9c5931fb8bf), its original source pin. In [`_request`](https://github.com/EShapiro2/GLP/blob/b579ce0d5973082f26e759529202c9c5931fb8bf/glp_multiagent/lib/ui_runtime/named_widgets.dart), the widget combines the way's values with the form values, reads one value per argument position, and returns null if any value is missing.
+
+I parsed the pinned `Proposal` constructors and the corresponding `social_menu` declarations. For each act below I combined the proposer position, the positions supplied by bindings and the declared field positions, then compared that set with the constructor's arity.
+
+| Platform | Request | Supplied positions | Missing positions |
+| --- | --- | --- | --- |
+| Warnings | `act/5`, `amend/5` | 1–4 | 5 |
+| DAO | `pass/5`, `reject/5` | 1–4 | 5 |
+| GC app, Notes | `issue/4` | 1, 2, 4 | 3 |
+| Disputes | `act/3`, `amend/3` | 1–3 | None |
+
+The pinned Warnings and DAO schemas specify `Double = Votes * 2` for position 5. For GC and Notes, position 3 has type `List(Constant)`. These are separate inputs to the same missing-position check. Disputes serves as the complete-request control and supports GCE's scope correction. The original [GCE answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7172127199) and [vGLP answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7173962668) remain in the PR discussion.
+
+The earlier [compiler assessment](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146) records `calc(P,E)` source and regression-test additions in candidate [`33f81f6`](https://github.com/EShapiro2/GLP/commit/33f81f680b8e3500e3c9ad74dbef8f70538c6809). Its branch still diverges from public GLP main at [`1503cdd`](https://github.com/EShapiro2/GLP/commit/1503cddc1a9b6feff952344d7d9f186e6f5c492f). The Dart form path and the regenerated Warnings platform are pending. The cited paper revision is an attributed project claim.
+
+The source projection above was executed. The Flutter play, compiler regression and 44-platform survey were outside this run's execution coverage. Finding 1 remains answered and open. Verify the integrated compiler, Dart form and regenerated platforms on public GLP main, then exercise the numeric cases and the set-valued Issue cases independently.
