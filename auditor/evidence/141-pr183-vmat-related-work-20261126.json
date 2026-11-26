@@ -1,0 +1,48 @@
+{
+  "stage": 141,
+  "collected_at": "2026-11-26T10:57:40.870Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_183": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
+    "report_blob": "e3123cd57fc6419ae2a8b2e942375a8bc2ed8cb4",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
+    "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "independent_source_inspection": {
+    "Nash": "Page 155 premises that a unilateral action without the other's consent cannot affect the other person's well-being in the two-person case studied.",
+    "Myerson": "The book's simultaneous link-formation example forms links for pairs that nominate each other. This is a bilateral formation rule.",
+    "Esparza_Desel": "Section 2.2 requires atom membership in every party's readiness set and updates parties' readiness according to the outcome.",
+    "BitML": "The Authorizations example requires A's authorization of the withdrawal paying B, then permits any participant to fire the branch. Multiple authorizations must all be present.",
+    "VMAT": "Definitions 1, 4 and 12 place the guards on the pair (t,G), while t is the machine transaction over Q. A fixed t can be paired with different G. A volition change leaves machine state fixed. Fulfilment removes the equivalence class from the volitional state."
+  },
+  "executed_checks": [
+    {
+      "command": "git hash-object VMAT.pdf and pdftotext -layout",
+      "result": "The downloaded PDF matches the GitHub papers blob. Extracted Definitions 1, 4 and 12 for source inspection."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR report tree and generator, with all input blobs hash-checked",
+      "result": "36 reports, 66 findings, 12 unanswered",
+      "output_blob": "be3769555199851961813c2eff8eea75379b48eb",
+      "byte_identical": true
+    }
+  ],
+  "not_executed": [
+    "GLP runtime",
+    "paper build"
+  ],
+  "urls": {
+    "proposal": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183",
+    "exact_diff": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183/commits/7163dc1d211b25c61c4b799bbde1bef54927c3a2",
+    "paper": "https://github.com/EShapiro2/GLP/blob/3f3d50338ec8e1d36c9122fa57fb6993c048ec45/papers/VMAT.pdf",
+    "nash": "https://jmvidal.cse.sc.edu/library/nash50a.pdf",
+    "myerson": "https://djvu.online/file/j9FPESSjKQPiw",
+    "negotiation": "https://www.fernuni-hagen.de/sttp/docs/2013onnegotiationasconcurrencyprimitive.pdf",
+    "bitml": "https://eprint.iacr.org/2018/122.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/141-pr183-vmat-related-work-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/141-pr183-vmat-related-work-20261126.json"
+  }
+}
