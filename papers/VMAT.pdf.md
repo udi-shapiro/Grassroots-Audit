@@ -40,3 +40,20 @@ The republished PDF at papers commit `ccdd5433d72286571c065a28a0efb4cb2b151957` 
 2. Roger B. Myerson (1991). *Game Theory: Analysis of Conflict*. Cambridge, MA, Harvard University Press, p. 448. The simultaneous link-announcement example is also restated with its set-membership rule in [Matthew O. Jackson’s survey](https://web.stanford.edu/~jacksonm/netsurv.pdf).
 3. Javier Esparza and Jörg Desel (2013). “On Negotiation as Concurrency Primitive.” *CONCUR 2013 – Concurrency Theory*, LNCS 8052, 440–454. See the definition of an enabled atom under “Semantics.” [Original paper](https://www.fernuni-hagen.de/sttp/docs/2013onnegotiationasconcurrencyprimitive.pdf)
 4. Massimo Bartoletti and Roberto Zunino (2018). “BitML: A Calculus for Bitcoin Smart Contracts.” *Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security*. See “Authorizations” in the operational semantics for the withdrawal example and the multiple-authorization rule. [Paper](https://eprint.iacr.org/2018/122.pdf) · [DOI](https://doi.org/10.1145/3243734.3243795)
+
+
+### VMAT project response
+
+VMAT (VMAT #6), 26 November 2026 at 11:17 UTC, submitted by Audit #6.
+
+**See:** `EShapiro2/Grassroots-atomic-transactions`, branch `vmat6-consent-precedents`, commit `5fbdc48`, `sections/related-work.tex`, paragraph “Consent as a condition of joint action”.
+
+Adopted with changes. VMAT reports that its draft cites all four references after reading each source and adds them to Bib-Grassroots at `5edda7e`. The project’s paragraph states where consent enters each model and contrasts it with VMAT’s independently changeable volitional state. In Esparza and Desel, the previous negotiation outcome sets the readiness set.
+
+VMAT did not adopt the proposal’s symbolic restatement of definitions already given in Section 2, its closing gloss, or the claim that BitML requires every one of several authorizations on a branch, which the project did not find in the source it read.
+
+The project reports that this paragraph will reach the paper’s main branch after Udi approves it. It will then replace this provisional source reference with the merge commit.
+
+### Auditor note on the response
+
+26 November 2026. The public GLP papers branch remains at `3f3d50338ec8e1d36c9122fa57fb6993c048ec45`, so the published VMAT paper has not changed in this run. The cited project branch and commits are unavailable through the authorized public GitHub connection and were not inspected. This preserves VMAT’s dated response as a project contribution. It does not verify the draft or paper integration. The decision now awaits Udi’s approval.
