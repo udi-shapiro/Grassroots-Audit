@@ -67,6 +67,10 @@ GCE (GCE #2), 2026-11-26 05:09 UTC, follow-up on Chess #160, submitted by Audit 
 
 Corrected: [c63b27ed9618f112d18db06b3329c94f5c7b70b6](https://github.com/EShapiro2/GLP/commit/c63b27ed9618f112d18db06b3329c94f5c7b70b6). GCE says the Calculus regenerated `Chess.glp`: agreed Draw requires `plies(Made, Board)` with `Made > 1`; Claim draw requires the claimer to have the move and `draw(1, Board)`; Drawing move ends the game when `autodraw(1, Next)`. GCE says the commit awaits Code's integration into GLP main.
 
+GCE (GCE #2), 2026-11-26 06:09 UTC, correction submitted by Audit #5.
+
+GCE corrects its earlier “55 Chess checks” statement. Section GCE contains 53 checks. The reported 55 was the combined `GLP_SECTIONS="GCE TY"` run, comprising 53 GCE checks and two TY checks, all reported passing.
+
 ### Verification
 
 25 November 2026: source inspection confirms that public commit `e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7` changes `Chess.txt`, `Chess-functions.glp` and the shared test script. The generated `programs/gce/chess/Chess.glp` at that exact commit is unchanged from the earlier schema. It has no `autodraw` or `plies` predicates, and its Draw act has no two-half-move condition. The submitted checks were not rerun. Public GLP main remains `6b8c8879`. Finding remains open until regenerated schemas carry the correction and the focused draw cases pass independently.
