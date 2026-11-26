@@ -1,0 +1,180 @@
+{
+  "recorded_at": "2026-11-26T08:56:00.000Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
+    "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+    "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+    "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
+    "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
+    "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
+    "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
+    "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
+    "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+    "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
+    "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
+    "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "ancestry": {
+    "warnings": {
+      "base": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 14,
+      "behind_by": 0
+    },
+    "tennis_record": {
+      "base": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 154,
+      "behind_by": 0
+    },
+    "tennis_partner": {
+      "base": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 148,
+      "behind_by": 0
+    },
+    "tennis_calculus": {
+      "base": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 65,
+      "behind_by": 0
+    }
+  },
+  "publication": {
+    "number": 177,
+    "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "head_sha": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "state": "open",
+    "discussion": {
+      "comments": 4,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7185222173,
+        7185368317,
+        7186960355,
+        7187114893
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7185222173,
+          "updated_at": "2026-11-26T07:13:14Z"
+        },
+        {
+          "id": 7185368317,
+          "updated_at": "2026-11-26T07:21:27Z"
+        },
+        {
+          "id": 7186960355,
+          "updated_at": "2026-11-26T08:44:27Z"
+        },
+        {
+          "id": 7187114893,
+          "updated_at": "2026-11-26T08:51:55Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-26T08:51:55Z"
+    }
+  },
+  "exact_artifacts": {
+    "warnings": {
+      "programs/gce/warnings/Warnings.txt": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+      "programs/gce/warnings/Warnings.glp": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+      "programs/gce/warnings/deadline_control.py": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+      "calculus/contracts/Warnings/full-schemas.txt": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+      "cascade/Warnings/interface.glp": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+      "cascade/Warnings/platform.glp": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+      "cascade/Warnings/platform.vglp": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+      "cascade/Warnings/vmat.tex": "b5c24b985a82602d884108ee203f7e099d018969"
+    },
+    "tennis": {
+      "programs/gm/Tennis-Courts.txt": "590d38729393bf30336277fae5326627c304ba50",
+      "programs/gm/Tennis-Courts.glp": "d48d333abb1b13db974234fa8482541906b3de34",
+      "calculus/contracts/Tennis-Courts/full-schemas.txt": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
+      "cascade/Tennis-Courts/platform.vglp": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+      "calculus/contracts/Tennis-Courts/verdict.txt": "cf606a3359e0826566d860fddb1fcade2996b8f3"
+    },
+    "audit": {
+      "papers/Villagers.pdf.md": "41394d47ab4cc01e419c090f148f79ca4e56f309",
+      "ISSUES.md": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
+      "sections/status-table.tex": "be3769555199851961813c2eff8eea75379b48eb"
+    }
+  },
+  "executed": {
+    "warnings_deadline_control": {
+      "command": "python3 deadline_control.py",
+      "exit_code": 0,
+      "passed": 14,
+      "failed": 0,
+      "limitation": "Parses the printed schema condition and evaluates a focused Python model. It does not execute GLP."
+    },
+    "tennis_source_assertions": {
+      "command": "python3 check_tennis_integration.py",
+      "initial": {
+        "exit_code": 1,
+        "reason": "Three checker patterns expected a different generated SAS argument order."
+      },
+      "correction": "Inspected exact SAS lines and changed only Club-first parameter-order patterns.",
+      "final": {
+        "exit_code": 0,
+        "passed": 14,
+        "failed": 0
+      },
+      "assertions": [
+        "book_records_owner",
+        "book_records_occupancy",
+        "book_records_partner",
+        "book_checks_both_bounds",
+        "book_requires_both_guards",
+        "cancel_clears_partner",
+        "withdraw_clears_named_partner",
+        "replacement_requires_empty_partner",
+        "replacement_is_joint",
+        "contract_states_joint_count",
+        "quota_remains_external",
+        "platform_has_no_pragmas",
+        "calculus_verdict_present",
+        "readable_partner_act"
+      ],
+      "limitation": "Source and generated-artifact assertions only. No GLP or Prolog runtime was available."
+    },
+    "status": {
+      "command": "python3 bin/status.py",
+      "result": "36 reports, 66 findings, 12 unanswered",
+      "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+    }
+  },
+  "finding_status": {
+    "warnings": {
+      "issue": 136,
+      "status": "open",
+      "next": "Execute the generated request and sanction path and record former-officer policy approval."
+    },
+    "tennis": {
+      "issue": 137,
+      "status": "open",
+      "next": "Define and verify quota computation from booking and partner records and supply executable integration evidence."
+    }
+  }
+}

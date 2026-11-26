@@ -1,3 +1,9 @@
+## Stage 136 — Warnings and Tennis public-main integration — 26 November 2026 UTC
+
+Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work. [Project answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7186960355) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7187114893) · [Publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage](../../stages/136-pr177-warnings-tennis-main-integration-20261126.json)
+
+Next: await independent review of exact PR #177 head `6ce7d22c`. Preserve #136 for generated-path execution and policy approval. Preserve #137 for quota semantics and executable integration evidence.
+
 ## Stage 123 — Village Life Booking and Expel baseline — 25 November 2026 UTC
 
 [PR #173](https://github.com/udi-shapiro/Grassroots-Audit/pull/173) contains Calculus #13’s dated answer for [#115](https://github.com/udi-shapiro/Grassroots-Audit/issues/115) and regenerated status. Await exact-head review. The historical public replay reproduced the two-consent Commons Book and the combined Government Expel safeguards, while the named newer expansions remain outside public GLP. [Verification PR #174](https://github.com/udi-shapiro/Grassroots-Audit/pull/174) · [Stage record](../../stages/123-pr172-calculus-and-pr173-village-life-20261125.json)

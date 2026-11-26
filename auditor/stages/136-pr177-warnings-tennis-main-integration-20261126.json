@@ -1,0 +1,164 @@
+{
+  "stage": 136,
+  "recorded_at": "2026-11-26T08:56:00.000Z",
+  "title": "Warnings and Tennis public-main integration verification",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
+    "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+    "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+    "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+    "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
+    "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
+    "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
+    "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
+    "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
+    "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+    "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
+    "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
+    "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
+    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+  },
+  "events": [
+    {
+      "delivery_id": "96e403ca-e975-11f1-9be1-29b25f0ef7ff",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7186960355,
+      "head_sha": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+      "discussion_version": {
+        "comments": 4,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317,
+          7186960355,
+          7187114893
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          },
+          {
+            "id": 7186960355,
+            "updated_at": "2026-11-26T08:44:27Z"
+          },
+          {
+            "id": 7187114893,
+            "updated_at": "2026-11-26T08:51:55Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:51:55Z"
+      },
+      "processed_at": "2026-11-26T08:56:00.000Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
+        "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
+        "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
+        "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
+        "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
+        "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
+        "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
+        "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
+        "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
+        "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
+        "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
+        "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
+        "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
+        "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
+        "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
+        "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
+        "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
+        "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7186960355",
+        "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7187114893",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "warnings_issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/136",
+        "tennis_issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/137",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/136-pr177-warnings-tennis-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/136-warnings-tennis-integration-20261126.json"
+      }
+    }
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+    "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7186960355",
+    "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7187114893",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177/commits/6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "warnings_issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/136",
+    "tennis_issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/137",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/136-pr177-warnings-tennis-main-integration-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/136-warnings-tennis-integration-20261126.json"
+  },
+  "project_claims": [
+    "Audit #5 reports that each cited Warnings and Tennis commit is an ancestor of public GLP main a9d40778.",
+    "GCE reports Warnings corrected on main with dated warnings, the seven-day safeguard, regenerated cascade artifacts and a passing Section GCE aggregate.",
+    "GM reports Tennis partner replacement corrected and certified on main, with its platform loading from the Calculus publication.",
+    "GM retains under_bound as an environment predicate pending a grammar form for counting bookings and a language decision by Udi."
+  ],
+  "source_inspection": [
+    "Public GLP main is exactly a9d40778a7587dd45ea25aacb42f51146a8ab0d9; the papers branch remains 3f3d50338ec8e1d36c9122fa57fb6993c048ec45.",
+    "Comparisons show c1408847, b17ca87, f4ee64c and c63b27ed are all ancestors of a9d40778.",
+    "Warnings program, generated term, full schemas, regenerated interface, platforms and VMAT artifacts on main retain the exact c1408847 blobs.",
+    "Tennis full schemas, placeholder platform and verdict on main match c63b27ed. The readable and generated contract include Book, Cancel, Withdraw and joint Partner.",
+    "Tennis still consumes external under_bound facts for both players. Its platform.vglp states that it was not compiled because Tennis Courts has no pragmas."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 deadline_control.py",
+      "scope": "Exact main blobs b14ab887 deadline_control.py and 9b4ebf5c Warnings.glp from GLP a9d40778",
+      "result": "Exit 0. All 14 named Expel and Officer expel controls passed."
+    },
+    {
+      "command": "python3 check_tennis_integration.py",
+      "scope": "Exact main Tennis readable contract, generated term, full schemas, placeholder platform and verdict at GLP a9d40778",
+      "result": "The first source-pattern run exited 1 because three checker patterns assumed a different SAS argument order. Inspection showed Club-first generated arguments. After correcting only those patterns, the final run exited 0 with 14/14 assertions passed."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete exact PR #177 publication tree at head 6ce7d22c",
+      "result": "36 reports, 66 findings, 12 unanswered. sections/status-table.tex remained blob be376955."
+    }
+  ],
+  "unexecuted": [
+    "The GLP and Prolog runtimes, cascade.sh warnings --check, the reported Section GCE aggregate, the Tennis certification and load claim, Dart, Flutter and app walks were not executed."
+  ],
+  "outcome": "Verified public-main source integration for Warnings #136 and Tennis #137. Exact Warnings blobs from candidate c1408847 are present on GLP main a9d40778, and the exact 14-case deadline control passed again. Tennis main contains b17ca87, f4ee64c and c63b27ed; 14/14 focused source assertions confirm the partner record, cancellation, withdrawal and joint replacement. Both findings remain open for their recorded generated-path, policy, quota and executable-evidence work.",
+  "next": "Await independent exact-head review of PR #177. Keep #136 open for generated request/sanction execution and recorded former-officer policy approval. Keep #137 open for authoritative quota computation from booking plus partner records and executable integration evidence."
+}
