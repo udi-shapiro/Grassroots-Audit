@@ -9,7 +9,7 @@ Other source versions: Paper key TGLP; papers commit `f4ae6121866387641f2941e3e9
 Scope: Stage 2: whether the type rules exclude the existing finite pair-completion counterexample.
 Coverage at first publication (extended below): Read Sections 2, 4 and 5, including the operational rules, strict well-typing, input coverage and preservation/soundness proof. Visually checked the clause-typing definition. The derivation below is a paper-rule derivation, not a type-checker result. Parameterised/module typing and the remaining appendices require further audit.
 
-## Related open finding: GLP-Spec, Finding 1
+## Related finding: GLP-Spec, Finding 1
 
 This extends [GLP-Spec Finding 1](GLP-Spec.pdf.md#finding-1-pair-completion-has-no-finite-fixed-point-for-an-admissible-writer-match); it is not a second count of that fault.
 
@@ -35,6 +35,14 @@ The existing finding therefore cannot be dismissed merely by invoking these well
 The same PDF blob was verified at papers commit `f4ae6121866387641f2941e3e9bf46e5fd964e7d`. Read further in Appendix C.3, the parameterised rules in D, module definitions and expansion in E, and the beginning of F (through the start of F.2). This remains a partial review of parameterised/module proofs, not their completed verification.
 
 Actual typed acceptance and execution now confirm the earlier derivation: [GLP-Spec Finding 1's runtime evidence](GLP-Spec.pdf.md#executed-typed-runtime-evidence-2026-11-12). The finite control succeeds, and the paired goal is accepted and creates a cyclic structure in the runtime. Keep the response and finding number in that report. No additional independent finding is counted here.
+
+## Reconciliation, 2026-11-26
+
+The rebuilt [public TGLP PDF](https://github.com/EShapiro2/GLP/blob/e525981dee6d8dfecf7a1a010fc98d9ed4523697/papers/TGLP.pdf), pinned at papers commit `e525981dee6d8dfecf7a1a010fc98d9ed4523697` and blob `decffb8c9d1ac55e690e6ae3108b0046e93a4f17`, now works this exact typed example after the Soundness of Well-Typing theorem. It states that well-typing does not exclude the cyclic writer mgu, cGLP has no Reduce for it, the resulting terminal configuration is a deadlock which soundness permits, and the implementation without an occurs check builds the circular term. The preservation proof also states why each accumulated substitution has the fixed point its finite-term argument uses.
+
+GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` adds the exact fixture and four focused A44 source assertions. They cover typed loading, both acyclic controls and the circular implementation result. Dart was unavailable in this audit run, so A44 and the project's aggregate 379/0 result were not independently executed. The earlier independent runtime run already established the same typed acceptance and circular heap behavior.
+
+The independent verification and original finding history remain in [GLP-Spec Finding 1](GLP-Spec.pdf.md#finding-1-pair-completion-has-no-finite-fixed-point-for-an-admissible-writer-match). At these public versions, TGLP's type/soundness account and the documented implementation boundary are reconciled, resolving the shared finding.
 
 ### Rebuilt-paper check before publication
 
