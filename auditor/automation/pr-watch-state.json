@@ -1,8 +1,22 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:30:27.740Z",
-  "active_run": null,
+  "updated_at": "2026-11-26T09:35:11.287Z",
+  "active_run": {
+    "run_id": "stage139-pr177-tennis-pragmas",
+    "event": {
+      "delivery_id": "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7188066824
+    },
+    "additional_events": [],
+    "acquired_at": "2026-11-26T09:35:11.287Z",
+    "expires_at": "2026-11-26T10:05:11.287Z",
+    "expected_head_sha": "b1cbca12cbd083b51b5ff5c0f9e36a2198e667a4"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
