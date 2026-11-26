@@ -26,8 +26,8 @@ Stable finding numbers and all project responses are preserved below. This asses
 | 4 / #133 — Broadcast reach | Official notices and village emergencies now have participant-to-participant forwarding independent of friendship | **Original contract-level finding resolved with scope correction.** Transport deadlines and actual reach are platform obligations, not requirements to put phones into this social contract |
 | 5 / #134 — Personal emergencies | Resolve, an answer describing promised help, and a help undertaking are now printed | **Resolved for the intended public-call design.** Public disclosure is deliberate; see the explicit audience and response clarification below |
 | 6 / #135 — Disputes | Candidate ab9002a prevents a second assignment of the same Issue and records the ruling for both parties | **Candidate correction verified at schema level; not adopted in the audited main** |
-| 7 / #136 — Warnings | Candidate e4aacb8 supplies incident, answer, withdrawal/annulment and safe per-participant answer retention | **Candidate life-cycle correction verified; main still old.** Current-officer counting and an opportunity to answer need clarification |
-| 8 / #137 — Tennis | Candidate b17ca87 records the partner, removes that record on cancellation, and permits partner withdrawal | **Partly corrected candidate; not in audited main.** Quota calculation remains external and unverified |
+| 7 / #136 — Warnings | Public main carries incident, answer, withdrawal/annulment, dated warnings and the regenerated cascade | **Source integration and 14 deadline controls verified.** Generated request/sanction execution and retrospective policy approval remain |
+| 8 / #137 — Tennis | Public main records the partner, supports withdrawal and joint replacement, and retains one occupancy record | **Partner and replacement integration verified by source.** Quota calculation remains external and platform loading was not executed |
 | Website #1 / #138 | Parser returns 31/31 Booking, 58/58 Tennis and 31/31 Disputes rules; isolated renderer displays both Book origins and both consents | **Source defect resolved.** Live deployment not independently checked |
 | Earlier manuscript #5 / #119 | Friendship replaces Secure Friendship; the whole-phone recovery claim is absent | **Resolved by correcting the manuscript's scope.** This does not supply general recovery |
 
@@ -389,7 +389,13 @@ Deadline controls: `programs/gce/warnings/deadline_control.py` reads the printed
 
 Not done: an app run with scripted persons. vGLP keeps no Warnings plays.
 
+GCE (GCE #2) and GM, 2026-11-26 08:44 UTC, submitted by Audit #5. Audit #5 checked that each cited commit is an ancestor of public GLP main `a9d40778a` (Code, 08:25 UTC).
+
+Corrected: GLP main [`a9d40778a7587dd45ea25aacb42f51146a8ab0d9`](https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9), which holds `73bdea71b` and `c14088475` with dated warnings, seven days, regenerated `cascade/Warnings` and `deadline_control.py`. GCE reports that Section GCE passes there.
+
 ### Verification
+
+**26 November 2026 UTC — Warnings candidate integrated on public main.** Public GLP main `a9d40778a7587dd45ea25aacb42f51146a8ab0d9` is 14 commits after `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3`. The adopted Warnings program, full schemas, regenerated interface, platform and VMAT artifacts retain the exact candidate blobs recorded below. I reran exact `deadline_control.py` blob `b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a` against exact `Warnings.glp` blob `9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3`; all 14 named controls passed. The source-integration condition is satisfied. The generated GLP request and sanction path, `cascade.sh warnings --check`, the reported Section GCE aggregate and an app walk were not executed. Keep #136 open for that generated-path execution and recorded retrospective approval of the former-officer policy.
 
 **26 November 2026 UTC — Regenerated candidate and deadline controls verified within a bounded scope.** Exact public candidate `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3` is one commit after `73bdea71bb189e2f2488e06385e788e78d3c6840`; public GLP main remains `37d31ca95c6a599113dcf6eb0b8341f8202c3a47`. The program and cascade Warnings text copies match at blob `cda73679ad052523b96b1f619f6b3c7a7ec54786`, and their generated terms match at blob `9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3`. The regenerated platform blob `7287a83f04cd5ca7a8efe815fb934db465906e7e` exposes Enough for Expel and Officer expel and Day for Annul. Its numeric schemas implement `Today > EnoughD + 7` and require at least two distinct warning persons. The full schemas contain exactly the Withdraw and Annul deletions of `warning_on`, consistent with retaining a former officer's warning.
 
@@ -435,7 +441,13 @@ Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d
 
 Corrected: GLP main 80da4331d, carrying GM's Tennis Courts b17ca87, its record printed again at a4d4a20fd. Not yet on main: Tennis Courts:5 Partner (f4ee64c), which comes with the next merge.
 
+GCE (GCE #2) and GM, 2026-11-26 08:44 UTC, submitted by Audit #5. Audit #5 checked that each cited commit is an ancestor of public GLP main `a9d40778a` (Code, 08:25 UTC).
+
+GM reports that `b17ca87` is on main `80da4331d`. Partner replacement, Tennis Courts:5 at `f4ee64c`, is corrected on public GLP main [`a9d40778a7587dd45ea25aacb42f51146a8ab0d9`](https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9), certified, with the platform loading from the Calculus publication `c63b27e`. The quota remains as previously answered: `under_bound` awaits a grammar form for counting bookings and a language decision by Udi.
+
 ### Verification
+
+**26 November 2026 UTC — Partner replacement integrated; quota remains external.** Public GLP main `a9d40778a7587dd45ea25aacb42f51146a8ab0d9` contains `b17ca87`, `f4ee64c` and `c63b27ed`. Its expanded Tennis-Courts schemas blob `ab576e23b8d426778936cd3dba8e400eb4cb9427`, placeholder platform blob `bc1d821bdb33bdb44d87cf92fa8b08dd18238f86` and verdict blob `cf606a3359e0826566d860fddb1fcade2996b8f3` match `c63b27ed`. Fourteen focused source assertions passed against main's readable contract and generated term. They confirm Book's single occupancy plus partner record, both players' guards and external bounds, cancellation, partner withdrawal, and joint replacement without releasing the court. The published platform says it was not compiled because Tennis Courts has no pragmas. No GLP or Prolog runtime was available, so the project’s certification and platform-load claims were not independently executed. Keep #137 open for an authoritative quota derived from both booking and partner records and for executable integration evidence.
 
 **26 November 2026 UTC — The published Book schema records both players.** Public GLP main `80da4331d13ff601fb120a64e74f3c781eef23c7` contains `b17ca87` and `a4d4a20fd`. The [published schemas](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/calculus/contracts/Tennis-Courts/full-schemas.txt) and [generated term](https://github.com/EShapiro2/GLP/blob/80da4331d13ff601fb120a64e74f3c781eef23c7/programs/gm/Tennis-Courts.glp) record one occupied slot and a separate partner record. The Python schema checks confirmed that Cancel clears the partner record and partner Withdrawal removes only that record. Book still consumes external `under_bound` facts for both players. The generated term has no Partner act, and `f4ee64c` diverges from this main pin. Keep #137 open for replacement and for an authoritative quota computed from both booking and partner records.
 
