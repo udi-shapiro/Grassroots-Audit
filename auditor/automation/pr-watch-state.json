@@ -1,8 +1,21 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T20:31:49Z",
-  "active_run": null,
+  "updated_at": "2026-11-26T21:41:29Z",
+  "active_run": {
+    "run_id": "pr188-vmat-22-reconciliation-20261126",
+    "delivery_ids": [
+      "f0cacf1a-e9e1-11f1-8b39-78bb0af4a1ea"
+    ],
+    "acquired_at": "2026-11-26T21:41:29Z",
+    "lease_expires_at": "2026-11-26T22:11:29.000Z",
+    "pull_requests": [
+      188
+    ],
+    "event_types": [
+      "pull_request"
+    ]
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
