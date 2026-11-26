@@ -1,3 +1,7 @@
+## Stage 129 — Agora Withdraw candidate — 26 November 2026 UTC
+
+Currencies’ dated answer for Agora Finding #140 is preserved in [PR #178](https://github.com/udi-shapiro/Grassroots-Audit/pull/178). Source inspection at public candidate `bf36ba77bfa9442944f049a27a7dd033308e46d6` verifies the local `posted` and `member` requirements, the retained keeper-side active-post check and the field-free interface. The candidate is one commit after `c63b27ed9618f112d18db06b3329c94f5c7b70b6`. Public GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` remains old. Next, integrate the candidate on main and independently run adoption and Agora cascade checks. [Stage record](../../stages/129-pr141-agora-answer-candidate-20261126.json)
+
 ## Stage 109 — Warnings follow-up and Agora review — 25 November 2026 UTC
 
 [PR #141](https://github.com/udi-shapiro/Grassroots-Audit/pull/141#pullrequestreview-6063078015) now has a narrower report and a reproducible proposed table. Changes requested for the conditional local wall copy after delivery and for the keeper-uniqueness claim across Open and Join. #140 remains open. · [Stage record](../../stages/109-pr146-follow-up-and-pr141-review-20261125.json)

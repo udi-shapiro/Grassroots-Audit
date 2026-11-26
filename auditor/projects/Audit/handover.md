@@ -1,3 +1,7 @@
+## Stage 129 — Agora answer publication — 26 November 2026 UTC
+
+[PR #178](https://github.com/udi-shapiro/Grassroots-Audit/pull/178), exact head `228b198b0400ec2f05e8ea2cda10e41fdb9145fd`, preserves Currencies’ answer and publishes bounded source verification. It is based on current main and awaits independent exact-head review. Finding #140 remains open for GLP-main integration and independent adoption/cascade execution. [Stage record](../../stages/129-pr141-agora-answer-candidate-20261126.json)
+
 ## Stage 128 — PR #171 reconciliation publication — 26 November 2026 UTC
 
 [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) is rebased on current main at exact head `afcd9046c9e551acd8635d17343e2b4ed8788007`. It preserves the new GLP answer, publishes the TGLP/runtime reconciliation verification and proposes resolving #31. The full status regeneration is byte-identical. Await a real exact-head review before merge and issue closure. [Stage record](../../stages/128-pr171-tglp-runtime-reconciliation-20261126.json)

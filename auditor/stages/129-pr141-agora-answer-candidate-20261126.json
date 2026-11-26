@@ -1,0 +1,162 @@
+{
+  "stage": 129,
+  "recorded_at": "2026-11-26T03:08:19.160Z",
+  "title": "PR 141 Agora answer and public candidate verification",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+    "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+    "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+  },
+  "events": [
+    {
+      "delivery_id": "0338192a-e945-11f1-99b2-8b34cee6357d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 141,
+      "comment_id": 7181256829,
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7181256829,
+          7181391170
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "PRR_kwDOVrts7s8AAAABaWM6fw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062751245,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:17:46Z"
+          },
+          {
+            "id": 6063078015,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:42:02Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7181256829,
+            "updated_at": "2026-11-26T02:56:42Z"
+          },
+          {
+            "id": 7181391170,
+            "updated_at": "2026-11-26T03:05:47Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T03:05:47Z"
+      },
+      "processed_at": "2026-11-26T03:08:19.160Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "outcome": "Preserved Currencies’ dated answer in PR #178. Public candidate source supports the binding and interface change; GLP main remains old and project-reported adoption/cascade checks were not independently rerun.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181256829",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "verification_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181391170",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "3a907132-e946-11f1-8053-07aefcd5d20d",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 178,
+      "comment_id": null,
+      "head_sha": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T03:08:19.160Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "outcome": "Own publication produced by this run and recorded without a reply loop. Await independent exact-head review.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json"
+      }
+    }
+  ],
+  "project_claims": [
+    "Currencies reports that adopt.py --check passes on the candidate.",
+    "Currencies reports that cascade.sh agora returns syntactically_grassroots with the platform compiled.",
+    "Currencies says a main integration commit will follow."
+  ],
+  "source_inspection": [
+    "The public branch currencies-agora-withdraw-2026-11-26 resolves to bf36ba77bfa9442944f049a27a7dd033308e46d6.",
+    "GitHub comparison shows bf36ba77 is one commit ahead of c63b27ed9618f112d18db06b3329c94f5c7b70b6.",
+    "The candidate expanded schema and generated term require posted(Carol,Item,Mart), member(Carol,Mart,Alice) and post(Alice,Carol,Item,Mart).",
+    "The adopted interface is exactly Withdraw: Carol [Withdraw].",
+    "Public GLP main 37d31ca95c6a599113dcf6eb0b8341f8202c3a47 retains the earlier Withdraw schema and three open fields."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Current audit-main report metadata plus the new Agora report for PR #178.",
+      "result": "37 reports, 67 findings, 12 unanswered."
+    },
+    {
+      "command": "publication assertions",
+      "scope": "New report, issue-index row and generated Agora status row.",
+      "result": "All assertions passed."
+    }
+  ],
+  "unexecuted": [
+    "The project-reported adopt.py --check was not rerun.",
+    "The project-reported cascade.sh agora execution was not rerun.",
+    "No GLP runtime or UI was executed."
+  ],
+  "outcome": "PR #178 preserves the answer and bounded source verification. Finding #140 remains open pending GLP-main integration and independent execution.",
+  "next": {
+    "140": "Obtain an independent exact-head review of PR #178. After the candidate reaches GLP main, rerun adoption and the Agora cascade at that integrated commit."
+  },
+  "urls": {
+    "source_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181256829",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+    "discussion": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181391170",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/140"
+  }
+}

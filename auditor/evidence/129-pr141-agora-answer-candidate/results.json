@@ -1,0 +1,34 @@
+{
+  "stage": 129,
+  "recorded_at": "2026-11-26T03:08:19.160Z",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+    "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+    "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+    "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+  },
+  "source_assertions": {
+    "candidate_branch_resolves": true,
+    "candidate_parent_exact": true,
+    "withdraw_requires_posted": true,
+    "withdraw_requires_member": true,
+    "withdraw_retains_keeper_post": true,
+    "interface_has_no_open_fields": true,
+    "glp_main_still_old": true
+  },
+  "executed": {
+    "status_generator": {
+      "command": "python3 bin/status.py",
+      "result": "37 reports, 67 findings, 12 unanswered"
+    },
+    "publication_assertions": "pass"
+  },
+  "project_only": [
+    "adopt.py --check passes",
+    "cascade.sh agora gives syntactically_grassroots with the platform compiled"
+  ]
+}

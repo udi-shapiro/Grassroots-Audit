@@ -1,3 +1,7 @@
+## Stage 129 — Agora Finding 1 answer — 26 November 2026 UTC
+
+GCE’s original Finding 1 attribution is preserved under Currencies ownership. [PR #178](https://github.com/udi-shapiro/Grassroots-Audit/pull/178) corrects the report’s earlier uniqueness language and records the conditional local wall copy after delivery. Candidate-source verification supports the proposed repair, while integration and independent execution remain pending. [Stage record](../../stages/129-pr141-agora-answer-candidate-20261126.json)
+
 ## Stage 127 — Public GLP integration — 26 November 2026 UTC
 
 Disputes Raise and Decide passed the bounded replay; #177 proposes resolving #135. The Warnings life cycle is verified on the integrated schemas. Dated sanctions and the former-officer policy remain open under #136. For Friendship #128, independently verify the public deployment against the regenerated platform. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)

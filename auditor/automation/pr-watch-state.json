@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T02:58:10.736Z",
-  "active_run": {
-    "run_id": "pr141-comment-7181256829-20261126025810",
-    "event": {
-      "delivery_id": "0338192a-e945-11f1-99b2-8b34cee6357d",
-      "pull_request_number": 141,
-      "event_type": "issue_comment",
-      "comment_id": 7181256829
-    },
-    "acquired_at": "2026-11-26T02:58:10.736Z",
-    "expires_at": "2026-11-26T03:28:10.737Z",
-    "expected_head_sha": "7cdddbd6ac4692dd5f3f871782e2b51662407c5f"
-  },
+  "updated_at": "2026-11-26T03:08:19.160Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -43,9 +32,9 @@
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 171,
-  "publication_merge_sha": "191f6ace5df46e0a9baa7260c06283d6a84c9151",
-  "source_verified": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+  "publication_pr": 178,
+  "publication_merge_sha": null,
+  "source_verified": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
   "processed_prs": [
     {
       "number": 177,
@@ -834,13 +823,16 @@
       "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
       "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
       "state": "open",
-      "updated_at": "2026-11-25T18:42:02Z",
+      "updated_at": "2026-11-26T03:05:47Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 2,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7181256829,
+          7181391170
+        ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaV4-DQ",
           "PRR_kwDOVrts7s8AAAABaWM6fw"
@@ -861,17 +853,42 @@
             "submitted_at": "2026-11-25T18:42:02Z"
           }
         ],
-        "latest_comments": [],
-        "latest_item_at": "2026-11-25T18:42:02Z"
+        "latest_comments": [
+          {
+            "id": 7181256829,
+            "updated_at": "2026-11-26T02:56:42Z"
+          },
+          {
+            "id": 7181391170,
+            "updated_at": "2026-11-26T03:05:47Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T03:05:47Z"
       },
-      "comment_cursor": "none",
+      "comment_cursor": 7181391170,
       "review_cursor": "PRR_kwDOVrts7s8AAAABaWM6fw",
       "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
-      "notes": "The revised Agora report and regenerated table were checked. Changes requested to distinguish the conditional local wall copy and avoid assuming keeper uniqueness from Join alone. #140 stays open.",
+      "notes": "Currencies’ dated Agora Finding 1 answer is preserved in PR #178. Candidate bf36ba77 source and generated artifacts support the binding change and field-free interface without a uniqueness assumption. GLP main remains old; independent adoption and cascade execution remain pending.",
       "merge_commit_sha": null,
       "delivery_ids": [
         "35126e44-e8fc-11f1-9811-8f4b318fe744",
-        "51cc1870-e8ff-11f1-8752-383e0d5e3890"
+        "51cc1870-e8ff-11f1-8752-383e0d5e3890",
+        "0338192a-e945-11f1-99b2-8b34cee6357d"
+      ],
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json",
+      "own_comment_ids": [
+        7181391170
       ]
     },
     {
@@ -2786,6 +2803,44 @@
         "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+    },
+    {
+      "number": 178,
+      "head_sha": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "state": "open",
+      "updated_at": "2026-11-26T03:05:25Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "3a907132-e946-11f1-8053-07aefcd5d20d"
+      ],
+      "notes": "Own main-based publication preserving Currencies’ answer and the independent candidate-source verification. Exact head awaits independent review. Finding #140 remains open.",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json",
+      "own_publication": true
     }
   ],
   "source_observed_after_tests": {
@@ -14407,13 +14462,119 @@
       "urls": {
         "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/171"
       }
+    },
+    {
+      "delivery_id": "0338192a-e945-11f1-99b2-8b34cee6357d",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 141,
+      "comment_id": 7181256829,
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7181256829,
+          7181391170
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "PRR_kwDOVrts7s8AAAABaWM6fw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062751245,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:17:46Z"
+          },
+          {
+            "id": 6063078015,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-25T18:42:02Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7181256829,
+            "updated_at": "2026-11-26T02:56:42Z"
+          },
+          {
+            "id": 7181391170,
+            "updated_at": "2026-11-26T03:05:47Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T03:05:47Z"
+      },
+      "processed_at": "2026-11-26T03:08:19.160Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "outcome": "Preserved Currencies’ dated answer in PR #178. Public candidate source supports the binding and interface change; GLP main remains old and project-reported adoption/cascade checks were not independently rerun.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181256829",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "verification_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7181391170",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "3a907132-e946-11f1-8053-07aefcd5d20d",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 178,
+      "comment_id": null,
+      "head_sha": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-26T03:08:19.160Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
+        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+      },
+      "outcome": "Own publication produced by this run and recorded without a reply loop. Await independent exact-head review.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "39eff6d7645efd109af97c375eb667e71e335df1",
-    "glp_main": "4e68cca5954ab72d9ab7f9f0f53005b05c8113d5",
-    "glp_papers": "dbf124c1ff18f1ba5c724aed1db2403f88fed57d",
-    "observed_at": "2026-11-25T03:05:13.748Z"
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+    "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "observed_at": "2026-11-26T03:08:19.160Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -14423,15 +14584,16 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-25T02:42:14.994Z",
-    "last_stage": 97,
-    "processed_through_pr": 125,
-    "notes": "Reviewed answers #123 and #124 merged. Verification #125 remains open. The exact Village Life replay succeeded at the audited GLP main pin."
+    "last_reconciled_at": "2026-11-26T03:08:19.160Z",
+    "last_stage": 129,
+    "processed_through_pr": 178,
+    "notes": "PR #141 answer event and own PR #178 publication event recorded. Candidate source verified; integration and independent execution remain pending."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
     "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
     "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
-    "observed_at": "2026-11-26T01:28:21.171Z"
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "observed_at": "2026-11-26T03:08:19.160Z"
   }
 }
