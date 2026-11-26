@@ -1,30 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T11:14:09.828Z",
-  "active_run": {
-    "run_id": "pr181-own-events-and-code-run-7190413174",
-    "event": {
-      "delivery_ids": [
-        "a595bc06-e989-11f1-951e-5e0302be7dc5",
-        "c6205e72-e989-11f1-8763-6bd203ec6f6b"
-      ],
-      "event_type": "reconciled_pr_activity",
-      "action": "created_and_synchronize",
-      "pull_request_number": 181,
-      "comment_ids": [
-        7190313253,
-        7190413174
-      ],
-      "actor_logins": [
-        "udi-shapiro",
-        "EShapiro2"
-      ]
-    },
-    "acquired_at": "2026-11-26T11:14:09.828Z",
-    "expires_at": "2026-11-26T11:44:09.828Z",
-    "expected_head_sha": "0588def340cf16bec873cdeb1a89cce594955cc8"
-  },
+  "updated_at": "2026-11-26T11:18:27.806Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -44,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "7f9b5cae-e989-11f1-896d-6feed3eb69c9",
-      "event": "PR 181 Code main-integration answer and auditor publication synchronization",
+      "delivery_id": "cb7a863a-e98a-11f1-9546-2e10fa7db45e",
+      "event": "PR 181 own publication events plus reconciled Code focused-test evidence",
       "pull_request_number": 181,
-      "observed_at": "2026-11-26T11:11:20.564Z",
-      "outcome": "Preserved Code #41's answer, verified the cited correction sources on GLP main, repaired the publication's answer/verification ordering, and updated PR #181. Finding #179 remains open for the public paper and independent execution."
+      "observed_at": "2026-11-26T11:18:27.806Z",
+      "outcome": "Skipped the auditor's own comment and publication deliveries, preserved Code's newly reconciled 6/6 focused-test evidence, verified that the tested Flutter package is byte-identical to public main, and updated PR #181. Finding #179 remains open for public paper verification and independent execution."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -136,21 +114,22 @@
     },
     {
       "number": 181,
-      "head_sha": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+      "head_sha": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T11:08:56Z",
+      "updated_at": "2026-11-26T11:16:30Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 4,
+        "comments": 5,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7187552999,
           7187576232,
           7190086665,
-          7190313253
+          7190313253,
+          7190413174
         ],
         "review_ids": [],
         "review_versions": [],
@@ -170,12 +149,16 @@
           {
             "id": 7190313253,
             "updated_at": "2026-11-26T11:08:01Z"
+          },
+          {
+            "id": 7190413174,
+            "updated_at": "2026-11-26T11:12:08Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T11:08:01Z"
+        "latest_item_at": "2026-11-26T11:12:08Z"
       },
-      "comment_cursor": 7190313253,
+      "comment_cursor": 7190413174,
       "review_cursor": null,
       "delivery_ids": [
         "3ecfd580-e973-11f1-91af-ea76f9db40ce",
@@ -183,30 +166,28 @@
         "6b259768-e979-11f1-8740-d320ef34e7aa",
         "ba91225c-e97b-11f1-8a1f-5f888508c8f6",
         "4d3f75f2-e988-11f1-844c-f902c2466b8d",
-        "7f9b5cae-e989-11f1-896d-6feed3eb69c9"
+        "7f9b5cae-e989-11f1-896d-6feed3eb69c9",
+        "a595bc06-e989-11f1-951e-5e0302be7dc5",
+        "c6205e72-e989-11f1-8763-6bd203ec6f6b",
+        "cb7a863a-e98a-11f1-9546-2e10fa7db45e"
       ],
       "own_publication": true,
-      "notes": "Preserved Code #41's public-main integration answer. Independent ancestry and exact-blob checks verify the compiler, README, neutral form and focused-test sources on GLP main fc2e7284; 18/18 focused assertions passed. The project-reported 6/6 Flutter test was not rerun and paper revision 42f53d1 remains absent from public GLP papers, so #179 stays open. PR #181 is mergeable at exact head 1404b4a7 and awaits independent review.",
+      "notes": "Skipped the auditor's own comment and publication events. Preserved Code #41's reported 6/6 focused Flutter run. Independent Git-tree comparison verifies that checkout 7621b9ee5 and public main fc2e7284 have the exact same 244-path glp_multiagent subtree with zero blob differences. The run was not independently repeated and paper revision 42f53d1 remains absent from public GLP papers, so #179 stays open. PR #181 is mergeable at exact head 9fb9eda1 and awaits independent review.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_181_before": "edb7eabf45ec5b751eaadba79e894a7c0770f917",
-        "audit_pr_181_intermediate": "c6ac5a339068db3dff7429ea20e1a8be401447a9",
-        "audit_pr_181": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
-        "audit_report_blob": "d8a22372fae80d77631183f7d3c92944a2fd9449",
-        "audit_issues_blob": "0216cc1c35cf34747a9bff5468f5a0abd1fab1ac",
+        "audit_pr_181_before": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+        "audit_pr_181": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+        "audit_report_blob": "43377e475475b15d4e35d08399dae7e51eebecc0",
+        "audit_issues_blob": "bbda0c44e3835cf32c1562f752b9e77f787b151e",
         "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
         "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
-        "glp_main_tree": "a55f99a523466ab38ee6d66ce63ab0eea7683409",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "vglp_unmet_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
-        "vglp_readme_commit": "278ff108b31584752cd63f5aae476daf7841a616",
-        "code_form_candidate": "92fd2169465fad516e1c01304bca8f8a2574ac82",
-        "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
-        "readme_blob": "8ff173b7cc978799d2b8b0aa9004cd0c767bfe2d",
-        "named_widgets_blob": "42fb101db6773da81c22a127333960f458285837",
+        "code_test_checkout": "7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+        "code_test_checkout_tree": "fe0539f391ee602a543b2eae40edec42aa1efd6e",
+        "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
         "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/142-pr181-vglp-main-integration-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/143-pr181-focused-test-evidence-20261126.json",
       "own_comment_ids": [
         7190313253
       ],

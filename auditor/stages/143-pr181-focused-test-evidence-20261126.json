@@ -1,0 +1,135 @@
+{
+  "stage": 143,
+  "title": "PR 181 focused refusal test evidence reconciled",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "a595bc06-e989-11f1-951e-5e0302be7dc5",
+      "pull_request_number": 181,
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "udi-shapiro",
+      "comment_id": 7190313253,
+      "head_sha": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+      "outcome": "Skipped as the auditor's already-recorded substantive verification comment."
+    },
+    {
+      "delivery_id": "c6205e72-e989-11f1-8763-6bd203ec6f6b",
+      "pull_request_number": 181,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "head_sha": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+      "outcome": "Skipped as the auditor's already-recorded publication synchronization."
+    },
+    {
+      "delivery_id": null,
+      "source": "live PR reconciliation",
+      "pull_request_number": 181,
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "comment_id": 7190413174,
+      "head_sha": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+      "outcome": "Preserved Code #41's focused Flutter run as attributed project evidence and independently checked the tested subtree identity."
+    },
+    {
+      "delivery_id": "cb7a863a-e98a-11f1-9546-2e10fa7db45e",
+      "pull_request_number": 181,
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "head_sha": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+      "outcome": "Recorded as the auditor's own publication update for the reconciled evidence. No reply loop was created."
+    }
+  ],
+  "classification": "Project execution evidence with independently verified source identity. The Flutter run remains attributed project evidence because it was not executed by the auditor.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "audit_pr_181": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_report_blob": "43377e475475b15d4e35d08399dae7e51eebecc0",
+    "audit_issues_blob": "bbda0c44e3835cf32c1562f752b9e77f787b151e",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "code_test_checkout": "7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+    "code_test_checkout_tree": "fe0539f391ee602a543b2eae40edec42aa1efd6e",
+    "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+  },
+  "project_contributions": [
+    {
+      "project": "Code",
+      "at": "2026-11-26T11:12:08Z",
+      "comment_id": 7190413174,
+      "claim": "The focused Flutter test passed 6/6 on checkout 7621b9ee5 using Flutter 3.47.9, Dart 3.13.7 and Linux. Code reports its glp_multiagent tree matches public main."
+    }
+  ],
+  "independent_source_inspection": [
+    "Public commit 7621b9ee5 has public main fc2e7284 as a parent.",
+    "Both commits have exact glp_multiagent subtree 0110b8b7204a2095d14f0d40abbb2715d711becb.",
+    "All 244 paths under glp_multiagent have identical blob SHAs, with zero differences.",
+    "The comparison changes only programs/vglp/cva/compiler/cvac.glp, outside the tested Flutter package."
+  ],
+  "executed_checks": [
+    {
+      "command": "Compare public Git trees for fc2e7284 and 7621b9ee5",
+      "result": "244 glp_multiagent paths compared; zero blob differences; subtree SHA identical",
+      "scope": "Source identity of the project-reported focused Flutter run"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR #181 publication tree after preserving the new Code answer",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "output_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+      "byte_identical": true
+    }
+  ],
+  "project_execution": {
+    "command": "cd glp_multiagent && flutter test test/notice_reason_test.dart --reporter expanded",
+    "environment": "Flutter 3.47.9, Dart 3.13.7, Linux",
+    "result": "6/6 passed",
+    "source_comment_id": 7190413174,
+    "attribution": "Code #41 project evidence",
+    "independently_rerun": false
+  },
+  "not_executed": [
+    "Flutter notice_reason_test by the auditor",
+    "GLP runtime or Section VG",
+    "Dart application walk",
+    "Paper build or inspection of separate paper repository commit 42f53d1"
+  ],
+  "publication": {
+    "pull_request": 181,
+    "before_head": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "head": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "mergeable": true,
+    "reviews": 0,
+    "files": [
+      "ISSUES.md",
+      "papers/vGLP.pdf.md",
+      "sections/04-status.tex",
+      "sections/status-table.tex"
+    ],
+    "status": "awaiting independent exact-head review"
+  },
+  "finding": {
+    "id": 179,
+    "status": "open",
+    "next": "Publish the paper revision through the public GLP papers branch and independently execute the focused Flutter test."
+  },
+  "communication": "No GitHub message, reply or notification was posted because this run was explicitly limited to a ChatGPT task-run confirmation.",
+  "outcome": "Skipped the auditor's own comment and publication deliveries, preserved Code's newly reconciled 6/6 focused-test evidence, verified that the tested Flutter package is byte-identical to public main, and updated PR #181. Finding #179 remains open for public paper verification and independent execution.",
+  "urls": {
+    "project_run": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190413174",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "test_checkout": "https://github.com/EShapiro2/GLP/commit/7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/143-pr181-focused-test-evidence-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/143-pr181-focused-test-evidence-20261126.json"
+  }
+}

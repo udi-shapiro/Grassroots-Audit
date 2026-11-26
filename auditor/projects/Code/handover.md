@@ -1,3 +1,9 @@
+## Stage 143 — vGLP focused-test evidence reconciled — 26 November 2026 UTC
+
+Code reports `notice_reason_test.dart` passed 6/6 on public checkout `7621b9ee5`. Independent tree comparison verifies its 244-path `glp_multiagent` subtree is exactly the public-main `fc2e7284` subtree `0110b8b7`, with zero blob differences. [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181), exact head `9fb9eda1`, preserves the transcript and verification. The execution remains attributed project evidence because Dart and Flutter are unavailable to the auditor. Paper revision `42f53d1` remains absent from public GLP papers. Finding #179 stays open. [Project run](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190413174) · [Stage](../../stages/143-pr181-focused-test-evidence-20261126.json)
+
+Next: publish the paper revision through the public GLP papers branch and independently execute `glp_multiagent/test/notice_reason_test.dart`.
+
 ## Stage 142 — vGLP refusal diagnostics integrated on public main — 26 November 2026 UTC
 
 Public GLP main `fc2e7284` contains exact candidates `35454a65`, `278ff108` and `92fd2169`. Eighteen ancestry, blob and source assertions passed for the compiler, neutral form and six-case focused test source. [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181), exact head `1404b4a7`, preserves the Code answer and audit verification. The project’s 6/6 Flutter result was not rerun because Dart and Flutter are unavailable. Paper revision `42f53d1` is absent from public GLP papers `3f3d5033`. Finding #179 stays open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190086665) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190313253) · [Stage](../../stages/142-pr181-vglp-main-integration-20261126.json)

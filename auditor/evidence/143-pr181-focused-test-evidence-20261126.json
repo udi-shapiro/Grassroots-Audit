@@ -1,0 +1,81 @@
+{
+  "stage": 143,
+  "collected_at": "2026-11-26T11:18:27.806Z",
+  "boundary": "Public EShapiro2/GLP main and public commits plus the public audit repository only.",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_181_before": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
+    "audit_pr_181": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_report_blob": "43377e475475b15d4e35d08399dae7e51eebecc0",
+    "audit_issues_blob": "bbda0c44e3835cf32c1562f752b9e77f787b151e",
+    "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+    "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "code_test_checkout": "7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+    "code_test_checkout_tree": "fe0539f391ee602a543b2eae40edec42aa1efd6e",
+    "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+  },
+  "inspected": {
+    "test_checkout": {
+      "sha": "7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+      "parents": [
+        "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "cb30240712eb5463747808741755e333d7c59455"
+      ],
+      "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
+      "glp_multiagent_paths": 244
+    },
+    "public_main": {
+      "sha": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+      "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
+      "glp_multiagent_paths": 244
+    },
+    "comparison": {
+      "status": "ahead",
+      "ahead_by": 2,
+      "behind_by": 0,
+      "changed_files": [
+        "programs/vglp/cva/compiler/cvac.glp"
+      ],
+      "glp_multiagent_blob_differences": 0
+    }
+  },
+  "project_claim": {
+    "command": "cd glp_multiagent && flutter test test/notice_reason_test.dart --reporter expanded",
+    "environment": "Flutter 3.47.9, Dart 3.13.7, Linux",
+    "result": "6/6 passed",
+    "source_comment_id": 7190413174,
+    "attribution": "Code #41 project evidence",
+    "independently_rerun": false
+  },
+  "executed_checks": [
+    {
+      "command": "Compare public Git trees for fc2e7284 and 7621b9ee5",
+      "result": "244 glp_multiagent paths compared; zero blob differences; subtree SHA identical",
+      "scope": "Source identity of the project-reported focused Flutter run"
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Exact PR #181 publication tree after preserving the new Code answer",
+      "result": "36 reports, 67 findings, 12 unanswered",
+      "output_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+      "byte_identical": true
+    }
+  ],
+  "limitations": [
+    "The project supplied the test transcript; the auditor did not execute Flutter.",
+    "Paper revision 42f53d1 is not present in public GLP papers at 3f3d5033 and was not independently inspected.",
+    "No GLP runtime, Section VG, app walk or paper build ran."
+  ],
+  "conclusion": "The reported 6/6 Flutter run used a package byte-identical to public main. The run remains attributed project evidence. Finding #179 remains open for public paper verification and an independent focused execution.",
+  "urls": {
+    "project_run": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190413174",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "test_checkout": "https://github.com/EShapiro2/GLP/commit/7621b9ee5f07b7a2d386e1376ebf735bf280047e",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/143-pr181-focused-test-evidence-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/143-pr181-focused-test-evidence-20261126.json"
+  }
+}
