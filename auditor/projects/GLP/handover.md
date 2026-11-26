@@ -1,3 +1,9 @@
+## Stage 126 — Public GLP-Spec proof repair verified — 26 November 2026 UTC
+
+The rebuilt [public GLP-Spec PDF](https://github.com/EShapiro2/GLP/blob/039efdae8576cfe876276364a9876ccb30fb04ea/papers/GLP-Spec.pdf), blob `8182a24e967a0e4b9f056038d627d59d35fb0c5d`, now contains Proposition E.1’s normalized projected-mgu argument and the run invariant through Reduce and Communicate. The cyclic/acyclic Python control passes again. [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) records the verification at head `3ce39f61caf8f8983be8e2012813cf2ceed412f9`.
+
+Finding [#31](https://github.com/udi-shapiro/Grassroots-Audit/issues/31) remains open. IGLP and TGLP PDFs are byte-identical in this sweep. IGLP already carries the acyclic Reduce premise, while TGLP’s type/soundness account and the typed runtime’s recorded cyclic acceptance still need reconciliation. No runtime check ran. [Discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/171#issuecomment-7178648712) · [Stage record](../../stages/126-pr171-public-glp-spec-proof-verification-20261126.json)
+
 ## Stage 124 — GLP #19 proof-rewrite answer — 25 November 2026 UTC
 
 [PR #171](https://github.com/udi-shapiro/Grassroots-Audit/pull/171) now preserves GLP #19’s dated answer. The project claims a normalized-MGU proof and an induction invariant covering pending readers at source `9d2dedb`. Public papers and the GLP-Spec blob are unchanged, so this is recorded as a project claim. Await exact-head review and the public rebuild, then compare Proposition E.1, rerun the acyclic control and check IGLP. [Discussion](https://github.com/udi-shapiro/Grassroots-Audit/pull/171#issuecomment-7177736956) · [Stage record](../../stages/124-pr171-glp19-answer-public-rebuild-pending-20261125.json)
