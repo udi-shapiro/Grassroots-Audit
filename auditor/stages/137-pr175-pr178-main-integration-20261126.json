@@ -1,0 +1,280 @@
+{
+  "stage": 137,
+  "recorded_at": "2026-11-26T09:13:31.009Z",
+  "title": "PR #175 and #178 public-main integration answers",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+  },
+  "events": [
+    {
+      "delivery_id": "97970b8c-e975-11f1-990f-f2083d4bae23",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 175,
+      "comment_id": 7186960673,
+      "head_sha": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960673
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960673,
+            "updated_at": "2026-11-26T08:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:28Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Preserved GCE’s dated integration answer and independently verified exact public-main Chess generated-schema, function and interface blobs. Ten source assertions and five Start projections passed. #157, #160 and #161 remain open for their recorded compiler and executable checks.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "98598716-e975-11f1-8258-56c307187b9a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 178,
+      "comment_id": 7186960980,
+      "head_sha": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960980
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960980,
+            "updated_at": "2026-11-26T08:44:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:29Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Preserved Currencies’ dated integration answer and independently verified exact public-main Agora artifacts. Nine source assertions and four Withdraw projections passed. #140 remains open for independent regeneration and cascade execution.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "39bb6a5e-e979-11f1-85de-06d5c5a6b618",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 175,
+      "comment_id": null,
+      "head_sha": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960673
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960673,
+            "updated_at": "2026-11-26T08:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:28Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Own publication synchronization at exact head 41be6f76. Recorded without a discussion reply loop.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
+    }
+  ],
+  "project_claims": [
+    "GCE reports that GLP main a9d40778 contains c63b27e, Chess Interface commit 7811c524e and Chess-functions.glp with string_to_term; it reports Section GCE passes and leaves #157 open for compiler and app work.",
+    "Currencies reports that GLP main a9d40778 contains bf36ba7 and c63b27e."
+  ],
+  "source_inspection": [
+    "GitHub ancestry comparisons independently place c63b27ed, 7811c524e and bf36ba77 on public GLP main a9d40778.",
+    "Chess main blobs for the generated program, functions and interface text are byte-identical to the cited candidates. The functions parse constants with string_to_term. The cascade platform remains an uncompiled placeholder.",
+    "Agora main blobs for expanded schema, interface, generated term, generated program and checked-in verdict are byte-identical to candidate bf36ba77.",
+    "Current GLP main test/run_all_tests.sh blob 25784e30 contains no Section GCE, so the project-reported Section GCE pass cannot be rerun from that script."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 verify_chess_schema.py .",
+      "scope": "Exact Chess generated schema, functions and text from public GLP main a9d40778 plus a bounded Start projection.",
+      "result": "10/10 source assertions and 5/5 Start projections passed."
+    },
+    {
+      "command": "python3 verify_agora_integration.py",
+      "scope": "Exact Agora expanded schema, interface, generated term and generated program from public GLP main a9d40778 plus a bounded Withdraw projection.",
+      "result": "9/9 source assertions and 4/4 Withdraw projections passed."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete proposed PR #175 tree.",
+      "result": "37 reports, 69 findings, 12 unanswered; generated status table remained byte-identical."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete proposed PR #178 tree.",
+      "result": "37 reports, 67 findings, 12 unanswered; generated status table remained byte-identical."
+    }
+  ],
+  "unexecuted": [
+    "No GLP runtime was available.",
+    "Dart and Flutter were unavailable.",
+    "Section GCE, the Chess compiler/app, Agora adoption and the Agora cascade were not executed.",
+    "The Agora checked-in verdict was inspected rather than regenerated."
+  ],
+  "outcome": "Exact public-main integration and bounded source behavior are verified for Chess #160/#161 and Agora #140. Chess #157 remains open because its platform is still uncompiled. #160, #161 and #140 remain open for their recorded executable checks.",
+  "next": {
+    "140": "Rerun adoption and the Agora cascade at exact integrated main.",
+    "157": "Add vGLP compiler support for Chess functions, compile the platform and run an app.",
+    "160": "Run the focused agreed, claimed and automatic-draw controls and compiled acts.",
+    "161": "Run the focused executable Start collision controls.",
+    "publications": "Await independent exact-head review of PR #175 at 41be6f76 and PR #178 at 8cc907b6. PR #178 currently reports a merge conflict and is preserved for review."
+  },
+  "urls": {
+    "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+    "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+    "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+    "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+    "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+  }
+}

@@ -1,31 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:00:37.748Z",
-  "active_run": {
-    "run_id": "pr175-178-comments-7186960673-7186960980",
-    "event": {
-      "delivery_id": "97970b8c-e975-11f1-990f-f2083d4bae23",
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "pull_request_number": 175,
-      "comment_id": 7186960673
-    },
-    "additional_events": [
-      {
-        "delivery_id": "98598716-e975-11f1-8258-56c307187b9a",
-        "event_type": "issue_comment",
-        "action": "created",
-        "actor_login": "EShapiro2",
-        "pull_request_number": 178,
-        "comment_id": 7186960980
-      }
-    ],
-    "acquired_at": "2026-11-26T09:00:37.748Z",
-    "expires_at": "2026-11-26T09:30:37.748Z",
-    "expected_head_sha": "fae6cf62b496ff7e2e12b2d7cf044a7a167bd760"
-  },
+  "updated_at": "2026-11-26T09:13:31.009Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -244,53 +221,67 @@
     },
     {
       "number": 175,
-      "head_sha": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+      "head_sha": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T06:19:44Z",
+      "updated_at": "2026-11-26T09:13:31.009Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 1,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7186960673
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7186960673,
+            "updated_at": "2026-11-26T08:44:28Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-26T08:44:28Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7186960673,
       "review_cursor": null,
       "delivery_ids": [
         "7fc38fbc-e92a-11f1-9545-401c1f60329e",
         "4865c348-e955-11f1-80ea-f19336b5ffea",
         "956b9312-e959-11f1-908c-1663da33539c",
-        "4b97b506-e961-11f1-9b6a-affe220e7576"
+        "4b97b506-e961-11f1-9b6a-affe220e7576",
+        "97970b8c-e975-11f1-990f-f2083d4bae23",
+        "39bb6a5e-e979-11f1-85de-06d5c5a6b618"
       ],
-      "notes": "Own publication synchronization preserving GCE’s 53-check correction. Exact head awaits independent review.",
+      "notes": "Own main-based publication now preserves GCE’s public-main integration answer and exact-main verification. Exact head 41be6f76 awaits independent review. Findings #157, #160 and #161 remain open.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
-        "audit_pr_175_previous_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
-        "audit_pr_175_head": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
-        "audit_pr_177_previous_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
-        "audit_pr_177_intermediate_head": "5f91deffc9faa473c09c60118d0351cac2637a5c",
-        "audit_pr_177_head": "a971fa8695568e109d99666ef325752cd80d3d36",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "chess_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-        "chess_test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a",
-        "warnings_candidate": "73bdea71bb189e2f2488e06385e788e78d3c6840",
-        "warnings_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
-        "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-        "warnings_parent_text_blob": "b34ba5587e9733d1fc284386fe8cb57c73fc9590",
-        "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-        "warnings_platform_blob": "7c1257d19bf4615b432c0899c82b540a3533aa44"
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
       },
       "own_publication": true,
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/132-warnings-interface-20261126"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
     },
     {
       "number": 164,
@@ -2993,40 +2984,62 @@
     },
     {
       "number": 178,
-      "head_sha": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+      "head_sha": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
       "state": "open",
-      "updated_at": "2026-11-26T03:05:25Z",
+      "updated_at": "2026-11-26T09:13:31.009Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 0,
+        "comments": 1,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7186960980
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7186960980,
+            "updated_at": "2026-11-26T08:44:29Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-26T08:44:29Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7186960980,
       "review_cursor": null,
       "delivery_ids": [
-        "3a907132-e946-11f1-8053-07aefcd5d20d"
+        "3a907132-e946-11f1-8053-07aefcd5d20d",
+        "98598716-e975-11f1-8258-56c307187b9a"
       ],
-      "notes": "Own main-based publication preserving Currencies’ answer and the independent candidate-source verification. Exact head awaits independent review. Finding #140 remains open.",
+      "notes": "Own main-based publication now preserves Currencies’ public-main integration answer and exact-main verification. Exact head 8cc907b6 currently conflicts with main and remains intact for independent review. Finding #140 remains open.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
-        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
-        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
-        "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
-        "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json",
       "own_publication": true
     },
     {
@@ -15757,36 +15770,224 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/136-pr177-warnings-tennis-main-integration-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/136-warnings-tennis-integration-20261126.json"
       }
+    },
+    {
+      "delivery_id": "97970b8c-e975-11f1-990f-f2083d4bae23",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 175,
+      "comment_id": 7186960673,
+      "head_sha": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960673
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960673,
+            "updated_at": "2026-11-26T08:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:28Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Preserved GCE’s dated integration answer and independently verified exact public-main Chess generated-schema, function and interface blobs. Ten source assertions and five Start projections passed. #157, #160 and #161 remain open for their recorded compiler and executable checks.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "98598716-e975-11f1-8258-56c307187b9a",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 178,
+      "comment_id": 7186960980,
+      "head_sha": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960980
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960980,
+            "updated_at": "2026-11-26T08:44:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:29Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Preserved Currencies’ dated integration answer and independently verified exact public-main Agora artifacts. Nine source assertions and four Withdraw projections passed. #140 remains open for independent regeneration and cascade execution.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "39bb6a5e-e979-11f1-85de-06d5c5a6b618",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 175,
+      "comment_id": null,
+      "head_sha": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7186960673
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7186960673,
+            "updated_at": "2026-11-26T08:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T08:44:28Z"
+      },
+      "processed_at": "2026-11-26T09:13:31.009Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+        "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+        "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+        "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+        "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+        "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+        "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+        "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+        "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+        "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+      },
+      "outcome": "Own publication synchronization at exact head 41be6f76. Recorded without a discussion reply loop.",
+      "urls": {
+        "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",
+        "chess_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175",
+        "chess_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175/commits/41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "agora_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980",
+        "agora_publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "agora_commit": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178/commits/8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/137-pr175-pr178-main-integration-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
-    "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
     "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
-    "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-    "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
-    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
-    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
-    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
-    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
-    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
-    "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
-    "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
-    "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
-    "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
-    "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
-    "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
-    "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
-    "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
-    "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
-    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-    "observed_at": "2026-11-26T08:56:00.000Z"
+    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "observed_at": "2026-11-26T09:13:31.009Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -15803,31 +16004,27 @@
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
-    "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
     "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
     "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
-    "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-    "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
-    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
-    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
-    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
-    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
-    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
-    "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
-    "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
-    "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
-    "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
-    "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
-    "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
-    "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
-    "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
-    "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
-    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-    "observed_at": "2026-11-26T08:56:00.000Z"
+    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f",
+    "observed_at": "2026-11-26T09:13:31.009Z"
   }
 }

@@ -1,0 +1,136 @@
+{
+  "stage": 137,
+  "recorded_at": "2026-11-26T09:13:31.009Z",
+  "title": "Chess and Agora public-main integration verification",
+  "source_pins": {
+    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+    "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+    "audit_pr_175": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "audit_pr_178_previous": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
+    "audit_pr_178": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "chess_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "chess_interface_commit": "7811c524ef098924889002003c87d3164c59e271",
+    "chess_generated_blob": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+    "chess_functions_blob": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+    "chess_text_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "chess_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+    "glp_test_script_blob": "25784e30bfd3660fd4605d6bd40432f7098cb82e",
+    "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+    "agora_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+    "agora_full_schemas_blob": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+    "agora_interface_blob": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+    "agora_term_blob": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+    "agora_program_blob": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+    "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
+  },
+  "ancestry": [
+    {
+      "base": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 65,
+      "behind_by": 0
+    },
+    {
+      "base": "7811c524ef098924889002003c87d3164c59e271",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 18,
+      "behind_by": 0
+    },
+    {
+      "base": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+      "head": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+      "status": "ahead",
+      "ahead_by": 64,
+      "behind_by": 0
+    }
+  ],
+  "chess": {
+    "exact_blob_matches": {
+      "programs/gce/chess/Chess.glp": "ab426a52ad71826bd1262be619ed57e2b002f02b",
+      "programs/gce/chess/Chess-functions.glp": "aa06138165571e67382f4ef8cc4b9bb74dd23162",
+      "programs/gce/chess/Chess.txt": "d9a76173c7c973d288a78ede9b7942952de0efcf"
+    },
+    "source_checks": {
+      "start_checks_both": true,
+      "start_records_both": true,
+      "start_black_checks_both": true,
+      "start_black_records_both": true,
+      "agreed_draw_plies_guard": true,
+      "claim_draw_turn_and_claim": true,
+      "drawing_move_automatic": true,
+      "draw_functions_exported": true,
+      "function_inputs_parsed": true,
+      "text_declares_scope": true
+    },
+    "start_projection": {
+      "shared_first_role_blocked": true,
+      "shared_second_role_blocked": true,
+      "reversed_pair_blocked": true,
+      "fresh_id_allowed": true,
+      "disjoint_pair_same_raw_id_allowed": true
+    },
+    "platform_source": "%% not compiled(chess)\\n%% the list of its pragmas names no predicate of the contract:(\"Games\")",
+    "test_source_observation": "Current main test/run_all_tests.sh blob 25784e30 has no Section GCE. Section GCE appears in project handover text, and the earlier candidate test blob contained it."
+  },
+  "agora": {
+    "exact_blob_matches": {
+      "calculus/contracts/Agora/full-schemas.txt": "e96f10cbe2db46d0f6715ebd1102bbe52152b82f",
+      "calculus/contracts/Agora/interface.txt": "f222e389c1a2c1fca8acd4c16c5ca77057aa0ea8",
+      "calculus/contracts/Agora/term.glp.txt": "052a924a6b8cb1fa8ff02ea911059de36fbab61f",
+      "programs/currencies/agora/Agora.glp": "46f7f22b63e6b5ae72587e08de04b3afba6d91a6",
+      "cascade/Agora/verdict.txt": "eca9073736286958fcd77d6b17722d862c4e436f"
+    },
+    "source_checks": {
+      "expanded_schema_requires_local_posted": true,
+      "expanded_schema_requires_local_membership": true,
+      "expanded_schema_requires_keeper_active_post": true,
+      "generated_term_requires_all_three": true,
+      "program_requires_all_three": true,
+      "guard_is_carol": true,
+      "interface_has_no_open_fields": true,
+      "withdraw_removes_keeper_post": true,
+      "withdraw_removes_delivered_copies": true
+    },
+    "withdraw_projection": {
+      "enabled_with_local_bindings_and_active_keeper_post": true,
+      "second_withdraw_blocked_after_keeper_post_removed": true,
+      "historical_posted_retained": true,
+      "membership_retained": true
+    },
+    "verdict_source_inspection": "syntactically_grassroots"
+  },
+  "executed_checks": [
+    {
+      "command": "python3 verify_chess_schema.py .",
+      "scope": "Exact Chess generated schema, functions and text from public GLP main a9d40778 plus a bounded Start projection.",
+      "result": "10/10 source assertions and 5/5 Start projections passed."
+    },
+    {
+      "command": "python3 verify_agora_integration.py",
+      "scope": "Exact Agora expanded schema, interface, generated term and generated program from public GLP main a9d40778 plus a bounded Withdraw projection.",
+      "result": "9/9 source assertions and 4/4 Withdraw projections passed."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete proposed PR #175 tree.",
+      "result": "37 reports, 69 findings, 12 unanswered; generated status table remained byte-identical."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Complete proposed PR #178 tree.",
+      "result": "37 reports, 67 findings, 12 unanswered; generated status table remained byte-identical."
+    }
+  ],
+  "unexecuted": [
+    "No GLP runtime was available.",
+    "Dart and Flutter were unavailable.",
+    "Section GCE, the Chess compiler/app, Agora adoption and the Agora cascade were not executed.",
+    "The Agora checked-in verdict was inspected rather than regenerated."
+  ],
+  "outcome": "Exact public-main integration and bounded source behavior are verified for Chess #160/#161 and Agora #140. Chess #157 remains open because its platform is still uncompiled. #160, #161 and #140 remain open for their recorded executable checks."
+}
