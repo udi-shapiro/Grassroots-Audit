@@ -1,0 +1,50 @@
+{
+  "stage": 154,
+  "date": "2026-11-26",
+  "title": "PR #196 program-installation proposal review",
+  "event": {
+    "delivery_id": "722eedc8-e9e9-11f1-993b-7af28ab1aa24",
+    "event_type": "pull_request",
+    "action": "opened",
+    "actor_login": "nimrodtalmon",
+    "pull_request_number": 196
+  },
+  "source_pins": {
+    "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+    "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "issue": 193,
+    "review_numeric_id": 6081172815,
+    "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw"
+  },
+  "outcome": "Requested changes at the exact head. The proposal is relevant, but the patch cannot yet count a numbered finding. It assigns a GSA-owned source to GCE, relies on an unverified runtime premise from nonpublic evidence, omits ISSUES.md, and uses a future date. Public source establishes the Install checks, the App composition, and Chess extending Friendship. It does not establish that installed programs execute with isolated state.",
+  "review": {
+    "state": "CHANGES_REQUESTED",
+    "submitted_at": "2026-11-26T22:36:24Z",
+    "id": 6081172815,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081172815"
+  },
+  "next_work": [
+    "Assign the Programs report to GSA while preserving GCE contributor attribution.",
+    "Keep issue #193 as a proposal until public source or a reproducible check demonstrates isolated installed-program state.",
+    "Remove the numbered finding and status count while the item remains a proposal, or add ISSUES.md and regenerate status after acceptance.",
+    "Specify predicate identity, fact migration, removal, rejection, and fallback semantics for dynamic composition."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json",
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081172815",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+    "programs": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/Programs.txt",
+    "app": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/App.txt",
+    "chess": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/gce/chess/Chess.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/154-pr196-program-installation-proposal-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json"
+  }
+}

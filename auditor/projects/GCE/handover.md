@@ -1,3 +1,7 @@
+## Stage 154 — GCE contributor proposal routed to GSA — 26 November 2026 UTC
+
+Nimrod Talmon’s GCE/UI work supplied [PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) and retains contributor attribution. Programs and the super-app installation semantics are owned by GSA in the public source map. The exact-head review routes the proposal to GSA and requests public evidence for the isolated-state premise before accepting a numbered finding. No private project repository is required for the audit decision. [Review](https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081172815) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json)
+
 ## Stage 146 — GCE grcheck report refreshed, publication still pending — 26 November 2026 UTC
 
 GCE’s [PR #29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) at `a69f4686` fixes the earlier ownership and attribution blockers and preserves the two Calculus answers. It is unmergeable after PR #127 advanced main. Rebase or supersede it with 38 reports, 68 findings and 12 unanswered. Public GLP `fc2e7284` contains the checker, while both published locations fail at launch on missing legacy paths, so [#53](https://github.com/udi-shapiro/Grassroots-Audit/issues/53) remains open. [Stage record](../../stages/146-pr29-grcheck-layout-20261126.json)

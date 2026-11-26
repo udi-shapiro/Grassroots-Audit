@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T22:34:30Z",
-  "active_run": {
-    "owner": "GPT-Auditor",
-    "delivery_id": "722eedc8-e9e9-11f1-993b-7af28ab1aa24",
-    "pull_request_number": 196,
-    "event_type": "pull_request",
-    "action": "opened",
-    "started_at": "2026-11-26T22:34:30Z",
-    "expires_at": "2026-11-26T23:04:30Z"
-  },
+  "updated_at": "2026-11-26T22:37:11Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "c3420b10-e9e8-11f1-86da-d4cc1fb2dfe1",
-      "event": "PR 190 merged, PR 194 and PR 195 opened and merged",
-      "pull_request_number": 195,
-      "observed_at": "2026-11-26T22:31:34Z",
-      "outcome": "Reconciled the VMAT and Calculus verification publications, regenerated the exact status, and released the lease."
+      "delivery_id": "722eedc8-e9e9-11f1-993b-7af28ab1aa24",
+      "event": "PR 196 opened",
+      "pull_request_number": 196,
+      "observed_at": "2026-11-26T22:37:11Z",
+      "outcome": "Requested changes on the program-installation proposal and released the lease."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -3778,6 +3770,59 @@
         "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/153-pr190-pr194-pr195-reconciliation-20261126.json"
+    },
+    {
+      "number": 196,
+      "head_sha": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+      "base_sha": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+      "state": "open",
+      "updated_at": "2026-11-26T22:36:24Z",
+      "merged_at": null,
+      "merge_commit_sha": null,
+      "mergeable": true,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABandVTw"
+        ],
+        "review_versions": [
+          {
+            "id": "PRR_kwDOVrts7s8AAAABandVTw",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-26T22:36:24Z",
+            "author": "udi-shapiro"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T22:36:24Z"
+      },
+      "comment_cursor": null,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABandVTw",
+      "delivery_ids": [
+        "722eedc8-e9e9-11f1-993b-7af28ab1aa24"
+      ],
+      "own_publication": false,
+      "own_comment_ids": [],
+      "notes": "Requested changes at the exact head. Route the GCE/UI contributor proposal to GSA ownership. Keep it proposal-only until public evidence demonstrates isolated installed-program state. Remove the finding/status count meanwhile, fix the date, and define migration semantics.",
+      "source_pins": {
+        "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+        "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+        "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+        "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+        "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+        "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "issue": 193,
+        "review_numeric_id": 6081172815,
+        "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json"
     }
   ],
   "source_observed_after_tests": {
@@ -18549,33 +18594,77 @@
       },
       "merged": true,
       "merge_commit_sha": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d"
+    },
+    {
+      "delivery_id": "722eedc8-e9e9-11f1-993b-7af28ab1aa24",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 196,
+      "comment_id": null,
+      "head_sha": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABandVTw"
+        ],
+        "review_versions": [
+          {
+            "id": "PRR_kwDOVrts7s8AAAABandVTw",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-26T22:36:24Z",
+            "author": "udi-shapiro"
+          }
+        ],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T22:36:24Z"
+      },
+      "processed_at": "2026-11-26T22:37:11Z",
+      "source_pins": {
+        "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+        "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+        "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+        "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+        "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+        "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "issue": 193,
+        "review_numeric_id": 6081172815,
+        "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw"
+      },
+      "outcome": "Reviewed the proposal at its exact head and requested changes for ownership, public evidence, status treatment, date, and migration semantics.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081172815",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+        "programs": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/Programs.txt",
+        "app": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/App.txt",
+        "chess": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/gce/chess/Chess.txt",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/154-pr196-program-installation-proposal-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
-    "audit_pr_190": "d3c2339212cc5e9774cdc21b26b040d21003396f",
-    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
-    "audit_pr_190_merge": "08da5e540a4f618232533349edb9b456bc8a5f60",
-    "audit_pr_194": "6bfbf27020929d270b7d25d67be643fa0e3019c9",
-    "audit_pr_194_base": "08da5e540a4f618232533349edb9b456bc8a5f60",
-    "audit_pr_194_merge": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
-    "audit_pr_195": "4f20c4a9c834a0cf48766b251dff3ba1769ae0f7",
-    "audit_pr_195_base": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
-    "audit_pr_195_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
-    "audit_issues_blob": "990f075507fe3ccecfce2c781596b2c57ea2c7aa",
-    "audit_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
-    "audit_vmat_report_blob": "ea3df4fce08759f40e5a86a9cb563c85ab495052",
-    "audit_calculus_report_blob": "aa7f72a3d88511f9d98f940c923398b504c561ec",
-    "audit_calculus_review_blob": "098e074ae5d1e64352127ac73cc94c180ed236a4",
+    "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+    "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
-    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
-    "public_vmat_pdf_blob": "aef5b00a4be4e3a5371f1469768feb2df45f1166",
-    "public_vmat_pdf_sha256": "1298d8ed047aab96d7c099cb86319282b737dacbdadac8d78320f85186e1bc09",
-    "cited_compiler_blob": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
-    "current_compiler_blob": "86d0f70f275641971aeec6d017449eb2aadb879d",
-    "coins_vocabulary_blob": "b2eb34a1b329d00a671487207b662b6674803a67",
-    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
-    "observed_at": "2026-11-26T22:31:34Z"
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "issue": 193,
+    "review_numeric_id": 6081172815,
+    "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw",
+    "observed_at": "2026-11-26T22:37:11Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -18592,28 +18681,17 @@
   },
   "latest_source_observed": {
     "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
-    "audit_pr_190": "d3c2339212cc5e9774cdc21b26b040d21003396f",
-    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
-    "audit_pr_190_merge": "08da5e540a4f618232533349edb9b456bc8a5f60",
-    "audit_pr_194": "6bfbf27020929d270b7d25d67be643fa0e3019c9",
-    "audit_pr_194_base": "08da5e540a4f618232533349edb9b456bc8a5f60",
-    "audit_pr_194_merge": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
-    "audit_pr_195": "4f20c4a9c834a0cf48766b251dff3ba1769ae0f7",
-    "audit_pr_195_base": "2e186e84f5afa3cd69d4876bca4b6a3c0cd04a2f",
-    "audit_pr_195_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
-    "audit_issues_blob": "990f075507fe3ccecfce2c781596b2c57ea2c7aa",
-    "audit_status_table_blob": "425caa75f3e57198b13b264117af4e4495356ff9",
-    "audit_vmat_report_blob": "ea3df4fce08759f40e5a86a9cb563c85ab495052",
-    "audit_calculus_report_blob": "aa7f72a3d88511f9d98f940c923398b504c561ec",
-    "audit_calculus_review_blob": "098e074ae5d1e64352127ac73cc94c180ed236a4",
+    "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+    "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
-    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
-    "public_vmat_pdf_blob": "aef5b00a4be4e3a5371f1469768feb2df45f1166",
-    "public_vmat_pdf_sha256": "1298d8ed047aab96d7c099cb86319282b737dacbdadac8d78320f85186e1bc09",
-    "cited_compiler_blob": "d8325b9bcd0b80ba2b135366e2adf40b5b2ed288",
-    "current_compiler_blob": "86d0f70f275641971aeec6d017449eb2aadb879d",
-    "coins_vocabulary_blob": "b2eb34a1b329d00a671487207b662b6674803a67",
-    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
-    "observed_at": "2026-11-26T22:31:34Z"
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "issue": 193,
+    "review_numeric_id": 6081172815,
+    "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw",
+    "observed_at": "2026-11-26T22:37:11Z"
   }
 }

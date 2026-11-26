@@ -1,0 +1,52 @@
+{
+  "stage": 154,
+  "recorded_at": "2026-11-26T22:37:11Z",
+  "source_pins": {
+    "audit_main": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_pr_196": "ea7695f2b3318fec5f3c550007695f4455a87a42",
+    "audit_pr_196_base": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "audit_report_blob": "6b5d559922f8111d635e89915597e84233e6a6d0",
+    "audit_status_table_blob": "1f22d7abd04f075c2e05fa2e8796e9882ec68fc6",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "issue": 193,
+    "review_numeric_id": 6081172815,
+    "review_graphql_id": "PRR_kwDOVrts7s8AAAABandVTw"
+  },
+  "executed_checks": [
+    {
+      "command": "Read public Programs.txt at GLP 7b68b74c",
+      "result": "Clause 4 records installation. The implementation pragma checks trusted developer, schemas, compiler certificate, and activated code. It does not define the runtime state relationship between installed programs."
+    },
+    {
+      "command": "Read public App.txt and Chess.txt at GLP 7b68b74c",
+      "result": "App composes Encounters, AppStore, and Directory. Chess extends Friendship. These support the proposed composition design."
+    },
+    {
+      "command": "python3 bin/status.py on exact PR #196 files over main e754cd0c",
+      "result": "38 reports, 72 findings, 9 unanswered. The generated table exactly matches PR blob 1f22d7ab."
+    },
+    {
+      "command": "Review current README.md, CONTRIBUTING.md, issue #193, PR diff, comments, reviews, and threads",
+      "result": "New findings require an accepted report and current issue index. Proposals remain distinct from demonstrated faults. PR had no prior discussion or review."
+    }
+  ],
+  "not_executed": [
+    "The private nimrodtalmon/GLP-nimrod run was not used or rerun.",
+    "The UI demo observation was not reproduced.",
+    "No GLP production source was changed."
+  ],
+  "decision": "CHANGES_REQUESTED. Preserve the proposal on issue #193 and revise ownership, evidence, status treatment, date, and migration semantics before publication.",
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#pullrequestreview-6081172815",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+    "programs": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/Programs.txt",
+    "app": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/social/graph/App.txt",
+    "chess": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/gce/chess/Chess.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/154-pr196-program-installation-proposal-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/154-pr196-program-installation-proposal-20261126.json"
+  }
+}
