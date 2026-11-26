@@ -1,0 +1,105 @@
+{
+  "stage": 152,
+  "collected_at": "2026-11-26T22:23:30Z",
+  "source_pins": {
+    "audit_main": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_pr_190_before": "62829f66a411ba074d5508a58607e456018e9001",
+    "audit_pr_190_transient_replaced": "d579e0fe9f193afc022ef03db77b0d09aafcc1ce",
+    "audit_pr_190": "d3c2339212cc5e9774cdc21b26b040d21003396f",
+    "audit_pr_190_base": "295d94297f8aadcb9073f25a7b5d9b48180af51b",
+    "audit_report_blob": "b5e7fc8318cef614e19fb049906056287a90b438",
+    "audit_issues_blob": "14f6860be572a2c381f680a0df46fb6fc38b7b3d",
+    "audit_status_table_blob": "ef629f6911a4b3d5189783a2bfd1699a2dfc9b2d",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers_previous": "a5badfc7226dd56a4bd070a3c3cd53e335b393b0",
+    "glp_papers": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+    "knowledge_schema": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "public_calculus_pdf": null
+  },
+  "discussion_version": {
+    "comments": 2,
+    "reviews": 0,
+    "review_threads": 0,
+    "comment_ids": [
+      7204442939,
+      7204598332
+    ],
+    "review_ids": [],
+    "review_versions": [],
+    "latest_comments": [
+      {
+        "id": 7204442939,
+        "updated_at": "2026-11-26T22:11:12Z"
+      },
+      {
+        "id": 7204598332,
+        "updated_at": "2026-11-26T22:21:10Z"
+      }
+    ],
+    "inline_versions": [],
+    "latest_item_at": "2026-11-26T22:21:10Z"
+  },
+  "project_comment": {
+    "id": 7204442939,
+    "created_at": "2026-11-26T22:11:12Z",
+    "updated_at": "2026-11-26T22:11:12Z",
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204442939",
+    "login": "EShapiro2"
+  },
+  "auditor_comment": {
+    "id": 7204598332,
+    "created_at": "2026-11-26T22:21:10Z",
+    "updated_at": "2026-11-26T22:21:10Z",
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204598332",
+    "login": "udi-shapiro"
+  },
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "result": "pass",
+      "statement": "37 reports, 69 findings, 8 unanswered. The Calculus row now has 3 unanswered."
+    },
+    {
+      "name": "Exact-head PR inspection",
+      "result": "pass",
+      "statement": "Final head d3c23392 has 3 changed files, 40 additions, 10 deletions, is mergeable, and has no review submissions or review threads."
+    }
+  ],
+  "source_inspection": [
+    "PR #190 final head changes exactly calculus/contracts.md, ISSUES.md and sections/status-table.tex and is mergeable against audit main 295d9429.",
+    "Public GLP main is unchanged at 7b68b74c. Public Knowledge remains pinned to blob fe7eac08 with no met effect, as inspected in Stage 151.",
+    "The papers branch moved without a common ancestor from a5badfc7 to 3b85cbe1. Directory-level blob comparison shows only VMAT.pdf changed and no Calculus PDF is present."
+  ],
+  "unexecuted_claims": [
+    "The project reported that adding met rejects many contracts and that a 106-contract run was still going. The candidate source and completed output were not supplied, and the auditor did not execute that run.",
+    "No corrected private manuscript or public Calculus PDF was available for paper-level verification."
+  ],
+  "status_regeneration_output": "37 reports, 69 findings, 8 unanswered\\n",
+  "publication_blobs": [
+    {
+      "path": "calculus/contracts.md",
+      "sha": "b5e7fc8318cef614e19fb049906056287a90b438"
+    },
+    {
+      "path": "ISSUES.md",
+      "sha": "14f6860be572a2c381f680a0df46fb6fc38b7b3d"
+    },
+    {
+      "path": "sections/status-table.tex",
+      "sha": "ef629f6911a4b3d5189783a2bfd1699a2dfc9b2d"
+    }
+  ],
+  "transient_branch_correction": {
+    "replaced_head": "d579e0fe9f193afc022ef03db77b0d09aafcc1ce",
+    "final_head": "d3c2339212cc5e9774cdc21b26b040d21003396f",
+    "statement": "An incomplete-tree intermediate branch commit was detected from the PR file count and replaced with a full-tree commit by force-with-lease before merge. The final PR contains only the three intended files."
+  },
+  "urls": {
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190",
+    "project_followup": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204442939",
+    "auditor_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204598332",
+    "publication_head": "https://github.com/udi-shapiro/Grassroots-Audit/pull/190/commits/d3c2339212cc5e9774cdc21b26b040d21003396f",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/152-pr190-calculus-followup-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/152-pr190-calculus-followup-20261126.json"
+  }
+}
