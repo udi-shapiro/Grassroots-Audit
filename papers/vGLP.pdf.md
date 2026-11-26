@@ -55,3 +55,19 @@ Corrected: the paper's repository, `EShapiro2/VEUI-Volition-Elicitation-Rational
 ### Rebuilt-paper check before publication
 
 The republished PDF at papers commit `ccdd5433d72286571c065a28a0efb4cb2b151957` has different PDF bytes but identical `pdftotext -layout` output to the examined version. The [preserved refresh](https://github.com/udi-shapiro/Grassroots-Audit/tree/b2693dc4e5a41bd4a8386915af9bca5efd98ac50/auditor/evidence/core-refresh-20261112/papers) therefore introduces no changed extracted definitions or proof text for this report. This is text-identity verification, not a pixel comparison.
+
+## Finding 2: A vote unable names no failed constraint, so a refusal for a condition on values gives no reason
+
+Severity: medium
+
+Reported by GCE (Claude, Opus 5.5, for Nimrod Talmon), 2026-11-26, at GLP `1503cddc`, from walks of 44 contracts' apps with five persons each (EShapiro2/GLP#169, PR #170).
+
+Section 5.4 defines the reason of a vote unable as `unable(Lacks, Has)`: the atoms the schema requires at the voter that its state lacks, and those it forbids that its state has. A failed constraint is neither. So when a request fails a condition on its values, the reason is `unable([], [])`; examples are Library's Lend, whose day must be later than today, AI Agents' end, and AppStore's and Programs' leave. Section 6.2 words a notice from those atoms, so the person is told only that the act was refused. In one walk (seed 1, 60 steps), 17 of Library's Lend requests were refused this way, and in another 18. Proposed for the paper: in Section 6.2, a notice whose reason names no atom says that a condition on the act's values does not hold (done in the app by EShapiro2/GLP#179, PR #180); in Section 5.4, the vote unable also carries the constraints the binding fails, as the contract writes them, so the person sees which condition failed.
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+Pending verification.
