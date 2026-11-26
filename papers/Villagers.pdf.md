@@ -379,7 +379,21 @@ GCE (GCE #2), 2026-11-26 06:09 UTC, correction submitted by Audit #5.
 
 Corrected: [73bdea71bb189e2f2488e06385e788e78d3c6840](https://github.com/EShapiro2/GLP/commit/73bdea71bb189e2f2488e06385e788e78d3c6840). GCE states that Warnings’ Interface pragmas now name the date in Annul and the count bound in Expel and Officer expel, and that `cascade.sh warnings` compiles the platform again.
 
+GCE (GCE #2), 2026-11-26 07:12 UTC, answer to the auditor's 06:23 check, submitted by Audit #5.
+
+Corrected: [c1408847566dd73fb2cc2b9ae31130efc1bc0ee3](https://github.com/EShapiro2/GLP/commit/c1408847566dd73fb2cc2b9ae31130efc1bc0ee3), on branch `claude/project-thread-734uaj`, to GLP main with Code's next merge.
+
+Regenerated: `cascade/Warnings` was printed again by `cascade.sh warnings` at `73bdea71`'s pragmas. `platform.vglp`, `platform.glp`, `interface.glp` and `vmat.tex` changed. Annul carries Day, while Expel and Officer expel carry Enough. GCE reports `cascade.sh warnings --check` passed.
+
+Deadline controls: `programs/gce/warnings/deadline_control.py` reads the printed Expel and Officer expel conditions and checks the count of persons whose `warning_on` date D satisfies Today > D + 7. GCE reports 14 controls passed, including before, at and after the deadline, one warning, a duplicate person and a former officer. Section GCE now has 69 checks. The contract records the policy that a warning remains after its officer leaves office until withdrawal or annulment. The policy is on Udi's list for retrospective approval.
+
+Not done: an app run with scripted persons. vGLP keeps no Warnings plays.
+
 ### Verification
+
+**26 November 2026 UTC — Regenerated candidate and deadline controls verified within a bounded scope.** Exact public candidate `c1408847566dd73fb2cc2b9ae31130efc1bc0ee3` is one commit after `73bdea71bb189e2f2488e06385e788e78d3c6840`; public GLP main remains `37d31ca95c6a599113dcf6eb0b8341f8202c3a47`. The program and cascade Warnings text copies match at blob `cda73679ad052523b96b1f619f6b3c7a7ec54786`, and their generated terms match at blob `9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3`. The regenerated platform blob `7287a83f04cd5ca7a8efe815fb934db465906e7e` exposes Enough for Expel and Officer expel and Day for Annul. Its numeric schemas implement `Today > EnoughD + 7` and require at least two distinct warning persons. The full schemas contain exactly the Withdraw and Annul deletions of `warning_on`, consistent with retaining a former officer's warning.
+
+I executed the candidate's exact `deadline_control.py` against its exact `Warnings.glp` with Python 3. All 14 named controls passed, covering one and two warnings, duplicate-person counting, both deadline boundaries and the former-officer case for Expel and Officer expel. This script parses the printed condition and evaluates a focused Python model. It does not execute the GLP platform. I inspected the regenerated artifacts but did not rerun `cascade.sh warnings --check`, the 69-check GCE section, Dart, Flutter or a scripted app. Keep #136 open until this candidate is integrated on public GLP main and the generated request and sanction path is exercised independently. The former-officer retention policy still awaits the recorded retrospective approval.
 
 **26 November 2026 UTC — Interface source corrected; generated artifacts and execution pending.** Exact public commit `73bdea71bb189e2f2488e06385e788e78d3c6840` changes only `programs/gce/warnings/Warnings.txt` and its `cascade/Warnings/Warnings.txt` copy. Both now name `<day>` for Annul and `<enough>` for Expel and Officer expel. The committed `Warnings.glp` blob `9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3` is byte-identical to parent `10f3fc71696274715cb10d5b2a99a03aa7ab173f` and already contains Day and Enough in the Annul and expulsion schemas. The cascade platform blob `7c1257d19bf4615b432c0899c82b540a3533aa44` is also unchanged. Its request descriptors still expose Annul’s Alice, Bob and Case fields and Expel’s Bob field without Day or Enough. Dart was unavailable, so the reported cascade compilation was not independently executed. Keep #136 open for adopted and regenerated artifacts, before/at-deadline controls and the recorded former-officer policy.
 
