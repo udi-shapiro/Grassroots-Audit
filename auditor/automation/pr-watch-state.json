@@ -1,22 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:46:28.483Z",
-  "active_run": {
-    "run_id": "stage139-delivery-reconciliation-7188256600",
-    "event": {
-      "delivery_id": "12e96378-e97d-11f1-869f-414cc16f52d0",
-      "event_type": "issue_comment",
-      "action": "created",
-      "actor_login": "EShapiro2",
-      "pull_request_number": 177,
-      "comment_id": 7188256600
-    },
-    "additional_events": [],
-    "acquired_at": "2026-11-26T09:46:28.483Z",
-    "expires_at": "2026-11-26T10:16:28.483Z",
-    "expected_head_sha": "c896eb7882cba3963b404bbcb228ceaaac73f51c"
-  },
+  "updated_at": "2026-11-26T09:47:12.155Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -36,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
-      "event": "PR177 Tennis Interface pragmas answer and load addendum",
+      "delivery_id": "12e96378-e97d-11f1-869f-414cc16f52d0",
+      "event": "PR177 GM load addendum delivery reconciliation",
       "pull_request_number": 177,
-      "observed_at": "2026-11-26T09:43:56.913Z",
-      "outcome": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics."
+      "observed_at": "2026-11-26T09:47:12.155Z",
+      "outcome": "No substantive change. The exact comment, PR head and discussion version were already recorded in Stage 139; only the webhook delivery was reconciled."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -173,7 +159,8 @@
         "96e403ca-e975-11f1-9be1-29b25f0ef7ff",
         "eac04b2e-e97b-11f1-82bf-a7e3d8cd45b3",
         "4dac6032-e97d-11f1-9b82-f749f89fceb0",
-        "963b2b3a-e97d-11f1-832b-8728a1fd8381"
+        "963b2b3a-e97d-11f1-832b-8728a1fd8381",
+        "12e96378-e97d-11f1-869f-414cc16f52d0"
       ],
       "own_publication": true,
       "notes": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics.",
@@ -16497,6 +16484,87 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/139-tennis-pragmas-20261126.json"
       }
+    },
+    {
+      "delivery_id": "12e96378-e97d-11f1-869f-414cc16f52d0",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 177,
+      "comment_id": 7188256600,
+      "head_sha": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7185222173,
+          7185368317,
+          7186960355,
+          7187114893,
+          7188066824,
+          7188256600
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7185222173,
+            "updated_at": "2026-11-26T07:13:14Z"
+          },
+          {
+            "id": 7185368317,
+            "updated_at": "2026-11-26T07:21:27Z"
+          },
+          {
+            "id": 7186960355,
+            "updated_at": "2026-11-26T08:44:27Z"
+          },
+          {
+            "id": 7187114893,
+            "updated_at": "2026-11-26T08:51:55Z"
+          },
+          {
+            "id": 7188066824,
+            "updated_at": "2026-11-26T09:29:44Z"
+          },
+          {
+            "id": 7188256600,
+            "updated_at": "2026-11-26T09:38:01Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T09:38:01Z"
+      },
+      "processed_at": "2026-11-26T09:47:12.155Z",
+      "source_pins": {
+        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+        "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
+        "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
+        "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
+        "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
+        "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
+        "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
+        "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
+        "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
+        "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
+        "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
+        "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
+        "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
+        "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
+        "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
+        "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
+        "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
+        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb"
+      },
+      "outcome": "Skipped substantive work because comment 7188256600 was already preserved and source-checked in Stage 139 at the same PR head and discussion version. Reconciled the later webhook delivery only.",
+      "urls": {
+        "comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7188256600",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/177",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/139-pr177-tennis-pragmas-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -16530,10 +16598,10 @@
     ],
     "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T09:43:56.913Z",
+    "last_reconciled_at": "2026-11-26T09:47:12.155Z",
     "last_stage": 139,
     "processed_through_pr": 181,
-    "notes": "Preserved GM’s Tennis Interface-pragmas answer and load addendum in PR #177. Exact-source inspection verifies the Tennis and Rehearsal pragma additions, while both candidates retain their older checked-in no-pragmas cascade placeholders. The reported cascade and glpc runs were not rerun. Finding #137 remains open for main integration, checked-in executable evidence and quota semantics."
+    "notes": "Reconciled delivery 12e96378-e97d-11f1-869f-414cc16f52d0 for already-recorded PR #177 comment 7188256600 without publication or reply."
   },
   "latest_source_observed": {
     "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
