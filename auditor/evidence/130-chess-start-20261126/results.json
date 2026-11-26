@@ -1,0 +1,63 @@
+{
+  "scope": "Bounded projection of started guards and effects from the generated Start schema; all other prerequisites held true. Booleans are acceptance decisions.",
+  "source_files": [
+    {
+      "commit": "4b04f5615179437d43da139b11cbfc9657323643",
+      "path": "programs/gce/chess/Chess.glp",
+      "blob": "7c4db6ecb4b6afe52e0400c5274c289220f84f59"
+    },
+    {
+      "commit": "7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca",
+      "path": "programs/gce/chess/Chess.glp",
+      "blob": "7b2ede9125bd53c2d849344e6847b177da304aa5"
+    }
+  ],
+  "command": "python3 check_chess_start.py chess-original.glp chess-candidate.glp",
+  "results": {
+    "original": {
+      "initial": true,
+      "bob_carol": true,
+      "bob_alice": true,
+      "carol_bob": true,
+      "fresh_identifier": true,
+      "disjoint_pair": true
+    },
+    "candidate": {
+      "initial": true,
+      "bob_carol": false,
+      "bob_alice": false,
+      "carol_bob": false,
+      "fresh_identifier": true,
+      "disjoint_pair": true
+    }
+  },
+  "draw_source_inspection": {
+    "candidate": {
+      "initial": true,
+      "shared_as_first": false,
+      "reversed_pair": false,
+      "shared_as_second": false,
+      "different_id": true,
+      "disjoint_pair": true,
+      "draw_constraint": "true",
+      "schema_names": [
+        "establish",
+        "acquaint",
+        "introduce",
+        "befriend",
+        "unfriend",
+        "start",
+        "move",
+        "win",
+        "resign",
+        "draw"
+      ]
+    },
+    "scope": "Generated act names and joint Draw constraint, no runtime execution."
+  },
+  "table": {
+    "main": "36 reports, 66 findings, 12 unanswered; byte-identical baseline",
+    "publication": "37 reports, 69 findings, 12 unanswered; only Chess row added (3 findings, 0 unanswered)"
+  },
+  "no_glp_execution": true
+}

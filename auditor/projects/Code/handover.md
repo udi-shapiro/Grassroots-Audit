@@ -1,3 +1,7 @@
+## Stage 130 — Chess integration pending — 26 November 2026 UTC
+
+GLP PR #177 head `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` contains the updated generated Start but lacks the draw changes. GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` has no Chess. For #157, compile the platform when the function support arrives and run legal, refused and mate cases. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)
+
 ## Stage 127 — Public GLP integration — 26 November 2026 UTC
 
 Public GLP `80da4331d` integrates the calculated-slot support. The DAO platform emits the numeric descriptor and the form evaluates it. Execute the checked-in DAO Pass Flutter test independently for #151. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)

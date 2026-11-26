@@ -1,3 +1,7 @@
+## Stage 130 — Chess function support pending — 26 November 2026 UTC
+
+The compiler on public GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` and Chess candidate `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` still recognizes only min, floor and size in fn_named. Keep Chess #157 open for compiler support and executable checks. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)
+
 ## Stage 127 — Public GLP integration — 26 November 2026 UTC
 
 The audited Friendship platform now deduplicates in both effect clauses. #128 awaits an independent repeat-Acquaint run, the deployed platform check and the matching public paper. DAO's generated numeric descriptor is present for #151. [Answer PR #176](https://github.com/udi-shapiro/Grassroots-Audit/pull/176) · [Verification PR #177](https://github.com/udi-shapiro/Grassroots-Audit/pull/177) · [Stage record](../../stages/127-pr176-glp-main-integration-20261126.json)

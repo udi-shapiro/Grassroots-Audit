@@ -1,3 +1,7 @@
+## Stage 130 — Chess publication refreshed — 26 November 2026 UTC
+
+[PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) at `bb21caa0ec008d2c1a4763e89f699e29b18f40c2` includes current audit main and awaits independent exact-head review. It preserves the GCE answers and keeps all three findings open. Status regenerates at 37 reports, 69 findings and 12 unanswered. PR #158 remains open with its contributor head intact. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)
+
 ## Stage 129 — Agora answer publication — 26 November 2026 UTC
 
 [PR #178](https://github.com/udi-shapiro/Grassroots-Audit/pull/178), exact head `228b198b0400ec2f05e8ea2cda10e41fdb9145fd`, preserves Currencies’ answer and publishes bounded source verification. It is based on current main and awaits independent exact-head review. Finding #140 remains open for GLP-main integration and independent adoption/cascade execution. [Stage record](../../stages/129-pr141-agora-answer-candidate-20261126.json)

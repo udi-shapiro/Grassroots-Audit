@@ -1,3 +1,7 @@
+## Stage 130 — Chess Start candidate checked — 26 November 2026 UTC
+
+Public GLP candidate `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` blocks the original shared-player Start cases in a bounded projection. Confirm game identifier scope across disjoint pairs and rerun on the integrated app. The candidate still lacks regenerated draw rules. [PR #175](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) preserves both GCE answers. [Stage record](../../stages/130-pr158-chess-source-revision-20261126.json)
+
 ## Stage 129 — Agora Finding 1 answer — 26 November 2026 UTC
 
 GCE’s original Finding 1 attribution is preserved under Currencies ownership. [PR #178](https://github.com/udi-shapiro/Grassroots-Audit/pull/178) corrects the report’s earlier uniqueness language and records the conditional local wall copy after delivery. Candidate-source verification supports the proposed repair, while integration and independent execution remain pending. [Stage record](../../stages/129-pr141-agora-answer-candidate-20261126.json)
