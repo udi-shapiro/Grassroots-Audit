@@ -1,21 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T17:16:00.000Z",
-  "active_run": {
-    "run_id": "pr181-comment-7198735990-20261126T171600Z",
-    "delivery_ids": [
-      "05df7128-e9bd-11f1-8f35-3b3a9e403faa"
-    ],
-    "acquired_at": "2026-11-26T17:16:00.000Z",
-    "lease_expires_at": "2026-11-26T17:46:00.000Z",
-    "pull_requests": [
-      181
-    ],
-    "event_types": [
-      "issue_comment"
-    ]
-  },
+  "updated_at": "2026-11-26T17:25:00.000Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -35,19 +22,19 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "0564fb14-e9a4-11f1-80a4-7d5cb6608fdc",
-      "event": "PR 29 synchronize and comment, with duplicate PR 127 comment reconciled",
-      "pull_request_number": 29,
-      "observed_at": "2026-11-26T14:32:00.000Z",
-      "outcome": "Recorded PR #29 head a69f4686 and comment 7194556361. The head fixes attribution and answer preservation but predates merged PR #127 and is unmergeable. Public GLP contains grcheck.py, while both published locations fail on missing legacy layout before checking a contract. No source-app reply was sent."
+      "delivery_id": "1b629f88-e9be-11f1-8f71-0d49bfe3b877",
+      "event": "PR 181 approved-paper reply and own publication synchronization",
+      "pull_request_number": 181,
+      "observed_at": "2026-11-26T17:25:00.000Z",
+      "outcome": "Preserved vGLP #37's approved-paper answer in a current-main publication. Public code evidence remains, public paper and independent Flutter execution remain pending."
     },
     "environment_selection": "inherited",
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 177,
+  "publication_pr": 181,
   "publication_merge_sha": null,
-  "source_verified": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+  "source_verified": "82524f1f6f67067e8d1edb0603475302f9e375b9",
   "processed_prs": [
     {
       "number": 184,
@@ -187,14 +174,14 @@
     },
     {
       "number": 181,
-      "head_sha": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
-      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "head_sha": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+      "base_sha": "708768960724842725766e59c3f2909042918ba1",
       "state": "open",
-      "updated_at": "2026-11-26T11:16:30Z",
+      "updated_at": "2026-11-26T17:24:25Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 5,
+        "comments": 7,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
@@ -202,7 +189,9 @@
           7187576232,
           7190086665,
           7190313253,
-          7190413174
+          7190413174,
+          7198735990,
+          7198962187
         ],
         "review_ids": [],
         "review_versions": [],
@@ -226,12 +215,20 @@
           {
             "id": 7190413174,
             "updated_at": "2026-11-26T11:12:08Z"
+          },
+          {
+            "id": 7198735990,
+            "updated_at": "2026-11-26T17:15:47Z"
+          },
+          {
+            "id": 7198962187,
+            "updated_at": "2026-11-26T17:24:25Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T11:12:08Z"
+        "latest_item_at": "2026-11-26T17:24:25Z"
       },
-      "comment_cursor": 7190413174,
+      "comment_cursor": 7198962187,
       "review_cursor": null,
       "delivery_ids": [
         "3ecfd580-e973-11f1-91af-ea76f9db40ce",
@@ -242,27 +239,33 @@
         "7f9b5cae-e989-11f1-896d-6feed3eb69c9",
         "a595bc06-e989-11f1-951e-5e0302be7dc5",
         "c6205e72-e989-11f1-8763-6bd203ec6f6b",
-        "cb7a863a-e98a-11f1-9546-2e10fa7db45e"
+        "cb7a863a-e98a-11f1-9546-2e10fa7db45e",
+        "05df7128-e9bd-11f1-8f35-3b3a9e403faa",
+        "1b629f88-e9be-11f1-8f71-0d49bfe3b877"
       ],
       "own_publication": true,
-      "notes": "Skipped the auditor's own comment and publication events. Preserved Code #41's reported 6/6 focused Flutter run. Independent Git-tree comparison verifies that checkout 7621b9ee5 and public main fc2e7284 have the exact same 244-path glp_multiagent subtree with zero blob differences. The run was not independently repeated and paper revision 42f53d1 remains absent from public GLP papers, so #179 stays open. PR #181 is mergeable at exact head 9fb9eda1 and awaits independent review.",
+      "notes": "Preserved vGLP #37's approved-paper answer and rebased the publication onto current main. Public GLP 82524f1f retains the code-side evidence. Public papers remains 3f3d5033 and Flutter was not independently rerun, so #179 stays open. PR #181 is mergeable and awaits independent exact-head review.",
       "source_pins": {
-        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_181_before": "1404b4a79c0d0d2b318f86e71c2bd7846f30a4c4",
-        "audit_pr_181": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
-        "audit_report_blob": "43377e475475b15d4e35d08399dae7e51eebecc0",
-        "audit_issues_blob": "bbda0c44e3835cf32c1562f752b9e77f787b151e",
-        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
-        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "audit_main": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+        "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+        "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+        "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+        "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+        "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+        "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+        "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
         "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "code_test_checkout": "7621b9ee5f07b7a2d386e1376ebf735bf280047e",
-        "code_test_checkout_tree": "fe0539f391ee602a543b2eae40edec42aa1efd6e",
-        "glp_multiagent_tree": "0110b8b7204a2095d14f0d40abbb2715d711becb",
-        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937"
+        "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+        "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "project_vglp_claim": "fca597d",
+        "project_sglp_claim": "ee54df7"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/143-pr181-focused-test-evidence-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/147-pr181-approved-paper-answer-20261126.json",
       "own_comment_ids": [
-        7190313253
+        7190313253,
+        7198962187
       ],
       "mergeable": true
     },
@@ -3404,33 +3407,22 @@
     }
   ],
   "source_observed_after_tests": {
-    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_177_before": "71486af79a44db4b0a35657a21a02f46237c5229",
-    "audit_pr_177": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
-    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
-    "glp_main_tree": "0176cf8b03794cffffae2890eedacb8207f4ddf9",
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+    "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "warnings_candidate": "c1408847566dd73fb2cc2b9ae31130efc1bc0ee3",
-    "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
-    "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-    "warnings_full_schemas_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e",
-    "warnings_interface_blob": "3ea82a993a1707b3961dd5b9dae44753e8ef4932",
-    "warnings_platform_glp_blob": "c3ccd6211a410daccb042d6a4d968bd74d2f0593",
-    "warnings_platform_vglp_blob": "7287a83f04cd5ca7a8efe815fb934db465906e7e",
-    "warnings_vmat_blob": "b5c24b985a82602d884108ee203f7e099d018969",
-    "warnings_deadline_control_blob": "b14ab8878eb2baeb6baedf5c056d3fdea9ca0c1a",
-    "tennis_record_commit": "b17ca87adbbd83fd940dd5fee29990cc184f6d4c",
-    "tennis_partner_commit": "f4ee64c13cf6633984c8e9b124af4042e3ac88ea",
-    "tennis_calculus_commit": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-    "tennis_text_blob": "590d38729393bf30336277fae5326627c304ba50",
-    "tennis_glp_blob": "d48d333abb1b13db974234fa8482541906b3de34",
-    "tennis_full_schemas_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427",
-    "tennis_platform_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
-    "tennis_verdict_blob": "cf606a3359e0826566d860fddb1fcade2996b8f3",
-    "audit_report_blob": "41394d47ab4cc01e419c090f148f79ca4e56f309",
-    "audit_issues_blob": "e211765e6297f1b4b833163425a98b1b1b4eaf43",
-    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-    "observed_at": "2026-11-26T08:56:00.000Z"
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "project_vglp_claim": "fca597d",
+    "project_sglp_claim": "ee54df7",
+    "observed_at": "2026-11-26T17:25:00.000Z"
   },
   "processed_events": [
     {
@@ -16907,30 +16899,192 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/141-pr183-vmat-related-work-20261126.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/141-pr183-vmat-related-work-20261126.json"
       }
+    },
+    {
+      "delivery_id": "05df7128-e9bd-11f1-8f35-3b3a9e403faa",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 181,
+      "comment_id": 7198735990,
+      "head_sha": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7187552999,
+          7187576232,
+          7190086665,
+          7190313253,
+          7190413174,
+          7198735990,
+          7198962187
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          },
+          {
+            "id": 7190086665,
+            "updated_at": "2026-11-26T10:58:23Z"
+          },
+          {
+            "id": 7190313253,
+            "updated_at": "2026-11-26T11:08:01Z"
+          },
+          {
+            "id": 7190413174,
+            "updated_at": "2026-11-26T11:12:08Z"
+          },
+          {
+            "id": 7198735990,
+            "updated_at": "2026-11-26T17:15:47Z"
+          },
+          {
+            "id": 7198962187,
+            "updated_at": "2026-11-26T17:24:25Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T17:24:25Z"
+      },
+      "processed_at": "2026-11-26T17:25:00.000Z",
+      "source_pins": {
+        "audit_main": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+        "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+        "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+        "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+        "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+        "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+        "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+        "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+        "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "project_vglp_claim": "fca597d",
+        "project_sglp_claim": "ee54df7"
+      },
+      "outcome": "Preserved the approved-paper answer and published current-main source reconciliation.",
+      "urls": {
+        "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198735990",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198962187",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/fcb4d8865c21c4e704712730303f932af8ddecbd",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+        "glp_main": "https://github.com/EShapiro2/GLP/commit/82524f1f6f67067e8d1edb0603475302f9e375b9",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/147-pr181-approved-paper-answer-20261126.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/147-pr181-approved-paper-answer-20261126.json"
+      }
+    },
+    {
+      "delivery_id": "1b629f88-e9be-11f1-8f71-0d49bfe3b877",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 181,
+      "comment_id": null,
+      "head_sha": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+      "discussion_version": {
+        "comments": 7,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7187552999,
+          7187576232,
+          7190086665,
+          7190313253,
+          7190413174,
+          7198735990,
+          7198962187
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7187552999,
+            "updated_at": "2026-11-26T09:11:03Z"
+          },
+          {
+            "id": 7187576232,
+            "updated_at": "2026-11-26T09:11:51Z"
+          },
+          {
+            "id": 7190086665,
+            "updated_at": "2026-11-26T10:58:23Z"
+          },
+          {
+            "id": 7190313253,
+            "updated_at": "2026-11-26T11:08:01Z"
+          },
+          {
+            "id": 7190413174,
+            "updated_at": "2026-11-26T11:12:08Z"
+          },
+          {
+            "id": 7198735990,
+            "updated_at": "2026-11-26T17:15:47Z"
+          },
+          {
+            "id": 7198962187,
+            "updated_at": "2026-11-26T17:24:25Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-26T17:24:25Z"
+      },
+      "processed_at": "2026-11-26T17:25:00.000Z",
+      "source_pins": {
+        "audit_main": "708768960724842725766e59c3f2909042918ba1",
+        "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+        "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+        "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+        "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+        "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+        "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+        "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+        "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+        "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+        "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+        "project_vglp_claim": "fca597d",
+        "project_sglp_claim": "ee54df7"
+      },
+      "outcome": "Own publication synchronization recorded without an additional reply loop.",
+      "urls": {
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/fcb4d8865c21c4e704712730303f932af8ddecbd",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/147-pr181-approved-paper-answer-20261126.json"
+      }
     }
   ],
   "source_observed_after_event": {
-    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_177_before": "6ce7d22c08b8a41e1ef8b8d3f8afd65c19031add",
-    "audit_pr_177_intermediate": "6a8e1a47c6adffe5a072ca09227c6bc53d09abd0",
-    "audit_pr_177": "05729b16ef3dd4769a4995d681b70b3d15deba09",
-    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+    "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "tennis_candidate": "ec7fd250f8e0c611f3213043bdc3a2cfa63c7c72",
-    "tennis_candidate_tree": "c9a0549a5ab1d423a6084ca777782f689db68451",
-    "tennis_source_blob": "77ab27bef3aeff5139991b6c62057a6149d7af8c",
-    "tennis_manifest_blob": "042b07da9bdb9a1c487f6b600b83fffe654e67b9",
-    "tennis_platform_vglp_blob": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86",
-    "pragmas_script_blob": "d263f99841a3f2427b8210c2605d8d859eb2825d",
-    "rehearsal_candidate": "99368551f5e4185236e6cf3519601c9aad2a251c",
-    "rehearsal_candidate_tree": "32ac6c07d3ecbd0f88d0f4e26b75b03c5edb63cf",
-    "rehearsal_source_blob": "30930d2245ef20d64d4bbabc4d883014d725369a",
-    "rehearsal_manifest_blob": "29e72f14658691f93eee44ca2987a6a20fbbb0b7",
-    "rehearsal_platform_vglp_blob": "8800d03860cbd6bab4b87f6f3ef3b9c5887c79a8",
-    "audit_report_blob": "02e9268c87b8ace873a0ed2c89f3df35c0488907",
-    "audit_issues_blob": "af3c4dd0205c2ac8c1cbe08a02e58aebc61c71c1",
-    "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-    "observed_at": "2026-11-26T09:43:56.913Z"
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "project_vglp_claim": "fca597d",
+    "project_sglp_claim": "ee54df7",
+    "observed_at": "2026-11-26T17:25:00.000Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -16938,21 +17092,29 @@
       50,
       68
     ],
-    "stage_record": "auditor/stages/20-pr68-gsa-and-spm-reply-20261120.json",
+    "stage_record": "auditor/stages/147-pr181-approved-paper-answer-20261126.json",
     "reason": "Preserved GSA answer and documented SPM dispute.",
-    "last_reconciled_at": "2026-11-26T10:57:40.870Z",
-    "last_stage": 141,
-    "processed_through_pr": 183,
-    "notes": "Reviewed and confirmed the four related-work examples. One notation correction separates the machine transaction t from the guarded pair (t,G). The proposal remains open pending the VMAT paper decision."
+    "last_reconciled_at": "2026-11-26T17:25:00.000Z",
+    "last_stage": 147,
+    "processed_through_pr": 181,
+    "notes": "The dated answer and both sides' history are preserved in a current-main publication. Code-side source evidence remains valid. Finding #179 remains open."
   },
   "latest_source_observed": {
-    "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-    "audit_pr_183": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
-    "report_blob": "e3123cd57fc6419ae2a8b2e942375a8bc2ed8cb4",
-    "glp_main": "a9d40778a7587dd45ea25aacb42f51146a8ab0d9",
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+    "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
     "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-    "vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-    "status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-    "observed_at": "2026-11-26T10:57:40.870Z"
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "project_vglp_claim": "fca597d",
+    "project_sglp_claim": "ee54df7",
+    "observed_at": "2026-11-26T17:25:00.000Z"
   }
 }

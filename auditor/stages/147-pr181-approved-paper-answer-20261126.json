@@ -1,0 +1,144 @@
+{
+  "stage": 147,
+  "title": "vGLP approved paper answer preserved; public rebuild pending",
+  "date_utc": "2026-11-26",
+  "events": [
+    {
+      "delivery_id": "05df7128-e9bd-11f1-8f35-3b3a9e403faa",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 181,
+      "comment_id": 7198735990,
+      "outcome": "Preserved vGLP #37's approved-paper answer and independently reconciled the public code and papers sources."
+    },
+    {
+      "delivery_id": "1b629f88-e9be-11f1-8f71-0d49bfe3b877",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 181,
+      "head_sha": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+      "outcome": "Own publication synchronization. Recorded at the final head without an additional reply loop."
+    }
+  ],
+  "source_pins": {
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+    "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "project_vglp_claim": "fca597d",
+    "project_sglp_claim": "ee54df7"
+  },
+  "discussion_version": {
+    "comments": 7,
+    "reviews": 0,
+    "review_threads": 0,
+    "comment_ids": [
+      7187552999,
+      7187576232,
+      7190086665,
+      7190313253,
+      7190413174,
+      7198735990,
+      7198962187
+    ],
+    "review_ids": [],
+    "review_versions": [],
+    "latest_comments": [
+      {
+        "id": 7187552999,
+        "updated_at": "2026-11-26T09:11:03Z"
+      },
+      {
+        "id": 7187576232,
+        "updated_at": "2026-11-26T09:11:51Z"
+      },
+      {
+        "id": 7190086665,
+        "updated_at": "2026-11-26T10:58:23Z"
+      },
+      {
+        "id": 7190313253,
+        "updated_at": "2026-11-26T11:08:01Z"
+      },
+      {
+        "id": 7190413174,
+        "updated_at": "2026-11-26T11:12:08Z"
+      },
+      {
+        "id": 7198735990,
+        "updated_at": "2026-11-26T17:15:47Z"
+      },
+      {
+        "id": 7198962187,
+        "updated_at": "2026-11-26T17:24:25Z"
+      }
+    ],
+    "inline_versions": [],
+    "latest_item_at": "2026-11-26T17:24:25Z"
+  },
+  "source_inspection": [
+    "Public GLP main 82524f1f is 17 commits ahead of fc2e7284 with that correction as the merge base.",
+    "Current main retains exact neutral-form blob 42fb101d and focused-test blob b229565d.",
+    "The compiler changed from fc2e7284 only in gone_step and complete_text field/value typing helpers; the refusal-reason path is unchanged by inspection.",
+    "Public GLP papers remains 3f3d5033. VEUI fca597d and svGLP ee54df7 were preserved as attributed project claims and were not treated as public verification."
+  ],
+  "executed_checks": [
+    {
+      "name": "GLP ancestry and current-source comparison",
+      "result": "17 commits ahead, zero commits behind; exact neutral-form and focused-test blobs retained; compiler line-set diff isolated to 9 removed and 19 added lines in unrelated helpers."
+    },
+    {
+      "name": "Published status regeneration",
+      "command": "python3 bin/status.py",
+      "result": "37 reports, 68 findings, 12 unanswered; output published as blob 475d25c1."
+    },
+    {
+      "name": "Publication assertions",
+      "result": "8/8 passed for finding uniqueness, answer-before-verification ordering, source pins, issue-row uniqueness, counts and vGLP table row."
+    }
+  ],
+  "project_claims": [
+    {
+      "claim": "Udi approved the paper change and it is on VEUI main fca597d; the same text is on svGLP main ee54df7.",
+      "source_comment_id": 7198735990,
+      "independently_verified": false
+    },
+    {
+      "claim": "Code's focused Flutter test passed 6/6.",
+      "source_comment_id": 7190413174,
+      "independently_verified": false
+    }
+  ],
+  "limitations": [
+    "The authorized source boundary includes public EShapiro2/GLP and its papers branch. The cited separate paper repositories were not required or used.",
+    "The public papers branch has not rebuilt the approved paper, so the paper text was not independently inspected.",
+    "Dart and Flutter are unavailable in the audit environment. No GLP runtime, Flutter test, app walk or paper build ran."
+  ],
+  "outcome": "The dated answer and both sides' history are preserved in a current-main publication. Code-side source evidence remains valid. Finding #179 remains open.",
+  "next": [
+    "Inspect the rebuilt vGLP PDF when it appears on the public GLP papers branch and pin its commit and PDF blob.",
+    "Independently execute glp_multiagent/test/notice_reason_test.dart.",
+    "Obtain independent exact-head review of PR #181 before merge."
+  ],
+  "urls": {
+    "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198735990",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198962187",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/147-pr181-approved-paper-answer-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/147-pr181-approved-paper-answer-20261126.json"
+  }
+}

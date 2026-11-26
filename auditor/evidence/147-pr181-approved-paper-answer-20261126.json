@@ -1,0 +1,83 @@
+{
+  "stage": 147,
+  "collected_at": "2026-11-26T17:25:00.000Z",
+  "boundary": "Public EShapiro2/GLP main and papers branch plus the public audit repository. Separate paper-repository commits are attributed project evidence.",
+  "source_pins": {
+    "audit_main": "708768960724842725766e59c3f2909042918ba1",
+    "audit_pr_181_before": "9fb9eda18b8206096fafb458a56ec11a9171bfc5",
+    "audit_pr_181": "fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "audit_report_blob": "8c750c6e2c87ac4f8d2414a2331ed4181095c285",
+    "audit_issues_blob": "2c47058a7a5f17fcd11f8f79ea667d2cfbda5766",
+    "audit_status_narrative_blob": "8dc6696a0ef45705352e529de1414ca48646cf71",
+    "audit_status_table_blob": "475d25c1c32b78dfaef31015c477124171f0af6a",
+    "glp_main": "82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "glp_correction": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
+    "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+    "current_compiler_blob": "77e7a1dc31f1a3378074288582dbac066639016c",
+    "neutral_form_blob": "42fb101db6773da81c22a127333960f458285837",
+    "notice_reason_test_blob": "b229565dd9dd7b866cb881578f2ae67955c21937",
+    "project_vglp_claim": "fca597d",
+    "project_sglp_claim": "ee54df7"
+  },
+  "inspected": {
+    "glp_comparison": {
+      "status": "ahead",
+      "ahead_by": 17,
+      "behind_by": 0,
+      "merge_base": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7"
+    },
+    "current_blobs": {
+      "compiler": "77e7a1dc31f1a3378074288582dbac066639016c",
+      "neutral_form": "42fb101db6773da81c22a127333960f458285837",
+      "test": "b229565dd9dd7b866cb881578f2ae67955c21937"
+    },
+    "paper_claims": {
+      "vglp": "fca597d",
+      "sglp": "ee54df7",
+      "public_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45"
+    }
+  },
+  "executed_checks": [
+    {
+      "name": "GLP ancestry and current-source comparison",
+      "result": "17 commits ahead, zero commits behind; exact neutral-form and focused-test blobs retained; compiler line-set diff isolated to 9 removed and 19 added lines in unrelated helpers."
+    },
+    {
+      "name": "Published status regeneration",
+      "command": "python3 bin/status.py",
+      "result": "37 reports, 68 findings, 12 unanswered; output published as blob 475d25c1."
+    },
+    {
+      "name": "Publication assertions",
+      "result": "8/8 passed for finding uniqueness, answer-before-verification ordering, source pins, issue-row uniqueness, counts and vGLP table row."
+    }
+  ],
+  "project_claims": [
+    {
+      "claim": "Udi approved the paper change and it is on VEUI main fca597d; the same text is on svGLP main ee54df7.",
+      "source_comment_id": 7198735990,
+      "independently_verified": false
+    },
+    {
+      "claim": "Code's focused Flutter test passed 6/6.",
+      "source_comment_id": 7190413174,
+      "independently_verified": false
+    }
+  ],
+  "limitations": [
+    "The authorized source boundary includes public EShapiro2/GLP and its papers branch. The cited separate paper repositories were not required or used.",
+    "The public papers branch has not rebuilt the approved paper, so the paper text was not independently inspected.",
+    "Dart and Flutter are unavailable in the audit environment. No GLP runtime, Flutter test, app walk or paper build ran."
+  ],
+  "conclusion": "The dated answer and both sides' history are preserved in a current-main publication. Code-side source evidence remains valid. Finding #179 remains open.",
+  "urls": {
+    "project_answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198735990",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198962187",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+    "publication_commit": "https://github.com/udi-shapiro/Grassroots-Audit/commit/fcb4d8865c21c4e704712730303f932af8ddecbd",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/179",
+    "glp_main": "https://github.com/EShapiro2/GLP/commit/82524f1f6f67067e8d1edb0603475302f9e375b9",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/147-pr181-approved-paper-answer-20261126.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/147-pr181-approved-paper-answer-20261126.json"
+  }
+}

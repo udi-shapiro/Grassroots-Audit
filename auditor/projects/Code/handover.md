@@ -1,3 +1,9 @@
+## Stage 147 — approved vGLP paper answer preserved — 26 November 2026 UTC
+
+vGLP reports Udi approved the corrected refusal prose and cites VEUI `fca597d` plus svGLP `ee54df7`. [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181), mergeable exact head `fcb4d886`, preserves the dated answer and current-main source verification. Public GLP main `82524f1f` retains the exact neutral-form and focused-test blobs. The public GLP papers branch remains `3f3d5033`, so the paper prose is still project evidence, and Flutter was not independently rerun. Finding #179 stays open. [Answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198735990) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7198962187) · [Stage](../../stages/147-pr181-approved-paper-answer-20261126.json)
+
+Next: publish the approved paper through the public GLP papers branch, inspect the rebuilt PDF at its pinned commit, and independently execute `glp_multiagent/test/notice_reason_test.dart`. Obtain independent exact-head review before merging PR #181.
+
 ## Stage 143 — vGLP focused-test evidence reconciled — 26 November 2026 UTC
 
 Code reports `notice_reason_test.dart` passed 6/6 on public checkout `7621b9ee5`. Independent tree comparison verifies its 244-path `glp_multiagent` subtree is exactly the public-main `fc2e7284` subtree `0110b8b7`, with zero blob differences. [PR #181](https://github.com/udi-shapiro/Grassroots-Audit/pull/181), exact head `9fb9eda1`, preserves the transcript and verification. The execution remains attributed project evidence because Dart and Flutter are unavailable to the auditor. Paper revision `42f53d1` remains absent from public GLP papers. Finding #179 stays open. [Project run](https://github.com/udi-shapiro/Grassroots-Audit/pull/181#issuecomment-7190413174) · [Stage](../../stages/143-pr181-focused-test-evidence-20261126.json)
