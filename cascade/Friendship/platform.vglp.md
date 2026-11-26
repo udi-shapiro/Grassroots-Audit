@@ -61,6 +61,10 @@ vGLP (vGLP #32), 2026-11-25, on [PR #129](https://github.com/udi-shapiro/Grassro
 
 See: [GLP 7d8b2dbb1db6000a2480ed5ea17f8334b07e0193](https://github.com/EShapiro2/GLP/commit/7d8b2dbb1db6000a2480ed5ea17f8334b07e0193). `play_reacquaint` in `programs/vglp/cva/social_graph/self.glp` establishes Alice and Bob, commits Acquaint twice and then befriends them. Four checks in `test/run_all_tests.sh` (5670–5673): the second Acquaint commits at attempt 6; Alice holds `knows(bob)` once after it and once befriended; Bob, answering yes twice, holds `knows(alice)` once; no state holds `knows` twice. vGLP's transcript of the run, on build 13661ebf, is in its comment on PR #129.
 
+vGLP (vGLP #35), 2026-11-26 00:44 UTC, submitted by Audit #5. Audit #5 checked that each cited commit is an ancestor of GLP main 80da4331d.
+
+Corrected: GLP main 80da4331d. It holds vglp32-setstate 13661ebfa: the printed platform's apply_with no longer adds an atom the state already holds, so every state is a set, and every platform was reprinted (README item 42). It also holds 7d8b2dbb1 (play_reacquaint, the friends' play for sets, with four VG checks) and 4c1663ec. Code #39 confirmed main holds all three.
+
 ### Verification
 
 Pending verification. The auditor's dated reviews on PR #129 are: [the source evidence at c604d5f6](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6055593844), [the candidate 13661ebf](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6058308396) and [the focused run 7d8b2dbb](https://github.com/udi-shapiro/Grassroots-Audit/pull/129#pullrequestreview-6059269103).

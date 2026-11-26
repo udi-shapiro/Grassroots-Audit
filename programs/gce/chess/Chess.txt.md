@@ -3,11 +3,11 @@
 Project: GCE (Grassroots Contract Examples), Nimrod Talmon's, with Claude
 Auditor: Claude (Opus 5.5), for GCE, of its own contract
 Date: 2026-11-25
-GLP commit: 4b04f5615179437d43da139b11cbfc9657323643 (head of [EShapiro2/GLP PR #177](https://github.com/EShapiro2/GLP/pull/177), a candidate not on GLP main)
+GLP commit: 4b04f5615179437d43da139b11cbfc9657323643 ([EShapiro2/GLP PR #177](https://github.com/EShapiro2/GLP/pull/177) at this commit, its head when audited; a candidate not on GLP main)
 Other source versions: GLP main `1503cdd` (PR #177's base; Chess is absent from it), for `programs/vglp/cva/compiler/cvac.glp`; PR #177 carries the one commit of EShapiro2/GLP#175, `a0baab5`, for functions of positions and moves; FIDE Laws of Chess, in force from 1 January 2023 ([full text](https://rcc.fide.com/fide-laws-of-chess_fulltexthtml/))
 
 Scope: whether Chess says what a game of chess between two friends needs, and what of it its schemas enforce.
-Coverage: source inspection, at the PR #177 head, of `programs/gce/chess/Chess.txt` (the contract and its Logic pragmas) and `programs/gce/chess/Chess.glp` (the schemas `calculus/tools/adopt.py` prints), and of `cvac.glp` at GLP main `1503cdd`. The checks PR #177 reports (`gcsas.py`, `relations.py`, and `cascade.sh chess --check` with verdict `syntactically_grassroots`) are project-supplied evidence and are not rerun here. Not examined: an app, since none is compiled (Finding 1).
+Coverage: source inspection, at that commit, of `programs/gce/chess/Chess.txt` (the contract and its Logic pragmas) and `programs/gce/chess/Chess.glp` (the schemas `calculus/tools/adopt.py` prints), and of `cvac.glp` at GLP main `1503cdd`. The checks PR #177 reports (`gcsas.py`, `relations.py`, and `cascade.sh chess --check` with verdict `syntactically_grassroots`) are project-supplied evidence and are not rerun here. Not examined: an app, since none is compiled (Finding 1).
 
 ## Limitations and design choices
 
@@ -16,6 +16,8 @@ These are recorded as choices of the contract, not as faults, since no stated co
 1. No clock. The contract describes an untimed game, so a player may take as long as they like. A clock would need the time of a move as a fact both players accept; contracts have the current date as a value (Library's Today), not the time of a move.
 2. Colours by the order of Start's roles. In Start, the first-named player plays white. A game where Bob plays white has Bob named first; the contract offers no other assignment, such as by lot.
 3. Fair play as an undertaking. Clause 6 (○) has no remedy inside the contract, since no peer can see another's phone. A remedy can come from a contract Chess composes with, such as Disputes or Warnings, or socially, through Friendship's Unfriend.
+
+**Maintainer scope note, 25 November 2026.** The baseline text incorporates the FIDE Laws by reference while its acts implement no clock. Untimed play describes the implemented scope. If FIDE timing requirements are outside the intended contract, the rules reference should state that boundary explicitly. The three finding identifiers below retain their original scope.
 
 ## Finding 1: no app until the app compiler computes the contract's functions
 
@@ -32,6 +34,8 @@ See: the app compiler's functions, GLP #120, #135 and #174, which are Code's and
 ### Verification
 
 25 November 2026: this is an answer to the known limitation, not a verified app correction. Public GLP main remains `6b8c8879`. No Chess platform, app or runtime result was supplied or executed. Finding remains open for compiler support, generated platform adoption and an executable game.
+
+**Follow-up, 25 November 2026.** GLP main `37d31ca95c6a599113dcf6eb0b8341f8202c3a47` has no Chess contract or generated Chess module. Its `fn_named` still recognizes only `min`, `floor` and `size`; the public GLP PR #177 candidate `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` has the same limitation and its Start still uses `first`. No compiler or app run was performed.
 
 ## Finding 2: the contract has only agreed draws, while the Laws it incorporates also end games drawn automatically or on a claim
 
@@ -59,6 +63,8 @@ Corrected: [e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7](https://github.com/EShapir
 
 25 November 2026: source inspection confirms that public commit `e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7` changes `Chess.txt`, `Chess-functions.glp` and the shared test script. The generated `programs/gce/chess/Chess.glp` at that exact commit is unchanged from the earlier schema. It has no `autodraw` or `plies` predicates, and its Draw act has no two-half-move condition. The submitted checks were not rerun. Public GLP main remains `6b8c8879`. Finding remains open until regenerated schemas carry the correction and the focused draw cases pass independently.
 
+**Follow-up, 25 November 2026.** At the newer public GLP PR #177 head `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca`, the generated [Chess.glp](https://github.com/EShapiro2/GLP/blob/7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca/programs/gce/chess/Chess.glp) still has only the joint Draw act. Its constraint is `true`; it has no move-count condition, Claim draw or automatic drawing move. The broader correction described in GCE #2’s [dated answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7177358398) is a separate candidate. The finding remains open.
+
 ## Finding 3: Start lets one game identifier be started again, so a player holds two games and both colours under one identifier
 
 Severity: high
@@ -83,3 +89,5 @@ Corrected: [e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7](https://github.com/EShapir
 ### Verification
 
 25 November 2026: `Chess.txt` at public commit `e08383fdd17ed1e66d9f7f2e9455cbd148bed9f7` states the intended two-party guard and effect. The generated `programs/gce/chess/Chess.glp` at that exact commit remains unchanged. Its Start schema still tests only `not(started(Alice, Game))` and records `started` only for Alice, so the original two-Start witness remains admitted by the generated artifact. No project check was rerun. Finding remains open pending regeneration, adoption and the focused collision control.
+
+**Follow-up, 25 November 2026.** [Audit PR #158 at `540ae62d`](https://github.com/udi-shapiro/Grassroots-Audit/commit/540ae62d4d659b19bc57d583b68385853d55cec1) clarifies that `4b04f561` was the original GLP PR #177 head. The newer public head `7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca` has generated a Start schema that checks and records `started` for both players. A bounded projection read the negative `started` guards and positive `started` effects from the original and newer generated [Chess.glp](https://github.com/EShapiro2/GLP/blob/7ff7543e2de2c08bdf5d9a9d46e04b41fc0058ca/programs/gce/chess/Chess.glp). With the other Start prerequisites held true, the original admitted both reported reuses. The newer schema allows the initial start and a fresh identifier. It refuses same-identifier starts with Bob in either role, including the reversed original pair. A disjoint pair can still start the same supplied identifier in this projection. The intended identifier scope and any guarantees from its representation need confirmation before claiming global uniqueness. No GLP runtime ran. The shared-player trace is repaired at candidate schema scope. Keep the finding open for adoption and an integrated check.

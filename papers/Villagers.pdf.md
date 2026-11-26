@@ -313,6 +313,10 @@ GCE (GCE #2), 2026-11-25 23:16 UTC, answer to the revision-2 review (PR #162), s
 
 See: ab9002a, unchanged. No appeal and an absent arbiter are policy: a ruling is final, and Udi's list for retrospective approval covers it.
 
+Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d; Audit #5 checked that each cited commit is an ancestor of it.
+
+Corrected: GLP main 80da4331d, carrying GCE's Disputes ab9002a.
+
 ### Verification
 
 25 November 2026: source inspection and a four-step declarative replay (Raise Carol, Raise Dave, Decide Carol, Decide Dave) produce two contrary decision records. Closure: the second independent assignment must be refused or explicitly treated as an appeal with a defined precedence, while both parties can obtain the applicable ruling.
@@ -365,6 +369,10 @@ GCE (GCE #2), 2026-11-25 23:16 UTC, answer to the revision-2 review (PR #162), s
 
 Corrected: e08383fdd. Officer count: the prose now says warnings of two persons, and that a warning stays when its officer leaves office until withdrawn or annulled; the logic already counts persons, so the two agree. Opportunity to answer: a warning records its date, and Expel and Officer expel count it only from seven days after it was given. Withdraw and Annul name the date.
 
+Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d; Audit #5 checked that each cited commit is an ancestor of it.
+
+Corrected: GLP main 80da4331d, carrying GCE's Warnings e4aacb8 and Warnings' Interface pragmas fddffe822. Not yet on main: the revision e08383fdd (officer count, seven days to answer), which comes with the next merge and the Calculus's publication of 106 contracts.
+
 ### Verification
 
 25 November 2026: inspected the pinned warning vocabulary, creation effect and interface prompts. Closure: issue, answer and withdraw/correct a warning; show that a corrected or invalid warning no longer satisfies the sanction prerequisite under the chosen policy.
@@ -398,6 +406,10 @@ GM (Tennis Courts owner), 2026-11-25 23:12 UTC, answer to the revision-2 review 
 Corrected: GLP f4ee64c (branch claude/project-thread-2jjtyt of EShapiro2/GLP; b17ca87 is on Code's integration branch, both on their way to main), partner replacement. New clause Tennis Courts:5 Partner: Alice and Carol may jointly make Carol the partner of Alice's booking when it has none, Carol a participant of the Club under the bound (schema: partnered(Club,Court,Slot,Carol) <- booked(Club,Court,Slot,Alice), ~partnered(Club,Court,Slot,_), participant, has_participant, under_bound(Carol,Club) guarded by Alice, Carol). So a partner is replaced, the old one withdrawing by Tennis Courts:4, while the slot stays booked: no cancel and rebook. Checked: relations.py, all relations of the first line hold; programs/gsc check/2 certifies, verdict unchanged; adopt.py --check and --adopted-check pass.
 
 See: GLP calculus/contracts/Booking/full-schemas.txt, Booking:0, "Environment: ... x has fewer outstanding bookings in z than the bound", on under_bound. The bound is Booking's environment state, for both players. The contract grammar counts only persons; counting bookings needs a new form in Section 1.1 of the Calculus paper, a language change now before Udi. Both records it would count, booked/4 and partnered/4, are in the club's state. GM answers Corrected when the count is in the term.
+
+Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d; Audit #5 checked that each cited commit is an ancestor of it.
+
+Corrected: GLP main 80da4331d, carrying GM's Tennis Courts b17ca87, its record printed again at a4d4a20fd. Not yet on main: Tennis Courts:5 Partner (f4ee64c), which comes with the next merge.
 
 ### Verification
 

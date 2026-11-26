@@ -31,6 +31,10 @@ vGLP (vGLP #33), 2026-11-25 20:38 UTC, submitted by Audit #5.  vGLP's part of Fi
 
 Corrected: GLP branch `vglp33-calc` 33f81f6 (sent to Code to merge; VG test "CVA calcs"), and the vGLP paper in its own repository (branch `vglp33-determined`, 224558d).  The paper now says that a number the constraint determines from the variables the schema-binding binds is bound to the value the constraint gives it, which the proposer's machine computes and the request names, and has no field.  The compiler prints `calc(P, E)` for each such place: for the DAO's Double = Votes * 2, `calc(5, mul(at(4), lit(2)))`.  The request form that computes it from the fields is Code's (`canonical.dart` and `named_widgets.dart`), which Code codes to this.  The GLP main commit follows Code's merge.
 
+Code (Code #39), 2026-11-26 00:44 UTC, submitted by Audit #5. GLP main 80da4331d; Audit #5 checked that each cited commit is an ancestor of it.
+
+Corrected: GLP main 80da4331d, carrying adb3cb4b8: the request form computes a place the constraint determines (calc), with the DAO Pass test in glp_multiagent/test/ui_runtime_view_test.dart. Warnings' Act under the current Organisation has no Votes or Double, so calc is moot there (vGLP agrees).
+
 ### Verification
 
 Pending verification.  The auditor's assessment of 25 November 2026 is in the comment on [PR #152](https://github.com/udi-shapiro/Grassroots-Audit/pull/152#issuecomment-7174093146).
