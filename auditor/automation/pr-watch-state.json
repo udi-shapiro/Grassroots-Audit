@@ -1,22 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-26T09:15:50.253Z",
-  "active_run": {
-    "run_id": "stage137-mergeability-record-correction",
-    "event": {
-      "delivery_id": "39bb6a5e-e979-11f1-85de-06d5c5a6b618",
-      "event_type": "pull_request",
-      "action": "synchronize",
-      "actor_login": "udi-shapiro",
-      "pull_request_number": 175,
-      "comment_id": null
-    },
-    "additional_events": [],
-    "acquired_at": "2026-11-26T09:15:50.253Z",
-    "expires_at": "2026-11-26T09:45:50.253Z",
-    "expected_head_sha": "3c2bb0a92d03a2bf2528ba872bb69fc8779fc900"
-  },
+  "updated_at": "2026-11-26T09:16:40.424Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -295,7 +281,8 @@
         "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
       },
       "own_publication": true,
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json",
+      "mergeable": true
     },
     {
       "number": 164,
@@ -3028,7 +3015,7 @@
         "3a907132-e946-11f1-8053-07aefcd5d20d",
         "98598716-e975-11f1-8258-56c307187b9a"
       ],
-      "notes": "Own main-based publication now preserves Currencies’ public-main integration answer and exact-main verification. Exact head 8cc907b6 currently conflicts with main and remains intact for independent review. Finding #140 remains open.",
+      "notes": "Own main-based publication now preserves Currencies’ public-main integration answer and exact-main verification. Exact head 8cc907b6 is mergeable and awaits independent review. Finding #140 remains open.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
         "audit_pr_175_previous": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
@@ -3054,7 +3041,8 @@
         "agora_verdict_blob": "eca9073736286958fcd77d6b17722d862c4e436f"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/137-chess-agora-main-integration-20261126.json",
-      "own_publication": true
+      "own_publication": true,
+      "mergeable": true
     },
     {
       "number": 180,

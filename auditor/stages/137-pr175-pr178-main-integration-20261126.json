@@ -264,7 +264,7 @@
     "157": "Add vGLP compiler support for Chess functions, compile the platform and run an app.",
     "160": "Run the focused agreed, claimed and automatic-draw controls and compiled acts.",
     "161": "Run the focused executable Start collision controls.",
-    "publications": "Await independent exact-head review of PR #175 at 41be6f76 and PR #178 at 8cc907b6. PR #178 currently reports a merge conflict and is preserved for review."
+    "publications": "Await independent exact-head review of PR #175 at 41be6f76 and PR #178 at 8cc907b6. Both heads are mergeable and have no reviews."
   },
   "urls": {
     "chess_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673",

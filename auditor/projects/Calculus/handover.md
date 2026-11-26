@@ -2,7 +2,7 @@
 
 Public GLP main `a9d40778` contains the cited Chess and Agora repair commits and exact candidate blobs. Chess passed 10/10 source assertions and 5/5 Start projections. Agora passed 9/9 source assertions and 4/4 Withdraw projections. Chess’s platform remains uncompiled, and current main has no Section GCE in the shared test script. No GLP, Dart, Flutter, compiler, app, adoption or cascade execution ran. [Chess answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/175#issuecomment-7186960673) · [Chess publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/175) · [Agora answer](https://github.com/udi-shapiro/Grassroots-Audit/pull/178#issuecomment-7186960980) · [Agora publication](https://github.com/udi-shapiro/Grassroots-Audit/pull/178) · [Stage](../../stages/137-pr175-pr178-main-integration-20261126.json)
 
-Next: obtain independent review of PR #175 at `41be6f76` and PR #178 at `8cc907b6`. Preserve PR #178’s conflict for review. Keep #157, #160, #161 and #140 open for their recorded executable checks.
+Next: obtain independent review of PR #175 at `41be6f76` and PR #178 at `8cc907b6`. Both publication heads are mergeable and await independent review. Keep #157, #160, #161 and #140 open for their recorded executable checks.
 
 ## Stage 136 — Warnings and Tennis public-main integration — 26 November 2026 UTC
 
