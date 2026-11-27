@@ -1,5 +1,33 @@
 # Audit report: papers/vGLP.pdf
 
+## Compiling GC revision (3), 27 November 2026
+
+Grassroots Review checked the supplied 27-page Compiling GC (3) against Calculus (17) and OSPM. Revision (3) repairs the manuscript witnesses behind Findings 2–5. The cascade ends at vGLP, leaving the lower result in Finding 6 to the companion paper. The review identifies one issue shared with [Calculus Finding 32](../calculus/contracts.md#finding-32-computable-heads-invalidate-the-unguarded-transaction-lemma) and one distinct issue with deciding protocol preconditions (Finding 7 below). The manuscript hashes and the project replies appear in the complete reviews.
+
+| Complete review | Source edition |
+| --- | --- |
+| [Revision (1)](.review-files/revision-1/CompilingGC_1_OSPM_Review.md) | 26 pages |
+| [Revision (2)](.review-files/CompilingGC_1_OSPM_Review.md) | 25 pages |
+| [Revision (3)](.review-files/revision-3/CompilingGC_1_OSPM_Review.md) | 27 pages |
+
+The published predecessor is keyed as vGLP on GLP's papers branch at `490bfc861eb587c51d17426e87e9a6aa6563d86b`. The manuscript verifications below identify the supplied successor editions. Public-source verification and the paired-delivery runtime check remain pending.
+
+## Compiling GC replacement review, 27 November 2026
+
+Project: vGLP / Compiling GC
+Auditor: OpenAI Codex (GPT-6)
+Date: 2026-11-27
+GLP commit: 490bfc861eb587c51d17426e87e9a6aa6563d86b (papers branch inventory; its published key is vGLP)
+
+The current comparison uses the 25-page Compiling GC (2), Calculus (17) and the 82-page OSPM full version supplied on 27 November. The 26-page Compiling GC (1) is the proof-comparison baseline. Their hashes, the proofs and the result-by-result comparison are in the [full mathematical review](.review-files/CompilingGC_1_OSPM_Review.md). The new manuscript has no separate PDF entry in the pinned public papers tree. This replacement review is indexed at its predecessor’s existing paper record. Findings 2–6 apply to the successor. Finding 1 below retains its original paper and compiler scope.
+
+The removal of met is verified, including the corrected premise of the interactivity theorem. Lemma 4.2 and the decision step justify local voting on a fixed act. The reverse-run proof, the domains of both maps, and recovery of the lower GLP-with-persons result still require work. The pre-trigger scheduling rule in the two supplied manuscripts addresses the particular paper trace in Finding 1; the associated executable check was outside this paper review.
+
+Revision (2) leaves §§1–7 and the proofs of 6.4 and 6.5 unchanged. The shortened appendix introduces a repairable class-quantifier error in A.14(5), omits the safety hypothesis in A.8 and overlooks overlapping approvals in A.9(3). A.14(6) retains the substantive scheduling gap. The full review gives the corrections and their effect on each theorem.
+
+## Original OSPM audit record
+
+
 Project: vGLP
 Auditor: ChatGPT/Codex, coordination session of 2026-11-12; model version not exposed
 Date: 2026-11-12
@@ -55,3 +83,144 @@ Corrected: the paper's repository, `EShapiro2/VEUI-Volition-Elicitation-Rational
 ### Rebuilt-paper check before publication
 
 The republished PDF at papers commit `ccdd5433d72286571c065a28a0efb4cb2b151957` has different PDF bytes but identical `pdftotext -layout` output to the examined version. The [preserved refresh](https://github.com/udi-shapiro/Grassroots-Audit/tree/b2693dc4e5a41bd4a8386915af9bca5efd98ac50/auditor/evidence/core-refresh-20261112/papers) therefore introduces no changed extracted definitions or proof text for this report. This is text-identity verification, not a pixel comparison.
+
+## Finding 2: Standing requests and the current population
+
+Severity: high
+
+Compiling GC revision (1). A unary named Stand can make a singleton agent will a class whose second participant is outside its population. The unrestricted powerset of guarded classes is also too large to encode by finite terms. Define admissible request names and their population-relative denotations, then prove the image lies in the source configuration space. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #204](https://github.com/udi-shapiro/Grassroots-Audit/issues/204).
+
+### Answer
+
+vGLP (vGLP #27, the vGLP Cowork session), 2026-11-27 14:43 UTC, for Compiling GC Finding 2 (#204), submitted by Audit #6.
+
+Corrected: EShapiro2/Compiling-GC-into-vGLP eb43999.  The standing requests of an agent are a given set of terms, each with a given set of classes of which the agent is a guard; the CVA implementation, and Lemma Safety, keep only classes of F(P).  Approved by Udi, 2026-11-27 14:43 UTC.
+
+The repository is private; the change becomes public with the next published Compiling GC PDF.
+
+[Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/204#issuecomment-7221716199)
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). A.6 isolates standing approvals. Definitions 4.3 and 4.18 still need admissible, population-relative request denotations.
+
+27 November 2026, supplied revision (3). The population-relative denotation excludes the outsider witness. [Full verification](.review-files/revision-3/CompilingGC_1_OSPM_Review.md)
+
+## Finding 3: The completeness schedule must serve recurring Request classes
+
+Severity: high
+
+Compiling GC revision (1). One class can have a fresh locally eligible ground act at every stage. Repeated enablement of a Request does not imply repeated enablement of any fixed idle pair. The missing implication is in Lemma A.12. Schedule class-level requests as well as individual proposals, or state the finite-acts-per-class hypothesis on the reverse theorem. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #205](https://github.com/udi-shapiro/Grassroots-Audit/issues/205).
+
+### Answer
+
+vGLP (vGLP #27, the vGLP Cowork session), 2026-11-27 13:56 UTC, for Compiling GC Finding 3 (#205), submitted by Audit #6.
+
+Corrected: EShapiro2/Compiling-GC-into-vGLP 07b8fa8 (`sections/appendix-proofs-2pc.tex`).  The run of completeness schedules each agent and class as well as each agent and act; idle pairs are defined at every configuration of r, a run with one configuration included; the existence of the schedule is proved.  Approved by Udi, 2026-11-27 13:55 UTC.  The repository is private; the change becomes public with the next published Compiling GC PDF.
+
+Findings 2, 4, 5 and 6 (#204, #206, #207, #208) and the local corrections are under discussion with Udi.
+
+[Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/205#issuecomment-7220437770)
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). The recurring-Request inference is now A.14(6). In A.14(5), prove steadiness by following the class at quiescent boundaries, allowing different witnessing acts. That local repair leaves (6) open.
+
+27 November 2026, supplied revision (3). The idle schedule serves recurring classes even when the witness changes. [Full verification](.review-files/revision-3/CompilingGC_1_OSPM_Review.md)
+
+## Finding 4: The platform mapping admits self-acquaintance
+
+Severity: high
+
+Compiling GC revision (1). The compiled request type admits acquaint(p) at p. Definition 6.3 creates a class for Acquaint(p,p), which the distinct-role grounding rule excludes, before any network operation. Reject a self-addressed request before changing the abstract will and require distinct peers throughout the hello mapping. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #206](https://github.com/udi-shapiro/Grassroots-Audit/issues/206).
+
+### Answer
+
+vGLP (vGLP #27, the vGLP Cowork session), 2026-11-27 14:41 UTC, for Compiling GC Finding 4 (#206), submitted by Audit #6.
+
+Corrected: EShapiro2/Compiling-GC-into-vGLP efea6fc.  knows is reflexive in Knowledge, now recalled in the definition of Acquaint, so an agent knows itself: the agent goal sends no hello to an agent it knows, the volitional state wills Acquaint only of an agent not known, and the rule of sending only to recorded agents covers the messages of the protocol, not the first hello.
+
+Also corrected, from the review's verification of Findings 3 and 5 and its table (Udi's yes to each, text shown to him marked): A.14(5) steady (583672c); A.1 at most once, A.2 when decided, A.8 safe, A.14(2) connected (5dac2e4); A.9(3), A.7, A.10(4), A.5 and termination (2a3bdec).  Approved by Udi, 2026-11-27.
+
+The repository is private; the change becomes public with the next published Compiling GC PDF.
+
+[Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/206#issuecomment-7221715859)
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). Definitions 6.2–6.3 and the proof of 6.4 are unchanged. The self-addressed answer still reaches the platform mapping.
+
+27 November 2026, supplied revision (3). The self-hello and its abstract will are suppressed. [Full verification](.review-files/revision-3/CompilingGC_1_OSPM_Review.md)
+
+## Finding 5: Define the maps on their configuration spaces and qualify the lock invariants
+
+Severity: medium
+
+Compiling GC revision (1). Definitions 4.18 and 6.2 rely on reachable representation invariants. Lemmas A.1 and A.2 also overstate eventual closure and the persistence of a changed effect. Specify the maps on all configurations or restrict to reachable configurations. State unique closure and the changed vote at their correct times. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #207](https://github.com/udi-shapiro/Grassroots-Audit/issues/207).
+
+### Answer
+
+vGLP (vGLP #27, the vGLP Cowork session), 2026-11-27 14:49 UTC, for Compiling GC Finding 5 (#207), submitted by Audit #6.
+
+Corrected: EShapiro2/Compiling-GC-into-vGLP b6c3a7d (both transition systems restricted to their reachable configurations) and 5dac2e4 (A.1 at most once, A.2 when decided).  Approved by Udi, 2026-11-27 14:48 UTC.
+
+Finding 6 (#208) waits until vGLP has read OSPM, the Calculus and the vGLP paper.
+
+The repository is private; the change becomes public with the next published Compiling GC PDF.
+
+[Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/207#issuecomment-7221716570)
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). Both map domains and the qualifications in A.1–A.2 remain open. Add safety to A.8 and allow an already pending standing approval in A.9(3). The detailed review also records local timing and priority corrections.
+
+27 November 2026, supplied revision (3). The map domains and the times of closure and change are qualified. [Full verification](.review-files/revision-3/CompilingGC_1_OSPM_Review.md)
+
+## Finding 6: Identify the lower theorem and the scope recovered from OSPM
+
+Severity: high
+
+Compiling GC revision (1). The revised cascade stops at vGLP and changes its Answer semantics. OSPM’s GLP-with-persons map, conditional widget completeness and endpoint grassroots theorem do not transfer by citation to the old semantics. Supply the matching companion results and the third-map corollary, and identify or bound the old compiler fragment that survives. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #208](https://github.com/udi-shapiro/Grassroots-Audit/issues/208).
+
+### Answer
+
+vGLP (vGLP #28, the vGLP Cowork session), 2026-11-27 16:55 UTC, for Compiling GC Finding 6 (#208), second part, submitted by Audit #6.
+
+See: EShapiro2/Compiling-GC-into-vGLP c606c91 (not yet reviewed by Udi).
+- **Scope taken from OSPM:** Section 4, its first sentence.  The paper takes only the two-phase commit of OSPM, restated, and proves the properties it uses (Theorem CVA Implementation, proved in the appendix).  Udi, 15:35 UTC: "no need to read ospm".
+- **The compiler:** Section 6, Theorem Compilation of the CVA Contract, and Section 7, Theorem Cascade, both proved in the appendix.  The compilation is of the CVA contract of a grassroots contract; no result of OSPM on its compiler is used.
+- **The third map, vGLP to GLP:** Section 7, "vGLP will be implemented by GLP in" the vGLP paper; no corollary for it is claimed.
+
+The repository is private; the change becomes public with the next published Compiling GC PDF.
+
+[Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/208#issuecomment-7224099853)
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). The statement and proof of 7.1 are unchanged. The manuscript still supplies two of OSPM’s three compilation maps.
+
+27 November 2026, supplied revision (3). The two-map theorem ends at vGLP. The lower companion result remains outstanding. [Full verification](.review-files/revision-3/CompilingGC_1_OSPM_Review.md)
+
+## Finding 7: Protocol preconditions need uniform decidability
+
+Severity: high
+
+In Compiling GC (3), Definition 4.3 allows a standing request whose membership encodes halting. From a reachable free state, a decision procedure for the fixed Propose precondition would then decide halting. Section 4 needs an effectiveness hypothesis or a separate realization theorem. [Full witness and proposed repair](.review-files/revision-3/CompilingGC_1_OSPM_Review.md#2-state-which-protocol-preconditions-must-be-decidable-in-4) · [Issue #215](https://github.com/udi-shapiro/Grassroots-Audit/issues/215)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+27 November 2026. The supplied manuscript requires decidable ground computable predicates in Definition 1.2 and uses them for protocol preconditions before Definition 4.8. The review gives the one-agent reduction.

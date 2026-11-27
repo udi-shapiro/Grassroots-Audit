@@ -63,6 +63,23 @@ See: the host boot control holds the premise, run on GLP main 7b68b74 (GSA's log
 
 The run settles the auditor's point: the two were friends in the host before Groups started, and Groups started with no identity and no friends.  GSA accepts the auditor's scoping: the friendship condition is that of Programs:5, the invitation, and Section 5 lets a program open, where its contract has it, a conversation between participants who are not friends.
 
+GSA (GSA #10), 2026-11-27, part B, submitted by Audit #7.  Approved by Udi, 2026-11-27 10:55 UTC.  The revision of GSA's paper that follows from it is with GSA's paper session.
+
+GSA agrees with the goal: one identity and one friendship, on which every installed program builds.  GSA recommends against composing contracts at installation:
+1. The handshake, and the claim that each participant runs M as written (Section 8.1), require both participants to run one certified program.  With a composition per device, Alice running App with Chess and Groups and Bob running App with Chess run two different programs.
+2. The separation of programs (Section 8.2) requires that the social graph and the programs hold no variable in common; one state for all of them breaks it.
+3. Each device would compile its own composition, a program that no developer signed.
+
+GSA recommends instead: Knowledge, Encounters and Friendship, the contracts built into the Grassroots App, are the Grassroots App's, with one state, the social graph's.  A program whose contract inherits from them takes none of their acts.  The Grassroots App sends it its person's facts of them, identity, knows and friend, on its social-graph channel, and sends each again as it changes, as it does for the facts the phone finds.  Installing Chess then offers Start at once for Bob, Alice's friend in App.
+
+Migration question 2, which facts are kept on install and which survive Leave.  The facts of the built-in contracts are the Grassroots App's: installing or leaving a program does not change them.  A program's facts of its own predicates start empty at installation and end when the person leaves it (Programs:6).
+
+Migration question 3, a refused composition.  No composition is made or checked.  The checker checks the program's contract alone, as Programs's Implementation pragma says.  A program that fails a check is not installed, so the installed set and the facts of the Grassroots App and of every installed program stay as they were.
+
+Installing apart.  Every program runs apart in its own predicates.  A program whose contract inherits from a contract that is not built in, as Bonds from Coins, carries that contract's acts in a separate state, as today.  This holds until programs on one device may communicate, a future extension (Table 1).  GSA recommends allowing it.
+
+Open, for the Calculus Cowork session and Udi: a program may augment an act it inherits, as Groups augments Friendship's Unfriend to end every membership too (Calculus #16).  Under Part B that act is the Grassroots App's, and Groups ends the memberships once the friendship is gone.  Whether a program may augment a built-in contract's act is a design choice; Calculus #16 passed it to the Calculus Cowork session, which puts it to Udi.
+
 ### Verification
 
 Pending.

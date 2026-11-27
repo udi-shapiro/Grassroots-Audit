@@ -14,6 +14,10 @@ The four citations in the paragraph render as `[?]`. The paragraph’s publicati
 
 PDF Git blob `dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed`, SHA-256 `dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90`. Executed `pdftotext -layout` and counted the four placeholders in the extracted paragraph. The application passages supporting Findings 3 and 4 are still present in §§4.1–4.2.
 
+**27 November 2026 follow-up.** [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that the four bibliography entries were added to a private manuscript repository and explicitly says its PDF was not yet public. A later [public VMAT PDF at GLP papers commit `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf) independently resolves the paragraph’s four citations as [41] Nash, [39] Myerson, [20] Esparza and Desel, and [7] Bartoletti and Zunino, with matching bibliography entries. The citation-integration follow-up is verified against this public artifact. The earlier verification above remains the record for its older source pin.
+
+Public PDF Git blob `ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8`, SHA-256 `3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996`. Executed `pdftotext -layout`, inspected the paragraph and four bibliography entries, and counted zero `[?]` placeholders in the extracted PDF. No private repository was used for this verification.
+
 ## Revision 23 review
 
 **26 November 2026.** The revised paper resolves both formal findings from the review against Luca’s thirteen comments. Definition 11 now assigns each else effect a class before testing for overlapping closures. Definition 4 now allows a person to will a transaction with another person. Section 2 describes the definitions in dependency order. Two statements in the worked applications still require correction, recorded as findings 3 and 4. Both passages also appeared in revision (22).
