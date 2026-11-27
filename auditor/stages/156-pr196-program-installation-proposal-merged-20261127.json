@@ -1,0 +1,194 @@
+{
+  "stage": 156,
+  "date": "2026-11-27",
+  "title": "PR #196 program installation proposal merged",
+  "event": {
+    "delivery_id": "02ce7c98-e9f6-11f1-99aa-11e6b72f71f9",
+    "event_type": "pull_request",
+    "action": "synchronize",
+    "actor_login": "nimrodtalmon",
+    "pull_request_number": 196,
+    "comment_id": null,
+    "head_sha": "b9ab45a2efd7473f7fe9423f1190da11cb7938ea",
+    "discussion_version": {
+      "comments": 2,
+      "reviews": 2,
+      "review_threads": 0,
+      "comment_ids": [
+        7205232119,
+        7206140079
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABandVTw",
+        "PRR_kwDOVrts7s8AAAABanoCpQ"
+      ],
+      "review_versions": [
+        {
+          "id": "PRR_kwDOVrts7s8AAAABandVTw",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-26T22:36:24Z",
+          "author": "udi-shapiro"
+        },
+        {
+          "id": "PRR_kwDOVrts7s8AAAABanoCpQ",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-26T23:06:48Z",
+          "author": "udi-shapiro"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7205232119,
+          "updated_at": "2026-11-26T23:04:33Z"
+        },
+        {
+          "id": 7206140079,
+          "updated_at": "2026-11-27T00:03:58Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-27T00:03:58Z"
+    },
+    "processed_at": "2026-11-27T00:08:18.439Z",
+    "source_pins": {
+      "audit_pr_196": "b9ab45a2efd7473f7fe9423f1190da11cb7938ea",
+      "previous_head": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+      "audit_report_blob": "0a2e5aeaab019126df4579715a30327ad54950b6",
+      "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+      "published_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+      "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+      "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+      "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+      "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+      "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+      "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+      "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+      "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+      "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+      "audit_main": "503760e5d741c119c359c3bc150ae321d830f6ea",
+      "audit_main_before_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+      "glp_papers_previous": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+      "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54"
+    },
+    "outcome": "Merged the GCE/UI proposal under GSA ownership after verifying the revised description and regenerating the status table byte for byte. Issue #193 remains a proposal. The public Friendship trace retains its source-inspection scope. App-to-Chess execution and generalization to every app remain unverified.",
+    "urls": {
+      "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+      "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+      "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7206140079",
+      "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/503760e5d741c119c359c3bc150ae321d830f6ea",
+      "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/503760e5d741c119c359c3bc150ae321d830f6ea/programs/social/graph/Programs.txt.md",
+      "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/156-pr196-program-installation-proposal-merged-20261127.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/156-pr196-program-installation-proposal-merged-20261127.json"
+    }
+  },
+  "related_events": [
+    {
+      "delivery_id": "84fde2c6-e9f6-11f1-9de1-a856bd63ed0e",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 196,
+      "comment_id": null,
+      "head_sha": "b9ab45a2efd7473f7fe9423f1190da11cb7938ea",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7205232119,
+          7206140079
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABandVTw",
+          "PRR_kwDOVrts7s8AAAABanoCpQ"
+        ],
+        "review_versions": [
+          {
+            "id": "PRR_kwDOVrts7s8AAAABandVTw",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-26T22:36:24Z",
+            "author": "udi-shapiro"
+          },
+          {
+            "id": "PRR_kwDOVrts7s8AAAABanoCpQ",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-26T23:06:48Z",
+            "author": "udi-shapiro"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7205232119,
+            "updated_at": "2026-11-26T23:04:33Z"
+          },
+          {
+            "id": 7206140079,
+            "updated_at": "2026-11-27T00:03:58Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T00:03:58Z"
+      },
+      "processed_at": "2026-11-27T00:08:18.439Z",
+      "source_pins": {
+        "audit_pr_196": "b9ab45a2efd7473f7fe9423f1190da11cb7938ea",
+        "previous_head": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+        "audit_report_blob": "0a2e5aeaab019126df4579715a30327ad54950b6",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "published_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+        "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+        "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+        "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+        "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+        "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+        "audit_main": "503760e5d741c119c359c3bc150ae321d830f6ea",
+        "audit_main_before_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+        "glp_papers_previous": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+        "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54"
+      },
+      "outcome": "Skipped the close event generated by this exact-head auditor merge. No new discussion version.",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+        "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7206140079",
+        "merge": "https://github.com/udi-shapiro/Grassroots-Audit/commit/503760e5d741c119c359c3bc150ae321d830f6ea",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/503760e5d741c119c359c3bc150ae321d830f6ea/programs/social/graph/Programs.txt.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/156-pr196-program-installation-proposal-merged-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/156-pr196-program-installation-proposal-merged-20261127.json"
+      },
+      "merged": true,
+      "merge_commit_sha": "503760e5d741c119c359c3bc150ae321d830f6ea"
+    }
+  ],
+  "source_pins": {
+    "audit_pr_196": "b9ab45a2efd7473f7fe9423f1190da11cb7938ea",
+    "previous_head": "3c1b582d6020b56955b2bf34870dea32e6633d09",
+    "audit_report_blob": "0a2e5aeaab019126df4579715a30327ad54950b6",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "published_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+    "regenerated_proposal_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "programs_source_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+    "app_source_blob": "c18cd593c9734e96b587936f8245e692dcf742fb",
+    "chess_source_blob": "d9a76173c7c973d288a78ede9b7942952de0efcf",
+    "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+    "friendship_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+    "friendship_platform_blob": "b1d542ff4537bc6559de5482ff9b2312312c2b88",
+    "chess_cascade_platform_blob": "2c8aef89e57c325407b28767ee45b558005a84ca",
+    "audit_main": "503760e5d741c119c359c3bc150ae321d830f6ea",
+    "audit_main_before_merge": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+    "glp_papers_previous": "3b85cbe12919c5411cfeecf3c3a157e6135e4efc",
+    "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54"
+  },
+  "outcome": "Merged the GCE/UI proposal under GSA ownership after verifying the revised description and regenerating the status table byte for byte. Issue #193 remains a proposal. The public Friendship trace retains its source-inspection scope. App-to-Chess execution and generalization to every app remain unverified.",
+  "next_work": [
+    "Follow issue #193 for GSA's answer and Nimrod's migration rule covering predicate identity, retention on Leave and atomic refusal. Keep the install-apart policy open.",
+    "Require public executable evidence before verifying App-to-Chess runtime behavior or a broader claim about all installed apps.",
+    "Continue the recorded core verification queue. All six original findings have attributed answers in the published reports. The newer public papers tree changes only VMAT.pdf relative to the last pin. Review that revision in its own scope."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/156-pr196-program-installation-proposal-merged-20261127.json"
+}

@@ -1,3 +1,9 @@
+## Stage 156 — Program installation proposal merged — 27 November 2026 UTC
+
+[PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) merged at `503760e5` from reviewed head `b9ab45a2`. The [Programs report](https://github.com/udi-shapiro/Grassroots-Audit/blob/503760e5d741c119c359c3bc150ae321d830f6ea/programs/social/graph/Programs.txt.md) preserves the GCE and UI contribution under GSA ownership. It records [issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193) as an open proposal. The status generator ran on blob-verified inputs and reproduced the merged table byte for byte at 38 reports, 71 findings and 8 unanswered.
+
+The public Friendship trace covers startup with the existing person's key and an empty contract state. The App run and UI demo remain attributed. App-to-Chess execution, shared predicate identity, fact retention on Leave and atomic refusal remain open. [Contributor revision](https://github.com/udi-shapiro/Grassroots-Audit/pull/196#issuecomment-7206140079) · [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/156-pr196-program-installation-proposal-merged-20261127.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/156-pr196-program-installation-proposal-merged-20261127.json)
+
 ## Stage 155 — Revised installation proposal reviewed — 26 November 2026 UTC
 
 [PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) at `3c1b582d` assigns Programs to GSA, credits GCE and the UI contributor, and leaves #193 as a proposal. Public source confirms that the Friendship mini-app gets the host’s existing key and initializes empty contract state. The Chess cascade is marked uncompiled at the same pin. This was source inspection. The reported App-to-Chess demo remains pending independent reproduction.
