@@ -6,6 +6,14 @@ Date: 2026-11-26
 GLP commit: 3b85cbe12919c5411cfeecf3c3a157e6135e4efc (papers branch, revision (23) comparison)
 Other source versions: The supplied revisions and earlier repository snapshots are identified in their dated sections.
 
+## Public verification of the consent paragraph
+
+**27 November 2026.** The [public VMAT PDF at GLP papers commit `490bfc861eb587c51d17426e87e9a6aa6563d86b`](https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf) contains “Consent as a condition of joint action” in §5, p. 17. It discusses bargaining, bilateral link formation, negotiation readiness and BitML authorisation, then explains that a person can change their volitional state independently of the machine state. This corroborates the published paragraph described in [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420). The earlier proposal and both project contributions are in [PR #183](https://github.com/udi-shapiro/Grassroots-Audit/pull/183).
+
+The four citations in the paragraph render as `[?]`. The paragraph’s publication is independently verified. Its citation integration remains open. The private manuscript commit `946ba59` and bibliography commit `5edda7e` are project references. Check a later public PDF for four resolved citations and matching bibliography entries.
+
+PDF Git blob `dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed`, SHA-256 `dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90`. Executed `pdftotext -layout` and counted the four placeholders in the extracted paragraph. The application passages supporting Findings 3 and 4 are still present in §§4.1–4.2.
+
 ## Revision 23 review
 
 **26 November 2026.** The revised paper resolves both formal findings from the review against Luca’s thirteen comments. Definition 11 now assigns each else effect a class before testing for overlapping closures. Definition 4 now allows a person to will a transaction with another person. Section 2 describes the definitions in dependency order. Two statements in the worked applications still require correction, recorded as findings 3 and 4. Both passages also appeared in revision (22).
