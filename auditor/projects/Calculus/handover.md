@@ -1,3 +1,7 @@
+## Stage 160 — Calculus (16) reconciliation — 27 November 2026 UTC
+
+[PR #202](https://github.com/udi-shapiro/Grassroots-Audit/pull/202) was already merged from `4a8405aa` at `9ca68e74`. All five files match the reviewed publication. The three-person Knowledge model passed against the scope of the public Knowledge schema at GLP `7b68b74c`. A fresh public compiler run reproduced 93 Commute results, Return 62 exact and 31 equivalent, and Recover 71 exact and 22 equivalent. The 13 village inputs are absent at this pin. The separate checker claims and supplied-manuscript theorems retain their original evidence scope. [Report](https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json)
+
 ## Stage 157 — GSA’s first Programs answer recorded — 27 November 2026 UTC
 
 [PR #197](https://github.com/udi-shapiro/Grassroots-Audit/pull/197) merged from `597c4434`, preserving GSA’s part A and the attributed Calculus response. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) records the auditor’s scope check separately and awaits review. The public Groups platform starts with empty contract state. Its standalone play injects the conversation directly. The host invitation path still needs a runtime check. The public GSA paper distinguishes key recovery from app state, and the public App and Chess inheritance paths converge on Friendship and Knowledge.

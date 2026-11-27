@@ -1,0 +1,713 @@
+{
+  "stage": 160,
+  "collected_at": "2026-11-27T12:44:42.291Z",
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+    "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+    "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+    "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+    "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+    "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+    "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+    "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+    "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+    "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+    "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+  },
+  "merge_parents": [
+    "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+    "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85"
+  ],
+  "published_pr202_blobs": {
+    "ISSUES.md": "7eb1e50b04f42eded04d930b39a47bed8bbf3e09",
+    "calculus/.review-files/Calculus_16_GSC_19_Review.md": "2036a9a8641a451a16b948b7abeadb09f4014470",
+    "calculus/.review-files/knowledge_three_people.py": "f84a1be0919a940d570880509412ae5db371bdee",
+    "calculus/contracts.md": "d4c46fc4e454dd0779cc85ee21b1030b9933bfc4",
+    "sections/status-table.tex": "20655215db4ad5c68f9a40a66db53a489909357a"
+  },
+  "discussion_versions": {
+    "183": {
+      "comments": 5,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7190541795,
+        7190771002,
+        7216478420,
+        7216712204,
+        7218591792
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7190541795,
+          "updated_at": "2026-11-26T11:17:45Z"
+        },
+        {
+          "id": 7190771002,
+          "updated_at": "2026-11-26T11:28:19Z"
+        },
+        {
+          "id": 7216478420,
+          "updated_at": "2026-11-27T10:55:55Z"
+        },
+        {
+          "id": 7216712204,
+          "updated_at": "2026-11-27T11:07:45Z"
+        },
+        {
+          "id": 7218591792,
+          "updated_at": "2026-11-27T12:43:12Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-27T12:43:12Z"
+    },
+    "202": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "203": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    }
+  },
+  "executed_checks": [
+    {
+      "command": "Git blob validation of the materialized audit and GLP files",
+      "result": "146 files matched the pinned trees."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Merged audit main and the PR #203 candidate",
+      "result": "38 reports, 73 findings, 10 unanswered. Each run reproduced the published table byte for byte."
+    },
+    {
+      "command": "python3 calculus/.review-files/knowledge_three_people.py",
+      "scope": "Audit model in PR #202, checked against the public Knowledge schema and the emitted term",
+      "result": "Passed. The trace never changes Alice and Bob together. Of 15 final instances, three Establish bodies fail and the six Acquaint and six Introduce instances leave the store unchanged."
+    },
+    {
+      "command": "python3 calculus/tools/gcsas.py",
+      "scope": "Public GLP main. Materialized calculus/contracts/<name>/logic-pragmas.txt as calculus/gr/<name>.txt in scratch; retained the pinned name table and compiler modules.",
+      "result": "Exit 0. 93 contracts, 0 with a fault. Commute 93. Return 62 exact, 31 equivalent. Recover 71 exact, 22 equivalent.",
+      "outcome_columns": [
+        "contract",
+        "commute",
+        "return",
+        "recover"
+      ],
+      "outcomes": [
+        [
+          "Knowledge",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Friendship",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Guardians",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Forwarding",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "AI Agents",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Overlay",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Organisation",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Notes",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Coins",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Bonds",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Denominated Coins",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Denominated Currencies",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Bank",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Community Bank",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Backed Community Bank",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Ads",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Agora",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Gossip",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Matching",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Services",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Rendezvous",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Anonymous Rendezvous",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Anonymous Matching",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Encounters",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Programs",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "AppStore",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Directory",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "App",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Booking",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Appointments",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Local Overlay",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Auction",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Labelled Overlay",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Feeds",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Resilient Feeds",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Backchannel Feeds",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Free Matching",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Carpool",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Central Bank",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Chess",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Groups",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Warded Groups",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Children",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Commercial Bank",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Community Network",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Recommendations",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Community Market",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Constitution",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Cooperative",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Corporation",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Trading Company",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Consumers' Cooperative",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Cooperative DAO",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "DAO",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Dating",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Democratic Community",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Disputes",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Distrust",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Nonprofit",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Foundation",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Funded DAO",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Gigs",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Help",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Home Exchange",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Jobs",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Joint Accounts",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Lending",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Library",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Liquid Cooperative",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Liquid DAO",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Lodging",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Lost and Found",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Meeting Rooms",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Mutual Credit",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Partners",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Partnership",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Promoted Gossip",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Promoted Matching",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Promoted Community Market",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Provenance Groups",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Rehearsal Rooms",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Second-Score Auction",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Rides",
+          "yes",
+          "equivalent",
+          "equivalent"
+        ],
+        [
+          "Secure Friendship",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Separating Distrust",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Shares",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Shareholding Corporation",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Short Feeds",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Single-Person Company",
+          "yes",
+          "equivalent",
+          "same"
+        ],
+        [
+          "Stays",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Tennis Courts",
+          "yes",
+          "yes",
+          "same"
+        ],
+        [
+          "Warnings",
+          "yes",
+          "yes",
+          "equivalent"
+        ],
+        [
+          "Workers' Cooperative",
+          "yes",
+          "equivalent",
+          "same"
+        ]
+      ],
+      "stdout_sha256": "d6ba95c6c84d55d8699880807d8071e056e43fc2653318f033369ee7c07f1f8d"
+    },
+    {
+      "command": "git hash-object VMAT.pdf; sha256sum VMAT.pdf; pdftotext -layout VMAT.pdf VMAT.txt",
+      "scope": "VMAT public PDF from the authorized connection at the pinned papers commit",
+      "result": "Exact blob verified. The §5 consent paragraph appears on PDF p. 17. Four unresolved citation markers in that paragraph. Both existing application passages relevant to #191 and #192 remain.",
+      "text_sha256": "0991197e201b41d266135c1bdf6c9f61eb5b48a970be139635e32e7daf432725"
+    }
+  ],
+  "scope_and_limits": [
+    "The 93 compiler results concern Commute, Return and Recover. They do not certify the contracts in the GLP checker.",
+    "None of the 13 names in calculus/VILLAGERS.txt has a calculus/contracts/<name>/logic-pragmas.txt input at the pinned public commit. The manuscript's 13 additional results and the project's separate met candidate run were not reproduced.",
+    "The public papers list has no Calculus PDF. Theorem 21, the comparison with GSC (19), Findings #200 and #201 as claims about manuscript definitions, and the Finding #99 resolution on the paper side remain at the scope of the merged review of the author-supplied manuscript. The present check independently confirms the public Knowledge Acquaint body and effects.",
+    "The private VMAT manuscript and bibliography commits were not inspected. Publication of the paragraph is verified from the PDF; the observed PDF does not resolve its four citations."
+  ],
+  "urls": {
+    "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+    "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+    "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+    "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+    "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+    "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+  }
+}

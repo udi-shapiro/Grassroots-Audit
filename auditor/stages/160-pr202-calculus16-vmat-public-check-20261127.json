@@ -1,0 +1,337 @@
+{
+  "stage": 160,
+  "date": "2026-11-27",
+  "title": "Calculus (16) reconciliation and public VMAT consent check",
+  "events": [
+    {
+      "delivery_id": "5dcc0f20-ea5f-11f1-9cf8-1721c98b7aa8",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 202,
+      "comment_id": null,
+      "head_sha": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T12:44:42.291Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+        "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+        "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+        "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+        "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+        "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+        "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+      },
+      "outcome": "Reconciled the opened event at the observed merged head. Reproduced the public compiler and Knowledge checks.",
+      "merged": true,
+      "merge_commit_sha": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+      "urls": {
+        "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+        "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+        "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+        "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+        "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+      }
+    },
+    {
+      "delivery_id": "66628a42-ea5f-11f1-8d49-21bad593941d",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 202,
+      "comment_id": null,
+      "head_sha": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T12:44:42.291Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+        "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+        "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+        "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+        "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+        "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+        "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+      },
+      "outcome": "Confirmed the existing GitHub merge and all five published file blobs.",
+      "merged": true,
+      "merge_commit_sha": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+      "urls": {
+        "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+        "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+        "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+        "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+        "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+      }
+    },
+    {
+      "delivery_id": "0619ba74-ea60-11f1-97e1-f8e00bc85c5c",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 203,
+      "comment_id": null,
+      "head_sha": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T12:44:42.291Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+        "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+        "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+        "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+        "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+        "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+        "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+      },
+      "outcome": "Skipped the webhook from this run’s own recorded publication. The exact head has no discussion.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+        "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+        "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+        "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+        "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+      }
+    },
+    {
+      "delivery_id": null,
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 183,
+      "comment_id": 7218591792,
+      "head_sha": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+      "discussion_version": {
+        "comments": 5,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7190541795,
+          7190771002,
+          7216478420,
+          7216712204,
+          7218591792
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7190541795,
+            "updated_at": "2026-11-26T11:17:45Z"
+          },
+          {
+            "id": 7190771002,
+            "updated_at": "2026-11-26T11:28:19Z"
+          },
+          {
+            "id": 7216478420,
+            "updated_at": "2026-11-27T10:55:55Z"
+          },
+          {
+            "id": 7216712204,
+            "updated_at": "2026-11-27T11:07:45Z"
+          },
+          {
+            "id": 7218591792,
+            "updated_at": "2026-11-27T12:43:12Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T12:43:12Z"
+      },
+      "processed_at": "2026-11-27T12:44:42.291Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+        "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+        "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+        "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+        "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+        "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+        "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+      },
+      "outcome": "Posted the new public-PDF verification and recorded the auditor’s comment ID for deduplication.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+        "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+        "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+        "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+        "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+    "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+    "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+    "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+    "pr203_head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+    "vmat_pdf_sha256": "dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90",
+    "public_gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586",
+    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "knowledge_term_blob": "993e6401b8b0d85b1c15114eed9c85c9b8571c78",
+    "notes_pragmas_blob": "a33397dc32895c9777481757ca48fddfabaa38f6",
+    "villagers_names_blob": "ea6a8f381f63c7a8292c20957af7719bdbceb55f",
+    "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+    "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+  },
+  "publications": {
+    "pr202": {
+      "state": "merged before this run inspected it",
+      "merge_sha": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9"
+    },
+    "pr183": {
+      "state": "open",
+      "comment_id": 7218591792
+    },
+    "pr203": {
+      "state": "open for independent review",
+      "head": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+      "base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9"
+    }
+  },
+  "core_response_gate": {
+    "answered": 6,
+    "total": 6,
+    "verified_fixes_assumed": 0
+  },
+  "outcome": "Observed already merged. All five PR files match main. Reproduced the three-person Knowledge fixture, the public 93-contract compiler counts and the exact status table. Manuscript-specific conclusions remain scoped to the supplied manuscript in the merged review. Opened a separate main-based verification of the public VMAT consent paragraph. Four citations still render as [?]. Awaiting independent exact-head review.",
+  "next_work": [
+    "Keep Calculus Finding #84, GSC scope items #167–#170, and Calculus Findings #200–#201 at their recorded statuses. For manuscript checks use a pinned matching public Calculus artifact when available. For the village results obtain the 13 public inputs at a reproducible pin.",
+    "Review PR #203 at its exact head before merge. PR #183 remains open for its own independent exact-head review. On the next VMAT PDF change, verify that the four citation markers resolve to matching bibliography entries.",
+    "The six original core reports have dated project answers. Continue the recorded verification queue without counting a private commit reference as independently verified."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+  "urls": {
+    "calculus_pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202",
+    "calculus_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/contracts.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/Calculus_16_GSC_19_Review.md",
+    "fixture": "https://github.com/udi-shapiro/Grassroots-Audit/blob/9ca68e745e709a99d04c98edc8991dc44bb6b1d9/calculus/.review-files/knowledge_three_people.py",
+    "private_claim": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+    "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+    "vmat_pdf": "https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf",
+    "knowledge": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Knowledge/full-schemas.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/160-pr202-calculus16-vmat-public-check-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7218591792"
+  }
+}
