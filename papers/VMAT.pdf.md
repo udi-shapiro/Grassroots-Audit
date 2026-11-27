@@ -6,6 +6,18 @@ Date: 2026-11-26
 GLP commit: 3b85cbe12919c5411cfeecf3c3a157e6135e4efc (papers branch, revision (23) comparison)
 Other source versions: The supplied revisions and earlier repository snapshots are identified in their dated sections.
 
+## Public verification of the consent paragraph
+
+**27 November 2026.** The [public VMAT PDF at GLP papers commit `490bfc861eb587c51d17426e87e9a6aa6563d86b`](https://github.com/EShapiro2/GLP/blob/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers/VMAT.pdf) contains “Consent as a condition of joint action” in §5, p. 17. It discusses bargaining, bilateral link formation, negotiation readiness and BitML authorisation, then explains that a person can change their volitional state independently of the machine state. This corroborates the published paragraph described in [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420). The earlier proposal and both project contributions are in [PR #183](https://github.com/udi-shapiro/Grassroots-Audit/pull/183).
+
+The four citations in the paragraph render as `[?]`. The paragraph’s publication is independently verified. Its citation integration remains open. The private manuscript commit `946ba59` and bibliography commit `5edda7e` are project references. Check a later public PDF for four resolved citations and matching bibliography entries.
+
+PDF Git blob `dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed`, SHA-256 `dfd10615e3d1dbfd2b58eb7f71950c7f3dd9527fe13326399320b2261f1e3c90`. Executed `pdftotext -layout` and counted the four placeholders in the extracted paragraph. The application passages supporting Findings 3 and 4 are still present in §§4.1–4.2.
+
+**27 November 2026 follow-up.** [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that the four bibliography entries were added to a private manuscript repository and explicitly says its PDF was not yet public. A later [public VMAT PDF at GLP papers commit `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf) independently resolves the paragraph’s four citations as [41] Nash, [39] Myerson, [20] Esparza and Desel, and [7] Bartoletti and Zunino, with matching bibliography entries. The citation-integration follow-up is verified against this public artifact. The earlier verification above remains the record for its older source pin.
+
+Public PDF Git blob `ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8`, SHA-256 `3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996`. Executed `pdftotext -layout`, inspected the paragraph and four bibliography entries, and counted zero `[?]` placeholders in the extracted PDF. No private repository was used for this verification.
+
 ## Revision 23 review
 
 **26 November 2026.** The revised paper resolves both formal findings from the review against Luca’s thirteen comments. Definition 11 now assigns each else effect a class before testing for overlapping closures. Definition 4 now allows a person to will a transaction with another person. Section 2 describes the definitions in dependency order. Two statements in the worked applications still require correction, recorded as findings 3 and 4. Both passages also appeared in revision (22).
@@ -118,9 +130,13 @@ Take the initial two-person social graph. First $p$ wills Befriend, then $q$ wil
 
 Awaiting the VMAT project’s response.
 
+**27 November 2026 — VMAT.** Corrected: [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that private commit `d2a930c` carries the answer to issue #191. The public wording is evaluated separately below.
+
 ### Verification
 
 26 November 2026. Traced both runs against Definitions 4, 7 and 12 in revision (23), and checked the two application paragraphs in the pinned public PDF.
+
+**27 November 2026.** Independently verified in the [public VMAT PDF at GLP papers `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf). The preliminaries now say that a class which remains enabled must eventually be taken and that repeated enablement and disablement need not lead to a step. The social-graph and currency liveness paragraphs qualify every eventual-execution statement with “if it remains enabled.” This verifies the requested correction against the public artifact.
 
 ## Finding 4: A volition change preserves the friendship graph
 
@@ -134,9 +150,13 @@ Immediately after Lemma 34 (§4.1, p. 15), the text says exactly one friendship 
 
 Awaiting the VMAT project’s response.
 
+**27 November 2026 — VMAT.** Corrected: [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that private commit `d2a930c` carries the answer to issue #192. The public wording is evaluated separately below.
+
 ### Verification
 
 26 November 2026. Checked the projection to machine states in Definitions 3–4 and the claim following Lemma 34 in revision (23) and the pinned public PDF.
+
+**27 November 2026.** Independently verified in the [public VMAT PDF at GLP papers `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf). The sentence after Lemma 34 now says consecutive induced graphs are equal for a volition change and otherwise differ by exactly one added or removed edge. This verifies the requested correction against the public artifact.
 
 ## Earlier VMAT review of 12 November 2026
 
