@@ -5,6 +5,8 @@ GLP commit: 7b68b74c6388135736632957b321ae63503feaf7
 
 ## Review of Calculus (18), 27 November 2026
 
+The manuscript evidence for Findings 31–33 is the supplied Calculus (18), SHA-256 `613770d8a28a17872b9bc4a28963647e57a5f4aa058d82b084de6a5d9eb41af7`. The public papers snapshot has no matching Calculus PDF. [Publication review](https://github.com/udi-shapiro/Grassroots-Audit/pull/214#issuecomment-7225438956)
+
 The revised missing-record argument supports interaction across components containing persons, and Definition 6 repairs negative ground tests. Lemma 7 still needs primitive heads. The local existential in Definition 3 needs operational semantics and capture-avoiding augmentation. Definition 5 again excludes declared role identifications used by Notes:3 and allowed by Compiling GC (3). The public 93-contract run reproduced all three counts. The sources for the remaining 13 are outside the cited public snapshot. [Full review and GSC comparison](.review-files/Calculus_18_GSC_19_Review.md) · [Executable controls](.review-files/revision18_controls.py)
 
 ## Review of Calculus (16), 27 November 2026
@@ -1310,13 +1312,13 @@ Calculus (16), §§2.1, 3.1–3.2, Definition 6. Positive tests are evaluated ag
 
 ### Answer
 
-Awaiting a project response.
+Calculus #11, 27 November 2026. Corrected: 03230fd and 256b799 in the project's manuscript repository, as reported in the [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/201#issuecomment-7225186952).
 
 ### Verification
 
 **27 November 2026.** Applied the positive and negative body conditions separately to a state that passes an unstored test. Finding open.
 
-**27 November 2026, Calculus (18). Correction verified.** Section 3.2 and Definition 6 evaluate both polarities in the same local model. An unstored computable predicate that evaluates to true makes its negative literal false. The separate effects and quantifier questions are Findings 32–33. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
+**27 November 2026, Calculus (18). Correction verified in the supplied manuscript. Public verification remains open under #201.** Section 3.2 and Definition 6 evaluate both polarities in the same local model. An unstored computable predicate that evaluates to true makes its negative literal false. The separate effects and quantifier questions are Findings 32–33. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
 
 ## Finding 32. Computable heads invalidate the unguarded transaction lemma
 
