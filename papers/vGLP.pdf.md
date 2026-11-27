@@ -7,9 +7,11 @@ Auditor: OpenAI Codex (GPT-6)
 Date: 2026-11-27
 GLP commit: 490bfc861eb587c51d17426e87e9a6aa6563d86b (papers branch inventory; its published key is vGLP)
 
-The exact manuscripts reviewed are Compiling GC (1), Calculus (17) and the 82-page OSPM full version supplied on 27 November. Their hashes, the proofs and the result-by-result comparison are in the [full mathematical review](.review-files/CompilingGC_1_OSPM_Review.md). The new manuscript has no separate PDF entry in the pinned public papers tree. This replacement review is indexed at its predecessor’s existing paper record. Findings 2–6 apply to the successor. Finding 1 below retains its original paper and compiler scope.
+The current comparison uses the 25-page Compiling GC (2), Calculus (17) and the 82-page OSPM full version supplied on 27 November. The 26-page Compiling GC (1) is the proof-comparison baseline. Their hashes, the proofs and the result-by-result comparison are in the [full mathematical review](.review-files/CompilingGC_1_OSPM_Review.md). The new manuscript has no separate PDF entry in the pinned public papers tree. This replacement review is indexed at its predecessor’s existing paper record. Findings 2–6 apply to the successor. Finding 1 below retains its original paper and compiler scope.
 
 The removal of met is verified, including the corrected premise of the interactivity theorem. Lemma 4.2 and the decision step justify local voting on a fixed act. The reverse-run proof, the domains of both maps, and recovery of the lower GLP-with-persons result still require work. The pre-trigger scheduling rule in the two supplied manuscripts addresses the particular paper trace in Finding 1; the associated executable check was outside this paper review.
+
+Revision (2) leaves §§1–7 and the proofs of 6.4 and 6.5 unchanged. The shortened appendix introduces a repairable class-quantifier error in A.14(5), omits the safety hypothesis in A.8 and overlooks overlapping approvals in A.9(3). A.14(6) retains the substantive scheduling gap. The full review gives the corrections and their effect on each theorem.
 
 ## Original OSPM audit record
 
@@ -84,6 +86,8 @@ Awaiting a project response.
 
 2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
 
+2026-11-27 — Verified against revision (2). A.6 isolates standing approvals. Definitions 4.3 and 4.18 still need admissible, population-relative request denotations.
+
 ## Finding 3: The completeness schedule must serve recurring Request classes
 
 Severity: high
@@ -97,6 +101,8 @@ Awaiting a project response.
 ### Verification
 
 2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). The recurring-Request inference is now A.14(6). In A.14(5), prove steadiness by following the class at quiescent boundaries, allowing different witnessing acts. That local repair leaves (6) open.
 
 ## Finding 4: The platform mapping admits self-acquaintance
 
@@ -112,6 +118,8 @@ Awaiting a project response.
 
 2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
 
+2026-11-27 — Verified against revision (2). Definitions 6.2–6.3 and the proof of 6.4 are unchanged. The self-addressed answer still reaches the platform mapping.
+
 ## Finding 5: Define the maps on their configuration spaces and qualify the lock invariants
 
 Severity: medium
@@ -126,6 +134,8 @@ Awaiting a project response.
 
 2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
 
+2026-11-27 — Verified against revision (2). Both map domains and the qualifications in A.1–A.2 remain open. Add safety to A.8 and allow an already pending standing approval in A.9(3). The detailed review also records local timing and priority corrections.
+
 ## Finding 6: Identify the lower theorem and the scope recovered from OSPM
 
 Severity: high
@@ -139,3 +149,5 @@ Awaiting a project response.
 ### Verification
 
 2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+2026-11-27 — Verified against revision (2). The statement and proof of 7.1 are unchanged. The manuscript still supplies two of OSPM’s three compilation maps.

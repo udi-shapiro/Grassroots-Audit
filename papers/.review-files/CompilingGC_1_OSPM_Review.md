@@ -1,12 +1,29 @@
 # Compiling Grassroots Contracts into vGLP — mathematical review
 
-27 November 2026 · Grassroots Review · Compiling GC revision (1), 26 pages · Calculus revision (17), 15 pages · OSPM full version, 82 pages.
+27 November 2026 · Grassroots Review · Compiling GC revision (2), 25 pages · Calculus revision (17), 15 pages · OSPM full version, 82 pages.
 
 **Verdict.** The revised paper correctly imports the core clause semantics and the grassroots-for-persons theorem from Calculus (17). Lemma 4.2 explains why a fixed ground act admits local votes. The deciding vote gives an atomic point for its state change. The main proof gap concerns the completeness half of Theorem 4.19. There are also reachable cases in which the two proposed abstraction maps fail to produce configurations of their stated targets. Theorem 7.1 ends at vGLP. Retiring OSPM as a mathematical reference requires a result for the last compilation and an explicit account of the old specifications still covered.
 
+## Proof changes in revision (2)
+
+The paper is one page shorter. The text of §§1–7 and the appendix from the proof of Theorem 6.4 to the end agrees with revision (1) after removing page furniture and whitespace. The changes are concentrated in the earlier appendix. New Lemma A.6 isolates the lifetime and enablement of standing approvals. New Lemma A.8 isolates the two ways a coordinator becomes ready to retry an aborted act. The former Safety, Stages and Run of Completeness lemmas are now A.9, A.13 and A.14. The local factorization in 4.2 and the decision step in A.9(1) retain their arguments. The Calculus and OSPM comparison below therefore carries over.
+
+**A.14(5), p. 20 — restore the class quantifier.** Definition 4.16 starts with a class $U$ for which *some* act holds with its guards for $U$ at every configuration of a suffix. The witness can change. The printed proof starts with one act that holds throughout. Use this short argument instead. Suppose the antecedent of steadiness holds for $U$. At every quiescent boundary in that suffix, some witnessing act enables $U$ in the corresponding configuration of the source run $r$, by Lemma 4.2 and the definition of quiescence. Every remaining source configuration has such a boundary, with the last configuration used for a finite run. No attempt of $U$ is decided on the suffix, so no source transition of $U$ is taken there, by A.9 and A.13. This contradicts liveness of $r$. The antecedent is therefore impossible in the constructed run. This repairs (5) locally. Part (6) still needs the scheduling change in Finding 3.
+
+**A.8, p. 16 — add safety to the hypotheses of Ready.** State “in a safe, live, responsive run.” In the imported VMAT definitions a run starts in the initial state, and safety separately requires each step to be allowed. Part (ii) uses the safe-run lock invariant A.2 and the termination clause of Proposition 4.15, which explicitly assumes safety. The enclosing argument in A.11 already uses a correct run, so the added hypothesis is available to its caller.
+
+**A.9(3), p. 17 — allow overlapping approvals.** Take a locally ready guarded unary act of class $U$. Its agent can execute Stand on the singleton request $\{U\}$, then will and execute Request on $U$ before any Propose. Definition 4.8 excludes an earlier pending ordinary request at this second step. The standing approval is still pending, so the agent already holds $U$ by clause (B) of 4.18. Delete the claim that it held the affected classes “at most by (A) before.” After an approval its agent holds the affected classes by (B). Only that agent’s projected volition can change, and every settled state is preserved. This gives the claimed unary volition change or stutter.
+
+| Other shortened passage | Correction |
+|---|---|
+| A.5, p. 14, and termination in Proposition 4.15, pp. 15–16 | Restore the qualification that an already pending lower-priority question answered yes waits behind $\gamma$ **if $\gamma$ is a question**. Definition 4.7 allows the question to vote ahead of a waiting start. Only finitely many such questions predate that start, and lower-priority starts cannot replenish them while it waits. For a Vote on a yes answer, cite the same finite-blocking argument to show that the Vote eventually stays enabled. Responsiveness supplies the answer. |
+| A.7, p. 15, first paragraph | At the Vote on a pending question for $\alpha$, $\alpha$ has not already closed at the voter (Definition 4.6). A delayed abort or yield for another unvoted attempt of the same class can be read while the question is pending. By Outcome (4.11(13)) this leaves the answer to $\alpha$ intact. Restrict the closure assertion to the answered attempt and the instant of its Vote. |
+| A.10(4), p. 17 | A Decline recorded before the suffix may cause a Vote and a Tally **inside** the suffix. Count separately the finitely many earlier negative answers and the finitely many earlier no votes. Choose the cutoff after all their resulting refusals. |
+| A.14(2), p. 20 | Every agent records every other **after the finite initialization in A.13(i)**. This is sufficient for connectedness, an eventual property in Definition 4.16. |
+
 ## Relation to Calculus (17)
 
-| Calculus | Compiling GC (1) | Consequence |
+| Calculus | Compiling GC (2) | Consequence |
 |---|---|---|
 | Definitions 3–8 and Lemma 7 | Definitions 1.1–1.6 and Lemma 1.5 | Grounding, permitted coincidences of roles, symmetric heads, reflexive atoms, semantic constraints, nonstuttering updates and transaction equivalence carry across. Section 4 adds compiler hypotheses. |
 | Knowledge:2 and Definition 19 | Definitions 3.1 and 3.3 | Acquaint adds the two knows atoms. The introduction test no longer requires its predicate to occur in the head of just one clause. The proof of Lemma 4.13 and the platform mapping use the revised clause. The old met objection is resolved. |
@@ -20,19 +37,19 @@
 
 ## Open mathematical findings
 
-Numbers continue the audit record for the predecessor paper. All five concern revision (1).
+Numbers continue the audit record for the predecessor paper. All five remain open in revision (2).
 
 ### 2. Standing requests need names and a population
 
-Definitions 4.3, 4.5–4.6, 4.14, 4.18 and 6.1; Lemma A.7. Two restrictions are needed.
+Definitions 4.3, 4.5–4.6, 4.14, 4.18 and 6.1, and Lemmas A.6 and A.9. Two restrictions are needed.
 
 * **Representability.** Definition 4.3 allows every subset of the classes an agent guards. A single unary clause that can add mark(n) for any integer gives an agent countably many distinct classes. Their powerset is uncountable. Definition 4.5 represents each standing request by a term, but the language has only countably many finite terms. This problem occurs in §4, before §6 assumes decidability. Specify a family of named requests with a membership relation. For compilation provide its membership and enumeration procedures. OSPM 3.8 limited standing requests to decidable sets.
 * **A reachable failure.** Let Alice guard the classes of a binary act with each possible partner. For example, its rule adds done(y) at x, reads eligible(y) at x and open at y, and is guarded by x. Let the identifier-free request name *all* denote all of Alice's partner classes. Over the singleton population consisting of Alice, the unary Stand is free to run initially after the requisite volition change. Its record contains *all* and a counter. It names no outsider syntactically. Indeed, as soon as Alice wills its standing class, Definition 4.14 already makes her will every class in its denotation. Definition 4.18 therefore includes the class for Alice and Bob, although Bob is outside this population and that class has no representative in its transaction set. VMAT Definition 24 and Lemma 25 exclude it from the target volitional state. The local premise eligible(y) makes the candidates finite at each state even for this wildcard.
-* **Repair.** Define request denotations relative to the population, or explicitly intersect the projected classes with those of the source system over that population. Use the convention consistently for approval, willingness, freedom and fairness. In Lemma A.7 verify both guard membership and membership in the population's class set. If the latter restriction was implicit, this makes it precise.
+* **Repair.** Define request denotations relative to the population, or explicitly intersect the projected classes with those of the source system over that population. Use the convention consistently for approval, willingness, freedom and fairness. In Lemma A.9 verify both guard membership and membership in the population's class set. If the latter restriction was implicit, this makes it precise.
 
 ### 3. Pairwise fairness does not establish class fairness in the completeness construction
 
-Theorem 4.19 and Lemmas A.11–A.12, especially the last fairness argument in A.12. The constructed run must serve a Request of p for class U if it is enabled repeatedly and U never decides. The scheduling guarantee serves each fixed idle pair (p,a) that recurs infinitely often. Section 4 allows infinitely many acts in U.
+Theorem 4.19 and Lemmas A.13–A.14, especially A.14(6), pp. 20–21. The constructed run must serve a Request of p for class U if it is enabled repeatedly and U never decides. The scheduling guarantee serves each fixed idle pair (p,a) that recurs infinitely often. Section 4 allows infinitely many acts in U.
 
 Take the clause that adds done at p, with body p:tag(n), ¬p:done, q:gate, guarded by p. On a state containing both tag(i) and tag(j) and with the gate open, the two ground acts induce the identical machine transaction. Hence all these acts belong to one class U under Definition 1.6. Consider an abstract run in which p wills U, q's gate stays closed, and an independent unary clause replaces tag(n) by tag(s(n)) at p. Start with just tag(0). A guarded initializer can supply that tag and a separate guarded clause can open the gate on other runs. The advancing transactions can be taken as soon as enabled. U is never enabled in this source run, so its strong fairness places no obligation to take U.
 
@@ -48,7 +65,7 @@ Definitions 1.3, 3.1 and 6.2–6.3; Theorem 6.4. In a singleton population let p
 
 ### 5. State the domains of the abstraction maps and the times at which the lock invariants hold
 
-Definitions 4.5, 4.12, 4.18 and 6.2; Lemmas A.1, A.2 and A.7. An implementation map in the cited framework is a function on the concrete configuration space. Definition 4.12 constrains only the application part of a local state. A state containing two distinct lock atoms is therefore admissible as a configuration but has no unique lock for Definition 4.18 to read. An arbitrary vmaGLP resolvent likewise need not contain the unique compiled agent state assumed by Definition 6.2. Invariants proved from the initial configuration establish the map on reachable configurations. Restrict the systems to their reachable parts, or specify the valid representations and extend the maps on the complement. Findings 2 and 4 still require repairs on reachable configurations.
+Definitions 4.5, 4.12, 4.18 and 6.2; Lemmas A.1, A.2 and A.9. An implementation map in the cited framework is a function on the concrete configuration space. Definition 4.12 constrains only the application part of a local state. A state containing two distinct lock atoms is therefore admissible as a configuration but has no unique lock for Definition 4.18 to read. An arbitrary vmaGLP resolvent likewise need not contain the unique compiled agent state assumed by Definition 6.2. Invariants proved from the initial configuration establish the map on reachable configurations. Restrict the systems to their reachable parts, or specify the valid representations and extend the maps on the complement. Findings 2 and 4 still require repairs on reachable configurations.
 
 Two temporal statements also need tightening. Lemma A.1 says an attempt closes once at its initiator in a safe run. A finite safe prefix can end just after proposal. The safety fact is closure *at most once* and the outcome's unique provenance. Eventual closure is Proposition 4.15 under liveness and responsiveness. Lemma A.2 says that once an attempt is decided its effect changes some participant's machine state. After a committed unary addition of a flag, adding it again changes nothing. The invariant needed is that the effect changes at least one participant's locked pre-state **at decision**.
 
@@ -62,7 +79,7 @@ Section 5 and Theorem 7.1; OSPM §§5–6. OSPM 6.11 composes three maps. Compil
 
 | OSPM result or construction | Disposition in the revised papers |
 |---|---|
-| §2 and Appendix A, VMAT, implementation, fairness and grassrootsness | Largely imported through Compiling GC §§1–3 and VMAT. Recall the convention that the current population is nonempty and finite. Lemma A.5 and the finite all-pairs initialization in A.11 use it. |
+| §2 and Appendix A, VMAT, implementation, fairness and grassrootsness | Largely imported through Compiling GC §§1–3 and VMAT. Recall the convention that the current population is nonempty and finite. Lemma A.5 and the finite all-pairs initialization in A.13(i) use it. |
 | 3.6, every CVA platform is grassroots and volitionally grassroots | New 3.7–3.8 and 4.13 prove grassrootsness *for persons* of syntactically grassroots CVA contracts, including the raw implementing contract. The old theorem ranges over a different platform class and uses the “has not left” criterion. At the executable layer 6.5 proves ordinary grassrootsness. A first cold-call can be an interaction before the recipient consents. |
 | 3.8, 3.17–3.18, locality, canonical platform and introductions | 4.1–4.13 replace a part, its readings and joint condition with a fully grounded act, local domains, local updates and a changed bit. An unguarded act requires an opener binding every variable. A guarded act is initiated by a guard. OSPM also allowed a designated nonguard opener, selected proposers, requests spanning possible parts and explicit peer-introduction rules. In old §5.4 a source acquaintance request could itself bootstrap contact. In the revision, fresh renaming of a source Knowledge contract makes its acquaintance distinct from implementing Knowledge under the projection. |
 | 3.20, atomic commitment | 4.15 retains agreement and validity for the new act model. OSPM terminated each attempt on safe live runs, using the else branch of its approval step. Here Approve and Decline are both guarded. A silent guard can leave the coordinator locked. Responsiveness is an explicit additional hypothesis for termination. At the compiled layer every approval question of an attempt must receive an answer, even one whose attempt has since closed. |
@@ -91,7 +108,8 @@ The comparison uses the 82-page OSPM upload of 27 November. I checked the theore
 
 | Manuscript | SHA-256 |
 |---|---|
-| Compiling GC (1), 26 pp. | 366852d75c69090e69879362f26424727c0c4e923ebfdfaa4a1bf323de3fd31a |
+| Compiling GC (2), 25 pp., current | 4699adc97b277fd3016423455e103a51cb61c68e51d125fddc21390c28a2ce4c |
+| Compiling GC (1), 26 pp., comparison copy | 366852d75c69090e69879362f26424727c0c4e923ebfdfaa4a1bf323de3fd31a |
 | Calculus (17), 15 pp. | 603b0cb60a84bd3914e54c6d626a9ec8b02570d10bdf9633ecf4765301ef933e |
 | OSPM, 82 pp. | e3464b339edf997c66f97cb211efd57210ffcd18f3abc6f4f059aaaed6ea33a7 |
 
