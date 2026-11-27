@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-27T20:35:25.342Z",
-  "active_run": {
-    "run_id": "pr-watch-pr209-close-98b57418",
-    "holder": "Grassroots GPT auditor",
-    "started_at": "2026-11-27T20:35:25.342Z",
-    "lease_expires_at": "2026-11-27T20:50:25.342Z",
-    "event": {
-      "delivery_id": "98b57418-eaa1-11f1-894b-1fdd19d48984",
-      "event_type": "pull_request",
-      "action": "closed",
-      "pull_request_number": 209,
-      "comment_id": null
-    }
-  },
+  "updated_at": "2026-11-27T20:36:13.518Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -4211,7 +4199,8 @@
       "delivery_ids": [
         "4bc30ca4-ea62-11f1-9bbb-8ab563e82a1c",
         "1c9d3330-ea64-11f1-9a58-4d5cf900e38c",
-        "8c0a466c-eaa1-11f1-8faf-a11cf8314b0f"
+        "8c0a466c-eaa1-11f1-8faf-a11cf8314b0f",
+        "98b57418-eaa1-11f1-894b-1fdd19d48984"
       ],
       "own_publication": false,
       "notes": "Observed already merged. The five attributed replies and three reviewed editions are preserved. Public paper and runtime verification remain open.",
@@ -4234,7 +4223,18 @@
         "status_sha256": "387e53231d3741e4b2e6bede57bad67104f51f427ece7d31e7b29c49c29e7a3b"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json",
-      "mergeable": null
+      "mergeable": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
     },
     {
       "number": 210,
@@ -20494,6 +20494,66 @@
         "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/167-pr209-compilinggc3-merge-20261127.json",
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json",
         "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215"
+      },
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      }
+    },
+    {
+      "delivery_id": "98b57418-eaa1-11f1-894b-1fdd19d48984",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 209,
+      "comment_id": null,
+      "head_sha": "2a1a6530048ed50617c07cd311fc9a9787911cfd",
+      "processed_at": "2026-11-27T20:36:13.518Z",
+      "source_pins": {
+        "pr_head_before": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+        "pr_head": "2a1a6530048ed50617c07cd311fc9a9787911cfd",
+        "pr_base": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+        "audit_merge": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+        "merged_files": {
+          "ISSUES.md": "4935c9a830c01f7d08f213ce54a5de0bc8c6446e",
+          "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+          "papers/.review-files/revision-1/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+          "papers/.review-files/revision-3/CompilingGC_1_OSPM_Review.md": "9041119c5a8a43319e2ac2ca4d494b5f8c5c57bb",
+          "papers/vGLP.pdf.md": "77c99619eabb8a384e69d821c47fac8ae6bd3ad8",
+          "sections/status-table.tex": "690b1b4ff1435b2b37574f111d5d9096bc1cb1cc"
+        },
+        "status_sha256": "387e53231d3741e4b2e6bede57bad67104f51f427ece7d31e7b29c49c29e7a3b"
+      },
+      "outcome": "Matched the already-reconciled merge, exact head and empty discussion. No repeated verification or PR reply.",
+      "merged": true,
+      "merge_commit_sha": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/b82cd770c4185ccfda00324dc6415562b2408c0a/papers/vGLP.pdf.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/167-pr209-compilinggc3-merge-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215"
+      },
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
       }
     }
   ],
@@ -20581,6 +20641,17 @@
       ],
       "inline_versions": [],
       "latest_item_at": "2026-11-27T18:17:42Z"
+    },
+    "209": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
     },
     "213": {
       "comments": 0,
