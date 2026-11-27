@@ -1,3 +1,9 @@
+## Stage 157 — GSA’s first Programs answer recorded — 27 November 2026 UTC
+
+[PR #197](https://github.com/udi-shapiro/Grassroots-Audit/pull/197) merged from `597c4434`, preserving GSA’s part A and the attributed Calculus response. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) records the auditor’s scope check separately and awaits review. The public Groups platform starts with empty contract state. Its standalone play injects the conversation directly. The host invitation path still needs a runtime check. The public GSA paper distinguishes key recovery from app state, and the public App and Chess inheritance paths converge on Friendship and Knowledge.
+
+The status generator reproduced the table for both PRs at 38 reports, 71 findings and 8 unanswered. [Issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193) remains a proposal. Fact retention on Leave, atomic refusal and the install-apart policy await GSA’s follow-up. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/157-pr197-gsa-programs-answer-20261127.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/157-pr197-gsa-programs-answer-20261127.json)
+
 ## Stage 153 — Calculus (15) verification merged — 26 November 2026 UTC
 
 [PR #190](https://github.com/udi-shapiro/Grassroots-Audit/pull/190) merged the attributed project follow-up. [PR #195](https://github.com/udi-shapiro/Grassroots-Audit/pull/195) then merged at exact head `4f20c4a9`. The publication verifies findings #88 and #166 and keeps #84, #99, and the GSC scope items #167 through #170 in their recorded states. The exact merged status regenerates to 37 reports, 71 findings, and 8 unanswered.

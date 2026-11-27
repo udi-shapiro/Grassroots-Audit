@@ -1,3 +1,9 @@
+## Stage 157 — GSA’s first Programs answer recorded — 27 November 2026 UTC
+
+[PR #197](https://github.com/udi-shapiro/Grassroots-Audit/pull/197) merged from `597c4434`, preserving GSA’s part A and the attributed Calculus response. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) records the auditor’s scope check separately and awaits review. The public Groups platform starts with empty contract state. Its standalone play injects the conversation directly. The host invitation path still needs a runtime check. The public GSA paper distinguishes key recovery from app state, and the public App and Chess inheritance paths converge on Friendship and Knowledge.
+
+The status generator reproduced the table for both PRs at 38 reports, 71 findings and 8 unanswered. [Issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193) remains a proposal. Fact retention on Leave, atomic refusal and the install-apart policy await GSA’s follow-up. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/157-pr197-gsa-programs-answer-20261127.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/157-pr197-gsa-programs-answer-20261127.json)
+
 ## Stage 156 — Program installation proposal merged — 27 November 2026 UTC
 
 [PR #196](https://github.com/udi-shapiro/Grassroots-Audit/pull/196) merged at `503760e5` from reviewed head `b9ab45a2`. The [Programs report](https://github.com/udi-shapiro/Grassroots-Audit/blob/503760e5d741c119c359c3bc150ae321d830f6ea/programs/social/graph/Programs.txt.md) preserves the GCE and UI contribution under GSA ownership. It records [issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193) as an open proposal. The status generator ran on blob-verified inputs and reproduced the merged table byte for byte at 38 reports, 71 findings and 8 unanswered.
