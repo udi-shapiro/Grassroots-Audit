@@ -2,6 +2,10 @@
 
 Date: 2026-11-25
 
+## Review of Calculus (16), 27 November 2026
+
+The revised introduction proof works for a person who does not record the other person. By Lemma 24, distinct interaction components containing persons can always coalesce. A three-person trace of public Knowledge separates that theorem from unrestricted pairwise openness. Knowledge:2 now matches the catalogue. The new predicate-lifting condition resolves that part of Proposition 17. The same-source act identity and Coins vocabulary remain open. Findings 30 and 31 concern the grounding permissions in the two maps and the evaluation of negated tests. The independent rerun reproduced all 93 public rows of the reported 106. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md) and its [executable Knowledge check](.review-files/knowledge_three_people.py).
+
 ## Review of Calculus (15), 26 November 2026
 
 Definition 2 now distinguishes independent source contracts. Two separately citable acts with identical triples within one contract still collapse. The revised vocabulary also exposes a Coins overlap in Proposition 11 and a phrase-versus-predicate lifting problem in Proposition 17. Proposition 14 and the Appendix A witness choice resolve Findings 14 and 25. The historical 91-contract run passed again. The remaining GSC coverage and the three inheritance tests at two compiler commits are documented in the [revision (15) review](.review-files/Calculus_15_GSC_19_Review.md).
@@ -647,6 +651,8 @@ Corrected: 6dfa1ed9. The appendices are deleted; the two results will be proved 
 
 **Calculus follow-up, 26 November 2026, 22:10 UTC, submitted by Audit #6.** **Open.** The project recommends following the compiler: inherited acts merge only when both inheritance lines originate in the same act of the same contract, after renaming or lifting; independently declared identical acts remain separate. It recommends recording act origin in Definition 2 and restating Proposition 17 on that basis. No corrected manuscript was supplied. See: [full response](https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204442939).
 
+**Calculus, 26 November 2026.** The project recommends a stable act identifier, a canonical or restricted Coins vocabulary, and predicate-wide phrase lifting. See: [project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/84#issuecomment-7205321881).
+
 ### Verification
 
 24 November 2026. Checked against the supplied manuscript identified above. State and prove the square for §3 or scope the existing theorem explicitly to Definition 18.
@@ -658,6 +664,8 @@ Corrected: 6dfa1ed9. The appendices are deleted; the two results will be proved 
 **Auditor, 26 November 2026.** Independently reran the public `calculus/tests/merge/gr` inputs through `calculus/tools/gcsas.py` at `1503cddc1a9b6feff952344d7d9f186e6f5c492f` and current public GLP `7b68b74c6388135736632957b321ae63503feaf7`. At both pins, the shared-root fixture gives one `Signal` requiring `w(Alice)` and `q(Alice)`. Copying root C to V and pointing Q’s parent and citation to V gives two independently enabled `Signal` clauses. Both parent orders agree. All five shared-root and all six independent-root contracts passed Commute, Return and Recover at each pin. This verifies compiler behavior. The comparison with Definition 2 is the reading recorded in the [revision (14) review](.review-files/Calculus_14_GSC_19_Review.md). The full catalogue was outside this replay.
 
 **Auditor, 26 November 2026, Calculus (15).** Definition 2 now handles the shared-root and distinct-root tests. Two identical numbered declarations in one root can still be restricted independently by the compiler. The report also gives the Coins vocabulary overlap and a disjoint-pattern counterexample to the lifting step of Proposition 17. Finding open. See the [revision (15) review](.review-files/Calculus_15_GSC_19_Review.md).
+
+**Auditor, 27 November 2026, Calculus (16).** The predicate-wide lift is now explicit in Definition 2. The same-contract two-declaration counterexample and the overlapping Coins patterns remain at the paper’s cited pin. Finding open. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md).
 
 ## Finding 11. The empty initial state violates the stated reflexivity constraint
 
@@ -1027,6 +1035,8 @@ Awaiting a project response.
 
 **Calculus follow-up, 26 November 2026, 22:10 UTC, submitted by Audit #6.** **Open.** The project reports that its proposed `met` addition makes the checker reject AI Agents, Ads, Anonymous Matching, App and other contracts as “person unobtainable” at Acquaint, while Agora, Auction and Backchannel Feeds pass. Its 106-contract run was still in progress. Pending a decision, it recommends labelling the paper example “a strengthened Knowledge.” See: [full response](https://github.com/udi-shapiro/Grassroots-Audit/pull/190#issuecomment-7204442939).
 
+**Calculus, 27 November 2026.** The project reports that adding `met` to the candidate caused ward-check failures and recommended labeling the paper example. See: [candidate run and response](https://github.com/udi-shapiro/Grassroots-Audit/issues/99#issuecomment-7207128141).
+
 ### Verification
 
 Compare the enabledness of the revised example with the catalogue on empty and established-person states.
@@ -1036,6 +1046,8 @@ Compare the enabledness of the revised example with the catalogue on empty and e
 **Auditor, 26 November 2026.** The public `calculus/contracts/Knowledge/full-schemas.txt` is identical at the cited and current GLP commits. Acquaint and Introduce both add `knows`, and Acquaint has no `met` effect. Keep alignment open. The project’s ward rejection and wider run remain attributed.
 
 **Auditor, 26 November 2026, Calculus (15).** Sections 2.1 and 3.2 still call the four-effect variant Knowledge:2. The pinned public Acquaint has the two reciprocal knows effects. Label the strengthened variant or align the catalogue. Finding open. See the [revision (15) review](.review-files/Calculus_15_GSC_19_Review.md).
+
+**Auditor, 27 November 2026, Calculus (16).** The manuscript instead removed the two met effects. Both worked examples now agree with public Knowledge:2, and Appendix A discharges the freshness obligation from the new premise in Definition 18(2). Finding resolved. The weaker interactivity guarantee is tracked under Finding 28. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md).
 
 ## Finding 23. The allowed local constraints can exclude the designated initial state
 
@@ -1232,6 +1244,8 @@ Awaiting a project response.
 
 25 November 2026. Checked the quantifiers and predicates of both definitions and the separating construction above. Finding open.
 
+**Auditor, 27 November 2026, Calculus (16).** In Definition 18(2) one person must lack a record of the other. Lemma 24 makes this automatic across distinct components. In the three-person public Knowledge trace, Alice and Bob remain in one component without ever interacting directly, and no future transaction is possible. This separates the revised guarantee from GSC Definition 25(1). Finding open. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md).
+
 ## Finding 29. Time and place have no transition rule in the defined protocol
 
 Ticket: [#170](https://github.com/udi-shapiro/Grassroots-Audit/issues/170)
@@ -1258,3 +1272,31 @@ Awaiting a project response.
 
 25 November 2026. Read the complete transition definition and the two treatments of the environment. No timed implementation was executed. Finding open.
 
+
+## Finding 30. The translation omits permissions for agent roles to coincide
+
+Severity: medium
+
+Calculus (16), §§2.2, 3.1–3.3, Definitions 5, 8 and 10. The grounding rule consults a permission for two names to denote one agent. The logical contract is given as predicate declarations and clauses. Its translation does not specify how to store this permission per clause. The same two-role implication can admit a one-person act under one declaration and exclude it under the other. The example and proposed representations are in the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md). [Issue #200](https://github.com/udi-shapiro/Grassroots-Audit/issues/200)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**27 November 2026.** Compared the two grounding regimes on a singleton population and checked the clause-specific permissions in the published Notes names line. Finding open.
+
+## Finding 31. Definition 6 needs a negative-test evaluation rule
+
+Severity: medium
+
+Calculus (16), §§2.1, 3.1–3.2, Definition 6. Positive tests are evaluated against the local state. The rule for negative literals checks absence from the store even when the underlying atom denotes a test. A true majority test with no stored atom can then satisfy both polarities. Give the negative polarity its truth condition or restrict tests to positive body positions. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md). [Issue #201](https://github.com/udi-shapiro/Grassroots-Audit/issues/201)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**27 November 2026.** Applied the positive and negative body conditions separately to a state that passes an unstored test. Finding open.
