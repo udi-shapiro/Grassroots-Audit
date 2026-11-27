@@ -1,5 +1,19 @@
 # Audit report: papers/vGLP.pdf
 
+## Compiling GC replacement review, 27 November 2026
+
+Project: vGLP / Compiling GC
+Auditor: OpenAI Codex (GPT-6)
+Date: 2026-11-27
+GLP commit: 490bfc861eb587c51d17426e87e9a6aa6563d86b (papers branch inventory; its published key is vGLP)
+
+The exact manuscripts reviewed are Compiling GC (1), Calculus (17) and the 82-page OSPM full version supplied on 27 November. Their hashes, the proofs and the result-by-result comparison are in the [full mathematical review](.review-files/CompilingGC_1_OSPM_Review.md). The new manuscript has no separate PDF entry in the pinned public papers tree. This replacement review is indexed at its predecessor’s existing paper record. Findings 2–6 apply to the successor. Finding 1 below retains its original paper and compiler scope.
+
+The removal of met is verified, including the corrected premise of the interactivity theorem. Lemma 4.2 and the decision step justify local voting on a fixed act. The reverse-run proof, the domains of both maps, and recovery of the lower GLP-with-persons result still require work. The pre-trigger scheduling rule in the two supplied manuscripts addresses the particular paper trace in Finding 1; the associated executable check was outside this paper review.
+
+## Original OSPM audit record
+
+
 Project: vGLP
 Auditor: ChatGPT/Codex, coordination session of 2026-11-12; model version not exposed
 Date: 2026-11-12
@@ -55,3 +69,73 @@ Corrected: the paper's repository, `EShapiro2/VEUI-Volition-Elicitation-Rational
 ### Rebuilt-paper check before publication
 
 The republished PDF at papers commit `ccdd5433d72286571c065a28a0efb4cb2b151957` has different PDF bytes but identical `pdftotext -layout` output to the examined version. The [preserved refresh](https://github.com/udi-shapiro/Grassroots-Audit/tree/b2693dc4e5a41bd4a8386915af9bca5efd98ac50/auditor/evidence/core-refresh-20261112/papers) therefore introduces no changed extracted definitions or proof text for this report. This is text-identity verification, not a pixel comparison.
+
+## Finding 2: Standing requests and the current population
+
+Severity: high
+
+Compiling GC revision (1). A unary named Stand can make a singleton agent will a class whose second participant is outside its population. The unrestricted powerset of guarded classes is also too large to encode by finite terms. Define admissible request names and their population-relative denotations, then prove the image lies in the source configuration space. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #204](https://github.com/udi-shapiro/Grassroots-Audit/issues/204).
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+## Finding 3: The completeness schedule must serve recurring Request classes
+
+Severity: high
+
+Compiling GC revision (1). One class can have a fresh locally eligible ground act at every stage. Repeated enablement of a Request does not imply repeated enablement of any fixed idle pair. The missing implication is in Lemma A.12. Schedule class-level requests as well as individual proposals, or state the finite-acts-per-class hypothesis on the reverse theorem. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #205](https://github.com/udi-shapiro/Grassroots-Audit/issues/205).
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+## Finding 4: The platform mapping admits self-acquaintance
+
+Severity: high
+
+Compiling GC revision (1). The compiled request type admits acquaint(p) at p. Definition 6.3 creates a class for Acquaint(p,p), which the distinct-role grounding rule excludes, before any network operation. Reject a self-addressed request before changing the abstract will and require distinct peers throughout the hello mapping. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #206](https://github.com/udi-shapiro/Grassroots-Audit/issues/206).
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+## Finding 5: Define the maps on their configuration spaces and qualify the lock invariants
+
+Severity: medium
+
+Compiling GC revision (1). Definitions 4.18 and 6.2 rely on reachable representation invariants. Lemmas A.1 and A.2 also overstate eventual closure and the persistence of a changed effect. Specify the maps on all configurations or restrict to reachable configurations. State unique closure and the changed vote at their correct times. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #207](https://github.com/udi-shapiro/Grassroots-Audit/issues/207).
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
+
+## Finding 6: Identify the lower theorem and the scope recovered from OSPM
+
+Severity: high
+
+Compiling GC revision (1). The revised cascade stops at vGLP and changes its Answer semantics. OSPM’s GLP-with-persons map, conditional widget completeness and endpoint grassroots theorem do not transfer by citation to the old semantics. Supply the matching companion results and the third-map corollary, and identify or bound the old compiler fragment that survives. See the [detailed review](.review-files/CompilingGC_1_OSPM_Review.md) and [issue #208](https://github.com/udi-shapiro/Grassroots-Audit/issues/208).
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+2026-11-27 — Open in the supplied revision. The reviewed versions and supporting mathematical examples are recorded in the detailed review.
