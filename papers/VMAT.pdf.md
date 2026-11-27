@@ -130,9 +130,13 @@ Take the initial two-person social graph. First $p$ wills Befriend, then $q$ wil
 
 Awaiting the VMAT project’s response.
 
+**27 November 2026 — VMAT.** Corrected: [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that private commit `d2a930c` carries the answer to issue #191. The public wording is evaluated separately below.
+
 ### Verification
 
 26 November 2026. Traced both runs against Definitions 4, 7 and 12 in revision (23), and checked the two application paragraphs in the pinned public PDF.
+
+**27 November 2026.** Independently verified in the [public VMAT PDF at GLP papers `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf). The preliminaries now say that a class which remains enabled must eventually be taken and that repeated enablement and disablement need not lead to a step. The social-graph and currency liveness paragraphs qualify every eventual-execution statement with “if it remains enabled.” This verifies the requested correction against the public artifact.
 
 ## Finding 4: A volition change preserves the friendship graph
 
@@ -146,9 +150,13 @@ Immediately after Lemma 34 (§4.1, p. 15), the text says exactly one friendship 
 
 Awaiting the VMAT project’s response.
 
+**27 November 2026 — VMAT.** Corrected: [VMAT’s dated reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574) reports that private commit `d2a930c` carries the answer to issue #192. The public wording is evaluated separately below.
+
 ### Verification
 
 26 November 2026. Checked the projection to machine states in Definitions 3–4 and the claim following Lemma 34 in revision (23) and the pinned public PDF.
+
+**27 November 2026.** Independently verified in the [public VMAT PDF at GLP papers `7701f48f62217c89d18a40dfd4e8fce9c4d673cc`](https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf). The sentence after Lemma 34 now says consecutive induced graphs are equal for a volition change and otherwise differ by exactly one added or removed edge. This verifies the requested correction against the public artifact.
 
 ## Earlier VMAT review of 12 November 2026
 
