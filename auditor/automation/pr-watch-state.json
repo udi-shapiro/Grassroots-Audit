@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-27T10:59:10.033Z",
-  "active_run": {
-    "run_id": "pr183-comment-7216478420-20261127",
-    "status": "active",
-    "started_at": "2026-11-27T10:59:10.033Z",
-    "lease_expires_at": "2026-11-27T11:29:10.033Z",
-    "delivery_ids": [
-      "1fae6dcc-ea51-11f1-84b9-7ef3fcded343"
-    ],
-    "pull_request_numbers": [
-      183
-    ]
-  },
+  "updated_at": "2026-11-27T11:09:32.373Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -33,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "6e37b180-e9ff-11f1-8aee-d53f35a276c8",
-      "event": "PR 199 opened",
-      "pull_request_number": 199,
-      "observed_at": "2026-11-27T01:16:04.021Z",
-      "outcome": "Merged GSA’s attributed host-boot addendum in #199. Updated the separate audit PR #198 with the public fixture and expected-output check. Matching runtime execution remains pending."
+      "delivery_id": "1fae6dcc-ea51-11f1-84b9-7ef3fcded343",
+      "event": "PR 183 issue comment",
+      "pull_request_number": 183,
+      "observed_at": "2026-11-27T11:09:32.373Z",
+      "outcome": "Preserved VMAT’s private-main correction claim in #183. Public VMAT verification remains pending."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -3334,19 +3323,21 @@
     },
     {
       "number": 183,
-      "head_sha": "0027562407102380f1a861de9e98e8470b3634b3",
-      "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
+      "head_sha": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+      "base_sha": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
       "state": "open",
-      "updated_at": "2026-11-26T11:28:20Z",
+      "updated_at": "2026-11-27T11:07:45Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 2,
+        "comments": 4,
         "reviews": 0,
         "review_threads": 0,
         "comment_ids": [
           7190541795,
-          7190771002
+          7190771002,
+          7216478420,
+          7216712204
         ],
         "review_ids": [],
         "review_versions": [],
@@ -3358,36 +3349,48 @@
           {
             "id": 7190771002,
             "updated_at": "2026-11-26T11:28:19Z"
+          },
+          {
+            "id": 7216478420,
+            "updated_at": "2026-11-27T10:55:55Z"
+          },
+          {
+            "id": 7216712204,
+            "updated_at": "2026-11-27T11:07:45Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T11:28:19Z"
+        "latest_item_at": "2026-11-27T11:07:45Z"
       },
-      "comment_cursor": 7190771002,
+      "comment_cursor": 7216712204,
       "review_cursor": null,
       "delivery_ids": [
         "a5fb0432-e987-11f1-981c-37a9384d0e4e",
         "01971ada-e98b-11f1-8d6a-ab367316a01b",
-        "63ffe426-e98c-11f1-9d35-6043118dbff4"
+        "63ffe426-e98c-11f1-9d35-6043118dbff4",
+        "1fae6dcc-ea51-11f1-84b9-7ef3fcded343",
+        "a6bfa492-ea52-11f1-9719-b5856a4b8f2e"
       ],
       "own_publication": true,
       "own_comment_ids": [
-        7190771002
+        7190771002,
+        7216712204
       ],
-      "notes": "Preserved VMAT #6's selective adoption of the four-reference proposal at exact head 00275624. Public GLP papers remains unchanged at 3f3d5033. The cited project draft and bibliography commits were unavailable through the authorized public connection, so no correction is verified. PR #183 is mergeable and remains open for Udi's decision and independent exact-head review.",
+      "notes": "Preserved VMAT #6’s dated private-main correction claim at exact head 9b8bacbd on current audit main. Udi’s approval decision is resolved. Public GLP papers f4036107 and VMAT PDF blob 612d14b9 predate the reply, and the private manuscript remains unavailable, so no correction is independently verified. PR #183 is mergeable and awaits independent exact-head review.",
       "source_pins": {
-        "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-        "audit_pr_183_before": "7163dc1d211b25c61c4b799bbde1bef54927c3a2",
-        "audit_pr_183": "0027562407102380f1a861de9e98e8470b3634b3",
-        "audit_report_blob": "5a775de2ea254c6d0e615fca55fc7a79ec4844c6",
-        "audit_status_table_blob": "be3769555199851961813c2eff8eea75379b48eb",
-        "glp_main": "fc2e7284ee6cc8b896a113a0c96c0d3be3e18cc7",
-        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
-        "vmat_pdf_blob": "c66d6197bc0a278a4fd1bfe1190e4533a6aba6a6",
-        "project_draft_commit_claim": "5fbdc48",
+        "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+        "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+        "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+        "project_private_main_commit_claim": "946ba59",
+        "project_branch_commit_claim": "5fbdc48",
         "bibliography_commit_claim": "5edda7e"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/144-pr183-vmat-adoption-response-20261126.json",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/159-pr183-vmat-private-main-correction-20261127.json",
       "mergeable": true
     },
     {
@@ -19381,27 +19384,141 @@
       },
       "merged": true,
       "merge_commit_sha": "285a35ec85b3de6169dcdd9c4c6927b370f33de9"
+    },
+    {
+      "delivery_id": "1fae6dcc-ea51-11f1-84b9-7ef3fcded343",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 183,
+      "comment_id": 7216478420,
+      "head_sha": "0027562407102380f1a861de9e98e8470b3634b3",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7190541795,
+          7190771002,
+          7216478420
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7190541795,
+            "updated_at": "2026-11-26T11:17:45Z"
+          },
+          {
+            "id": 7190771002,
+            "updated_at": "2026-11-26T11:28:19Z"
+          },
+          {
+            "id": 7216478420,
+            "updated_at": "2026-11-27T10:55:55Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T10:55:55Z"
+      },
+      "processed_at": "2026-11-27T11:09:32.373Z",
+      "source_pins": {
+        "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+        "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+        "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+        "project_private_main_commit_claim": "946ba59",
+        "project_branch_commit_claim": "5fbdc48",
+        "bibliography_commit_claim": "5edda7e"
+      },
+      "outcome": "Preserved VMAT’s private-main correction claim, resolved the approval decision, and kept independent verification pending.",
+      "urls": {
+        "project_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216712204",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183",
+        "paper": "https://github.com/EShapiro2/GLP/blob/f40361078f36606b674f91d5a941bfd43935aa54/papers/VMAT.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/159-pr183-vmat-private-main-correction-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/159-pr183-vmat-private-main-correction-20261127.json"
+      }
+    },
+    {
+      "delivery_id": "a6bfa492-ea52-11f1-9719-b5856a4b8f2e",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 183,
+      "comment_id": null,
+      "head_sha": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7190541795,
+          7190771002,
+          7216478420
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7190541795,
+            "updated_at": "2026-11-26T11:17:45Z"
+          },
+          {
+            "id": 7190771002,
+            "updated_at": "2026-11-26T11:28:19Z"
+          },
+          {
+            "id": 7216478420,
+            "updated_at": "2026-11-27T10:55:55Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T10:55:55Z"
+      },
+      "processed_at": "2026-11-27T11:09:32.373Z",
+      "source_pins": {
+        "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+        "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+        "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+        "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+        "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+        "project_private_main_commit_claim": "946ba59",
+        "project_branch_commit_claim": "5fbdc48",
+        "bibliography_commit_claim": "5edda7e"
+      },
+      "outcome": "Skipped the webhook generated solely by the auditor’s exact-head publication update.",
+      "urls": {
+        "project_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+        "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216712204",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183",
+        "paper": "https://github.com/EShapiro2/GLP/blob/f40361078f36606b674f91d5a941bfd43935aa54/papers/VMAT.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/159-pr183-vmat-private-main-correction-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/159-pr183-vmat-private-main-correction-20261127.json"
+      }
     }
   ],
   "source_observed_after_event": {
     "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
-    "audit_main_before_merge": "2d7be39c33992f9aa9bca9b7a31d59b4ac3f3d01",
-    "audit_pr_199": "615b50216f73ae762a92e137cf1c24d83f822acf",
-    "audit_pr_198": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
-    "audit_pr_198_previous": "5e2f465008fc143ec786e50f3c7919bc237d3a62",
-    "answer_report_blob": "80f486ed8da44baa043469691806e12ad9aa380f",
-    "verification_report_blob": "34300b197e07e8117b962a6af9f81df5d8b91d20",
-    "status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
-    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+    "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+    "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+    "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
     "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
-    "glp_blobs": {
-      "test/run_all_tests.sh": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
-      "programs/apps/gsn_boot.glp": "3703c47ba1fb8eb80a298ae48427ab2658ab379a",
-      "programs/social/graph/core/gsn_phone.glp": "0472d2678fdcafb24ffb45c5284bc601d6c0fb55",
-      "programs/apps/gsn/platform.vglp": "a5bf2ca3ef7ead5d65b3827568c28e5712626b99"
-    },
-    "observed_at": "2026-11-27T01:16:04.021Z"
+    "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+    "project_private_main_commit_claim": "946ba59",
+    "project_branch_commit_claim": "5fbdc48",
+    "bibliography_commit_claim": "5edda7e",
+    "observed_at": "2026-11-27T11:09:32.373Z"
   },
   "ledger_reconciliation": {
     "observed_at": "2026-11-20T23:33:01.864Z",
@@ -19418,22 +19535,16 @@
   },
   "latest_source_observed": {
     "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
-    "audit_main_before_merge": "2d7be39c33992f9aa9bca9b7a31d59b4ac3f3d01",
-    "audit_pr_199": "615b50216f73ae762a92e137cf1c24d83f822acf",
-    "audit_pr_198": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
-    "audit_pr_198_previous": "5e2f465008fc143ec786e50f3c7919bc237d3a62",
-    "answer_report_blob": "80f486ed8da44baa043469691806e12ad9aa380f",
-    "verification_report_blob": "34300b197e07e8117b962a6af9f81df5d8b91d20",
-    "status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
-    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+    "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+    "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+    "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
     "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
     "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
-    "glp_blobs": {
-      "test/run_all_tests.sh": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
-      "programs/apps/gsn_boot.glp": "3703c47ba1fb8eb80a298ae48427ab2658ab379a",
-      "programs/social/graph/core/gsn_phone.glp": "0472d2678fdcafb24ffb45c5284bc601d6c0fb55",
-      "programs/apps/gsn/platform.vglp": "a5bf2ca3ef7ead5d65b3827568c28e5712626b99"
-    },
-    "observed_at": "2026-11-27T01:16:04.021Z"
+    "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+    "project_private_main_commit_claim": "946ba59",
+    "project_branch_commit_claim": "5fbdc48",
+    "bibliography_commit_claim": "5edda7e",
+    "observed_at": "2026-11-27T11:09:32.373Z"
   }
 }

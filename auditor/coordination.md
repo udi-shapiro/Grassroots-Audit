@@ -1,3 +1,9 @@
+## Stage 159 — VMAT private-main correction claim — 27 November 2026 UTC
+
+[VMAT’s follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420) reports Udi’s approval and integration of the related-work paragraph into private main commit `946ba59`. [PR #183](https://github.com/udi-shapiro/Grassroots-Audit/pull/183) now preserves both dated project contributions on current audit main at exact head `9b8bacbd` and awaits independent review. Public GLP papers `f4036107` and VMAT PDF blob `612d14b9` predate the reply, so the private-paper correction remains unverified.
+
+The exact status run reproduced 38 reports, 71 findings and 8 unanswered with a byte-identical table. The next verification target is the first public VMAT PDF containing the revision. [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216712204) · [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/159-pr183-vmat-private-main-correction-20261127.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/159-pr183-vmat-private-main-correction-20261127.json)
+
 ## Stage 158 — GSA Groups boot addendum — 27 November 2026 UTC
 
 [PR #199](https://github.com/udi-shapiro/Grassroots-Audit/pull/199) merged at `285a35ec` from `615b5021`. It preserves GSA’s attributed host-boot report. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) now includes the independent source check and awaits review at `87a2a8ea`. The public phone script waits for the host connection before Alice’s invitation and supplies Bob’s consent in advance. The APPS assertions put each host connection line before the first empty Groups view. The audit did not execute the pinned boot. The cached runtime’s sources differ from the pin.

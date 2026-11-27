@@ -1,3 +1,7 @@
+## Stage 159 — VMAT private-main related-work correction claim — 27 November 2026 UTC
+
+VMAT reports that Udi approved the related-work paragraph and that private main commit `946ba59` contains it, with references at Bib-Grassroots `5edda7e`. [PR #183](https://github.com/udi-shapiro/Grassroots-Audit/pull/183) preserves the original proposal, both dated VMAT responses and the audit limitations at exact head `9b8bacbd` on current main. Public GLP papers `f4036107` and VMAT PDF blob `612d14b9` predate the reply. The private commits remain uninspected, so no paper correction is verified. Review the exact PR head before merge, then check the first later public VMAT PDF for the new paragraph. [Project follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420) · [Audit reply](https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216712204) · [Stage](../../stages/159-pr183-vmat-private-main-correction-20261127.json)
+
 ## Stage 153 — VMAT revision (23) verification merged — 26 November 2026 UTC
 
 [PR #194](https://github.com/udi-shapiro/Grassroots-Audit/pull/194) merged at exact head `6bfbf270`. The public PDF at papers commit `3b85cbe1`, blob `aef5b00a`, independently verifies the corrections for #186 and #187. Definition 11 assigns the else class before the closure test, and Definition 4 uses the ambient population for a local volition change.

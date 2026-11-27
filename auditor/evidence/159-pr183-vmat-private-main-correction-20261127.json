@@ -1,0 +1,73 @@
+{
+  "stage": 159,
+  "collected_at": "2026-11-27T11:09:32.373Z",
+  "boundary": "Public EShapiro2/GLP main and papers plus the public audit repository. No private project source was required.",
+  "source_pins": {
+    "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+    "audit_pr_183_before": "0027562407102380f1a861de9e98e8470b3634b3",
+    "audit_pr_183": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+    "audit_report_blob": "d80479df8c461725e0715919a37dd78fca02a13e",
+    "audit_status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
+    "vmat_pdf_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+    "project_private_main_commit_claim": "946ba59",
+    "project_branch_commit_claim": "5fbdc48",
+    "bibliography_commit_claim": "5edda7e"
+  },
+  "inspected": {
+    "audit_pr": {
+      "number": 183,
+      "head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
+      "base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+      "mergeable": true,
+      "comments": 4,
+      "reviews": 0,
+      "review_threads": 0,
+      "changed_files": 1
+    },
+    "glp": {
+      "main": "7b68b74c6388135736632957b321ae63503feaf7",
+      "papers": "f40361078f36606b674f91d5a941bfd43935aa54",
+      "published_vmat_blob": "612d14b9e353ea09f9d38d0a6197ef6f84c154fc",
+      "papers_commit_at": "2026-11-26T23:11:27Z"
+    },
+    "project_source": {
+      "repository": "EShapiro2/Grassroots-atomic-transactions",
+      "private_main_commit": "946ba59",
+      "branch_commit": "5fbdc48",
+      "bibliography_commit": "5edda7e",
+      "inspected": false
+    }
+  },
+  "project_claim": {
+    "source_comment_id": 7216478420,
+    "correction": "Private main commit 946ba59 contains the consent paragraph after Udi’s approval.",
+    "bibliography": "References are in Bib-Grassroots commit 5edda7e.",
+    "next": "The paragraph becomes public with the next published VMAT PDF."
+  },
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Current 38-report audit snapshot with PR #183’s revised VMAT report",
+      "result": "38 reports, 71 findings, 8 unanswered",
+      "output_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+      "output_sha256": "9596dc17c1a085a8cd2e15793c1ba51af1247b13a37ca507d30cfaede8a149e2",
+      "byte_identical": true
+    }
+  ],
+  "limitations": [
+    "The cited manuscript and bibliography commits are private and were not inspected.",
+    "The current public papers snapshot predates the project follow-up.",
+    "No paper build or private-project inspection ran."
+  ],
+  "conclusion": "The corrected-status reply is preserved as attributed project evidence. The approval decision is resolved, while paper integration remains unverified until the public VMAT PDF advances.",
+  "urls": {
+    "project_response": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216478420",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183#issuecomment-7216712204",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/183",
+    "paper": "https://github.com/EShapiro2/GLP/blob/f40361078f36606b674f91d5a941bfd43935aa54/papers/VMAT.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/159-pr183-vmat-private-main-correction-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/159-pr183-vmat-private-main-correction-20261127.json"
+  }
+}
