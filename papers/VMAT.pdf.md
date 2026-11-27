@@ -160,3 +160,51 @@ No independent numbered fault is established in this pass. The current compilati
 ### Rebuilt-paper check before publication
 
 The republished PDF at papers commit `ccdd5433d72286571c065a28a0efb4cb2b151957` has different PDF bytes but identical `pdftotext -layout` output to the examined version. The [preserved refresh](https://github.com/udi-shapiro/Grassroots-Audit/tree/b2693dc4e5a41bd4a8386915af9bca5efd98ac50/auditor/evidence/core-refresh-20261112/papers) therefore introduces no changed extracted definitions or proof text for this report. This is text-identity verification, not a pixel comparison.
+
+## Proposed related work on volition guards
+
+26 November 2026. We propose citing four precedents in the VMAT paper. They address distinct parts of the question: can a transaction depend on one or more people being willing for it to happen?
+
+| Precedent | Where willingness enters the formal model |
+| --- | --- |
+| Nash [1] | In the two-person bargaining problem, each individual can withhold consent to an action affecting their own well-being. Mutual consent is a premise of the bargaining model. The object Nash derives is a bargaining outcome. |
+| Myerson [2] | Each player $i$ independently lists the people $S_i$ with whom they wish to form a link. The link $ij$ forms iff $j\in S_i$ and $i\in S_j$. This gives a direct precedent for bilateral friendship formation. |
+| Esparza and Desel [3] | A marking assigns each agent $a$ a set $x(a)$ of negotiations it is ready to enter. An atomic negotiation $n$ is enabled iff $n\in x(a)$ for every party $a\in P_n$. The outcome determines the parties’ subsequent readiness. This is the closest of the four to the set-membership test in VMAT. |
+| Bartoletti and Zunino [4] | In BitML, a branch $A:D$ requires authorization by $A$. Their example allows Alice to authorize a withdrawal paying Bob, after which any participant may fire the branch. When the branch requires several authorizations, all must be present in the configuration. This is a direct precedent for naming the parties whose approval a contract act requires. |
+
+**Suggested text for the paper.** Consent as a condition of joint action appears in Nash’s bargaining model [1]. Myerson gives an explicit bilateral rule for forming a social link from independently expressed choices [2]. Esparza and Desel give an operational rule requiring an atomic negotiation to belong to every party’s current readiness set [3]. BitML permits a contract branch to require authorization by designated parties [4]. In VMAT, a transaction $t$ specifies a set $Q$ of machine participants and a guard set $G\subseteq Q$ of persons. In addition to the machine precondition, execution requires $[t]\in V_p$ for every $p\in G$, where $V_p$ is that person’s current volitional state and $[t]$ is the transaction’s equivalence class. A person may change $V_p$ while the machine state stays fixed. This separates whose machine takes part, whose willingness is required, and whether that willingness still holds when the act occurs.
+
+### References
+
+1. John F. Nash, Jr. (1950). “The Bargaining Problem.” *Econometrica* 18(2), 155–162. See p. 155 for the consent assumption. [Original paper](https://www.rasmusen.org/GI/reader/12a.nash.bargaining.1950.pdf)
+2. Roger B. Myerson (1991). *Game Theory: Analysis of Conflict*. Cambridge, MA, Harvard University Press, p. 448. The simultaneous link-announcement example is also restated with its set-membership rule in [Matthew O. Jackson’s survey](https://web.stanford.edu/~jacksonm/netsurv.pdf).
+3. Javier Esparza and Jörg Desel (2013). “On Negotiation as Concurrency Primitive.” *CONCUR 2013 – Concurrency Theory*, LNCS 8052, 440–454. See the definition of an enabled atom under “Semantics.” [Original paper](https://www.fernuni-hagen.de/sttp/docs/2013onnegotiationasconcurrencyprimitive.pdf)
+4. Massimo Bartoletti and Roberto Zunino (2018). “BitML: A Calculus for Bitcoin Smart Contracts.” *Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security*. See “Authorizations” in the operational semantics for the withdrawal example and the multiple-authorization rule. [Paper](https://eprint.iacr.org/2018/122.pdf) · [DOI](https://doi.org/10.1145/3243734.3243795)
+
+
+### VMAT project response
+
+VMAT (VMAT #6), 26 November 2026 at 11:17 UTC, submitted by Audit #6.
+
+**See:** `EShapiro2/Grassroots-atomic-transactions`, branch `vmat6-consent-precedents`, commit `5fbdc48`, `sections/related-work.tex`, paragraph “Consent as a condition of joint action”.
+
+Adopted with changes. VMAT reports that its draft cites all four references after reading each source and adds them to Bib-Grassroots at `5edda7e`. The project’s paragraph states where consent enters each model and contrasts it with VMAT’s independently changeable volitional state. In Esparza and Desel, the previous negotiation outcome sets the readiness set.
+
+VMAT did not adopt the proposal’s symbolic restatement of definitions already given in Section 2, its closing gloss, or the claim that BitML requires every one of several authorizations on a branch, which the project did not find in the source it read.
+
+The project reports that this paragraph will reach the paper’s main branch after Udi approves it. It will then replace this provisional source reference with the merge commit.
+
+### Auditor note on the response
+
+26 November 2026. The public GLP papers branch remains at `3f3d50338ec8e1d36c9122fa57fb6993c048ec45`, so the published VMAT paper has not changed in this run. The cited project branch and commits are unavailable through the authorized public GitHub connection and were not inspected. This preserves VMAT’s dated response as a project contribution. It does not verify the draft or paper integration. The decision now awaits Udi’s approval.
+
+
+#### VMAT project follow-up
+
+VMAT (VMAT #6), 27 November 2026 at 10:55 UTC, submitted by Audit #6.
+
+**Corrected:** The project reports that its private `EShapiro2/Grassroots-atomic-transactions` main commit `946ba59` now contains the paragraph “Consent as a condition of joint action” in `sections/related-work.tex`, with the references in Bib-Grassroots commit `5edda7e`. It identifies `5fbdc48` as the earlier branch commit and says Udi approved the change. The project states that the repository is private and that the paragraph will become public in the next published VMAT PDF.
+
+#### Auditor follow-up
+
+27 November 2026. This records the project’s corrected-status claim and resolves the earlier approval decision. The cited manuscript repository and commits remain unavailable through the authorized public connection and were not inspected. Public GLP papers is pinned at `f40361078f36606b674f91d5a941bfd43935aa54`, whose `papers/VMAT.pdf` blob is `612d14b9e353ea09f9d38d0a6197ef6f84c154fc`; that papers snapshot was committed on 26 November at 23:11 UTC, before this follow-up. No private-paper or published-PDF correction is independently verified. The next check is the first public papers snapshot containing the revised VMAT PDF.
