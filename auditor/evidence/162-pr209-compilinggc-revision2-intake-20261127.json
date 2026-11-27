@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-27T13:14:52.580Z",
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "pr209_head": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+    "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "previous_pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "pr209_files": {
+      "ISSUES.md": "c4b710c06064d71748b2e4e1effa1c4149740d2f",
+      "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+      "papers/vGLP.pdf.md": "1af04fb7eb0cb835b2d4051cbcc2a0f3dcc52fd2",
+      "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+    },
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13"
+  },
+  "source_inspection": [
+    "Compared the three changed files between PR heads and inspected the four-file base diff. The published status-table blob is identical across PR heads. The index points all five issues to the same finding identifiers and records them as open in revision (2).",
+    "The original OSPM report content after its top heading is preserved byte for byte. All five new findings retain the revision-(1) entry and add their revision-(2) entry. Issues #204–#208 were open without comments.",
+    "The public papers tree still has the vGLP predecessor entry. The hashes below are recorded by the PR and were not verified against manuscript bytes in this run."
+  ],
+  "manuscript_digests_reported": [
+    "| Compiling GC (2), 25 pp., current | 4699adc97b277fd3016423455e103a51cb61c68e51d125fddc21390c28a2ce4c |",
+    "| Compiling GC (1), 26 pp., comparison copy | 366852d75c69090e69879362f26424727c0c4e923ebfdfaa4a1bf323de3fd31a |",
+    "| Calculus (17), 15 pp. | 603b0cb60a84bd3914e54c6d626a9ec8b02570d10bdf9633ecf4765301ef933e |",
+    "| OSPM, 82 pp. | e3464b339edf997c66f97cb211efd57210ffcd18f3abc6f4f059aaaed6ea33a7 |"
+  ],
+  "executed": [
+    {
+      "check": "Exact status regeneration",
+      "command": "python3 bin/status.py; cmp candidate-status.tex sections/status-table.tex; git hash-object sections/status-table.tex",
+      "inputs": {
+        "bin/status.py": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "calculus/contracts.md": "d4c46fc4e454dd0779cc85ee21b1030b9933bfc4",
+        "calculus/tools/gcsas.py.md": "f410e719b5e3e4841d1448c2270e649e9f53a87a",
+        "cascade/Friendship/platform.vglp.md": "3f5d3aafa263fd1023a5e67e05b910bb5813c2d8",
+        "cascade/GAS.md": "1a4da43da3dd67232a9e3e462dec1bda46a126e9",
+        "cascade/GB.md": "fe4c05553e6037e8c1fa70d646ea2629ffbdf48d",
+        "cascade/GC.md": "7dfd0cc74342bcde6e4af1865a51c54340434197",
+        "glp_multiagent/lib/ui_runtime/named_widgets.dart.md": "961dae4a263085984d92f3b9393b0b3bd1b8e389",
+        "papers/GLP-Spec.pdf.md": "68a183c507961b4c809a01d2ab0dc20f18139eec",
+        "papers/GSC.pdf.md": "1cb3e2c5599dca655b10df26711124cbd79a4c12",
+        "papers/IGLP.pdf.md": "33da31b2a65136449b9ee93e1a76c51daeeb6e90",
+        "papers/TGLP.pdf.md": "6990db1133486663b8080deb5f0c19d8ad295235",
+        "papers/VMAT.pdf.md": "ea3df4fce08759f40e5a86a9cb563c85ab495052",
+        "papers/Villagers.pdf.md": "74f45c809aa131e11b9be0306ac975e06cd3e0ee",
+        "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md": "4a24505490ce4fc7baf121357e719dded87e5931",
+        "papers/sGLP.pdf.md": "dfc37f4eac5cc5e34447dad8d42610aad90d857f",
+        "papers/vGLP.pdf.md": "1af04fb7eb0cb835b2d4051cbcc2a0f3dcc52fd2",
+        "programs/apps/compile.sh.md": "338f14dc45162bef7d64bbeca670e6a5d973390f",
+        "programs/apps/gb.md": "a0dac6d79fcc2405c361ef7e64daa4b88fc09895",
+        "programs/apps/gc.md": "c7fb7b1d77b71e040d6e90fbee1b7447dd56ca17",
+        "programs/cssn/CSSN.glp.md": "e17c50d08a89835d9c2a33b699ee7bd6441ce3a4",
+        "programs/currencies/bonds/GB.glp.md": "befe553339f6936b3ad5b9f11cb1bf134da2ec23",
+        "programs/currencies/coins/GC.glp.md": "9750daaf38eaccb487a30a32d1a00ce946312192",
+        "programs/gsc/GSN.glp.md": "4ae9a990f7d2a9552e758d6ce6e44fc7fd08f527",
+        "programs/sglp/cva/harness.glp.in.md": "e05608c055bc360079f29e670f7242d631de5fcc",
+        "programs/social/graph/GAS.glp.md": "542014020c62f8cfeaae61024231e6306681f552",
+        "programs/social/graph/Programs.txt.md": "80f486ed8da44baa043469691806e12ad9aa380f",
+        "programs/social/graph/core/agent.glp.md": "cb14e7f7d772f5081eada31ca1f2414125d69213",
+        "programs/social/graph/core/gai_phone.glp.md": "a026ab997df89f4805a2c5449951b914f573594b",
+        "programs/social/graph/core/gsn_phone.glp.md": "0e2288b26615fa279da6bc788f0753d8a37fb6e3",
+        "programs/social/graph/core/gsnp_phone.glp.md": "b7090b83b7357b8adb621710074ceb9578c9e7a8",
+        "programs/social/graph/core/home.vglp.md": "3f78b3bf5121b6a06f7bfc83563d8b1c9bc6066b",
+        "programs/vglp/cva/compiler.md": "f08bb464aa77cf481cbe9a4938165f8bd07f749d",
+        "programs/vglp/cva/compiler/cvac.glp.md": "e2f8d283eba710932e9c79b1b68dd315c6ef6c5e",
+        "programs/vglp/cva/compiler/text.glp.md": "36228cde22223aaa665f2da9bce24f784cbcffb2",
+        "servers/peoplesweb.md": "a6a0f025de737ad9c0a17586a7d1f42d80ab9313",
+        "servers/peoplesweb/tools/build.py.md": "6be237f7766ca5a2f30b8044513038cdde3307a7",
+        "servers/peoplesweb/tools/papers_sync.py.md": "4474eef72bda233c7be11b65945ea278bfd09eb7",
+        "test/run_all_tests.sh.md": "8fde3bf264f121624fdfa5a3ecdd7910428fda32"
+      },
+      "output": "38 reports, 78 findings, 15 unanswered\n6716f33e3fafa1c3f67942014aa26f972fd8506d",
+      "exit_code": 0
+    },
+    {
+      "check": "Finite steadiness quantifier model",
+      "scope": "Validates the quantifier distinction under the proposed abstract premises. Does not check the paper or the scheduling proof.",
+      "script": "from itertools import product\n\n# Each nonzero bitset is the set of acts that witness the class at a boundary.\n# All boundaries admit the class even when no single act witnesses all of them.\npairs = 0\nvarying = 0\nfor masks in product(range(1, 8), repeat=3):\n    assert all(masks)\n    pairs += 1\n    if not masks[0] & masks[1] & masks[2]:\n        varying += 1\nassert (pairs, varying) == (343, 174)\nprint(f\"{pairs} three-boundary sequences enable the class throughout; {varying} have no common act\")\n",
+      "output": "343 three-boundary sequences enable the class throughout; 174 have no common act",
+      "exit_code": 0
+    }
+  ],
+  "unverified": [
+    "Exact manuscript comparison, quoted appendix hypotheses and repairs, and lower-layer compilation theorem await source artifacts matching the PR's scope.",
+    "Dart unavailable on PATH. No GLP, Dart, Flutter or paired-delivery runtime check ran."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/vGLP.pdf.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+    "revision_delta": "https://github.com/udi-shapiro/Grassroots-Audit/compare/de39e24171acfad042ec597270fa802cc77afa73...bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json",
+    "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers",
+    "issues": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+    ]
+  }
+}

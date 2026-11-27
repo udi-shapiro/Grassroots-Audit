@@ -1,0 +1,107 @@
+{
+  "stage": 162,
+  "date": "2026-11-27",
+  "title": "Compiling GC revision (2) publication intake",
+  "events": [
+    {
+      "delivery_id": "1c9d3330-ea64-11f1-9a58-4d5cf900e38c",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 209,
+      "comment_id": null,
+      "head_sha": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T13:14:52.580Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "pr209_head": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+        "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "previous_pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+        "pr209_files": {
+          "ISSUES.md": "c4b710c06064d71748b2e4e1effa1c4149740d2f",
+          "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+          "papers/vGLP.pdf.md": "1af04fb7eb0cb835b2d4051cbcc2a0f3dcc52fd2",
+          "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+        },
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13"
+      },
+      "outcome": "Reviewed the synchronization to Compiling GC (2). The appendix comparison updates five prior findings, all still open, and preserves the original OSPM finding and dated project answer. The status table reproduces exactly. A finite model confirms the class-versus-fixed-witness distinction in the proposed steadiness repair. Current public sources do not contain the exact revised manuscript. PR #209 is open and awaits independent review of the manuscript-specific claims.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/vGLP.pdf.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+        "revision_delta": "https://github.com/udi-shapiro/Grassroots-Audit/compare/de39e24171acfad042ec597270fa802cc77afa73...bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json",
+        "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers",
+        "issues": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+        ]
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "pr209_head": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+    "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "previous_pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "pr209_files": {
+      "ISSUES.md": "c4b710c06064d71748b2e4e1effa1c4149740d2f",
+      "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+      "papers/vGLP.pdf.md": "1af04fb7eb0cb835b2d4051cbcc2a0f3dcc52fd2",
+      "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+    },
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13"
+  },
+  "core_response_gate": {
+    "answered": 6,
+    "required": 6,
+    "hold": false
+  },
+  "outcome": "Reviewed the synchronization to Compiling GC (2). The appendix comparison updates five prior findings, all still open, and preserves the original OSPM finding and dated project answer. The status table reproduces exactly. A finite model confirms the class-versus-fixed-witness distinction in the proposed steadiness repair. Current public sources do not contain the exact revised manuscript. PR #209 is open and awaits independent review of the manuscript-specific claims.",
+  "next_work": [
+    "Match the submitted Compiling GC (2), Calculus (17) and OSPM sources to public artifacts before independently judging the quoted definitions and appendix statements. Keep #209 in review and preserve the audit history.",
+    "Follow #204–#208 for attributed project responses. Keep A.14(5)'s class-strengthening check separate from A.14(6)'s fairness scheduling obligation.",
+    "Run the queued vGLP paired-delivery fixture when the matching Dart runtime is available. All six original core reports carry dated project answers, so the answer gate remains open for the existing verification queue."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json",
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/vGLP.pdf.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+    "revision_delta": "https://github.com/udi-shapiro/Grassroots-Audit/compare/de39e24171acfad042ec597270fa802cc77afa73...bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json",
+    "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers",
+    "issues": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+    ]
+  }
+}

@@ -1,3 +1,7 @@
+## Stage 162 — Calculus (17) in the revision-(2) comparison — 27 November 2026 UTC
+
+[PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) retains the Calculus (17) comparison at its original reported manuscript digest while updating the Compiling GC appendix review. No matching public Calculus PDF appeared at the checked pin. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json)
+
 ## Stage 161 — Calculus (17) cross-reference in Compiling GC — 27 November 2026 UTC
 
 [PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) compares the supplied Calculus (17) manuscript with Compiling GC (1). Those revisions lack matching public PDF entries at the observed papers pin. The locality, interactivity and compiler-eligibility comparisons remain scoped to the manuscript review. Previous public Calculus (16) compiler evidence remains at its recorded scope. [Review](https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/.review-files/CompilingGC_1_OSPM_Review.md) · [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/161-pr209-compilinggc-ospm-intake-20261127.json)
