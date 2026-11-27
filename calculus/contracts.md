@@ -1,6 +1,11 @@
 # Grassroots contracts and their relations
 
-Date: 2026-11-25
+Date: 2026-11-27
+GLP commit: 7b68b74c6388135736632957b321ae63503feaf7
+
+## Review of Calculus (18), 27 November 2026
+
+The revised missing-record argument supports interaction across components containing persons, and Definition 6 repairs negative ground tests. Lemma 7 still needs primitive heads. The local existential in Definition 3 needs operational semantics and capture-avoiding augmentation. Definition 5 again excludes declared role identifications used by Notes:3 and allowed by Compiling GC (3). The public 93-contract run reproduced all three counts. The sources for the remaining 13 are outside the cited public snapshot. [Full review and GSC comparison](.review-files/Calculus_18_GSC_19_Review.md) · [Executable controls](.review-files/revision18_controls.py)
 
 ## Review of Calculus (16), 27 November 2026
 
@@ -1017,6 +1022,8 @@ Exhibit the elaboration or amended binding rule and replay a permitted coinciden
 
 25 November 2026, supplied Calculus (11), Definitions 3–4, p. 6. **Correction verified for this paper finding.** Definition 3 now expressly permits declared agent identifications; participants are the agents of the grounded literals, and Definition 4 combines their sets of effects and rejects a positive/negative conflict. The earlier prohibition of every identification is removed. This is not verification of every catalogue instantiation.
 
+**27 November 2026, Calculus (18). Reopened.** Definitions 5–6 now admit only assignments injective on the distinct agent variables. A two-person payment of the payer's own note is admitted by the public Notes:3 declaration and excluded by the revised rule. Compiling GC (3), Definition 1.3, retains declared coincidences. See the [comparison and proposed elaboration](.review-files/Calculus_18_GSC_19_Review.md#3-ground-roles-and-the-compilers-input-language).
+
 ## Finding 22. The Knowledge Acquaint example permits a transaction its catalogue clause rejects
 
 Severity: medium
@@ -1250,6 +1257,8 @@ Awaiting a project response.
 
 **Auditor, 27 November 2026, Calculus (16).** In Definition 18(2) one person must lack a record of the other. Lemma 24 makes this automatic across distinct components. In the three-person public Knowledge trace, Alice and Bob remain in one component without ever interacting directly, and no future transaction is possible. This separates the revised guarantee from GSC Definition 25(1). Finding open. See the [review of revision (16)](.review-files/Calculus_16_GSC_19_Review.md).
 
+**27 November 2026, Calculus (18).** The abstract now specifies separation by indirect as well as direct interaction. The first-interaction clauses of Definition 18 are unchanged. The three-person Knowledge trace still separates the persons theorem from unrestricted pairwise openness. The general Polite theorem and active wards remain outside proved coverage. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
+
 ## Finding 29. Time and place have no transition rule in the defined protocol
 
 Ticket: [#170](https://github.com/udi-shapiro/Grassroots-Audit/issues/170)
@@ -1291,6 +1300,8 @@ Awaiting a project response.
 
 **27 November 2026.** Compared the two grounding regimes on a singleton population and checked the clause-specific permissions in the published Notes names line. Finding open.
 
+**27 November 2026, Calculus (18).** The narrower injective core no longer consults a missing permission. Translation of full source contracts still omits their declared equality cases. The report gives the two-person Notes:3 instance and a partition-based repair. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
+
 ## Finding 31. Definition 6 needs a negative-test evaluation rule
 
 Severity: medium
@@ -1304,3 +1315,33 @@ Awaiting a project response.
 ### Verification
 
 **27 November 2026.** Applied the positive and negative body conditions separately to a state that passes an unstored test. Finding open.
+
+**27 November 2026, Calculus (18). Correction verified.** Section 3.2 and Definition 6 evaluate both polarities in the same local model. An unstored computable predicate that evaluates to true makes its negative literal false. The separate effects and quantifier questions are Findings 32–33. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
+
+## Finding 32. Computable heads invalidate the unguarded transaction lemma
+
+Severity: high
+
+In Calculus (18), §§3.1–3.2, a computed truth may be deleted although its atom was never stored. A two-agent unguarded clause can therefore leave one participant stationary and share a transition with a unary transaction. This contradicts Lemma 7 and affects Definition 8. Restrict stored atoms and head literals to primitive predicates. The [full witness and repair](.review-files/Calculus_18_GSC_19_Review.md#1-computable-predicates-can-invalidate-lemma-7) also apply to Compiling GC (3), Lemma 1.5. [Issue #211](https://github.com/udi-shapiro/Grassroots-Audit/issues/211)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**27 November 2026.** Replayed the two distinct participant sets and their identical two-agent transition. The binary clause passes the syntactic change test and its recording graph is connected. [Executable checks](.review-files/revision18_controls.py)
+
+## Finding 33. Local quantification under negation needs a grounding rule
+
+Severity: high
+
+Calculus (18), Definition 3 binds a variable occurring only negatively inside each negation. Definitions 5–6 then use ground instances without specifying how to evaluate the bound subformula. With exactly one of two tags present, the two readings yield different transitions. Adding a positive condition with the same variable spelling can also reverse a previously false absence test. Specify local matching and capture-avoiding augmentation or the equivalent restricted translation. [Full examples](.review-files/Calculus_18_GSC_19_Review.md#2-a-variable-local-to-negation-needs-its-own-evaluation-rule) · [Issue #212](https://github.com/udi-shapiro/Grassroots-Audit/issues/212)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**27 November 2026.** Evaluated the absence query, both ground negatives and the augmented body on the same finite state. Compiling GC (3), §1, uses a different range restriction. [Executable checks](.review-files/revision18_controls.py)
