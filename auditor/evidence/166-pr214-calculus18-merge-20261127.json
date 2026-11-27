@@ -1,0 +1,177 @@
+{
+  "stage": 166,
+  "date": "2026-11-27",
+  "title": "Calculus (18) publication reconciliation",
+  "events": [
+    {
+      "delivery_id": "3e0c4fe6-eaa1-11f1-94ad-5b8a4827b10e",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 214,
+      "comment_id": null,
+      "head_sha": "1066668e8974253276ec9680cba637c0ba7639c8",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7225438956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7225438956,
+            "updated_at": "2026-11-27T18:23:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T18:23:29Z"
+      },
+      "processed_at": "2026-11-27T20:33:46.098Z",
+      "source_pins": {
+        "pr_head_before": "32deb4bf657a2ab854f707c52311abb243659221",
+        "pr_head": "1066668e8974253276ec9680cba637c0ba7639c8",
+        "pr_base": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "audit_merge": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+        "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+        "merged_files": {
+          "ISSUES.md": "f7e1f081c9008c5e35358e01c0417dc86bf67a02",
+          "calculus/.review-files/Calculus_18_GSC_19_Review.md": "3a0e9b5bb5779e9d85c779802dc6f1e9b9c6e2e1",
+          "calculus/.review-files/revision18_controls.py": "453fb69aca44a3a1026bd1c55a83bb9f0ebb294d",
+          "calculus/contracts.md": "b9d6dc0591b3a10826c9ab1b5cd06ddbf5bbee13",
+          "sections/status-table.tex": "14ed8d993dbc2a651c21fce7fc10e5ce5fedc777"
+        },
+        "status_sha256": "bd34ad25cdc6e829977e580b263ab8714b2a943bf283f282e3ea506b23bef9a9"
+      },
+      "outcome": "Observed already merged. The dated answer counts as answered, and #201 remains open for public verification. Findings 32–33 are scoped to the supplied manuscript.",
+      "merged": true,
+      "merge_commit_sha": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/214",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/fef450ae5ba0fa24ee2f0a42135e0d142d31da7d/calculus/contracts.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/166-pr214-calculus18-merge-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json",
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201#issuecomment-7225186952",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201"
+      }
+    },
+    {
+      "delivery_id": "4ac26798-eaa1-11f1-915e-75070fa1994a",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 214,
+      "comment_id": null,
+      "head_sha": "1066668e8974253276ec9680cba637c0ba7639c8",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7225438956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7225438956,
+            "updated_at": "2026-11-27T18:23:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T18:23:29Z"
+      },
+      "processed_at": "2026-11-27T20:33:46.098Z",
+      "source_pins": {
+        "pr_head_before": "32deb4bf657a2ab854f707c52311abb243659221",
+        "pr_head": "1066668e8974253276ec9680cba637c0ba7639c8",
+        "pr_base": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "audit_merge": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+        "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+        "merged_files": {
+          "ISSUES.md": "f7e1f081c9008c5e35358e01c0417dc86bf67a02",
+          "calculus/.review-files/Calculus_18_GSC_19_Review.md": "3a0e9b5bb5779e9d85c779802dc6f1e9b9c6e2e1",
+          "calculus/.review-files/revision18_controls.py": "453fb69aca44a3a1026bd1c55a83bb9f0ebb294d",
+          "calculus/contracts.md": "b9d6dc0591b3a10826c9ab1b5cd06ddbf5bbee13",
+          "sections/status-table.tex": "14ed8d993dbc2a651c21fce7fc10e5ce5fedc777"
+        },
+        "status_sha256": "bd34ad25cdc6e829977e580b263ab8714b2a943bf283f282e3ea506b23bef9a9"
+      },
+      "outcome": "Observed already merged. The dated answer counts as answered, and #201 remains open for public verification. Findings 32–33 are scoped to the supplied manuscript.",
+      "merged": true,
+      "merge_commit_sha": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/214",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/fef450ae5ba0fa24ee2f0a42135e0d142d31da7d/calculus/contracts.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/166-pr214-calculus18-merge-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json",
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201#issuecomment-7225186952",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201"
+      }
+    }
+  ],
+  "source_pins": {
+    "pr_head_before": "32deb4bf657a2ab854f707c52311abb243659221",
+    "pr_head": "1066668e8974253276ec9680cba637c0ba7639c8",
+    "pr_base": "34f5de1354094f11772bb9d0a978952231a8ded7",
+    "audit_merge": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+    "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+    "merged_files": {
+      "ISSUES.md": "f7e1f081c9008c5e35358e01c0417dc86bf67a02",
+      "calculus/.review-files/Calculus_18_GSC_19_Review.md": "3a0e9b5bb5779e9d85c779802dc6f1e9b9c6e2e1",
+      "calculus/.review-files/revision18_controls.py": "453fb69aca44a3a1026bd1c55a83bb9f0ebb294d",
+      "calculus/contracts.md": "b9d6dc0591b3a10826c9ab1b5cd06ddbf5bbee13",
+      "sections/status-table.tex": "14ed8d993dbc2a651c21fce7fc10e5ce5fedc777"
+    },
+    "status_sha256": "bd34ad25cdc6e829977e580b263ab8714b2a943bf283f282e3ea506b23bef9a9"
+  },
+  "source_inspection": [
+    "Compared the recorded head with the synchronized head and confirmed that all five changed blobs match the observed merge.",
+    "Read the project answer on #201 and confirmed that #201 and #98 are open.",
+    "The refreshed public papers tree and registry have no matching Calculus manuscript."
+  ],
+  "project_and_publication_claims": [
+    "Calculus #11 reports manuscript commits 03230fd and 256b799 for #201.",
+    "The publication records manuscript-specific verification against supplied Calculus (18), SHA-256 613770d8a28a17872b9bc4a28963647e57a5f4aa058d82b084de6a5d9eb41af7.",
+    "Totals for the 13 village inputs remain project evidence."
+  ],
+  "executed_checks": [
+    {
+      "command": "git hash-object",
+      "result": "Matched all 46 fetched blobs against the merged tree."
+    },
+    {
+      "command": "python3 bin/status.py; cmp expected.tex sections/status-table.tex",
+      "result": "38 reports, 75 findings, 11 unanswered. Byte-identical to the merged table."
+    },
+    {
+      "command": "python3 calculus/.review-files/revision18_controls.py",
+      "result": "Passed all finite controls."
+    },
+    {
+      "command": "python3 calculus/.review-files/knowledge_three_people.py",
+      "result": "Passed. No prior Alice–Bob interaction and all 15 final instances exclude a transaction."
+    }
+  ],
+  "outcome": "Observed already merged. The dated answer counts as answered, and #201 remains open for public verification. Findings 32–33 are scoped to the supplied manuscript.",
+  "next_actions": [
+    "Compare the cited definitions and Findings 31–33 against a matching public Calculus edition. Keep #201 open in the meantime.",
+    "Reproduce the 13 village inputs once they are available from pinned public GLP sources."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/214",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/fef450ae5ba0fa24ee2f0a42135e0d142d31da7d/calculus/contracts.md",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/166-pr214-calculus18-merge-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json",
+    "answer": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201#issuecomment-7225186952",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/201"
+  }
+}

@@ -1,3 +1,7 @@
+## Stage 167 — Compiling GC (3) publication reconciliation — 27 November 2026 UTC
+
+[PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) was already merged from `2a1a6530048ed50617c07cd311fc9a9787911cfd` at `b82cd770c4185ccfda00324dc6415562b2408c0a`. The merged table reproduced 38 reports, 81 findings and 12 unanswered. The publication preserves five attributed replies and all three reviewed editions. Continue with a matching public edition and the paired-delivery runtime check. The lower theorem and #215 remain open. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json)
+
 ## Stage 162 — Compiling GC revision (2) — 27 November 2026 UTC
 
 [PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) preserves the original OSPM record and adds revision-(2) notes for Findings 2–6. It distinguishes the local class-quantifier repair in A.14(5) from the recurrent-Request schedule in A.14(6). The first distinction was reproduced in a finite model. Preserve the manuscript evidence scope and run the existing paired-delivery check when a matching Dart runtime is available. [Review](https://github.com/udi-shapiro/Grassroots-Audit/blob/bc3862bf49c172eae9da1cedee769d3cab14a6c2/papers/.review-files/CompilingGC_1_OSPM_Review.md) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json)

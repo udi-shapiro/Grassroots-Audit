@@ -1,0 +1,97 @@
+{
+  "stage": 167,
+  "date": "2026-11-27",
+  "title": "Compiling GC (3) publication reconciliation",
+  "events": [
+    {
+      "delivery_id": "8c0a466c-eaa1-11f1-8faf-a11cf8314b0f",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 209,
+      "comment_id": null,
+      "head_sha": "2a1a6530048ed50617c07cd311fc9a9787911cfd",
+      "processed_at": "2026-11-27T20:33:46.098Z",
+      "source_pins": {
+        "pr_head_before": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+        "pr_head": "2a1a6530048ed50617c07cd311fc9a9787911cfd",
+        "pr_base": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+        "audit_merge": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+        "merged_files": {
+          "ISSUES.md": "4935c9a830c01f7d08f213ce54a5de0bc8c6446e",
+          "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+          "papers/.review-files/revision-1/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+          "papers/.review-files/revision-3/CompilingGC_1_OSPM_Review.md": "9041119c5a8a43319e2ac2ca4d494b5f8c5c57bb",
+          "papers/vGLP.pdf.md": "77c99619eabb8a384e69d821c47fac8ae6bd3ad8",
+          "sections/status-table.tex": "690b1b4ff1435b2b37574f111d5d9096bc1cb1cc"
+        },
+        "status_sha256": "387e53231d3741e4b2e6bede57bad67104f51f427ece7d31e7b29c49c29e7a3b"
+      },
+      "outcome": "Observed already merged. The five attributed replies and three reviewed editions are preserved. Public paper and runtime verification remain open.",
+      "merged": true,
+      "merge_commit_sha": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/b82cd770c4185ccfda00324dc6415562b2408c0a/papers/vGLP.pdf.md",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/167-pr209-compilinggc3-merge-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215"
+      }
+    }
+  ],
+  "source_pins": {
+    "pr_head_before": "bc3862bf49c172eae9da1cedee769d3cab14a6c2",
+    "pr_head": "2a1a6530048ed50617c07cd311fc9a9787911cfd",
+    "pr_base": "fef450ae5ba0fa24ee2f0a42135e0d142d31da7d",
+    "audit_merge": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "audit_main_observed": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "abe6efc2a475cc6ac232f6e28d9dba355131fa76",
+    "merged_files": {
+      "ISSUES.md": "4935c9a830c01f7d08f213ce54a5de0bc8c6446e",
+      "papers/.review-files/CompilingGC_1_OSPM_Review.md": "a9923e4f9f272df6d696a6ec46c7936dd3d035dd",
+      "papers/.review-files/revision-1/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+      "papers/.review-files/revision-3/CompilingGC_1_OSPM_Review.md": "9041119c5a8a43319e2ac2ca4d494b5f8c5c57bb",
+      "papers/vGLP.pdf.md": "77c99619eabb8a384e69d821c47fac8ae6bd3ad8",
+      "sections/status-table.tex": "690b1b4ff1435b2b37574f111d5d9096bc1cb1cc"
+    },
+    "status_sha256": "387e53231d3741e4b2e6bede57bad67104f51f427ece7d31e7b29c49c29e7a3b"
+  },
+  "source_inspection": [
+    "Confirmed all six PR file blobs in the merge and read the three versioned review files, report, and answer threads for #204–#208.",
+    "Issues #204–#208, #211 and #215 are open.",
+    "The vGLP PDF at the refreshed public papers pin has blob b081debf38dd97fa8de4509f3006936770fd4. The tree contains no separately named Compiling GC PDF. The report pins the supplied edition by digest.",
+    "Located play_pokes_paired in public GLP at the source pin. Dart and Flutter were unavailable on PATH. No runtime check or new manuscript proof verification ran."
+  ],
+  "project_and_publication_claims": [
+    "Five dated vGLP project replies are attributed to their original Cowork sessions.",
+    "The published review records four repairs in supplied revision (3). The lower theorem remains deferred.",
+    "Finding 7 concerns uniform decidability. The computable-head issue is shared with Calculus under #211."
+  ],
+  "executed_checks": [
+    {
+      "command": "git hash-object",
+      "result": "Matched the three changed status inputs against the merged tree and reused the previously hash-matched unchanged inputs."
+    },
+    {
+      "command": "python3 bin/status.py; cmp expected.tex sections/status-table.tex",
+      "result": "38 reports, 81 findings, 12 unanswered. Byte-identical to the merged table."
+    }
+  ],
+  "outcome": "Observed already merged. The five attributed replies and three reviewed editions are preserved. Public paper and runtime verification remain open.",
+  "next_actions": [
+    "Compare a matching public Compiling GC PDF against the three manuscript reports and keep public verification open until then.",
+    "Run the public paired-delivery fixture for original vGLP Finding 1 with a matching Dart toolchain.",
+    "Keep the lower compilation bridge, the shared computable-head issue #211 and separate decidability issue #215 in the queue."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/b82cd770c4185ccfda00324dc6415562b2408c0a/papers/vGLP.pdf.md",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/167-pr209-compilinggc3-merge-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json",
+    "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215"
+  }
+}

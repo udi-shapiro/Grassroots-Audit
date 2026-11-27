@@ -1,3 +1,7 @@
+## Stage 166 — Calculus (18) publication reconciliation — 27 November 2026 UTC
+
+[PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) was already merged from `1066668e8974253276ec9680cba637c0ba7639c8` at `fef450ae5ba0fa24ee2f0a42135e0d142d31da7d`. The merged table reproduced 38 reports, 75 findings and 11 unanswered. The finite controls and Knowledge trace passed. Issue #201 has an attributed answer and remains open for public verification. Findings 32–33 refer to the supplied edition. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json)
+
 ## Stage 165 — Calculus (18) publication review — 27 November 2026 UTC
 
 At [PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) head `32deb4bf657a2ab854f707c52311abb243659221`, both executable controls passed and the status table regenerated to 38 reports, 75 findings and 12 unanswered. Public Notes:3 supports reopening Finding 21. Closure of #201 and Findings 32–33 require the matching Calculus (18) source in public GLP papers. Keep the PR open, preserve its exact head, and recheck after source publication. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/165-pr214-calculus18-review-20261127.json)

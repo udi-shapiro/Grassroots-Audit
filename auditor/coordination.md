@@ -1,3 +1,11 @@
+## Stage 167 — Compiling GC (3) publication reconciliation — 27 November 2026 UTC
+
+[PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) was already merged from `2a1a6530048ed50617c07cd311fc9a9787911cfd` at `b82cd770c4185ccfda00324dc6415562b2408c0a`. The merged table reproduced 38 reports, 81 findings and 12 unanswered. The publication preserves five attributed replies and all three reviewed editions. Continue with a matching public edition and the paired-delivery runtime check. The lower theorem and #215 remain open. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json)
+
+## Stage 166 — Calculus (18) publication reconciliation — 27 November 2026 UTC
+
+[PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) was already merged from `1066668e8974253276ec9680cba637c0ba7639c8` at `fef450ae5ba0fa24ee2f0a42135e0d142d31da7d`. The merged table reproduced 38 reports, 75 findings and 11 unanswered. The finite controls and Knowledge trace passed. Issue #201 has an attributed answer and remains open for public verification. Findings 32–33 refer to the supplied edition. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json)
+
 ## Stage 165 — Calculus (18) publication review — 27 November 2026 UTC
 
 [PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) is clean at exact head `32deb4bf657a2ab854f707c52311abb243659221`. Its finite controls, three-person Knowledge trace and generated status table passed. Public Notes:3 confirms the coincidence permission used to reopen Finding 21. The public papers pin contains no Calculus artifact, so the proposed closure of #201 and manuscript-specific Findings 32–33 await a matching public source. The PR remains open with the [audit disposition](https://github.com/udi-shapiro/Grassroots-Audit/pull/214#issuecomment-7225438956). [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/165-pr214-calculus18-review-20261127.json)
