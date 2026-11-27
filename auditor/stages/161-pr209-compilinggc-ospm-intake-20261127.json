@@ -1,0 +1,123 @@
+{
+  "stage": 161,
+  "date": "2026-11-27",
+  "title": "Compiling GC and OSPM publication intake",
+  "events": [
+    {
+      "delivery_id": "4bc30ca4-ea62-11f1-9bbb-8ab563e82a1c",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 209,
+      "comment_id": null,
+      "head_sha": "de39e24171acfad042ec597270fa802cc77afa73",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T13:03:30.086Z",
+      "source_pins": {
+        "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+        "pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+        "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "glp_papers_tree": "13347a9ce554f0d92a12f28515232c4c1d635bea",
+        "papers_registry_blob": "940cca169a8e2139642a6ddaee54501e165140c6",
+        "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+        "existing_vglp_report_blob": "729243b70185ca61d5bd21bbb06d71f33f1b029d",
+        "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+        "pokes_fixture_blob": "141bebafe611b885ec871d90f643051ff44ef9d2",
+        "test_harness_blob": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "pr209_files": {
+          "ISSUES.md": "f22eee1cb7359e87022b120fb51fe22929291b0d",
+          "papers/.review-files/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+          "papers/vGLP.pdf.md": "2df1d36c49f09e52c4f5cc766f69713aa44dbb68",
+          "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+        }
+      },
+      "outcome": "Reviewed the open four-file Compiling GC audit publication. The vGLP predecessor record and its dated answer are intact. Findings 2–6 link to open issues #204–#208 without project replies. Reproduced the candidate status table from pinned inputs. A bounded model reproduced the recurring-class/fresh-ground-act distinction as stated in the PR. The exact supplied manuscripts have no corresponding artifacts at the public pin, so this intake does not independently verify the manuscript clauses or merge the publication.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/vGLP.pdf.md",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+        "issues": [
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+          "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+        ],
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/161-pr209-compilinggc-ospm-intake-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/161-pr209-compilinggc-ospm-intake-20261127.json",
+        "compiler": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/compiler/text.glp#L435-L490",
+        "fixture": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/pokes/self.glp#L28-L39",
+        "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+    "pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+    "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "glp_papers_tree": "13347a9ce554f0d92a12f28515232c4c1d635bea",
+    "papers_registry_blob": "940cca169a8e2139642a6ddaee54501e165140c6",
+    "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "existing_vglp_report_blob": "729243b70185ca61d5bd21bbb06d71f33f1b029d",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "pokes_fixture_blob": "141bebafe611b885ec871d90f643051ff44ef9d2",
+    "test_harness_blob": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "pr209_files": {
+      "ISSUES.md": "f22eee1cb7359e87022b120fb51fe22929291b0d",
+      "papers/.review-files/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+      "papers/vGLP.pdf.md": "2df1d36c49f09e52c4f5cc766f69713aa44dbb68",
+      "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+    }
+  },
+  "core_response_gate": {
+    "answered": 6,
+    "required": 6,
+    "hold": false
+  },
+  "outcome": "Reviewed the open four-file Compiling GC audit publication. The vGLP predecessor record and its dated answer are intact. Findings 2–6 link to open issues #204–#208 without project replies. Reproduced the candidate status table from pinned inputs. A bounded model reproduced the recurring-class/fresh-ground-act distinction as stated in the PR. The exact supplied manuscripts have no corresponding artifacts at the public pin, so this intake does not independently verify the manuscript clauses or merge the publication.",
+  "next_work": [
+    "Keep PR #209 open for review of the exact Compiling GC (1), Calculus (17) and OSPM versions linked by manuscript digest in the publication. Match public artifacts to those digests or record the revision difference before checking Findings 2–6 against the manuscript.",
+    "Check the vGLP #1 scheduler correction using the paired-delivery fixture and its checks at a pinned public GLP commit with the matching Dart runtime. Retain the public code inspection and separate it from the runtime and paper obligations.",
+    "Watch #204–#208 for attributed project answers. Preserve Finding 1 and its historical compiler scope. The six original core answers are present, so continue the existing verification queue."
+  ],
+  "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/161-pr209-compilinggc-ospm-intake-20261127.json",
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/vGLP.pdf.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+    "issues": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+    ],
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/161-pr209-compilinggc-ospm-intake-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/161-pr209-compilinggc-ospm-intake-20261127.json",
+    "compiler": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/compiler/text.glp#L435-L490",
+    "fixture": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/pokes/self.glp#L28-L39",
+    "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers"
+  }
+}

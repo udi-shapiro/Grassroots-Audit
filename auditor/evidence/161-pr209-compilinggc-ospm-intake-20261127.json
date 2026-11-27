@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-27T13:03:30.086Z",
+  "source_pins": {
+    "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+    "pr209_head": "de39e24171acfad042ec597270fa802cc77afa73",
+    "pr209_base": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "glp_papers_tree": "13347a9ce554f0d92a12f28515232c4c1d635bea",
+    "papers_registry_blob": "940cca169a8e2139642a6ddaee54501e165140c6",
+    "vglp_public_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "existing_vglp_report_blob": "729243b70185ca61d5bd21bbb06d71f33f1b029d",
+    "compiler_blob": "9a4848aec423c257a92bb60d8efd8d2cc78eba23",
+    "pokes_fixture_blob": "141bebafe611b885ec871d90f643051ff44ef9d2",
+    "test_harness_blob": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
+    "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+    "pr209_files": {
+      "ISSUES.md": "f22eee1cb7359e87022b120fb51fe22929291b0d",
+      "papers/.review-files/CompilingGC_1_OSPM_Review.md": "c4ac0f56a8d850f55dbac806d50d16ca5752aec7",
+      "papers/vGLP.pdf.md": "2df1d36c49f09e52c4f5cc766f69713aa44dbb68",
+      "sections/status-table.tex": "6716f33e3fafa1c3f67942014aa26f972fd8506d"
+    }
+  },
+  "executed": [
+    {
+      "check": "Candidate status regeneration",
+      "command": "python3 bin/status.py; cmp sections/status-table.tex candidate-status.tex; git hash-object sections/status-table.tex",
+      "inputs": {
+        "bin/status.py": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "calculus/contracts.md": "d4c46fc4e454dd0779cc85ee21b1030b9933bfc4",
+        "calculus/tools/gcsas.py.md": "f410e719b5e3e4841d1448c2270e649e9f53a87a",
+        "cascade/Friendship/platform.vglp.md": "3f5d3aafa263fd1023a5e67e05b910bb5813c2d8",
+        "cascade/GAS.md": "1a4da43da3dd67232a9e3e462dec1bda46a126e9",
+        "cascade/GB.md": "fe4c05553e6037e8c1fa70d646ea2629ffbdf48d",
+        "cascade/GC.md": "7dfd0cc74342bcde6e4af1865a51c54340434197",
+        "glp_multiagent/lib/ui_runtime/named_widgets.dart.md": "961dae4a263085984d92f3b9393b0b3bd1b8e389",
+        "papers/GLP-Spec.pdf.md": "68a183c507961b4c809a01d2ab0dc20f18139eec",
+        "papers/GSC.pdf.md": "1cb3e2c5599dca655b10df26711124cbd79a4c12",
+        "papers/IGLP.pdf.md": "33da31b2a65136449b9ee93e1a76c51daeeb6e90",
+        "papers/TGLP.pdf.md": "6990db1133486663b8080deb5f0c19d8ad295235",
+        "papers/VMAT.pdf.md": "ea3df4fce08759f40e5a86a9cb563c85ab495052",
+        "papers/Villagers.pdf.md": "74f45c809aa131e11b9be0306ac975e06cd3e0ee",
+        "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md": "4a24505490ce4fc7baf121357e719dded87e5931",
+        "papers/sGLP.pdf.md": "dfc37f4eac5cc5e34447dad8d42610aad90d857f",
+        "papers/vGLP.pdf.md": "2df1d36c49f09e52c4f5cc766f69713aa44dbb68",
+        "programs/apps/compile.sh.md": "338f14dc45162bef7d64bbeca670e6a5d973390f",
+        "programs/apps/gb.md": "a0dac6d79fcc2405c361ef7e64daa4b88fc09895",
+        "programs/apps/gc.md": "c7fb7b1d77b71e040d6e90fbee1b7447dd56ca17",
+        "programs/cssn/CSSN.glp.md": "e17c50d08a89835d9c2a33b699ee7bd6441ce3a4",
+        "programs/currencies/bonds/GB.glp.md": "befe553339f6936b3ad5b9f11cb1bf134da2ec23",
+        "programs/currencies/coins/GC.glp.md": "9750daaf38eaccb487a30a32d1a00ce946312192",
+        "programs/gsc/GSN.glp.md": "4ae9a990f7d2a9552e758d6ce6e44fc7fd08f527",
+        "programs/sglp/cva/harness.glp.in.md": "e05608c055bc360079f29e670f7242d631de5fcc",
+        "programs/social/graph/GAS.glp.md": "542014020c62f8cfeaae61024231e6306681f552",
+        "programs/social/graph/Programs.txt.md": "80f486ed8da44baa043469691806e12ad9aa380f",
+        "programs/social/graph/core/agent.glp.md": "cb14e7f7d772f5081eada31ca1f2414125d69213",
+        "programs/social/graph/core/gai_phone.glp.md": "a026ab997df89f4805a2c5449951b914f573594b",
+        "programs/social/graph/core/gsn_phone.glp.md": "0e2288b26615fa279da6bc788f0753d8a37fb6e3",
+        "programs/social/graph/core/gsnp_phone.glp.md": "b7090b83b7357b8adb621710074ceb9578c9e7a8",
+        "programs/social/graph/core/home.vglp.md": "3f78b3bf5121b6a06f7bfc83563d8b1c9bc6066b",
+        "programs/vglp/cva/compiler.md": "f08bb464aa77cf481cbe9a4938165f8bd07f749d",
+        "programs/vglp/cva/compiler/cvac.glp.md": "e2f8d283eba710932e9c79b1b68dd315c6ef6c5e",
+        "programs/vglp/cva/compiler/text.glp.md": "36228cde22223aaa665f2da9bce24f784cbcffb2",
+        "servers/peoplesweb.md": "a6a0f025de737ad9c0a17586a7d1f42d80ab9313",
+        "servers/peoplesweb/tools/build.py.md": "6be237f7766ca5a2f30b8044513038cdde3307a7",
+        "servers/peoplesweb/tools/papers_sync.py.md": "4474eef72bda233c7be11b65945ea278bfd09eb7",
+        "test/run_all_tests.sh.md": "8fde3bf264f121624fdfa5a3ecdd7910428fda32"
+      },
+      "exit_code": 0,
+      "output": "38 reports and status script match pinned blobs\n38 reports, 78 findings, 15 unanswered\n6716f33e3fafa1c3f67942014aa26f972fd8506d\nPython 3.12.14\nDart unavailable on PATH",
+      "note": "An initial scratch copy included the VMAT candidate from PR #203. The pinned manifest detected it. The reported check replaced that file with its exact audit-main blob and reverified all inputs before generation."
+    },
+    {
+      "check": "Finite model of the hypothesis in Finding 3",
+      "procedure": "For each prefix length N, use one local tag i at stage i for i from 0 through N-1, with done false and the remote gate closed. Count locally ready instances and source-enabled acts. With both tags 0 and 1 and an open gate, compare the two add-done outcomes from the same state.",
+      "exit_code": 0,
+      "output": "stages=2 class_ready=2 max_per_ground_act=1 source_enabled=0 shared_effect=True\nstages=32 class_ready=32 max_per_ground_act=1 source_enabled=0 shared_effect=True\nstages=256 class_ready=256 max_per_ground_act=1 source_enabled=0 shared_effect=True",
+      "scope": "Model of the premises stated in the PR diff. Does not validate manuscript definitions or run the GLP compiler."
+    }
+  ],
+  "source_inspection": [
+    "The PR diff adds five findings and preserves the original vGLP report and answer byte for byte after the new introduction. The issue index and linked tickets align with the candidate finding identifiers; all five tickets are open with no comments.",
+    "The pinned public registry still associates vGLP with OSPM. The public papers tree has papers/vGLP.pdf and no entries matching Compiling GC, Calculus or OSPM by those names. Contents returned no PDF bytes for the predecessor; the Git blob read rejected binary content.",
+    "At the public compiler pin, text.glp lines 435–490 emit pre-read own candidate selection on the empty local queue in both dayless and dated code. The separately queued local trigger clause at lines 428–434 steps directly. The source fixture play_pokes_paired exists; its source documents paired delivery of outcome and next start."
+  ],
+  "unverified": [
+    "The three manuscript SHA-256 values in the PR are attributed to the publication, because its exact source copies were unavailable at the public pins. The wider fairness theorem and all other manuscript-specific claims await matching public evidence.",
+    "Dart was unavailable on PATH. The harness contents returned no text through the connector at the pinned blob. No Dart, GLP fixture, compiler or app execution was performed."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/209",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/vGLP.pdf.md",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/blob/de39e24171acfad042ec597270fa802cc77afa73/papers/.review-files/CompilingGC_1_OSPM_Review.md",
+    "issues": [
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/204",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/205",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/206",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
+      "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
+    ],
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/161-pr209-compilinggc-ospm-intake-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/161-pr209-compilinggc-ospm-intake-20261127.json",
+    "compiler": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/compiler/text.glp#L435-L490",
+    "fixture": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/programs/vglp/cva/pokes/self.glp#L28-L39",
+    "papers": "https://github.com/EShapiro2/GLP/tree/490bfc861eb587c51d17426e87e9a6aa6563d86b/papers"
+  }
+}
