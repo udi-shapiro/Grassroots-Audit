@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-27T18:21:24.670Z",
-  "active_run": {
-    "run_id": "pr-watch-20261127-pr214-open",
-    "holder": "Grassroots GPT auditor",
-    "started_at": "2026-11-27T18:21:24.670Z",
-    "lease_expires_at": "2026-11-27T18:51:24.671Z",
-    "event": {
-      "delivery_id": "3531953c-ea8f-11f1-8bb7-b2ebe129b12c",
-      "event_type": "pull_request",
-      "action": "opened",
-      "pull_request_number": 214,
-      "comment_id": null
-    }
-  },
+  "updated_at": "2026-11-27T18:24:49.496Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -34,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "b0c7b782-ea8d-11f1-87a6-3827f3796708",
-      "event": "PR 202 issue comment 7225187842",
-      "pull_request_number": 202,
-      "observed_at": "2026-11-27T18:19:43.403Z",
-      "outcome": "Preserved the project-reported Calculus commits and 106-contract claim in merged PR #213. Public status regenerated at 38 reports, 73 findings and 10 unanswered. Independent verification remains pending a matching public Calculus manuscript and village inputs."
+      "delivery_id": "3531953c-ea8f-11f1-8bb7-b2ebe129b12c",
+      "event": "PR 214 opened",
+      "pull_request_number": 214,
+      "observed_at": "2026-11-27T18:24:49.496Z",
+      "outcome": "Reviewed exact head 32deb4bf. Finite controls, Knowledge trace and status regeneration passed. Public Notes:3 supports reopening Finding 21. Left the PR open because the authorized public papers pin has no matching Calculus (18) artifact for the #201 closure or manuscript-specific Findings 32–33."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -4330,6 +4318,54 @@
         "report_blob": "5e2239e9353064f0cc52c75c201ed2b778421811"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/164-pr202-calculus16-private-followup-20261127.json"
+    },
+    {
+      "number": 214,
+      "head_sha": "32deb4bf657a2ab854f707c52311abb243659221",
+      "base_sha": "34f5de1354094f11772bb9d0a978952231a8ded7",
+      "state": "open",
+      "merged_at": null,
+      "closed_at": null,
+      "merge_commit_sha": null,
+      "updated_at": "2026-11-27T18:23:29Z",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7225438956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7225438956,
+            "updated_at": "2026-11-27T18:23:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T18:23:29Z"
+      },
+      "comment_cursor": 7225438956,
+      "review_cursor": null,
+      "delivery_ids": [
+        "3531953c-ea8f-11f1-8bb7-b2ebe129b12c"
+      ],
+      "notes": "Exact-head controls and status regeneration passed. Public Notes:3 supports reopening Finding 21. The public papers pin contains no Calculus manuscript, so #201 closure and manuscript-specific Findings 32–33 remain blocked pending a matching public artifact. PR left open with audit comment.",
+      "source_pins": {
+        "audit_main_base": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "head": "32deb4bf657a2ab854f707c52311abb243659221",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "issues_blob": "d8ac320c93e669b26dcbf14f1514290f10bb1b82",
+        "review_blob": "3a0e9b5bb5779e9d85c779802dc6f1e9b9c6e2e1",
+        "controls_blob": "453fb69aca44a3a1026bd1c55a83bb9f0ebb294d",
+        "report_blob": "01205ac08d9452e4cf6bb9583f7afbc21a141739",
+        "knowledge_blob": "f84a1be0919a940d570880509412ae5db371bdee",
+        "status_table_blob": "541375e8b3af819a0c2e3c2435ee4517f0d59611",
+        "status_table_sha256": "84eb5668cf0287d2d24e306d74cdc826fc4b77e3149dc91fad1df613714aca7d"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/165-pr214-calculus18-review-20261127.json"
     }
   ],
   "source_observed_after_tests": {
@@ -20395,6 +20431,24 @@
       "latest_comments": [],
       "inline_versions": [],
       "latest_item_at": null
+    },
+    "214": {
+      "comments": 1,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7225438956
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7225438956,
+          "updated_at": "2026-11-27T18:23:29Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-27T18:23:29Z"
     }
   }
 }

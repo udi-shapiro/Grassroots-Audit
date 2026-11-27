@@ -1,0 +1,119 @@
+{
+  "stage": 165,
+  "date": "2026-11-27",
+  "title": "Calculus (18) publication review",
+  "events": [
+    {
+      "delivery_id": "3531953c-ea8f-11f1-8bb7-b2ebe129b12c",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 214,
+      "comment_id": null,
+      "head_sha": "32deb4bf657a2ab854f707c52311abb243659221",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7225438956
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7225438956,
+            "updated_at": "2026-11-27T18:23:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T18:23:29Z"
+      },
+      "processed_at": "2026-11-27T18:24:49.496Z",
+      "outcome": "Exact-head public checks passed. Publication remains open pending a matching public Calculus (18) source for manuscript-dependent status changes."
+    }
+  ],
+  "source_pins": {
+    "audit_main_base": "34f5de1354094f11772bb9d0a978952231a8ded7",
+    "head": "32deb4bf657a2ab854f707c52311abb243659221",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "issues_blob": "d8ac320c93e669b26dcbf14f1514290f10bb1b82",
+    "review_blob": "3a0e9b5bb5779e9d85c779802dc6f1e9b9c6e2e1",
+    "controls_blob": "453fb69aca44a3a1026bd1c55a83bb9f0ebb294d",
+    "report_blob": "01205ac08d9452e4cf6bb9583f7afbc21a141739",
+    "knowledge_blob": "f84a1be0919a940d570880509412ae5db371bdee",
+    "status_table_blob": "541375e8b3af819a0c2e3c2435ee4517f0d59611",
+    "status_table_sha256": "84eb5668cf0287d2d24e306d74cdc826fc4b77e3149dc91fad1df613714aca7d"
+  },
+  "source_inspection": [
+    "Read PR #214’s five-file exact-head diff, body, discussion and review state.",
+    "Read main README.md, CONTRIBUTING.md and calculus/contracts.md at base 34f5de1354094f11772bb9d0a978952231a8ded7.",
+    "Read public Notes full-schemas.txt at GLP 7b68b74c6388135736632957b321ae63503feaf7; Notes:3 permits Alice=Carol and Bob=Carol.",
+    "Inspected the public papers tree at 490bfc861eb587c51d17426e87e9a6aa6563d86b; it contains no Calculus artifact."
+  ],
+  "project_claims": [
+    "The supplied Calculus (18) manuscript repairs negative ground tests and supports closure of #201.",
+    "The supplied Calculus (18) definitions exhibit the computable-head and local-negation issues recorded as Findings 32 and 33.",
+    "The combined 106-contract table includes 13 inputs from a separate Villagers repository."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 calculus/.review-files/revision18_controls.py",
+      "scope": "PR #214 exact head",
+      "result": "Passed all finite controls."
+    },
+    {
+      "command": "python3 calculus/.review-files/knowledge_three_people.py",
+      "scope": "PR #214 exact head",
+      "result": "Passed. No prior Alice–Bob interaction; all 15 final ground instances exclude a transaction."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "PR #214 exact head materialized over base 34f5de1354094f11772bb9d0a978952231a8ded7",
+      "result": "38 reports, 75 findings, 12 unanswered. Regenerated table matches the candidate; SHA-256 84eb5668cf0287d2d24e306d74cdc826fc4b77e3149dc91fad1df613714aca7d."
+    },
+    {
+      "command": "Exact-head diff inspection",
+      "scope": "PR #214",
+      "result": "Five files changed: the report, revision review, finite controls, issue index and generated status table."
+    }
+  ],
+  "findings": [
+    {
+      "item": "Finding 21 reopening",
+      "status": "public-source support confirmed",
+      "evidence": "Notes:3 explicitly permits issuer/payer or issuer/recipient coincidence at the pinned public source."
+    },
+    {
+      "item": "Finding 31 closure (#201)",
+      "status": "pending public manuscript",
+      "evidence": "Finite control passes; source-text verification awaits a matching public Calculus (18) artifact."
+    },
+    {
+      "item": "Findings 32–33",
+      "status": "conditional witnesses reproduced",
+      "evidence": "Finite examples pass; manuscript-location verification awaits a matching public Calculus (18) artifact."
+    }
+  ],
+  "outcome": {
+    "pr": 214,
+    "state": "open",
+    "head_sha": "32deb4bf657a2ab854f707c52311abb243659221",
+    "audit_comment_id": 7225438956,
+    "merge": "deferred"
+  },
+  "next_actions": [
+    "Publish or link the matching Calculus (18) artifact in the authorized public source set with a stable digest.",
+    "Keep #201 pending public verification until the manuscript rule is inspectable.",
+    "Retain Findings 32–33 as manuscript-scoped claims until their cited definitions can be checked.",
+    "Preserve the public 93-contract and Notes:3 evidence already reproduced."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/214",
+    "audit_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/214#issuecomment-7225438956",
+    "notes": "https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Notes/full-schemas.txt",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/165-pr214-calculus18-review-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/165-pr214-calculus18-review-20261127.json"
+  }
+}

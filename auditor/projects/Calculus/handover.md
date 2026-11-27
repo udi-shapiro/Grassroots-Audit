@@ -1,3 +1,7 @@
+## Stage 165 — Calculus (18) publication review — 27 November 2026 UTC
+
+At [PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) head `32deb4bf657a2ab854f707c52311abb243659221`, both executable controls passed and the status table regenerated to 38 reports, 75 findings and 12 unanswered. Public Notes:3 supports reopening Finding 21. Closure of #201 and Findings 32–33 require the matching Calculus (18) source in public GLP papers. Keep the PR open, preserve its exact head, and recheck after source publication. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/165-pr214-calculus18-review-20261127.json)
+
 ## Stage 164 — Calculus (16) private-source follow-up — 27 November 2026 UTC
 
 The project attributes revised grassroots-condition wording to private Calculus commit `8fe7cc8` and the combined 106-contract results to private commit `870d6e5`. [PR #213](https://github.com/udi-shapiro/Grassroots-Audit/pull/213) preserves both dated claims and the auditor’s pending-verification scope. The exact public rerun remains the 93 contracts at GLP `7b68b74c`, and the generated status table stays at 38 reports, 73 findings and 10 unanswered. Next, verify the manuscript and 13 village inputs after public publication. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/164-pr202-calculus16-private-followup-20261127.json)
