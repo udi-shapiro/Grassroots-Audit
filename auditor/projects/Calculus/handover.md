@@ -1,3 +1,7 @@
+## Stage 164 — Calculus (16) private-source follow-up — 27 November 2026 UTC
+
+The project attributes revised grassroots-condition wording to private Calculus commit `8fe7cc8` and the combined 106-contract results to private commit `870d6e5`. [PR #213](https://github.com/udi-shapiro/Grassroots-Audit/pull/213) preserves both dated claims and the auditor’s pending-verification scope. The exact public rerun remains the 93 contracts at GLP `7b68b74c`, and the generated status table stays at 38 reports, 73 findings and 10 unanswered. Next, verify the manuscript and 13 village inputs after public publication. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/164-pr202-calculus16-private-followup-20261127.json)
+
 ## Stage 163 — GSA Programs Part B — 27 November 2026 UTC
 
 The [Groups schema](https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Groups/full-schemas.txt#L13) combines friendship deletion and group cleanup in one act. GSA Part B proposes host-owned Unfriend with later app handling. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) records that distinction under [issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193). The open design decision concerns whether later handling is allowed and what an app can do while it waits. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/163-pr210-gsa-programs-part-b-20261127.json)

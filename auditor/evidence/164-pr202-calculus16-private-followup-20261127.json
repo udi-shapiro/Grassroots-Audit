@@ -1,0 +1,112 @@
+{
+  "stage": 164,
+  "date": "2026-11-27",
+  "title": "PR #202 Calculus (16) private-source follow-up evidence",
+  "event": {
+    "delivery_id": "b0c7b782-ea8d-11f1-87a6-3827f3796708",
+    "event_type": "issue_comment",
+    "action": "created",
+    "actor_login": "EShapiro2",
+    "pull_request_number": 202,
+    "comment_id": 7225187842,
+    "head_sha": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+    "discussion_version": {
+      "comments": 2,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7225187842,
+        7225338140
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7225187842,
+          "updated_at": "2026-11-27T18:09:29Z"
+        },
+        {
+          "id": 7225338140,
+          "updated_at": "2026-11-27T18:17:42Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-27T18:17:42Z"
+    },
+    "processed_at": "2026-11-27T18:19:43.403Z",
+    "outcome": "Preserved the attributed response. Verification remains pending public source publication."
+  },
+  "source_pins": {
+    "audit_main_before": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+    "audit_main_after": "34f5de1354094f11772bb9d0a978952231a8ded7",
+    "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
+    "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+    "pr213_head": "3c2895437a4a7141931b5399276c7caad2c7b14e",
+    "pr213_merge": "34f5de1354094f11772bb9d0a978952231a8ded7",
+    "report_blob": "5e2239e9353064f0cc52c75c201ed2b778421811",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+    "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+    "status_table_sha256": "e76df84d816f13cf5cf82b0333c350f5c0677b078d373e95ea93efbe999a668b"
+  },
+  "project_claims": [
+    {
+      "claim": "Private Calculus commit 8fe7cc8 revises the grassroots-condition terminology and theorem wording.",
+      "source": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202#issuecomment-7225187842",
+      "verification": "pending public source"
+    },
+    {
+      "claim": "Private Calculus commit 870d6e5 reports 106 successful contracts, with Commute 106, Return 66 exact and Recover 81 exact.",
+      "source": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202#issuecomment-7225187842",
+      "verification": "pending public source"
+    }
+  ],
+  "source_inspection": [
+    "Read PR #202 at exact head 4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85 and comment 7225187842.",
+    "Read main README.md, CONTRIBUTING.md and calculus/contracts.md at 1e526da11f7f7d29bce8d41f933578f7535a7b86.",
+    "Read the Stage 160 reconciliation and current Calculus handover.",
+    "Refreshed public GLP main 7b68b74c6388135736632957b321ae63503feaf7 and papers 490bfc861eb587c51d17426e87e9a6aa6563d86b."
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 bin/status.py",
+      "scope": "Materialized audit main 1e526da11f7f7d29bce8d41f933578f7535a7b86",
+      "result": "38 reports, 73 findings, 10 unanswered."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "scope": "PR #213 candidate at 3c2895437a4a7141931b5399276c7caad2c7b14e",
+      "result": "38 reports, 73 findings, 10 unanswered. sections/status-table.tex remained byte-identical with SHA-256 e76df84d816f13cf5cf82b0333c350f5c0677b078d373e95ea93efbe999a668b."
+    },
+    {
+      "command": "Exact-head diff inspection",
+      "scope": "PR #213",
+      "result": "One report file changed, adding the dated project response and auditor scope paragraph."
+    }
+  ],
+  "scope_and_limits": [
+    "Authorized verification sources: public EShapiro2/GLP main and papers.",
+    "The cited Calculus commits and the 13 village inputs remain project evidence until matching public sources are available.",
+    "The 93-contract compiler execution remains the reproducible public baseline.",
+    "The response concerns two unnumbered review points and changes no finding status."
+  ],
+  "publication": {
+    "pr": 213,
+    "head_sha": "3c2895437a4a7141931b5399276c7caad2c7b14e",
+    "merge_sha": "34f5de1354094f11772bb9d0a978952231a8ded7",
+    "report_path": "calculus/contracts.md"
+  },
+  "next_actions": [
+    "Verify commits 8fe7cc8 and 870d6e5 when a matching Calculus manuscript enters the authorized public source set.",
+    "Run the 13 village inputs when they enter the authorized public source set and compare the combined 106-contract totals.",
+    "Keep the established public 93-contract execution as the reproducible baseline."
+  ],
+  "urls": {
+    "source_comment": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202#issuecomment-7225187842",
+    "audit_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/202#issuecomment-7225338140",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/213",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/34f5de1354094f11772bb9d0a978952231a8ded7/calculus/contracts.md",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/164-pr202-calculus16-private-followup-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/164-pr202-calculus16-private-followup-20261127.json"
+  }
+}

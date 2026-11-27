@@ -1,20 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-27T18:11:54.415Z",
-  "active_run": {
-    "run_id": "pr-watch-20261127-pr202-comment-7225187842",
-    "holder": "Grassroots GPT auditor",
-    "started_at": "2026-11-27T18:11:54.415Z",
-    "lease_expires_at": "2026-11-27T18:41:54.416Z",
-    "event": {
-      "delivery_id": "b0c7b782-ea8d-11f1-87a6-3827f3796708",
-      "event_type": "issue_comment",
-      "action": "created",
-      "pull_request_number": 202,
-      "comment_id": 7225187842
-    }
-  },
+  "updated_at": "2026-11-27T18:19:43.403Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -34,18 +22,18 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "66628a42-ea5f-11f1-8d49-21bad593941d",
-      "event": "PR 202 opened and merged",
+      "delivery_id": "b0c7b782-ea8d-11f1-87a6-3827f3796708",
+      "event": "PR 202 issue comment 7225187842",
       "pull_request_number": 202,
-      "observed_at": "2026-11-27T12:44:42.291Z",
-      "outcome": "Observed already merged. All five PR files match main. Reproduced the three-person Knowledge fixture, the public 93-contract compiler counts and the exact status table. Manuscript-specific conclusions remain scoped to the supplied manuscript in the merged review. Opened a separate main-based verification of the public VMAT consent paragraph. Four citations still render as [?]. Awaiting independent exact-head review."
+      "observed_at": "2026-11-27T18:19:43.403Z",
+      "outcome": "Preserved the project-reported Calculus commits and 106-contract claim in merged PR #213. Public status regenerated at 38 reports, 73 findings and 10 unanswered. Independent verification remains pending a matching public Calculus manuscript and village inputs."
     },
     "environment_selection": "inherited",
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 195,
-  "publication_merge_sha": "e754cd0cd1ebb264d9b94832a4fd5f2e97b3765d",
+  "publication_pr": 213,
+  "publication_merge_sha": "34f5de1354094f11772bb9d0a978952231a8ded7",
   "source_verified": "7b68b74c6388135736632957b321ae63503feaf7",
   "processed_prs": [
     {
@@ -4081,25 +4069,38 @@
       "merged_at": "2026-11-27T12:38:07Z",
       "closed_at": "2026-11-27T12:38:07Z",
       "merge_commit_sha": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
-      "updated_at": "2026-11-27T12:38:08Z",
+      "updated_at": "2026-11-27T18:17:43Z",
       "discussion_version": {
-        "comments": 0,
+        "comments": 2,
         "reviews": 0,
         "review_threads": 0,
-        "comment_ids": [],
+        "comment_ids": [
+          7225187842,
+          7225338140
+        ],
         "review_ids": [],
         "review_versions": [],
-        "latest_comments": [],
+        "latest_comments": [
+          {
+            "id": 7225187842,
+            "updated_at": "2026-11-27T18:09:29Z"
+          },
+          {
+            "id": 7225338140,
+            "updated_at": "2026-11-27T18:17:42Z"
+          }
+        ],
         "inline_versions": [],
-        "latest_item_at": null
+        "latest_item_at": "2026-11-27T18:17:42Z"
       },
-      "comment_cursor": null,
+      "comment_cursor": 7225338140,
       "review_cursor": null,
       "delivery_ids": [
         "5dcc0f20-ea5f-11f1-9cf8-1721c98b7aa8",
-        "66628a42-ea5f-11f1-8d49-21bad593941d"
+        "66628a42-ea5f-11f1-8d49-21bad593941d",
+        "b0c7b782-ea8d-11f1-87a6-3827f3796708"
       ],
-      "notes": "Observed already merged. All five PR files match main. Reproduced the three-person Knowledge fixture, the public 93-contract compiler counts and the exact status table. Manuscript-specific conclusions remain scoped to the supplied manuscript in the merged review.",
+      "notes": "Recorded Audit #7’s two unnumbered Calculus (16) responses. Private commits 8fe7cc8 and 870d6e5 and the 13 village inputs remain project evidence pending a matching public source. PR #213 merged the attributed response.",
       "source_pins": {
         "audit_main": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
         "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
@@ -4121,10 +4122,15 @@
         "calculus_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
         "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
         "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
-        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b"
+        "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b",
+        "audit_main_after_publication": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "publication_pr": 213,
+        "publication_head": "3c2895437a4a7141931b5399276c7caad2c7b14e",
+        "publication_merge": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "publication_report_blob": "5e2239e9353064f0cc52c75c201ed2b778421811"
       },
       "mergeable": null,
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/160-pr202-calculus16-vmat-public-check-20261127.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/164-pr202-calculus16-private-followup-20261127.json"
     },
     {
       "number": 203,
@@ -4278,6 +4284,40 @@
         "chess_cascade_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json"
+    },
+    {
+      "number": 213,
+      "head_sha": "3c2895437a4a7141931b5399276c7caad2c7b14e",
+      "base_sha": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+      "state": "closed",
+      "merged_at": "2026-11-27T18:17:29Z",
+      "closed_at": "2026-11-27T18:17:29Z",
+      "merge_commit_sha": "34f5de1354094f11772bb9d0a978952231a8ded7",
+      "updated_at": "2026-11-27T18:17:29Z",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "b232a928-ea8e-11f1-95b2-e95e3fa28049"
+      ],
+      "notes": "Auditor publication created and merged in this run. It preserves the attributed PR #202 response and keeps private-source claims pending public verification. Treat its publication and merge events as self-generated unless the discussion or head changes.",
+      "source_pins": {
+        "audit_main_base": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "head": "3c2895437a4a7141931b5399276c7caad2c7b14e",
+        "merge": "34f5de1354094f11772bb9d0a978952231a8ded7",
+        "report_blob": "5e2239e9353064f0cc52c75c201ed2b778421811"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/164-pr202-calculus16-private-followup-20261127.json"
     }
   ],
   "source_observed_after_tests": {
@@ -20308,5 +20348,41 @@
     "status_table_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
     "pr203_report_blob": "3f7c27de932c9505721d9be62a66626fc5b0955b",
     "observed_at": "2026-11-27T12:44:42.291Z"
+  },
+  "discussion_versions": {
+    "202": {
+      "comments": 2,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [
+        7225187842,
+        7225338140
+      ],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [
+        {
+          "id": 7225187842,
+          "updated_at": "2026-11-27T18:09:29Z"
+        },
+        {
+          "id": 7225338140,
+          "updated_at": "2026-11-27T18:17:42Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-27T18:17:42Z"
+    },
+    "213": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    }
   }
 }
