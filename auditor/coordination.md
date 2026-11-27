@@ -1,3 +1,7 @@
+## Stage 163 — GSA Programs Part B — 27 November 2026 UTC
+
+[PR #210](https://github.com/udi-shapiro/Grassroots-Audit/pull/210) merged GSA’s dated Part B answer. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) now records the separate public checks and awaits review at `37ac0d75e3cd365fe8f8a6c3020c79069ed285b1`. The public host checks matching program identities and preserves the installed list on refusal. Schema-checker integration and host delivery of built-in facts remain pending. [Issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193) retains the decision about when inherited cleanup takes effect. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json)
+
 ## Stage 162 — Compiling GC revision (2) intake — 27 November 2026 UTC
 
 [PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) now reviews the 25-page revision at `bc3862bf49c172eae9da1cedee769d3cab14a6c2`. The same five findings remain open. Status reproduced at 38 reports, 78 findings and 15 unanswered. A finite model checked the distinction between class enablement and a fixed act in the proposed steadiness repair. The exact manuscript and Dart runtime checks remain pending. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json)

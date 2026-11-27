@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-27T17:14:39.367Z",
-  "active_run": {
-    "run_id": "pr210-bf332c78-20261127",
-    "status": "active",
-    "started_at": "2026-11-27T17:14:39.367Z",
-    "lease_expires_at": "2026-11-27T17:44:39.367Z",
-    "delivery_ids": [
-      "bf332c78-ea85-11f1-9a01-a4f0592d73e3"
-    ],
-    "pull_request_numbers": [
-      210
-    ]
-  },
+  "updated_at": "2026-11-27T17:17:54.638Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -3968,10 +3957,10 @@
     },
     {
       "number": 198,
-      "head_sha": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
-      "base_sha": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
+      "head_sha": "37ac0d75e3cd365fe8f8a6c3020c79069ed285b1",
+      "base_sha": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
       "state": "open",
-      "updated_at": "2026-11-27T01:15:17Z",
+      "updated_at": "2026-11-27T17:17:03Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "mergeable": null,
@@ -3995,27 +3984,30 @@
       "own_merge": false,
       "own_comment_ids": [],
       "own_review_ids": [],
-      "notes": "Auditor publication updated with Groups host-boot source and APPS expected-output checks. Latest head awaits review. Runtime reproduction remains pending.",
+      "notes": "Refreshed with GSA Part B source verification. Await exact-head review.",
       "source_pins": {
-        "audit_main": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
-        "audit_main_before_merge": "2d7be39c33992f9aa9bca9b7a31d59b4ac3f3d01",
-        "audit_pr_199": "615b50216f73ae762a92e137cf1c24d83f822acf",
-        "audit_pr_198": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
-        "audit_pr_198_previous": "5e2f465008fc143ec786e50f3c7919bc237d3a62",
-        "answer_report_blob": "80f486ed8da44baa043469691806e12ad9aa380f",
-        "verification_report_blob": "34300b197e07e8117b962a6af9f81df5d8b91d20",
-        "status_table_blob": "ec3c5a09f656eacde3bdd1571855feb9b2feded9",
+        "audit_main_before": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_merge": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "audit_main_observed": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "pr210_head": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+        "pr198_previous": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
+        "pr198_head": "37ac0d75e3cd365fe8f8a6c3020c79069ed285b1",
+        "pr210_report_blob": "cbedd2ffafa2cb69739878c5f5a6d82d03fa53c1",
+        "pr198_report_blob": "12088cdfb4c168d5e93727985c7f75b6cb880a90",
+        "published_status_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
         "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
         "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
-        "glp_papers": "f40361078f36606b674f91d5a941bfd43935aa54",
-        "glp_blobs": {
-          "test/run_all_tests.sh": "24d3cbff7b37dbc1cd4cddaae22cd3c5a5e5d4b0",
-          "programs/apps/gsn_boot.glp": "3703c47ba1fb8eb80a298ae48427ab2658ab379a",
-          "programs/social/graph/core/gsn_phone.glp": "0472d2678fdcafb24ffb45c5284bc601d6c0fb55",
-          "programs/apps/gsn/platform.vglp": "a5bf2ca3ef7ead5d65b3827568c28e5712626b99"
-        }
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "gsa_paper_previous_pin": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "gsa_pdf_blob": "879d683c5044243ff0e73e7d2350f81ce4dfcd77",
+        "programs_contract_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+        "groups_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+        "groups_schema_blob": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9",
+        "chess_contract_blob": "be6b20aa6a3a3e908ef3d02e3cc23167ca7339b6",
+        "chess_cascade_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/158-pr199-gsa-groups-host-boot-addendum-20261127.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json"
     },
     {
       "number": 199,
@@ -4221,6 +4213,59 @@
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/162-pr209-compilinggc-revision2-intake-20261127.json",
       "mergeable": true
+    },
+    {
+      "number": 210,
+      "head_sha": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+      "base_sha": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+      "state": "closed",
+      "updated_at": "2026-11-27T17:15:41Z",
+      "closed_at": "2026-11-27T17:15:40Z",
+      "merged_at": "2026-11-27T17:15:40Z",
+      "merge_commit_sha": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "comment_cursor": null,
+      "review_cursor": null,
+      "delivery_ids": [
+        "bf332c78-ea85-11f1-9a01-a4f0592d73e3",
+        "2c5daddc-ea86-11f1-9f0a-f3037588d18f"
+      ],
+      "own_merge": true,
+      "own_publication": false,
+      "notes": "Merged GSA’s attributed Part B as an answer to the Programs design proposal. Updated the separate audit PR #198 with public source checks on the handshake, install refusal, host channel and Groups’ combined Unfriend act. No runtime or paper fix was verified.",
+      "source_pins": {
+        "audit_main_before": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_merge": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "audit_main_observed": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "pr210_head": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+        "pr198_previous": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
+        "pr198_head": "37ac0d75e3cd365fe8f8a6c3020c79069ed285b1",
+        "pr210_report_blob": "cbedd2ffafa2cb69739878c5f5a6d82d03fa53c1",
+        "pr198_report_blob": "12088cdfb4c168d5e93727985c7f75b6cb880a90",
+        "published_status_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "gsa_paper_previous_pin": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "gsa_pdf_blob": "879d683c5044243ff0e73e7d2350f81ce4dfcd77",
+        "programs_contract_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+        "groups_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+        "groups_schema_blob": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9",
+        "chess_contract_blob": "be6b20aa6a3a3e908ef3d02e3cc23167ca7339b6",
+        "chess_cascade_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json"
     }
   ],
   "source_observed_after_tests": {
@@ -20078,6 +20123,116 @@
           "https://github.com/udi-shapiro/Grassroots-Audit/issues/207",
           "https://github.com/udi-shapiro/Grassroots-Audit/issues/208"
         ]
+      }
+    },
+    {
+      "delivery_id": "bf332c78-ea85-11f1-9a01-a4f0592d73e3",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 210,
+      "comment_id": null,
+      "head_sha": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T17:17:54.638Z",
+      "source_pins": {
+        "audit_main_before": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_merge": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "audit_main_observed": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "pr210_head": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+        "pr198_previous": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
+        "pr198_head": "37ac0d75e3cd365fe8f8a6c3020c79069ed285b1",
+        "pr210_report_blob": "cbedd2ffafa2cb69739878c5f5a6d82d03fa53c1",
+        "pr198_report_blob": "12088cdfb4c168d5e93727985c7f75b6cb880a90",
+        "published_status_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "gsa_paper_previous_pin": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "gsa_pdf_blob": "879d683c5044243ff0e73e7d2350f81ce4dfcd77",
+        "programs_contract_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+        "groups_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+        "groups_schema_blob": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9",
+        "chess_contract_blob": "be6b20aa6a3a3e908ef3d02e3cc23167ca7339b6",
+        "chess_cascade_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+      },
+      "outcome": "Merged GSA’s attributed Part B as an answer to the Programs design proposal. Updated the separate audit PR #198 with public source checks on the handshake, install refusal, host channel and Groups’ combined Unfriend act. No runtime or paper fix was verified.",
+      "merged": true,
+      "merge_commit_sha": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/210",
+        "main_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/1e526da11f7f7d29bce8d41f933578f7535a7b86/programs/social/graph/Programs.txt.md",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/198",
+        "verification_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/37ac0d75e3cd365fe8f8a6c3020c79069ed285b1/programs/social/graph/Programs.txt.md",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/163-pr210-gsa-programs-part-b-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json"
+      }
+    },
+    {
+      "delivery_id": "2c5daddc-ea86-11f1-9f0a-f3037588d18f",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 210,
+      "comment_id": null,
+      "head_sha": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-27T17:17:54.638Z",
+      "source_pins": {
+        "audit_main_before": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
+        "audit_main_merge": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "audit_main_observed": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+        "pr210_head": "968b9f84b7fa3a353d365180ab62be8933bf48dc",
+        "pr198_previous": "87a2a8ea5561546ee632ab8d4a103e671a64cb36",
+        "pr198_head": "37ac0d75e3cd365fe8f8a6c3020c79069ed285b1",
+        "pr210_report_blob": "cbedd2ffafa2cb69739878c5f5a6d82d03fa53c1",
+        "pr198_report_blob": "12088cdfb4c168d5e93727985c7f75b6cb880a90",
+        "published_status_blob": "20655215db4ad5c68f9a40a66db53a489909357a",
+        "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "490bfc861eb587c51d17426e87e9a6aa6563d86b",
+        "gsa_paper_previous_pin": "f40361078f36606b674f91d5a941bfd43935aa54",
+        "gsa_pdf_blob": "879d683c5044243ff0e73e7d2350f81ce4dfcd77",
+        "programs_contract_blob": "8e2a6b66b14cd9fcf3866df9e871e8d5bf8e946f",
+        "host_agent_blob": "6911a0b33871a24b1366b942e1aaa665fc9ba6d2",
+        "groups_entry_blob": "5f4790a8e91e70f50d100f145ea275320e3ffea0",
+        "groups_schema_blob": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9",
+        "chess_contract_blob": "be6b20aa6a3a3e908ef3d02e3cc23167ca7339b6",
+        "chess_cascade_blob": "2c8aef89e57c325407b28767ee45b558005a84ca"
+      },
+      "outcome": "Skipped the closure produced by this run’s recorded exact-head merge.",
+      "merged": true,
+      "merge_commit_sha": "1e526da11f7f7d29bce8d41f933578f7535a7b86",
+      "urls": {
+        "answer": "https://github.com/udi-shapiro/Grassroots-Audit/pull/210",
+        "main_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/1e526da11f7f7d29bce8d41f933578f7535a7b86/programs/social/graph/Programs.txt.md",
+        "verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/198",
+        "verification_report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/37ac0d75e3cd365fe8f8a6c3020c79069ed285b1/programs/social/graph/Programs.txt.md",
+        "issue": "https://github.com/udi-shapiro/Grassroots-Audit/issues/193",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/163-pr210-gsa-programs-part-b-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json"
       }
     }
   ],

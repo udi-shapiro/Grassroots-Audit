@@ -1,3 +1,7 @@
+## Stage 163 — GSA Programs Part B — 27 November 2026 UTC
+
+[PR #210](https://github.com/udi-shapiro/Grassroots-Audit/pull/210) records GSA’s separate-install design, fact lifecycle and refused-install policy. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) separates the existing source behavior from the proposed delivery of host facts. The status table regenerated at 38 reports, 73 findings and 10 unanswered. The matching runtime was unavailable. The public GSA PDF is unchanged from its prior pinned review. Keep #193 open for inherited-effect timing, matching runtime evidence and a public paper update. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/163-pr210-gsa-programs-part-b-20261127.json)
+
 ## Stage 158 — GSA Groups boot addendum — 27 November 2026 UTC
 
 [PR #199](https://github.com/udi-shapiro/Grassroots-Audit/pull/199) merged at `285a35ec` from `615b5021`. It preserves GSA’s attributed host-boot report. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) now includes the independent source check and awaits review at `87a2a8ea`. The public phone script waits for the host connection before Alice’s invitation and supplies Bob’s consent in advance. The APPS assertions put each host connection line before the first empty Groups view. The audit did not execute the pinned boot. The cached runtime’s sources differ from the pin.

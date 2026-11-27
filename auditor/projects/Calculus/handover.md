@@ -1,3 +1,7 @@
+## Stage 163 — GSA Programs Part B — 27 November 2026 UTC
+
+The [Groups schema](https://github.com/EShapiro2/GLP/blob/7b68b74c6388135736632957b321ae63503feaf7/calculus/contracts/Groups/full-schemas.txt#L13) combines friendship deletion and group cleanup in one act. GSA Part B proposes host-owned Unfriend with later app handling. [PR #198](https://github.com/udi-shapiro/Grassroots-Audit/pull/198) records that distinction under [issue #193](https://github.com/udi-shapiro/Grassroots-Audit/issues/193). The open design decision concerns whether later handling is allowed and what an app can do while it waits. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/163-pr210-gsa-programs-part-b-20261127.json)
+
 ## Stage 162 — Calculus (17) in the revision-(2) comparison — 27 November 2026 UTC
 
 [PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) retains the Calculus (17) comparison at its original reported manuscript digest while updating the Compiling GC appendix review. No matching public Calculus PDF appeared at the checked pin. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/162-pr209-compilinggc-revision2-intake-20261127.json)
