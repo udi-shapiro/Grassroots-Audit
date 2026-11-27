@@ -1,0 +1,271 @@
+{
+  "stage": 168,
+  "date": "2026-11-27",
+  "title": "VMAT public citation and correction verification",
+  "events": [
+    {
+      "delivery_id": "9c7d34b2-eab2-11f1-82c7-1c97d56dd119",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 203,
+      "comment_id": 7229431574,
+      "head_sha": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7229431574,
+          7229584525,
+          7229622838
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7229431574,
+            "updated_at": "2026-11-27T22:33:46Z"
+          },
+          {
+            "id": 7229584525,
+            "updated_at": "2026-11-27T22:44:54Z"
+          },
+          {
+            "id": 7229622838,
+            "updated_at": "2026-11-27T22:47:41Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T22:47:41Z"
+      },
+      "processed_at": "2026-11-27T22:49:17.059Z",
+      "source_pins": {
+        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "pr_head_before": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "pr_intermediate_head": "19dc72ec43a25755a34cc459707877e0484cbf8d",
+        "pr_head": "252c922d1a637c535aab1ffd712a0276b7b1025d",
+        "pr_base": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "previous_vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_blob": "ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8",
+        "vmat_pdf_sha256": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996",
+        "report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
+        "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
+        "status_table_sha256": "30ec8dd02c0b05368c626381451953b1c6f1ec61065213b5b631aa7f6f5495f4"
+      },
+      "outcome": "Preserved the dated VMAT reply and independently verified the later public PDF, including fixes for #191 and #192.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574",
+        "audit_verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229622838",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/252c922d1a637c535aab1ffd712a0276b7b1025d/papers/VMAT.pdf.md",
+        "public_pdf": "https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf",
+        "issue191": "https://github.com/udi-shapiro/Grassroots-Audit/issues/191",
+        "issue192": "https://github.com/udi-shapiro/Grassroots-Audit/issues/192",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/168-pr203-vmat-public-corrections-20261127.json"
+      }
+    },
+    {
+      "delivery_id": "f5de4e64-eab3-11f1-9b75-88d2e6739909",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 203,
+      "comment_id": null,
+      "head_sha": "19dc72ec43a25755a34cc459707877e0484cbf8d",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7229431574,
+          7229584525,
+          7229622838
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7229431574,
+            "updated_at": "2026-11-27T22:33:46Z"
+          },
+          {
+            "id": 7229584525,
+            "updated_at": "2026-11-27T22:44:54Z"
+          },
+          {
+            "id": 7229622838,
+            "updated_at": "2026-11-27T22:47:41Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T22:47:41Z"
+      },
+      "processed_at": "2026-11-27T22:49:17.059Z",
+      "source_pins": {
+        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "pr_head_before": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "pr_intermediate_head": "19dc72ec43a25755a34cc459707877e0484cbf8d",
+        "pr_head": "252c922d1a637c535aab1ffd712a0276b7b1025d",
+        "pr_base": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "previous_vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_blob": "ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8",
+        "vmat_pdf_sha256": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996",
+        "report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
+        "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
+        "status_table_sha256": "30ec8dd02c0b05368c626381451953b1c6f1ec61065213b5b631aa7f6f5495f4"
+      },
+      "outcome": "Recorded the publication update produced by this run. No separate reply loop.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574",
+        "audit_verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229622838",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/252c922d1a637c535aab1ffd712a0276b7b1025d/papers/VMAT.pdf.md",
+        "public_pdf": "https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf",
+        "issue191": "https://github.com/udi-shapiro/Grassroots-Audit/issues/191",
+        "issue192": "https://github.com/udi-shapiro/Grassroots-Audit/issues/192",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/168-pr203-vmat-public-corrections-20261127.json"
+      }
+    },
+    {
+      "delivery_id": "78abd6e0-eab4-11f1-8070-c415e6559889",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 203,
+      "comment_id": null,
+      "head_sha": "252c922d1a637c535aab1ffd712a0276b7b1025d",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [
+          7229431574,
+          7229584525,
+          7229622838
+        ],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [
+          {
+            "id": 7229431574,
+            "updated_at": "2026-11-27T22:33:46Z"
+          },
+          {
+            "id": 7229584525,
+            "updated_at": "2026-11-27T22:44:54Z"
+          },
+          {
+            "id": 7229622838,
+            "updated_at": "2026-11-27T22:47:41Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-27T22:47:41Z"
+      },
+      "processed_at": "2026-11-27T22:49:17.059Z",
+      "source_pins": {
+        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "pr_head_before": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+        "pr_intermediate_head": "19dc72ec43a25755a34cc459707877e0484cbf8d",
+        "pr_head": "252c922d1a637c535aab1ffd712a0276b7b1025d",
+        "pr_base": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "previous_vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+        "vmat_pdf_blob": "ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8",
+        "vmat_pdf_sha256": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996",
+        "report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
+        "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
+        "status_table_sha256": "30ec8dd02c0b05368c626381451953b1c6f1ec61065213b5b631aa7f6f5495f4"
+      },
+      "outcome": "Recorded the final publication update produced by this run. No separate reply loop.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574",
+        "audit_verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229622838",
+        "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/252c922d1a637c535aab1ffd712a0276b7b1025d/papers/VMAT.pdf.md",
+        "public_pdf": "https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf",
+        "issue191": "https://github.com/udi-shapiro/Grassroots-Audit/issues/191",
+        "issue192": "https://github.com/udi-shapiro/Grassroots-Audit/issues/192",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/168-pr203-vmat-public-corrections-20261127.json"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "pr_head_before": "c9dd75f8bc75130e8cedb901cd13fe7505bc6acb",
+    "pr_intermediate_head": "19dc72ec43a25755a34cc459707877e0484cbf8d",
+    "pr_head": "252c922d1a637c535aab1ffd712a0276b7b1025d",
+    "pr_base": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
+    "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+    "previous_vmat_pdf_blob": "dd58ebaf3d7ed53a7ec8f3f00b55a988d44792ed",
+    "vmat_pdf_blob": "ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8",
+    "vmat_pdf_sha256": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996",
+    "report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
+    "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
+    "status_table_sha256": "30ec8dd02c0b05368c626381451953b1c6f1ec61065213b5b631aa7f6f5495f4"
+  },
+  "source_inspection": [
+    "Read PR #203 at its current exact head, its full diff, all three comments and the empty review list.",
+    "Inspected the public VMAT PDF at GLP papers 7701f48f62217c89d18a40dfd4e8fce9c4d673cc. The consent paragraph cites [41], [39], [20] and [7], and the matching bibliography entries are present.",
+    "The preliminaries and application liveness prose now require the relevant class to remain enabled. The sentence after Lemma 34 now distinguishes graph-preserving volition changes from one-edge machine steps."
+  ],
+  "project_claims": [
+    "VMAT reports that private manuscript commit d2a930c answers issues #191 and #192 and that bibliography commit 5edda7e supplies the four cited entries.",
+    "The private commits were not used as verification evidence."
+  ],
+  "executed_checks": [
+    {
+      "command": "pdftotext -layout vmat-current.pdf vmat-current.txt",
+      "result": "Succeeded on PDF blob ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8. The extracted PDF contains zero [?] placeholders."
+    },
+    {
+      "command": "sha256sum vmat-current.pdf",
+      "result": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996"
+    },
+    {
+      "command": "source-text searches and manual context inspection",
+      "result": "Confirmed the four numbered citations, their bibliography entries, every remains-enabled qualification relevant to #191, and the corrected graph sentence relevant to #192."
+    },
+    {
+      "command": "python3 bin/status.py",
+      "result": "38 reports, 81 findings, 10 unanswered. The generated table SHA-256 is 30ec8dd02c0b05368c626381451953b1c6f1ec61065213b5b631aa7f6f5495f4."
+    }
+  ],
+  "outcome": "Updated PR #203 onto current main, preserved the dated project answer, independently verified citation integration and the corrections for Findings 3 and 4, and regenerated the status table. PR #203 remains open and mergeable with no submitted review.",
+  "next_actions": [
+    "Obtain an independent review of exact head 252c922d1a637c535aab1ffd712a0276b7b1025d, then merge with an expected-head check if approved.",
+    "After publication, reconcile issues #191 and #192 with the merged report. Keep VMAT findings unrelated to these public changes at their recorded statuses."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203",
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229431574",
+    "audit_verification": "https://github.com/udi-shapiro/Grassroots-Audit/pull/203#issuecomment-7229622838",
+    "report": "https://github.com/udi-shapiro/Grassroots-Audit/blob/252c922d1a637c535aab1ffd712a0276b7b1025d/papers/VMAT.pdf.md",
+    "public_pdf": "https://github.com/EShapiro2/GLP/blob/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers/VMAT.pdf",
+    "issue191": "https://github.com/udi-shapiro/Grassroots-Audit/issues/191",
+    "issue192": "https://github.com/udi-shapiro/Grassroots-Audit/issues/192",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/168-pr203-vmat-public-corrections-20261127.json"
+  },
+  "evidence_scope": {
+    "source_inspection": "Public EShapiro2/GLP papers branch and audit-repository records only.",
+    "execution": "Local PDF extraction, hashing, text inspection and status generation in this run.",
+    "excluded": "No private manuscript repository, Overleaf project or private commit was accessed."
+  }
+}

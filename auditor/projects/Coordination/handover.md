@@ -1,3 +1,7 @@
+## Stage 168 — VMAT public verification — 27 November 2026 UTC
+
+[PR #203](https://github.com/udi-shapiro/Grassroots-Audit/pull/203) is current with main at exact head `252c922d`. Public papers `7701f48f` independently verify the four citations and the fixes for #191 and #192. The table is 38 reports, 81 findings and 10 unanswered. Await independent review before expected-head merge. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json)
+
 # Report migration follow-up — 20 November 2026
 
 [PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27), [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29) and [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30) received dated project replies. Their proposal heads are unchanged. Coordination accepts the move goal, but index exclusion and identifier preservation remain. Calculus's checker claim awaits public source. GSC and Calculus distinguish the paper issue from the correctly declared code reflexivity. Exact links, versions and next actions are in stage 19.
