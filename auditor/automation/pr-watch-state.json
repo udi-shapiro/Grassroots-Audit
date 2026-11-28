@@ -1,17 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T00:20:58.956Z",
-  "active_run": {
-    "id": "0bd935a4-eac2-11f1-9acb-01241d57fff8",
-    "delivery_id": "0bd935a4-eac2-11f1-9acb-01241d57fff8",
-    "started_at": "2026-11-28T00:25:22.397Z",
-    "expires_at": "2026-11-28T00:55:22.397Z",
-    "pull_request_numbers": [
-      222
-    ],
-    "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a"
-  },
+  "updated_at": "2026-11-28T00:33:32.927Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -31,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "b0d14a8a-eac0-11f1-9146-1f0ecab3d427",
-      "event": "PR #221 and #222 opened",
-      "pull_request_number": 222,
-      "observed_at": "2026-11-28T00:20:58.956Z",
-      "outcome": "Posted exact-head reviews for both publications. Both remain open. No issue closure or merge occurred."
+      "delivery_id": "32e1ea00-eac3-11f1-8a6e-f5110781e09a",
+      "event": "PR #222 synchronized, #224 opened and merged, #173 closed, and #225 opened",
+      "pull_request_number": 225,
+      "observed_at": "2026-11-28T00:33:32.927Z",
+      "outcome": "Published the public corpus verification through PR #225 and reconciled the observed #224 merge and #173 closure. PR #222 is open with a merge conflict. No PR discussion messages or issue mutations were made."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -2769,8 +2760,8 @@
       "number": 173,
       "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
       "base_sha": "174170e59562c925a193525dcf5edd437ed25f2e",
-      "state": "open",
-      "updated_at": "2026-11-25T23:26:30Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T00:29:07Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
@@ -2788,18 +2779,29 @@
       "review_cursor": null,
       "delivery_ids": [
         "e983afc6-e926-11f1-99d8-098567c9ecb9",
-        "a4bc3c0e-e927-11f1-96b0-c389c35197ab"
+        "a4bc3c0e-e927-11f1-96b0-c389c35197ab",
+        "b8ecdb38-eac2-11f1-8736-106c1e1026a1"
       ],
-      "notes": "Attributed #115 answer and regenerated status are intact at b1c57a394800d0e8086d7b90da5631dcba7984f4. Automatic review blocked an unreviewed merge; exact-head independent review needed. Only the historical public baseline was reproduced.",
+      "notes": "Closed without merge, since #224 already preserved the exact dated Answer. #115 remains open; public replay corroborates the compiler shape without relying on a private citation.",
       "source_pins": {
-        "audit_main": "174170e59562c925a193525dcf5edd437ed25f2e",
-        "glp_main": "6b8c88790889d370f6389bf4071ca9bf6a2ca461",
-        "glp_papers": "d5669de3e05376005368e64abfd18e7ecad06c49",
-        "original_village_glp": "17f0c0d3fd330f9576de9c38f1e6dcbc24a5a615",
-        "gcc_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
-        "gsc_pdf_blob": "1e9ef48c1e87a752a21bef38305febc3927ea586"
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
       },
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/123-pr172-calculus-and-pr173-village-life-20261125.json"
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+      "closed_at": "2026-11-28T00:29:06Z",
+      "mergeable": false
     },
     {
       "number": 174,
@@ -4473,14 +4475,14 @@
     },
     {
       "number": 222,
-      "head_sha": "cbc972efffeb0658cead96c6337b048b157bd363",
+      "head_sha": "bdc502160990089fcde0337c5faf5b744079e322",
       "base_sha": "b82cd770c4185ccfda00324dc6415562b2408c0a",
       "state": "open",
       "merged_at": null,
       "closed_at": null,
       "merge_commit_sha": null,
-      "updated_at": "2026-11-28T00:18:57Z",
-      "mergeable": true,
+      "updated_at": "2026-11-28T00:24:23Z",
+      "mergeable": false,
       "comment_cursor": 6094563369,
       "review_cursor": "PRR_kwDOVrts7s8AAAABa0OoKQ",
       "discussion_version": {
@@ -4512,36 +4514,122 @@
         "latest_item_at": "2026-11-28T00:18:57Z"
       },
       "delivery_ids": [
-        "b0d14a8a-eac0-11f1-9146-1f0ecab3d427"
+        "b0d14a8a-eac0-11f1-9146-1f0ecab3d427",
+        "0bd935a4-eac2-11f1-9acb-01241d57fff8"
       ],
       "own_review_ids": [
         6094563369
       ],
       "source_pins": {
-        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
         "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
         "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
-        "vglp_predecessor_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
-        "gcc_currency_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
-        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
-        "pr221_head": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
-        "pr222_head": "cbc972efffeb0658cead96c6337b048b157bd363",
-        "pr221_files": {
-          "ISSUES.md": "2f4096c169d998b2b47b50918e618fc0e886ce21",
-          "papers/.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md": "bc4a5ba3a9a64cd84a855c80b97b595113dba637",
-          "papers/vGLP.pdf.md": "02061142e97280b0ee916bbfc4bdc629b4e6141e",
-          "sections/status-table.tex": "95023012e06336cb163e1ef2686e4982aed01002"
-        },
-        "pr222_files": {
-          "ISSUES.md": "3079cb69ca8bb2ef08f1c87c04fa4d603cec495e",
-          "calculus/.review-files/Calculus_19_GSC_19_Review.md": "eee02a9d2f69304a6f04a82e8c7fc88f894ca04c",
-          "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
-          "calculus/contracts.md": "0fe2d9de2aa946a422ae974d61ac045866f13e66",
-          "sections/status-table.tex": "40fec2904f8cfa821ad3a048ecca481a29a073d4"
-        }
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
       },
-      "notes": "Pinned finite controls and the 93-contract public compiler run passed. The public Knowledge schema supports the asymmetric Acquaint trace. Public manuscript verification remains pending. Open for review.",
-      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json"
+      "notes": "Verified the new 106-contract result and negative control. The PR now conflicts with main in shared publication metadata and remains open; no newer submitted review.",
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json"
+    },
+    {
+      "number": 224,
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "base_sha": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+      "state": "closed",
+      "merged_at": "2026-11-28T00:27:44Z",
+      "closed_at": "2026-11-28T00:27:44Z",
+      "merge_commit_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "updated_at": "2026-11-28T00:27:44Z",
+      "mergeable": null,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "delivery_ids": [
+        "80cdb61e-eac2-11f1-8cb1-9181d2f416fb",
+        "87d182b0-eac2-11f1-8673-b64fe879ca02"
+      ],
+      "notes": "Reconciled the observed merge and reproduced its published status. Public Villagers corpus follow-up supersedes the input availability limit.",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json"
+    },
+    {
+      "number": 225,
+      "head_sha": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+      "base_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "state": "open",
+      "merged_at": null,
+      "closed_at": null,
+      "merge_commit_sha": null,
+      "updated_at": "2026-11-28T00:32:30Z",
+      "mergeable": true,
+      "comment_cursor": null,
+      "review_cursor": null,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "delivery_ids": [
+        "32e1ea00-eac3-11f1-8a6e-f5110781e09a"
+      ],
+      "notes": "Own publication opened at the verified main-based head. No separate follow-up or review was posted.",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+      "own_publication": true
     }
   ],
   "source_observed_after_tests": {
@@ -21089,6 +21177,276 @@
         "review221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221#pullrequestreview-6094554196",
         "review222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6094563369"
       }
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "0bd935a4-eac2-11f1-9acb-01241d57fff8",
+      "pull_request_number": 222,
+      "action": "synchronize",
+      "head_sha": "bdc502160990089fcde0337c5faf5b744079e322",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T00:18:57Z"
+      },
+      "outcome": "Verified the new 106-contract result and negative control. The PR now conflicts with main in shared publication metadata and remains open; no newer submitted review.",
+      "processed_at": "2026-11-28T00:33:32.927Z",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "urls": {
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+        "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+        "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+        "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+        "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+      }
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "80cdb61e-eac2-11f1-8cb1-9181d2f416fb",
+      "pull_request_number": 224,
+      "action": "opened",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "By inspection it had already merged. All ten PR blobs match the merge tree and the attributed answer from #173 is exact.",
+      "processed_at": "2026-11-28T00:33:32.927Z",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "urls": {
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+        "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+        "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+        "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+        "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+      }
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "87d182b0-eac2-11f1-8673-b64fe879ca02",
+      "pull_request_number": 224,
+      "action": "closed",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": true,
+      "merge_commit_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "outcome": "Reconciled the observed merge and reproduced its published status. Public Villagers corpus follow-up supersedes the input availability limit.",
+      "processed_at": "2026-11-28T00:33:32.927Z",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "urls": {
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+        "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+        "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+        "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+        "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+      }
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "b8ecdb38-eac2-11f1-8736-106c1e1026a1",
+      "pull_request_number": 173,
+      "action": "closed",
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": false,
+      "outcome": "Closed without merge, since #224 already preserved the exact dated Answer. #115 remains open; public replay corroborates the compiler shape without relying on a private citation.",
+      "processed_at": "2026-11-28T00:33:32.927Z",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "urls": {
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+        "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+        "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+        "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+        "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+      }
+    },
+    {
+      "delivery_id": "32e1ea00-eac3-11f1-8a6e-f5110781e09a",
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "action": "opened",
+      "pull_request_number": 225,
+      "comment_id": null,
+      "head_sha": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own publication opened at the verified main-based head. No separate follow-up or review was posted.",
+      "processed_at": "2026-11-28T00:33:32.927Z",
+      "source_pins": {
+        "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+        "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+        "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+        "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+      },
+      "urls": {
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+        "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+        "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+        "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+        "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+        "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+        "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -21129,15 +21487,15 @@
     "notes": "Reconciled merged revision (14) review, captured three attributed project replies, and opened PR #190 with independent inherited-act replay and a regenerated status table. Existing findings remain open."
   },
   "latest_source_observed": {
-    "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
-    "audit_main_tree": "149be517690828ba48ff2ca218de19b2d3478c54",
+    "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "audit_main_tree": "c11a386142ce3bd9113d9376293914748be462dd",
     "pr202_head": "4a8405aa93e6ba464fa43dd8fbe7eb4e9338cc85",
     "pr202_base": "285a35ec85b3de6169dcdd9c4c6927b370f33de9",
     "pr202_merge": "9ca68e745e709a99d04c98edc8991dc44bb6b1d9",
     "pr183_head": "9b8bacbd8abba4eb0b4c4140bac2dffbdda176dc",
     "pr203_head": "252c922d1a637c535aab1ffd712a0276b7b1025d",
-    "glp_main": "7b68b74c6388135736632957b321ae63503feaf7",
-    "glp_main_tree": "fcf253f57e78c6a6e081365e7c01e5aeb4c801ec",
+    "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+    "glp_main_tree": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
     "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
     "vmat_pdf_blob": "ee1374b7bc994f6fe6c7ce3bd9cc6e57f71e65f8",
     "vmat_pdf_sha256": "3666d700e2c1d08e2c693ced1e1e5b0be13f25c8e51b34af24d706871aec5996",
@@ -21150,9 +21508,25 @@
     "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
     "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
     "pr203_report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
-    "observed_at": "2026-11-27T22:49:17.059Z"
+    "observed_at": "2026-11-28T00:33:32.927Z",
+    "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+    "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+    "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+    "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8"
   },
   "discussion_versions": {
+    "173": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
     "202": {
       "comments": 2,
       "reviews": 0,
@@ -21299,6 +21673,28 @@
       ],
       "inline_versions": [],
       "latest_item_at": "2026-11-28T00:18:57Z"
+    },
+    "224": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
+    },
+    "225": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0,
+      "comment_ids": [],
+      "review_ids": [],
+      "review_versions": [],
+      "latest_comments": [],
+      "inline_versions": [],
+      "latest_item_at": null
     }
   }
 }

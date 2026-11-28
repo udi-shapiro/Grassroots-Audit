@@ -1,0 +1,195 @@
+{
+  "stage": 170,
+  "date": "2026-11-28",
+  "title": "Public 106-contract Calculus replay and Villagers publication reconciliation",
+  "events": [
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "0bd935a4-eac2-11f1-9acb-01241d57fff8",
+      "pull_request_number": 222,
+      "action": "synchronize",
+      "head_sha": "bdc502160990089fcde0337c5faf5b744079e322",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T00:18:57Z"
+      },
+      "outcome": "Verified the new 106-contract result and negative control. The PR now conflicts with main in shared publication metadata and remains open; no newer submitted review."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "80cdb61e-eac2-11f1-8cb1-9181d2f416fb",
+      "pull_request_number": 224,
+      "action": "opened",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "By inspection it had already merged. All ten PR blobs match the merge tree and the attributed answer from #173 is exact."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "87d182b0-eac2-11f1-8673-b64fe879ca02",
+      "pull_request_number": 224,
+      "action": "closed",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": true,
+      "merge_commit_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "outcome": "Reconciled the observed merge and reproduced its published status. Public Villagers corpus follow-up supersedes the input availability limit."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "b8ecdb38-eac2-11f1-8736-106c1e1026a1",
+      "pull_request_number": 173,
+      "action": "closed",
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": false,
+      "outcome": "Closed without merge, since #224 already preserved the exact dated Answer. #115 remains open; public replay corroborates the compiler shape without relying on a private citation."
+    },
+    {
+      "delivery_id": "32e1ea00-eac3-11f1-8a6e-f5110781e09a",
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "action": "opened",
+      "pull_request_number": 225,
+      "comment_id": null,
+      "head_sha": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own publication opened at the verified main-based head. No separate follow-up or review was posted."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+    "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+    "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+    "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+    "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+    "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+    "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+    "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+    "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+    "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+    "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+  },
+  "urls": {
+    "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+    "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+    "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+    "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+    "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+    "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+    "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+  },
+  "source_inspection": [
+    "The six public Villagers pragmas match the archive blobs; seven public display declarations preserve the exact archive parent lists with different inheritance wording.",
+    "The public papers tree contains neither a Villagers manuscript nor a matching Calculus (19). The paper corrections remain at the supplied-edition scope.",
+    "Current public Disputes and Warnings schemas contain the one-case ruling and dated sanction structure. The archived and current Ads schemas agree on Post, View and Click. No native runtime or website run in this follow-up.",
+    "Compared the closed #173 Answer section byte for byte with merged #224's report. All six original core answers remain present."
+  ],
+  "project_claims": [
+    "#173 cites a private Calculus commit and proposes institutional renaming and a governing Expel clause. Those proposed repairs are still pending.",
+    "#224 reports a supplied-edition review, website controls and 56 regenerated inherited contracts. Those are prior publication evidence, not executions in this run."
+  ],
+  "executed_checks": [
+    {
+      "command": "Verify 110 Git blobs, compare 13 parallel branch representations and run PYTHONHASHSEED=0 python3 calculus/tools/gcsas.py in each of two isolated scratch trees",
+      "result": "Both exited 0. Archive 106 Commute, Return 66 exact/40 equivalent, Recover 81 exact/25 equivalent. Display control 106 Commute, Return 72 exact/34 equivalent and Recover 81 exact/25 equivalent; seven aggregate expansions are empty.",
+      "logs_sha256": {
+        "archive": "d90a657d931021e690119f9730f05533205cc4d798ec4fed8b07130992970eea",
+        "display": "e2a73fb4e1381235338660a7ebc3160f363a5c087213c5f846d4c1489bb2ed92"
+      }
+    },
+    {
+      "command": "Parse the seven generated parent lists and count act schema lines; inspect Commons Book, Governance Expel and aggregate Ads",
+      "result": "Villagers six parents and 354 act schemas. Commons has solo and joint Book; Government combines decision, votes, backing and warning gates; aggregate Ads still uses flags only."
+    },
+    {
+      "command": "python3 bin/status.py and cmp using pinned Git blobs",
+      "result": "PR #222 unchanged 38/84/11; #224 merge byte-identical 39/82/12; follow-up 38/82/12; scratch merged-base overlay 38/85/11 with #222 and 38/87/12 with both #221/#222. Overlays do not reconcile index prose."
+    }
+  ],
+  "pending": [
+    "Keep #115 open for institution-specific booking and governing expulsion semantics, #223 open for money effects and caps, #130/#131 open pending the newly available component review, and #137 open for both-player quota accounting.",
+    "Verify #211 against a matching public manuscript. Keep #212 open for negative head binding and Formal English capture; #98/#200 role partition completion and remeasurement are outside the 106 check.",
+    "Reconcile #222 against the merged Villagers index and regenerate totals, retaining the existing head until the conflict resolution is reviewed. Reconcile #221 only when in scope. Cross-reference #216 and #220, retaining project ownership.",
+    "#136 is still an open ticket. Preserve the verified source scope and the separate request-form/runtime #151."
+  ],
+  "outcome": "Published the public corpus verification through PR #225 and reconciled the observed #224 merge and #173 closure. PR #222 is open with a merge conflict. No PR discussion messages or issue mutations were made."
+}

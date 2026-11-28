@@ -1,0 +1,1771 @@
+{
+  "stage": 170,
+  "date": "2026-11-28",
+  "title": "Public 106-contract Calculus replay and Villagers publication reconciliation",
+  "events": [
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "0bd935a4-eac2-11f1-9acb-01241d57fff8",
+      "pull_request_number": 222,
+      "action": "synchronize",
+      "head_sha": "bdc502160990089fcde0337c5faf5b744079e322",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T00:18:57Z"
+      },
+      "outcome": "Verified the new 106-contract result and negative control. The PR now conflicts with main in shared publication metadata and remains open; no newer submitted review."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "80cdb61e-eac2-11f1-8cb1-9181d2f416fb",
+      "pull_request_number": 224,
+      "action": "opened",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "By inspection it had already merged. All ten PR blobs match the merge tree and the attributed answer from #173 is exact."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "87d182b0-eac2-11f1-8673-b64fe879ca02",
+      "pull_request_number": 224,
+      "action": "closed",
+      "head_sha": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": true,
+      "merge_commit_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "outcome": "Reconciled the observed merge and reproduced its published status. Public Villagers corpus follow-up supersedes the input availability limit."
+    },
+    {
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "comment_id": null,
+      "delivery_id": "b8ecdb38-eac2-11f1-8736-106c1e1026a1",
+      "pull_request_number": 173,
+      "action": "closed",
+      "head_sha": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "merged": false,
+      "outcome": "Closed without merge, since #224 already preserved the exact dated Answer. #115 remains open; public replay corroborates the compiler shape without relying on a private citation."
+    },
+    {
+      "delivery_id": "32e1ea00-eac3-11f1-8a6e-f5110781e09a",
+      "event_type": "pull_request",
+      "actor_login": "udi-shapiro",
+      "action": "opened",
+      "pull_request_number": 225,
+      "comment_id": null,
+      "head_sha": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "review_versions": [],
+        "latest_comments": [],
+        "inline_versions": [],
+        "latest_item_at": null
+      },
+      "outcome": "Own publication opened at the verified main-based head. No separate follow-up or review was posted."
+    }
+  ],
+  "source_pins": {
+    "audit_main_before": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "audit_main_after": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
+    "pr222_previous_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+    "pr224_head": "69a98804f6e141fa03a4c4b79dd9f70029b9dd1f",
+    "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr173_head": "b1c57a394800d0e8086d7b90da5631dcba7984f4",
+    "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+    "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+    "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+    "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+    "glp_villagers_declared_base": "a7a96b3876217464b9a59c5c59ef788e6aa4b13a",
+    "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+    "pr225_base": "3813adc83530dd9a7040558ca7307b8897433f5a"
+  },
+  "urls": {
+    "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+    "pr224": "https://github.com/udi-shapiro/Grassroots-Audit/pull/224",
+    "pr173": "https://github.com/udi-shapiro/Grassroots-Audit/pull/173",
+    "issue115": "https://github.com/udi-shapiro/Grassroots-Audit/issues/115",
+    "issue223": "https://github.com/udi-shapiro/Grassroots-Audit/issues/223",
+    "archive": "https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts",
+    "villagers": "https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/170-pr222-pr224-villagers-public-corpus-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
+    "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
+  },
+  "source_inspection": [
+    "The six public Villagers pragmas match the archive blobs; seven public display declarations preserve the exact archive parent lists with different inheritance wording.",
+    "The public papers tree contains neither a Villagers manuscript nor a matching Calculus (19). The paper corrections remain at the supplied-edition scope.",
+    "Current public Disputes and Warnings schemas contain the one-case ruling and dated sanction structure. The archived and current Ads schemas agree on Post, View and Click. No native runtime or website run in this follow-up.",
+    "Compared the closed #173 Answer section byte for byte with merged #224's report. All six original core answers remain present."
+  ],
+  "project_claims": [
+    "#173 cites a private Calculus commit and proposes institutional renaming and a governing Expel clause. Those proposed repairs are still pending.",
+    "#224 reports a supplied-edition review, website controls and 56 regenerated inherited contracts. Those are prior publication evidence, not executions in this run."
+  ],
+  "executed_checks": [
+    {
+      "command": "Verify 110 Git blobs, compare 13 parallel branch representations and run PYTHONHASHSEED=0 python3 calculus/tools/gcsas.py in each of two isolated scratch trees",
+      "result": "Both exited 0. Archive 106 Commute, Return 66 exact/40 equivalent, Recover 81 exact/25 equivalent. Display control 106 Commute, Return 72 exact/34 equivalent and Recover 81 exact/25 equivalent; seven aggregate expansions are empty.",
+      "logs_sha256": {
+        "archive": "d90a657d931021e690119f9730f05533205cc4d798ec4fed8b07130992970eea",
+        "display": "e2a73fb4e1381235338660a7ebc3160f363a5c087213c5f846d4c1489bb2ed92"
+      }
+    },
+    {
+      "command": "Parse the seven generated parent lists and count act schema lines; inspect Commons Book, Governance Expel and aggregate Ads",
+      "result": "Villagers six parents and 354 act schemas. Commons has solo and joint Book; Government combines decision, votes, backing and warning gates; aggregate Ads still uses flags only."
+    },
+    {
+      "command": "python3 bin/status.py and cmp using pinned Git blobs",
+      "result": "PR #222 unchanged 38/84/11; #224 merge byte-identical 39/82/12; follow-up 38/82/12; scratch merged-base overlay 38/85/11 with #222 and 38/87/12 with both #221/#222. Overlays do not reconcile index prose."
+    }
+  ],
+  "pending": [
+    "Keep #115 open for institution-specific booking and governing expulsion semantics, #223 open for money effects and caps, #130/#131 open pending the newly available component review, and #137 open for both-player quota accounting.",
+    "Verify #211 against a matching public manuscript. Keep #212 open for negative head binding and Formal English capture; #98/#200 role partition completion and remeasurement are outside the 106 check.",
+    "Reconcile #222 against the merged Villagers index and regenerate totals, retaining the existing head until the conflict resolution is reviewed. Reconcile #221 only when in scope. Cross-reference #216 and #220, retaining project ownership.",
+    "#136 is still an open ticket. Preserve the verified source scope and the separate request-form/runtime #151."
+  ],
+  "archive_input_blobs": [
+    {
+      "path": "calculus/contracts/AI-Agents/logic-pragmas.txt",
+      "sha": "b963728f61f337c6d4e794ea65f1bbf210340dc1"
+    },
+    {
+      "path": "calculus/contracts/Ads/logic-pragmas.txt",
+      "sha": "2d96e1cc22ebafc6832eb75715e49f223f532714"
+    },
+    {
+      "path": "calculus/contracts/Agora/logic-pragmas.txt",
+      "sha": "24c9c21d4ae54b39dbed73f5dade83b399592e7d"
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Matching/logic-pragmas.txt",
+      "sha": "108f3716f117fe51c611ea826447f28b9639fde1"
+    },
+    {
+      "path": "calculus/contracts/Anonymous-Rendezvous/logic-pragmas.txt",
+      "sha": "c94031e6623d0070bb4dc24bf315dd4b63f9cf9b"
+    },
+    {
+      "path": "calculus/contracts/App/logic-pragmas.txt",
+      "sha": "caaede20e225d1fec16cf2067876b4a165f4b556"
+    },
+    {
+      "path": "calculus/contracts/AppStore/logic-pragmas.txt",
+      "sha": "914e1e00d3763e05d6a80e849ff3689a444d472f"
+    },
+    {
+      "path": "calculus/contracts/Appointments/logic-pragmas.txt",
+      "sha": "228f36cf3211f5e7e089f8790524d2b74c8cb84d"
+    },
+    {
+      "path": "calculus/contracts/Auction/logic-pragmas.txt",
+      "sha": "e08d41e67866d0d3feb2c6f2755548454b701c72"
+    },
+    {
+      "path": "calculus/contracts/Backchannel-Feeds/logic-pragmas.txt",
+      "sha": "c4d1ef61730f2345f4f9df7cf126c3c507277f51"
+    },
+    {
+      "path": "calculus/contracts/Backed-Community-Bank/logic-pragmas.txt",
+      "sha": "8169337da6b6158c76ffc3de89a506df6a6e735f"
+    },
+    {
+      "path": "calculus/contracts/Bank/logic-pragmas.txt",
+      "sha": "1719f98983ac18dfb84e765bd966aced68c5bd49"
+    },
+    {
+      "path": "calculus/contracts/Bonds/logic-pragmas.txt",
+      "sha": "a28964764b843941b58c5d6dd55a54611a4aab18"
+    },
+    {
+      "path": "calculus/contracts/Booking/logic-pragmas.txt",
+      "sha": "8b7d3a279b1ca9adb487a55837b184ba2308ecd1"
+    },
+    {
+      "path": "calculus/contracts/Carpool/logic-pragmas.txt",
+      "sha": "c7d7202e5b96c48d86d5730b934f69159a63664d"
+    },
+    {
+      "path": "calculus/contracts/Central-Bank/logic-pragmas.txt",
+      "sha": "e4044fe91cca8ac7338c784395d0d68ee5881785"
+    },
+    {
+      "path": "calculus/contracts/Chess/logic-pragmas.txt",
+      "sha": "a3fceacbab4979649a0857361617b02617a6b5fd"
+    },
+    {
+      "path": "calculus/contracts/Children/logic-pragmas.txt",
+      "sha": "7d6eed5098fbd7c2fcb35bdc5fe534dd9b947a0b"
+    },
+    {
+      "path": "calculus/contracts/Coins/logic-pragmas.txt",
+      "sha": "b2eb34a1b329d00a671487207b662b6674803a67"
+    },
+    {
+      "path": "calculus/contracts/Commercial-Bank/logic-pragmas.txt",
+      "sha": "04bf1b44d7a2476386ab6aed5b16728929fcc081"
+    },
+    {
+      "path": "calculus/contracts/Community-Bank/logic-pragmas.txt",
+      "sha": "5ab60dcbf8b79f7670a03bd7eab091594927d847"
+    },
+    {
+      "path": "calculus/contracts/Community-Market/logic-pragmas.txt",
+      "sha": "9f5056418d261161c6851b36d654ef4272a11827"
+    },
+    {
+      "path": "calculus/contracts/Community-Network/logic-pragmas.txt",
+      "sha": "aa1025ace46c0bff61d441e2c5a31d1e71e3e5e3"
+    },
+    {
+      "path": "calculus/contracts/Constitution/logic-pragmas.txt",
+      "sha": "f6599ff2d73b4e1f2bf57e92f646c86b2c3431e0"
+    },
+    {
+      "path": "calculus/contracts/Consumers-Cooperative/logic-pragmas.txt",
+      "sha": "377b783d8dbc0db1dd3c347b3286ef4c40e5ff0d"
+    },
+    {
+      "path": "calculus/contracts/Cooperative-DAO/logic-pragmas.txt",
+      "sha": "a1b2d02647d0193e0cc5057470341306261bb402"
+    },
+    {
+      "path": "calculus/contracts/Cooperative/logic-pragmas.txt",
+      "sha": "0c9e15858201e09bb8be607c7be7268428ca37c9"
+    },
+    {
+      "path": "calculus/contracts/Corporation/logic-pragmas.txt",
+      "sha": "618382cf9bfcc0b994ac47e3df5c9a4a35cb0d61"
+    },
+    {
+      "path": "calculus/contracts/DAO/logic-pragmas.txt",
+      "sha": "acd3319a44ce63b767fb9946fc132b472160b5ae"
+    },
+    {
+      "path": "calculus/contracts/Dating/logic-pragmas.txt",
+      "sha": "7f9a64c2ba56fccea6be89d924415298d7bb6967"
+    },
+    {
+      "path": "calculus/contracts/Democratic-Community/logic-pragmas.txt",
+      "sha": "f7469a80fe601a7f193dba3e378a17e28917bc88"
+    },
+    {
+      "path": "calculus/contracts/Denominated-Coins/logic-pragmas.txt",
+      "sha": "e1da54558ae986578100156c70997ddbf35b3e66"
+    },
+    {
+      "path": "calculus/contracts/Denominated-Currencies/logic-pragmas.txt",
+      "sha": "f9341c358cf8dce7dca1f9c5511af44ba0c718eb"
+    },
+    {
+      "path": "calculus/contracts/Directory/logic-pragmas.txt",
+      "sha": "8f815bd78ff8738213194bcd731cb0e2fb01c8fd"
+    },
+    {
+      "path": "calculus/contracts/Disputes/logic-pragmas.txt",
+      "sha": "e51c95b6055bf7276bded8ae380aa60b71ad82af"
+    },
+    {
+      "path": "calculus/contracts/Distrust/logic-pragmas.txt",
+      "sha": "65b33b3f8f53a6c8f0cd4f8596892fdc3ba2832d"
+    },
+    {
+      "path": "calculus/contracts/Encounters/logic-pragmas.txt",
+      "sha": "1799db189de06a7a31da49466d7d75de86b073a6"
+    },
+    {
+      "path": "calculus/contracts/Feeds/logic-pragmas.txt",
+      "sha": "494156574fe697123c23fe3104c70e7fb2d5226e"
+    },
+    {
+      "path": "calculus/contracts/Forwarding/logic-pragmas.txt",
+      "sha": "fc2a9d00195f9c2d6904c880ff990ef5a49c9a95"
+    },
+    {
+      "path": "calculus/contracts/Foundation/logic-pragmas.txt",
+      "sha": "d41ed95e55b0781ce9f3b93f6a9ab088b0ac7a10"
+    },
+    {
+      "path": "calculus/contracts/Free-Matching/logic-pragmas.txt",
+      "sha": "57dc797acbb070121ce3cd8360a3d039d8c9f24d"
+    },
+    {
+      "path": "calculus/contracts/Friendship/logic-pragmas.txt",
+      "sha": "6fd5ed66abc9f321370d9492fdf2901d17c374d2"
+    },
+    {
+      "path": "calculus/contracts/Funded-DAO/logic-pragmas.txt",
+      "sha": "24eb57158a850469c21c8ac43fc5693e51c0b1c8"
+    },
+    {
+      "path": "calculus/contracts/Gigs/logic-pragmas.txt",
+      "sha": "4ebc33567ff05c07c6f7deda2422437da3d0abdd"
+    },
+    {
+      "path": "calculus/contracts/Gossip/logic-pragmas.txt",
+      "sha": "59040cbf40f3a2ce83eb21a9e1175af6c6cd00d8"
+    },
+    {
+      "path": "calculus/contracts/Groups/logic-pragmas.txt",
+      "sha": "6fe9cae9653ac8e21969e6f596de76ad705b2716"
+    },
+    {
+      "path": "calculus/contracts/Guardians/logic-pragmas.txt",
+      "sha": "9628e718bb3671ef9902399901f2dbc8d88c0ec3"
+    },
+    {
+      "path": "calculus/contracts/Help/logic-pragmas.txt",
+      "sha": "20c989a28d0120ff68aab508bd303befc5dc8ace"
+    },
+    {
+      "path": "calculus/contracts/Home-Exchange/logic-pragmas.txt",
+      "sha": "9d4a9ff0b554bd852cab372fa31ef9644ed44997"
+    },
+    {
+      "path": "calculus/contracts/Jobs/logic-pragmas.txt",
+      "sha": "03e534402c5d6d5c6e1a12c5f52f51cfe5623673"
+    },
+    {
+      "path": "calculus/contracts/Joint-Accounts/logic-pragmas.txt",
+      "sha": "ae80f490afcdc089d05a6dd319d2a469e48517d0"
+    },
+    {
+      "path": "calculus/contracts/Knowledge/logic-pragmas.txt",
+      "sha": "11e458acd0dac49e8ee6bd1c19571e2a4857e31a"
+    },
+    {
+      "path": "calculus/contracts/Labelled-Overlay/logic-pragmas.txt",
+      "sha": "bcbbb4bb2f6bdc3dfd5e692011a07cc0a948608b"
+    },
+    {
+      "path": "calculus/contracts/Lending/logic-pragmas.txt",
+      "sha": "f1fe9dcdd51451fdb60f22d4907f4866a19f3dc1"
+    },
+    {
+      "path": "calculus/contracts/Library/logic-pragmas.txt",
+      "sha": "2aed2bd6f9b1524091890748b6f2f0c23825f046"
+    },
+    {
+      "path": "calculus/contracts/Liquid-Cooperative/logic-pragmas.txt",
+      "sha": "bfec4bdcc9a5309db297715db93f0059f7b280b1"
+    },
+    {
+      "path": "calculus/contracts/Liquid-DAO/logic-pragmas.txt",
+      "sha": "f1be07a897589188617e3fbe63f7d877e20eab29"
+    },
+    {
+      "path": "calculus/contracts/Local-Overlay/logic-pragmas.txt",
+      "sha": "5851c9852e489d68cf3987ca26b90ace915e3f0e"
+    },
+    {
+      "path": "calculus/contracts/Lodging/logic-pragmas.txt",
+      "sha": "ed45df46e03742f51b6b05b6affdae9e7858d533"
+    },
+    {
+      "path": "calculus/contracts/Lost-and-Found/logic-pragmas.txt",
+      "sha": "876c3a1288004188e747cc182a631ef27e9ad5fa"
+    },
+    {
+      "path": "calculus/contracts/Matching/logic-pragmas.txt",
+      "sha": "546d0dac8d3b45c2d8375a05724bc13f26e93e07"
+    },
+    {
+      "path": "calculus/contracts/Meeting-Rooms/logic-pragmas.txt",
+      "sha": "bb9790d3083acf8e715bb03d7cd48469c8fed29f"
+    },
+    {
+      "path": "calculus/contracts/Mutual-Credit/logic-pragmas.txt",
+      "sha": "8f3dfa7f3b5581144d6262a2f4daf46c9ce5d6a7"
+    },
+    {
+      "path": "calculus/contracts/Nonprofit/logic-pragmas.txt",
+      "sha": "004207c1a85620ab9a1859fd920cf365f959b2d2"
+    },
+    {
+      "path": "calculus/contracts/Notes/logic-pragmas.txt",
+      "sha": "a33397dc32895c9777481757ca48fddfabaa38f6"
+    },
+    {
+      "path": "calculus/contracts/Organisation/logic-pragmas.txt",
+      "sha": "69db7b4399876e8d6b894313cd846b628e046c83"
+    },
+    {
+      "path": "calculus/contracts/Overlay/logic-pragmas.txt",
+      "sha": "116cef20ec8bb8278b1284faaec85679a783933e"
+    },
+    {
+      "path": "calculus/contracts/Partners/logic-pragmas.txt",
+      "sha": "7d66fe644c81c982617dbc0f6f6e70e825cba6bb"
+    },
+    {
+      "path": "calculus/contracts/Partnership/logic-pragmas.txt",
+      "sha": "526aa9ce53d13c1000014932124eb7d5d9b2384a"
+    },
+    {
+      "path": "calculus/contracts/Programs/logic-pragmas.txt",
+      "sha": "5a25b4ffbac9faa5a3ea08cc0744e8316ec937d8"
+    },
+    {
+      "path": "calculus/contracts/Promoted-Community-Market/logic-pragmas.txt",
+      "sha": "382783bd403425ae69b5a04e34753e4d8fc5c00c"
+    },
+    {
+      "path": "calculus/contracts/Promoted-Gossip/logic-pragmas.txt",
+      "sha": "edb7e5350726eb9672d0b122b920edcad606dff3"
+    },
+    {
+      "path": "calculus/contracts/Promoted-Matching/logic-pragmas.txt",
+      "sha": "ebf9af3ec9bd88bd7caefb145d2d1c1897370a48"
+    },
+    {
+      "path": "calculus/contracts/Provenance-Groups/logic-pragmas.txt",
+      "sha": "1d373424ea35a5211907a13e04a6057dd9b803b4"
+    },
+    {
+      "path": "calculus/contracts/Recommendations/logic-pragmas.txt",
+      "sha": "3e85b30a809713ebb2fce1005cb8234229ea2033"
+    },
+    {
+      "path": "calculus/contracts/Rehearsal-Rooms/logic-pragmas.txt",
+      "sha": "643a634c90c9cad8bc82b281c273471f9d4ee3d2"
+    },
+    {
+      "path": "calculus/contracts/Rendezvous/logic-pragmas.txt",
+      "sha": "db402caf37e589d75baa10fbc2b6ac7907409e51"
+    },
+    {
+      "path": "calculus/contracts/Resilient-Feeds/logic-pragmas.txt",
+      "sha": "87596cd7601ec8cc8a386caa4c6894557022f31b"
+    },
+    {
+      "path": "calculus/contracts/Rides/logic-pragmas.txt",
+      "sha": "0831cafcb9239f216973688c1b8b7a08cf585830"
+    },
+    {
+      "path": "calculus/contracts/Second-Score-Auction/logic-pragmas.txt",
+      "sha": "4145edfff2b16ceb796ff0a4e170a379a094b079"
+    },
+    {
+      "path": "calculus/contracts/Secure-Friendship/logic-pragmas.txt",
+      "sha": "e7576473a1e8556808cf6e39e960c7ff3817d00c"
+    },
+    {
+      "path": "calculus/contracts/Separating-Distrust/logic-pragmas.txt",
+      "sha": "3540c6cd99b4715aa8f86d6605b0a6982584324c"
+    },
+    {
+      "path": "calculus/contracts/Services/logic-pragmas.txt",
+      "sha": "76ca05913021033daf4b02c853ec2b63f9244099"
+    },
+    {
+      "path": "calculus/contracts/Shareholding-Corporation/logic-pragmas.txt",
+      "sha": "00424ea4487c4f433353071c01463fad8df95bc3"
+    },
+    {
+      "path": "calculus/contracts/Shares/logic-pragmas.txt",
+      "sha": "f1ca8353799e610b0d5a754035ca5d662fc74d53"
+    },
+    {
+      "path": "calculus/contracts/Short-Feeds/logic-pragmas.txt",
+      "sha": "76f23708ca3fbe3b83aad2c1ed1b9ecdcbb21d79"
+    },
+    {
+      "path": "calculus/contracts/Single-Person-Company/logic-pragmas.txt",
+      "sha": "02c3731940afe1ad52cba67ae4e7ec947a23a239"
+    },
+    {
+      "path": "calculus/contracts/Stays/logic-pragmas.txt",
+      "sha": "87b3a8500c4a3f8b0aba8d6fa9c083a9a3482bed"
+    },
+    {
+      "path": "calculus/contracts/Tennis-Courts/logic-pragmas.txt",
+      "sha": "4861fd71d3ba7c5198c31014f35cf3b3a8e78f03"
+    },
+    {
+      "path": "calculus/contracts/Trading-Company/logic-pragmas.txt",
+      "sha": "955f35a3da4104b7a808e043d614113dc491a6fa"
+    },
+    {
+      "path": "calculus/contracts/Warded-Groups/logic-pragmas.txt",
+      "sha": "b9fc288a8f4ed763e09a6b7d65fdcff6f288626d"
+    },
+    {
+      "path": "calculus/contracts/Warnings/logic-pragmas.txt",
+      "sha": "8a62e2a423fba7390809e8ce6a8271e153e79043"
+    },
+    {
+      "path": "calculus/contracts/Workers-Cooperative/logic-pragmas.txt",
+      "sha": "6d870b3cdce9b2c33576c693990b5a22b9f3dcde"
+    },
+    {
+      "path": "calculus/NAMES.txt",
+      "sha": "3af992856bef66f82f9672c1681859fcb691376c"
+    },
+    {
+      "path": "calculus/tools/gcsas.py",
+      "sha": "86d0f70f275641971aeec6d017449eb2aadb879d"
+    },
+    {
+      "path": "calculus/tools/names.py",
+      "sha": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+    },
+    {
+      "path": "calculus/tools/nameslines.py",
+      "sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+    },
+    {
+      "path": "calculus/contracts/Broadcast/logic-pragmas.txt",
+      "sha": "0d5530b16ed4701b3eae2470c1b52cffe0f102c1"
+    },
+    {
+      "path": "calculus/contracts/Care/logic-pragmas.txt",
+      "sha": "3be141ab4634e9bcc8de26d5fbaffd3243eea27d"
+    },
+    {
+      "path": "calculus/contracts/Emergencies/logic-pragmas.txt",
+      "sha": "d7e10b5897590242b978ade3971a48c02c0cbfa5"
+    },
+    {
+      "path": "calculus/contracts/Notices/logic-pragmas.txt",
+      "sha": "a00eb415994278b2a68debbe5bac93593d228440"
+    },
+    {
+      "path": "calculus/contracts/Tools/logic-pragmas.txt",
+      "sha": "a07f2b3a19b987d508abbf0e484338073d3d3bf0"
+    },
+    {
+      "path": "calculus/contracts/Village-Commons/logic-pragmas.txt",
+      "sha": "f540a93981c882ca819175a02f83dc9074a7e1c6"
+    },
+    {
+      "path": "calculus/contracts/Village-Governance/logic-pragmas.txt",
+      "sha": "41a610a88d2dc099b1c095d5eb1060ac76c3af04"
+    },
+    {
+      "path": "calculus/contracts/Village-Life/logic-pragmas.txt",
+      "sha": "3594d96f9034f75e43574e30f0006d2881e55bcf"
+    },
+    {
+      "path": "calculus/contracts/Village-Money/logic-pragmas.txt",
+      "sha": "71f14d5df9101b9a0f2cf737d9b837e2bc670788"
+    },
+    {
+      "path": "calculus/contracts/Village-Services/logic-pragmas.txt",
+      "sha": "ced5e65f6a31aa9896be21c2732419b96f9e5944"
+    },
+    {
+      "path": "calculus/contracts/Village-Social/logic-pragmas.txt",
+      "sha": "c5f00b075a81b85e45998d4b8852cd0befbd5d25"
+    },
+    {
+      "path": "calculus/contracts/Villagers/logic-pragmas.txt",
+      "sha": "23c005d6effd3047436717c3d34e2c92b1489500"
+    },
+    {
+      "path": "calculus/contracts/Works/logic-pragmas.txt",
+      "sha": "d8e2b16633866a721faba28826eb261633ee42a7"
+    }
+  ],
+  "villagers_source_blobs": [
+    {
+      "path": "contracts/Broadcast/logic-pragmas.txt",
+      "sha": "0d5530b16ed4701b3eae2470c1b52cffe0f102c1"
+    },
+    {
+      "path": "contracts/Care/logic-pragmas.txt",
+      "sha": "3be141ab4634e9bcc8de26d5fbaffd3243eea27d"
+    },
+    {
+      "path": "contracts/Emergencies/logic-pragmas.txt",
+      "sha": "d7e10b5897590242b978ade3971a48c02c0cbfa5"
+    },
+    {
+      "path": "contracts/Notices/logic-pragmas.txt",
+      "sha": "a00eb415994278b2a68debbe5bac93593d228440"
+    },
+    {
+      "path": "contracts/Tools/logic-pragmas.txt",
+      "sha": "a07f2b3a19b987d508abbf0e484338073d3d3bf0"
+    },
+    {
+      "path": "contracts/Village-Commons/contract.txt",
+      "sha": "250749394ecab13afeb8be5a80198d9b8ad0f217"
+    },
+    {
+      "path": "contracts/Village-Governance/contract.txt",
+      "sha": "7d32e33bad4c7a30f58e43ce7b706530a8941bff"
+    },
+    {
+      "path": "contracts/Village-Life/contract.txt",
+      "sha": "f5f60e7fd226b85973c15d19cd3f3a77145c0945"
+    },
+    {
+      "path": "contracts/Village-Money/contract.txt",
+      "sha": "0feb122f3f4497630b0c7ceff8826214adaebcc4"
+    },
+    {
+      "path": "contracts/Village-Services/contract.txt",
+      "sha": "72885bdf14efc9db32f741edce5703c08961cedd"
+    },
+    {
+      "path": "contracts/Village-Social/contract.txt",
+      "sha": "eeceb386aa7ed9065f925895f22db0df69c2d8bc"
+    },
+    {
+      "path": "contracts/Villagers/contract.txt",
+      "sha": "ee16f5fcc27f9a7167c9da791d1c5c3e41739eca"
+    },
+    {
+      "path": "contracts/Works/logic-pragmas.txt",
+      "sha": "d8e2b16633866a721faba28826eb261633ee42a7"
+    }
+  ],
+  "results": {
+    "archive": {
+      "sha256": "d90a657d931021e690119f9730f05533205cc4d798ec4fed8b07130992970eea",
+      "commute": 106,
+      "return_exact": 66,
+      "recover_exact": 81,
+      "villagers_return_exact": [
+        "Broadcast",
+        "Emergencies",
+        "Notices",
+        "Village Social"
+      ],
+      "villagers_recover_equivalent_only": [
+        "Care",
+        "Tools",
+        "Works"
+      ],
+      "parent_lists": {
+        "Village Commons": [
+          "Meeting Rooms",
+          "Appointments",
+          "Tennis Courts",
+          "Rehearsal Rooms",
+          "Tools"
+        ],
+        "Village Governance": [
+          "Democratic Community",
+          "Backed Community Bank",
+          "Disputes",
+          "Warnings",
+          "Works"
+        ],
+        "Village Life": [
+          "Jobs",
+          "Help",
+          "Lending",
+          "Library",
+          "Lost and Found",
+          "Carpool",
+          "Home Exchange",
+          "Partners",
+          "Dating",
+          "Care"
+        ],
+        "Village Money": [
+          "Community Bank",
+          "Mutual Credit",
+          "Joint Accounts"
+        ],
+        "Village Services": [
+          "Community Market",
+          "Gigs",
+          "Rides",
+          "Lodging",
+          "Ads"
+        ],
+        "Village Social": [
+          "Friendship",
+          "Encounters",
+          "Groups",
+          "Feeds",
+          "Children",
+          "Emergencies",
+          "Notices"
+        ],
+        "Villagers": [
+          "Village Social",
+          "Village Governance",
+          "Village Money",
+          "Village Services",
+          "Village Life",
+          "Village Commons"
+        ]
+      },
+      "expanded_act_counts": {
+        "Village Commons": 67,
+        "Village Governance": 176,
+        "Village Life": 55,
+        "Village Money": 154,
+        "Village Services": 226,
+        "Village Social": 89,
+        "Villagers": 354
+      },
+      "results": {
+        "Knowledge": [
+          "yes",
+          "same"
+        ],
+        "Friendship": [
+          "yes",
+          "same"
+        ],
+        "Guardians": [
+          "yes",
+          "equivalent"
+        ],
+        "Forwarding": [
+          "yes",
+          "same"
+        ],
+        "AI Agents": [
+          "yes",
+          "equivalent"
+        ],
+        "Overlay": [
+          "yes",
+          "same"
+        ],
+        "Organisation": [
+          "yes",
+          "equivalent"
+        ],
+        "Notes": [
+          "yes",
+          "same"
+        ],
+        "Coins": [
+          "yes",
+          "same"
+        ],
+        "Bonds": [
+          "yes",
+          "same"
+        ],
+        "Denominated Coins": [
+          "yes",
+          "equivalent"
+        ],
+        "Denominated Currencies": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Community Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Backed Community Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Ads": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Agora": [
+          "yes",
+          "same"
+        ],
+        "Gossip": [
+          "yes",
+          "same"
+        ],
+        "Matching": [
+          "yes",
+          "same"
+        ],
+        "Services": [
+          "yes",
+          "same"
+        ],
+        "Rendezvous": [
+          "yes",
+          "same"
+        ],
+        "Anonymous Rendezvous": [
+          "yes",
+          "same"
+        ],
+        "Anonymous Matching": [
+          "yes",
+          "same"
+        ],
+        "Encounters": [
+          "yes",
+          "equivalent"
+        ],
+        "Programs": [
+          "yes",
+          "same"
+        ],
+        "AppStore": [
+          "yes",
+          "same"
+        ],
+        "Directory": [
+          "yes",
+          "equivalent"
+        ],
+        "App": [
+          "yes",
+          "same"
+        ],
+        "Booking": [
+          "yes",
+          "equivalent"
+        ],
+        "Appointments": [
+          "yes",
+          "same"
+        ],
+        "Local Overlay": [
+          "yes",
+          "same"
+        ],
+        "Auction": [
+          "yes",
+          "equivalent"
+        ],
+        "Labelled Overlay": [
+          "yes",
+          "same"
+        ],
+        "Feeds": [
+          "yes",
+          "same"
+        ],
+        "Resilient Feeds": [
+          "yes",
+          "same"
+        ],
+        "Backchannel Feeds": [
+          "yes",
+          "same"
+        ],
+        "Broadcast": [
+          "yes",
+          "same"
+        ],
+        "Groups": [
+          "yes",
+          "same"
+        ],
+        "Care": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Free Matching": [
+          "yes",
+          "same"
+        ],
+        "Carpool": [
+          "yes",
+          "same"
+        ],
+        "Central Bank": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Chess": [
+          "yes",
+          "equivalent"
+        ],
+        "Warded Groups": [
+          "yes",
+          "same"
+        ],
+        "Children": [
+          "yes",
+          "same"
+        ],
+        "Commercial Bank": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Community Network": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Recommendations": [
+          "yes",
+          "same"
+        ],
+        "Community Market": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Constitution": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Corporation": [
+          "equivalent",
+          "same"
+        ],
+        "Trading Company": [
+          "equivalent",
+          "same"
+        ],
+        "Consumers' Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Cooperative DAO": [
+          "equivalent",
+          "same"
+        ],
+        "DAO": [
+          "yes",
+          "same"
+        ],
+        "Dating": [
+          "yes",
+          "same"
+        ],
+        "Democratic Community": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Disputes": [
+          "yes",
+          "same"
+        ],
+        "Distrust": [
+          "yes",
+          "same"
+        ],
+        "Emergencies": [
+          "yes",
+          "same"
+        ],
+        "Nonprofit": [
+          "equivalent",
+          "same"
+        ],
+        "Foundation": [
+          "equivalent",
+          "same"
+        ],
+        "Funded DAO": [
+          "yes",
+          "same"
+        ],
+        "Gigs": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Help": [
+          "yes",
+          "same"
+        ],
+        "Home Exchange": [
+          "yes",
+          "same"
+        ],
+        "Jobs": [
+          "yes",
+          "same"
+        ],
+        "Joint Accounts": [
+          "yes",
+          "same"
+        ],
+        "Lending": [
+          "yes",
+          "same"
+        ],
+        "Library": [
+          "yes",
+          "same"
+        ],
+        "Liquid Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Liquid DAO": [
+          "yes",
+          "same"
+        ],
+        "Lodging": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Lost and Found": [
+          "yes",
+          "same"
+        ],
+        "Meeting Rooms": [
+          "yes",
+          "same"
+        ],
+        "Mutual Credit": [
+          "equivalent",
+          "same"
+        ],
+        "Notices": [
+          "yes",
+          "same"
+        ],
+        "Partners": [
+          "yes",
+          "same"
+        ],
+        "Partnership": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Gossip": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Matching": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Community Market": [
+          "equivalent",
+          "same"
+        ],
+        "Provenance Groups": [
+          "yes",
+          "equivalent"
+        ],
+        "Rehearsal Rooms": [
+          "yes",
+          "same"
+        ],
+        "Second-Score Auction": [
+          "yes",
+          "same"
+        ],
+        "Rides": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Secure Friendship": [
+          "yes",
+          "same"
+        ],
+        "Separating Distrust": [
+          "yes",
+          "same"
+        ],
+        "Shares": [
+          "equivalent",
+          "same"
+        ],
+        "Shareholding Corporation": [
+          "equivalent",
+          "same"
+        ],
+        "Short Feeds": [
+          "yes",
+          "same"
+        ],
+        "Single-Person Company": [
+          "equivalent",
+          "same"
+        ],
+        "Stays": [
+          "yes",
+          "same"
+        ],
+        "Tennis Courts": [
+          "yes",
+          "same"
+        ],
+        "Tools": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Village Commons": [
+          "equivalent",
+          "same"
+        ],
+        "Warnings": [
+          "yes",
+          "equivalent"
+        ],
+        "Works": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Village Governance": [
+          "equivalent",
+          "same"
+        ],
+        "Village Life": [
+          "equivalent",
+          "same"
+        ],
+        "Village Money": [
+          "equivalent",
+          "same"
+        ],
+        "Village Services": [
+          "equivalent",
+          "same"
+        ],
+        "Village Social": [
+          "yes",
+          "same"
+        ],
+        "Villagers": [
+          "equivalent",
+          "same"
+        ],
+        "Workers' Cooperative": [
+          "equivalent",
+          "same"
+        ]
+      }
+    },
+    "display": {
+      "sha256": "e2a73fb4e1381235338660a7ebc3160f363a5c087213c5f846d4c1489bb2ed92",
+      "commute": 106,
+      "return_exact": 72,
+      "recover_exact": 81,
+      "villagers_return_exact": [
+        "Broadcast",
+        "Emergencies",
+        "Notices",
+        "Village Commons",
+        "Village Governance",
+        "Village Life",
+        "Village Money",
+        "Village Services",
+        "Village Social",
+        "Villagers"
+      ],
+      "villagers_recover_equivalent_only": [
+        "Care",
+        "Tools",
+        "Works"
+      ],
+      "parent_lists": {
+        "Village Commons": [],
+        "Village Governance": [],
+        "Village Life": [],
+        "Village Money": [],
+        "Village Services": [],
+        "Village Social": [],
+        "Villagers": []
+      },
+      "expanded_act_counts": {
+        "Village Commons": 0,
+        "Village Governance": 0,
+        "Village Life": 0,
+        "Village Money": 0,
+        "Village Services": 0,
+        "Village Social": 0,
+        "Villagers": 0
+      },
+      "results": {
+        "Knowledge": [
+          "yes",
+          "same"
+        ],
+        "Friendship": [
+          "yes",
+          "same"
+        ],
+        "Guardians": [
+          "yes",
+          "equivalent"
+        ],
+        "Forwarding": [
+          "yes",
+          "same"
+        ],
+        "AI Agents": [
+          "yes",
+          "equivalent"
+        ],
+        "Overlay": [
+          "yes",
+          "same"
+        ],
+        "Organisation": [
+          "yes",
+          "equivalent"
+        ],
+        "Notes": [
+          "yes",
+          "same"
+        ],
+        "Coins": [
+          "yes",
+          "same"
+        ],
+        "Bonds": [
+          "yes",
+          "same"
+        ],
+        "Denominated Coins": [
+          "yes",
+          "equivalent"
+        ],
+        "Denominated Currencies": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Community Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Backed Community Bank": [
+          "equivalent",
+          "same"
+        ],
+        "Ads": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Agora": [
+          "yes",
+          "same"
+        ],
+        "Gossip": [
+          "yes",
+          "same"
+        ],
+        "Matching": [
+          "yes",
+          "same"
+        ],
+        "Services": [
+          "yes",
+          "same"
+        ],
+        "Rendezvous": [
+          "yes",
+          "same"
+        ],
+        "Anonymous Rendezvous": [
+          "yes",
+          "same"
+        ],
+        "Anonymous Matching": [
+          "yes",
+          "same"
+        ],
+        "Encounters": [
+          "yes",
+          "equivalent"
+        ],
+        "Programs": [
+          "yes",
+          "same"
+        ],
+        "AppStore": [
+          "yes",
+          "same"
+        ],
+        "Directory": [
+          "yes",
+          "equivalent"
+        ],
+        "App": [
+          "yes",
+          "same"
+        ],
+        "Booking": [
+          "yes",
+          "equivalent"
+        ],
+        "Appointments": [
+          "yes",
+          "same"
+        ],
+        "Local Overlay": [
+          "yes",
+          "same"
+        ],
+        "Auction": [
+          "yes",
+          "equivalent"
+        ],
+        "Labelled Overlay": [
+          "yes",
+          "same"
+        ],
+        "Feeds": [
+          "yes",
+          "same"
+        ],
+        "Resilient Feeds": [
+          "yes",
+          "same"
+        ],
+        "Backchannel Feeds": [
+          "yes",
+          "same"
+        ],
+        "Broadcast": [
+          "yes",
+          "same"
+        ],
+        "Groups": [
+          "yes",
+          "same"
+        ],
+        "Care": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Free Matching": [
+          "yes",
+          "same"
+        ],
+        "Carpool": [
+          "yes",
+          "same"
+        ],
+        "Central Bank": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Chess": [
+          "yes",
+          "equivalent"
+        ],
+        "Warded Groups": [
+          "yes",
+          "same"
+        ],
+        "Children": [
+          "yes",
+          "same"
+        ],
+        "Commercial Bank": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Community Network": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Recommendations": [
+          "yes",
+          "same"
+        ],
+        "Community Market": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Constitution": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Corporation": [
+          "equivalent",
+          "same"
+        ],
+        "Trading Company": [
+          "equivalent",
+          "same"
+        ],
+        "Consumers' Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Cooperative DAO": [
+          "equivalent",
+          "same"
+        ],
+        "DAO": [
+          "yes",
+          "same"
+        ],
+        "Dating": [
+          "yes",
+          "same"
+        ],
+        "Democratic Community": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Disputes": [
+          "yes",
+          "same"
+        ],
+        "Distrust": [
+          "yes",
+          "same"
+        ],
+        "Emergencies": [
+          "yes",
+          "same"
+        ],
+        "Nonprofit": [
+          "equivalent",
+          "same"
+        ],
+        "Foundation": [
+          "equivalent",
+          "same"
+        ],
+        "Funded DAO": [
+          "yes",
+          "same"
+        ],
+        "Gigs": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Help": [
+          "yes",
+          "same"
+        ],
+        "Home Exchange": [
+          "yes",
+          "same"
+        ],
+        "Jobs": [
+          "yes",
+          "same"
+        ],
+        "Joint Accounts": [
+          "yes",
+          "same"
+        ],
+        "Lending": [
+          "yes",
+          "same"
+        ],
+        "Library": [
+          "yes",
+          "same"
+        ],
+        "Liquid Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Liquid DAO": [
+          "yes",
+          "same"
+        ],
+        "Lodging": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Lost and Found": [
+          "yes",
+          "same"
+        ],
+        "Meeting Rooms": [
+          "yes",
+          "same"
+        ],
+        "Mutual Credit": [
+          "equivalent",
+          "same"
+        ],
+        "Notices": [
+          "yes",
+          "same"
+        ],
+        "Partners": [
+          "yes",
+          "same"
+        ],
+        "Partnership": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Gossip": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Matching": [
+          "equivalent",
+          "same"
+        ],
+        "Promoted Community Market": [
+          "equivalent",
+          "same"
+        ],
+        "Provenance Groups": [
+          "yes",
+          "equivalent"
+        ],
+        "Rehearsal Rooms": [
+          "yes",
+          "same"
+        ],
+        "Second-Score Auction": [
+          "yes",
+          "same"
+        ],
+        "Rides": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Secure Friendship": [
+          "yes",
+          "same"
+        ],
+        "Separating Distrust": [
+          "yes",
+          "same"
+        ],
+        "Shares": [
+          "equivalent",
+          "same"
+        ],
+        "Shareholding Corporation": [
+          "equivalent",
+          "same"
+        ],
+        "Short Feeds": [
+          "yes",
+          "same"
+        ],
+        "Single-Person Company": [
+          "equivalent",
+          "same"
+        ],
+        "Stays": [
+          "yes",
+          "same"
+        ],
+        "Tennis Courts": [
+          "yes",
+          "same"
+        ],
+        "Tools": [
+          "equivalent",
+          "equivalent"
+        ],
+        "Village Commons": [
+          "yes",
+          "same"
+        ],
+        "Village Governance": [
+          "yes",
+          "same"
+        ],
+        "Village Life": [
+          "yes",
+          "same"
+        ],
+        "Village Money": [
+          "yes",
+          "same"
+        ],
+        "Village Services": [
+          "yes",
+          "same"
+        ],
+        "Village Social": [
+          "yes",
+          "same"
+        ],
+        "Villagers": [
+          "yes",
+          "same"
+        ],
+        "Warnings": [
+          "yes",
+          "equivalent"
+        ],
+        "Workers' Cooperative": [
+          "equivalent",
+          "same"
+        ],
+        "Works": [
+          "equivalent",
+          "equivalent"
+        ]
+      }
+    }
+  },
+  "pr224_tree_blobs": [
+    {
+      "filename": "ISSUES.md",
+      "sha": "f22cfe4be99f6c9c74380d18050a9b0b31493e4a"
+    },
+    {
+      "filename": "README.md",
+      "sha": "f71b9b0ab98739a762577884abe5745969fa993e"
+    },
+    {
+      "filename": "papers/Villagers-review-2026-11-28.md",
+      "sha": "316ee5196b7bdde8969b11debd6614c31d144832"
+    },
+    {
+      "filename": "papers/Villagers.pdf.md",
+      "sha": "cdf30a83a5d6c8902e17de8c77c943c5e0d07610"
+    },
+    {
+      "filename": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "sha": "009c2178bf43fe5a68784d3ce6e072f183ab6c0b"
+    },
+    {
+      "filename": "papers/villagers-controls-2026-11-28.json",
+      "sha": "51cc87ef5d12163688353a0d635d6347355b2f98"
+    },
+    {
+      "filename": "papers/villagers-controls-2026-11-28.py",
+      "sha": "823877abe46c2774a0907ac9dd474ecf19c28478"
+    },
+    {
+      "filename": "papers/villagers-sources-2026-11-28.json",
+      "sha": "4a805f1040f24227e6baf5a585e7ae58c560782c"
+    },
+    {
+      "filename": "sections/status-table.tex",
+      "sha": "082f3968fd1045c9c38a031ef41a3b4aebc238ef"
+    },
+    {
+      "filename": "servers/peoplesweb/tools/build.py.md",
+      "sha": "2be061a22ca76fbbf98105719a4dbb6301148a82"
+    }
+  ],
+  "pr222_tree_blobs": [
+    {
+      "filename": "ISSUES.md",
+      "sha": "3079cb69ca8bb2ef08f1c87c04fa4d603cec495e"
+    },
+    {
+      "filename": "calculus/.review-files/Calculus_19_GSC_19_Review.md",
+      "sha": "7da1c8a7829a0f8d3d3ebc6f37a2baf31629e040"
+    },
+    {
+      "filename": "calculus/.review-files/revision19_controls.py",
+      "sha": "8e71189e1c0377a96b98158acd82ae20046c4aaf"
+    },
+    {
+      "filename": "calculus/contracts.md",
+      "sha": "fc392e93dc8f2283c2ebc0f1df6657e4983aeccb"
+    },
+    {
+      "filename": "sections/status-table.tex",
+      "sha": "40fec2904f8cfa821ad3a048ecca481a29a073d4"
+    }
+  ],
+  "outcome": "Published the public corpus verification through PR #225 and reconciled the observed #224 merge and #173 closure. PR #222 is open with a merge conflict. No PR discussion messages or issue mutations were made.",
+  "publication_blobs": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d0e68c7188d7dc0e1d9f320b3e4c7e9702653d1"
+    },
+    {
+      "path": "papers/Villagers.pdf.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0287922f0a8889c83590f97ac14bdb419a3c7fd"
+    },
+    {
+      "path": "papers/.review-files/Villagers-review-2026-11-28.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c2a45d3bfabc957ee69eda926eb4d7600635c6"
+    },
+    {
+      "path": "papers/Villagers__Village_Life_Grassroots_Contract.pdf.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "791a147dae8e3664f7468d1f01e7b61741aa0418"
+    },
+    {
+      "path": "ISSUES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2df164a1fb1c642849fc05594b71e51aa406854"
+    },
+    {
+      "path": "sections/status-table.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2943e77ba7abc5bf519f6216988ebf0ed628371e"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+## Stage 170 — All 106 public inputs replayed — 28 November 2026 UTC
+
+[PR #222](https://github.com/udi-shapiro/Grassroots-Audit/pull/222) at `bdc502160990089fcde0337c5faf5b744079e322` adds the full corpus. Verified 110 input/tool blob hashes and reproduced 106 Commute, 66 exact Returns and 81 exact Recovers. Seven display-only group inputs silently drop all parents and produce zero acts. [PR #225](https://github.com/udi-shapiro/Grassroots-Audit/pull/225) publishes the Villagers evidence. Reconcile #222’s shared index on current main. Verify #211 against a matching public manuscript, and keep #212 and role-coincidence work open. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json)
+
 ## Stage 169 — Calculus (19) publication review — 28 November 2026 UTC
 
 [PR #222](https://github.com/udi-shapiro/Grassroots-Audit/pull/222) at `cbc972efffeb0658cead96c6337b048b157bd363` preserves four dated Calculus replies. The controls passed, public Knowledge supports the asymmetric Acquaint trace, and 97 verified inputs and tool blobs reproduced the 93-contract results. Public manuscript verification and the additional 13 inputs remain pending. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json)

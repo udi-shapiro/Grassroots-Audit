@@ -1,3 +1,7 @@
+## Stage 170 — Public component and aggregate replay — 28 November 2026 UTC
+
+[PR #224](https://github.com/udi-shapiro/Grassroots-Audit/pull/224) merged and preserved Calculus’ Answer from #173 exactly. [PR #225](https://github.com/udi-shapiro/Grassroots-Audit/pull/225) verifies the public compiler shape for #115 and independently reproduces the flag-only Ads effects. #115 and #223 remain open. Review the now-public Care and Tools pragmas and the aggregated scope. Tennis still needs quota accounting. Confirm Warnings native request behavior under #151. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json)
+
 ## Stage 134 — Villagers Warnings follow-up — 26 November 2026 UTC
 
 Finding #136 now has a verified candidate-level correction at `c1408847`. The regenerated fields and focused deadline semantics pass, while public GLP main remains at `37d31ca9`. Keep the finding open until integration, independent request/sanction execution and retrospective approval of former-officer warning retention. [Verification](https://github.com/udi-shapiro/Grassroots-Audit/pull/177#issuecomment-7185368317) · [Stage record](../../stages/134-pr177-warnings-regeneration-20261126.json)

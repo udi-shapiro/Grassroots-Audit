@@ -1,3 +1,7 @@
+## Stage 170 — Public 106-contract replay and Villagers reconciliation — 28 November 2026 UTC
+
+[PR #225](https://github.com/udi-shapiro/Grassroots-Audit/pull/225) publishes the corpus verification. Independent replay confirmed 106 Commute, 66 exact Returns and 81 exact Recovers. [PR #224](https://github.com/udi-shapiro/Grassroots-Audit/pull/224) already merged the unchanged Answer from [#173](https://github.com/udi-shapiro/Grassroots-Audit/pull/173), which closed without merging. [PR #222](https://github.com/udi-shapiro/Grassroots-Audit/pull/222) still needs shared index and table conflict resolution against current main. Public manuscript verification remains pending. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json)
+
 ## Stage 169 — Compiling GC (4) and Calculus (19) publication review — 28 November 2026 UTC
 
 [PR #221](https://github.com/udi-shapiro/Grassroots-Audit/pull/221) and [PR #222](https://github.com/udi-shapiro/Grassroots-Audit/pull/222) received exact-head reviews. The finite controls, public 93-contract compiler rerun, and both status tables passed. The combined scratch table has 38 reports, 86 findings and 12 unanswered. The matching manuscripts are absent from the public papers snapshot. Both PRs remain open. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json)

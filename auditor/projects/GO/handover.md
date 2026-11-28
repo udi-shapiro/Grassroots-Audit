@@ -1,3 +1,7 @@
+## Stage 170 — Ads preserved in the full Villagers aggregate — 28 November 2026 UTC
+
+[PR #225](https://github.com/udi-shapiro/Grassroots-Audit/pull/225) records the public archive replay. Ads Post still lacks a funding premise and its View and Click heads only record attestations, also in the 354-act Villagers expansion. Keep [#223](https://github.com/udi-shapiro/Grassroots-Audit/issues/223) open for funded budget and payment semantics or a narrowed service claim. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json)
+
 ## Stage 97 — Integrated Calculus corrections — 25 November 2026 UTC
 
 The organisation route now requires an organisation with a listed officer in the catalogue, adopted module and both emitted platforms. Run person-only, officerless, and represented Gov controls for #96. Run ward and organisation creation and retirement plays for #58. [Verification PR](https://github.com/udi-shapiro/Grassroots-Audit/pull/125) [Stage record](../../stages/97-pr123-125-calculus-integration-20261125.json)
