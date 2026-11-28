@@ -1,0 +1,230 @@
+{
+  "stage": 172,
+  "date": "2026-11-28",
+  "title": "Preserve Calculus #13 and reconcile the Calculus (19) publication",
+  "events": [
+    {
+      "delivery_id": "a37b5876-eb24-11f1-8009-2d31907ebee6",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "EShapiro2",
+      "pull_request_number": 222,
+      "comment_id": 7239038777,
+      "head_sha": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369,
+          7239038777,
+          6097747161
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ",
+          "PRR_kwDOVrts7s8AAAABa3Q82Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6097747161,
+            "node_id": "PRR_kwDOVrts7s8AAAABa3Q82Q",
+            "submitted_at": "2026-11-28T12:21:17Z",
+            "commit_id": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          },
+          {
+            "id": 7239038777,
+            "updated_at": "2026-11-28T12:10:01Z"
+          },
+          {
+            "id": 6097747161,
+            "updated_at": "2026-11-28T12:21:17Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T12:21:17Z"
+      },
+      "processed_at": "2026-11-28T12:23:00Z",
+      "merged": false,
+      "outcome": "Preserved Calculus #13 under Findings 21 and 30, reconciled PR #222 with current main, and kept both equality-case items open. Public papers now expose Calculus.pdf, but textual identity and corrections were not verified.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_main_tree": "c11a386142ce3bd9113d9376293914748be462dd",
+        "pr222_previous_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_head": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+        "pr222_base": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "glp_main": "9dd8725a7d104c8ce8057b547e153c2febcfd794",
+        "glp_papers": "9239f0e8eb500be81143a3e77ec282635faf6d2b",
+        "calculus_pdf_blob": "54a108de07277e7a4960e12f284f304ce39b506e",
+        "calculus_pdf_bytes": 541824,
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "changed_blobs": {
+          "ISSUES.md": "987a402fd435dd9fe27e7038ea6772678ba16594",
+          "calculus/.review-files/Calculus_19_GSC_19_Review.md": "de7b21cb4d6eff726ab965813457523736a78d20",
+          "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+          "calculus/contracts.md": "a1eca034062b8c54a16bd84f846bc886e8d312b5",
+          "sections/status-table.tex": "e2259878ab9a3a2d4512c004b7c8313736d3f997"
+        }
+      },
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6097747161",
+        "publishing_commit": "https://github.com/EShapiro2/GLP/commit/9239f0e8eb500be81143a3e77ec282635faf6d2b",
+        "public_pdf": "https://github.com/EShapiro2/GLP/blob/9239f0e8eb500be81143a3e77ec282635faf6d2b/papers/Calculus.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/172-pr222-calculus13-reconciliation-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/172-pr222-calculus13-reconciliation-20261128.json"
+      }
+    },
+    {
+      "delivery_id": "1df5cd38-eb26-11f1-83af-2de2f7fe85a9",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 222,
+      "comment_id": null,
+      "head_sha": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369,
+          7239038777,
+          6097747161
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ",
+          "PRR_kwDOVrts7s8AAAABa3Q82Q"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          },
+          {
+            "id": 6097747161,
+            "node_id": "PRR_kwDOVrts7s8AAAABa3Q82Q",
+            "submitted_at": "2026-11-28T12:21:17Z",
+            "commit_id": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          },
+          {
+            "id": 7239038777,
+            "updated_at": "2026-11-28T12:10:01Z"
+          },
+          {
+            "id": 6097747161,
+            "updated_at": "2026-11-28T12:21:17Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T12:21:17Z"
+      },
+      "processed_at": "2026-11-28T12:23:00Z",
+      "merged": false,
+      "own_publication": true,
+      "outcome": "Recorded the expected-head synchronization produced by this run's reconciliation commit. No additional response or publication loop was created.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_main_tree": "c11a386142ce3bd9113d9376293914748be462dd",
+        "pr222_previous_head": "bdc502160990089fcde0337c5faf5b744079e322",
+        "pr222_head": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+        "pr222_base": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "glp_main": "9dd8725a7d104c8ce8057b547e153c2febcfd794",
+        "glp_papers": "9239f0e8eb500be81143a3e77ec282635faf6d2b",
+        "calculus_pdf_blob": "54a108de07277e7a4960e12f284f304ce39b506e",
+        "calculus_pdf_bytes": 541824,
+        "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+        "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+        "changed_blobs": {
+          "ISSUES.md": "987a402fd435dd9fe27e7038ea6772678ba16594",
+          "calculus/.review-files/Calculus_19_GSC_19_Review.md": "de7b21cb4d6eff726ab965813457523736a78d20",
+          "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+          "calculus/contracts.md": "a1eca034062b8c54a16bd84f846bc886e8d312b5",
+          "sections/status-table.tex": "e2259878ab9a3a2d4512c004b7c8313736d3f997"
+        }
+      },
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6097747161",
+        "publishing_commit": "https://github.com/EShapiro2/GLP/commit/9239f0e8eb500be81143a3e77ec282635faf6d2b",
+        "public_pdf": "https://github.com/EShapiro2/GLP/blob/9239f0e8eb500be81143a3e77ec282635faf6d2b/papers/Calculus.pdf",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/172-pr222-calculus13-reconciliation-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/172-pr222-calculus13-reconciliation-20261128.json"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "audit_main_tree": "c11a386142ce3bd9113d9376293914748be462dd",
+    "pr222_previous_head": "bdc502160990089fcde0337c5faf5b744079e322",
+    "pr222_head": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+    "pr222_base": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "glp_main": "9dd8725a7d104c8ce8057b547e153c2febcfd794",
+    "glp_papers": "9239f0e8eb500be81143a3e77ec282635faf6d2b",
+    "calculus_pdf_blob": "54a108de07277e7a4960e12f284f304ce39b506e",
+    "calculus_pdf_bytes": 541824,
+    "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+    "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+    "changed_blobs": {
+      "ISSUES.md": "987a402fd435dd9fe27e7038ea6772678ba16594",
+      "calculus/.review-files/Calculus_19_GSC_19_Review.md": "de7b21cb4d6eff726ab965813457523736a78d20",
+      "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+      "calculus/contracts.md": "a1eca034062b8c54a16bd84f846bc886e8d312b5",
+      "sections/status-table.tex": "e2259878ab9a3a2d4512c004b7c8313736d3f997"
+    }
+  },
+  "checks": {
+    "executed": [
+      "bin/status.py: 39 reports, 85 findings, 11 unanswered; generated table byte-identical to the reconciled candidate",
+      "revision19_controls.py: Introduction, asymmetric Acquaint, local binding and ground-head checks passed."
+    ],
+    "inspection": [
+      "Calculus #13 reports no new correction for #98 or #200 and points to the already replayed public villagers branch.",
+      "Public papers commit 9239f0e8 contains papers/Calculus.pdf as blob 54a108de, 541,824 bytes, added by the hourly publication sweep.",
+      "The public PDF text was not extracted, so identity with the supplied 537,726-byte manuscript and correction claims remain pending."
+    ],
+    "prior_evidence": "The 106-contract replay was executed in stage 170 and was not rerun in this stage.",
+    "product_runtime": "No GLP production runtime was executed or changed."
+  },
+  "outcome": "PR #222 now preserves the dated project reply, includes current main at exact head 98bd6335, regenerates the combined status table, and is mergeable. Findings #98 and #200 remain open. The public Calculus PDF is pinned as publication evidence, not fix verification.",
+  "next": [
+    "Obtain independent exact-head review of PR #222 before merge.",
+    "Extract and compare the public Calculus PDF text to the supplied revision before verifying #201, #211, #212 or any manuscript correction.",
+    "Keep #98 and #200 open until the full equality-case translation and paper text are supplied and independently checked."
+  ],
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6097747161",
+    "publishing_commit": "https://github.com/EShapiro2/GLP/commit/9239f0e8eb500be81143a3e77ec282635faf6d2b",
+    "public_pdf": "https://github.com/EShapiro2/GLP/blob/9239f0e8eb500be81143a3e77ec282635faf6d2b/papers/Calculus.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/172-pr222-calculus13-reconciliation-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/172-pr222-calculus13-reconciliation-20261128.json"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "pr": 222,
+  "source_pins": {
+    "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "audit_main_tree": "c11a386142ce3bd9113d9376293914748be462dd",
+    "pr222_previous_head": "bdc502160990089fcde0337c5faf5b744079e322",
+    "pr222_head": "98bd6335745bedbfddd8f0aca93e99fe17fb2c53",
+    "pr222_base": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "glp_main": "9dd8725a7d104c8ce8057b547e153c2febcfd794",
+    "glp_papers": "9239f0e8eb500be81143a3e77ec282635faf6d2b",
+    "calculus_pdf_blob": "54a108de07277e7a4960e12f284f304ce39b506e",
+    "calculus_pdf_bytes": 541824,
+    "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
+    "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
+    "changed_blobs": {
+      "ISSUES.md": "987a402fd435dd9fe27e7038ea6772678ba16594",
+      "calculus/.review-files/Calculus_19_GSC_19_Review.md": "de7b21cb4d6eff726ab965813457523736a78d20",
+      "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+      "calculus/contracts.md": "a1eca034062b8c54a16bd84f846bc886e8d312b5",
+      "sections/status-table.tex": "e2259878ab9a3a2d4512c004b7c8313736d3f997"
+    }
+  },
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+    "project_reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6097747161",
+    "publishing_commit": "https://github.com/EShapiro2/GLP/commit/9239f0e8eb500be81143a3e77ec282635faf6d2b",
+    "public_pdf": "https://github.com/EShapiro2/GLP/blob/9239f0e8eb500be81143a3e77ec282635faf6d2b/papers/Calculus.pdf",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/172-pr222-calculus13-reconciliation-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/172-pr222-calculus13-reconciliation-20261128.json"
+  },
+  "executed": {
+    "procedure": "Materialized the 39 current main reports from GitHub, overlaid the reconciled PR #222 report, preserved the new dated reply, and ran the repository's pinned generators and finite controls.",
+    "checks": [
+      {
+        "script": "bin/status.py",
+        "code": 0,
+        "stdout": "39 reports, 85 findings, 11 unanswered\n",
+        "stderr": "",
+        "table_matches": true
+      },
+      {
+        "script": "calculus/.review-files/revision19_controls.py",
+        "code": 0,
+        "stdout": "Introduction, asymmetric Acquaint, local binding and ground-head checks passed.\n",
+        "stderr": ""
+      }
+    ]
+  },
+  "inspection": [
+    "PR #222's five-file diff was reconciled against audit main 3813adc8 with the current main tree as the publication base.",
+    "The new project reply contains no claimed correction for #98 or #200.",
+    "EShapiro2/GLP papers commit 9239f0e8 was created at 2026-11-28T11:21:40Z by the hourly papers-publishing sweep and adds papers/Calculus.pdf.",
+    "The connector exposed the public PDF object metadata but did not decode its binary text. The public object is therefore not treated as a matching manuscript."
+  ],
+  "project_claims": [
+    {
+      "attribution": "Calculus #13, the Calculus Cowork session, 2026-11-28 11:12 UTC, submitted by Audit #7",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777",
+      "scope": "The 13 contracts are public on villagers b3d2eea; #98 and #200 have nothing new and their paper text is unwritten."
+    }
+  ],
+  "prior_evidence": [
+    {
+      "stage": 170,
+      "scope": "Public 106-contract replay, including the 13 villagers inputs.",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json"
+    }
+  ],
+  "next": [
+    "Obtain independent exact-head review of PR #222 before merge.",
+    "Extract and compare the public Calculus PDF text to the supplied revision before verifying #201, #211, #212 or any manuscript correction.",
+    "Keep #98 and #200 open until the full equality-case translation and paper text are supplied and independently checked."
+  ]
+}
