@@ -1,31 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T05:58:00Z",
-  "active_run": {
-    "run_id": "pr-watch-batch-c75400d0-ce1ac9ee",
-    "started_at": "2026-11-28T05:58:00Z",
-    "expires_at": "2026-11-28T06:28:00Z",
-    "delivery_ids": [
-      "c75400d0-eaee-11f1-95be-989c6b2f05c5",
-      "c92276e4-eaee-11f1-9550-19b970c4fb87",
-      "c9177f46-eaee-11f1-8a31-336c1587a22a",
-      "cb032558-eaee-11f1-80a1-e4ea71d5cd66",
-      "cada7aa4-eaee-11f1-8abb-aff058c07629",
-      "cc77fc42-eaee-11f1-8f9d-72d299a06cee",
-      "ccb674c2-eaee-11f1-8a21-92b12c636cfb",
-      "ce1ac9ee-eaee-11f1-855b-10550ef5049f",
-      "cdfabe56-eaee-11f1-9d94-3d3fd197baa3"
-    ],
-    "pull_request_numbers": [
-      28,
-      30,
-      141,
-      158,
-      180
-    ],
-    "purpose": "Reconcile superseded legacy PR closures"
-  },
+  "updated_at": "2026-11-28T06:02:00Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "c758c4b2-eaee-11f1-8767-bf2ef4c29de7",
-      "event": "PR #158 closure note",
-      "pull_request_number": 158,
-      "observed_at": "2026-11-28T05:55:00Z",
-      "outcome": "Recorded closure without merge as superseded by open PR #175. No PR discussion reply or publication was made."
+      "delivery_id": "cdfabe56-eaee-11f1-9d94-3d3fd197baa3",
+      "event": "Legacy PR #28, #30, #141, #158 and #180 closures",
+      "pull_request_number": 28,
+      "observed_at": "2026-11-28T06:02:00Z",
+      "outcome": "Recorded five closures and four supersession notes. Successor PRs preserve the attributed answer and verification histories. No discussion reply, publication, merge, or notification was made."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -361,24 +338,58 @@
     {
       "number": 28,
       "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
-      "state": "open",
-      "updated_at": "2026-11-18T11:32:11Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T05:44:41Z",
       "merged_at": null,
-      "comment_cursor": 6977328109,
+      "comment_cursor": 7234857954,
       "review_cursor": "PRR_kwDOVrts7s8AAAABYgaA4Q",
-      "notes": "Website answer independently verified by local fixtures at GLP 64dfdc23188d9b67ff634c91dbc89aa9def88141; separate reviewed publication pending in PR56 while PR28 remains intact.",
+      "notes": "PR #28 closed without merge as superseded by PR #56. PR #56 preserves Website’s dated answer under Website ownership and the independent checked-build verification. Its current head 0491df9b remains open with conflicts. The closure adds no evidence or status change.",
       "discussion_version": {
         "comments": 2,
         "reviews": 1,
         "review_threads": 0,
         "comment_ids": [
-          5939560673,
-          6977328109
+          6977328109,
+          7234857954
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYgaA4Q"
         ],
-        "latest_comment_updated_at": "2026-11-18T11:32:11Z"
+        "review_versions": [
+          {
+            "id": 5939560673,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgaA4Q",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "641d4a705ce9658f777a20c2a80d564201d523ad",
+            "submitted_at": "2026-11-17T13:44:06Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6977328109,
+            "updated_at": "2026-11-18T11:32:11Z"
+          },
+          {
+            "id": 7234857954,
+            "updated_at": "2026-11-28T05:44:39Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:39Z"
+      },
+      "base_sha": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+      "merge_commit_sha": null,
+      "delivery_ids": [
+        "ce1ac9ee-eaee-11f1-855b-10550ef5049f",
+        "cdfabe56-eaee-11f1-9d94-3d3fd197baa3"
+      ],
+      "source_pins": {
+        "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_pr_28_head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+        "audit_pr_56_head": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+        "successor_report_blob": "40d21b70f795f3fe16596db7e1dc1a10601f3d1d",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
       }
     },
     {
@@ -460,12 +471,12 @@
     {
       "number": 30,
       "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
-      "state": "open",
-      "updated_at": "2026-11-22T20:30:29Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T05:44:39Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 5,
+        "comments": 6,
         "reviews": 1,
         "review_threads": 0,
         "comment_ids": [
@@ -473,22 +484,66 @@
           7053098829,
           7053128018,
           7061253610,
-          7085321976
+          7085321976,
+          7234857505
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABYggRvg"
         ],
-        "latest_item_at": "2026-11-22T20:30:29Z",
+        "review_versions": [
+          {
+            "id": 5939663294,
+            "node_id": "PRR_kwDOVrts7s8AAAABYggRvg",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+            "submitted_at": "2026-11-17T13:51:01Z"
+          }
+        ],
         "latest_comments": [
+          {
+            "id": 7053095636,
+            "updated_at": "2026-11-20T23:23:48Z"
+          },
+          {
+            "id": 7053098829,
+            "updated_at": "2026-11-20T23:24:00Z"
+          },
+          {
+            "id": 7053128018,
+            "updated_at": "2026-11-20T23:25:50Z"
+          },
+          {
+            "id": 7061253610,
+            "updated_at": "2026-11-21T10:28:05Z"
+          },
           {
             "id": 7085321976,
             "updated_at": "2026-11-22T20:30:29Z"
+          },
+          {
+            "id": 7234857505,
+            "updated_at": "2026-11-28T05:44:36Z"
           }
-        ]
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:36Z"
       },
-      "comment_cursor": 7085321976,
+      "comment_cursor": 7234857505,
       "review_cursor": "PRR_kwDOVrts7s8AAAABYggRvg",
-      "notes": "Preserved the attributed GSC paper correction claim and revised report in draft #77. Public code matches the declaration and separate ward act. Both paper findings remain open. Original PR #30 has conflicts and a changes-requested review."
+      "notes": "PR #30 closed without merge as superseded by PR #77. PR #77 preserves GSC’s dated paper answers, Calculus’ syntax explanation, and the separate public-code verification. Both findings remain answered and open pending independent PDF text inspection. Its current head f410982e remains open with conflicts.",
+      "base_sha": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+      "delivery_ids": [
+        "cc77fc42-eaee-11f1-8f9d-72d299a06cee",
+        "ccb674c2-eaee-11f1-8a21-92b12c636cfb"
+      ],
+      "source_pins": {
+        "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_pr_30_head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+        "audit_pr_77_head": "f410982e6092e2f27504994aa933fce0cee91622",
+        "successor_report_blob": "b651df7f3d191605c80562f7d47ecaffda776422",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      }
     },
     {
       "number": 47,
@@ -1807,16 +1862,17 @@
       "number": 141,
       "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
       "base_sha": "f96ca01995068aa664300c62e3659c87993a8cc9",
-      "state": "open",
-      "updated_at": "2026-11-26T03:05:47Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T05:44:34Z",
       "merged_at": null,
       "discussion_version": {
-        "comments": 2,
+        "comments": 3,
         "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
           7181256829,
-          7181391170
+          7181391170,
+          7234856522
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaV4-DQ",
@@ -1826,15 +1882,15 @@
           {
             "id": 6062751245,
             "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
-            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
             "state": "CHANGES_REQUESTED",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
             "submitted_at": "2026-11-25T18:17:46Z"
           },
           {
             "id": 6063078015,
             "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
-            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
             "state": "CHANGES_REQUESTED",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
             "submitted_at": "2026-11-25T18:42:02Z"
           }
         ],
@@ -1846,30 +1902,38 @@
           {
             "id": 7181391170,
             "updated_at": "2026-11-26T03:05:47Z"
+          },
+          {
+            "id": 7234856522,
+            "updated_at": "2026-11-28T05:44:30Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T03:05:47Z"
+        "latest_item_at": "2026-11-28T05:44:30Z"
       },
-      "comment_cursor": 7181391170,
+      "comment_cursor": 7234856522,
       "review_cursor": "PRR_kwDOVrts7s8AAAABaWM6fw",
       "delivery_id": "35126e44-e8fc-11f1-9811-8f4b318fe744",
-      "notes": "Currencies’ dated Agora Finding 1 answer is preserved in PR #178. Candidate bf36ba77 source and generated artifacts support the binding change and field-free interface without a uniqueness assumption. GLP main remains old; independent adoption and cascade execution remain pending.",
+      "notes": "PR #141 closed without merge as superseded by PR #178. PR #178 preserves Currencies’ dated Agora answer under Currencies ownership while retaining GCE finding attribution and the independent public-main source check. Finding #140 remains open for regeneration and cascade execution. Its current head 8cc907b6 remains open with conflicts.",
       "merge_commit_sha": null,
       "delivery_ids": [
         "35126e44-e8fc-11f1-9811-8f4b318fe744",
         "51cc1870-e8ff-11f1-8752-383e0d5e3890",
-        "0338192a-e945-11f1-99b2-8b34cee6357d"
+        "0338192a-e945-11f1-99b2-8b34cee6357d",
+        "c92276e4-eaee-11f1-9550-19b970c4fb87",
+        "c9177f46-eaee-11f1-8a31-336c1587a22a"
       ],
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
         "audit_pr_141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
-        "audit_pr_178_head": "228b198b0400ec2f05e8ea2cda10e41fdb9145fd",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
-        "glp_papers": "e525981dee6d8dfecf7a1a010fc98d9ed4523697",
+        "audit_pr_178_head": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
         "agora_audited": "b579ce0d5973082f26e759529202c9c5931fb8bf",
         "agora_candidate_parent": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
-        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6"
+        "agora_candidate": "bf36ba77bfa9442944f049a27a7dd033308e46d6",
+        "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "successor_report_blob": "1f71ae11895852f62b37c1912e08e29d65e15b46"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/129-pr141-agora-answer-candidate-20261126.json",
       "own_comment_ids": [
@@ -2471,9 +2535,10 @@
         "ab8f233e-e954-11f1-80c4-a8e29019e556",
         "9bc382f8-e957-11f1-8231-2e3e8ccbd091",
         "063b73cc-e960-11f1-8833-082891f15cf3",
-        "c758c4b2-eaee-11f1-8767-bf2ef4c29de7"
+        "c758c4b2-eaee-11f1-8767-bf2ef4c29de7",
+        "c75400d0-eaee-11f1-95be-989c6b2f05c5"
       ],
-      "notes": "PR #158 closed without merge as superseded by PR #175. The new Nimrod/Claude closure note adds no project answer or verification. PR #175 at 41be6f76 already preserves all dated GCE answers and the independent public-main source checks, remains open, and keeps #157, #160 and #161 open for their recorded executable checks.",
+      "notes": "PR #158 closed without merge as superseded by PR #175. PR #175 preserves all dated GCE answers and public-main source checks. Findings #157, #160 and #161 remain open for recorded executable work. Its current head 41be6f76 remains open with conflicts.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
         "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
@@ -2493,7 +2558,8 @@
         "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
         "warnings_platform_blob": "7c1257d19bf4615b432c0899c82b540a3533aa44",
         "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
-        "closure_comment_id": 7234856031
+        "closure_comment_id": 7234856031,
+        "successor_report_blob": "11459e387a8e1eafa020863a511f03e70120b87c"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/132-warnings-interface-20261126",
       "own_comment_ids": [
@@ -3142,17 +3208,18 @@
       "number": 180,
       "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
       "base_sha": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
-      "state": "open",
-      "updated_at": "2026-11-26T08:29:28Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T05:44:36Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 2,
+        "comments": 3,
         "reviews": 1,
         "review_threads": 0,
         "comment_ids": [
           7186402428,
-          7186657249
+          7186657249,
+          7234857063
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABachrjQ"
@@ -3174,12 +3241,16 @@
           {
             "id": 7186657249,
             "updated_at": "2026-11-26T08:29:28Z"
+          },
+          {
+            "id": 7234857063,
+            "updated_at": "2026-11-28T05:44:34Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T08:29:28Z"
+        "latest_item_at": "2026-11-28T05:44:34Z"
       },
-      "comment_cursor": 7186657249,
+      "comment_cursor": 7234857063,
       "review_cursor": "PRR_kwDOVrts7s8AAAABachrjQ",
       "own_review_ids": [
         6069709709,
@@ -3187,15 +3258,17 @@
       ],
       "delivery_ids": [
         "7c9b849e-e965-11f1-8665-44c3741b92d4",
-        "b97b568a-e971-11f1-8531-ccb69cff1d5f"
+        "b97b568a-e971-11f1-8531-ccb69cff1d5f",
+        "cb032558-eaee-11f1-80a1-e4ea71d5cd66",
+        "cada7aa4-eaee-11f1-8abb-aff058c07629"
       ],
-      "notes": "Preserved vGLP’s dated answer and independently inspected exact public candidate 35454a65. Explicit Unmet reporting for genuine local constraint failures is present, and 10/10 focused source assertions passed. Ended named requests still carry an empty reason, while joined-condition and dropped-request paths still carry bare unable, so the project-described atomless constraint fallback remains inaccurate. Finding #179 stays open. Publication PR #181 awaits independent exact-head review.",
+      "notes": "PR #180 closed without merge as superseded by PR #181. PR #181 preserves vGLP’s dated answers and independent source and public-PDF identity checks. Finding #179 remains open for independent PDF extraction and focused Flutter execution. Its current head 2f621f6f remains open with conflicts.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
         "audit_pr_180": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
         "audit_pr_181": "f1d211fcbb09fd3d663427ffb989f7cf2ae0d742",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
-        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
         "vglp_candidate": "35454a65414bc971e8c97983ab011e3089cd1c2a",
         "vglp_candidate_parent": "10f3fc71696274715cb10d5b2a99a03aa7ab173f",
         "vglp_candidate_tree": "513bf3ad4bf57274306db887e2b9a9d168b45c99",
@@ -3207,7 +3280,11 @@
         "audit_report_blob": "17cf4eaa03e51b47d8b3f2070ff98446eb49265f",
         "audit_issues_blob": "67619a6e54f4fe575279a67640ca52c5f89ab843",
         "audit_status_section_blob": "845422c9acee07c28e843ff398cfaf53d1f1211d",
-        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239"
+        "audit_status_table_blob": "6ea8405886c4fb08c7611a6da8868774da70e239",
+        "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_pr_180_head": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "audit_pr_181_head": "2f621f6f83a864edbbc02e834bce950ee6842403",
+        "successor_report_blob": "972fdea7032119dfbe92b2795698ab08b55c6098"
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/135-vglp-unmet-20261126.json",
       "own_comment_ids": [
@@ -21571,6 +21648,643 @@
         "pr158": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
         "pr175": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175"
       }
+    },
+    {
+      "delivery_id": "c75400d0-eaee-11f1-95be-989c6b2f05c5",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 158,
+      "comment_id": null,
+      "head_sha": "540ae62d4d659b19bc57d583b68385853d55cec1",
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066,
+          7177358398,
+          7182998624,
+          7183237135,
+          7183465245,
+          7184157333,
+          7184394415,
+          7234856031
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          },
+          {
+            "id": 7177358398,
+            "updated_at": "2026-11-25T23:17:05Z"
+          },
+          {
+            "id": 7182998624,
+            "updated_at": "2026-11-26T04:53:53Z"
+          },
+          {
+            "id": 7183237135,
+            "updated_at": "2026-11-26T05:09:50Z"
+          },
+          {
+            "id": 7183465245,
+            "updated_at": "2026-11-26T05:24:58Z"
+          },
+          {
+            "id": 7184157333,
+            "updated_at": "2026-11-26T06:10:04Z"
+          },
+          {
+            "id": 7184394415,
+            "updated_at": "2026-11-26T06:24:11Z"
+          },
+          {
+            "id": 7234856031,
+            "updated_at": "2026-11-28T05:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:28Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded closure without merge. PR #158 is superseded by open PR #175, which preserves the attributed GCE answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+        "pr175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "successor_report_blob": "11459e387a8e1eafa020863a511f03e70120b87c",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175"
+      }
+    },
+    {
+      "delivery_id": "c92276e4-eaee-11f1-9550-19b970c4fb87",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 141,
+      "comment_id": 7234856522,
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7181256829,
+          7181391170,
+          7234856522
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "PRR_kwDOVrts7s8AAAABaWM6fw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062751245,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+            "submitted_at": "2026-11-25T18:17:46Z"
+          },
+          {
+            "id": 6063078015,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+            "submitted_at": "2026-11-25T18:42:02Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7181256829,
+            "updated_at": "2026-11-26T02:56:42Z"
+          },
+          {
+            "id": 7181391170,
+            "updated_at": "2026-11-26T03:05:47Z"
+          },
+          {
+            "id": 7234856522,
+            "updated_at": "2026-11-28T05:44:30Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:30Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded the supersession note. PR #141 is superseded by open PR #178, which preserves the attributed Currencies answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "pr178_head": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "successor_report_blob": "1f71ae11895852f62b37c1912e08e29d65e15b46",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178",
+        "event": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141#issuecomment-7234856522"
+      }
+    },
+    {
+      "delivery_id": "c9177f46-eaee-11f1-8a31-336c1587a22a",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 141,
+      "comment_id": null,
+      "head_sha": "e33b7775a6ac87addc79290eb02e929666e75f71",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7181256829,
+          7181391170,
+          7234856522
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "PRR_kwDOVrts7s8AAAABaWM6fw"
+        ],
+        "review_versions": [
+          {
+            "id": 6062751245,
+            "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+            "submitted_at": "2026-11-25T18:17:46Z"
+          },
+          {
+            "id": 6063078015,
+            "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+            "submitted_at": "2026-11-25T18:42:02Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7181256829,
+            "updated_at": "2026-11-26T02:56:42Z"
+          },
+          {
+            "id": 7181391170,
+            "updated_at": "2026-11-26T03:05:47Z"
+          },
+          {
+            "id": 7234856522,
+            "updated_at": "2026-11-28T05:44:30Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:30Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded closure without merge. PR #141 is superseded by open PR #178, which preserves the attributed Currencies answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+        "pr178_head": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+        "successor_report_blob": "1f71ae11895852f62b37c1912e08e29d65e15b46",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/141",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/178"
+      }
+    },
+    {
+      "delivery_id": "cb032558-eaee-11f1-80a1-e4ea71d5cd66",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 180,
+      "comment_id": 7234857063,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7186402428,
+          7186657249,
+          7234857063
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7186402428,
+            "updated_at": "2026-11-26T08:16:46Z"
+          },
+          {
+            "id": 7186657249,
+            "updated_at": "2026-11-26T08:29:28Z"
+          },
+          {
+            "id": 7234857063,
+            "updated_at": "2026-11-28T05:44:34Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:34Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded the supersession note. PR #180 is superseded by open PR #181, which preserves the attributed vGLP answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr180_head": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "pr181_head": "2f621f6f83a864edbbc02e834bce950ee6842403",
+        "successor_report_blob": "972fdea7032119dfbe92b2795698ab08b55c6098",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181",
+        "event": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180#issuecomment-7234857063"
+      }
+    },
+    {
+      "delivery_id": "cada7aa4-eaee-11f1-8abb-aff058c07629",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 180,
+      "comment_id": null,
+      "head_sha": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+      "discussion_version": {
+        "comments": 3,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7186402428,
+          7186657249,
+          7234857063
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABachrjQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6069709709,
+            "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+            "submitted_at": "2026-11-26T06:52:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7186402428,
+            "updated_at": "2026-11-26T08:16:46Z"
+          },
+          {
+            "id": 7186657249,
+            "updated_at": "2026-11-26T08:29:28Z"
+          },
+          {
+            "id": 7234857063,
+            "updated_at": "2026-11-28T05:44:34Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:34Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded closure without merge. PR #180 is superseded by open PR #181, which preserves the attributed vGLP answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr180_head": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+        "pr181_head": "2f621f6f83a864edbbc02e834bce950ee6842403",
+        "successor_report_blob": "972fdea7032119dfbe92b2795698ab08b55c6098",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/180",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/181"
+      }
+    },
+    {
+      "delivery_id": "cc77fc42-eaee-11f1-8f9d-72d299a06cee",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 30,
+      "comment_id": null,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7053095636,
+          7053098829,
+          7053128018,
+          7061253610,
+          7085321976,
+          7234857505
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "review_versions": [
+          {
+            "id": 5939663294,
+            "node_id": "PRR_kwDOVrts7s8AAAABYggRvg",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+            "submitted_at": "2026-11-17T13:51:01Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7053095636,
+            "updated_at": "2026-11-20T23:23:48Z"
+          },
+          {
+            "id": 7053098829,
+            "updated_at": "2026-11-20T23:24:00Z"
+          },
+          {
+            "id": 7053128018,
+            "updated_at": "2026-11-20T23:25:50Z"
+          },
+          {
+            "id": 7061253610,
+            "updated_at": "2026-11-21T10:28:05Z"
+          },
+          {
+            "id": 7085321976,
+            "updated_at": "2026-11-22T20:30:29Z"
+          },
+          {
+            "id": 7234857505,
+            "updated_at": "2026-11-28T05:44:36Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:36Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded closure without merge. PR #30 is superseded by open PR #77, which preserves the attributed GSC answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr30_head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+        "pr77_head": "f410982e6092e2f27504994aa933fce0cee91622",
+        "successor_report_blob": "b651df7f3d191605c80562f7d47ecaffda776422",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77"
+      }
+    },
+    {
+      "delivery_id": "ccb674c2-eaee-11f1-8a21-92b12c636cfb",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 30,
+      "comment_id": 7234857505,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 6,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7053095636,
+          7053098829,
+          7053128018,
+          7061253610,
+          7085321976,
+          7234857505
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYggRvg"
+        ],
+        "review_versions": [
+          {
+            "id": 5939663294,
+            "node_id": "PRR_kwDOVrts7s8AAAABYggRvg",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+            "submitted_at": "2026-11-17T13:51:01Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7053095636,
+            "updated_at": "2026-11-20T23:23:48Z"
+          },
+          {
+            "id": 7053098829,
+            "updated_at": "2026-11-20T23:24:00Z"
+          },
+          {
+            "id": 7053128018,
+            "updated_at": "2026-11-20T23:25:50Z"
+          },
+          {
+            "id": 7061253610,
+            "updated_at": "2026-11-21T10:28:05Z"
+          },
+          {
+            "id": 7085321976,
+            "updated_at": "2026-11-22T20:30:29Z"
+          },
+          {
+            "id": 7234857505,
+            "updated_at": "2026-11-28T05:44:36Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:36Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded the supersession note. PR #30 is superseded by open PR #77, which preserves the attributed GSC answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr30_head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+        "pr77_head": "f410982e6092e2f27504994aa933fce0cee91622",
+        "successor_report_blob": "b651df7f3d191605c80562f7d47ecaffda776422",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/77",
+        "event": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30#issuecomment-7234857505"
+      }
+    },
+    {
+      "delivery_id": "ce1ac9ee-eaee-11f1-855b-10550ef5049f",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 28,
+      "comment_id": 7234857954,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6977328109,
+          7234857954
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgaA4Q"
+        ],
+        "review_versions": [
+          {
+            "id": 5939560673,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgaA4Q",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "641d4a705ce9658f777a20c2a80d564201d523ad",
+            "submitted_at": "2026-11-17T13:44:06Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6977328109,
+            "updated_at": "2026-11-18T11:32:11Z"
+          },
+          {
+            "id": 7234857954,
+            "updated_at": "2026-11-28T05:44:39Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:39Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded the supersession note. PR #28 is superseded by open PR #56, which preserves the attributed Website answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr28_head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+        "pr56_head": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+        "successor_report_blob": "40d21b70f795f3fe16596db7e1dc1a10601f3d1d",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/28",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/56",
+        "event": "https://github.com/udi-shapiro/Grassroots-Audit/pull/28#issuecomment-7234857954"
+      }
+    },
+    {
+      "delivery_id": "cdfabe56-eaee-11f1-9d94-3d3fd197baa3",
+      "event_type": "pull_request",
+      "action": "closed",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 28,
+      "comment_id": null,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6977328109,
+          7234857954
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgaA4Q"
+        ],
+        "review_versions": [
+          {
+            "id": 5939560673,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgaA4Q",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "641d4a705ce9658f777a20c2a80d564201d523ad",
+            "submitted_at": "2026-11-17T13:44:06Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6977328109,
+            "updated_at": "2026-11-18T11:32:11Z"
+          },
+          {
+            "id": 7234857954,
+            "updated_at": "2026-11-28T05:44:39Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:39Z"
+      },
+      "processed_at": "2026-11-28T06:02:00Z",
+      "merged": false,
+      "merge_commit_sha": null,
+      "outcome": "Recorded closure without merge. PR #28 is superseded by open PR #56, which preserves the attributed Website answer history and existing verification record. No new answer or verification was supplied.",
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr28_head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+        "pr56_head": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+        "successor_report_blob": "40d21b70f795f3fe16596db7e1dc1a10601f3d1d",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/28",
+        "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/56"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -21632,16 +22346,156 @@
     "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
     "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
     "pr203_report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
-    "observed_at": "2026-11-28T05:55:00Z",
+    "observed_at": "2026-11-28T06:02:00Z",
     "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
     "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
     "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
     "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
     "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
     "pr158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
-    "pr175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144"
+    "pr175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+    "pr28_head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+    "pr30_head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+    "pr141_head": "e33b7775a6ac87addc79290eb02e929666e75f71",
+    "pr180_head": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+    "pr56_head": "0491df9bdae1bb067cddb6a7bebd0721aa40e243",
+    "pr77_head": "f410982e6092e2f27504994aa933fce0cee91622",
+    "pr178_head": "8cc907b65972d6942bdf9668cd290ae1dff4b3fe",
+    "pr181_head": "2f621f6f83a864edbbc02e834bce950ee6842403"
   },
   "discussion_versions": {
+    "28": {
+      "comments": 2,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        6977328109,
+        7234857954
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYgaA4Q"
+      ],
+      "review_versions": [
+        {
+          "id": 5939560673,
+          "node_id": "PRR_kwDOVrts7s8AAAABYgaA4Q",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "641d4a705ce9658f777a20c2a80d564201d523ad",
+          "submitted_at": "2026-11-17T13:44:06Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 6977328109,
+          "updated_at": "2026-11-18T11:32:11Z"
+        },
+        {
+          "id": 7234857954,
+          "updated_at": "2026-11-28T05:44:39Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:44:39Z"
+    },
+    "30": {
+      "comments": 6,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        7053095636,
+        7053098829,
+        7053128018,
+        7061253610,
+        7085321976,
+        7234857505
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYggRvg"
+      ],
+      "review_versions": [
+        {
+          "id": 5939663294,
+          "node_id": "PRR_kwDOVrts7s8AAAABYggRvg",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+          "submitted_at": "2026-11-17T13:51:01Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7053095636,
+          "updated_at": "2026-11-20T23:23:48Z"
+        },
+        {
+          "id": 7053098829,
+          "updated_at": "2026-11-20T23:24:00Z"
+        },
+        {
+          "id": 7053128018,
+          "updated_at": "2026-11-20T23:25:50Z"
+        },
+        {
+          "id": 7061253610,
+          "updated_at": "2026-11-21T10:28:05Z"
+        },
+        {
+          "id": 7085321976,
+          "updated_at": "2026-11-22T20:30:29Z"
+        },
+        {
+          "id": 7234857505,
+          "updated_at": "2026-11-28T05:44:36Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:44:36Z"
+    },
+    "141": {
+      "comments": 3,
+      "reviews": 2,
+      "review_threads": 0,
+      "comment_ids": [
+        7181256829,
+        7181391170,
+        7234856522
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaV4-DQ",
+        "PRR_kwDOVrts7s8AAAABaWM6fw"
+      ],
+      "review_versions": [
+        {
+          "id": 6062751245,
+          "node_id": "PRR_kwDOVrts7s8AAAABaV4-DQ",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "fbcbf7b733eb74bb8d8a185217f79081deb4fd40",
+          "submitted_at": "2026-11-25T18:17:46Z"
+        },
+        {
+          "id": 6063078015,
+          "node_id": "PRR_kwDOVrts7s8AAAABaWM6fw",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "e33b7775a6ac87addc79290eb02e929666e75f71",
+          "submitted_at": "2026-11-25T18:42:02Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7181256829,
+          "updated_at": "2026-11-26T02:56:42Z"
+        },
+        {
+          "id": 7181391170,
+          "updated_at": "2026-11-26T03:05:47Z"
+        },
+        {
+          "id": 7234856522,
+          "updated_at": "2026-11-28T05:44:30Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:44:30Z"
+    },
     "158": {
       "comments": 9,
       "reviews": 1,
@@ -21720,6 +22574,44 @@
       "latest_comments": [],
       "inline_versions": [],
       "latest_item_at": null
+    },
+    "180": {
+      "comments": 3,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        7186402428,
+        7186657249,
+        7234857063
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABachrjQ"
+      ],
+      "review_versions": [
+        {
+          "id": 6069709709,
+          "node_id": "PRR_kwDOVrts7s8AAAABachrjQ",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "c022c6646f74942fbc1d3e2ebf84539a571a13fb",
+          "submitted_at": "2026-11-26T06:52:35Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7186402428,
+          "updated_at": "2026-11-26T08:16:46Z"
+        },
+        {
+          "id": 7186657249,
+          "updated_at": "2026-11-26T08:29:28Z"
+        },
+        {
+          "id": 7234857063,
+          "updated_at": "2026-11-28T05:44:34Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:44:34Z"
     },
     "202": {
       "comments": 2,
