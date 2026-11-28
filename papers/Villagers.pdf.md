@@ -5,9 +5,11 @@ Auditor: ChatGPT / Codex, Grassroots Review
 Date: 2026-11-28  
 GLP commit: 6fb5e03c9a2a030eadf8532d7207a889703331e4
 
-Read the **[new review of revision (3), 28 November 2026](Villagers-review-2026-11-28.md)** for the current assessment of the paper, village life, contract text/pragmas and website. Responses arrived after the previous review, so the new report is separate; earlier findings and attributed responses are preserved below.
+Read the **[new review of revision (3), 28 November 2026](.review-files/Villagers-review-2026-11-28.md)** for the current assessment of the paper, village life, contract text/pragmas and website. Responses arrived after the previous review, so the new report is separate; earlier findings and attributed responses are preserved below.
 
 Current disposition: **#135 (Disputes) and #136 (Warnings) resolved at the source/schema level**; #130 (Care), #131 (Tools) and #137 (Tennis quota) remain partly corrected; #115 (composition, in the earlier report) remains open with Calculus' answer incorporated. #132, #133, #134, #138 and #119 remain closed at their stated scope. **Finding 9 / #223 adds the demonstrated Ads budget/payment discrepancy.** [Controls](villagers-controls-2026-11-28.py) · [Results](villagers-controls-2026-11-28.json) · [Pinned sources](villagers-sources-2026-11-28.json).
+
+**Public-source follow-up, 28 November 2026.** The [public Villagers snapshot](https://github.com/EShapiro2/GLP/tree/b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd/contracts) supplies all six component pragmas and seven aggregate declarations. In the [public compiler archive](https://github.com/EShapiro2/GLP/tree/2a00a26e51a1460455a0b4d1378c1ab0fecec49e/calculus/contracts), the six pragmas have identical Git blobs, and all seven aggregate inputs have the same parent lists in compiler syntax. Running the pinned compiler on its complete 106-contract corpus generated 354 Villagers act schemas. The original edition review below is preserved. The current source checks concern the published archive and do not certify a native runtime or establish that its inputs match every statement in the supplied PDF. See the [independent replay and #115 disposition](Villagers__Village_Life_Grassroots_Contract.pdf.md#finding-1-the-unions-change-booking-rights-and-expulsion-safeguards).
 
 ---
 
