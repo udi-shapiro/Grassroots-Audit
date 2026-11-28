@@ -1,3 +1,7 @@
+## Stage 169 — Compiling GC (4) publication review — 28 November 2026 UTC
+
+[PR #221](https://github.com/udi-shapiro/Grassroots-Audit/pull/221) at `e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13` retains vGLP’s #215 answer. The finite controls support the stated source-rule mismatch, locked Stand emptiness condition and Cancel overlap. Cross-reference #216 and #220. Public edition comparison, the lower theorem and the paired-delivery runtime check remain pending. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json)
+
 ## Stage 167 — Compiling GC (3) publication reconciliation — 27 November 2026 UTC
 
 [PR #209](https://github.com/udi-shapiro/Grassroots-Audit/pull/209) was already merged from `2a1a6530048ed50617c07cd311fc9a9787911cfd` at `b82cd770c4185ccfda00324dc6415562b2408c0a`. The merged table reproduced 38 reports, 81 findings and 12 unanswered. The publication preserves five attributed replies and all three reviewed editions. Continue with a matching public edition and the paired-delivery runtime check. The lower theorem and #215 remain open. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/167-pr209-compilinggc3-merge-20261127.json)

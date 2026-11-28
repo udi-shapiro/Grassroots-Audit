@@ -1,0 +1,260 @@
+{
+  "stage": 169,
+  "date": "2026-11-28",
+  "title": "Compiling GC (4) and Calculus (19) paired publication review",
+  "events": [
+    {
+      "delivery_id": "6ad6314e-eac0-11f1-8240-6e7e99814ad8",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 221,
+      "comment_id": null,
+      "head_sha": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6094554196
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OEVA"
+        ],
+        "review_versions": [
+          {
+            "id": 6094554196,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OEVA",
+            "submitted_at": "2026-11-28T00:16:29Z",
+            "commit_id": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094554196,
+            "updated_at": "2026-11-28T00:16:29Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T00:16:29Z"
+      },
+      "discussion_version_before": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-28T00:20:58.956Z",
+      "source_pins": {
+        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "vglp_predecessor_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+        "gcc_currency_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "pr221_head": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
+        "pr222_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr221_files": {
+          "ISSUES.md": "2f4096c169d998b2b47b50918e618fc0e886ce21",
+          "papers/.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md": "bc4a5ba3a9a64cd84a855c80b97b595113dba637",
+          "papers/vGLP.pdf.md": "02061142e97280b0ee916bbfc4bdc629b4e6141e",
+          "sections/status-table.tex": "95023012e06336cb163e1ef2686e4982aed01002"
+        },
+        "pr222_files": {
+          "ISSUES.md": "3079cb69ca8bb2ef08f1c87c04fa4d603cec495e",
+          "calculus/.review-files/Calculus_19_GSC_19_Review.md": "eee02a9d2f69304a6f04a82e8c7fc88f894ca04c",
+          "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+          "calculus/contracts.md": "0fe2d9de2aa946a422ae974d61ac045866f13e66",
+          "sections/status-table.tex": "40fec2904f8cfa821ad3a048ecca481a29a073d4"
+        }
+      },
+      "outcome": "Finite controls support the transition and class witnesses, the locked Stand emptiness condition and the Cancel overlap under the stated rules. Public-edition and runtime verification remain pending. Open for review.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+        "pr221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221",
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "public_papers": "https://github.com/EShapiro2/GLP/tree/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers",
+        "public_knowledge": "https://github.com/EShapiro2/GLP/blob/6fb5e03c9a2a030eadf8532d7207a889703331e4/calculus/contracts/Knowledge/full-schemas.txt",
+        "claim215": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215#issuecomment-7229078292",
+        "claim211": "https://github.com/udi-shapiro/Grassroots-Audit/issues/211#issuecomment-7229918234",
+        "review221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221#pullrequestreview-6094554196",
+        "review222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6094563369"
+      }
+    },
+    {
+      "delivery_id": "b0d14a8a-eac0-11f1-9146-1f0ecab3d427",
+      "event_type": "pull_request",
+      "action": "opened",
+      "actor_login": "udi-shapiro",
+      "pull_request_number": 222,
+      "comment_id": null,
+      "head_sha": "cbc972efffeb0658cead96c6337b048b157bd363",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          6094563369
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABa0OoKQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6094563369,
+            "node_id": "PRR_kwDOVrts7s8AAAABa0OoKQ",
+            "submitted_at": "2026-11-28T00:18:57Z",
+            "commit_id": "cbc972efffeb0658cead96c6337b048b157bd363",
+            "state": "COMMENTED"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 6094563369,
+            "updated_at": "2026-11-28T00:18:57Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T00:18:57Z"
+      },
+      "discussion_version_before": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0,
+        "comment_ids": [],
+        "review_ids": [],
+        "latest_item_at": null
+      },
+      "processed_at": "2026-11-28T00:20:58.956Z",
+      "source_pins": {
+        "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "vglp_predecessor_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+        "gcc_currency_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+        "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+        "pr221_head": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
+        "pr222_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+        "pr221_files": {
+          "ISSUES.md": "2f4096c169d998b2b47b50918e618fc0e886ce21",
+          "papers/.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md": "bc4a5ba3a9a64cd84a855c80b97b595113dba637",
+          "papers/vGLP.pdf.md": "02061142e97280b0ee916bbfc4bdc629b4e6141e",
+          "sections/status-table.tex": "95023012e06336cb163e1ef2686e4982aed01002"
+        },
+        "pr222_files": {
+          "ISSUES.md": "3079cb69ca8bb2ef08f1c87c04fa4d603cec495e",
+          "calculus/.review-files/Calculus_19_GSC_19_Review.md": "eee02a9d2f69304a6f04a82e8c7fc88f894ca04c",
+          "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+          "calculus/contracts.md": "0fe2d9de2aa946a422ae974d61ac045866f13e66",
+          "sections/status-table.tex": "40fec2904f8cfa821ad3a048ecca481a29a073d4"
+        }
+      },
+      "outcome": "Pinned finite controls and the 93-contract public compiler run passed. The public Knowledge schema supports the asymmetric Acquaint trace. Public manuscript verification remains pending. Open for review.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "urls": {
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+        "pr221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221",
+        "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+        "public_papers": "https://github.com/EShapiro2/GLP/tree/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers",
+        "public_knowledge": "https://github.com/EShapiro2/GLP/blob/6fb5e03c9a2a030eadf8532d7207a889703331e4/calculus/contracts/Knowledge/full-schemas.txt",
+        "claim215": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215#issuecomment-7229078292",
+        "claim211": "https://github.com/udi-shapiro/Grassroots-Audit/issues/211#issuecomment-7229918234",
+        "review221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221#pullrequestreview-6094554196",
+        "review222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6094563369"
+      }
+    }
+  ],
+  "source_pins": {
+    "audit_main": "b82cd770c4185ccfda00324dc6415562b2408c0a",
+    "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+    "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+    "vglp_predecessor_pdf_blob": "b081debf38dd97fa8de4509f3006937116770fd4",
+    "gcc_currency_pdf_blob": "115da0f641442959d7de07194b99f19e36b36571",
+    "knowledge_schema_blob": "fe7eac08573965414e69843ee9a1c17a12f852fd",
+    "pr221_head": "e8e2efe2aa72e78bbb0f1806edccc5d0fa887b13",
+    "pr222_head": "cbc972efffeb0658cead96c6337b048b157bd363",
+    "pr221_files": {
+      "ISSUES.md": "2f4096c169d998b2b47b50918e618fc0e886ce21",
+      "papers/.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md": "bc4a5ba3a9a64cd84a855c80b97b595113dba637",
+      "papers/vGLP.pdf.md": "02061142e97280b0ee916bbfc4bdc629b4e6141e",
+      "sections/status-table.tex": "95023012e06336cb163e1ef2686e4982aed01002"
+    },
+    "pr222_files": {
+      "ISSUES.md": "3079cb69ca8bb2ef08f1c87c04fa4d603cec495e",
+      "calculus/.review-files/Calculus_19_GSC_19_Review.md": "eee02a9d2f69304a6f04a82e8c7fc88f894ca04c",
+      "calculus/.review-files/revision19_controls.py": "8e71189e1c0377a96b98158acd82ae20046c4aaf",
+      "calculus/contracts.md": "0fe2d9de2aa946a422ae974d61ac045866f13e66",
+      "sections/status-table.tex": "40fec2904f8cfa821ad3a048ecca481a29a073d4"
+    }
+  },
+  "source_inspection": [
+    "Read both exact diffs, associated project replies, and the versioned reviews. No matching Compiling GC (4) or Calculus (19) PDF in public GLP papers; vGLP is the predecessor, and GCC is Grassroots Community Currencies.",
+    "Public Knowledge:2 adds two directed records and Knowledge:3 can add one directed record, corroborating the model premises.",
+    "Public GLP retains the paired-delivery fixture. Neither Dart nor Flutter was on PATH."
+  ],
+  "project_claims": [
+    "The dated vGLP response says be590e1 introduced effectiveness and repaired the original membership witness for #215. The review describes a narrower case at a locked agent.",
+    "The dated Calculus responses on #98, #200, #211 and #212 are preserved in PR #222. The private commit references and full 106-contract measurement are attributed.",
+    "The reports identify the supplied manuscripts by edition and SHA-256. Their PDF bytes were not independently inspected here."
+  ],
+  "reported_manuscript_sha256": {
+    "compiling_gc_4": "97c37e8f2d187393014346579a5260bdf7cfcaa5d1d01fb212cf97a1ef611884",
+    "calculus_19": "9efad03abff65743febb35ea86ac3da98eb0bc742e7b86739be2ba5fa55f4488",
+    "ospm_full": "e3464b339edf997c66f97cb211efd57210ffcd18f3abc6f4f059aaaed6ea33a7"
+  },
+  "executed_checks": [
+    {
+      "command": "Git blob validation of status inputs, python3 bin/status.py, cmp on each candidate; additional scratch run combining the reports",
+      "output": {
+        "pr221": "40 Git blob hashes match\n38 reports, 83 findings, 13 unanswered\na3904fcc21f8efb7b9d9443773ebaf929848c7e80a148cede00f6ca5eb4c1180  sections/status-table.tex",
+        "pr222": "41 Git blob hashes match\n38 reports, 84 findings, 11 unanswered\nf81fe1f8b38220158a4beedcc83240303ca7328a0b76b7eed7a3d8bcb7fd7485  sections/status-table.tex\nIntroduction, asymmetric Acquaint, local binding and ground-head checks passed.",
+        "combined": "38 reports, 86 findings, 12 unanswered\nb79dd79910f30d394fb2c332f107f20baf0a1ac240162e084cd6495ecfa72ca2  sections/status-table.tex"
+      }
+    },
+    {
+      "command": "Python finite checks of four marker states, two disjoint unary instance families, all subsets of two classes for Stand, and Cancel U against a request covering U and V",
+      "output": "head update () True True\nhead update ('b',) True False\nhead update ('a',) True False\nhead update ('a', 'b') False False\nrequest classes under stated rules 2 1\nStand agrees for all nonempty toy requests after requiring an empty lock\ncancel U terminates rho and therefore its approval for V",
+      "scope": "Stated transition rules. The finite Stand check establishes the local predicate used in the reduction, not the undecidability conclusion."
+    },
+    {
+      "command": "python3 revision19_controls.py",
+      "result": "Pinned Introduction, asymmetric Acquaint, local binding and ground-head controls passed",
+      "blob": "8e71189e1c0377a96b98158acd82ae20046c4aaf"
+    },
+    {
+      "command": "Verify 97 public blobs, map 93 logic-pragmas inputs to calculus/gr in scratch, run python3 calculus/tools/gcsas.py, tally 93 unique result rows",
+      "output": "{'yes': 93}\n{'yes': 62, 'equivalent': 31}\n{'same': 71, 'equivalent': 22}\n93 contracts, 0 with a fault\nd6ba95c6c84d55d8699880807d8071e056e43fc2653318f033369ee7c07f1f8d  gcsas.log",
+      "scope": "Public compiler and catalogue only. No run on the additional 13 inputs or on the Dart runtime."
+    },
+    {
+      "command": "Inspect original core Answer sections",
+      "output": "GLP-Spec 1 answered\nIGLP 1 answered\nIGLP 2 answered\nvGLP 1 answered\nsGLP 1 answered\nsGLP 2 answered"
+    }
+  ],
+  "outcome": "Posted exact-head reviews for both publications. Both remain open. No issue closure or merge occurred.",
+  "next_actions": [
+    "Independent paper verification awaits matching public PDFs. Match their digests and inspect the affected definitions and proofs.",
+    "Cross-reference #216 and #220 as the same mismatch with different project ownership. Keep the residual #215 and the lower theorem #208 open, retain #211 and #212, and run paired delivery when Dart is available.",
+    "After either publication enters main, reconcile the shared issue index and regenerate the other PR's table on that base."
+  ],
+  "urls": {
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json",
+    "pr221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221",
+    "pr222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222",
+    "public_papers": "https://github.com/EShapiro2/GLP/tree/7701f48f62217c89d18a40dfd4e8fce9c4d673cc/papers",
+    "public_knowledge": "https://github.com/EShapiro2/GLP/blob/6fb5e03c9a2a030eadf8532d7207a889703331e4/calculus/contracts/Knowledge/full-schemas.txt",
+    "claim215": "https://github.com/udi-shapiro/Grassroots-Audit/issues/215#issuecomment-7229078292",
+    "claim211": "https://github.com/udi-shapiro/Grassroots-Audit/issues/211#issuecomment-7229918234",
+    "review221": "https://github.com/udi-shapiro/Grassroots-Audit/pull/221#pullrequestreview-6094554196",
+    "review222": "https://github.com/udi-shapiro/Grassroots-Audit/pull/222#pullrequestreview-6094563369"
+  }
+}

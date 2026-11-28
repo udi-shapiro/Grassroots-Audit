@@ -1,3 +1,7 @@
+## Stage 169 — Calculus (19) publication review — 28 November 2026 UTC
+
+[PR #222](https://github.com/udi-shapiro/Grassroots-Audit/pull/222) at `cbc972efffeb0658cead96c6337b048b157bd363` preserves four dated Calculus replies. The controls passed, public Knowledge supports the asymmetric Acquaint trace, and 97 verified inputs and tool blobs reproduced the 93-contract results. Public manuscript verification and the additional 13 inputs remain pending. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/169-pr221-pr222-compilinggc4-calculus19-20261128.json)
+
 ## Stage 166 — Calculus (18) publication reconciliation — 27 November 2026 UTC
 
 [PR #214](https://github.com/udi-shapiro/Grassroots-Audit/pull/214) was already merged from `1066668e8974253276ec9680cba637c0ba7639c8` at `fef450ae5ba0fa24ee2f0a42135e0d142d31da7d`. The merged table reproduced 38 reports, 75 findings and 11 unanswered. The finite controls and Knowledge trace passed. Issue #201 has an attributed answer and remains open for public verification. Findings 32–33 refer to the supplied edition. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/166-pr214-calculus18-merge-20261127.json)
