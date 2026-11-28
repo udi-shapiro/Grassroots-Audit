@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T05:50:00Z",
-  "active_run": {
-    "run_id": "pr-watch-c758c4b2-eaee-11f1-8767-bf2ef4c29de7",
-    "started_at": "2026-11-28T05:50:00Z",
-    "expires_at": "2026-11-28T06:20:00Z",
-    "delivery_ids": [
-      "c758c4b2-eaee-11f1-8767-bf2ef4c29de7"
-    ],
-    "pull_request_numbers": [
-      158
-    ],
-    "purpose": "Process PR #158 comment 7234856031"
-  },
+  "updated_at": "2026-11-28T05:55:00Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -33,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "32e1ea00-eac3-11f1-8a6e-f5110781e09a",
-      "event": "PR #222 synchronized, #224 opened and merged, #173 closed, and #225 opened",
-      "pull_request_number": 225,
-      "observed_at": "2026-11-28T00:33:32.927Z",
-      "outcome": "Published the public corpus verification through PR #225 and reconciled the observed #224 merge and #173 closure. PR #222 is open with a merge conflict. No PR discussion messages or issue mutations were made."
+      "delivery_id": "c758c4b2-eaee-11f1-8767-bf2ef4c29de7",
+      "event": "PR #158 closure note",
+      "pull_request_number": 158,
+      "observed_at": "2026-11-28T05:55:00Z",
+      "outcome": "Recorded closure without merge as superseded by open PR #175. No PR discussion reply or publication was made."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -2376,12 +2365,12 @@
       "number": 158,
       "head_sha": "540ae62d4d659b19bc57d583b68385853d55cec1",
       "base_sha": "a2adf4ebc7e99ba14f2e5eae9dba09acdd2059b7",
-      "state": "open",
-      "updated_at": "2026-11-26T06:24:11Z",
+      "state": "closed",
+      "updated_at": "2026-11-28T05:44:30Z",
       "merged_at": null,
       "merge_commit_sha": null,
       "discussion_version": {
-        "comments": 8,
+        "comments": 9,
         "reviews": 1,
         "review_threads": 0,
         "comment_ids": [
@@ -2392,7 +2381,8 @@
           7183237135,
           7183465245,
           7184157333,
-          7184394415
+          7184394415,
+          7234856031
         ],
         "review_ids": [
           "PRR_kwDOVrts7s8AAAABaYpeFQ"
@@ -2438,12 +2428,16 @@
           {
             "id": 7184394415,
             "updated_at": "2026-11-26T06:24:11Z"
+          },
+          {
+            "id": 7234856031,
+            "updated_at": "2026-11-28T05:44:28Z"
           }
         ],
         "inline_versions": [],
-        "latest_item_at": "2026-11-26T06:24:11Z"
+        "latest_item_at": "2026-11-28T05:44:28Z"
       },
-      "comment_cursor": 7184394415,
+      "comment_cursor": 7234856031,
       "review_cursor": "PRR_kwDOVrts7s8AAAABaYpeFQ",
       "delivery_ids": [
         "90c28534-e91b-11f1-8e6a-fc7cfbe5a4dd",
@@ -2453,19 +2447,20 @@
         "54bca10e-e926-11f1-9c50-bbf6eb5d494d",
         "ab8f233e-e954-11f1-80c4-a8e29019e556",
         "9bc382f8-e957-11f1-8231-2e3e8ccbd091",
-        "063b73cc-e960-11f1-8833-082891f15cf3"
+        "063b73cc-e960-11f1-8833-082891f15cf3",
+        "c758c4b2-eaee-11f1-8767-bf2ef4c29de7"
       ],
-      "notes": "Preserved GCE’s correction from 55 combined checks to 53 Section GCE checks plus two TY checks. Preserved the Warnings #136 answer and independently verified the readable Day and Enough interface changes at 73bdea71. The generated Warnings module is unchanged and already contains those schema variables; the unchanged cascade platform still omits the request fields. No Dart or cascade execution ran. PRs #175 and #177 await independent exact-head review, and #136 remains open.",
+      "notes": "PR #158 closed without merge as superseded by PR #175. The new Nimrod/Claude closure note adds no project answer or verification. PR #175 at 41be6f76 already preserves all dated GCE answers and the independent public-main source checks, remains open, and keeps #157, #160 and #161 open for their recorded executable checks.",
       "source_pins": {
         "audit_main": "411e39c9483e90d1fe34b3e99cde397b4c2a41d7",
         "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
         "audit_pr_175_previous_head": "6697b9de97e3dadd66ca3c7d1d176d0a6b82b1f5",
-        "audit_pr_175_head": "ab060b698d0db3cc59d98053a4816b276e5d7ff4",
+        "audit_pr_175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
         "audit_pr_177_previous_head": "ca2ed1cfde33debc9e07675fe31d629c5367e7f6",
         "audit_pr_177_intermediate_head": "5f91deffc9faa473c09c60118d0351cac2637a5c",
         "audit_pr_177_head": "a971fa8695568e109d99666ef325752cd80d3d36",
-        "glp_main": "37d31ca95c6a599113dcf6eb0b8341f8202c3a47",
-        "glp_papers": "3f3d50338ec8e1d36c9122fa57fb6993c048ec45",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
         "chess_candidate": "c63b27ed9618f112d18db06b3329c94f5c7b70b6",
         "chess_test_script_blob": "25a3d6c430b653c7361ae13a5913fb18808b708a",
         "warnings_candidate": "73bdea71bb189e2f2488e06385e788e78d3c6840",
@@ -2473,7 +2468,9 @@
         "warnings_text_blob": "cda73679ad052523b96b1f619f6b3c7a7ec54786",
         "warnings_parent_text_blob": "b34ba5587e9733d1fc284386fe8cb57c73fc9590",
         "warnings_glp_blob": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3",
-        "warnings_platform_blob": "7c1257d19bf4615b432c0899c82b540a3533aa44"
+        "warnings_platform_blob": "7c1257d19bf4615b432c0899c82b540a3533aa44",
+        "audit_main_observed": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "closure_comment_id": 7234856031
       },
       "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/evidence/132-warnings-interface-20261126",
       "own_comment_ids": [
@@ -21458,6 +21455,99 @@
         "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/170-pr222-pr224-villagers-public-corpus-20261128.json",
         "publication": "https://github.com/udi-shapiro/Grassroots-Audit/pull/225"
       }
+    },
+    {
+      "delivery_id": "c758c4b2-eaee-11f1-8767-bf2ef4c29de7",
+      "event_type": "issue_comment",
+      "action": "created",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 158,
+      "comment_id": 7234856031,
+      "head_sha": "540ae62d4d659b19bc57d583b68385853d55cec1",
+      "discussion_version": {
+        "comments": 9,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7176068668,
+          7176104066,
+          7177358398,
+          7182998624,
+          7183237135,
+          7183465245,
+          7184157333,
+          7184394415,
+          7234856031
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABaYpeFQ"
+        ],
+        "review_versions": [
+          {
+            "id": 6065643029,
+            "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+            "state": "CHANGES_REQUESTED",
+            "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+            "submitted_at": "2026-11-25T22:06:08Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7176068668,
+            "updated_at": "2026-11-25T22:12:18Z"
+          },
+          {
+            "id": 7176104066,
+            "updated_at": "2026-11-25T22:14:01Z"
+          },
+          {
+            "id": 7177358398,
+            "updated_at": "2026-11-25T23:17:05Z"
+          },
+          {
+            "id": 7182998624,
+            "updated_at": "2026-11-26T04:53:53Z"
+          },
+          {
+            "id": 7183237135,
+            "updated_at": "2026-11-26T05:09:50Z"
+          },
+          {
+            "id": 7183465245,
+            "updated_at": "2026-11-26T05:24:58Z"
+          },
+          {
+            "id": 7184157333,
+            "updated_at": "2026-11-26T06:10:04Z"
+          },
+          {
+            "id": 7184394415,
+            "updated_at": "2026-11-26T06:24:11Z"
+          },
+          {
+            "id": 7234856031,
+            "updated_at": "2026-11-28T05:44:28Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:44:28Z"
+      },
+      "processed_at": "2026-11-28T05:55:00Z",
+      "outcome": "Recorded the closure note. PR #158 is closed without merge and superseded by open PR #175, which preserves the dated answers and verification history. No new answer, verification, PR reply, publication, or notification was warranted.",
+      "merged": false,
+      "merge_commit_sha": null,
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "audit_pr_158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+        "audit_pr_175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc"
+      },
+      "urls": {
+        "event": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158#issuecomment-7234856031",
+        "pr158": "https://github.com/udi-shapiro/Grassroots-Audit/pull/158",
+        "pr175": "https://github.com/udi-shapiro/Grassroots-Audit/pull/175"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -21519,14 +21609,84 @@
     "status_script_blob": "bef86dfa4b6cdafc9635eed88247c0b17c4d5e13",
     "status_table_blob": "c7edb26e5dd13512b4ed7b57955a2544a239d7d0",
     "pr203_report_blob": "97f0d93bea7f74a840516e767b8b7730026610cd",
-    "observed_at": "2026-11-28T00:33:32.927Z",
+    "observed_at": "2026-11-28T05:55:00Z",
     "glp_archive": "2a00a26e51a1460455a0b4d1378c1ab0fecec49e",
     "glp_villagers": "b3d2eea18f055f5d7f76ed0568e7a82e9c9d46dd",
     "pr222_head": "bdc502160990089fcde0337c5faf5b744079e322",
     "pr224_merge": "3813adc83530dd9a7040558ca7307b8897433f5a",
-    "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8"
+    "pr225_head": "8a5b7d1a88c17db907314d4c7bfe1b9aa8e604c8",
+    "pr158_head": "540ae62d4d659b19bc57d583b68385853d55cec1",
+    "pr175_head": "41be6f76dffefe9721eeda7e671b68e89c2ad144"
   },
   "discussion_versions": {
+    "158": {
+      "comments": 9,
+      "reviews": 1,
+      "review_threads": 0,
+      "comment_ids": [
+        7176068668,
+        7176104066,
+        7177358398,
+        7182998624,
+        7183237135,
+        7183465245,
+        7184157333,
+        7184394415,
+        7234856031
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABaYpeFQ"
+      ],
+      "review_versions": [
+        {
+          "id": 6065643029,
+          "node_id": "PRR_kwDOVrts7s8AAAABaYpeFQ",
+          "state": "CHANGES_REQUESTED",
+          "commit_id": "55060d9d48e03d158342f7b9286242f6739d5eea",
+          "submitted_at": "2026-11-25T22:06:08Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7176068668,
+          "updated_at": "2026-11-25T22:12:18Z"
+        },
+        {
+          "id": 7176104066,
+          "updated_at": "2026-11-25T22:14:01Z"
+        },
+        {
+          "id": 7177358398,
+          "updated_at": "2026-11-25T23:17:05Z"
+        },
+        {
+          "id": 7182998624,
+          "updated_at": "2026-11-26T04:53:53Z"
+        },
+        {
+          "id": 7183237135,
+          "updated_at": "2026-11-26T05:09:50Z"
+        },
+        {
+          "id": 7183465245,
+          "updated_at": "2026-11-26T05:24:58Z"
+        },
+        {
+          "id": 7184157333,
+          "updated_at": "2026-11-26T06:10:04Z"
+        },
+        {
+          "id": 7184394415,
+          "updated_at": "2026-11-26T06:24:11Z"
+        },
+        {
+          "id": 7234856031,
+          "updated_at": "2026-11-28T05:44:28Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:44:28Z"
+    },
     "173": {
       "comments": 0,
       "reviews": 0,
