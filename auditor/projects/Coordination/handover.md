@@ -1,3 +1,7 @@
+## Stage 171 — Report migration tooling reviewed — 28 November 2026 UTC
+
+[PR #27](https://github.com/udi-shapiro/Grassroots-Audit/pull/27) at `06675688` fixes the `ISSUES.md` false positive. The four fixture checks passed and the status table reproduced 39 reports, 82 findings and 12 unanswered byte for byte. The proposed old-path stub lacks finding anchors and clickable links. A two-stub cycle passes the scanner. The [review](https://github.com/udi-shapiro/Grassroots-Audit/pull/27#pullrequestreview-6096178333) requests both corrections before merge. The public pathname scan also surfaced three Villagers paper entries that need separate interpretation. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/171-pr27-report-migration-20261128.json) · [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/171-pr27-report-migration-20261128.json)
+
 ## Stage 168 — VMAT public verification — 27 November 2026 UTC
 
 [PR #203](https://github.com/udi-shapiro/Grassroots-Audit/pull/203) is current with main at exact head `252c922d`. Public papers `7701f48f` independently verify the four citations and the fixes for #191 and #192. The table is 38 reports, 81 findings and 10 unanswered. Await independent review before expected-head merge. [Stage](https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/168-pr203-vmat-public-corrections-20261127.json)

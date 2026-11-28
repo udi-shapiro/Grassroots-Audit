@@ -1,19 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T05:56:19Z",
-  "active_run": {
-    "run_id": "pr-watch-32122e14-eaf0-11f1-9321-0d32de33fc14",
-    "started_at": "2026-11-28T05:56:19Z",
-    "expires_at": "2026-11-28T06:16:19.000Z",
-    "delivery_ids": [
-      "32122e14-eaf0-11f1-9321-0d32de33fc14"
-    ],
-    "pull_request_numbers": [
-      27
-    ],
-    "purpose": "Review report migration revision"
-  },
+  "updated_at": "2026-11-28T06:02:51Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -33,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "cdfabe56-eaee-11f1-9d94-3d3fd197baa3",
-      "event": "Legacy PR #28, #30, #141, #158 and #180 closures",
-      "pull_request_number": 28,
-      "observed_at": "2026-11-28T06:02:00Z",
-      "outcome": "Recorded five closures and four supersession notes. Successor PRs preserve the attributed answer and verification histories. No discussion reply, publication, merge, or notification was made."
+      "delivery_id": "32122e14-eaf0-11f1-9321-0d32de33fc14",
+      "event": "PR #27 synchronized",
+      "pull_request_number": 27,
+      "observed_at": "2026-11-28T06:02:51Z",
+      "outcome": "ISSUES.md exclusion verified. Four submitted checks passed and the published table was reproduced byte for byte. Requested changes for old-link routing and cyclic aliases. Path scan also surfaced three Villagers paper entries that are distinct from the eight source-path misses."
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -324,27 +313,82 @@
     },
     {
       "number": 27,
-      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "head_sha": "06675688ed7902e7b5e226fb5c0863756bb4a002",
       "state": "open",
-      "updated_at": "2026-11-20T23:23:58Z",
+      "updated_at": "2026-11-28T05:57:35Z",
       "merged_at": null,
-      "comment_cursor": 7053098368,
-      "review_cursor": "PRR_kwDOVrts7s8AAAABYgYptQ",
-      "notes": "Coordination accepted the goal; unchanged head still omits ISSUES.md from SKIP and lacks old-ID routing. Keep PR open for revision.",
+      "comment_cursor": 7234961940,
+      "review_cursor": "PRR_kwDOVrts7s8AAAABa1xMnQ",
+      "notes": "ISSUES.md exclusion verified. Four submitted checks passed and the published table was reproduced byte for byte. Requested changes for old-link routing and cyclic aliases. Path scan also surfaced three Villagers paper entries that are distinct from the eight source-path misses.",
       "merge_commit_sha": null,
       "discussion_version": {
         "comments": 2,
-        "reviews": 1,
+        "reviews": 2,
         "review_threads": 0,
         "comment_ids": [
-          5939538357,
-          7053098368
+          7053098368,
+          7234961940
         ],
         "review_ids": [
-          "PRR_kwDOVrts7s8AAAABYgYptQ"
+          "PRR_kwDOVrts7s8AAAABYgYptQ",
+          "PRR_kwDOVrts7s8AAAABa1xMnQ"
         ],
-        "latest_item_at": "2026-11-20T23:23:58Z"
-      }
+        "review_versions": [
+          {
+            "id": 5939538357,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgYptQ",
+            "commit_id": "da764b4829d4e0b7210d11469097e03891cb5903",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-17T13:42:36Z"
+          },
+          {
+            "id": 6096178333,
+            "node_id": "PRR_kwDOVrts7s8AAAABa1xMnQ",
+            "commit_id": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-28T05:57:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7053098368,
+            "updated_at": "2026-11-20T23:23:58Z"
+          },
+          {
+            "id": 7234961940,
+            "updated_at": "2026-11-28T05:54:45Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:57:35Z"
+      },
+      "base_sha": "3813adc83530dd9a7040558ca7307b8897433f5a",
+      "mergeable": true,
+      "own_review_ids": [
+        5939538357,
+        6096178333
+      ],
+      "delivery_ids": [
+        "32122e14-eaf0-11f1-9321-0d32de33fc14"
+      ],
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr_head": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+        "pr_previous_head": "da764b4829d4e0b7210d11469097e03891cb5903",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_main_tree": "673f152998cee4162821916512018eca37a02883",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_papers_tree": "0321257c51bdd3571bad147f8fe5a99a1860ad69",
+        "glp_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "changed_blobs": {
+          "CONTRIBUTING.md": "cc0376f29ca680323b997caacba81d59fb566aaa",
+          "bin/stale.py": "aaad8acfece3e29b0bab427d3e6337a2bd17302d",
+          "bin/status.py": "6d354bf1f8787b503f3ac80394d3b60faf89806f",
+          "bin/test_stale.py": "3eb19f5d775848c8a0da0346c436a2a99b225d73"
+        },
+        "published_table_blob": "082f3968fd1045c9c38a031ef41a3b4aebc238ef"
+      },
+      "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/171-pr27-report-migration-20261128.json"
     },
     {
       "number": 28,
@@ -22296,6 +22340,116 @@
         "legacy": "https://github.com/udi-shapiro/Grassroots-Audit/pull/28",
         "successor": "https://github.com/udi-shapiro/Grassroots-Audit/pull/56"
       }
+    },
+    {
+      "delivery_id": "32122e14-eaf0-11f1-9321-0d32de33fc14",
+      "event_type": "pull_request",
+      "action": "synchronize",
+      "actor_login": "nimrodtalmon",
+      "pull_request_number": 27,
+      "comment_id": null,
+      "head_sha": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+      "discussion_version_before": {
+        "comments": 2,
+        "reviews": 1,
+        "review_threads": 0,
+        "comment_ids": [
+          7053098368,
+          7234961940
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgYptQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5939538357,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgYptQ",
+            "commit_id": "da764b4829d4e0b7210d11469097e03891cb5903",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-17T13:42:36Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7053098368,
+            "updated_at": "2026-11-20T23:23:58Z"
+          },
+          {
+            "id": 7234961940,
+            "updated_at": "2026-11-28T05:54:45Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:54:45Z"
+      },
+      "discussion_version": {
+        "comments": 2,
+        "reviews": 2,
+        "review_threads": 0,
+        "comment_ids": [
+          7053098368,
+          7234961940
+        ],
+        "review_ids": [
+          "PRR_kwDOVrts7s8AAAABYgYptQ",
+          "PRR_kwDOVrts7s8AAAABa1xMnQ"
+        ],
+        "review_versions": [
+          {
+            "id": 5939538357,
+            "node_id": "PRR_kwDOVrts7s8AAAABYgYptQ",
+            "commit_id": "da764b4829d4e0b7210d11469097e03891cb5903",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-17T13:42:36Z"
+          },
+          {
+            "id": 6096178333,
+            "node_id": "PRR_kwDOVrts7s8AAAABa1xMnQ",
+            "commit_id": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+            "state": "CHANGES_REQUESTED",
+            "submitted_at": "2026-11-28T05:57:35Z"
+          }
+        ],
+        "latest_comments": [
+          {
+            "id": 7053098368,
+            "updated_at": "2026-11-20T23:23:58Z"
+          },
+          {
+            "id": 7234961940,
+            "updated_at": "2026-11-28T05:54:45Z"
+          }
+        ],
+        "inline_versions": [],
+        "latest_item_at": "2026-11-28T05:57:35Z"
+      },
+      "processed_at": "2026-11-28T06:02:51Z",
+      "outcome": "ISSUES.md exclusion verified. Four submitted checks passed and the published table was reproduced byte for byte. Requested changes for old-link routing and cyclic aliases. Path scan also surfaced three Villagers paper entries that are distinct from the eight source-path misses.",
+      "merged": false,
+      "source_pins": {
+        "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+        "pr_head": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+        "pr_previous_head": "da764b4829d4e0b7210d11469097e03891cb5903",
+        "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+        "glp_main_tree": "673f152998cee4162821916512018eca37a02883",
+        "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+        "glp_papers_tree": "0321257c51bdd3571bad147f8fe5a99a1860ad69",
+        "glp_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+        "changed_blobs": {
+          "CONTRIBUTING.md": "cc0376f29ca680323b997caacba81d59fb566aaa",
+          "bin/stale.py": "aaad8acfece3e29b0bab427d3e6337a2bd17302d",
+          "bin/status.py": "6d354bf1f8787b503f3ac80394d3b60faf89806f",
+          "bin/test_stale.py": "3eb19f5d775848c8a0da0346c436a2a99b225d73"
+        },
+        "published_table_blob": "082f3968fd1045c9c38a031ef41a3b4aebc238ef"
+      },
+      "urls": {
+        "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27",
+        "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#pullrequestreview-6096178333",
+        "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#issuecomment-7234961940",
+        "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/171-pr27-report-migration-20261128.json",
+        "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/171-pr27-report-migration-20261128.json"
+      }
     }
   ],
   "source_observed_after_event": {
@@ -22375,6 +22529,47 @@
     "pr181_head": "2f621f6f83a864edbbc02e834bce950ee6842403"
   },
   "discussion_versions": {
+    "27": {
+      "comments": 2,
+      "reviews": 2,
+      "review_threads": 0,
+      "comment_ids": [
+        7053098368,
+        7234961940
+      ],
+      "review_ids": [
+        "PRR_kwDOVrts7s8AAAABYgYptQ",
+        "PRR_kwDOVrts7s8AAAABa1xMnQ"
+      ],
+      "review_versions": [
+        {
+          "id": 5939538357,
+          "node_id": "PRR_kwDOVrts7s8AAAABYgYptQ",
+          "commit_id": "da764b4829d4e0b7210d11469097e03891cb5903",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-17T13:42:36Z"
+        },
+        {
+          "id": 6096178333,
+          "node_id": "PRR_kwDOVrts7s8AAAABa1xMnQ",
+          "commit_id": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-11-28T05:57:35Z"
+        }
+      ],
+      "latest_comments": [
+        {
+          "id": 7053098368,
+          "updated_at": "2026-11-20T23:23:58Z"
+        },
+        {
+          "id": 7234961940,
+          "updated_at": "2026-11-28T05:54:45Z"
+        }
+      ],
+      "inline_versions": [],
+      "latest_item_at": "2026-11-28T05:57:35Z"
+    },
     "28": {
       "comments": 2,
       "reviews": 1,

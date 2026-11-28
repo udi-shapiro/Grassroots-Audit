@@ -1,0 +1,85 @@
+{
+  "pr": 27,
+  "source_pins": {
+    "audit_main": "3813adc83530dd9a7040558ca7307b8897433f5a",
+    "pr_head": "06675688ed7902e7b5e226fb5c0863756bb4a002",
+    "pr_previous_head": "da764b4829d4e0b7210d11469097e03891cb5903",
+    "glp_main": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+    "glp_main_tree": "673f152998cee4162821916512018eca37a02883",
+    "glp_papers": "7701f48f62217c89d18a40dfd4e8fce9c4d673cc",
+    "glp_papers_tree": "0321257c51bdd3571bad147f8fe5a99a1860ad69",
+    "glp_names_blob": "3af992856bef66f82f9672c1681859fcb691376c",
+    "changed_blobs": {
+      "CONTRIBUTING.md": "cc0376f29ca680323b997caacba81d59fb566aaa",
+      "bin/stale.py": "aaad8acfece3e29b0bab427d3e6337a2bd17302d",
+      "bin/status.py": "6d354bf1f8787b503f3ac80394d3b60faf89806f",
+      "bin/test_stale.py": "3eb19f5d775848c8a0da0346c436a2a99b225d73"
+    },
+    "published_table_blob": "082f3968fd1045c9c38a031ef41a3b4aebc238ef"
+  },
+  "urls": {
+    "pr": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27",
+    "review": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#pullrequestreview-6096178333",
+    "reply": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#issuecomment-7234961940",
+    "stage": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/stages/171-pr27-report-migration-20261128.json",
+    "evidence": "https://github.com/udi-shapiro/Grassroots-Audit/blob/GPT-Auditor/auditor/evidence/171-pr27-report-migration-20261128.json"
+  },
+  "executed": {
+    "procedure": "Materialized a clean temporary audit tree from GitHub contents at the pinned PR head and checked each input's Git blob hash against the PR tree. Materialized GLP pathnames and types from complete public Git trees plus blob-checked calculus/NAMES.txt. The pathname snapshots had no .git.",
+    "checks": [
+      {
+        "script": "bin/test_stale.py",
+        "code": 0,
+        "stdout": "ok 4\n",
+        "stderr": ""
+      },
+      {
+        "script": "bin/status.py",
+        "code": 0,
+        "stdout": "39 reports, 82 findings, 12 unanswered\n",
+        "stderr": ""
+      },
+      {
+        "script": "bin/stale.py",
+        "code": 1,
+        "stdout": "cascade/GAS.md: gone at GLP ?; likely now cascade/AppStore\ncascade/GB.md: gone at GLP ?\ncascade/GC.md: gone at GLP ?\npapers/Villagers-review-2026-11-28.md: gone at GLP ?\npapers/Villagers.pdf.md: gone at GLP ?\npapers/Villagers__Village_Life_Grassroots_Contract.pdf.md: gone at GLP ?\nprograms/cssn/CSSN.glp.md: gone at GLP ?; likely now programs/cssn/Children.glp\nprograms/currencies/bonds/GB.glp.md: gone at GLP ?\nprograms/currencies/coins/GC.glp.md: gone at GLP ?\nprograms/gsc/GSN.glp.md: gone at GLP ?; likely now programs/gsc/Groups.glp\nprograms/social/graph/GAS.glp.md: gone at GLP ?; likely now programs/social/graph/AppStore.glp\n",
+        "stderr": ""
+      },
+      {
+        "table_matches": true,
+        "table_sha256": "fbfdbaea555834efc555875778925202811259be1ea3eb6ed0d662139c2d7b89"
+      }
+    ],
+    "additional_case": {
+      "setup": [
+        "A.md: Moved: B.md at GLP abc12345.",
+        "B.md: Moved: A.md at GLP abc12345."
+      ],
+      "command": "Call the pinned stale.main with those two files as audit root and an empty GLP directory.",
+      "output": "cycle exit: 0",
+      "interpretation": "Existence-only checks accept a cycle and neither alias reaches a report."
+    }
+  },
+  "inspection": [
+    "The prescribed Markdown is a plain line with a pathname, no link, heading or retained anchor.",
+    "The fixture tests accounting and a missing file but never renders the old Markdown fragment. The fixture also contains additional text beyond the prescribed one-line stub.",
+    "The Villagers review supplement is audit-authored. Both Villagers PDFs are absent under those names from the pinned public papers tree. Path absence alone does not demonstrate a rename."
+  ],
+  "project_claims": [
+    {
+      "attribution": "Coordination #17, 2026-11-20",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#issuecomment-7053098368",
+      "scope": "Accepted the policy goal and assigned the eventual source rename follow-up to Code."
+    },
+    {
+      "attribution": "Claude for Nimrod, 2026-11-28 UTC",
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#issuecomment-7234961940",
+      "scope": "Reported both earlier review points addressed at 0667568, four fixture checks and no table difference."
+    }
+  ],
+  "next": [
+    "Preserve old rendered fragments and link them to the corresponding moved findings. Check an actual old fragment and verify the alias contributes zero counts.",
+    "Validate alias destinations and reject cycles and missing endpoints. Distinguish audit supplements and absent papers from proven renames.",
+    "Keep report moves pending until the policy and tools pass exact-head review. No application finding or issue status changed."
+  ]
+}
