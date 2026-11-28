@@ -1,5 +1,11 @@
 # Audit report: papers/vGLP.pdf
 
+## Compiling GC revision (4), 28 November 2026
+
+Date: 2026-11-28
+
+The new [mathematical review](.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md) checks the 27-page Compiling GC (4) against the 15-page Calculus (19) and the full OSPM, after the project answered the preceding review. The new effectiveness hypothesis excludes the old membership counterexample, but Stand can still require an undecidable emptiness test while locked. Calculus (19) repairs the primitive-head issue shared with #211. The compiler paper retains the old rule and also differs on head updates and transaction classes. Cancel preserves the pre-decision abort boundary but requires a correction to A.6 for standing requests covering multiple classes. The composite theorem still ends at vGLP.
+
 ## Compiling GC revision (3), 27 November 2026
 
 Grassroots Review checked the supplied 27-page Compiling GC (3) against Calculus (17) and OSPM. Revision (3) repairs the manuscript witnesses behind Findings 2–5. The cascade ends at vGLP, leaving the lower result in Finding 6 to the companion paper. The review identifies one issue shared with [Calculus Finding 32](../calculus/contracts.md#finding-32-computable-heads-invalidate-the-unguarded-transaction-lemma) and one distinct issue with deciding protocol preconditions (Finding 7 below). The manuscript hashes and the project replies appear in the complete reviews.
@@ -219,8 +225,40 @@ In Compiling GC (3), Definition 4.3 allows a standing request whose membership e
 
 ### Answer
 
-Awaiting a project response.
+vGLP (vGLP #29), 27 November 2026, submitted by Audit #7. [Project response](https://github.com/udi-shapiro/Grassroots-Audit/issues/215#issuecomment-7229078292)
+
+Corrected: the project cites its commit `be590e1`, moving the effective-contract conditions to §4 and introducing compilability in §6. The response says that all local protocol preconditions are now decidable.
 
 ### Verification
 
 27 November 2026. The supplied manuscript requires decidable ground computable predicates in Definition 1.2 and uses them for protocol preconditions before Definition 4.8. The review gives the one-agent reduction.
+
+28 November 2026 — Partly verified on revision (4). Definition 4.4(7) excludes the reported halting-membership witness and 4.4(5) makes the alternative-act test finite. At a locked agent, however, Stand requires the whole request to be empty. Membership and local enumeration do not decide emptiness. The new review gives an effective singleton-or-empty family and the one-guard repair. Specify a computable identifier order as well. [Verification](.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md#2-stand-still-needs-an-emptiness-test-when-the-initiator-is-locked)
+
+## Finding 8: Compiling GC and Calculus disagree on source transitions and classes
+
+Severity: high
+
+Calculus (19) requires each head literal to change and groups transactions by participants and head. Compiling GC (4) requires a change somewhere and builds the least equivalence relating the transactions of each ground instance. A partially satisfied unary head gives an extra executable transition. Mutually exclusive bodies with identical heads give two request classes where Calculus gives one. [Two witnesses and required correspondence](.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md#1-match-both-the-transitions-and-the-classes-of-calculus-19) · [Issue #216](https://github.com/udi-shapiro/Grassroots-Audit/issues/216)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+28 November 2026 — Checked both supplied manuscripts, including Compiling GC 2.4, 2.6 and 4.1–4.2, and Calculus 7 and 9. The earlier computable-head issue is tracked separately in [#211](https://github.com/udi-shapiro/Grassroots-Audit/issues/211).
+
+## Finding 9: Cancel can end a standing approval for a different class
+
+Severity: medium
+
+Definition 4.12(16) ends every covering standing request. Cancelling an undecided U attempt therefore ends the approval for V held through a request covering U and V. Lemma A.6 lists a cancellation of V, withdrawal, or closing a V commit. Widen the cancellation clause of A.6 to any class in the covering request and use the lock invariant in A.7. [Witness and repair](.review-files/revision-4/CompilingGC_4_Mathematical_Review_2026-11-28.md#3-cancel-and-overlapping-standing-requests) · [Issue #217](https://github.com/udi-shapiro/Grassroots-Audit/issues/217)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+28 November 2026 — Checked the cancellation while the initiating guard held an undecided two-person U attempt. V lost its standing approval without any V attempt being cancelled or committed.
