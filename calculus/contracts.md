@@ -5,7 +5,7 @@ GLP commit: 6fb5e03c9a2a030eadf8532d7207a889703331e4
 
 ## Review of Calculus (19), 28 November 2026
 
-The project answered the revision (18) report. Primitive heads fix its unguarded-transaction counterexample. Negative body matching is repaired in its original example. Findings 34–36 cover the new universal freshness requirement after set expansion, preservation of an initiator, and the different operational semantics in Compiling GC (4). The public 93-contract run passed. See the [new mathematical review](.review-files/Calculus_19_GSC_19_Review.md) and its [finite controls](.review-files/revision19_controls.py).
+The project answered the revision (18) report. Primitive heads fix its unguarded-transaction counterexample. Negative body matching is repaired in its original example. Findings 34–36 cover the new universal freshness requirement after set expansion, preservation of an initiator, and the different operational semantics in Compiling GC (4). The independent rerun of all 106 public inputs, including the 13 Villagers contracts, reproduced §6.2 exactly. All 106 commuted, 66 returned exactly and 81 recovered exactly. See the [new mathematical review](.review-files/Calculus_19_GSC_19_Review.md) and its [finite controls](.review-files/revision19_controls.py).
 
 ## Review of Calculus (18), 27 November 2026
 
