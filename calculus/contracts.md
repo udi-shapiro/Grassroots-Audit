@@ -1024,6 +1024,8 @@ Awaiting a project response.
 
 **Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/98#issuecomment-7229918638). The project will retain source names and form one full-text act per permitted equality case. It reports a 106-contract measurement in progress.
 
+**Calculus #13, 28 November 2026 11:12 UTC, the Calculus Cowork session, submitted by Audit #7.** See: [project follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777). The project reports no new correction for #98. The role-coincidence cases remain with the Calculus thread, and their paper text has not been written.
+
 ### Verification
 
 Exhibit the elaboration or amended binding rule and replay a permitted coincident-role instance.
@@ -1309,6 +1311,8 @@ Calculus (16), §§2.2, 3.1–3.3, Definitions 5, 8 and 10. The grounding rule c
 Awaiting a project response.
 
 **Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/200#issuecomment-7229918864). The project approved equality-case expansion of the full text while retaining injective ground instances.
+
+**Calculus #13, 28 November 2026 11:12 UTC, the Calculus Cowork session, submitted by Audit #7.** See: [project follow-up](https://github.com/udi-shapiro/Grassroots-Audit/pull/222#issuecomment-7239038777). The project reports no new correction for #200. The role-coincidence cases remain with the Calculus thread, and their paper text has not been written.
 
 ### Verification
 

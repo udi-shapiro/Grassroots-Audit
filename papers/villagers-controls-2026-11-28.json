@@ -1,0 +1,564 @@
+{
+  "glp_commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+  "verified_source_blobs": 166,
+  "scope": "declarative schema projection, source regeneration and isolated website parser/render; no native GLP or deployed-site execution",
+  "website": [
+    {
+      "contract": "Booking",
+      "rules": 31,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Tennis-Courts",
+      "rules": 60,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Disputes",
+      "rules": 31,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Warnings",
+      "rules": 33,
+      "all_origins_preserved": true
+    },
+    {
+      "contract": "Ads",
+      "rules": 158,
+      "all_origins_preserved": true
+    }
+  ],
+  "tennis_render": {
+    "both_origins_and_both_guards": true
+  },
+  "inheritance": {
+    "master_contracts": 56,
+    "missing_parents": [],
+    "readable_inherits_adapter_verified": true,
+    "dependencies": {
+      "Matching": [
+        "Gossip"
+      ],
+      "Ads": [
+        "Overlay",
+        "Backed Community Bank"
+      ],
+      "Community Network": [
+        "Backed Community Bank"
+      ],
+      "Carpool": [
+        "Free Matching"
+      ],
+      "Community Market": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Tennis Courts": [
+        "Booking",
+        "Partners"
+      ],
+      "Labelled Overlay": [
+        "Overlay"
+      ],
+      "Auction": [
+        "Local Overlay"
+      ],
+      "Rides": [
+        "Community Network",
+        "Second-Score Auction"
+      ],
+      "Community Bank": [
+        "Bank"
+      ],
+      "Rendezvous": [
+        "Services"
+      ],
+      "Bonds": [
+        "Coins"
+      ],
+      "Appointments": [
+        "Booking"
+      ],
+      "Free Matching": [
+        "Anonymous Matching"
+      ],
+      "Booking": [
+        "Organisation"
+      ],
+      "Bank": [
+        "Organisation",
+        "Denominated Currencies"
+      ],
+      "Lost and Found": [
+        "Free Matching"
+      ],
+      "Disputes": [
+        "Organisation"
+      ],
+      "Rehearsal Rooms": [
+        "Booking",
+        "Partners"
+      ],
+      "Gossip": [
+        "Friendship"
+      ],
+      "Library": [
+        "Knowledge"
+      ],
+      "Coins": [
+        "Notes"
+      ],
+      "Groups": [
+        "Friendship"
+      ],
+      "Gigs": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Denominated Currencies": [
+        "Bonds",
+        "Denominated Coins"
+      ],
+      "Denominated Coins": [
+        "Coins"
+      ],
+      "Recommendations": [
+        "Knowledge"
+      ],
+      "Feeds": [
+        "Labelled Overlay"
+      ],
+      "Constitution": [
+        "Organisation"
+      ],
+      "Democratic Community": [
+        "Community Bank",
+        "Constitution"
+      ],
+      "Lending": [
+        "Free Matching"
+      ],
+      "Anonymous Matching": [
+        "Matching",
+        "Anonymous Rendezvous"
+      ],
+      "Notes": [
+        "Knowledge"
+      ],
+      "Guardians": [
+        "Friendship"
+      ],
+      "Knowledge": [],
+      "Partners": [
+        "Free Matching"
+      ],
+      "Meeting Rooms": [
+        "Booking"
+      ],
+      "Warded Groups": [
+        "Groups",
+        "Guardians"
+      ],
+      "Organisation": [
+        "Guardians"
+      ],
+      "Second-Score Auction": [
+        "Auction"
+      ],
+      "Encounters": [
+        "Knowledge"
+      ],
+      "Home Exchange": [
+        "Free Matching"
+      ],
+      "Jobs": [
+        "Free Matching"
+      ],
+      "Local Overlay": [
+        "Overlay"
+      ],
+      "Dating": [
+        "Free Matching"
+      ],
+      "Children": [
+        "Warded Groups"
+      ],
+      "Overlay": [
+        "Friendship"
+      ],
+      "Joint Accounts": [
+        "Coins"
+      ],
+      "Friendship": [
+        "Knowledge"
+      ],
+      "Backed Community Bank": [
+        "Community Bank"
+      ],
+      "Services": [
+        "Guardians"
+      ],
+      "Help": [
+        "Free Matching"
+      ],
+      "Warnings": [
+        "Organisation"
+      ],
+      "Lodging": [
+        "Community Network",
+        "Overlay",
+        "Recommendations"
+      ],
+      "Mutual Credit": [
+        "Bank"
+      ],
+      "Anonymous Rendezvous": [
+        "Rendezvous"
+      ]
+    }
+  },
+  "regeneration": {
+    "stdout": "Knowledge  commute yes; return yes; recover same\nFriendship commute yes; return yes; recover same\nOverlay    commute yes; return yes; recover same\nGuardians  commute yes; return yes; recover equivalent\nOrganisation commute yes; return yes; recover equivalent\nNotes      commute yes; return yes; recover same\nCoins      commute yes; return yes; recover same\nBonds      commute yes; return yes; recover same\nDenominated Coins commute yes; return yes; recover equivalent\nDenominated Currencies commute yes; return equivalent; recover equivalent\nBank       commute yes; return equivalent; recover same\nCommunity Bank commute yes; return equivalent; recover same\nBacked Community Bank commute yes; return equivalent; recover same\nAds        commute yes; return equivalent; recover equivalent\nGossip     commute yes; return yes; recover same\nMatching   commute yes; return yes; recover same\nServices   commute yes; return yes; recover same\nRendezvous commute yes; return yes; recover same\nAnonymous Rendezvous commute yes; return yes; recover same\nAnonymous Matching commute yes; return yes; recover same\nBooking    commute yes; return yes; recover equivalent\nAppointments commute yes; return yes; recover same\nLocal Overlay commute yes; return yes; recover same\nAuction    commute yes; return yes; recover equivalent\nFree Matching commute yes; return yes; recover same\nCarpool    commute yes; return yes; recover same\nGroups     commute yes; return yes; recover same\nWarded Groups commute yes; return yes; recover same\nChildren   commute yes; return yes; recover same\nCommunity Network commute yes; return equivalent; recover equivalent\nRecommendations commute yes; return yes; recover same\nCommunity Market commute yes; return equivalent; recover equivalent\nConstitution commute yes; return equivalent; recover equivalent\nDating     commute yes; return yes; recover same\nDemocratic Community commute yes; return equivalent; recover equivalent\nDisputes   commute yes; return yes; recover same\nEncounters commute yes; return yes; recover equivalent\nLabelled Overlay commute yes; return yes; recover same\nFeeds      commute yes; return yes; recover same\nGigs       commute yes; return equivalent; recover equivalent\nHelp       commute yes; return yes; recover same\nHome Exchange commute yes; return yes; recover same\nJobs       commute yes; return yes; recover same\nJoint Accounts commute yes; return yes; recover same\nLending    commute yes; return yes; recover same\nLibrary    commute yes; return yes; recover same\nLodging    commute yes; return equivalent; recover equivalent\nLost and Found commute yes; return yes; recover same\nMeeting Rooms commute yes; return yes; recover same\nMutual Credit commute yes; return equivalent; recover same\nPartners   commute yes; return yes; recover same\nRehearsal Rooms commute yes; return yes; recover same\nSecond-Score Auction commute yes; return yes; recover same\nRides      commute yes; return equivalent; recover equivalent\nTennis Courts commute yes; return yes; recover same\nWarnings   commute yes; return yes; recover equivalent\nnames: 17 names of two kinds neither of which is under the other\nkinds: Anonymous Matching: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Free Matching: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Carpool: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Community Network: Orga is community ('Alice and Bob are persons, Orga a community, Sum a number.') and community network ('Alice, Bob and Carol are persons, Orga a community network, Gov an organisation, Deal an agreement, S, Held, Sum, Total, Pot, Back, Rest, Part and Fee numbers; in clause 2 Alice is the customer and Bob the provider.')\nkinds: Community Market: Orga is community ('Alice and Bob are persons, Orga a community, Sum a number.') and community network ('Alice, Bob and Carol are persons, Orga a community network, Gov an organisation, Deal an agreement, S, Held, Sum, Total, Pot, Back, Rest, Part and Fee numbers; in clause 2 Alice is the customer and Bob the provider.')\nkinds: Dating: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Gigs: Orga is community ('Alice and Bob are persons, Orga a community, Sum a number.') and community network ('Alice, Bob and Carol are persons, Orga a community network, Gov an organisation, Deal an agreement, S, Held, Sum, Total, Pot, Back, Rest, Part and Fee numbers; in clause 2 Alice is the customer and Bob the provider.')\nkinds: Help: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Home Exchange: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Jobs: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Lending: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Lodging: Orga is community ('Alice and Bob are persons, Orga a community, Sum a number.') and community network ('Alice, Bob and Carol are persons, Orga a community network, Gov an organisation, Deal an agreement, S, Held, Sum, Total, Pot, Back, Rest, Part and Fee numbers; in clause 2 Alice is the customer and Bob the provider.')\nkinds: Lost and Found: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Partners: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Rehearsal Rooms: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\nkinds: Rides: Orga is community ('Alice and Bob are persons, Orga a community, Sum a number.') and community network ('Alice, Bob and Carol are persons, Orga a community network, Gov an organisation, Deal an agreement, S, Held, Sum, Total, Pot, Back, Rest, Part and Fee numbers; in clause 2 Alice is the customer and Bob the provider.')\nkinds: Tennis Courts: Other is post ('Alice, Bob and Carol are persons, Post and Other posts.') and one-time key ('Alice and Bob are persons, Dave a service, Key and Other one-time keys.')\n56 contracts, 0 with a fault\n",
+    "contracts": {
+      "Ads": {
+        "catalogue_equal": true,
+        "cascade_equal": true,
+        "schema_blob": "851942326f1d90b802597be50d337c2dcc772150"
+      },
+      "Auction": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "4f1d8aa20d6bf90e5ed006fc746a4df7549d6512"
+      },
+      "Backed-Community-Bank": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "40ca17a0b26a83108304ffd952c0161fa706b551"
+      },
+      "Booking": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+      },
+      "Community-Market": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "3d8106c00083e1d8c203914451b48a90742f6a7a"
+      },
+      "Constitution": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "8738e4b18daaada356940f75c87d12b155d6266d"
+      },
+      "Disputes": {
+        "catalogue_equal": true,
+        "cascade_equal": true,
+        "schema_blob": "98fe296ee789cbee7794d5c02d4c6be9bc98c767"
+      },
+      "Gigs": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "a1eabc48eaefd42a0984848ea657cba18ccf4795"
+      },
+      "Groups": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9"
+      },
+      "Lodging": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "5362681b4e1887617813347db96a35dadc62f67e"
+      },
+      "Organisation": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "f53730cf2ed11669871d705cc7fe4172ce55f944"
+      },
+      "Rehearsal-Rooms": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "4e35e393f532fd9925ad51e86cdb564499b0abf1"
+      },
+      "Rides": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "ee91ed691f6ddc877153712d76ef6461d2b27016"
+      },
+      "Second-Score-Auction": {
+        "catalogue_equal": true,
+        "cascade_equal": null,
+        "schema_blob": "28f6edb38e07bad1045647c4471f43709f5912b1"
+      },
+      "Tennis-Courts": {
+        "catalogue_equal": true,
+        "cascade_equal": true,
+        "schema_blob": "ab576e23b8d426778936cd3dba8e400eb4cb9427"
+      },
+      "Warnings": {
+        "catalogue_equal": true,
+        "cascade_equal": true,
+        "schema_blob": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e"
+      }
+    }
+  },
+  "disputes": {
+    "duplicate_arbiter_reversed_parties_reopening_second_ruling_refused": true,
+    "both_parties_receive_ruling": true
+  },
+  "warnings": {
+    "incident_answer_withdraw_annul_reissue_isolation_controls": true,
+    "count_filter_inside_date_binding": true,
+    "strict_age_over_seven_days": true,
+    "date_cases": [
+      {
+        "records": [],
+        "today": 18,
+        "two_qualifying_warnings": false
+      },
+      {
+        "records": [
+          [
+            "alice",
+            10
+          ]
+        ],
+        "today": 18,
+        "two_qualifying_warnings": false
+      },
+      {
+        "records": [
+          [
+            "alice",
+            10
+          ],
+          [
+            "carol",
+            10
+          ]
+        ],
+        "today": 16,
+        "two_qualifying_warnings": false
+      },
+      {
+        "records": [
+          [
+            "alice",
+            10
+          ],
+          [
+            "carol",
+            10
+          ]
+        ],
+        "today": 17,
+        "two_qualifying_warnings": false
+      },
+      {
+        "records": [
+          [
+            "alice",
+            10
+          ],
+          [
+            "carol",
+            10
+          ]
+        ],
+        "today": 18,
+        "two_qualifying_warnings": true
+      },
+      {
+        "records": [
+          [
+            "alice",
+            9
+          ],
+          [
+            "carol",
+            10
+          ]
+        ],
+        "today": 18,
+        "two_qualifying_warnings": true
+      },
+      {
+        "records": [
+          [
+            "alice",
+            9
+          ],
+          [
+            "carol",
+            11
+          ]
+        ],
+        "today": 18,
+        "two_qualifying_warnings": false
+      },
+      {
+        "records": [
+          [
+            "alice",
+            10
+          ],
+          [
+            "alice",
+            10
+          ]
+        ],
+        "today": 18,
+        "two_qualifying_warnings": false
+      }
+    ],
+    "count_scope": "issuer/date pairs; the verified single-active-warning rule makes these distinct issuers in reachable contract state"
+  },
+  "tennis": {
+    "one_occupancy_both_players_recorded": true,
+    "withdraw_keeps_reservation": true,
+    "replacement_requires_both_consents_and_supplied_bound": true,
+    "cancel_clears_partner": true,
+    "limitation": "under_bound values supplied as environment facts; no calculation of live quota verified"
+  },
+  "ads": {
+    "post_without_any_coin_or_escrow_fact_succeeds": true,
+    "view_and_click_add_only_attestation_facts": true,
+    "rules": {
+      "Post": {
+        "name": "Post",
+        "head": "Post: posted(Bob,Ad,Orga), budget_locked(Bob,Ad,Orga)",
+        "form": "rule",
+        "origin": "Ads",
+        "clause": 1,
+        "labels": [
+          "Ads:1"
+        ],
+        "by": [
+          "Ads"
+        ],
+        "adds": [
+          "posted(Bob,Ad,Orga)",
+          "budget_locked(Bob,Ad,Orga)"
+        ],
+        "removes": [],
+        "body": "participant(Bob,Orga), ~posted(Bob,Ad,Orga)",
+        "needs": [
+          "participant(Bob,Orga)",
+          "not posted(Bob,Ad,Orga)"
+        ],
+        "guarded": [
+          "Bob"
+        ],
+        "guard": "Bob"
+      },
+      "Send ad": {
+        "name": "Send ad",
+        "head": "Send ad: received(Alice,Ad,Bob,Orga), sent(Bob,Ad,Alice,Orga)",
+        "form": "rule",
+        "origin": "Ads",
+        "clause": 1,
+        "labels": [
+          "Ads:1"
+        ],
+        "by": [
+          "Ads"
+        ],
+        "adds": [
+          "received(Alice,Ad,Bob,Orga)",
+          "sent(Bob,Ad,Alice,Orga)"
+        ],
+        "removes": [],
+        "body": "posted(Bob,Ad,Orga), points_to(Bob,Alice), participant(Alice,Orga), ~received(Alice,Ad,Bob,Orga), ~sent(Bob,Ad,Alice,Orga)",
+        "needs": [
+          "posted(Bob,Ad,Orga)",
+          "points_to(Bob,Alice)",
+          "participant(Alice,Orga)",
+          "not received(Alice,Ad,Bob,Orga)",
+          "not sent(Bob,Ad,Alice,Orga)"
+        ],
+        "guarded": [],
+        "guard": ""
+      },
+      "Show": {
+        "name": "Show",
+        "head": "Show: ad_shown(Alice,Ad,Bob,Orga)",
+        "form": "rule",
+        "origin": "Ads",
+        "clause": 2,
+        "labels": [
+          "Ads:2"
+        ],
+        "by": [
+          "Ads"
+        ],
+        "adds": [
+          "ad_shown(Alice,Ad,Bob,Orga)"
+        ],
+        "removes": [],
+        "body": "participant(Alice,Orga), received(Alice,Ad,Bob,Orga), for_profile(Alice,Ad), ~ad_shown(Alice,Ad,Bob,Orga)",
+        "needs": [
+          "participant(Alice,Orga)",
+          "received(Alice,Ad,Bob,Orga)",
+          "for_profile(Alice,Ad)",
+          "not ad_shown(Alice,Ad,Bob,Orga)"
+        ],
+        "guarded": [],
+        "guard": ""
+      },
+      "View": {
+        "name": "View",
+        "head": "View: viewed(Alice,Ad,Bob)",
+        "form": "rule",
+        "origin": "Ads",
+        "clause": 3,
+        "labels": [
+          "Ads:3"
+        ],
+        "by": [
+          "Ads"
+        ],
+        "adds": [
+          "viewed(Alice,Ad,Bob)"
+        ],
+        "removes": [],
+        "body": "ad_shown(Alice,Ad,Bob,Orga)",
+        "needs": [
+          "ad_shown(Alice,Ad,Bob,Orga)"
+        ],
+        "guarded": [
+          "Alice"
+        ],
+        "guard": "Alice"
+      },
+      "Click": {
+        "name": "Click",
+        "head": "Click: clicked(Alice,Ad,Bob)",
+        "form": "rule",
+        "origin": "Ads",
+        "clause": 3,
+        "labels": [
+          "Ads:3"
+        ],
+        "by": [
+          "Ads"
+        ],
+        "adds": [
+          "clicked(Alice,Ad,Bob)"
+        ],
+        "removes": [],
+        "body": "ad_shown(Alice,Ad,Bob,Orga)",
+        "needs": [
+          "ad_shown(Alice,Ad,Bob,Orga)"
+        ],
+        "guarded": [
+          "Alice"
+        ],
+        "guard": "Alice"
+      }
+    },
+    "interpretation": "a source prose/pragma mismatch; not an observed deployed loss"
+  }
+}

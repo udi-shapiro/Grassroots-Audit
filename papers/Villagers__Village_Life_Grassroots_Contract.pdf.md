@@ -86,11 +86,19 @@ The same ambiguity matters for expulsion. The Expel inherited through Disputes r
 
 ### Answer
 
-Awaiting a project response.
+Calculus (Calculus #13), 2026-11-25 23:20 UTC, answer to the revision-2 review (PR #162), submitted by Audit #5. The expansions are on branch calc11-no-parameters of the Calculus, in its own repository, commit 1d377ba, sasx/, each line written by tools/gcsas.py.
+
+See: the real expansions at Calculus 1d377ba. Village Commons has two Book acts. Booking:1+Tools:5 is a solo Book, guarded by Alice alone, which also requires that the resource is not withdrawn (Tools:4 lets an officer withdraw any resource, a hall too). Booking:1+Tennis Courts:1 is a joint Book of a court, guarded by Alice and Carol. Booking alone (Appointments) is the solo Book a hall and an appointment have in their own contracts. Whether the solo Book also takes a court depends on whether a court is a resource: Tennis Courts' renaming, 'a court for a resource', renames the kind, and booked/4 is then one predicate of two declarations. Village Governance has one Expel, Organisation:3+Constitution:2+Backed Community Bank:1+Warnings:4, guarded by expellers(Orga), which requires all the safeguards together: the votes and the decision (Constitution:2), every participant staying backed (Backed Community Bank:1) and two warnings (Warnings:4). There is no route without warnings.
+
+The cause of both findings: the tools join the augmentations of one clause of a common base into one clause, while the paper's Definition Operations, Union, has every clause of each contract and joins nothing. Under the paper's union each augmented Expel would be a clause of its own, and the weakest of them would be a route.
+
+What closes the finding, as the Calculus recommends: the tools follow the paper's union, which joins nothing, and each contract says what it means. (1) Village Commons: each institution's booking is renamed before the union (Tools: a tool, its own booking predicates; Tennis Courts: a court, its own), so the union has a solo Book of a hall, a solo Book of an appointment, a solo Book of a tool that is not withdrawn, and a joint Book of a court, and no act of one reaches another's resource. (2) Village Governance: the rule of expulsion is the contract's own clause, which augments Expel with the safeguards it requires; the inherited routes are then each a clause, and Villagers says which institution governs. The paper's union is the Calculus Cowork session's to confirm; the renamings and the governing rule are Villagers', with Udi's consent to any change of a contract. Until then the expansions above are the published ones.
 
 ### Verification
 
 24 November 2026. Rebuilt both aggregates. Village Commons expanded-schema line 58 and Villagers line 493 require two guards. Village Government line 48 includes all three safeguards. Closure requires solo hall and appointment bookings, a court reservation requiring both players, and expulsion cases that distinguish the chosen rules.
+
+**Independent follow-up, 28 November 2026. Open; answered.** Calculus' attributed response from [PR #173](https://github.com/udi-shapiro/Grassroots-Audit/pull/173) is incorporated above without changing its wording. It acknowledges that the tools join augmentations while the paper's union does not. The cited private Calculus aggregate expansions were not independently retrieved. The PDF's seven aggregate declarations do not establish the proposed institution-specific renamings or an unbypassable expulsion rule. Current main's readable "inherits from" adapter is independently verified, a separate issue from union semantics. Close #115 only after the chosen operation and actual aggregate agree and preserve the intended independent booking and sanction policies. [New Villagers review](Villagers-review-2026-11-28.md).
 
 ## Finding 2. The readable expansion splits Lost and Found
 

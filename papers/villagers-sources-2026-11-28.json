@@ -1,0 +1,1011 @@
+{
+  "glp_commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+  "files": [
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "servers/peoplesweb/tools/build.py",
+      "sha": "c5db018c97e223618bcd9bdbc57317acdbc41bf7"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "servers/peoplesweb/web/index.html",
+      "sha": "7faa62abcb999413d85fae63f0a08f4bcff5c1cf"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "servers/peoplesweb/deploy/villagers.sh",
+      "sha": "139a3b96670601be6038921652cb81011cfa6a9a"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "servers/peoplesweb/deploy/villagers-watch.sh",
+      "sha": "33ed9e62141d95906e6c97ae89936734e1da487b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/tools/expand.py",
+      "sha": "8e211c1c3a7f4bda632a5bbe9eb217d1095ded83"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/NAMES.txt",
+      "sha": "3af992856bef66f82f9672c1681859fcb691376c"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Booking/contract.txt",
+      "sha": "c37fb5abaf2ec15933629f3ba6416c270971d332"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Booking/logic-pragmas.txt",
+      "sha": "8b7d3a279b1ca9adb487a55837b184ba2308ecd1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Booking/full-schemas.txt",
+      "sha": "074ed0c2ff8fc0d372f037f85f600d90b75a9d4d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Booking/interface.txt",
+      "sha": "c5d90fb57f7f5b84cd63bb071059ba6bdf95f12b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/contract.txt",
+      "sha": "677aab83d2b90a1e334b02f9e3ad081927e7dcee"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/logic-pragmas.txt",
+      "sha": "4861fd71d3ba7c5198c31014f35cf3b3a8e78f03"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/full-schemas.txt",
+      "sha": "ab576e23b8d426778936cd3dba8e400eb4cb9427"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/interface.txt",
+      "sha": "05c059dc6b3792d5e6c20608555ff0ce661f1ae3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Disputes/contract.txt",
+      "sha": "cf9a76d5d21c1c53f4e15345560fd16639586a8d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Disputes/logic-pragmas.txt",
+      "sha": "e51c95b6055bf7276bded8ae380aa60b71ad82af"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Disputes/full-schemas.txt",
+      "sha": "98fe296ee789cbee7794d5c02d4c6be9bc98c767"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Disputes/interface.txt",
+      "sha": "b8d5d5e5243664ad15dc606ae5d6b9c5bab990f1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warnings/contract.txt",
+      "sha": "1806d806353eec6ab07685cac743ef8f0fceb022"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warnings/logic-pragmas.txt",
+      "sha": "8a62e2a423fba7390809e8ce6a8271e153e79043"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warnings/full-schemas.txt",
+      "sha": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warnings/interface.txt",
+      "sha": "cc487fc4ff4ba8950718cd02a2bff8cf4b9b63c4"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Groups/contract.txt",
+      "sha": "223561098a263641b4ee1fa46da094e3ca231f87"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Groups/logic-pragmas.txt",
+      "sha": "6fe9cae9653ac8e21969e6f596de76ad705b2716"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Groups/full-schemas.txt",
+      "sha": "0019acab8f9550c0b2ca0d82035ddd13afe7a7f9"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Groups/interface.txt",
+      "sha": "284ab4645c58c76b03887fc2a30c255de84ddf60"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Organisation/contract.txt",
+      "sha": "a04e662e68d18b9146a5cb0a60982c893259ffd3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Organisation/logic-pragmas.txt",
+      "sha": "69db7b4399876e8d6b894313cd846b628e046c83"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Organisation/full-schemas.txt",
+      "sha": "f53730cf2ed11669871d705cc7fe4172ce55f944"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Organisation/interface.txt",
+      "sha": "6ee2d4d3e40007e366502482d45e9db04a8534f6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rehearsal-Rooms/contract.txt",
+      "sha": "bb3b2d90c71452d962ded23ce41df88d6f2433d2"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rehearsal-Rooms/logic-pragmas.txt",
+      "sha": "643a634c90c9cad8bc82b281c273471f9d4ee3d2"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rehearsal-Rooms/full-schemas.txt",
+      "sha": "4e35e393f532fd9925ad51e86cdb564499b0abf1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rehearsal-Rooms/interface.txt",
+      "sha": "06471908db8295534d5e078df65150c805fe7e75"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Constitution/contract.txt",
+      "sha": "d7e9ac789c8c66fbf87429ceb1800d112e141dd6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Constitution/logic-pragmas.txt",
+      "sha": "f6599ff2d73b4e1f2bf57e92f646c86b2c3431e0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Constitution/full-schemas.txt",
+      "sha": "8738e4b18daaada356940f75c87d12b155d6266d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Constitution/interface.txt",
+      "sha": "06e9622950a187eafdf12a703eb0a882f216a75b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Backed-Community-Bank/contract.txt",
+      "sha": "e3f2ecac9a9d2a4d81bd6fd5f71f909c57cdb1f1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Backed-Community-Bank/logic-pragmas.txt",
+      "sha": "8169337da6b6158c76ffc3de89a506df6a6e735f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Backed-Community-Bank/full-schemas.txt",
+      "sha": "40ca17a0b26a83108304ffd952c0161fa706b551"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "programs/gce/disputes/Disputes.txt",
+      "sha": "6ad7f3a4c5a4d8123fa7b779171cfbb86907ecf2"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "programs/gce/warnings/Warnings.txt",
+      "sha": "cda73679ad052523b96b1f619f6b3c7a7ec54786"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/tools/gcsas.py",
+      "sha": "86d0f70f275641971aeec6d017449eb2aadb879d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/tools/names.py",
+      "sha": "e393bd6a576b0a37b04e7004d250e04330882e4f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/tools/nameslines.py",
+      "sha": "828c332b4c4f0dd4cf2617fde61dc89b69531e6c"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Guardians/logic-pragmas.txt",
+      "sha": "9628e718bb3671ef9902399901f2dbc8d88c0ec3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Friendship/logic-pragmas.txt",
+      "sha": "6fd5ed66abc9f321370d9492fdf2901d17c374d2"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Knowledge/logic-pragmas.txt",
+      "sha": "11e458acd0dac49e8ee6bd1c19571e2a4857e31a"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Friendship/contract.txt",
+      "sha": "88437b218a811f1edbdcd235fa514f84df2a4197"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Encounters/contract.txt",
+      "sha": "81713398ce9195d52a3325cc6fafcebad843edbd"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Feeds/contract.txt",
+      "sha": "b421de2c1aa290bb51d2f9b41ed37a3c037bea64"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Children/contract.txt",
+      "sha": "cb3aa6ef224ba47b9819d36c2065d47da8bc3179"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Democratic-Community/contract.txt",
+      "sha": "dfe2b012ad51bff5b1f6e2b193b63b4e33245242"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Bank/contract.txt",
+      "sha": "9e6486bbbc4478865b9d1da98f0d63367d4e8591"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Mutual-Credit/contract.txt",
+      "sha": "971506a2c1f44b4f8221dbcc6d4b39d79fa6acbd"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Joint-Accounts/contract.txt",
+      "sha": "a58ca2bfb8cdd899277aa3a8637b90facbd72c7d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Market/contract.txt",
+      "sha": "9dc4590ae3a45ead9497151968f143f52c3768da"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Gigs/contract.txt",
+      "sha": "c30670de58bc4caf0697ce2564862243ad92e641"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rides/contract.txt",
+      "sha": "f925f924bfff3c121f9d4f3d528c0a02eaf3f997"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lodging/contract.txt",
+      "sha": "9b931156ea94e714810f48002a053c3c77fa56d6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Ads/contract.txt",
+      "sha": "c9e415e8039dbf8794fad472c4815f4815d692b1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Jobs/contract.txt",
+      "sha": "62e3993276ee81502dc8826ebc3beaa5a9d30067"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Help/contract.txt",
+      "sha": "4bbab9603535c4ae546fb7ef3238db5bba8c95c0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lending/contract.txt",
+      "sha": "3f49503aeaaf83964edb3cb2253c539370c2b267"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Library/contract.txt",
+      "sha": "b80eb8c650e9f18606bc63193277e8feee92471f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lost-and-Found/contract.txt",
+      "sha": "29ceffa20a962b6aed4bc9cb4f71397e878dbb76"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Carpool/contract.txt",
+      "sha": "bc56e26b7afbd31c6dc7988a4308926eb38dc213"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Home-Exchange/contract.txt",
+      "sha": "56038088bc78c5332a2f1ad1d19a148f1b81d388"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Partners/contract.txt",
+      "sha": "616ebce6a3da4b107cbc76ea5cde9025372ce7d6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Dating/contract.txt",
+      "sha": "b4dcf52a2b4b5c4e97a3d8341b73b3c4487ed634"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Meeting-Rooms/contract.txt",
+      "sha": "499657915f4d8ae037d044b612b1d3879239e07d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Appointments/contract.txt",
+      "sha": "ebb8b8c4e3dbbba30a54b4f4e1f47d2d2f2d4182"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Knowledge/contract.txt",
+      "sha": "2984251a76d49a4edd58f9873dc539c2f51cb550"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Guardians/contract.txt",
+      "sha": "9d81cf4fdbfdd6890c2d7dd04eff3b8f44279631"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warded-Groups/contract.txt",
+      "sha": "71f9e0d66f81a3565ec257efc6d0a3bbe2e9b781"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Services/contract.txt",
+      "sha": "fc96da5b9ad602ea9e23b3ddb9a18a50bde729e0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rendezvous/contract.txt",
+      "sha": "38391df9cbf377da199f2d6688cdce65f88b0de6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Anonymous-Rendezvous/contract.txt",
+      "sha": "41beb8803382a7bd3035772783d740888de58f5e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Notes/contract.txt",
+      "sha": "5076ed71843e44d1d7edbfcd02609e08306cdc70"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Coins/contract.txt",
+      "sha": "a8401eb9f8434d5ebd92d5c5751d35fc58e95ce3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Bonds/contract.txt",
+      "sha": "188692e248a404f95e670630e1ab6e827bba3e28"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Denominated-Coins/contract.txt",
+      "sha": "5d5f980c34892b7451f1b5dd70b82a75fef6b04f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Denominated-Currencies/contract.txt",
+      "sha": "e9856f3a273acbc268a2010c4a768157dc9c2acf"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Bank/contract.txt",
+      "sha": "43805a0e8f3df24885031a14c4a1af45703980ac"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Network/contract.txt",
+      "sha": "4bc59db1d5d163a09ef48ac52cb5cb7949ac7fc4"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Recommendations/contract.txt",
+      "sha": "455084f76cd4ab54bdad496a86359c267185cd8e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Overlay/contract.txt",
+      "sha": "edaf35cab3603c59e946ffc82e3f0fefa2742da1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Labelled-Overlay/contract.txt",
+      "sha": "e13179b4e9b10dcab9e92afe417efb7c089525d4"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Local-Overlay/contract.txt",
+      "sha": "65c7477e6569871c0b4699796b23a2e43906c985"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Auction/contract.txt",
+      "sha": "b26005f7861704899f6c7edb0db5292e969b60d3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Second-Score-Auction/contract.txt",
+      "sha": "5b82a2720c006dc162ea42ed52a917401e05661d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Gossip/contract.txt",
+      "sha": "fdcf8a7a220840ddf75833ba40fc186cfa8876e9"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Matching/contract.txt",
+      "sha": "aa89df4b3d1241cc39f2c395ba48aa621f282a4c"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Anonymous-Matching/contract.txt",
+      "sha": "cb36b7d313d1d862413c3f12f7aa0c87387fd832"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Free-Matching/contract.txt",
+      "sha": "1f8e64b21db0068374e56b11f5130fc69b499e9c"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/tools/revtex.py",
+      "sha": "461c73a0d6adf4b90c57b32d2e5f00826c4ac9d2"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/VILLAGERS.txt",
+      "sha": "ea6a8f381f63c7a8292c20957af7719bdbceb55f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Ads/logic-pragmas.txt",
+      "sha": "2d96e1cc22ebafc6832eb75715e49f223f532714"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Ads/full-schemas.txt",
+      "sha": "851942326f1d90b802597be50d337c2dcc772150"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Constitution/full-pragmas.txt",
+      "sha": "0ae86394f7709d128601d60a7a951bb4c87c899a"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Booking/term.glp.txt",
+      "sha": "1afd0990592be4124159cb59cac89952e88f31a9"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Disputes/term.glp.txt",
+      "sha": "ee6cdb119627059a0fe02e084d0667481ff4abef"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warnings/term.glp.txt",
+      "sha": "829b9bedbab7dc7e83ff97532d14dc4cdafefac0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/term.glp.txt",
+      "sha": "dda31b7f5e3d58eab2e638b0b3d2816d68522d00"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Warnings/platform.vglp",
+      "sha": "543d998986f83e00ad10f7ffcbcd3eaf2215faaa"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Warnings/full-schemas.txt",
+      "sha": "9fcf033da8bb3e567ca56dbc0e483f96892dcc8e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Disputes/full-schemas.txt",
+      "sha": "98fe296ee789cbee7794d5c02d4c6be9bc98c767"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Tennis-Courts/full-schemas.txt",
+      "sha": "ab576e23b8d426778936cd3dba8e400eb4cb9427"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Tennis-Courts/interface-adopted.txt",
+      "sha": "92a7df407624408e8b4f6d57923997ae8a0d93cb"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "programs/gce/disputes/Disputes.glp",
+      "sha": "65a1ff644cf98e01839c2563e1b4d45b2feba9c8"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "programs/gce/warnings/Warnings.glp",
+      "sha": "9b4ebf5c95e3a04d649ed51f72d18388b3fe50f3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Tennis-Courts/platform.vglp",
+      "sha": "bc1d821bdb33bdb44d87cf92fa8b08dd18238f86"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "programs/go/Ads.txt",
+      "sha": "09cdb7ee4650616aa13a63ca4c6e8f25a89a7de4"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Ads/term.glp.txt",
+      "sha": "ebcb746c527d9705e4aea8e2df27aa98b094b5a1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Ads/manifest.md",
+      "sha": "13d5c4c07c9404485111f5f7eeca750822899ac0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "cascade/Ads/full-schemas.txt",
+      "sha": "851942326f1d90b802597be50d337c2dcc772150"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Encounters/logic-pragmas.txt",
+      "sha": "1799db189de06a7a31da49466d7d75de86b073a6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Feeds/logic-pragmas.txt",
+      "sha": "494156574fe697123c23fe3104c70e7fb2d5226e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Children/logic-pragmas.txt",
+      "sha": "7d6eed5098fbd7c2fcb35bdc5fe534dd9b947a0b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Democratic-Community/logic-pragmas.txt",
+      "sha": "f7469a80fe601a7f193dba3e378a17e28917bc88"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Bank/logic-pragmas.txt",
+      "sha": "5ab60dcbf8b79f7670a03bd7eab091594927d847"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Mutual-Credit/logic-pragmas.txt",
+      "sha": "8f3dfa7f3b5581144d6262a2f4daf46c9ce5d6a7"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Joint-Accounts/logic-pragmas.txt",
+      "sha": "ae80f490afcdc089d05a6dd319d2a469e48517d0"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Market/logic-pragmas.txt",
+      "sha": "9f5056418d261161c6851b36d654ef4272a11827"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Gigs/logic-pragmas.txt",
+      "sha": "4ebc33567ff05c07c6f7deda2422437da3d0abdd"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rides/logic-pragmas.txt",
+      "sha": "0831cafcb9239f216973688c1b8b7a08cf585830"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lodging/logic-pragmas.txt",
+      "sha": "ed45df46e03742f51b6b05b6affdae9e7858d533"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Jobs/logic-pragmas.txt",
+      "sha": "03e534402c5d6d5c6e1a12c5f52f51cfe5623673"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Help/logic-pragmas.txt",
+      "sha": "20c989a28d0120ff68aab508bd303befc5dc8ace"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lending/logic-pragmas.txt",
+      "sha": "f1fe9dcdd51451fdb60f22d4907f4866a19f3dc1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Library/logic-pragmas.txt",
+      "sha": "2aed2bd6f9b1524091890748b6f2f0c23825f046"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lost-and-Found/logic-pragmas.txt",
+      "sha": "876c3a1288004188e747cc182a631ef27e9ad5fa"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Carpool/logic-pragmas.txt",
+      "sha": "c7d7202e5b96c48d86d5730b934f69159a63664d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Home-Exchange/logic-pragmas.txt",
+      "sha": "9d4a9ff0b554bd852cab372fa31ef9644ed44997"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Partners/logic-pragmas.txt",
+      "sha": "7d66fe644c81c982617dbc0f6f6e70e825cba6bb"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Dating/logic-pragmas.txt",
+      "sha": "7f9a64c2ba56fccea6be89d924415298d7bb6967"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Meeting-Rooms/logic-pragmas.txt",
+      "sha": "bb9790d3083acf8e715bb03d7cd48469c8fed29f"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Appointments/logic-pragmas.txt",
+      "sha": "228f36cf3211f5e7e089f8790524d2b74c8cb84d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Warded-Groups/logic-pragmas.txt",
+      "sha": "b9fc288a8f4ed763e09a6b7d65fdcff6f288626d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Services/logic-pragmas.txt",
+      "sha": "76ca05913021033daf4b02c853ec2b63f9244099"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rendezvous/logic-pragmas.txt",
+      "sha": "db402caf37e589d75baa10fbc2b6ac7907409e51"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Anonymous-Rendezvous/logic-pragmas.txt",
+      "sha": "c94031e6623d0070bb4dc24bf315dd4b63f9cf9b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Notes/logic-pragmas.txt",
+      "sha": "a33397dc32895c9777481757ca48fddfabaa38f6"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Coins/logic-pragmas.txt",
+      "sha": "b2eb34a1b329d00a671487207b662b6674803a67"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Bonds/logic-pragmas.txt",
+      "sha": "a28964764b843941b58c5d6dd55a54611a4aab18"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Denominated-Coins/logic-pragmas.txt",
+      "sha": "e1da54558ae986578100156c70997ddbf35b3e66"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Denominated-Currencies/logic-pragmas.txt",
+      "sha": "f9341c358cf8dce7dca1f9c5511af44ba0c718eb"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Bank/logic-pragmas.txt",
+      "sha": "1719f98983ac18dfb84e765bd966aced68c5bd49"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Network/logic-pragmas.txt",
+      "sha": "aa1025ace46c0bff61d441e2c5a31d1e71e3e5e3"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Recommendations/logic-pragmas.txt",
+      "sha": "3e85b30a809713ebb2fce1005cb8234229ea2033"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Overlay/logic-pragmas.txt",
+      "sha": "116cef20ec8bb8278b1284faaec85679a783933e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Labelled-Overlay/logic-pragmas.txt",
+      "sha": "bcbbb4bb2f6bdc3dfd5e692011a07cc0a948608b"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Local-Overlay/logic-pragmas.txt",
+      "sha": "5851c9852e489d68cf3987ca26b90ace915e3f0e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Auction/logic-pragmas.txt",
+      "sha": "e08d41e67866d0d3feb2c6f2755548454b701c72"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Second-Score-Auction/logic-pragmas.txt",
+      "sha": "4145edfff2b16ceb796ff0a4e170a379a094b079"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Gossip/logic-pragmas.txt",
+      "sha": "59040cbf40f3a2ce83eb21a9e1175af6c6cd00d8"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Matching/logic-pragmas.txt",
+      "sha": "546d0dac8d3b45c2d8375a05724bc13f26e93e07"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Anonymous-Matching/logic-pragmas.txt",
+      "sha": "108f3716f117fe51c611ea826447f28b9639fde1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Free-Matching/logic-pragmas.txt",
+      "sha": "57dc797acbb070121ce3cd8360a3d039d8c9f24d"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Gigs/full-schemas.txt",
+      "sha": "a1eabc48eaefd42a0984848ea657cba18ccf4795"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Lodging/full-schemas.txt",
+      "sha": "5362681b4e1887617813347db96a35dadc62f67e"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Community-Market/full-schemas.txt",
+      "sha": "3d8106c00083e1d8c203914451b48a90742f6a7a"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Auction/full-schemas.txt",
+      "sha": "4f1d8aa20d6bf90e5ed006fc746a4df7549d6512"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Second-Score-Auction/full-schemas.txt",
+      "sha": "28f6edb38e07bad1045647c4471f43709f5912b1"
+    },
+    {
+      "repo": "EShapiro2/GLP",
+      "commit": "6fb5e03c9a2a030eadf8532d7207a889703331e4",
+      "path": "calculus/contracts/Rides/full-schemas.txt",
+      "sha": "ee91ed691f6ddc877153712d76ef6461d2b27016"
+    }
+  ],
+  "paper": {
+    "filename": "Villagers__Village_Life_Grassroots_Contract (3).pdf",
+    "bytes": 355801,
+    "pages": 6,
+    "library_file_id": "libfile_fde3_f-eb6bacdf8ba08191854c6f64407f46d7_a6b3f6b9ed14819190c949de87da1606",
+    "uploaded_at": "2026-11-28T00:05:28.344423Z",
+    "version": 0,
+    "extracted_text_sha256": "52af495cb3a09432f7ce2153bf97de552b4159f4e275a007e0b4c28a7130e659",
+    "coverage": "all extracted text; no visual typography assessment"
+  }
+}

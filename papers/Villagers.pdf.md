@@ -1,3 +1,16 @@
+# Villagers: current review and stable findings
+
+Project: Villagers, with GO, GCE, GM, Calculus and Website  
+Auditor: ChatGPT / Codex, Grassroots Review  
+Date: 2026-11-28  
+GLP commit: 6fb5e03c9a2a030eadf8532d7207a889703331e4
+
+Read the **[new review of revision (3), 28 November 2026](Villagers-review-2026-11-28.md)** for the current assessment of the paper, village life, contract text/pragmas and website. Responses arrived after the previous review, so the new report is separate; earlier findings and attributed responses are preserved below.
+
+Current disposition: **#135 (Disputes) and #136 (Warnings) resolved at the source/schema level**; #130 (Care), #131 (Tools) and #137 (Tennis quota) remain partly corrected; #115 (composition, in the earlier report) remains open with Calculus' answer incorporated. #132, #133, #134, #138 and #119 remain closed at their stated scope. **Finding 9 / #223 adds the demonstrated Ads budget/payment discrepancy.** [Controls](villagers-controls-2026-11-28.py) · [Results](villagers-controls-2026-11-28.json) · [Pinned sources](villagers-sources-2026-11-28.json).
+
+---
+
 # Villagers: review of revision (2), 25 November 2026
 
 Project: Villagers, with GCE, GM, GO, Calculus and Website  
@@ -171,6 +184,8 @@ See: Villagers docs/decisions.md, item 25. Udi brought the auditor's answer to V
 
 **Revision (2), independent verification, 25 November 2026. Partly corrected.** PDF p. 4 now supplies a Groups-based circle, attested prior authorisation, Take's undertaking, Release and separate Made/Missed attestations. The former reservation-only description no longer applies. The 20:02 response was preserved by merging PR #159. The remaining unavailable-leader witness follows from current GLP Groups:4 (Post is recorded at the leader and Deliver requires the leader), plus Care:4–5 permitting only the taker/leader to release and only the leader to mark missed. There is no substitute-leader rule or response to a never-taken visit in the PDF. Patient control of an on-behalf circle's membership/audience is unstated. These are the remaining scope of #130; the new own pragmas are not verified.
 
+**Revision (3), independent verification, 28 November 2026. Partly corrected.** PDF p. 4 now authorises the patient to Release and report Missed, and adds End. The request for patient control is met; do not repeat it as missing. Remaining: an authorised substitute when the patient cannot act and leader/visitor are unavailable; responsibility for a visit nobody takes; continuity through inherited Groups leadership/closure. Own Care pragmas remain unavailable. See the new dated review for the narrow remaining scenarios.
+
 ## Finding 2. Tools has reservations but no custody, return or unavailability protocol
 
 Severity: high · [Issue 131](https://github.com/udi-shapiro/Grassroots-Audit/issues/131)
@@ -196,6 +211,8 @@ Corrected: Villagers f48983d (Villagers #1; docs/decisions.md item 28; the case 
 25 November 2026: the printed Tools definition introduces no such acts; Booking's pragmas contain reservation and cancellation effects. New Tools pragmas remain unexamined. Closure: reserve, collect, report damage, block or flag the next collection, repair and restore availability, with custody always attributable.
 
 **Revision (2), independent verification, 25 November 2026. Partly corrected.** PDF p. 5 now has handover, custody, a return undertaking, officer take-back, withdrawal/restoration and no new booking of a withdrawn tool. The original claim of no custody is superseded. The outstanding case is an existing future borrower when the tool becomes unavailable; the text gives neither a notification undertaking nor a reservation outcome. Also demonstrate that cancellation/exit does not erase a collected tool's custody or original return deadline. Own pragmas remain unavailable. No physical-return truth claim or runtime exploit is inferred.
+
+**Revision (3), independent verification, 28 November 2026. Still partly corrected.** Tools is substantively unchanged from revision (2); the custody/return/withdrawal correction stands. #131 now concerns existing reservations during unavailability, communication of their outcome, and preservation of custody/return obligations through cancellation or exit. No absent-pragma runtime failure is asserted.
 
 ## Finding 3. Works approval is not an agreement with the contractor, and cancellation can erase protection for completed work
 
@@ -323,6 +340,8 @@ Corrected: GLP main 80da4331d, carrying GCE's Disputes ab9002a.
 
 **Revision (2), independent verification, 25 November 2026. Candidate correction verified; adoption pending.** Retrieved programs/gce/disputes/Disputes.txt at ab9002a and regenerated its schemas with unchanged main generator/parents. Controls reject the second Raise, reversed-party duplicate, reopening after decision and a second ruling; both parties receive ruling facts. The retained dispute(Orga,Issue) supplies the intended uniqueness for that identifier. Audited main 1503cddc still has the earlier catalogue and programs/gce text, so #135 stays open for adoption and generated-artifact agreement. This is schema projection, not native GLP/runtime execution. The no-appeal choice and an unavailable arbiter are separate policy questions.
 
+**Independent main verification, 28 November 2026. Resolved at source/schema scope.** GLP main 6fb5e03c contains the revised text and pragmas. Fresh generation equals the catalogue and cascade schema files byte for byte. The replay refuses a second arbiter, reversed-party duplicate, reopening after decision and a second ruling for one dispute identifier, and records the ruling for both parties. This satisfies the earlier adoption condition. Finality/no appeal and arbiter availability remain explicit policy choices, not reasons to keep this original finding open. This is declarative projection, not native platform execution. [Current evidence](villagers-controls-2026-11-28.json). The independent current checks supersede the pending adoption position above; PR #177's integration observations were considered without merging its unrelated changes.
+
 ## Finding 7. Warnings are permanent officer-target flags, not correctable records of an incident
 
 Severity: medium · [Issue 136](https://github.com/udi-shapiro/Grassroots-Audit/issues/136)
@@ -379,6 +398,8 @@ Corrected: GLP main 80da4331d, carrying GCE's Warnings e4aacb8 and Warnings' Int
 
 **Revision (2), independent verification, 25 November 2026. Candidate life-cycle correction verified; partly open.** Regenerated e4aacb8 and independently checked issue/answer/withdraw/annul, the single-active-warning restriction, no reissue of an answered incident and preservation of another participant's answer. The earlier reset bug is absent. Main 1503cddc still carries the old contract. Moreover the candidate's readable clause 4 says two officers, while its logic clause and generated Expel count warning(Orga,>=2,Bob); current officer status is not tested there, and Officer leave leaves warning facts. Align the intended former-officer policy. A fair opportunity to answer before expulsion is also not implied by the mere existence of Answer. The candidate has improved record keeping; it has not yet established the entire sanction procedure.
 
+**Independent main verification, 28 November 2026. Resolved at source/schema scope.** Main 6fb5e03c now includes incident, date, Answer, Withdraw, Annul, no reissue of an answered incident, and an explicit policy retaining a former officer's warning. Fresh generation matches catalogue and cascade schemas. Replay confirms the lifecycle and preservation of another participant's answer. Both Expel terms place the date filter inside the issuer/date cardinality: two old warnings on different dates qualify, one warning or a recent second warning does not. The one-active-warning invariant makes the qualifying pair count a distinct-issuer count. The strict comparison Today > Day+7 refuses day 7 and admits day 8; align the short prose boundary if desired. No current-officer premise is silently assumed. The initial record/correction finding and its source-level follow-ups are satisfied. Runtime request binding remains separately tracked in #151, and this closure does not certify the request UI or environmental clock. [Current evidence](villagers-controls-2026-11-28.json).
+
 ## Finding 8. A joint tennis booking records only one player's reservation
 
 Severity: medium · [Issue 137](https://github.com/udi-shapiro/Grassroots-Audit/issues/137)
@@ -418,6 +439,8 @@ Corrected: GLP main 80da4331d, carrying GM's Tennis Courts b17ca87, its record p
 
 **Revision (2), independent verification, 25 November 2026. Partly corrected candidate.** Inspected b17ca87 text, pragmas, expanded schemas, term and interface. Book adds partnered/4, Cancel clears it, and Withdraw removes Carol's part. The candidate fixes the missing partner representation. under_bound remains external; no calculation from booked plus partnered was demonstrated. Replacement via Book requires freeing the occupied slot, so the suggested cancel-and-rebook route can lose reservation priority. This is a usability/policy consequence to document, not a claim that the chosen independent withdrawal is forbidden. Main 1503cddc still has the older booking rule; #137 remains open.
 
+**Independent main verification, 28 November 2026. Partly corrected; only quota calculation remains open.** Main 6fb5e03c contains both partnered/4 and clause 5 Partner. Actual Book/Withdraw/Partner/Cancel schemas pass consent, one-occupancy, partner-removal, replacement-without-release, and cancellation controls; an absent supplied under_bound fact refuses replacement. Both-party representation and loss of reservation priority on replacement are therefore corrected. The controls supply under_bound as environment state; they do not compute it from booked plus partnered. The owner's acknowledged counting/environment question remains #137. [Current evidence](villagers-controls-2026-11-28.json).
+
 ## Text, pragmas and publication: what is established and what remains
 
 | Item | Result at the versions reviewed |
@@ -445,3 +468,23 @@ The highest priorities are recipient-controlled care, accountable custody, agree
 [disputes]: https://github.com/EShapiro2/GLP/tree/a10eeee4a612f433a0e17ed3e8a517382bf863f5/calculus/contracts/Disputes
 [warnings]: https://github.com/EShapiro2/GLP/tree/a10eeee4a612f433a0e17ed3e8a517382bf863f5/calculus/contracts/Warnings
 [tennis]: https://github.com/EShapiro2/GLP/blob/a10eeee4a612f433a0e17ed3e8a517382bf863f5/calculus/contracts/Tennis-Courts/full-schemas.txt
+
+
+## Finding 9. Ads promises funded budgets and attention payments but records only flags
+
+Severity: high · [Issue 223](https://github.com/udi-shapiro/Grassroots-Audit/issues/223)  
+Owner: GO (Ads), with Villagers for the advertised service.
+
+**Where:** GLP main `6fb5e03c9a2a030eadf8532d7207a889703331e4`, `calculus/contracts/Ads/{contract.txt,logic-pragmas.txt,full-schemas.txt,term.glp.txt}`, and matching `cascade/Ads/full-schemas.txt`. The paper's Table 1 promises payment for attention; Ads:1 promises a held, locked budget and Ads:3 promises payments subject to a per-member cap.
+
+**Witness:** Post requires only membership and absence of an existing posted fact; it adds posted and budget_locked. From a state containing no coin or escrow facts, Post succeeds. Send ad and Show enable View and Click, which add only viewed and clicked respectively. No money is transferred or reserved; neither a budget amount nor personal earnings is updated. All these are the actual main schema lines, independently regenerated; the replay is a declarative projection, not a deployed-loss allegation.
+
+**Repair:** bind the advertised promise to funded currency transitions: posting reserves the stated budget; payable events transfer the rate, decrement remaining funds, and enforce per-person and total caps. Define repeat-event and unused-budget policy. Alternatively narrow the paid-service claim until those operations exist. Independent inherited payment acts do not implement an event's automatic consequence, and a syntactically grassroots certificate does not prove this prose/pragma correspondence.
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+28 November 2026: open. Actual Post/View/Click controls reproduce the witness, and the generated catalogue and cascade schemas agree. Closure: positive and negative scenarios for funding, payments, exhaustion, repeated events, personal caps and conservation, tied to the same published term/app. [New review](Villagers-review-2026-11-28.md) · [Replay](villagers-controls-2026-11-28.py) · [Results](villagers-controls-2026-11-28.json).
