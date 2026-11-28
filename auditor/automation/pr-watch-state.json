@@ -1,8 +1,31 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T05:55:00Z",
-  "active_run": null,
+  "updated_at": "2026-11-28T05:58:00Z",
+  "active_run": {
+    "run_id": "pr-watch-batch-c75400d0-ce1ac9ee",
+    "started_at": "2026-11-28T05:58:00Z",
+    "expires_at": "2026-11-28T06:28:00Z",
+    "delivery_ids": [
+      "c75400d0-eaee-11f1-95be-989c6b2f05c5",
+      "c92276e4-eaee-11f1-9550-19b970c4fb87",
+      "c9177f46-eaee-11f1-8a31-336c1587a22a",
+      "cb032558-eaee-11f1-80a1-e4ea71d5cd66",
+      "cada7aa4-eaee-11f1-8abb-aff058c07629",
+      "cc77fc42-eaee-11f1-8f9d-72d299a06cee",
+      "ccb674c2-eaee-11f1-8a21-92b12c636cfb",
+      "ce1ac9ee-eaee-11f1-855b-10550ef5049f",
+      "cdfabe56-eaee-11f1-9d94-3d3fd197baa3"
+    ],
+    "pull_request_numbers": [
+      28,
+      30,
+      141,
+      158,
+      180
+    ],
+    "purpose": "Reconcile superseded legacy PR closures"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
