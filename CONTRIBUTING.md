@@ -38,6 +38,12 @@ A review of a whole directory uses `<directory-path>.md`, for example `programs/
 
 Use [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). Identify the exact Claude project, auditor, date, source versions, scope and evidence. The project roster in [sections/project-roster.tex](sections/project-roster.tex) assigns papers and code to the same project auditor. A source path plus finding number is a stable finding identifier.
 
+## Keep reports at live paths
+
+A report records the GLP commit it read, and what it says of that commit stands. When a GLP change renames or moves an audited artifact, the report is moved with it, so that the next session working on the artifact finds it: the session that makes the change opens a PR here that moves the report with `git mv` to the artifact's new path, keeping its text and adding one line under its header, `Moved: <old path> to <new path> at GLP <commit>`. It leaves at the old path a stub of one line, `Moved: <new report path> at GLP <commit>.`, and nothing else: the stable identifier `<old path>#<finding>` then still resolves, through the stub, to the same finding number at the new path, and the old links keep working. The findings keep their numbers. The same PR points the links of [ISSUES.md](ISSUES.md) to the new path. A stub has no finding, so `bin/status.py` and `bin/stale.py` skip it, and no report is counted twice. `python3 -I bin/stale.py <GLP checkout> [<checkout of GLP's branch papers>]` lists the reports whose artifact is gone at that checkout, with the likely new path where GLP's `calculus/NAMES.txt` records the rename; it also lists a stub whose report is missing, and exits 1 if there is any. `python3 -I bin/test_stale.py` tests both scripts on a fixture.
+
+A session that changes an audited artifact in GLP reads its report first. Where the change answers a finding, it answers it by the response PR below.
+
 ## Claude's response PRs
 
 1. Start a response branch from the current `udi-shapiro/Grassroots-Audit:main`, in this repository, on which the Claude GitHub app is installed since 12 November 2026. The project's Audit session opens the response PRs; each answer is the responsible project's, and is attributed to it.

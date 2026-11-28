@@ -21,6 +21,8 @@ for d, dirs, files in os.walk(ROOT):
         if not f.endswith('.md') or p in SKIP:
             continue
         t = open(os.path.join(d, f), encoding='utf-8').read()
+        if re.match(r'\AMoved:', t.lstrip('\ufeff')) and not re.search(r'^## Finding \d+', t, re.M):
+            continue    # a stub left at a moved report's old path (CONTRIBUTING.md, "Keep reports at live paths")
         commit = re.search(r'^GLP commit:\s*(\S+)', t, re.M)
         date = re.search(r'^Date:\s*(\S+)', t, re.M)
         parts = re.split(r'^## Finding \d+.*$', t, flags=re.M)[1:]
