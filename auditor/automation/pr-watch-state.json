@@ -1,8 +1,19 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-28T06:02:51Z",
-  "active_run": null,
+  "updated_at": "2026-11-28T12:12:00Z",
+  "active_run": {
+    "run_id": "pr-watch-a37b5876-eb24-11f1-8009-2d31907ebee6",
+    "started_at": "2026-11-28T12:12:00Z",
+    "expires_at": "2026-11-28T12:42:00Z",
+    "delivery_ids": [
+      "a37b5876-eb24-11f1-8009-2d31907ebee6"
+    ],
+    "pull_request_numbers": [
+      222
+    ],
+    "purpose": "Preserve and reconcile Calculus #13 reply"
+  },
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
