@@ -1,7 +1,11 @@
 # Grassroots contracts and their relations
 
-Date: 2026-11-27
-GLP commit: 7b68b74c6388135736632957b321ae63503feaf7
+Date: 2026-11-28
+GLP commit: 6fb5e03c9a2a030eadf8532d7207a889703331e4
+
+## Review of Calculus (19), 28 November 2026
+
+The project answered the revision (18) report. Primitive heads fix its unguarded-transaction counterexample. Negative body matching is repaired in its original example. Findings 34–36 cover the new universal freshness requirement after set expansion, preservation of an initiator, and the different operational semantics in Compiling GC (4). The public 93-contract run passed. See the [new mathematical review](.review-files/Calculus_19_GSC_19_Review.md) and its [finite controls](.review-files/revision19_controls.py).
 
 ## Review of Calculus (18), 27 November 2026
 
@@ -1018,6 +1022,8 @@ Specify permitted identifications or elaborate each allowed partition into a sep
 
 Awaiting a project response.
 
+**Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/98#issuecomment-7229918638). The project will retain source names and form one full-text act per permitted equality case. It reports a 106-contract measurement in progress.
+
 ### Verification
 
 Exhibit the elaboration or amended binding rule and replay a permitted coincident-role instance.
@@ -1025,6 +1031,8 @@ Exhibit the elaboration or amended binding rule and replay a permitted coinciden
 25 November 2026, supplied Calculus (11), Definitions 3–4, p. 6. **Correction verified for this paper finding.** Definition 3 now expressly permits declared agent identifications; participants are the agents of the grounded literals, and Definition 4 combines their sets of effects and rejects a positive/negative conflict. The earlier prohibition of every identification is removed. This is not verification of every catalogue instantiation.
 
 **27 November 2026, Calculus (18). Reopened.** Definitions 5–6 now admit only assignments injective on the distinct agent variables. A two-person payment of the payer's own note is admitted by the public Notes:3 declaration and excluded by the revised rule. Compiling GC (3), Definition 1.3, retains declared coincidences. See the [comparison and proposed elaboration](.review-files/Calculus_18_GSC_19_Review.md#3-ground-roles-and-the-compilers-input-language).
+
+**28 November 2026, Calculus (19).** Section 6.3 explicitly excludes coincident roles. The approved expansion is absent from Definitions 1–2. Two-person Notes:3 still requires it. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md).
 
 ## Finding 22. The Knowledge Acquaint example permits a transaction its catalogue clause rejects
 
@@ -1261,6 +1269,8 @@ Awaiting a project response.
 
 **27 November 2026, Calculus (18).** The abstract now specifies separation by indirect as well as direct interaction. The first-interaction clauses of Definition 18 are unchanged. The three-person Knowledge trace still separates the persons theorem from unrestricted pairwise openness. The general Polite theorem and active wards remain outside proved coverage. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
 
+**28 November 2026, Calculus (19).** Definition 19 now requires mutual absence of records. The scalar Acquaint has the expected freshness. The new all-head condition creates the independent set-expansion defect in Finding 34. GSC's stronger scope remains open. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md).
+
 ## Finding 29. Time and place have no transition rule in the defined protocol
 
 Ticket: [#170](https://github.com/udi-shapiro/Grassroots-Audit/issues/170)
@@ -1298,11 +1308,15 @@ Calculus (16), §§2.2, 3.1–3.3, Definitions 5, 8 and 10. The grounding rule c
 
 Awaiting a project response.
 
+**Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/200#issuecomment-7229918864). The project approved equality-case expansion of the full text while retaining injective ground instances.
+
 ### Verification
 
 **27 November 2026.** Compared the two grounding regimes on a singleton population and checked the clause-specific permissions in the published Notes names line. Finding open.
 
 **27 November 2026, Calculus (18).** The narrower injective core no longer consults a missing permission. Translation of full source contracts still omits their declared equality cases. The report gives the two-person Notes:3 instance and a partition-based repair. [Revision review](.review-files/Calculus_18_GSC_19_Review.md)
+
+**28 November 2026, Calculus (19).** The core's grounding rule is coherent for free agent variables. The translation and inverse for the catalogue's equality cases are still pending. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md).
 
 ## Finding 31. Definition 6 needs a negative-test evaluation rule
 
@@ -1330,9 +1344,13 @@ In Calculus (18), §§3.1–3.2, a computed truth may be deleted although its at
 
 Awaiting a project response.
 
+**Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/211#issuecomment-7229918234). The project reports primitive heads, primitive stores and proper computable atoms at private revisions 02b1ba2 and c5303a7.
+
 ### Verification
 
 **27 November 2026.** Replayed the two distinct participant sets and their identical two-agent transition. The binary clause passes the syntactic change test and its recording graph is connected. [Executable checks](.review-files/revision18_controls.py)
+
+**28 November 2026, Calculus (19).** Correction verified in the supplied manuscript for ground effects. Sections 3.1–3.2 and Lemma 8 now give the required primitive-head change proof. Public manuscript verification remains pending. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md).
 
 ## Finding 33. Local quantification under negation needs a grounding rule
 
@@ -1344,6 +1362,52 @@ Calculus (18), Definition 3 binds a variable occurring only negatively inside ea
 
 Awaiting a project response.
 
+**Calculus #12, 27 November 2026, submitted by Audit #7.** See: [project answer](https://github.com/udi-shapiro/Grassroots-Audit/issues/212#issuecomment-7229918431). The project reports local existential matching, grounding of free variables, fixed holders and a ban on capture in implication augmentation.
+
 ### Verification
 
 **27 November 2026.** Evaluated the absence query, both ground negatives and the augmented body on the same finite state. Compiling GC (3), §1, uses a different range restriction. [Executable checks](.review-files/revision18_controls.py)
+
+**28 November 2026, Calculus (19).** The earlier two-tag body example and direct logic-side capture are repaired in the supplied manuscript. Negative head patterns can still retain a binder. The Formal English citation language also lacks the logic-side capture condition. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md).
+
+## Finding 34. Introduction must remain fresh after elementwise expansion
+
+Severity: high
+
+With two persons recording only themselves, an introductory head containing each role in the set argument {x,y} expands to two old and two new atoms. Definition 7 blocks the only cross-agent act, contradicting Theorem 22 under the written syntactic check. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md). [Issue #218](https://github.com/udi-shapiro/Grassroots-Audit/issues/218)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**28 November 2026.** Checked both establishments, both introductory orientations, and the scalar repair.
+
+## Finding 35. Augmentation and lifting can remove the only initiator
+
+Severity: medium
+
+Proposition 23(3),(5) preserves the listed graph conditions but its hypotheses allow the operation to leave the class of contracts required by Definition 4. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md). [Issue #219](https://github.com/udi-shapiro/Grassroots-Audit/issues/219)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**28 November 2026.** Checked an unguarded unary head-only lift and a guarded augmentation with a new value at the other holder.
+
+## Finding 36. The compiler uses different transition and class semantics
+
+Severity: high
+
+Calculus (19), Definitions 7 and 9, and Compiling GC (4), Definitions 2.4 and 2.6, disagree on reachable Knowledge behavior and on how volition classes are formed. Figure 2 needs a shared source or a proved translation. See the [revision (19) review](.review-files/Calculus_19_GSC_19_Review.md). [Issue #220](https://github.com/udi-shapiro/Grassroots-Audit/issues/220)
+
+### Answer
+
+Awaiting a project response.
+
+### Verification
+
+**28 November 2026.** Replayed the asymmetric-knowledge prefix and compared the two class equivalences on disjoint mode tests.
